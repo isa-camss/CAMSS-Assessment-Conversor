@@ -1,0 +1,686 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:1ad51ad018ea1bcd194ac49cd607367d455134bd50b621d754aec0a59eadcc1a a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:b5dbdc5464062afbee26dd0d80d88ac87acdf4c7da929603b5a470b9777f446d ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:01612e10-a3b7-4041-adc4-7ce0573bfaff,
+        camssa:0817f065-b577-497d-ae7e-0f0c24dcd15d,
+        camssa:09ae0763-1d95-4d46-a6c2-80578d6a86ca,
+        camssa:0b04c0a6-8a36-4720-a68d-55fa8890e663,
+        camssa:0b782c35-bc2b-4643-a2de-f38d0d8d7763,
+        camssa:170aafae-8860-411e-b6ff-ac689113bc2c,
+        camssa:188849a4-1499-4933-a501-1a05b44f60c0,
+        camssa:23302371-3509-41e5-97e9-4f1ced122b24,
+        camssa:24b7ec41-e7de-43a8-9c7a-82c67e81efba,
+        camssa:294e88f4-a9bb-42ae-ae6f-0e9b64ed5f53,
+        camssa:2d27c033-269d-4396-9fd6-ad8b4c7aa261,
+        camssa:37d65b2f-9bee-412d-8341-80c3b917f47e,
+        camssa:392f5538-8d0d-4e91-95a0-8e5f8573d0c5,
+        camssa:3a2789a1-d1c6-4d41-a73e-b10ad8ee95fe,
+        camssa:49555dcb-11ba-45b7-8f85-d2864229798d,
+        camssa:4fd470b6-643b-404b-a4ad-24757f98d173,
+        camssa:50288255-48aa-4fd6-b044-89427c2b8ca5,
+        camssa:56027e16-743a-4ca9-83b0-06ac6fbdaee8,
+        camssa:5936bb21-0906-408e-b0ed-d128d9096eee,
+        camssa:5a28ae57-9212-4cc3-9c37-362ba032f232,
+        camssa:67fe9bb5-dbc9-4976-bd61-15ba9a0c05ca,
+        camssa:69159ada-737e-4c16-b1b7-9f3676f63c0c,
+        camssa:714e5872-bb4a-4c93-a3a5-0c79ea709651,
+        camssa:74fb1625-6a80-4a49-9eae-ce697df66c52,
+        camssa:7593ae44-2e97-4559-8743-e44a7cabfb50,
+        camssa:7a374ee2-f26f-43b5-943a-088aa1c9e1e2,
+        camssa:82c24cdb-c44a-434f-ab0b-887083c1c29c,
+        camssa:83ab757d-3406-4a1e-af4a-dd8338e60fde,
+        camssa:8e357d94-efe8-4733-a9c5-ce9dc07d008c,
+        camssa:90287450-dfff-414d-9767-97b88cd726a0,
+        camssa:90377e2d-f5c0-4ace-af5d-36db89476149,
+        camssa:90d9f6bd-ecb5-4fb3-af13-63d69cb68783,
+        camssa:952d4cd8-d7be-458d-9ae8-176b3d7c73a6,
+        camssa:a8ad2f6e-f08d-4515-8269-9442e805c88d,
+        camssa:a9c64b70-15b0-4cef-beb9-29fc0bd29e62,
+        camssa:adfe2576-8e08-44c0-a7f8-67effe4417a8,
+        camssa:bdf840c9-759a-4b38-af88-d7d1693269fb,
+        camssa:bf311e7f-8128-42ea-950e-708659ee6970,
+        camssa:d2734bf1-a9d1-424e-aafc-4e5c1d9019ef,
+        camssa:d8e34ff8-eeaa-437c-b85d-2a32380f8929,
+        camssa:ee00e762-c870-4f3c-b319-7902955a4fd3,
+        camssa:f0433053-cec9-48d5-be1b-8bbe20c7693a,
+        camssa:f2f956b4-343d-41f6-885d-22550ae89f56,
+        camssa:f320ac0f-3042-4a22-8cfc-2735cc04f83c ;
+    cav:status status:Complete ;
+    dct:title "HTTP State Management Mechanism (HTTP Cookies)"@en .
+
+camssa:71b734d93eea13de404910eb634943e6bc28f69d27f2f63bcbdf62230a832bb3 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:1eec0cd6-9ecb-4cb3-ae63-433698c1c9f1 ;
+    skos:prefLabel "CAMSS Team European Commission DG DIGIT"@en .
+
+camssa:01612e10-a3b7-4041-adc4-7ce0573bfaff a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of HTTP Cookies is other than enabling the e-accessibility, therefore this criterion is not applicable to this specification.
+
+HTTP Cookies reference:
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#tracking_and_privacy'"""@en ;
+    cav:refersTo camssa:6c51a63f-0421-4978-81aa-b8eff4763e3c .
+
+camssa:0817f065-b577-497d-ae7e-0f0c24dcd15d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no evidence found of the creation of any community along with the sharing of their data and results on European platforms.  Therefore this criterion is not applicable to this specification.
+
+HTTP Cookies reference:
+https://datatracker.ietf.org/doc/html/rfc6265#section-1'"""@en ;
+    cav:refersTo camssa:23f5514c-ac5d-4e62-a027-2b578f09b2d4 .
+
+camssa:088622fa-b352-4313-aef4-728816d69c9b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:09ae0763-1d95-4d46-a6c2-80578d6a86ca a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of HTTP Cookies within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::
+
+CENELEC and CEN website:
+https://www.cencenelec.eu/'"""@en ;
+    cav:refersTo camssa:e13c8bff-78c8-4975-8e90-60e70e17b6d4 .
+
+camssa:0b04c0a6-8a36-4720-a68d-55fa8890e663 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are many communities that share their data and results of their implementations of HTTP Cookies. Some examples of such communities can be found in the following links.
+
+Stack overflow forum:
+https://stackoverflow.com/questions/12373738/how-do-i-set-a-cookie-on-httpclients-httprequestmessage
+
+Microsoft community:
+https://powerusers.microsoft.com/t5/General-Power-Automate/Passing-Cookies-Between-HTTP-Actions/td-p/69761'"""@en ;
+    cav:refersTo camssa:505fdd4d-e765-4f9f-89d1-c0f5103493b6 .
+
+camssa:0b782c35-bc2b-4643-a2de-f38d0d8d7763 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'HTTP cookies is the most widely used standard protocol serving essential functions on the web such as storing stateful information on the user's device or tracking the user's browsing activity. For example, the Google Analytics JavaScript libraries use HTTP cookies to "remember" what a user has done on previous pages and interactions with the website.
+
+HTTP Cookies reference:
+https://datatracker.ietf.org/doc/html/rfc6265
+
+Google Analytics reference:
+https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es#analyticsjs'"""@en ;
+    cav:refersTo camssa:82b0ff27-e002-4bd8-a9e6-640d5d302708 .
+
+camssa:0cf397c9-e54d-4a56-801a-8ced26ff9149 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "20"^^xsd:int .
+
+camssa:170aafae-8860-411e-b6ff-ac689113bc2c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Tracking cookies, and especially third-party tracking cookies, are commonly used as ways to compile long-term records of individuals' browsing histories, a potential privacy concern that prompted European lawmakers to take action in 2011. For that concern legislation or regulations that cover the use of HTTP Cookies in the EU include The General Data Privacy Regulation (GDPR) and the ePrivacy Directive. With a global reach, these regulations apply to any site on the World Wide Web accessed by users under these jurisdictions.  
+
+HTTP Cookies reference:
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#creating_cookies
+
+GDPR reference:
+https://gdpr-info.eu/
+
+ePrivacy Directive:
+https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:2002L0058:20091219:EN:PDF
+\""""@en ;
+    cav:refersTo camssa:6656d186-b11c-48cb-af34-375c4da74e96 .
+
+camssa:188849a4-1499-4933-a501-1a05b44f60c0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:e3ae612d-58b7-4ec4-b85f-6f4db6d941a1 .
+
+camssa:1e18692d-a10c-45ae-b40d-dcb2b711242e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "60"^^xsd:int .
+
+camssa:1eec0cd6-9ecb-4cb3-ae63-433698c1c9f1 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@eu.europa.eu" .
+
+camssa:23302371-3509-41e5-97e9-4f1ced122b24 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are many online guidelines to assess the conformance of the HTTP Cookies implementation. Furthermore, there are also companies that offer services related to the assessment of HTTP Cookies in order to find vulnerabilities associated with personal data processing and assess the compliance against EU legislation. Nonetheless, no tools or platforms have been found that allow testing of implementations. 
+
+HTTP Cookies IETF guide:
+https://datatracker.ietf.org/doc/html/rfc6265#section-4
+
+HTTP Cookies testing tutorial:
+https://www.guru99.com/cookie-testing-tutorial-with-sample-test-cases.html
+'"""@en ;
+    cav:refersTo camssa:1e18692d-a10c-45ae-b40d-dcb2b711242e .
+
+camssa:23f5514c-ac5d-4e62-a027-2b578f09b2d4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2487c31a-f887-4008-a542-13d769ccea1c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:24b7ec41-e7de-43a8-9c7a-82c67e81efba a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'No evidences have been found of existing studies or documentation assessing HTTP Cookies in terms of effectiveness to justify this criterion.
+
+HTTP Cookies reference:
+https://datatracker.ietf.org/doc/html/rfc6265#section-1'"""@en ;
+    cav:refersTo camssa:ee2b18c6-13a0-470b-b261-5ee36ec34e6c .
+
+camssa:276da30e-dcc1-4e99-887a-dc47f36eacb4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:294e88f4-a9bb-42ae-ae6f-0e9b64ed5f53 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State that includes HTTP Cookies in their national catalogue with The National Interoperability Framework (NIF) in alignment with the three categories 1. Conceptual model for integrated public services provision, 2. interoperability layers, and 3. interoperability principles.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:088622fa-b352-4313-aef4-728816d69c9b .
+
+camssa:2d27c033-269d-4396-9fd6-ad8b4c7aa261 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'No evidences have been found of existing studies or documentation assessing HTTP Cookies in terms of efficiency to justify this criterion.
+
+HTTP Cookies reference:
+https://datatracker.ietf.org/doc/html/rfc6265#section-1'"""@en ;
+    cav:refersTo camssa:b620a94f-4077-4e17-a95f-547a72eca8a4 .
+
+camssa:2df58dcc-dbeb-4801-929b-d2c4f61738b3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:300c8844-604d-472a-9ee8-cdebfc7b3a7d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "None"^^xsd:int .
+
+camssa:37d65b2f-9bee-412d-8341-80c3b917f47e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The purpose of HTTP Cookies is to enable web servers to store stateful information on the user's device or to track the user's browsing activity on a given website. Therefore this criterion is not apicable to this specification.
+
+HTTP Cookies reference:
+https://datatracker.ietf.org/doc/html/rfc6265\""""@en ;
+    cav:refersTo camssa:92ee12c3-adfd-469f-abe6-d54cf749bc66 .
+
+camssa:392f5538-8d0d-4e91-95a0-8e5f8573d0c5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:300c8844-604d-472a-9ee8-cdebfc7b3a7d .
+
+camssa:3a2789a1-d1c6-4d41-a73e-b10ad8ee95fe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:a78ebd7a-d013-4927-8356-014c549ef389 .
+
+camssa:3f8c7f49-4768-4d4c-892a-4044dc302d86 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:3ff2d292-9d7c-40c7-95af-e761b12ee60d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:49555dcb-11ba-45b7-8f85-d2864229798d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of HTTP Cookies is not related to the modelling of business processes.  Therefore this criterion is not applicable to this specification.
+
+HTTP Cookies reference:
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#creating_cookie'"""@en ;
+    cav:refersTo camssa:f2d0b9a1-947d-405d-9e20-275b2e25e57d .
+
+camssa:4fd470b6-643b-404b-a4ad-24757f98d173 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of HTTP Cookies is not related to the delivery of multilingual European public services. Therefore this criterion is considered not applicable to this specification.
+
+
+HTTP Cookies reference:
+https://datatracker.ietf.org/doc/html/rfc6265#section-1'"""@en ;
+    cav:refersTo camssa:cbef2af9-161a-4177-87bd-fe48308ac0a2 .
+
+camssa:50117d24-058c-47cb-93e6-c777874baea4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:50288255-48aa-4fd6-b044-89427c2b8ca5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"HTTP Cookies allow for partial implementations depending on the needs and requirements of the webpage on which it is implemented. For example, a developer can manage the user's session and not make use of the web tracking functionality.
+
+HTTP Cookies reference:
+https://datatracker.ietf.org/doc/html/rfc6265#section-5.2\""""@en ;
+    cav:refersTo camssa:276da30e-dcc1-4e99-887a-dc47f36eacb4 .
+
+camssa:505fdd4d-e765-4f9f-89d1-c0f5103493b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:50b3dddd-6646-4ea9-b9c8-951b968abfa1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:56027e16-743a-4ca9-83b0-06ac6fbdaee8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"No evidence has been found that HTTP Cookies is recommended by any European Member State's Catalogue.
+
+
+HTTP Cookies reference: 
+https://datatracker.ietf.org/doc/html/rfc6265#section-1\""""@en ;
+    cav:refersTo camssa:3f8c7f49-4768-4d4c-892a-4044dc302d86 .
+
+camssa:58e5c82c-a487-4cfb-8a9c-c6c9f040d9bc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5936bb21-0906-408e-b0ed-d128d9096eee a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'HTTP Cookies provides a way of addressing the secure exchange of data by adding the "httpOnly" attribute to prevent access to Cookies via JavaScript, or by setting the "SameSite" attribute to "strict" when it is necessary to authenticate sensitive information from the user. In browsers that support SameSite, this ensures that the authentication cookie isn't sent with cross-site requests.
+
+HTTP Cookies security reference:
+https://datatracker.ietf.org/doc/html/rfc6265#section-8'"""@en ;
+    cav:refersTo camssa:bffbbc40-c357-48bc-bd0f-e9c07528a0de .
+
+camssa:5a28ae57-9212-4cc3-9c37-362ba032f232 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'HTTP Cookies is a business domain agnostic specification that can be reused in a cross-domain way.
+
+HTTP Cookies: 
+https://datatracker.ietf.org/doc/html/rfc6265'"""@en ;
+    cav:refersTo camssa:50117d24-058c-47cb-93e6-c777874baea4 .
+
+camssa:645220a2-d359-49c8-848b-51014a9623ef a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:6656d186-b11c-48cb-af34-375c4da74e96 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:67d50068-25a5-47c5-a1cc-ef65a835248c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "60"^^xsd:int .
+
+camssa:67fe9bb5-dbc9-4976-bd61-15ba9a0c05ca a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the assessments performed by CAMSS, no assessment verifying the compliance of the specification with the European standardisation regulation (Regulation 1025/2012 on European Standardisation) has been found. Therefore HTTP Cookies is not a European Standard. 
+
+ICT technical specifications:
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:0cf397c9-e54d-4a56-801a-8ced26ff9149 .
+
+camssa:69159ada-737e-4c16-b1b7-9f3676f63c0c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"When it comes to logging into website, HTTP Cookies can reuse the client information by means of granting him access to the website's services. The stateful nature of HTTP Cookies, therefore, makes it a tool to store and reuse information.  
+
+HTTP Cookies reference:
+https://datatracker.ietf.org/doc/html/rfc6265#section-5
+\""""@en ;
+    cav:refersTo camssa:e8e53499-6a0b-4a99-9690-e8b82922971c .
+
+camssa:6c51a63f-0421-4978-81aa-b8eff4763e3c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:714e5872-bb4a-4c93-a3a5-0c79ea709651 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After searching in the different official European websites and repositories, there is no evidence that HTTP Cookies is included in an open repository/catalogue of standards at a national level.
+
+HTTP Cookies reference: 
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#creating_cookies'"""@en ;
+    cav:refersTo camssa:8c916fd2-496b-49aa-9f55-cefd63d51fa6 .
+
+camssa:74fb1625-6a80-4a49-9eae-ce697df66c52 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Like all the IETF standards, HTTP Cookies is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. HTTPS is therefore available with any restrictions related to (F)RAND.  
+
+HTTP Cookies reference:
+https://datatracker.ietf.org/doc/html/rfc6265'"""@en ;
+    cav:refersTo camssa:c937b3f3-3884-403e-9a82-8736f0b02387 .
+
+camssa:7593ae44-2e97-4559-8743-e44a7cabfb50 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The main purpose of HTTP Cookies is to track and store user's data on the webpage.  Nonetheless, in some way, it contributes to the comprehensibility of administrative services by remembering client's information and therefore, providing a better operational website that can be adapted to the user's preferences. 
+
+HTTP Cookies reference:
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#creating_cookies\""""@en ;
+    cav:refersTo camssa:f01dfdd9-7d1a-468a-9376-e1a72fd78d37 .
+
+camssa:7a374ee2-f26f-43b5-943a-088aa1c9e1e2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'HTTP Cookies can only be implemented within an HTTP communication protocol.  Therefore, this specification is not technology-agnostic.
+
+IETF HTTP Cookies:
+https://datatracker.ietf.org/doc/html/rfc6265'"""@en ;
+    cav:refersTo camssa:873dbe53-4ad2-4467-b726-9458fd63c767 .
+
+camssa:82b0ff27-e002-4bd8-a9e6-640d5d302708 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:82c24cdb-c44a-434f-ab0b-887083c1c29c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'HTTP Cookies is a business domain agnostic specification that can be implemented in a cross-domain way.
+
+HTTP Cookies: 
+https://datatracker.ietf.org/doc/html/rfc6265'"""@en ;
+    cav:refersTo camssa:50b3dddd-6646-4ea9-b9c8-951b968abfa1 .
+
+camssa:83ab757d-3406-4a1e-af4a-dd8338e60fde a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'HTTP Cookies provides a way of addressing the secure and trustworthy processing of data by adding the "httpOnly" attribute to prevent access to Cookies via JavaScript, or by setting the "SameSite" attribute to "strict" when it is necessary to authenticate sensitive information from the user. In browsers that support SameSite, this ensures that the authentication cookie isn't sent with cross-site requests.
+
+HTTP Cookies security reference:
+https://datatracker.ietf.org/doc/html/rfc6265#section-8'"""@en ;
+    cav:refersTo camssa:bfa096e3-aa02-4015-886d-2706ebff84b6 .
+
+camssa:873dbe53-4ad2-4467-b726-9458fd63c767 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:int .
+
+camssa:8c916fd2-496b-49aa-9f55-cefd63d51fa6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:8e357d94-efe8-4733-a9c5-ce9dc07d008c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"HTTP Cookies provides a way to define the lifetime of a Cookie. A permanent cookie expires at a specific date or after a specific length of time. For the permanent cookie's lifespan set by its creator, its information will be transmitted to the server every time the user visits the website that it belongs to, or every time the user views a resource belonging to that website from another website. Nonetheless, permanent Cookies have always an expiry date, addressing the long-term preservation of data in a limited manner.
+
+HTTP Cookies lifetine reference:
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#define_the_lifetime_of_a_cookie\""""@en ;
+    cav:refersTo camssa:67d50068-25a5-47c5-a1cc-ef65a835248c .
+
+camssa:8ef3ca3b-0dce-4232-a0c8-bc6326eab8fd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:90287450-dfff-414d-9767-97b88cd726a0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'HTTP Cookies can be customised by changing the attributes that define, for example, the lifetime of a Cookie, or by adding the "secure" attribute, which is meant to keep cookie communication limited to encrypted transmission. 
+
+HTTP Cookies reference:
+https://datatracker.ietf.org/doc/html/rfc6265#section-5.2'"""@en ;
+    cav:refersTo camssa:645220a2-d359-49c8-848b-51014a9623ef .
+
+camssa:90377e2d-f5c0-4ace-af5d-36db89476149 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Most of the public administration services use HTTP Cookies to measure site traffic in order to improve its operation and administration and, with the user's consent, to evaluate the performance of government information campaigns and improve user experience, therefore, we can say that HTTP Cookies enables the exposure of interfaces. 
+
+French government website: 
+https://www.gouvernement.fr/en/coming-to-france
+
+HTTP Cookies reference:
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#creating_cookies\""""@en ;
+    cav:refersTo camssa:f37e6f55-52ef-4a50-a7ca-9a0aa67e7851 .
+
+camssa:90d9f6bd-ecb5-4fb3-af13-63d69cb68783 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"HTTP Cookies is the most widely-used tool to enable web servers to store stateful information on the user's device or to track the user's browsing activity. They can also be used to save for subsequent use information that the user previously entered into form fields, such as names addresses and passwords. Therefore, HTTP Cookies help simplify the delivery of European Public services by rendering their websites operational and gather (anonymised) analytics data abut user behaviour.
+
+HTTP Cookies reference:
+https://datatracker.ietf.org/doc/html/rfc6265#section-1
+
+European Commission cookies policy:
+https://ec.europa.eu/info/cookies_en\""""@en ;
+    cav:refersTo camssa:dbe8bfc8-f8ff-4e20-b80a-5d4f0ea0d0b7 .
+
+camssa:92ee12c3-adfd-469f-abe6-d54cf749bc66 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:952d4cd8-d7be-458d-9ae8-176b3d7c73a6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"HTTP Cookies is the most widely used standard protocol serving essential functions on the web such as storing stateful information on the user's device or tracking the user's browsing activity. The first version of HTTP Cookies was released on 1997, oundergoing several improvements until the last version from 2011. Therefore, we can say that HTTP Cookies is sufficiently mature for the development of products and services.
+
+
+HTTP Cookies reference:
+https://datatracker.ietf.org/doc/html/rfc6265
+
+HTTP Cookies first release:
+https://datatracker.ietf.org/doc/html/rfc2109
+
+Google Analytics reference:
+https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es#analyticsjs
+\""""@en ;
+    cav:refersTo camssa:2487c31a-f887-4008-a542-13d769ccea1c .
+
+camssa:a3c5633d-3b9e-43a7-a88b-7847bc2a98d5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "20"^^xsd:int .
+
+camssa:a78ebd7a-d013-4927-8356-014c549ef389 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a8ad2f6e-f08d-4515-8269-9442e805c88d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"HTTP Cookies enable web servers to store stateful information on the user's device or to track the user's browsing activity. They can also be used to save for subsequent use information that the user previously entered into form fields, such as names, addresses, passwords, and payment card numbers. Therefore, HTTP Cookies can facilitate data portability having a positive impact in interoperability.
+
+
+HTTP Cookies reference:
+https://datatracker.ietf.org/doc/html/rfc6265#section-5\""""@en ;
+    cav:refersTo camssa:afc0e978-dba9-478d-a256-eac9687c6e0c .
+
+camssa:a9c64b70-15b0-4cef-beb9-29fc0bd29e62 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:58e5c82c-a487-4cfb-8a9c-c6c9f040d9bc .
+
+camssa:aca459af-c5a2-4086-8dc4-e49d4fa61867 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "20"^^xsd:int .
+
+camssa:adfe2576-8e08-44c0-a7f8-67effe4417a8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"HTTP Cookies enable web servers to store stateful information on the user's device or to track the user's browsing activity. They can also be used to save for subsequent use information that the user previously entered into form fields, such as names, addresses, passwords, and payment card numbers. Therefore, HTTP Cookies can facilitate data portability having a positive impact in interoperability.
+
+
+HTTP Cookies reference:
+https://datatracker.ietf.org/doc/html/rfc6265#section-5.2
+\""""@en ;
+    cav:refersTo camssa:2df58dcc-dbeb-4801-929b-d2c4f61738b3 .
+
+camssa:afc0e978-dba9-478d-a256-eac9687c6e0c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b620a94f-4077-4e17-a95f-547a72eca8a4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:b92f6682-1d97-4661-97d7-bc03efa67567 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:bdf840c9-759a-4b38-af88-d7d1693269fb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'One of the main uses of HTTP Cookies is to authenticate when a user is logged in, and with which account they are logged in. Without the cookie, users would need to authenticate themselves by logging in on each page containing sensitive information that they wish to access. Cookies can also be used to save for subsequent use information that the user previously entered into form fields, such as names addresses and passwords. For that matter, this specification helps enabling digital service delivery channels.
+
+HTTP Cookies reference:
+https://datatracker.ietf.org/doc/html/rfc6265#section-1'"""@en ;
+    cav:refersTo camssa:3ff2d292-9d7c-40c7-95af-e761b12ee60d .
+
+camssa:bf311e7f-8128-42ea-950e-708659ee6970 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of HTTP Cookies is not related to organisational interoperability.  Therefore this criterion is not applicable to this specification.
+
+HTTP Cookies reference:
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#creating_cookie'"""@en ;
+    cav:refersTo camssa:ec72a577-06db-4f87-9981-7196b92233f2 .
+
+camssa:bfa096e3-aa02-4015-886d-2706ebff84b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:bffbbc40-c357-48bc-bd0f-e9c07528a0de a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c337d220-e571-4479-8470-16f5d2e6ab98 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "60"^^xsd:int .
+
+camssa:c937b3f3-3884-403e-9a82-8736f0b02387 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cbef2af9-161a-4177-87bd-fe48308ac0a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d2734bf1-a9d1-424e-aafc-4e5c1d9019ef a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'HTTP Cookies is based on a set of syntax rules that define all the requirements met to provide the functionality. There are no extensions that can be added on top of the main functionalities HTTP Cookies is designed for.
+
+IEFT  Request for comments:
+https://datatracker.ietf.org/doc/html/rfc6265#section-4
+
+HTTP Cookies reference:
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#creating_cookies'"""@en ;
+    cav:refersTo camssa:aca459af-c5a2-4086-8dc4-e49d4fa61867 .
+
+camssa:d8e34ff8-eeaa-437c-b85d-2a32380f8929 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Any cross-border project using internet, uses HTTP Cookies. An interesting example is Europeana, a project that aims to provide digital access to European cultural heritage material. Europeana uses HTTP Cookies to imporve the experience on the website, keeping the user signed in, and remembering navigation preferences.
+
+Europeana Cookies policy:
+https://www.europeana.eu/en/rights/cookies-policy'"""@en ;
+    cav:refersTo camssa:8ef3ca3b-0dce-4232-a0c8-bc6326eab8fd .
+
+camssa:dbe8bfc8-f8ff-4e20-b80a-5d4f0ea0d0b7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e13c8bff-78c8-4975-8e90-60e70e17b6d4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:e3ae612d-58b7-4ec4-b85f-6f4db6d941a1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:e8e53499-6a0b-4a99-9690-e8b82922971c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ec72a577-06db-4f87-9981-7196b92233f2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ee00e762-c870-4f3c-b319-7902955a4fd3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'HTTP Cookies can only be implemented within an HTTP communication protocol.  Therefore, this specification is not platform-agnostic.
+
+IETF HTTP Cookies:
+https://datatracker.ietf.org/doc/html/rfc6265'"""@en ;
+    cav:refersTo camssa:a3c5633d-3b9e-43a7-a88b-7847bc2a98d5 .
+
+camssa:ee2b18c6-13a0-470b-b261-5ee36ec34e6c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:f01dfdd9-7d1a-468a-9376-e1a72fd78d37 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "60"^^xsd:int .
+
+camssa:f0433053-cec9-48d5-be1b-8bbe20c7693a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """' HTTPS cookies is maintained and developed by IETF which is an international community developing open standards.
+
+HTTPS cookies reference:
+https://datatracker.ietf.org/doc/html/rfc6265'"""@en ;
+    cav:refersTo camssa:fb5d4cd3-7eff-42aa-aef4-51f3665f3641 .
+
+camssa:f2d0b9a1-947d-405d-9e20-275b2e25e57d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f2f956b4-343d-41f6-885d-22550ae89f56 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The main purpose of HTTP Cookies is to track and store user's data on the webpage, and to use this data to remember the user's preferences (such as language, name, etc) for a certain period of time, so that you don't have to re-enter them when browsing around the site during the same visit. For that matter, HTTP Cookies, to some degree, enables the visibility of administrative procedures, rules data, and services.
+
+HTTP Cookies reference:
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#creating_cookies\""""@en ;
+    cav:refersTo camssa:c337d220-e571-4479-8470-16f5d2e6ab98 .
+
+camssa:f320ac0f-3042-4a22-8cfc-2735cc04f83c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """' The HTTP Cookies can be found in the EIRA Library of Interoperability Specifications (ELIS), more specifically mapped to the Human Interface ABB in the Technical Application view. 
+
+ELIS referenece:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:b92f6682-1d97-4661-97d7-bc03efa67567 .
+
+camssa:f37e6f55-52ef-4a50-a7ca-9a0aa67e7851 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:fb5d4cd3-7eff-42aa-aef4-51f3665f3641 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+

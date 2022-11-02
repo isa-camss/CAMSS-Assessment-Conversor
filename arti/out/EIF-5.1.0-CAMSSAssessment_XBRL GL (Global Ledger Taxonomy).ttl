@@ -1,0 +1,773 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:ce42a35899604f9d542773a5cf82e5230597169d8928f05bcdb2835ac514e088 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:e6cf09d1-f0d9-4b77-8a4e-bc7dabd81a9c ;
+    skos:prefLabel "Jääsaari Finnish Tax Administration"@en .
+
+camssa:ecd7b31500b3575985645987cae63917d33c1f0c6fac038c2f97c31f1ba64c8f a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:90b892f316000b3f7e9c96ff2c0cb7bd8a2e5da58051db814f8471f3e64e4f42 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:028263e8-f0c1-48d0-9468-bebd89104360,
+        camssa:07240a8e-9270-4428-8df4-4938f923bc24,
+        camssa:08174622-d35f-40fe-b7d9-bd9fb1b6176c,
+        camssa:084474c8-f8da-44bd-ace6-24a7741bc930,
+        camssa:104669a4-d808-4614-bcc5-9220fa912062,
+        camssa:1e18d540-f470-4d29-bd54-18eb40e92fce,
+        camssa:262944b2-39ee-4711-85ea-a9a2c77dca65,
+        camssa:490ad382-64ff-4fe2-8d87-61b86ffd61a4,
+        camssa:4d609c95-778a-448b-a554-0288fca6c80a,
+        camssa:5695e185-38c0-43b6-b168-a7f1b5c8a566,
+        camssa:61f14155-4c6c-440e-bee9-fad876bdeaf7,
+        camssa:623e28ac-2845-487f-813d-aab55dca9afe,
+        camssa:6da9f1a3-618a-4457-b669-db106baa8dd6,
+        camssa:70df58c2-4383-4212-b2e6-00a2d81c9d2d,
+        camssa:74902c92-d2a1-4165-88fd-ee5a3ade410e,
+        camssa:74a573f8-177f-4582-ba77-2616d09bb389,
+        camssa:7605b0d6-dc1d-4cfe-a9de-0ec5ef6ac3dc,
+        camssa:852d266d-3e6d-4fbc-adff-d3dfd2c1d31a,
+        camssa:88a30e58-9989-4d31-a44c-96e0f962b406,
+        camssa:89361df4-e3da-4c52-91f4-916c9d6f16c3,
+        camssa:930dcc24-1256-43b7-984d-352446455d58,
+        camssa:932a018e-8992-45fe-96c0-b8d1560872e0,
+        camssa:96b221f3-9545-4603-9eb5-56c900f38253,
+        camssa:9a96bb53-d26b-4ff8-910f-33db0e24af51,
+        camssa:a02ab4e1-c2f2-448c-8445-b52e647951f7,
+        camssa:a40df87a-5b49-4a02-a8fe-c52d1f96850c,
+        camssa:b5a43c08-91bf-4b62-9cb4-707a88648499,
+        camssa:ba469957-4406-4e07-91b8-c2c98b05aa70,
+        camssa:bb84742c-dea4-4659-91bb-92878a4da149,
+        camssa:c266e61d-9dd4-441d-8588-e95dd0c9bcae,
+        camssa:c79c7626-3c6a-4e07-b73b-7b3cfd97fb1a,
+        camssa:c7ef87f4-b725-4a48-a236-02f710ab1a45,
+        camssa:c992d706-f3b6-4443-9028-e0d0f6ffed74,
+        camssa:c9d252cc-a1c2-4b3f-9e39-60dd3475aadd,
+        camssa:d1d4fc9d-512f-4f6c-9e73-24d68fbd1564,
+        camssa:d1d7dc10-eb0a-43ab-9651-9867b803a879,
+        camssa:dc0cc66f-f1e5-448e-af37-63d495b0fa62,
+        camssa:dd1aea2a-437a-45a7-b22b-50d3887f01f8,
+        camssa:e10ff7bb-e59e-4fa4-86b1-0fddfa8a2b17,
+        camssa:e594e906-2f8b-4234-a335-9507cd20b44f,
+        camssa:f5e7227c-1d0e-4046-9e69-bb9f63ac9be6,
+        camssa:fabf9dbb-5a28-4916-9356-d07af17f5ceb,
+        camssa:fb0d9f54-095c-46f6-a03f-704f98ff3faf,
+        camssa:fbbbd558-847d-48ff-a6a8-39da2bf4b40d ;
+    cav:status status:Complete ;
+    dct:title "XBRL GL (Global Ledger Taxonomy)"@en .
+
+camssa:0209c30d-5b64-4513-96f9-d3e1106796fd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:028263e8-f0c1-48d0-9468-bebd89104360 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'With the goal of facilitating a seamless audit trail, XBRL GL is designed to provide an unambiguous linkage
+from underlying events and activities to reporting information and can therefore be used as necessary to
+increase visibility and provide greater comfort in the trustworthiness of underlying content. The XBRL
+specification itself is uniquely designed to provide definitions, descriptions and linkages to regulation,
+practice and guidance for reported data. XBRL GL Profiles, XBRL Formula, and other rules communication
+languages, such as ISO Schematron (as leveraged by Turkey) provides a means for those responsible for
+communicating procedures and requirements in a standardized manner, facilitating “data quality at the front
+door”.
+
+https://specifications.xbrl.org/specifications.html
+
+https://www.edefter.gov.tr/edeftermevzuat.html'"""@en ;
+    cav:refersTo camssa:48683218-8234-4727-a363-1a9bbdc76279 .
+
+camssa:07240a8e-9270-4428-8df4-4938f923bc24 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are pilot assessments made in Finland, Nordic countries and Estonia. However these are not official
+assessments endorsed by XBRL International Inc.
+
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/2021/03/22/eInvoicing+helping+standardise+transactional+data+in+Estonia
+
+https://www.oecd.org/tax/forum-on-tax-administration/publications-and-products/45045602.pdf : " In their implementation strategy for SAF-T, revenue bodies should consider data formats that
+permit audit automation today while minimising potential costs to all stakeholders when moving to new
+global open standards for business and financial data such as XBRL, and XBRL- GL in particular. " page 10
+
+https://www2.deloitte.com/content/dam/Deloitte/in/Documents/risk/in-risk-xbrl-the-new-world-of-reporting-noexp.pdf
+'"""@en ;
+    cav:refersTo camssa:6dc17b4c-3eff-4dd7-9e7c-ab9156c2a424 .
+
+camssa:08174622-d35f-40fe-b7d9-bd9fb1b6176c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "'The specification promotes visibility to business data and harmonizes the data contents thus enabling better usability for the data.'"@en ;
+    cav:refersTo camssa:e212b6c7-e65e-4890-bd8e-1af2fbc7544a .
+
+camssa:084474c8-f8da-44bd-ace6-24a7741bc930 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'XBRL international supports the above by national and international communities to further develop and
+support the implementation of the specification.
+
+https://www.xbrl.org/tag/xbrl-europe/
+https://www.xbrl.org/the-consortium/
+'"""@en ;
+    cav:refersTo camssa:efae49e1-ab72-4885-84d3-d6972d50ca35 .
+
+camssa:087ec3eb-198d-43a5-8149-25c719a1d96d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "40"^^xsd:int .
+
+camssa:104669a4-d808-4614-bcc5-9220fa912062 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification can support the semantic layer by offering a taxonomy for business data on transactional
+level.
+
+EIRA Library of Interoperability Specifications (ELIS), these semantic layer would comprise the following ABBs:
+
+Semantic View:
+Representation
+Applicable Profile
+
+Technical View:
+Data Transformation Component
+Data Transformation Service'"""@en ;
+    cav:refersTo camssa:e2fdc32f-f151-4cfd-8c85-159f29921aa4 .
+
+camssa:143ab336-1329-41ab-9361-457db41d064b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "40"^^xsd:int .
+
+camssa:1e18d540-f470-4d29-bd54-18eb40e92fce a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification supports data exchange and business processes among partners. The specification is
+easy to implement into standard business processes.
+
+https://www.xbrl.org/int/gl/2016-12-01/gl-framework-2017-PWD-2016-12-01.html
+
+https://www.dropbox.com/sh/b5i8ehpnzzymowl/AACpTH-mWRwOFGIQkUYDbWoWa/29.10.2021%20Presentations?dl=0&preview=005_TietoEVRY_Symposium_29.10.2021.pdf&subfolder_nav_tracking=1
+
+'"""@en ;
+    cav:refersTo camssa:438c7674-cc40-4f34-baa8-56fa0607ad7f .
+
+camssa:262944b2-39ee-4711-85ea-a9a2c77dca65 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification has a validation schema to test conformance. Also automated check rules can be
+implemented.
+
+https://www.xbrl.org/int/gl/2016-12-01/gl-framework-2017-PWD-2016-12-01.html'"""@en ;
+    cav:refersTo camssa:eec9a4de-de83-4cea-8d19-cb34b2236a00 .
+
+camssa:27b23d91-0e58-4bf7-b9e3-23d4b5828133 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "60"^^xsd:int .
+
+camssa:27f164c1-7357-4c89-8c35-9f19ab8a7678 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2e6f1f22-4209-472f-80a9-91d1cd2a2468 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:368760f3-b597-46e1-9cad-33571e3baba9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3eac42c0-f6e7-4222-a9ca-0a30ea119ce5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:438c7674-cc40-4f34-baa8-56fa0607ad7f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:48683218-8234-4727-a363-1a9bbdc76279 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:490ad382-64ff-4fe2-8d87-61b86ffd61a4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'XBRL GL is machine readable data and as a interface format and does not require special software. XBRL is
+based on XML which is under the W3C.
+XBRL GL has the semantic information of XBRL GL, which can be used to drive Linked Data. The
+specification includes URI references extensively.
+While the primary representation of XBRL GL is with the syntax of XBRL, the semantic is reusable in many
+syntaxes, and unique in its design. XBRL worked closely with the W3C in evaluating the XBRL syntax and
+W3C specifications (https://www.w3.org/2009/02/xbrl-ig/charter.html), noting “Facts, concepts and links in
+XBRL documents can be readily mapped into the Semantic Web. XBRL concepts can be identified via the
+XML namespace for the schema document defining them as elements together with the element name for
+each concept.”
+Related to the levels of 5 star data:
+“make your stuff available on the Web (whatever format) under an open license”
+XBRL GL is freely licensed and royalty free
+“make it available as structured data (e.g., Excel instead of image scan of a table)”
+XBRL GL is a specification for structuring and expressing business data at any level of detail or aggregation
+“make it available in a non-proprietary open format (e.g., CSV instead of Excel)”
+XBRL is a non-proprietary open format. XBRL also can be expressed using JSON, CSV, and other formats.
+“use URIs to denote things, so that people can point at your stuff”
+While XBRL GL’s primary use is within the Enterprise and for data kept confidential by government
+agencies, such as tax filings, URIs are used internally, and the W3C has noted the ease of mapping XBRL
+syntax documents into Linked Data environments.
+“link your data to other data to provide context”
+XBRL GL has been uniquely designed to link both to source data and other contextual information at the
+detail level, and to unambiguously link to summary reporting information at the aggregate level. The SRCD
+portion of the Specification formalizes the summarization of XBRL GL detail to other reported open data. The
+specifications for relating to underlying source information are internally being harmonized with other open
+specifications for relating to other information, as part of other interoperability efforts under UN/CEFACT and
+the ISO.
+
+In this case, XBRL GL is a data representation schema that is based on XML; XBRL GL makes data available in a structured manner aligning with the second-star from Tim Berners-Lee approach. Therefore, the specification facilitates the publication of open data.
+
+About XBRL ( XBRL GL is based on) and linked data in general: 
+https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.232.971&rep=rep1&type=pdf
+'"""@en ;
+    cav:refersTo camssa:bf544ffb-39dd-4c8d-9a9d-31a083589ffc .
+
+camssa:4cdef0fc-721b-4746-8844-3cf75431b361 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "80"^^xsd:int .
+
+camssa:4d609c95-778a-448b-a554-0288fca6c80a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification addresses semantic aspects thus data security and data privacy issues are addresses by
+other means. The specification does not prevent the use of any security means.
+Issues related to authorization and authentication of data are key to its secure processing, and XBRL GL
+was designed with secure processing in mind.'"""@en ;
+    cav:refersTo camssa:5a9098be-d2fe-4252-92da-4b5d49be7dcb .
+
+camssa:4df6691d-91aa-4ba4-8eb1-d6db57d79e40 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:5695e185-38c0-43b6-b168-a7f1b5c8a566 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'XBRL International has a special working group that maintains and develops the specification further. The
+working group is open to direct members of XBRL International or its national jurisdictions.
+
+Links to the original source of information and/or references to working groups: 
+https://www.xbrl.org/the-consortium/join/ 
+
+https://www.xbrl.org/the-consortium/members/working-group-enrollment/
+'"""@en ;
+    cav:refersTo camssa:087ec3eb-198d-43a5-8149-25c719a1d96d .
+
+camssa:5a9098be-d2fe-4252-92da-4b5d49be7dcb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:6079b82e-e097-4219-98d7-f5463b61368b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:61f14155-4c6c-440e-bee9-fad876bdeaf7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Estonia plans wide use of XBRL-GL: "In order to create necessary preconditions for data-driven reporting
+with the public sector and enable companies to exchange machine-readable transaction information, the
+standard XBRL Global Ledger Taxonomy framework has been confirmed. The same standard is
+implemented also in the Estonian Tax and Customs Board “Aruandlus 3.0” (Reporting 3.0) project."
+
+https://www.mkm.ee/en/objectives-activities/real-time-economy/projects
+http://www.baltic-course.com/eng/good_for_business/?doc=159557'"""@en ;
+    cav:refersTo camssa:e3b76569-08ee-463d-af69-c2eb39e5bb84 .
+
+camssa:623e28ac-2845-487f-813d-aab55dca9afe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'XBRL is used in many MS in external reporting to government, but XBRL GL taxonomy not yet included.
+However there has been developments to use the specification in Estonia and among the Nordic Countries.
+These are under development. It is also worth mentioning the specification is used in 
+Turkey.
+
+Estonia: https://itl.ee/en/news/data-driven-reporting-is-the-next-step-in-real-time-economy-sector/ 
+Turkey (https://www.edefter.gov.tr/edeftermevzuat.html)
+'"""@en ;
+    cav:refersTo camssa:a4318344-5d2e-48dc-983d-d7d57fc5533c .
+
+camssa:648a6f8d-a37e-45b9-9504-de8dd7abd74e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:6ac93c0e-6bb6-4078-ac8c-fc36ae321992 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:6da9f1a3-618a-4457-b669-db106baa8dd6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Estonian Tax and Customs board: 
+
+https://www.emta.ee/en/business-client/e-services-training-courses/how-use-e-services/x-tee-services#xbrl-gl'"""@en ;
+    cav:refersTo camssa:368760f3-b597-46e1-9cad-33571e3baba9 .
+
+camssa:6db24096-d9eb-4bd2-bef5-387fb87d6e0a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6dc17b4c-3eff-4dd7-9e7c-ab9156c2a424 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "40"^^xsd:int .
+
+camssa:70df58c2-4383-4212-b2e6-00a2d81c9d2d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification can be used as a global ledger by any domain. It can capture a broad set of business
+transaction related data e.g. accounting and taxation related details, parties involved, products or services
+traded.
+'"""@en ;
+    cav:refersTo camssa:defcb0fc-f256-453e-a9c6-ffb5ae7ae63b .
+
+camssa:728fda24-f7d9-481b-b041-3045d6257d54 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "40"^^xsd:int .
+
+camssa:74902c92-d2a1-4165-88fd-ee5a3ade410e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification addresses semantic aspects thus data security and data privacy issues are addresses by
+other means. The specification does not prevent the use of any security means.
+As noted previously, the chief architect of XBRL GL designed the Specification was deeply engaged in the
+W3C’s security specifications development. While XBRL GL itself does not inherently enable secure
+exchange, it has been designed with secure exchange in mind.'"""@en ;
+    cav:refersTo camssa:6079b82e-e097-4219-98d7-f5463b61368b .
+
+camssa:74a573f8-177f-4582-ba77-2616d09bb389 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification can be used as a global ledger by any domain. It can capture a broad set of business
+transaction related data e.g. accounting and taxation related details, parties involved, products or services
+traded. From the beginning of the development of XBRL, the recognition that financial reporting was vitally
+important but not meant to be the complete scope of XBRL led to the rebranding of its first name, XFRML, to
+XBRL. XBRL GL from its inception was designed to be a representation of detailed data across all business
+reporting domains. XBRL participants include financial regulators, sustainability reporting groups, and any
+other area of interest to business reporting stakeholders. XBRL GL was designed to represent holistically
+any area of business reporting, quantitative and qualitative data, in any level of detail from source events
+and business documents to more aggregated and summarized information, using a single, holistic, generic
+and global specification.'"""@en ;
+    cav:refersTo camssa:8b1205c3-75ff-45b7-b377-b98092fd32a5 .
+
+camssa:7605b0d6-dc1d-4cfe-a9de-0ec5ef6ac3dc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"There are no requirements on the extent of the implementation of the specification and the extent of the data
+contents being used should vary between use cases. It's recommended to publish sets of requirements per
+implementation.
+
+https://www.xbrl.org/int/gl/2016-12-01/gl-framework-2017-PWD-2016-12-01.html\""""@en ;
+    cav:refersTo camssa:6db24096-d9eb-4bd2-bef5-387fb87d6e0a .
+
+camssa:774856a2-0823-48e4-bf3e-2ac19ed79d6d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:7cecfb5f-98d8-4bc9-ac10-e88b8c02c5e8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:852d266d-3e6d-4fbc-adff-d3dfd2c1d31a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The long-term preservation of data needs to be addresses by other standard means.
+The use of XBRL GL in Turkey for example, leverages digital signatures and certificates so long-term data
+does not need to be maintained centrally; authentication of data maintained at the enterprise is
+accomplished through the certificates that prove the integrity of information provided at a later time.'"""@en ;
+    cav:refersTo camssa:f0b0edb5-5d77-4130-adfa-4b0599f344c8 .
+
+camssa:88a30e58-9989-4d31-a44c-96e0f962b406 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification supports data driven service interoperability like opening of data and reporting.
+
+Danish business registry sharing all annual financial statements in XBRL as open data:
+https://datacvr.virk.dk/data'"""@en ;
+    cav:refersTo camssa:9003adcb-00d9-4f87-8ee7-c9c361234f35 .
+
+camssa:89361df4-e3da-4c52-91f4-916c9d6f16c3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is based on XBRL/XML and might be supported in other data exchange formats in the
+future. The specification takes no stance on what technologies are used in internal business systems.'"""@en ;
+    cav:refersTo camssa:8f1ece02-e50b-43f3-8a5e-739ef3f500f3 .
+
+camssa:8b1205c3-75ff-45b7-b377-b98092fd32a5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8f1ece02-e50b-43f3-8a5e-739ef3f500f3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9003adcb-00d9-4f87-8ee7-c9c361234f35 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:930dcc24-1256-43b7-984d-352446455d58 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'XBRL international supports the above by national and international communities to further develop and
+support the implementation of the specification.
+e.g. https://fi.xbrl.org/, https://www.xbrl.org/tag/spain/
+
+XBRL GL provides a standardized toolset for the broad adoption of relevant data standardization, but the
+developers recognized that local extensions and variations will be necessary. Under the auspices of local
+XBRL jurisdictions or other organizations, further standardization leveraging XBRL GL are expected,
+encouraged and facilitated.
+
+http://www.xbrl.org/int/gl/2015-03-25/GLTFTA-REC-2015-03-25.html#section-how-to-create-extensions-within-the-gl-taxonomy-framework
+'"""@en ;
+    cav:refersTo camssa:3eac42c0-f6e7-4222-a9ca-0a30ea119ce5 .
+
+camssa:932a018e-8992-45fe-96c0-b8d1560872e0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "'Data portability is one of the key attributes of the specification.'"@en ;
+    cav:refersTo camssa:e7bca7e8-39c0-4f63-afbc-fcf32e5417d8 .
+
+camssa:96b221f3-9545-4603-9eb5-56c900f38253 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'XBRL International and the community around it provides support for the specification.
+National XBRL organisations provide support to members.
+
+https://www.xbrl.org/guidance/'"""@en ;
+    cav:refersTo camssa:c89d5228-e5ad-470d-acf2-19b7b98d5639 .
+
+camssa:9a96bb53-d26b-4ff8-910f-33db0e24af51 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Estonia reporting 3.0 program and Nordic smart government.
+
+https://nordicsmartgovernment.org/
+https://www.stat.ee/en/reporting-30
+https://realtimeeconomy.ee/
+https://www.dropbox.com/sh/b5i8ehpnzzymowl/AACpTH-mWRwOFGIQkUYDbWoWa/29.10.2021%20Presentations?dl=0&preview=004_Estonian+reporting+mapping+and+a+new+model+copy.pdf&subfolder_nav_tracking=1
+'"""@en ;
+    cav:refersTo camssa:a69e2dbb-a0b2-4c9f-a78c-703abea3df75 .
+
+camssa:9e57e9f4-adc4-4602-8f4d-6ce0d3c17a29 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "60"^^xsd:int .
+
+camssa:a02ab4e1-c2f2-448c-8445-b52e647951f7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The underlying XBRL specification was designed to permit not only the capture and expression of business
+reporting facts in all of the languages supported by ISO 639, but also the internal capture and expression of
+regulation and guidance related to the reporting content. The specification has support already for 8
+languages and the process for adding new ones is defined.
+
+http://www.xbrl.org/specification/xbrl-2.1/rec-2003-12-31/xbrl-2.1-rec-2003-12-31+corrected-errata-2013-02-20.html'"""@en ;
+    cav:refersTo camssa:b5d81820-3d28-4bf7-9e35-fef38b98f7f4 .
+
+camssa:a40df87a-5b49-4a02-a8fe-c52d1f96850c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is more towards semantic interoperability and does not adress UX and data representation
+layers.'"""@en ;
+    cav:refersTo camssa:9e57e9f4-adc4-4602-8f4d-6ce0d3c17a29 .
+
+camssa:a4318344-5d2e-48dc-983d-d7d57fc5533c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:a672f57a-8f98-44fc-a61e-182ffa0c6081 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a69e2dbb-a0b2-4c9f-a78c-703abea3df75 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b5a43c08-91bf-4b62-9cb4-707a88648499 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The first drafts of XBRL GL were developed in 1999 by the chief architect who contributed the work to XBRL.
+Development and implementation of pre-recommendation status versions followed shortly after (See
+http://www.xbrl.org/business/companies/breathing-new-life-into-old-systems.pdf from 2004, for example).
+The standards process within XBRL led to the first official version in 2005.
+The Specification was not developed in a background. Its chief architect and other participants also
+contributed to virtually all other Specifications in overlapping space, including UN/CEFACT Accounting and
+Audit artefacts, OECD Standard Audit File for Taxation (SAF-T), ISO/TC 295’s Audit Data Collection
+specification ISO 21378:2019, AICPA Audit Data Standards, and others, each focusing on some specific
+area or compliance. This collaboration was to encourage harmonization and help in proving the capabilities
+of XBRL GL.
+
+https://www.xbrl.org/int/gl/2007-04-17/GLFramework-REC-2007-04-17.htm
+
+All versions: https://specifications.xbrl.org/spec-group-index-xbrl-gl.html
+'"""@en ;
+    cav:refersTo camssa:6ac93c0e-6bb6-4078-ac8c-fc36ae321992 .
+
+camssa:b5cbdfd2-1156-4413-8268-5b2f8bfe7be6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b5d81820-3d28-4bf7-9e35-fef38b98f7f4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ba469957-4406-4e07-91b8-c2c98b05aa70 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification can be used as an annex in interoperability agreements.
+Through the use of XBRL GL Profiles, organisations that wish to interchange data can communicate and
+agree upon the scope, amount, and restrictions on the data to be interchanged and, where feasible,
+automate the evaluation of conformation and data quality being exchanged.'"""@en ;
+    cav:refersTo camssa:27b23d91-0e58-4bf7-b9e3-23d4b5828133 .
+
+camssa:bb84742c-dea4-4659-91bb-92878a4da149 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are clear guidelines for customisation and extensions for the specification.
+
+http://www.xbrl.org/int/gl/2015-03-25/GLTFTA-REC-2015-03-25.html#section-how-to-create-extensions-within-the-gl-taxonomy-framework'"""@en ;
+    cav:refersTo camssa:774856a2-0823-48e4-bf3e-2ac19ed79d6d .
+
+camssa:bf544ffb-39dd-4c8d-9a9d-31a083589ffc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c266e61d-9dd4-441d-8588-e95dd0c9bcae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'While the XBRL specification explicitly notes that security, privacy and confidentiality are not directly in
+scope for XBRL, the chief architect of XBRL GL developed the structure of XBRL GL based on more than 10
+years working with the XML security efforts of the W3C and is a named contributor to the XML Encryption
+specification. In particular, personally identifiable information is segregated and standardized to simplify
+encryption and other protection efforts.
+
+This issue of data protection is dependent on other specifications or technologies like the XML Encryption. 
+
+'"""@en ;
+    cav:refersTo camssa:143ab336-1329-41ab-9361-457db41d064b .
+
+camssa:c79c7626-3c6a-4e07-b73b-7b3cfd97fb1a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'XBRL International has a public reviewing period for all of its specifications.
+XBRL GL consultations can be conducted by XBRL International members and " volunteers" using the "public working drafts".
+
+These public working drafts are available  in 
+https://specifications.xbrl.org/spec-group-index-xbrl-gl.html
+
+https://www.xbrl.org/the-consortium/get-involved/navigating-your-journey-as-a-volunteer/the-standards-development-process-overview/
+
+Please see also  further instructions on how to contribute or take part in the specification development:
+https://specifications.xbrl.org/faq.htm'"""@en ;
+    cav:refersTo camssa:f2152227-7cf4-4f59-af1a-d93eba3640f1 .
+
+camssa:c7ef87f4-b725-4a48-a236-02f710ab1a45 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Estonia:
+
+https://www.emta.ee/en/business-client/e-services-training-courses/how-use-e-services/x-tee-services#xbrl-gl
+
+
+https://www.emta.ee/en/business-client/e-services-training-courses/how-use-e-services/x-tee-services#materials
+'"""@en ;
+    cav:refersTo camssa:2e6f1f22-4209-472f-80a9-91d1cd2a2468 .
+
+camssa:c89d5228-e5ad-470d-acf2-19b7b98d5639 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "80"^^xsd:int .
+
+camssa:c992d706-f3b6-4443-9028-e0d0f6ffed74 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "\"The specification takes no stance on what technologies are used in the platform it's being used on.\""@en ;
+    cav:refersTo camssa:4df6691d-91aa-4ba4-8eb1-d6db57d79e40 .
+
+camssa:c9d252cc-a1c2-4b3f-9e39-60dd3475aadd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are public pilot assessments made in Finland, Nordic countries and Estonia. However these are not
+official assessments endorsed by xbrl international.
+
+https://www.suomidigi.fi/sites/default/files/2020-12/Interaktiiviset%20tuotokset.pdf'"""@en ;
+    cav:refersTo camssa:728fda24-f7d9-481b-b041-3045d6257d54 .
+
+camssa:d1d4fc9d-512f-4f6c-9e73-24d68fbd1564 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'No royalties are to be paid for the usage of the specification.
+XBRL GL was developed by an international consortium with a major focus on financial regulators and
+administrators; the specifications are freely licensed and royalty free. The only restrictions are those imposed
+by XBRL’s intellectual property policies and trademark rules.
+
+https://xbrl.us/home/about/legal/'"""@en ;
+    cav:refersTo camssa:f76a088b-9000-4433-9b1c-fd55aed15417 .
+
+camssa:d1d7dc10-eb0a-43ab-9651-9867b803a879 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The XBRL specifications including XBRL GL are publicly available.
+
+https://specifications.xbrl.org/specifications.html'"""@en ;
+    cav:refersTo camssa:0209c30d-5b64-4513-96f9-d3e1106796fd .
+
+camssa:d24c83c1-217c-417c-8b48-6e8b7d556abb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:dc0cc66f-f1e5-448e-af37-63d495b0fa62 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is development for the evolution of interoperability.
+The development of XBRL GL comes with close relationships with European public services participants
+through collaboration in the development of OECD’s SAF-T and UN/CEFACT’s accounting and audit
+artefacts, as well as international collaboration through the ISO.
+
+https://docs.google.com/spreadsheets/d/1a1HJJJfwsLUbLvJzQ9hQ-ZGtiz2peyGt/edit?usp=sharing&ouid=117964998322026798794&rtpof=true&sd=true'"""@en ;
+    cav:refersTo camssa:27f164c1-7357-4c89-8c35-9f19ab8a7678 .
+
+camssa:dd1aea2a-437a-45a7-b22b-50d3887f01f8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'COMMISSION IMPLEMENTING DECISION (EU) 2016/120: "The XBRL 2.1 should therefore be identified as
+ICT technical specification eligible for referencing in public procurement," and " The eXtensible Business
+Reporting Language version 2.1 is eligible for referencing in public procurement." XBRL GL is a taxonomy
+based on xbrl.
+
+https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2016%3A023%3ATOC&uri=uriserv%3AOJ.L_.2016.023.01.0077.01.ENG
+'"""@en ;
+    cav:refersTo camssa:d24c83c1-217c-417c-8b48-6e8b7d556abb .
+
+camssa:defcb0fc-f256-453e-a9c6-ffb5ae7ae63b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e10ff7bb-e59e-4fa4-86b1-0fddfa8a2b17 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is developed as a common interface.
+XBRL GL facilitates the publication of open data in many ways.
+A primary goal of open data is that it be usable, and usability is enhanced by reliability. As an important
+facilitator of a seamless audit trail, XBRL GL is able to represent data from initial source events, activities or
+documents through to summarization. As such, it can represent data at any level of detail, and standardize
+the communication of data appropriate to be open.
+XBRL GL provides a single framework for information both quantitative and qualitative related to business
+reporting at any level of detail. In conjunction with any standardized code sets, it provides a single structure
+for expressing the representation of data.
+
+'"""@en ;
+    cav:refersTo camssa:a672f57a-8f98-44fc-a61e-182ffa0c6081 .
+
+camssa:e212b6c7-e65e-4890-bd8e-1af2fbc7544a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "80"^^xsd:int .
+
+camssa:e2fdc32f-f151-4cfd-8c85-159f29921aa4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:e3b76569-08ee-463d-af69-c2eb39e5bb84 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:e594e906-2f8b-4234-a335-9507cd20b44f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification supports and makes possible reporting for different needs from the same data.
+The well-documented vision of XBRL GL driving its development was “A piece of business information, once
+entered into any computer, anywhere, never needs to be retyped as it flows through the business reporting
+supply chain.”
+
+http://raw.rutgers.edu/carlab/Cohen.html'"""@en ;
+    cav:refersTo camssa:b5cbdfd2-1156-4413-8268-5b2f8bfe7be6 .
+
+camssa:e6cf09d1-f0d9-4b77-8a4e-bc7dabd81a9c a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "jussi.jaasaari@vero.fi" .
+
+camssa:e7bca7e8-39c0-4f63-afbc-fcf32e5417d8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:eec9a4de-de83-4cea-8d19-cb34b2236a00 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:efae49e1-ab72-4885-84d3-d6972d50ca35 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f0b0edb5-5d77-4130-adfa-4b0599f344c8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "40"^^xsd:int .
+
+camssa:f0cc116c-dc2e-46ce-9756-f3b107a75126 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:f2152227-7cf4-4f59-af1a-d93eba3640f1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f5e7227c-1d0e-4046-9e69-bb9f63ac9be6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification supports data driven service interoperability like opening of data and reporting.
+
+Danish business registry sharing all annual financial statements in XBRL as open data:
+https://datacvr.virk.dk/data'"""@en ;
+    cav:refersTo camssa:648a6f8d-a37e-45b9-9504-de8dd7abd74e .
+
+camssa:f76a088b-9000-4433-9b1c-fd55aed15417 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fabf9dbb-5a28-4916-9356-d07af17f5ceb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification acts as an interface and enables the business transaction level data being shared and
+reused in different systems - internal or external.
+
+https://unece.org/fileadmin/DAM/cefact/cf_forums/2019_Geneva/Conf_AccountAudit/PPT_1_2_XBRL_Koskentalo.pdf
+
+http://www.xbrl.org/GLWGNotes/XBRL-GL-WGN-FAQ-2007-08-01.htm
+'"""@en ;
+    cav:refersTo camssa:f0cc116c-dc2e-46ce-9756-f3b107a75126 .
+
+camssa:fb0d9f54-095c-46f6-a03f-704f98ff3faf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are clear guidelines for customisation and extensions for the specification.
+
+http://www.xbrl.org/int/gl/2015-03-25/GLTFTA-REC-2015-03-25.html#section-how-to-create-extensions-within-the-gl-taxonomy-framework'"""@en ;
+    cav:refersTo camssa:7cecfb5f-98d8-4bc9-ac10-e88b8c02c5e8 .
+
+camssa:fbbbd558-847d-48ff-a6a8-39da2bf4b40d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The implementation of the specification is still underway in Finland and Estonia.
+The mandate for the use of XBRL GL by all companies with any significant sales in Turkey is an indication of
+the impact on ERP developers for those enterprises to implement XBRL GL in their systems.
+
+Estonia: https://ec.europa.eu/digital-building-blocks/wikis/display/CEFDIGITAL/2021/03/22/eInvoicing+helping+standardise+transactional+data+in+Estonia
+
+Turkey: https://www.ifrs.org/content/dam/ifrs/publications/jurisdictions/filing-profiles/turkey-18-november-2015.pdf
+
+https://www.edefter.gov.tr/edeftermevzuat.html
+
+'"""@en ;
+    cav:refersTo camssa:4cdef0fc-721b-4746-8844-3cf75431b361 .
+

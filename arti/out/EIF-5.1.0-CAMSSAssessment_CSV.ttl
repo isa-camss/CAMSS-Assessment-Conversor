@@ -1,0 +1,585 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:a6b562f5-eab0-4b33-8b22-8472100011e0 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:fdfa9010ee23bfe408ae58b956d60072da1df2d381d3221d83be72ffa2d943e4 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:356b06eaeb0797b4d35e627c84d00bc3de5d72ebfb51f720b77bd4a5548e2704 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:02cf336a-8cb9-4801-a490-2f0c24dfc9f4,
+        camssa:0e86ea80-f8f2-40ff-b409-6612d7493e82,
+        camssa:0ff105d4-f0b5-4361-a2fd-d06b5c4a8211,
+        camssa:1142bded-7eaa-4c09-a8d0-b028ff5acf12,
+        camssa:14b4c85f-d107-418b-a831-20f5353c0392,
+        camssa:1cf49204-ec46-4943-a814-47ac8714e51f,
+        camssa:26fcbf4b-d197-42f5-8c0c-3a63cda42b32,
+        camssa:2ac4390e-d293-4c86-8880-a4d5d1db9cf6,
+        camssa:3012ae41-0ca3-4b07-8c09-2c183423c216,
+        camssa:33805e8c-c68a-42e6-975f-27d21670c07d,
+        camssa:347e9e8d-9d1f-4a44-99e9-1da79547be8c,
+        camssa:363eaafb-4156-402d-bad0-ba22f48ff6a2,
+        camssa:3bc5c662-414e-4bc3-854f-c132d1bb26ea,
+        camssa:3f540bad-b9f4-461c-ae4f-29f235adf43a,
+        camssa:4b16da0e-6252-46a4-8f20-6a359254d52d,
+        camssa:4ecdfc6d-a2b8-41aa-b5d5-817ad1146442,
+        camssa:50ba7ba7-d7bf-4812-b038-bbc7b5e3a07a,
+        camssa:5a9de9cd-afb8-4fa1-8575-b46e340f60f1,
+        camssa:5e1eb6cc-244e-47da-a23c-6493e9b15387,
+        camssa:5f3f8e9a-bc48-406f-aaba-c17b254125ce,
+        camssa:60f3586a-a24e-44e2-a258-13e8a108b12a,
+        camssa:612edc19-651a-48c1-b8df-839aa2a870dd,
+        camssa:661f8d5d-6aa0-45c5-b246-94f69647b30b,
+        camssa:6d4c5155-6dc0-455e-a67e-c0bd745314ca,
+        camssa:71213511-ce5f-42de-9cf5-18a77f1c4d94,
+        camssa:783e03a3-7443-4a98-9059-bf5cab8cdcea,
+        camssa:7b13c8c4-ae99-45c9-b253-714c3a913139,
+        camssa:8074766b-e798-4aa4-af13-917bbd6525f5,
+        camssa:81b6172d-547f-440a-8a22-3bcb4843d228,
+        camssa:8d5d60c5-9842-4361-b5eb-f653f9ecbde2,
+        camssa:8e9987ad-a36b-4ef7-a8ff-634cdebc203b,
+        camssa:95f67374-c57b-4fdc-a71e-b0d4de4afb79,
+        camssa:9b43b2d7-7288-411a-8920-a5c2e838fcf2,
+        camssa:9d5ba3df-fabc-4833-aba7-eac81a2016ed,
+        camssa:a2da2e53-9ec1-4c58-81a8-2836b3d9d76b,
+        camssa:c1ac25ba-419a-4210-9481-61d1ec3f8346,
+        camssa:cd2760cb-e7a5-41a0-a958-17f46178c157,
+        camssa:ce211c77-64a2-489c-a144-a16962e14153,
+        camssa:df6eeccd-c87b-4813-a523-885743dfd9b9,
+        camssa:e909040a-cb47-43a9-b6b8-e0becbd9aa1f,
+        camssa:ef17dff0-5281-43e0-b52f-7b85ab1660d9,
+        camssa:f0485624-73b4-4541-a10d-8b7e415bc87e,
+        camssa:f21143d5-1ec8-47f3-842f-ad3ce2667536,
+        camssa:fc29aae0-6376-4395-89c0-b604020b64c5 ;
+    cav:status status:Complete ;
+    dct:title "Comma-Separated Values (CSV)"@en .
+
+camssa:02cf336a-8cb9-4801-a490-2f0c24dfc9f4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:81c10ac2-796a-408c-92a3-824234a2c5c0 .
+
+camssa:04520e4e-ad15-42f2-8869-905f0754f622 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:0c9e6ed7-ef70-419c-a28e-9ebc0d28a853 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0e86ea80-f8f2-40ff-b409-6612d7493e82 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSV has documentation regarding Use Cases and Requirements which analyses its efficiency.
+
+See:
+https://www.w3.org/TR/csvw-ucr/"""@en ;
+    cav:refersTo camssa:c6c06615-3b46-431d-a555-12afe20a62f2 .
+
+camssa:0ff105d4-f0b5-4361-a2fd-d06b5c4a8211 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSV can be considered a facilitator to publish public administrations data as open data. As 5 Stars Open Data model of Tim Berners-Lee states, CSV makes sure content is available on the web, structures data and makes it usable in a non-proprietary open format.
+
+See:
+https://5stardata.info/en/"""@en ;
+    cav:refersTo camssa:28592a5f-7937-4218-b4da-b4c4fe4c7467 .
+
+camssa:1142bded-7eaa-4c09-a8d0-b028ff5acf12 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, CSV is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. CSV is therefore licensed on a royalty-free basis.
+No IPR disclosures have been submitted directly on the IPv6 specification (RFC 2818).
+See:
+https://tools.ietf.org/html/rfc3668"""@en ;
+    cav:refersTo camssa:664e5f74-b42e-4c3b-b1e4-b8120d12daa0 .
+
+camssa:14b4c85f-d107-418b-a831-20f5353c0392 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:68b92555-fcaf-4d61-9d9d-34a7a9d3bcf1 .
+
+camssa:15cdca47-cf56-4ec3-8281-b3ef86f99b46 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:193a9d91-3074-4673-a7ca-7bf5b80d4235 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:1cf49204-ec46-4943-a814-47ac8714e51f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:57c30dfe-9344-42ed-8b15-6b34e5bcdfea .
+
+camssa:206e4ed1-17ba-4e84-a1d0-ca1b3dc71014 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:25fd4210-16f4-4747-8b3f-b242d2161dbf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:26a39be3-a9d3-4e4e-b196-5d1b0bc80261 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:26ab3ad9-d03e-431a-bd3c-9173345471a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:26fcbf4b-d197-42f5-8c0c-3a63cda42b32 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:a2278d75-cdab-4302-9a7b-3e2e23e9043d .
+
+camssa:27e0cf8d-d806-48a1-b7d7-19ea5e7d1792 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:28592a5f-7937-4218-b4da-b4c4fe4c7467 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2ac4390e-d293-4c86-8880-a4d5d1db9cf6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSV is a commonly used format for data exchange. It allows to provide data in a simple way. Moreover, as is structured data and non-proprietary format it eases data consumption by different stakeholders. 
+
+An example of initiative relaying on CSV to provide data to users is ESCO, that allows the download data sets in CSV format. 
+
+See: 
+https://ec.europa.eu/esco/portal/escopedia/Comma-separated_values__40_CSV_41_#ESCO_data_in_CSV_files"""@en ;
+    cav:refersTo camssa:c34aec02-efa9-40aa-b16b-edbdfe21b707 .
+
+camssa:2ea35105-03d1-493e-aff9-76991b6febbc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3012ae41-0ca3-4b07-8c09-2c183423c216 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are several CSV conformance validators available. An example is CSV Lint, which provides a conformance validation for its readability. Another example is CSV Validator from The National Archive of United Kingdom. This validator provides tools for validating CSV by using CSV Schema. 
+
+See:
+https://csvlint.io/
+https://github.com/digital-preservation/csv-validator"""@en ;
+    cav:refersTo camssa:46be3251-fc2e-4b59-b7b8-b5dc6c74a717 .
+
+camssa:33805e8c-c68a-42e6-975f-27d21670c07d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of CSV is not related to the availability assurance. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:b0d6adea-aa30-445e-83f6-0f9207a16d68 .
+
+camssa:3399da06-a840-4dbd-a731-2b84ada443e1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:347e9e8d-9d1f-4a44-99e9-1da79547be8c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of CSV is not related to the  delivery of multilingual public services. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:0c9e6ed7-ef70-419c-a28e-9ebc0d28a853 .
+
+camssa:363eaafb-4156-402d-bad0-ba22f48ff6a2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSV is one of the main points on the publication of Open Data. Using the specification 3 out of 5 stars from Tim Berners Lee's schema for open data are supported. 
+
+Moreover, some initiatives for the publication of European Organisations data as open data, consequently Linked Open Data have their datasets stored in CSV format. An example of it is the EU Open Data Portal. 
+
+See: 
+https://data.europa.eu/euodp/en/home
+https://5stardata.info/en/"""@en ;
+    cav:refersTo camssa:e296b80b-e957-4e55-829f-f3adbde038c1 .
+
+camssa:380c74f8-1ea9-42b7-8139-29303c919d60 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3af31753-5c1e-45f7-b37e-83ff4c090c4e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3bc5c662-414e-4bc3-854f-c132d1bb26ea a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """8 Member States are recommending CSV in their ICT National Catalogues. 
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:ca9b7b51-b3a4-4d22-a1b1-284bb92a39d9 .
+
+camssa:3f540bad-b9f4-461c-ae4f-29f235adf43a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:3399da06-a840-4dbd-a731-2b84ada443e1 .
+
+camssa:46be3251-fc2e-4b59-b7b8-b5dc6c74a717 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:470efc96-f425-4186-833c-96f7eae2a407 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:47c447fd-2ddc-44f9-a09e-ffcccd4e3c39 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:4b16da0e-6252-46a4-8f20-6a359254d52d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "As a common data exchange format, CSV fosters the visibility of administration's data. It eases the publication of structured data for the consumption by the different stakeholders. Therefore, CSV fosters the visibility of administrations data. Additionally, it can be used internally easing as well de decision-making process. "@en ;
+    cav:refersTo camssa:d8f2841e-2b47-498e-b1bb-ea6cd1be4973 .
+
+camssa:4ecdfc6d-a2b8-41aa-b5d5-817ad1146442 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 8 Member States' catalogues of recommended specifications. Some examples of Member States including CSV on their catalogues are the Netherlands, Slovenia or Sweden.
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards
+"""@en ;
+    cav:refersTo camssa:26a39be3-a9d3-4e4e-b196-5d1b0bc80261 .
+
+camssa:50ba7ba7-d7bf-4812-b038-bbc7b5e3a07a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:bf40eeda-a143-4fe2-b42d-a3dc04afc8ba .
+
+camssa:57c30dfe-9344-42ed-8b15-6b34e5bcdfea a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5a9de9cd-afb8-4fa1-8575-b46e340f60f1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of CSV is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:aee6a375-2332-475c-a825-f3284aef0569 .
+
+camssa:5e1eb6cc-244e-47da-a23c-6493e9b15387 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:88885601-c95b-4fae-bd0b-b9fadfa7ea44 .
+
+camssa:5f3f8e9a-bc48-406f-aaba-c17b254125ce a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSV is included in 3 national catalogues of recommended specifications. They belong to the Netherlands, Estonia, and Sweden. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO)factsheets.
+
+See:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:ef198e86-8a5a-49df-8c71-b690d8b0ee76 .
+
+camssa:60f3586a-a24e-44e2-a258-13e8a108b12a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "CSV makes sure content is available on the web, structures data and makes it usable in a non-proprietary open format. Consequently the CSV fosters data portability as it makes available files for any system. "@en ;
+    cav:refersTo camssa:206e4ed1-17ba-4e84-a1d0-ca1b3dc71014 .
+
+camssa:612edc19-651a-48c1-b8df-839aa2a870dd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "CSV makes sure content is available on the web, structures data and makes it usable in a non-proprietary open format. So it can be said that CSV is independent from any technology or platform. "@en ;
+    cav:refersTo camssa:a904b1fa-43db-4696-8e9e-f6061c838f9d .
+
+camssa:620576e3-bd78-4d8f-b340-d534f0ed1540 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:63ec9f5c-0b72-4fc9-8358-1e78b9d23a07 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:661f8d5d-6aa0-45c5-b246-94f69647b30b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSV is one of the most popular formats for publishing data on the web. An example of those developments is CSV Dialect which aims to deal with a reasonably large subset of the features which differ between dialect.
+Add history, structured data, support from wide range of organisations (private and public)
+See:
+https://frictionlessdata.io/specs/csv-dialect/"""@en ;
+    cav:refersTo camssa:8f1dcd39-5249-4598-b9fb-b4e21a99c87d .
+
+camssa:664e5f74-b42e-4c3b-b1e4-b8120d12daa0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:68b92555-fcaf-4d61-9d9d-34a7a9d3bcf1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:6d4c5155-6dc0-455e-a67e-c0bd745314ca a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:bdd08767-0c8c-4dd8-9789-426ac3c264f9 .
+
+camssa:71213511-ce5f-42de-9cf5-18a77f1c4d94 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specifications promotes innovation as CSV Dialect to simplify the format to be able to describe various CSV dialects.
+Rewrite, more detail
+See:
+https://frictionlessdata.io/specs/csv-dialect/"""@en ;
+    cav:refersTo camssa:2ea35105-03d1-493e-aff9-76991b6febbc .
+
+camssa:729d6c3b-b641-429c-bdb0-ea9ecd81ba88 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:783e03a3-7443-4a98-9059-bf5cab8cdcea a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "CSV makes sure content is available on the web, structures data and makes it usable in a non-proprietary open format. So it can be said that CSV is independent from any technology or platform. "@en ;
+    cav:refersTo camssa:27e0cf8d-d806-48a1-b7d7-19ea5e7d1792 .
+
+camssa:7b13c8c4-ae99-45c9-b253-714c3a913139 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:47c447fd-2ddc-44f9-a09e-ffcccd4e3c39 .
+
+camssa:8074766b-e798-4aa4-af13-917bbd6525f5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of CSV is not related to the long-term preservation of electronic records and other kinds of information. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:25fd4210-16f4-4747-8b3f-b242d2161dbf .
+
+camssa:81b6172d-547f-440a-8a22-3bcb4843d228 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a formal review and approval so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
+
+Each distinct version of an Internet standards-related specification is published as part of the "Request for Comments" (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications.
+
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's "Internet-Drafts" directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.
+
+See:
+https://www.ietf.org/standards/process/ 
+https://tools.ietf.org/html/rfc2026"""@en ;
+    cav:refersTo camssa:04520e4e-ad15-42f2-8869-905f0754f622 .
+
+camssa:81c10ac2-796a-408c-92a3-824234a2c5c0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:847f7544-add5-44d1-9fec-a28af846db9e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:88885601-c95b-4fae-bd0b-b9fadfa7ea44 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:8890eec0-08bd-4636-b13e-d32d1ce097de a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8d5d60c5-9842-4361-b5eb-f653f9ecbde2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification being assessed is a sector agnostic specification that is able to be reused when structured data needs to be exchanged. Additionally, CSV is designed to enable you to reuse the same schema when publishing multiple CSV files, even if those files are created by different organisations and therefore reside in different places."@en ;
+    cav:refersTo camssa:63ec9f5c-0b72-4fc9-8358-1e78b9d23a07 .
+
+camssa:8e9987ad-a36b-4ef7-a8ff-634cdebc203b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSV has been developed and maintained by IETF. Additionally, the W3C has published a recommendation enhancing specific features of the specification. Both organisation are International Organisations concerned with the development of the Internet.  
+See: 
+https://tools.ietf.org/html/rfc4180
+https://www.w3.org/TR/tabular-data-model/"""@en ;
+    cav:refersTo camssa:9e785145-cc61-40c3-a389-822dee701acb .
+
+camssa:8f1dcd39-5249-4598-b9fb-b4e21a99c87d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:95f67374-c57b-4fdc-a71e-b0d4de4afb79 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of CSV is not related to e-accessibility. Therefore, this criterion is not applicable to the specification. "@en ;
+    cav:refersTo camssa:a0e4e05f-6bde-428c-8e98-77ebd4a868a2 .
+
+camssa:9b43b2d7-7288-411a-8920-a5c2e838fcf2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSV is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). Specifically, CSV can define the interoperability aspects of the "Representation" ABB of the EIRA Semantic View.
+See: 
+https://joinup.ec.europa.eu/solution/elis/distribution/eliscataloguev100betaxlsx"""@en ;
+    cav:refersTo camssa:26ab3ad9-d03e-431a-bd3c-9173345471a2 .
+
+camssa:9d5ba3df-fabc-4833-aba7-eac81a2016ed a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of CSV is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:470efc96-f425-4186-833c-96f7eae2a407 .
+
+camssa:9e785145-cc61-40c3-a389-822dee701acb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a0e4e05f-6bde-428c-8e98-77ebd4a868a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a2278d75-cdab-4302-9a7b-3e2e23e9043d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:a2da2e53-9ec1-4c58-81a8-2836b3d9d76b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of CSV is not related to security and privacy of the data exchange. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:3af31753-5c1e-45f7-b37e-83ff4c090c4e .
+
+camssa:a6b562f5-eab0-4b33-8b22-8472100011e0 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:a904b1fa-43db-4696-8e9e-f6061c838f9d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:aee6a375-2332-475c-a825-f3284aef0569 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b0d6adea-aa30-445e-83f6-0f9207a16d68 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:bdd08767-0c8c-4dd8-9789-426ac3c264f9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:be910753-4251-4923-a04a-988b95184b5e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bf40eeda-a143-4fe2-b42d-a3dc04afc8ba a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c1ac25ba-419a-4210-9481-61d1ec3f8346 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, CSV is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. CSV is therefore licensed on a royalty-free basis.
+No IPR disclosures have been submitted directly on the IPv6 specification (RFC 2818).
+See:
+https://tools.ietf.org/html/rfc3668"""@en ;
+    cav:refersTo camssa:729d6c3b-b641-429c-bdb0-ea9ecd81ba88 .
+
+camssa:c34aec02-efa9-40aa-b16b-edbdfe21b707 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c6c06615-3b46-431d-a555-12afe20a62f2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ca9b7b51-b3a4-4d22-a1b1-284bb92a39d9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cd2760cb-e7a5-41a0-a958-17f46178c157 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "CSV makes sure content is available on the web, structures data and makes it usable in a non-proprietary open format. Consequently the CSV fosters data portability as it makes available files for any system. "@en ;
+    cav:refersTo camssa:15cdca47-cf56-4ec3-8281-b3ef86f99b46 .
+
+camssa:ce211c77-64a2-489c-a144-a16962e14153 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSV has documentation regarding Use Cases and Requirements which analyses its efficiency.
+
+See:
+https://www.w3.org/TR/csvw-ucr/"""@en ;
+    cav:refersTo camssa:8890eec0-08bd-4636-b13e-d32d1ce097de .
+
+camssa:d8f2841e-2b47-498e-b1bb-ea6cd1be4973 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:df6eeccd-c87b-4813-a523-885743dfd9b9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:193a9d91-3074-4673-a7ca-7bf5b80d4235 .
+
+camssa:e296b80b-e957-4e55-829f-f3adbde038c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e707ee25-505d-40da-a286-32e488142e40 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e909040a-cb47-43a9-b6b8-e0becbd9aa1f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of CSV is not related to the once-only principle. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:620576e3-bd78-4d8f-b340-d534f0ed1540 .
+
+camssa:ef17dff0-5281-43e0-b52f-7b85ab1660d9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "As a common data exchange format, CSV fosters the visibility of administration's data. It eases the publication of structured data for the consumption by the different stakeholders. Therefore, CSV fosters the visibility of administrations data. Additionally, it can be used internally easing as well de decision-making process. "@en ;
+    cav:refersTo camssa:e707ee25-505d-40da-a286-32e488142e40 .
+
+camssa:ef198e86-8a5a-49df-8c71-b690d8b0ee76 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f0485624-73b4-4541-a10d-8b7e415bc87e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification being assessed is a sector agnostic specification that is able to be reused when structured data needs to be exchanged. Additionally, CSV is designed to enable you to reuse the same schema when publishing multiple CSV files, even if those files are created by different organisations and therefore reside in different places."@en ;
+    cav:refersTo camssa:847f7544-add5-44d1-9fec-a28af846db9e .
+
+camssa:f21143d5-1ec8-47f3-842f-ad3ce2667536 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The IETF is a consensus-based group, and authority to act on behalf of the community requires a high degree of consensus and the continued consent of the community. The process of creating and Internet Standard is straightforward: a specification undergoes a period of development and several iterations of review by the Internet community and revision based upon experience, is adopted as a Standard by the appropriate body... and is published. In practice, the process is more complicated, due to (1) the difficulty of creating specifications of high technical quality; (2) the need to consider the interests of all of the affected parties; (3) the importance of establishing widespread community consensus; and (4) the difficulty of evaluating the utility of a particular specification for the Internet community. The goals of the Internet Standards Process are:
+- Technical excellence;
+- prior implementation and testing;
+- clear, concise, and easily understood documentation;
+- openness and fairness; and 
+- timeliness.
+The goal of technical competence, the requirement for prior implementation and testing, and the need to allow all interested parties to comment all require significant time and effort. The Internet Standards Process is intended to balance these conflicting goals. The process is believed to be as short and simple as possible without sacrificing technical excellence, thorough testing before adoption of a standard, or openness and fairness.
+See:
+https://www.ietf.org/standards/process/"""@en ;
+    cav:refersTo camssa:be910753-4251-4923-a04a-988b95184b5e .
+
+camssa:fc29aae0-6376-4395-89c0-b604020b64c5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After being evaluated compliant with the regulation on standardisation 1025/2012, CSV has been identified by Commission Implementing Decision and included in the European list of ICT Standards for e-procurement.
+
+See: 
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
+    cav:refersTo camssa:380c74f8-1ea9-42b7-8139-29303c919d60 .
+

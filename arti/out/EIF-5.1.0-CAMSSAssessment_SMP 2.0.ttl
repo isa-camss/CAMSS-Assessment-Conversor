@@ -1,0 +1,616 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:997dd5de-148a-4f9c-a348-35a13c53b1f6 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:e3a9a3326c0225a97520cedefe24094738b324a49c66ac876e215091503d8af2 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:f767d020ee43c67231b43917368dda534385351e8a3a889673215664f608589c ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:01d9c042-88fa-4d47-86b4-47e43dd388c2,
+        camssa:05b904e5-ecb1-485d-8383-df46a4521edc,
+        camssa:0d605b9d-0cc0-4f97-945b-72d2c73ca147,
+        camssa:1345d373-e8c3-4eb9-92c9-770ec3f2d2bf,
+        camssa:13fdbc14-8ead-42cb-a675-97d16b7d29d9,
+        camssa:162320c6-7669-4685-bfbf-b69882c0be24,
+        camssa:1ff388c0-f5ac-4c19-b321-be8623309a5c,
+        camssa:311f82b4-dc38-435d-a624-6bcb8d5ea763,
+        camssa:3d13c8d1-a965-41ea-a25e-bd7fefeaa279,
+        camssa:4ce80601-0907-4a3d-acac-662e40b6669e,
+        camssa:4d34d603-535e-4aad-a78b-f7adfad8384a,
+        camssa:4f91d3ec-ef56-4f68-a663-6b0a103c9122,
+        camssa:51ecfee4-8663-452b-85f3-719e4561540a,
+        camssa:55af8a8d-1c5e-4b6c-bda8-fa5ef797a970,
+        camssa:5f9b89b4-3843-43cd-886a-90e3b1fe0e30,
+        camssa:6447954d-6798-4d00-9927-d7f6ad57e87f,
+        camssa:77e3c8fb-a495-4338-94ff-8f5f1b8d2001,
+        camssa:81ca49c1-06f1-4941-899b-f6e3c6b0d1c7,
+        camssa:83cdc67e-e02f-4492-a408-e0b9d5f2d773,
+        camssa:8509eff0-0eb0-4232-bf8a-40ccaa64be0d,
+        camssa:864200ed-e953-4ca9-8b71-e33094dc7f8f,
+        camssa:86d2e21c-d254-44fc-9b62-724d14fc503f,
+        camssa:87cb76a7-6b93-4bca-ad66-717cb2ad5d3c,
+        camssa:88a7fd38-d907-4cc9-a460-5c8221ebcc6b,
+        camssa:88b02bc9-15f5-4034-b99e-6e478eec0f80,
+        camssa:8a7c98cc-4a07-4aff-83d6-110f5545ec3a,
+        camssa:94006842-8419-4d8f-8bbf-380c4e969bb4,
+        camssa:955658b0-c54a-4cb0-89f8-979442e993b4,
+        camssa:9dc04d87-2331-48a6-99cf-47f3dfee5d50,
+        camssa:9eec8617-d99e-472d-a24c-a2202f6dc5bd,
+        camssa:b530b745-c76e-4a24-973d-287908838148,
+        camssa:b594fde0-d691-46aa-8148-e217cb46c29a,
+        camssa:b735d772-17e4-4a2e-9a4e-66b3e7a48c43,
+        camssa:b9969575-b128-486a-98f7-de2ab0f6c9f8,
+        camssa:c8f2e5d3-4eef-4174-8f35-215244854c14,
+        camssa:ce81056c-88ec-4645-b0fc-069c56cbeccb,
+        camssa:d205b686-43df-42b3-b190-2b1f8f08d373,
+        camssa:d677cb52-ffb2-4d0a-bb6d-f66f1b6fc90b,
+        camssa:e5ff5110-c0b9-41d9-8a77-bf010f924be3,
+        camssa:eb658410-1996-4882-9d54-028b100ab968,
+        camssa:ebe5bf4f-bb0a-4534-8242-04c2d54aaabd,
+        camssa:ed94d37b-4348-4f8f-8b73-5182fa1b85aa,
+        camssa:f6f49baf-c111-476f-9357-7d1e1bc6e050,
+        camssa:fd8e45b5-cd46-4537-8ab5-d7fdb442dc29 ;
+    cav:status status:Complete ;
+    dct:title "Service Metadata Publishing (SMP) Version 2.0"@en .
+
+camssa:01d9c042-88fa-4d47-86b4-47e43dd388c2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SMP is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:0f03438e-0775-4a20-bf54-56ccdebef6d6 .
+
+camssa:05b904e5-ecb1-485d-8383-df46a4521edc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:60c772f9-a610-424b-9ff7-b35b6c27d520 .
+
+camssa:0ba215da-583e-402a-aba4-e4a39fbab3b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0d605b9d-0cc0-4f97-945b-72d2c73ca147 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The version 1.0 of the specification, which is the previous version of the SMP, was identified within the List ICT technical specifications as reusable, meaning that the Service Metadata Publisher is considered. Even though the version being assessed is not the one identified, it can be considered that the SMP is listed within this repository at European Level.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:bea2e3eb-6a3e-420f-85fa-47c3d918b0c8 .
+
+camssa:0f03438e-0775-4a20-bf54-56ccdebef6d6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:1194b239-0689-41e4-afaf-b6cac7dd62ca a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "20"^^xsd:int .
+
+camssa:1345d373-e8c3-4eb9-92c9-770ec3f2d2bf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0ba215da-583e-402a-aba4-e4a39fbab3b6 .
+
+camssa:13fdbc14-8ead-42cb-a675-97d16b7d29d9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:30e0cb43-d86a-48a4-89b6-91ccfaf25e33 .
+
+camssa:162320c6-7669-4685-bfbf-b69882c0be24 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SMP is a business domain agnostic specification that can be reused in a cross-domain way.
+
+The specification:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505000"""@en ;
+    cav:refersTo camssa:5b336fa5-ba45-4724-8a31-5e1e307229ca .
+
+camssa:1a4f9214-f354-467d-a8d3-c6663fe76fc9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1c511b89-dabd-4ffe-aebf-a69e1c45b815 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1ff388c0-f5ac-4c19-b321-be8623309a5c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OASIS has defined a clear process where all the stakeholders involved have the opportunity to participate in the development of the specification development process. Moreover, there is a public review in the TC process.
+ 
+The specification:
+http://docs.oasis-open.org/xacml/3.0/xacml-3.0-core-spec-os-en.html"""@en ;
+    cav:refersTo camssa:20a96ff9-a2e9-4c6c-8e3b-6536b1a4b85a .
+
+camssa:20a96ff9-a2e9-4c6c-8e3b-6536b1a4b85a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:22f60309-8ba4-4f6f-9ca0-cdf6d1308184 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:30e0cb43-d86a-48a4-89b6-91ccfaf25e33 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:311f82b4-dc38-435d-a624-6bcb8d5ea763 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The SMP is aimed to ease the identification of parties in data exchange. This data exchange can be part of a public service delivered by European Institutions. By easing the discoverability and the connection between parties, the specifications can help and foster the delivery of European Public Services including multilingual ones.
+
+SMP OASIS reference:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505009"""@en ;
+    cav:refersTo camssa:1c511b89-dabd-4ffe-aebf-a69e1c45b815 .
+
+camssa:3d13c8d1-a965-41ea-a25e-bd7fefeaa279 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SMP seems to not be related to fostering the e-accessibility. Moreover, no information regarding this topic has been found to answer positively or negatively to the criterion. Therefore, this criterion does not apply to this specification. 
+
+The specification:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505000"""@en ;
+    cav:refersTo camssa:e96b5d94-81cd-4d07-b5ed-e9594b1e6c01 .
+
+camssa:3fe21965-274b-4736-ae72-38d1d55564a9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4ce80601-0907-4a3d-acac-662e40b6669e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the SMP in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:b59061ed-2e25-4abc-a96f-b9aceda6efdd .
+
+camssa:4d34d603-535e-4aad-a78b-f7adfad8384a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SMP can be implemented in any platform, and it is independent of any technology.
+
+The specification:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505000"""@en ;
+    cav:refersTo camssa:4e0ae87d-d74c-47fe-8b30-50bc8cd8ce8a .
+
+camssa:4e0ae87d-d74c-47fe-8b30-50bc8cd8ce8a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:4f91d3ec-ef56-4f68-a663-6b0a103c9122 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is a protocol focused on the transaction of data. Even though it is related to data exchange, and it is aimed to ensure the delivery of data, it is not involved in data portability amongst systems fostering the European Public Services.
+
+The specification:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505000"""@en ;
+    cav:refersTo camssa:50b6df5f-2f65-4764-8db0-6310625e1d85 .
+
+camssa:50b6df5f-2f65-4764-8db0-6310625e1d85 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "20"^^xsd:int .
+
+camssa:51ecfee4-8663-452b-85f3-719e4561540a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification has been evolved as part of its lifecycle and the previous version has been the basis for European Solutions regarding the development of interoperable services. This fact ensures that the specification reaches a proper market acceptance for its implementation for the development of products and services. 
+
+The specification:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505009"""@en ;
+    cav:refersTo camssa:a5c02272-182c-4da6-8dac-062b0e7e957a .
+
+camssa:52a7d103-998f-45be-a3df-ad6a86652f31 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "20"^^xsd:int .
+
+camssa:55af8a8d-1c5e-4b6c-bda8-fa5ef797a970 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification eases the identification of parties capabilities and information to make proper and reliable data exchange between parties. Therefore, by implementing the specification administrative information is clearer and available to every party interested.
+
+The specification:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505000"""@en ;
+    cav:refersTo camssa:3fe21965-274b-4736-ae72-38d1d55564a9 .
+
+camssa:5b336fa5-ba45-4724-8a31-5e1e307229ca a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5f9b89b4-3843-43cd-886a-90e3b1fe0e30 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SMP seems not to be related to long term preservation of electronic records. Moreover, no information has been found to answer positively or negatively to this criterion. Therefore, this criterion is considered not applicable to this specification. 
+
+SMP OASIS reference:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505009"""@en ;
+    cav:refersTo camssa:cf79e545-e859-46f7-8968-54c371f6d45c .
+
+camssa:60c772f9-a610-424b-9ff7-b35b6c27d520 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:616990da-80d3-4ccc-ae56-843d5b106435 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "20"^^xsd:int .
+
+camssa:6447954d-6798-4d00-9927-d7f6ad57e87f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SMP is maintained by OASIS which is an international community developing open standards. 
+
+The specification:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505000"""@en ;
+    cav:refersTo camssa:f20630c2-bc3f-466d-846f-08f26e588608 .
+
+camssa:663576f8-e933-4c48-ac20-6ba3374a84c8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:692cafaa-ab2e-4b29-a064-143899e019aa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6ced7a27-98ea-4499-9111-823fcaa9130e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:6ecde522-169a-4143-bba8-9f257b302d4f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:71fa1a1c-9393-451d-93e9-501cc32c925b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:77e3c8fb-a495-4338-94ff-8f5f1b8d2001 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no Member States recommending SMP in their ICT National Catalogues.
+ 
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:aa54014f-dc2d-44d8-8691-1f8ae7825420 .
+
+camssa:7d3ac450-d22c-41c9-bb46-0db890fbb53f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:7f3f82c3-6e63-4d54-bc72-3442441fa232 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:81ca49c1-06f1-4941-899b-f6e3c6b0d1c7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:a381863e-b0bb-422d-b05b-1e84a22e423a .
+
+camssa:83cdc67e-e02f-4492-a408-e0b9d5f2d773 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the SMP in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:663576f8-e933-4c48-ac20-6ba3374a84c8 .
+
+camssa:8509eff0-0eb0-4232-bf8a-40ccaa64be0d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SMP is not included in any national catalogue of recommended specifications whose Member State NIF is fully aligned with at least 4 out of 5 sections of the EIF according to NIFO factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:a0fddb54-f9f1-4de8-9a4e-74869561587a .
+
+camssa:864200ed-e953-4ca9-8b71-e33094dc7f8f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Service Metadata Publishing describes also the binding of the specification with the REST interfaces for the Service Metadata Publication within a 4-Corner network. Therefore, the specification fosters the availability of interfaces containing information from the different parties involved in a 4-corner network.
+
+The specification:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505000"""@en ;
+    cav:refersTo camssa:f7ca672a-ee87-422c-a320-ca6927c0be29 .
+
+camssa:86d2e21c-d254-44fc-9b62-724d14fc503f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Even though the specification is related to the use and publication of metadata, it is not directly related to the publication of open data. The relation with metadata and its publication is focused on the availability and discoverability of access points and different parties for the exchange of data. 
+
+SMP OASIS reference:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505009
+
+Five star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html"""@en ;
+    cav:refersTo camssa:dd7cfec5-61fa-4545-b734-d9da5bce48ce .
+
+camssa:87cb76a7-6b93-4bca-ad66-717cb2ad5d3c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The OASIS Royalty-Free IPR licenses granted under the OASIS Patent Policy apply to all OASIS specifications, including SMP.
+
+OASIS Case Study Guidelines:
+https://www.oasis-open.org/policies-guidelines/casestudies"""@en ;
+    cav:refersTo camssa:692cafaa-ab2e-4b29-a064-143899e019aa .
+
+camssa:88a7fd38-d907-4cc9-a460-5c8221ebcc6b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:22f60309-8ba4-4f6f-9ca0-cdf6d1308184 .
+
+camssa:88b02bc9-15f5-4034-b99e-6e478eec0f80 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SMP can be implemented in any platform, and it is independent of any technology.
+
+The specification:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505000"""@en ;
+    cav:refersTo camssa:7f3f82c3-6e63-4d54-bc72-3442441fa232 .
+
+camssa:8a7c98cc-4a07-4aff-83d6-110f5545ec3a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f26292a8-896b-43f2-a4c5-07c15abb13da .
+
+camssa:94006842-8419-4d8f-8bbf-380c4e969bb4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The OASIS Royalty-Free IPR licenses granted under the OASIS Patent Policy apply to all OASIS specifications, including SMP.
+
+OASIS Case Study Guidelines:
+https://www.oasis-open.org/policies-guidelines/casestudies"""@en ;
+    cav:refersTo camssa:9b533302-c2eb-44a3-98ba-037c4c4568d0 .
+
+camssa:955658b0-c54a-4cb0-89f8-979442e993b4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f4d5ed6b-2e6e-4afb-8954-ec83980d4374 .
+
+camssa:997dd5de-148a-4f9c-a348-35a13c53b1f6 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "NaN"^^xsd:double .
+
+camssa:998bacab-3906-47df-bc16-18411aa13ba3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:9b533302-c2eb-44a3-98ba-037c4c4568d0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9dc04d87-2331-48a6-99cf-47f3dfee5d50 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification was initially developed in 2017 with its initial version 1.0. It was used as the basis for the development of European Specifications and building blocks enhancing the development of public services. However, the version analysed is 2.0 which was released by January 2020. For this reason the specification is not sufficiently mature for its use.
+
+The specification:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505009"""@en ;
+    cav:refersTo camssa:1194b239-0689-41e4-afaf-b6cac7dd62ca .
+
+camssa:9eec8617-d99e-472d-a24c-a2202f6dc5bd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:e2d4da39-cd4f-42b3-a47f-826f663da724 .
+
+camssa:a0fddb54-f9f1-4de8-9a4e-74869561587a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:a381863e-b0bb-422d-b05b-1e84a22e423a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a5b2a523-35bf-4ff1-ba7d-f4ffcd701531 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a5c02272-182c-4da6-8dac-062b0e7e957a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:aa54014f-dc2d-44d8-8691-1f8ae7825420 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:b530b745-c76e-4a24-973d-287908838148 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is a protocol focused on the transaction of data. Even though it is related to data exchange, and it is aimed to ensure the delivery of data, it is not involved in data portability amongst systems fostering the European Public Services.
+
+The specification:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505000"""@en ;
+    cav:refersTo camssa:52a7d103-998f-45be-a3df-ad6a86652f31 .
+
+camssa:b59061ed-2e25-4abc-a96f-b9aceda6efdd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:b594fde0-d691-46aa-8148-e217cb46c29a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SMP is a business domain agnostic specification that can be reused in a cross-domain way.
+
+The specification:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505000"""@en ;
+    cav:refersTo camssa:71fa1a1c-9393-451d-93e9-501cc32c925b .
+
+camssa:b735d772-17e4-4a2e-9a4e-66b3e7a48c43 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:bd704bac-7234-4e55-aadf-fb97e7616fe0 .
+
+camssa:b9969575-b128-486a-98f7-de2ab0f6c9f8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The SMP has been used as the basis for the development of the eDelivery SMP specification, which in turn is the basis for the implementation of the CEF eDelivery Building Block. The CEF eDelivery Building Block helps public administrations to exchange information with stakeholders (e.g. other administrations, businesses or citizens).
+
+eDelivery SMP specification: 
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+SMP
+
+CEF eDelivery Building Block: 
+https://ec.europa.eu/inea/sites/inea/files/building_block_dsi-introdocument_edelivery_v1_00.pdf"""@en ;
+    cav:refersTo camssa:bb364961-5d40-4b50-a07c-ae4d86e90df8 .
+
+camssa:bb364961-5d40-4b50-a07c-ae4d86e90df8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bbbb59f1-ebe6-4e0b-ad4b-03573ae92021 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:bd704bac-7234-4e55-aadf-fb97e7616fe0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:bea2e3eb-6a3e-420f-85fa-47c3d918b0c8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c8f2e5d3-4eef-4174-8f35-215244854c14 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6ecde522-169a-4143-bba8-9f257b302d4f .
+
+camssa:ce81056c-88ec-4645-b0fc-069c56cbeccb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OASIS has defined a clear Technical Committee (hereby TC) process where all the stakeholders involved have the opportunity to participate in the development of the specification development process.
+
+OASIS guideline:
+https://www.oasis-open.org/policies-guidelines/casestudies"""@en ;
+    cav:refersTo camssa:6ced7a27-98ea-4499-9111-823fcaa9130e .
+
+camssa:cf79e545-e859-46f7-8968-54c371f6d45c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:d205b686-43df-42b3-b190-2b1f8f08d373 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SMP is already associated to an EIRA ABB in the European Library Of Specifications (ELIS). More specifically, SMP can define the interoperability aspects of the "Service Delivery Model" ABBs of the EIRA Organisational View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
+    cav:refersTo camssa:7d3ac450-d22c-41c9-bb46-0db890fbb53f .
+
+camssa:d677cb52-ffb2-4d0a-bb6d-f66f1b6fc90b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The implementation of SMP can ease the implementation of the Once-Only principle. Since the specification is related to ease the identification of services and the exchange of data, it can be useful for administrations to reuse and exchange information already available reducing the interactions that users need to do with them.
+
+The specification:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505000"""@en ;
+    cav:refersTo camssa:1a4f9214-f354-467d-a8d3-c6663fe76fc9 .
+
+camssa:dd7cfec5-61fa-4545-b734-d9da5bce48ce a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "20"^^xsd:int .
+
+camssa:e2d4da39-cd4f-42b3-a47f-826f663da724 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e5ff5110-c0b9-41d9-8a77-bf010f924be3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification defines how different parties and transactions have to be done in order to allow proper discoverability and data exchanges. Therefore, it is defining organisational requirements for the data transaction between two or more parties.
+
+SMP OASIS reference:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505009"""@en ;
+    cav:refersTo camssa:fcfb1575-ef58-4de1-8dfd-257befb07733 .
+
+camssa:e96b5d94-81cd-4d07-b5ed-e9594b1e6c01 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:eb658410-1996-4882-9d54-028b100ab968 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:bbbb59f1-ebe6-4e0b-ad4b-03573ae92021 .
+
+camssa:ebe5bf4f-bb0a-4534-8242-04c2d54aaabd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The message returned by a Service Metadata Publisher service is signed using one or more [XML-DSIG1] XML-Signatures. Moreover, the purpose of the specification is to ease and ensure the discoverability of different parties to exchange the desired information. The specification defines a set of requirements regarding the authentication of parties that ensures secure and trustworthy data exchange.
+
+The specification:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505000"""@en ;
+    cav:refersTo camssa:ee71d323-aaa5-4726-9d25-3e969257e052 .
+
+camssa:ed94d37b-4348-4f8f-8b73-5182fa1b85aa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The SMP eases and fosters the discoverability of administrations data or services to others that can be administrations or other stakeholders. Easing this communication the specification allows different parties to discover others' capabilities and information to exchange documents amongst them. This fact increases the visibility of administrations' data and also improves and helps the decision-making processes.
+
+The specification:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505000"""@en ;
+    cav:refersTo camssa:998bacab-3906-47df-bc16-18411aa13ba3 .
+
+camssa:ee71d323-aaa5-4726-9d25-3e969257e052 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f20630c2-bc3f-466d-846f-08f26e588608 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f26292a8-896b-43f2-a4c5-07c15abb13da a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:f4d5ed6b-2e6e-4afb-8954-ec83980d4374 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:f6f49baf-c111-476f-9357-7d1e1bc6e050 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Even though the specification defines conformance criteria, no testing mechanism or tool has been found to validate an SMP implementation. 
+
+The specification:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505000"""@en ;
+    cav:refersTo camssa:616990da-80d3-4ccc-ae56-843d5b106435 .
+
+camssa:f7ca672a-ee87-422c-a320-ca6927c0be29 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:fcfb1575-ef58-4de1-8dfd-257befb07733 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fd8e45b5-cd46-4537-8ab5-d7fdb442dc29 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SMP is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+SMP OASIS reference:
+https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html#_Toc30505009"""@en ;
+    cav:refersTo camssa:a5b2a523-35bf-4ff1-ba7d-f4ffcd701531 .
+

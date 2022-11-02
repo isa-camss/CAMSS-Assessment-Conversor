@@ -1,0 +1,653 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:53708deeb74526bc7eb4486db003af23af4056a5ded8f515afebe083601f5909 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:94120719cde2555408f1875b809aa1dd6c3b1762b9390648a9fa5b7cb62e0a5c ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:0d3d768c-2905-4bba-b9e6-59142ce30667,
+        camssa:12e67296-d228-476f-a121-4aa0203dcd21,
+        camssa:149c2a92-0f78-4b25-b705-ad3a2b586caa,
+        camssa:1788c3b9-4d99-4b91-accc-75e107c898b9,
+        camssa:1ac1f1c6-2080-4c9f-84ff-f283581a11bf,
+        camssa:1e4e812d-9ec2-4f7e-9526-46a51620517a,
+        camssa:1e52f254-8056-41da-b63d-4750b7943054,
+        camssa:1efd50e2-9952-4171-a8d5-430981aeb5dc,
+        camssa:288ffedb-b938-47e4-b6c1-b30ccfc6bb12,
+        camssa:2b823c90-1c33-49a1-95a0-6cfcac3d0713,
+        camssa:2f56edaf-2ec9-4cc7-aaa9-288b28483789,
+        camssa:34529cc6-33fe-491e-95db-ac7be6857a67,
+        camssa:365a0ba5-d71d-4b48-a275-a18cc8b07fb2,
+        camssa:3cef8ea0-9384-4d77-92d4-4e90843ce19e,
+        camssa:419182cf-419f-4f7d-b095-7f00c72f5ee6,
+        camssa:46a0b502-b827-45a8-8ead-d55d2fc77228,
+        camssa:47f9bff4-f3f4-4f89-86fa-5d174fc610b0,
+        camssa:48143f8e-1b4c-453b-93fc-2090805637de,
+        camssa:487cdb75-ea65-4296-b15a-32132d79474b,
+        camssa:49a0edd3-5660-4086-842b-1dd400ddb8b0,
+        camssa:49f0f1d4-4917-4308-bcf2-25a3a8fe1ead,
+        camssa:4f6970ce-0d28-45a8-a7aa-484859f9c2a8,
+        camssa:5898c703-ce4e-464a-8000-62ca4a17822f,
+        camssa:58ea86c5-201d-4298-a1bb-1ad4f92e60e9,
+        camssa:726b5044-631e-43d0-8365-06a88a7bf0b8,
+        camssa:7ceb742a-7c87-4068-9eb9-2b0acc03f510,
+        camssa:807bc7ab-b7d3-4c74-8cb1-e5fc30a606f3,
+        camssa:8713470a-732b-422e-bb8b-fd580a96cc8b,
+        camssa:93f19bd7-c7b8-4211-ab86-024739b610dd,
+        camssa:96589175-509d-4698-99a1-4c8e12fa7b29,
+        camssa:98723bd4-1bdb-4518-a28d-731b02cd4192,
+        camssa:99024d4e-f271-4da5-987a-f99f6a4b8141,
+        camssa:b20bcf5e-6bfb-40cc-b78b-f7da17459d2e,
+        camssa:c6813d5f-f3e2-49a9-b9aa-73b5806890e2,
+        camssa:d09ada08-57c1-4cba-b6aa-940865866ed1,
+        camssa:d9a800b9-e611-4e19-a3c1-091411382af3,
+        camssa:df594da9-45f6-4790-a83b-cd2aa2cfd0e4,
+        camssa:e92a82c9-b75c-426b-a335-3922bc513fca,
+        camssa:e9f290f2-e53b-47fc-a158-141bcd3ad830,
+        camssa:eb990b2e-df63-4c67-b5d8-d4eda0ccd779,
+        camssa:ed3406f9-ea01-4fd2-8ced-3687275bf135,
+        camssa:ef1bae9d-d252-4f8a-847a-652417fa3fea,
+        camssa:f993cded-f20f-4365-a1bb-7b6c0c78e096,
+        camssa:ff1ee52d-d2ab-4d65-ac88-58e09150978e ;
+    cav:status status:Complete ;
+    dct:title "IETF Time Stamp Protocol RFC 3161"@en .
+
+camssa:dc03fdba33ba33606e802b3a6b6fe67c2f21945bf21daee58012b477e0de91aa a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:d7643d9a-362e-43d1-9015-f35036d584dd ;
+    skos:prefLabel "Camss Team"@en .
+
+camssa:03607458-b219-47e4-8c3e-00d6f9ffbead a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "20"^^xsd:int .
+
+camssa:0551f2bc-b168-444e-9091-d04c27142d64 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:08c01f5f-e46f-4e4c-bea5-b08ee56deab4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:0c29fc27-e03a-4b6f-84e3-6ec41c3c272a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:0d3d768c-2905-4bba-b9e6-59142ce30667 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF 3161 Time Stamp Protocol (TSP) is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, IETF 3161 Time-Stamp Protocol (TSP) can define the interoperability aspects of the " e-Timestamp Creation Service", and “e-Timestamp Verification and Validation Service”  ABBs of the EIRA Technical View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/solution/elis/release/v100
+"""@en ;
+    cav:refersTo camssa:c309bc87-c39d-4f57-936b-5a4c82fbee47 .
+
+camssa:12e67296-d228-476f-a121-4aa0203dcd21 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, TSP is  a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. FTP is licensed on a F(RAND) basis.
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:9e5d9943-131a-4724-8d82-2ff470cdc82d .
+
+camssa:149c2a92-0f78-4b25-b705-ad3a2b586caa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:49114e92-0353-497f-aef7-236115c1c99d .
+
+camssa:1788c3b9-4d99-4b91-accc-75e107c898b9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After carrying out the reserch of conformity test or certifications, an open tool that allows testing with time stamping commands helping to ensure that the implementations are properly developed has been found.
+
+TSP certification tool:
+https://www.freetsa.org/index_en.php
+
+OpenSSL:
+https://www.openssl.org/docs/manmaster/man1/ts.html"""@en ;
+    cav:refersTo camssa:dcd031f2-d144-4431-9438-efa9ef1b7a7b .
+
+camssa:1869b42d-6320-4e6b-b281-58ba14ee9d8f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1ac1f1c6-2080-4c9f-84ff-f283581a11bf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of TSP is not related to organisational interoperability.  Therefore, this criterion is not applicable to the specification. 
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:c4c00bc9-ab89-47b8-a204-aa2ff3c0efb0 .
+
+camssa:1b17b09d-6277-497b-9326-cb798e83bd86 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:1e4e812d-9ec2-4f7e-9526-46a51620517a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specifications is not related to the visibility of administrative information, data or services. Therefore, this criterion is not applicable to this specification.
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:645f80b3-add8-40c5-a466-88b051f8ef03 .
+
+camssa:1e52f254-8056-41da-b63d-4750b7943054 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The European Union Agency For Network And Information Security includes within a set of guidelines for implementing qualified electronic time stamps. That means that the specification, as part of this set of guidelines, is recommended when handling Timestamps.
+
+ENISA Security guidelines on the appropriate use of qualified electronic time stamps: 
+
+https://security.stackexchange.com/questions/173652/how-to-timestamp-a-document-without-electronic-signature-under-eidas """@en ;
+    cav:refersTo camssa:991af074-945b-4556-89ed-9b9103ad3e1f .
+
+camssa:1efd50e2-9952-4171-a8d5-430981aeb5dc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:ed076cdc-05dc-44c4-be92-8aea009c84c7 .
+
+camssa:219250fb-3ea0-4c70-989c-960dc22264de a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:288ffedb-b938-47e4-b6c1-b30ccfc6bb12 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Time-Stamp Protocol, or TSP is a cryptographic protocol for certifying timestamps using X.509 certificates and public key infrastructure. The timestamp is the signer's assertion that a piece of electronic data existed at or before a particular time.
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:c4e919b1-d392-4fce-bc51-e844a3aff62e .
+
+camssa:2b730236-803f-48fe-8206-44c356f14bf6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:2b823c90-1c33-49a1-95a0-6cfcac3d0713 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are several studies and documentation analysing the use of the IETF Time Stamp Protocol with different purposes and putting emphasis on its usage as an efficient way to implement Time-stamp services. 
+
+Design and Implementation of a RFC3161-Enhanced Time-Stamping Service:
+https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.101.7115&rep=rep1&type=pdf
+
+Study about the impementation of Secure Time Stamp Device:
+https://www.sans.org/reading-room/whitepapers/vpns/analysis-secure-time-stamp-device-746"""@en ;
+    cav:refersTo camssa:c0a55268-c857-44d3-8211-7c6c03c2aedb .
+
+camssa:2f56edaf-2ec9-4cc7-aaa9-288b28483789 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:b5736ce0-20e2-4903-8614-77c6ac3df952 .
+
+camssa:34529cc6-33fe-491e-95db-ac7be6857a67 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a formal review and approval so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
+
+Each distinct version of an Internet standards-related specification is published as part of the "Request for Comments" (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications.
+
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's "Internet-Drafts" directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.
+
+IETF Reference: 
+https://www.ietf.org/standards/process/ 
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:d8a33cf3-6ed6-4b5a-be50-1cdfee55f823 .
+
+camssa:361a5a98-5620-4711-b982-e6f23eeeeefb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:365a0ba5-d71d-4b48-a275-a18cc8b07fb2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is a protocol focused on the transaction of data, specifically on the certification of certain data, information or documents which either exist or not. Even though its relation to the data exchange, the specification is not related to data portability in itself, but the data trustworthy exchange amongst Systems and European Public Services.
+
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:03607458-b219-47e4-8c3e-00d6f9ffbead .
+
+camssa:36e3aec6-b289-45e0-a120-e6565c8072ea a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3cef8ea0-9384-4d77-92d4-4e90843ce19e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no Member States recommending TSP in their ICT National Catalogues.
+ 
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:2b730236-803f-48fe-8206-44c356f14bf6 .
+
+camssa:419182cf-419f-4f7d-b095-7f00c72f5ee6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of TSP is not related to e-accessibility. Therefore, this criterion is considered not applicable specification. 
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:7bf30bc5-9724-4415-b1ec-f6e90c4d0e3c .
+
+camssa:46a0b502-b827-45a8-8ead-d55d2fc77228 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included within the EIRA Interoperability Specification Library (ELIS) listed as a possible specification to be used for implementing two of EIRA's ABBs. 
+
+Also, IETF 3161 Time Stamp Protocol (TSP) is considered as the basis of the European Standard Electronic Signatures and Infrastructures (ESI); Time-stamping protocol and time-stamp token profiles from ETSI. Within the document, it is recognised as the basis to which ETSI standard applied constraints.
+
+ETSI Catalogue: 
+https://www.etsi.org/standards-search#Pre-defined%20Collections
+
+ETSI EN 319 422:
+Electronic Signatures and Infrastructures (ESI);
+Time-stamping protocol and time-stamp token profiles 
+"""@en ;
+    cav:refersTo camssa:e475ed93-39c9-4c25-b62e-3b2042ed1551 .
+
+camssa:47f9bff4-f3f4-4f89-86fa-5d174fc610b0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of TSP is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:bd089e75-e461-46c3-a3ce-8cad0229d1ac .
+
+camssa:48143f8e-1b4c-453b-93fc-2090805637de a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of TSP is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to the specification. 
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:98874ee8-534d-4da3-9593-fcd488f20ba6 .
+
+camssa:487cdb75-ea65-4296-b15a-32132d79474b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0551f2bc-b168-444e-9091-d04c27142d64 .
+
+camssa:48a4cee4-280e-42a9-b39b-e5a6cc3fb914 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:49109c85-5872-4df1-bb50-8f4101968cc1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "20"^^xsd:int .
+
+camssa:49114e92-0353-497f-aef7-236115c1c99d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:49a0edd3-5660-4086-842b-1dd400ddb8b0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are several studies and documentation analysing the use of the IETF Time Stamp Protocol with different purposes and putting emphasis on its usage as an efficient way to implement Time-stamp services. 
+
+Design and Implementation of a RFC3161-Enhanced Time-Stamping Service:
+https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.101.7115&rep=rep1&type=pdf
+
+Study about the impementation of Secure Time Stamp Device:
+https://www.sans.org/reading-room/whitepapers/vpns/analysis-secure-time-stamp-device-746"""@en ;
+    cav:refersTo camssa:7bbe34f1-259f-407f-beef-4647f34e0d8c .
+
+camssa:49f0f1d4-4917-4308-bcf2-25a3a8fe1ead a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF is a consensus-based group, and authority to act on behalf of the community requires a high degree of consensus and the continued consent of the community. The process of creating an Internet Standard is straightforward: a specification undergoes a period of development and several iterations of review by the Internet community and revision based upon experience is adopted as a Standard by the appropriate body and is published. In practice, the process is more complicated, due to (1) the difficulty of creating specifications of high technical quality; (2) the need to consider the interests of all of the affected parties; (3) the importance of establishing widespread community consensus; and (4) the difficulty of evaluating the utility of a particular specification for the Internet community. The goals of the Internet Standards Process are:
+- Technical excellence;
+- prior implementation and testing;
+- clear, concise, and easily understood documentation;
+- openness and fairness; and 
+- timeliness.
+The goal of technical competence, the requirement for prior implementation and testing, and the need to allow all interested parties to comment all require significant time and effort. The Internet Standards Process is intended to balance these conflicting goals. The process is believed to be as short and simple as possible without sacrificing technical excellence, through testing before adoption of a standard, or openness and fairness.
+
+IETF Reference: 
+https://www.ietf.org/standards/process/"""@en ;
+    cav:refersTo camssa:cce81aa7-629d-417a-b009-acd2401a13c5 .
+
+camssa:4f6970ce-0d28-45a8-a7aa-484859f9c2a8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is a protocol focused on the transaction of data, specifically on the certification of certain data, information or documents which either exist or not. Even though its relation to the data exchange, the specification is not related to data portability in itself, but the data trustworthy exchange amongst Systems and European Public Services.
+
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:49109c85-5872-4df1-bb50-8f4101968cc1 .
+
+camssa:5641bcd0-b87a-48b3-a79a-cb4a1b1b6392 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5898c703-ce4e-464a-8000-62ca4a17822f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specifications is not related to the comprehensibility of administrative information, data or services. Therefore, this criterion is not applicable to this specification.
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:a1825cd2-cff6-4a92-bc87-34fdcd3a97ba .
+
+camssa:58ea86c5-201d-4298-a1bb-1ad4f92e60e9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TSP is a business domain agnostic specification that can be reused in a cross-domain way.
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:6491c634-5c15-4293-87c6-05cb67c068ba .
+
+camssa:614e2711-2d5e-49cd-a0f4-7c9268f0cbbf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:623641a1-d5ef-4a58-9993-31f95c320698 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:6257c23e-4905-440e-9ba6-213fd6f55e5c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:64347b1b-d7b7-49c4-a99a-eeaa1692fffa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:645f80b3-add8-40c5-a466-88b051f8ef03 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:6491c634-5c15-4293-87c6-05cb67c068ba a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:726b5044-631e-43d0-8365-06a88a7bf0b8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:cc340e65-c688-4561-ba10-3032d885d625 .
+
+camssa:791934f7-2972-4769-926d-6574282e7561 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7b2ddb38-4dc9-4e94-932b-b4f00813497b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7bbe34f1-259f-407f-beef-4647f34e0d8c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7bf30bc5-9724-4415-b1ec-f6e90c4d0e3c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7ceb742a-7c87-4068-9eb9-2b0acc03f510 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TSP is not included in any national catalogue of recommended specifications whose Member State NIF is fully aligned with at least 4 out of 5 sections of the EIF according to NIFO factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:98ae1f29-adc5-443d-b326-21a63ab0bc56 .
+
+camssa:807bc7ab-b7d3-4c74-8cb1-e5fc30a606f3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TSP can be implemented in any platform and it is independent of any technology.
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:ce4a1954-edc3-4ec8-8b5c-5080f8487a96 .
+
+camssa:8713470a-732b-422e-bb8b-fd580a96cc8b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is used for the certification of time-stamps, which provides information about the creation or modifications of certain documentation or data, it can be used when archiving electronic records as a manner to preserve the integrity of such data. Therefore, the IETF 3161 Time Stamp Protocol (TSP) fosters the preservation of electronic documents by providing a mechanism for clearly identify time stamps for these electronic documents. 
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:48a4cee4-280e-42a9-b39b-e5a6cc3fb914 .
+
+camssa:93f19bd7-c7b8-4211-ab86-024739b610dd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:623641a1-d5ef-4a58-9993-31f95c320698 .
+
+camssa:96589175-509d-4698-99a1-4c8e12fa7b29 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Time-Stamp Protocol (TSP)  is widely used and implemented in the context of application, transport, internet and link layers as FTP or IP. Moreover, there are several implementations of the specification that support the market acceptance of TSP.
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:e63edeac-b801-4aa3-8859-238f481811ec .
+
+camssa:98723bd4-1bdb-4518-a28d-731b02cd4192 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6257c23e-4905-440e-9ba6-213fd6f55e5c .
+
+camssa:98874ee8-534d-4da3-9593-fcd488f20ba6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:98ae1f29-adc5-443d-b326-21a63ab0bc56 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:99024d4e-f271-4da5-987a-f99f6a4b8141 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TSP is a business domain agnostic specification that can be reused in a cross-domain way.
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:5641bcd0-b87a-48b3-a79a-cb4a1b1b6392 .
+
+camssa:991af074-945b-4556-89ed-9b9103ad3e1f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9e5d9943-131a-4724-8d82-2ff470cdc82d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a1825cd2-cff6-4a92-bc87-34fdcd3a97ba a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b20bcf5e-6bfb-40cc-b78b-f7da17459d2e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TSP can be implemented in any platform and it is independent of any technology.
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:1869b42d-6320-4e6b-b281-58ba14ee9d8f .
+
+camssa:b5736ce0-20e2-4903-8614-77c6ac3df952 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:bd089e75-e461-46c3-a3ce-8cad0229d1ac a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c0a55268-c857-44d3-8211-7c6c03c2aedb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c309bc87-c39d-4f57-936b-5a4c82fbee47 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:c4c00bc9-ab89-47b8-a204-aa2ff3c0efb0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c4e919b1-d392-4fce-bc51-e844a3aff62e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c6813d5f-f3e2-49a9-b9aa-73b5806890e2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, TSP is  a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. TSP is therefore licensed on a royalty-free basis.
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:36e3aec6-b289-45e0-a120-e6565c8072ea .
+
+camssa:cc340e65-c688-4561-ba10-3032d885d625 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cce81aa7-629d-417a-b009-acd2401a13c5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ce4a1954-edc3-4ec8-8b5c-5080f8487a96 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:d09ada08-57c1-4cba-b6aa-940865866ed1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Since the specification is directly related with the certification of existing data, it can help administrations with the implementation of the once-only principle. Allowing the reuse of existing data that has been certified, the specification can avoid administrations asking for same certified references in procurement, for instance.
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:f08fa939-3f81-42fd-9f3a-b677272886a7 .
+
+camssa:d7643d9a-362e-43d1-9015-f35036d584dd a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "NaN"^^xsd:double .
+
+camssa:d8a33cf3-6ed6-4b5a-be50-1cdfee55f823 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:d9a800b9-e611-4e19-a3c1-091411382af3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specifications is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification.
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:0c29fc27-e03a-4b6f-84e3-6ec41c3c272a .
+
+camssa:dcd031f2-d144-4431-9438-efa9ef1b7a7b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:df594da9-45f6-4790-a83b-cd2aa2cfd0e4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TSP is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:361a5a98-5620-4711-b982-e6f23eeeeefb .
+
+camssa:e475ed93-39c9-4c25-b62e-3b2042ed1551 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e63edeac-b801-4aa3-8859-238f481811ec a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e92a82c9-b75c-426b-a335-3922bc513fca a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TSP is developed and maintained by IETF, a widely recognised open international community developing standards to enhance the internet. 
+
+IETF Reference: 
+https://www.ietf.org/
+
+TSP IETF reference: 
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:614e2711-2d5e-49cd-a0f4-7c9268f0cbbf .
+
+camssa:e9f290f2-e53b-47fc-a158-141bcd3ad830 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:7b2ddb38-4dc9-4e94-932b-b4f00813497b .
+
+camssa:eb990b2e-df63-4c67-b5d8-d4eda0ccd779 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:219250fb-3ea0-4c70-989c-960dc22264de .
+
+camssa:ed076cdc-05dc-44c4-be92-8aea009c84c7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:ed3406f9-ea01-4fd2-8ced-3687275bf135 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:1b17b09d-6277-497b-9326-cb798e83bd86 .
+
+camssa:ef1bae9d-d252-4f8a-847a-652417fa3fea a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of TSP is not related to the publication of public data as linked open data. Therefore, this criterion is not applicable to this specification.
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161
+
+Five star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html"""@en ;
+    cav:refersTo camssa:791934f7-2972-4769-926d-6574282e7561 .
+
+camssa:f08fa939-3f81-42fd-9f3a-b677272886a7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f993cded-f20f-4365-a1bb-7b6c0c78e096 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:64347b1b-d7b7-49c4-a99a-eeaa1692fffa .
+
+camssa:ff1ee52d-d2ab-4d65-ac88-58e09150978e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Time-Stamp Protocol (TSP) was defined in 2001 and is a cryptographic protocol for certifying timestamps using X.509 certificates and public key infrastructure. Therefore, it is demonstrated that TSP has enough maturity for its use in the development of products and services.
+
+TSP IETF reference:
+https://tools.ietf.org/html/rfc3161"""@en ;
+    cav:refersTo camssa:08c01f5f-e46f-4e4c-bea5-b08ee56deab4 .
+

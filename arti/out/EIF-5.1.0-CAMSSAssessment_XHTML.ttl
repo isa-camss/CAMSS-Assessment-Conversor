@@ -1,0 +1,630 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:d4496e960ce9e5937f4dc69bbe8311a9f7d88de84aa5b44db6a1d2f643374de7 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:eac80d18d00c07fc17567f3fa106420425e82feb933d55da39281d6cebc0b8fd ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:03de4630-e63e-47dc-9492-ff04b5b37ad3,
+        camssa:057e8c69-a441-4ccc-8dba-09d6d2d54d39,
+        camssa:0c3d1669-36cb-4ce3-9bf4-4883a5925e27,
+        camssa:1049e9a4-ba89-4f7d-95ec-af40c1c59e57,
+        camssa:128352ca-9a38-4f35-853d-a6cc47bdf398,
+        camssa:1bda9ddb-b554-4635-91be-cd388b131c6d,
+        camssa:1f0d368c-8a92-4402-bbc1-7c1313109dd7,
+        camssa:2441a03a-0ee5-48a5-83eb-ef8c8791fa4a,
+        camssa:26fc3d28-52f3-427b-9958-c032ca3ad530,
+        camssa:29a733f1-4096-4632-99a1-4e20fd2e89e0,
+        camssa:2bcc0b5b-67db-4a95-a2a7-c011b24935a3,
+        camssa:2cb5d8e9-b79a-4c23-9391-792f6af13847,
+        camssa:2e0b5bf6-ab9b-46f1-bb86-4e22dc20c332,
+        camssa:32ab9cc0-bf43-42f0-b324-e19c39578127,
+        camssa:3ab15a16-9bdd-4d9e-ace8-d9893bdf5e10,
+        camssa:3f1ffcb9-5055-4217-aaa9-ce1a52853eb3,
+        camssa:4283e198-036f-4130-82cc-8dc345f6a53b,
+        camssa:43011766-b9ca-4eb8-8d08-309ebc6e17c2,
+        camssa:4592b9d7-70a1-4f49-9f5d-1f60c1868dd8,
+        camssa:4a6ef1df-3801-450d-b1eb-e9c2f488f9cd,
+        camssa:4e83296a-fe27-400f-90ff-c6c8ab832399,
+        camssa:567491fd-f6f9-47cc-b09a-bdbc8bed7eba,
+        camssa:58c599f4-38ae-41d0-b266-dd17c7c55527,
+        camssa:66e1111b-cde9-4f23-98d6-4c6fb082758a,
+        camssa:76278ab8-a3f4-468d-a598-e07eeb7b9b49,
+        camssa:7a9a3379-d52b-4ee0-a4d2-1ed07a0c8a11,
+        camssa:7fc6f6a9-9dcc-49ca-84e5-7b2113b36cb9,
+        camssa:863fa71d-8290-4a39-a7d8-2e500a7bea6e,
+        camssa:8aff0132-07d6-4a0c-8761-a5df9e331c4f,
+        camssa:8e00e469-3d57-4afc-97d5-507ea94bbc78,
+        camssa:9e391f70-d644-4b17-b54a-8da1c2c715f5,
+        camssa:a924688e-be21-40cf-a96f-4ea6948a6b57,
+        camssa:af0c9379-096e-4bf3-bd3e-90ee54a06c33,
+        camssa:b0cb4b28-2aa1-41f8-b036-09dc70036dc2,
+        camssa:be28f392-da8c-4f4b-8ba3-3a4e5a4d82bc,
+        camssa:bf0cb22b-7dd4-4983-8c90-030195b0edcd,
+        camssa:c6b442da-6f6f-4313-b38d-b3fea9cfd8a2,
+        camssa:c8e3682e-5037-4e2b-8433-9f7d238eeb06,
+        camssa:cd703895-22b7-4821-a146-83267a86bf64,
+        camssa:e4e88cb3-ddee-43b1-9741-ec2a80812120,
+        camssa:e9ca23be-3e5a-4c4b-b8ca-f8cf2bc9013b,
+        camssa:f9e02d2e-f19e-4a07-8dd1-d7d4645ceb11,
+        camssa:fb756305-4403-4e9e-ab72-9f06e31a8b27,
+        camssa:fb86df8e-ba77-4948-9760-95e2e7be0613 ;
+    cav:status status:Complete ;
+    dct:title "Extensible HyperText Markup Language (XHTML) v1.0"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:6222500a-c86d-47e4-a915-d6d6a444e8e9 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:03de4630-e63e-47dc-9492-ff04b5b37ad3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XHTML is maintained by W3C which is an international community developing open standards. 
+
+Developer community W3C:
+https://www.w3.org/Consortium/"""@en ;
+    cav:refersTo camssa:92cfe485-1b22-4e8d-a9c7-a0a835fa50c8 .
+
+camssa:057e8c69-a441-4ccc-8dba-09d6d2d54d39 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """When XHTML became W3C recommendation it had a good acceptance, but when HTML5 appeared, its use has been decreased considerably. In the following link there is a comparison of usage of the different HTML languages and it can be seen that XHTML 1.0 is declining more and more while HTML5 is increasing.
+
+XHTML trend:
+https://try.powermapper.com/Stats/HtmlVersions"""@en ;
+    cav:refersTo camssa:ae907c90-7390-475b-9bd5-953733927a4b .
+
+camssa:05dea433-ec95-4242-8e22-462ba948324d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0c3d1669-36cb-4ce3-9bf4-4883a5925e27 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including XHTML.
+
+W3C Patent practice:
+https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
+    cav:refersTo camssa:c3f6f7b8-4657-410e-9b28-11ba045a159a .
+
+camssa:1049e9a4-ba89-4f7d-95ec-af40c1c59e57 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XHTML is not related to the availability of interfaces with internal information systems. Therefore, this criterion does not apply to this specification.
+
+XHTML W3C reference:
+https://www.w3.org/TR/xhtml1/"""@en ;
+    cav:refersTo camssa:dac7f4ab-e09a-4374-acd5-f70b3aa05f1e .
+
+camssa:128352ca-9a38-4f35-853d-a6cc47bdf398 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 8 Member States' catalogues of recommended specifications. This Member States are Estonia, France, Germany, Greece, Norway, Poland, Slovenia and Spain.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:77b7044a-ea47-4550-a3bf-e16f441d7097 .
+
+camssa:1776541f-4da6-457e-861e-5838b4a3ba91 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:1bda9ddb-b554-4635-91be-cd388b131c6d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
+    cav:refersTo camssa:9fd75b14-b191-4dd0-b465-68f81c3dc797 .
+
+camssa:1ecb76bb-082e-47a7-a4c8-8d0ae9a23542 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1f0d368c-8a92-4402-bbc1-7c1313109dd7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9e876bf3-4a62-4ac6-8677-543e2d5dac89 .
+
+camssa:2441a03a-0ee5-48a5-83eb-ef8c8791fa4a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XHTML is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
+
+XHTML W3C reference:
+https://www.w3.org/TR/xhtml1/"""@en ;
+    cav:refersTo camssa:676dbc54-0106-4113-abf8-017a83947134 .
+
+camssa:26fc3d28-52f3-427b-9958-c032ca3ad530 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XHTML is a business domain agnostic specification that can be reused in a cross-domain way.
+
+XHTML W3C reference:
+https://www.w3.org/TR/xhtml1/"""@en ;
+    cav:refersTo camssa:5a8a910c-38d6-4e75-83b0-25f43ccfd9b7 .
+
+camssa:29a733f1-4096-4632-99a1-4e20fd2e89e0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XHTML appears from the reformulation of HTML4 using XML. XHTML 1.0 became a World Wide Web Consortium (W3C) recommendation on 26 January 2000. There have been multiple updates with new versions of XHTML, for example in XHTML 1.1 became a W3C recommendation on 31 May 2001. There is a development of XHTML5 which is an XML adaptation of the HTML5 specification. This fact proves that the specification is mature enough for its use in the development of products and services.
+
+XHTML W3C reference:
+https://www.w3.org/TR/xhtml1/"""@en ;
+    cav:refersTo camssa:600d3112-2718-4966-8de7-e8736b5bd1f3 .
+
+camssa:2a7bccbc-5f01-485b-a28a-95f89bab5e7b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2bcc0b5b-67db-4a95-a2a7-c011b24935a3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although XHTML is a reformulation of HTML 4 using XML, it is not dependant of any version of the two standards. So, XHTML is independent of any technology or software.
+
+XHTML W3C reference:
+https://www.w3.org/TR/xhtml1/"""@en ;
+    cav:refersTo camssa:8e137202-976c-4bb5-babc-4ec42a6672e9 .
+
+camssa:2cb5d8e9-b79a-4c23-9391-792f6af13847 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the XHTML in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:5a3e604b-482e-4166-a06b-cf3ca3265773 .
+
+camssa:2e0b5bf6-ab9b-46f1-bb86-4e22dc20c332 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:fa01b21d-27ed-4b9d-85f5-a9056e2e4807 .
+
+camssa:32ab9cc0-bf43-42f0-b324-e19c39578127 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XHTML is not related to the modelling of business processes. Therefore, this criterion does not apply to the specification.
+
+XHTML W3C reference:
+https://www.w3.org/TR/xhtml1/"""@en ;
+    cav:refersTo camssa:2a7bccbc-5f01-485b-a28a-95f89bab5e7b .
+
+camssa:33c3bf9c-99ee-42c6-a13c-fac6df0ff877 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:345c09e8-891e-4954-bce2-1db6f7f5b8f5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:380fec07-05c1-49e1-a9c6-fb55fd518bba a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3a7de86f-6470-49f7-a699-6fabcb2135de a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:3ab15a16-9bdd-4d9e-ace8-d9893bdf5e10 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:82508084-fecd-428d-a7e1-554e2778d717 .
+
+camssa:3c3a155a-1160-48cf-8df2-e217d1239e2b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3f1ffcb9-5055-4217-aaa9-ce1a52853eb3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the XHTML in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:62f79a61-429c-4eb3-955f-91db2f44d118 .
+
+camssa:409524f8-e652-49b4-a807-893bbd5cb7eb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:426e8335-5186-4769-bcfd-590b839342e0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "20"^^xsd:int .
+
+camssa:4283e198-036f-4130-82cc-8dc345f6a53b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:83aac4e2-c71a-43df-abfa-7dbb465ecfb6 .
+
+camssa:43011766-b9ca-4eb8-8d08-309ebc6e17c2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although XHTML's purpose is not to foster the delivery of multilingual European public services, several websites contain multilingual parallel texts and are developed in XHTML. In the following link, there is an explanation of the architecture of multilingual websites.
+
+Open architecture for multilingual websites:
+http://dragoman.org/mws/oamws.pdf
+
+XHTML W3C reference:
+https://www.w3.org/TR/xhtml1/"""@en ;
+    cav:refersTo camssa:05dea433-ec95-4242-8e22-462ba948324d .
+
+camssa:4592b9d7-70a1-4f49-9f5d-1f60c1868dd8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of XHTML within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:409524f8-e652-49b4-a807-893bbd5cb7eb .
+
+camssa:472b5663-c40a-4911-8172-4385540bd030 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:4a6ef1df-3801-450d-b1eb-e9c2f488f9cd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XHTML is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, XHTML can define the interoperability aspects of the "Representation" ABB of the EIRA Semantic View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
+    cav:refersTo camssa:3a7de86f-6470-49f7-a699-6fabcb2135de .
+
+camssa:4e83296a-fe27-400f-90ff-c6c8ab832399 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:eb82473e-d47a-4144-95eb-9bcc2bb1609a .
+
+camssa:567491fd-f6f9-47cc-b09a-bdbc8bed7eba a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although XHTML is aligned with the different levels of maturity of Tim Berners-Lee's 5-star schema for Open Data, it does not support the different principles of Linked Open Data.
+
+XHTML W3C reference:
+https://www.w3.org/TR/xhtml1/
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html"""@en ;
+    cav:refersTo camssa:426e8335-5186-4769-bcfd-590b839342e0 .
+
+camssa:58c599f4-38ae-41d0-b266-dd17c7c55527 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:5a90d407-8697-4191-bb58-1da0b3ca1036 .
+
+camssa:5a3e604b-482e-4166-a06b-cf3ca3265773 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:5a8a910c-38d6-4e75-83b0-25f43ccfd9b7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5a90d407-8697-4191-bb58-1da0b3ca1036 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:600d3112-2718-4966-8de7-e8736b5bd1f3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:6222500a-c86d-47e4-a915-d6d6a444e8e9 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:62f79a61-429c-4eb3-955f-91db2f44d118 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:66e1111b-cde9-4f23-98d6-4c6fb082758a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XHTML is not related to organisational interoperability. Therefore, this criterion does not apply to the specification.
+
+XHTML W3C reference:
+https://www.w3.org/TR/xhtml1/"""@en ;
+    cav:refersTo camssa:cb997591-aad5-40b6-b34a-d8a5756ff049 .
+
+camssa:676dbc54-0106-4113-abf8-017a83947134 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:76278ab8-a3f4-468d-a598-e07eeb7b9b49 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XHTML is to publish administrative data on the web, as one of the main languages used in web development, XHTML helps and fosters the visibility of administration data and services. Moreover, it also eases the decision-making process by ensuring the data exchange and data reuse. 
+
+XHTML W3C reference:
+https://www.w3.org/TR/xhtml1/"""@en ;
+    cav:refersTo camssa:33c3bf9c-99ee-42c6-a13c-fac6df0ff877 .
+
+camssa:77b7044a-ea47-4550-a3bf-e16f441d7097 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:7a6c71e6-d925-46ed-91e1-f77b1d2cfbb9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7a9a3379-d52b-4ee0-a4d2-1ed07a0c8a11 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:8898f73e-d476-4510-84d2-e7ca6af8ec43 .
+
+camssa:7fc6f6a9-9dcc-49ca-84e5-7b2113b36cb9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XHTML is to publish administrative data on the web. By allowing to publish custom data in an understandable format, it fosters the comprehensibility of administrative data. Moreover, it also eases the decision-making process by ensuring the data exchange and data reuse.
+
+XHTML W3C reference:
+https://www.w3.org/TR/xhtml1/"""@en ;
+    cav:refersTo camssa:7a6c71e6-d925-46ed-91e1-f77b1d2cfbb9 .
+
+camssa:814f0fbc-f73e-4d4f-9131-32f2f2b11961 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:82508084-fecd-428d-a7e1-554e2778d717 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:83aac4e2-c71a-43df-abfa-7dbb465ecfb6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:863fa71d-8290-4a39-a7d8-2e500a7bea6e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:97dc9d51-0cb8-4362-984c-adac0383a480 .
+
+camssa:8898f73e-d476-4510-84d2-e7ca6af8ec43 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8aff0132-07d6-4a0c-8761-a5df9e331c4f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XHTML is one of the main markup languages to develop web resources. XHTML files are used to exchange information through the web. So this fact proves that XHTML fosters data portability between systems and applications.
+
+XHTML W3C reference:
+https://www.w3.org/TR/xhtml1/"""@en ;
+    cav:refersTo camssa:345c09e8-891e-4954-bce2-1db6f7f5b8f5 .
+
+camssa:8e00e469-3d57-4afc-97d5-507ea94bbc78 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including XHTML.
+
+W3C Patent practice:
+https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
+    cav:refersTo camssa:a70cffc8-e903-43a1-aea3-6f85944ec9fb .
+
+camssa:8e137202-976c-4bb5-babc-4ec42a6672e9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:92cfe485-1b22-4e8d-a9c7-a0a835fa50c8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:97dc9d51-0cb8-4362-984c-adac0383a480 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9ce54ccc-1030-43a0-b115-c8e64ca37cc8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9e391f70-d644-4b17-b54a-8da1c2c715f5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XHTML has some features to prevent possible security vulnerabilities. Moreover, by allowing to exchange data via online websites, XHTML fosters the secure and trustworthy data exchange between administrations and stakeholders. 
+
+XHTML W3C reference:
+https://www.w3.org/TR/xhtml1/"""@en ;
+    cav:refersTo camssa:1ecb76bb-082e-47a7-a4c8-8d0ae9a23542 .
+
+camssa:9e876bf3-4a62-4ac6-8677-543e2d5dac89 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:9fd75b14-b191-4dd0-b465-68f81c3dc797 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a70cffc8-e903-43a1-aea3-6f85944ec9fb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a924688e-be21-40cf-a96f-4ea6948a6b57 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XHTML has been used to publish some online documents of the European Commission. For example, Eur-lex used XHTML to publish a proposal for a regulation on a mechanism to resolve legal and administrative obstacles in a cross-border context.
+
+XHTML implementation by Eur-lex:
+https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52018PC0373&from=EN"""@en ;
+    cav:refersTo camssa:3c3a155a-1160-48cf-8df2-e217d1239e2b .
+
+camssa:ae907c90-7390-475b-9bd5-953733927a4b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "20"^^xsd:int .
+
+camssa:af0c9379-096e-4bf3-bd3e-90ee54a06c33 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f12c48e8-f7eb-44a6-879c-5908f4ecb395 .
+
+camssa:b07f38d7-2d56-455f-a721-94d3b7c644ae a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b0cb4b28-2aa1-41f8-b036-09dc70036dc2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By helping administrations to access and reuse information across borders, the implementation of XHTML and other standards from HTML family can help to foster and ease the Once-Only Principle.
+
+XHTML W3C reference:
+https://www.w3.org/TR/xhtml1/"""@en ;
+    cav:refersTo camssa:e111f40a-2b4f-435e-80bd-f0ec1ee26193 .
+
+camssa:bb18c34f-76d9-49d7-988c-a185a1fffde4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:be28f392-da8c-4f4b-8ba3-3a4e5a4d82bc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
+    cav:refersTo camssa:814f0fbc-f73e-4d4f-9131-32f2f2b11961 .
+
+camssa:bf0cb22b-7dd4-4983-8c90-030195b0edcd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XHTML is one of the main markup languages to develop web resources. XHTML files are used to exchange information through the web. So this fact proves that XHTML fosters data portability between systems and applications.
+
+XHTML W3C reference:
+https://www.w3.org/TR/xhtml1/"""@en ;
+    cav:refersTo camssa:b07f38d7-2d56-455f-a721-94d3b7c644ae .
+
+camssa:c3f6f7b8-4657-410e-9b28-11ba045a159a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c6b442da-6f6f-4313-b38d-b3fea9cfd8a2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XHTML is a business domain agnostic specification that can be reused in a cross-domain way.
+
+XHTML W3C reference:
+https://www.w3.org/TR/xhtml1/"""@en ;
+    cav:refersTo camssa:9ce54ccc-1030-43a0-b115-c8e64ca37cc8 .
+
+camssa:c8e3682e-5037-4e2b-8433-9f7d238eeb06 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XHTML fosters e-accessibility helping people with disabilities to understand and navigate through web and mobile web applications with friendly tools and proper information formats. 
+Moreover, the Regional Government of Bizkaia developed his website to promote the integration of groups with disabilities into the Public Administration of Bizkaia. They used XHTML 1.0 recommendations and CSS2.
+
+XHTML 1.0 implemented in e-accessability project:
+https://joinup.ec.europa.eu/collection/einclusion/document/eaccesibility-public-administration-bizkaia-bizkaianet"""@en ;
+    cav:refersTo camssa:380fec07-05c1-49e1-a9c6-fb55fd518bba .
+
+camssa:cb997591-aad5-40b6-b34a-d8a5756ff049 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cd703895-22b7-4821-a146-83267a86bf64 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:bb18c34f-76d9-49d7-988c-a185a1fffde4 .
+
+camssa:d34c4c4d-7054-4d16-91b9-0c639c1dfc45 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:da9dbeb7-5235-4abd-9d4a-d146877f8382 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:dac7f4ab-e09a-4374-acd5-f70b3aa05f1e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:e111f40a-2b4f-435e-80bd-f0ec1ee26193 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e4e88cb3-ddee-43b1-9741-ec2a80812120 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XHTML is included in 2 national catalogues of recommended specifications. They belong to Estonia and Spain.
+The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. 
+
+National catalogue Estonia: 
+https://www.mkm.ee/sites/default/files/interoperability-framework_2011.doc
+
+National catalogue Spain:
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#CATALOGOESTANDARES
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:fc38b9c8-0cdf-4bf5-9c95-404c58698299 .
+
+camssa:e9ca23be-3e5a-4c4b-b8ca-f8cf2bc9013b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although XHTML is a reformulation of HTML 4 using XML, it is not dependant of any version of the two standards. So, XHTML is independent of any technology or software.
+
+XHTML W3C reference:
+https://www.w3.org/TR/xhtml1/"""@en ;
+    cav:refersTo camssa:472b5663-c40a-4911-8172-4385540bd030 .
+
+camssa:eb82473e-d47a-4144-95eb-9bcc2bb1609a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f12c48e8-f7eb-44a6-879c-5908f4ecb395 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:f9e02d2e-f19e-4a07-8dd1-d7d4645ceb11 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """8 Member States are recommending XHTML in their ICT National Catalogues. This Member States are Estonia, France, Germany, Greece, Norway, Poland, Slovenia and Spain.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:d34c4c4d-7054-4d16-91b9-0c639c1dfc45 .
+
+camssa:fa01b21d-27ed-4b9d-85f5-a9056e2e4807 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:fb756305-4403-4e9e-ab72-9f06e31a8b27 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:1776541f-4da6-457e-861e-5838b4a3ba91 .
+
+camssa:fb86df8e-ba77-4948-9760-95e2e7be0613 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C provides a Markup Validation Service for free to validate Web documents including XHTML implementations.
+
+W3C Markup Validation Service:
+https://validator.w3.org/"""@en ;
+    cav:refersTo camssa:da9dbeb7-5235-4abd-9d4a-d146877f8382 .
+
+camssa:fc38b9c8-0cdf-4bf5-9c95-404c58698299 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+

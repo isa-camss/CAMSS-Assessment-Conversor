@@ -1,0 +1,691 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:3fc909f45d04699b0d82db6d2e3bcb04dc11279d9ec2caccc23a1d76e4df9ec2 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:8164f5e6cd50bf02a11c615929ebf80147032647fced20c32e19af42e3155f3d ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:06f233be-56d4-453a-9e00-7511978120e1,
+        camssa:11a58b6f-007e-4fe2-a0fe-2a24f9c5c1f8,
+        camssa:174f46b9-86a4-4c6f-a18a-942e347073f8,
+        camssa:19c1e262-92e2-4a1d-9b40-42c475c30ad9,
+        camssa:1fa035fb-d2fd-48db-925a-5e4462230821,
+        camssa:2151104e-af31-455f-aabf-d61147f2d0f2,
+        camssa:2688c58e-6b10-42d7-87d5-91480d6c38ad,
+        camssa:31172478-3181-4544-84cc-44dda935f42c,
+        camssa:330671e0-8d79-458b-9b59-a0e9d134b835,
+        camssa:34448c51-fcb8-4502-bfd9-dfe08b97d322,
+        camssa:43995245-b201-4d1f-ab20-3a9cb3ddd2fd,
+        camssa:4ead9a2d-8230-42cc-9a85-6b39dd868eb1,
+        camssa:5fa8f665-5b6b-4c3c-828c-3a26b59f3ad1,
+        camssa:6260f485-4626-4b7f-a8e1-fc6df778977b,
+        camssa:655e8a40-612f-4df9-829e-0fca9f60e7af,
+        camssa:6c8abf5c-201f-46c0-b4ac-00f95e341d48,
+        camssa:74277090-0798-473e-b805-cd9100529959,
+        camssa:7963ec97-4179-4c58-81c5-0de817165ebd,
+        camssa:802e4a52-18fa-4835-96f6-dbe02a48f62d,
+        camssa:87612cc2-ffb1-40a4-b5cd-4a62c6a8226d,
+        camssa:87a99224-b882-4cee-8c37-c6f9f08c61d6,
+        camssa:8f1c3034-166c-45e3-b3a1-ddb3d80a2559,
+        camssa:9d54fd6e-bdb9-4d12-aebd-34640256b4e1,
+        camssa:a1356612-e9ee-46bb-a6fd-e3735803a4d4,
+        camssa:a2d82fe8-1bb4-4a55-91bc-a87b3d406c65,
+        camssa:a523f4d3-bc4b-480c-a5e5-0115d32d594c,
+        camssa:a60d5e6e-0927-4153-81a3-6b26e8ef61cb,
+        camssa:ab47e0d4-cd2f-4d2a-8231-abc37d189948,
+        camssa:ac51d588-0373-4de8-b245-f2adad2e91b9,
+        camssa:ad5dc018-8a3e-4a65-87b3-6628f2d67304,
+        camssa:b5b56446-3e12-48f1-a8d5-3a493f305519,
+        camssa:bc2c8f2b-cfb2-49a7-a6d7-e5ae3a703ee3,
+        camssa:bc623db8-5cda-46f7-9b69-14499d97be95,
+        camssa:bd04924a-afac-4fc8-865a-d5766739659f,
+        camssa:c39356fe-6dce-491a-a1a4-161d9b4f736c,
+        camssa:c4572fc3-5dfd-43fe-8526-642cf897cd52,
+        camssa:cb3cdb3b-1a0c-4ccb-ac60-118fabe9274b,
+        camssa:cd6c02f9-775b-4c98-a6fa-fca8447b8539,
+        camssa:d51e4c10-b892-4b05-8c75-4617ab9a2834,
+        camssa:d6590858-e91f-4b1d-9ef9-cd87e5fbb394,
+        camssa:d88febdc-f557-4a0a-9e2b-794dc41a970d,
+        camssa:dba6d29e-cd5b-4ee3-8da6-9f8b7b9f4a2c,
+        camssa:ef9b11ad-6934-4b5f-aaa6-efd96cc1a5d0,
+        camssa:fd6d8d99-6130-42e2-822b-df628f978ccc ;
+    cav:status status:Complete ;
+    dct:title "XML Advanced Electronic Signatures (XAdES) - ISO 14533-2:2012"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:6aeffd86-b829-43d6-8c7a-bc37c034b30f ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:00bad568-5690-479e-a7e0-546d6e024576 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:06f233be-56d4-453a-9e00-7511978120e1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XAdES is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification. 
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:7de86f59-174b-4cbf-aefd-cb398c23ce8e .
+
+camssa:090b8555-330c-4bed-a023-aa63a5bb0ef7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:11a58b6f-007e-4fe2-a0fe-2a24f9c5c1f8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XAdES (ISO 14533-2:2012) is already associated to an EIRA ABB in the European Library Of Specifications (ELIS). More specifically, ISO 14533-2:2012 can define the interoperability aspects of the "e-Seal Preservation Service" and "e-Signature Preservation Service". Specifically, this Core Vocabulary can define the interoperability aspects of the Technical infrastructure view ABB from the EIRA Semantic view. 
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
+    cav:refersTo camssa:74ae1ebc-8130-44fd-8849-0b1b671200d5 .
+
+camssa:174f46b9-86a4-4c6f-a18a-942e347073f8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XAdES (ISO 14533-2:2012) is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:dd95262c-1014-4b4b-977a-abd02968a371 .
+
+camssa:19c1e262-92e2-4a1d-9b40-42c475c30ad9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f5b019bb-1c56-428a-944a-ef3b21f94e5f .
+
+camssa:1fa035fb-d2fd-48db-925a-5e4462230821 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XAdES is a business domain agnostic specification that can be reused in a cross-domain way.
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:eef876c8-a569-4dde-bc49-704f31d5be57 .
+
+camssa:2151104e-af31-455f-aabf-d61147f2d0f2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XAdES is not related to the comprehensibility of administrative information, data or services. Therefore, this criterion is not applicable to this specification. 
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:82f98ee8-e66d-4ee5-b6d1-ec9946cb057f .
+
+camssa:2172d11f-b36b-4b1f-97d1-5721859ad1ae a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "20"^^xsd:int .
+
+camssa:24936c6f-4609-4abc-8058-c4da54f5b812 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2688c58e-6b10-42d7-87d5-91480d6c38ad a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XAdES ensures the interoperability of electronic signatures when the documents they authenticate are transferred and processed through different systems and it can be preserved for a long term.
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:4e505da0-28ef-4c00-8366-65fda5ded217 .
+
+camssa:2aa03bf3-4834-4aec-a8fa-177586d08537 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:31172478-3181-4544-84cc-44dda935f42c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XAdES is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:faece19b-b53e-4fc4-871f-fd0a76e49f8f .
+
+camssa:330671e0-8d79-458b-9b59-a0e9d134b835 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the XAdES in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:6c50900d-9628-442f-bc19-330c056c4218 .
+
+camssa:34448c51-fcb8-4502-bfd9-dfe08b97d322 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XAdES is independent of any software, hardware, or operating system. So it can be said that the specification is independent of any specific technology or platform. 
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:835b262f-0e4c-49ff-ad12-75f84c0c5b4f .
+
+camssa:3c4e4e42-d672-4804-89a1-500ed29f7e8c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "20"^^xsd:int .
+
+camssa:43995245-b201-4d1f-ab20-3a9cb3ddd2fd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XAdES is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification.
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:af017083-6a44-473e-8554-a9f8bfe9cfac .
+
+camssa:493ba481-c125-45f2-bfb8-d90896b68ffb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4e505da0-28ef-4c00-8366-65fda5ded217 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:4ead9a2d-8230-42cc-9a85-6b39dd868eb1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XAdES is not related to the publication of public data as linked open data. Therefore, this criterion is not applicable to this specification. 
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:2aa03bf3-4834-4aec-a8fa-177586d08537 .
+
+camssa:5e3ded98-9236-43f0-a1af-8f02974850cf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:5fa8f665-5b6b-4c3c-828c-3a26b59f3ad1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After searching in the different official European websites, there is no evidence of any cross-border project that uses XAdES (ISO 14533-2:2012) nor explicit agreements involving the usage of the specification. However, the specification XAdES from ETSI, is involved in some cross-border projects as "Analysis of standards related to Trust Service Providers" developed by ENISA (European Union Agency for Network and Information Security) which is a centre of network and information security expertise for the EU, its member states, the private sector and Europe’s citizens. 
+
+ENISA project:
+https://www.enisa.europa.eu/publications/tsp_standards_2015/at_download/fullReport
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:2172d11f-b36b-4b1f-97d1-5721859ad1ae .
+
+camssa:61a065a4-b0ba-44b4-a7b7-29c1249bf194 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:6260f485-4626-4b7f-a8e1-fc6df778977b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:718e2af5-4bc5-4487-92e0-8cd6c3663a24 .
+
+camssa:655e8a40-612f-4df9-829e-0fca9f60e7af a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XAdES is often adopted as a specification to preserve electronic documents for a long period of time. In the following link there is an example of integrating digital signatures like XAdES in a framework. These facts demonstrate the maturity and market acceptance for its use in the development of products and services.
+
+Digital signature service:
+https://ec.europa.eu/cefdigital/DSS/webapp-demo/doc/dss-documentation.html 
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:a2db5977-c4d6-4e44-bb8d-33c5dc9230ab .
+
+camssa:69e5bdc3-d934-48d3-aceb-a5c9bb30c3a6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6aeffd86-b829-43d6-8c7a-bc37c034b30f a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:6c1829b6-a56f-4885-914d-31517d1b67c5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "20"^^xsd:int .
+
+camssa:6c50900d-9628-442f-bc19-330c056c4218 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:6c8abf5c-201f-46c0-b4ac-00f95e341d48 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:73a9dfbc-4414-4ab6-b5a2-9d72f505827e .
+
+camssa:718e2af5-4bc5-4487-92e0-8cd6c3663a24 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:73a9dfbc-4414-4ab6-b5a2-9d72f505827e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:74277090-0798-473e-b805-cd9100529959 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:493ba481-c125-45f2-bfb8-d90896b68ffb .
+
+camssa:74ae1ebc-8130-44fd-8849-0b1b671200d5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:7963ec97-4179-4c58-81c5-0de817165ebd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:7bfeffa6-8623-4b6e-b0da-695bf4de421c .
+
+camssa:7bfeffa6-8623-4b6e-b0da-695bf4de421c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:7d9d1d61-46ba-47b1-98ad-34ba438383c4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:7de86f59-174b-4cbf-aefd-cb398c23ce8e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7edcdfdd-4628-4e54-b252-c54dd5c76031 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:802e4a52-18fa-4835-96f6-dbe02a48f62d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:7edcdfdd-4628-4e54-b252-c54dd5c76031 .
+
+camssa:82f98ee8-e66d-4ee5-b6d1-ec9946cb057f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:835b262f-0e4c-49ff-ad12-75f84c0c5b4f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:87612cc2-ffb1-40a4-b5cd-4a62c6a8226d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are many free online tools that perform numerous checking in order to verify the conformity of the ETSI Advanced Electronic Signatures which includes XAdES.
+
+XAdES conformance testing:
+https://signatures-conformance-checker.etsi.org/pub/index.shtml"""@en ;
+    cav:refersTo camssa:a6d2eaca-abf3-4898-9c66-db9ed9c50366 .
+
+camssa:87a99224-b882-4cee-8c37-c6f9f08c61d6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XAdES is a business domain agnostic specification that can be reused in a cross-domain way.
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:8b377f32-290f-4803-8af1-ec87e812fff8 .
+
+camssa:8b377f32-290f-4803-8af1-ec87e812fff8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8f1c3034-166c-45e3-b3a1-ddb3d80a2559 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the XAdES in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:c7b6edfe-b1d8-44db-922b-91f5907ca9ec .
+
+camssa:8fedb3ce-a65c-41fc-a4e4-c79d53ddc5bc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:96d561e2-8289-4322-b0f4-5e1f2fb2792d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9d54fd6e-bdb9-4d12-aebd-34640256b4e1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no Member State that includes XAdES (ISO 14533-2:2012) in their national catalogue with The National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:adc674fb-86b6-47f0-9ba2-9d7e4edbb6bd .
+
+camssa:a1356612-e9ee-46bb-a6fd-e3735803a4d4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XAdES (ISO 14522-2:2012) has the ISO community that supports the development of: International standards, Technical Specifications, Technical Report and Publicly Available Specification.
+
+ISO Webpage:
+http://www.isotc292online.org/projects/iso-process/"""@en ;
+    cav:refersTo camssa:c3422386-8eb6-413d-adb7-0c513a1d99d4 .
+
+camssa:a2d82fe8-1bb4-4a55-91bc-a87b3d406c65 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XAdES is not related to the visibility of administrative information, data or services. Therefore, this criterion is not applicable to this specification.
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:090b8555-330c-4bed-a023-aa63a5bb0ef7 .
+
+camssa:a2db5977-c4d6-4e44-bb8d-33c5dc9230ab a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a3416b7e-b5e7-4c6b-a7c4-ff518a5ca91e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:a523f4d3-bc4b-480c-a5e5-0115d32d594c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XAdES as an electronic signature will proportionate a secure and trustworthy eSignature for the data exchange between citizens and administrations.
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:f8efb83b-cb95-4a0d-8e67-7a2aee25212d .
+
+camssa:a60d5e6e-0927-4153-81a3-6b26e8ef61cb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:aab89f55-0dd3-46f3-85c1-1be57de4bf29 .
+
+camssa:a6d2eaca-abf3-4898-9c66-db9ed9c50366 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:aab89f55-0dd3-46f3-85c1-1be57de4bf29 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:ab47e0d4-cd2f-4d2a-8231-abc37d189948 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no disclosures of ISO IPR Database to identify the licensing under the specification. ISO 14533-2:2012 is not listed in ISO/IEC/ITU Common Patent policy, so it cannot be confirmed that the specification is licensed on a (F)RAND basis.
+
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html 
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347 """@en ;
+    cav:refersTo camssa:3c4e4e42-d672-4804-89a1-500ed29f7e8c .
+
+camssa:abdd9cf8-ca01-493a-bc94-cd3239656ab0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ac51d588-0373-4de8-b245-f2adad2e91b9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:8fedb3ce-a65c-41fc-a4e4-c79d53ddc5bc .
+
+camssa:ad5dc018-8a3e-4a65-87b3-6628f2d67304 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:c464e512-f935-4f23-a7c2-ea37dc8d299a .
+
+camssa:adc674fb-86b6-47f0-9ba2-9d7e4edbb6bd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:af017083-6a44-473e-8554-a9f8bfe9cfac a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b5b56446-3e12-48f1-a8d5-3a493f305519 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XAdES is independent of any software, hardware, or operating system. So it can be said that the specification is independent of any specific technology or platform. 
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:abdd9cf8-ca01-493a-bc94-cd3239656ab0 .
+
+camssa:bc2c8f2b-cfb2-49a7-a6d7-e5ae3a703ee3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XAdES is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:d6c9f5fe-b7fb-49ce-afb8-3cc94d45cadf .
+
+camssa:bc623db8-5cda-46f7-9b69-14499d97be95 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XAdES is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. 
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:e7f71a49-9028-477e-a8cb-36da6e854ce2 .
+
+camssa:bd04924a-afac-4fc8-865a-d5766739659f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The ISO specifications are published to be able to respond to a market need which represent a consensus of an expert group. It was launched in 2012 as a proprietary solution. These facts demonstrate the maturity and market acceptance for its use in the development of products and services. 
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:cb4a0d5f-582f-4bef-aa8a-4328b7ae8693 .
+
+camssa:c3422386-8eb6-413d-adb7-0c513a1d99d4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c39356fe-6dce-491a-a1a4-161d9b4f736c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:61a065a4-b0ba-44b4-a7b7-29c1249bf194 .
+
+camssa:c4572fc3-5dfd-43fe-8526-642cf897cd52 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no disclosures of ISO IPR Database to identify the licensing under the specification. ISO 14533-2:2012 is not listed in ISO/IEC/ITU Common Patent policy, so it cannot be confirmed that the specification is licensed on a royalty-free basis.
+
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html 
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347 """@en ;
+    cav:refersTo camssa:6c1829b6-a56f-4885-914d-31517d1b67c5 .
+
+camssa:c464e512-f935-4f23-a7c2-ea37dc8d299a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:c7b6edfe-b1d8-44db-922b-91f5907ca9ec a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:cb3cdb3b-1a0c-4ccb-ac60-118fabe9274b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As defined on the TC standardisation, only TC members are involved in the development of ISO standards. A review is carried out to arrange the consensus firstly within the TC members and subsequently is reviewed by the different ISO member bodies. However, it cannot be considered a public review, because only TC members can participate.
+
+The ISO standardization process: 
+https://www.iso.org/stages-and-resources-for-standards-development.html"""@en ;
+    cav:refersTo camssa:f0f9cd28-282c-4fbb-94c6-f3a81836f9b7 .
+
+camssa:cb4a0d5f-582f-4bef-aa8a-4328b7ae8693 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:cd6c02f9-775b-4c98-a6fa-fca8447b8539 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no Member States recommending XAdES (ISO 14533-2:2012) in their ICT National Catalogues.
+ 
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:7d9d1d61-46ba-47b1-98ad-34ba438383c4 .
+
+camssa:d51e4c10-b892-4b05-8c75-4617ab9a2834 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XAdES is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification.
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:69e5bdc3-d934-48d3-aceb-a5c9bb30c3a6 .
+
+camssa:d6590858-e91f-4b1d-9ef9-cd87e5fbb394 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ISO has defined a clear procedure to develop its standards. It consists in a 6-steps process where everyone who is interested can participate. However, if you want to participate, you have to contact your national standards body and you have to be approved for joining the Technical committee (TC) who will develop the standard. ISO has defined the roadmap of standards, it is composed of 6 steps as before said. For the approval of a standard the two-thirds majority of P-members of TC is needed. If the result is negative, the document is returned to TC/SC to be further studied.
+
+The ISO standardization process: 
+https://www.iso.org/stages-and-resources-for-standards-development.html"""@en ;
+    cav:refersTo camssa:a3416b7e-b5e7-4c6b-a7c4-ff518a5ca91e .
+
+camssa:d6c9f5fe-b7fb-49ce-afb8-3cc94d45cadf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d88febdc-f557-4a0a-9e2b-794dc41a970d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XAdES is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification. 
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:24936c6f-4609-4abc-8058-c4da54f5b812 .
+
+camssa:dba6d29e-cd5b-4ee3-8da6-9f8b7b9f4a2c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XAdES is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification.
+
+XAdES ISO reference:
+https://www.iso.org/standard/56025.html
+
+XAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"""@en ;
+    cav:refersTo camssa:96d561e2-8289-4322-b0f4-5e1f2fb2792d .
+
+camssa:dd95262c-1014-4b4b-977a-abd02968a371 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:e7f71a49-9028-477e-a8cb-36da6e854ce2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:eef876c8-a569-4dde-bc49-704f31d5be57 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ef9b11ad-6934-4b5f-aaa6-efd96cc1a5d0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of XAdES (ISO 14533-2:2012) within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:5e3ded98-9236-43f0-a1af-8f02974850cf .
+
+camssa:f0f9cd28-282c-4fbb-94c6-f3a81836f9b7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "20"^^xsd:int .
+
+camssa:f5b019bb-1c56-428a-944a-ef3b21f94e5f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f8efb83b-cb95-4a0d-8e67-7a2aee25212d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:faece19b-b53e-4fc4-871f-fd0a76e49f8f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fd6d8d99-6130-42e2-822b-df628f978ccc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:00bad568-5690-479e-a7e0-546d6e024576 .
+

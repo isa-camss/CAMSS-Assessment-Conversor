@@ -1,0 +1,596 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:79ef8940853ce9452c468bf6d0e1e93e37f519e07b492227d423c610c84ad78b a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:925e55b370f9ffea12944d9c8101b4580966ac0c7400dbda721eee2eec544a4b ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:055aec66-d8cf-456a-b25f-a1f617d5813e,
+        camssa:05e9aeef-b357-456e-8ab4-98c10b0da30f,
+        camssa:0648486e-b20c-4d5a-ad73-ea3afeb63acc,
+        camssa:0df454f8-b9db-4110-aaaf-1c258a687589,
+        camssa:24646aee-3feb-4d2b-af32-59e2804f739d,
+        camssa:29f169b2-ca99-44f2-a0c8-ba1ebfdbc2b2,
+        camssa:2a73501d-3bde-41d9-b6c3-c1501893e0bb,
+        camssa:2c22e6d7-0ab1-4a89-9553-0d92c1a5d765,
+        camssa:2c8c1956-72ae-476e-997d-7601f1c9361b,
+        camssa:31cb3019-9282-48d9-987a-4b04d8867574,
+        camssa:39eb6949-fef8-4e57-84be-d2ff85b476e9,
+        camssa:4dee20e6-f068-47ce-afbc-d99ffef2b8af,
+        camssa:5387af64-a690-4617-94e5-968a4e46b774,
+        camssa:60fdf6aa-2bf4-482f-ae20-56a172e96885,
+        camssa:679f0880-af72-4e1c-9f0d-2b83d7a77194,
+        camssa:6860eaf8-6fcf-43a6-8f2e-0f8880999b4d,
+        camssa:68a8b2d9-a8fc-4f9a-a9c2-b2a7bbdcebea,
+        camssa:6d6505c5-07c4-41aa-b509-4c03a3a10f0a,
+        camssa:6e3359da-85a7-4c98-97e4-0896f244dadf,
+        camssa:78a48fb3-4376-4911-b2c3-4fbae37b9104,
+        camssa:7f573392-685c-4bfe-b88e-b603d2b9291d,
+        camssa:87a119c9-fec5-4872-8131-2ffc6bbb84d4,
+        camssa:90312213-7ac5-479c-90ec-c2b193b5447a,
+        camssa:90395dd9-c055-4835-8477-28b01cde7156,
+        camssa:9651f3b6-6287-46d7-942c-e4a420983f20,
+        camssa:a6b58c8d-6252-4789-95ed-fc578da2026d,
+        camssa:ae39827d-501a-44ce-99b0-c559090f3edc,
+        camssa:b6cad0da-f500-480f-af75-dc41c779c00f,
+        camssa:bb72cb57-51dd-4edb-b833-c647c0a6a3ae,
+        camssa:bc83c2cf-1907-426d-b238-7394c4dbce21,
+        camssa:c3a471ca-d0a3-44a5-96cc-04d75ac063cd,
+        camssa:c5f14295-0f1b-45b0-945f-a13a4582043d,
+        camssa:c7fe140d-ec09-4bc9-818a-c489fddb2070,
+        camssa:c8ac3dd5-39e7-464e-87b6-f07d24cffb21,
+        camssa:ce3e9b97-07a2-4cf9-9e1a-3108ab366c0b,
+        camssa:d02db749-3f0d-417d-a78f-b6411c55e49c,
+        camssa:d8815d7f-b7e0-4895-a220-b1e930bf4830,
+        camssa:e67c3614-2228-4ecc-a261-99f9cc2c0aec,
+        camssa:ee285cf0-21a4-4bd8-871d-3734661af042,
+        camssa:f25ea1bb-7afc-4d97-a2f2-19cba669039a,
+        camssa:f29fe28c-fed3-4ed2-9f2a-2dc44366078c,
+        camssa:fad77027-ba36-44a9-9c75-ef9e719f10eb,
+        camssa:fc024df2-598a-4b2c-925b-3066607330a5,
+        camssa:fdbdc296-39b0-4f06-840d-d270ebbafd0c ;
+    cav:status status:Complete ;
+    dct:title "Data Catalogue Vocabulary 2.0 (DCAT 2)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:b07809bf-d93c-4057-b691-f532f2d0b643 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:02526945-25b3-43e6-a003-2ab8e64e2ca8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0268de02-434e-483c-aa26-e5aefb84fe03 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0541065d-ed0d-4995-a6eb-0aab30e9483a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:055aec66-d8cf-456a-b25f-a1f617d5813e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of DCAT is not related to e-accessibility. Therefore this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:be430fca-5492-4de5-a635-29a5e2840adf .
+
+camssa:05e9aeef-b357-456e-8ab4-98c10b0da30f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policie"""@en ;
+    cav:refersTo camssa:0541065d-ed0d-4995-a6eb-0aab30e9483a .
+
+camssa:0648486e-b20c-4d5a-ad73-ea3afeb63acc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived. 
+
+See:               
+W3C Process document
+https://www.w3.org/2018/Process-20180201/#Policies   """@en ;
+    cav:refersTo camssa:9982c711-1c3a-4faa-8275-5989f76ef08f .
+
+camssa:06b4bc31-0954-4191-9698-c0bedc43a80a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0df454f8-b9db-4110-aaaf-1c258a687589 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including DCAT.
+
+See:
+https://www.w3.org/TR/patent-practice#ref-AC """@en ;
+    cav:refersTo camssa:dd78d21e-1aa0-483b-81c9-afec920e2b96 .
+
+camssa:20df6e32-0ec8-4d5b-8005-ff18e569fa70 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:21b874aa-95b7-4bef-aca3-2ec8c7858732 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:24646aee-3feb-4d2b-af32-59e2804f739d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:20df6e32-0ec8-4d5b-8005-ff18e569fa70 .
+
+camssa:289c85b5-231e-4a9a-8012-98e6e9df7860 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:29f169b2-ca99-44f2-a0c8-ba1ebfdbc2b2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """At the time of elaborating this assessment, DCAT is extensively used to create innovative linked open data solutions. Especially by public administration looking forward to foster cross-border interoperability and transparency.
+"""@en ;
+    cav:refersTo camssa:367dfe7b-51df-403f-a316-63074f4dd7c7 .
+
+camssa:2a73501d-3bde-41d9-b6c3-c1501893e0bb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DCAT is a domain-agnostic specification that can be reused for the description of any dataset independently from the business domain addressed.
+
+For DCAT users having business-specific requirements, the specification is generally extended (e.g. StatDCAT-AP for statistical data)"""@en ;
+    cav:refersTo camssa:4e78155e-b1be-4664-959f-184e80491c33 .
+
+camssa:2c22e6d7-0ab1-4a89-9553-0d92c1a5d765 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By allowing the exchange of datasets metadata, DCAT increases the searchability, visibility, discoverability and reuse of existing data, including information on processes and administrative rules. "@en ;
+    cav:refersTo camssa:93fb8824-8bd5-4a4e-ac7c-6dba7dac764d .
+
+camssa:2c8c1956-72ae-476e-997d-7601f1c9361b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DCAT supports the evolution of European Public Services by enhancing the searchability and discoverability of datasets across borders. DCAT is an interoperability enabler.
+ 
+See:                                                                                                                                       https://www.w3.org/TR/vocab-dcat-2/ """@en ;
+    cav:refersTo camssa:fc6b77c3-784d-4396-a9d9-d5a579049e31 .
+
+camssa:2c9950b2-09dc-4c23-9cf2-6f1ed7063e0e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:30cc7d6f-c02a-484e-b245-e5f541479ae5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "20"^^xsd:int .
+
+camssa:31b530c8-b0d9-4c58-989e-6c15292cb35f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:31cb3019-9282-48d9-987a-4b04d8867574 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:21b874aa-95b7-4bef-aca3-2ec8c7858732 .
+
+camssa:367dfe7b-51df-403f-a316-63074f4dd7c7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:39eb6949-fef8-4e57-84be-d2ff85b476e9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "DCAT has been developed for the publication of linked open data by the w3c Government Linked Data Working Group."@en ;
+    cav:refersTo camssa:ecb78316-db02-466a-96bb-5ca1787c5364 .
+
+camssa:3b79bd9b-2970-41d9-b4e2-6aa779464288 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:4dee20e6-f068-47ce-afbc-d99ffef2b8af a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Tools & Libraries for assessing the conformance of datasets with DCAT or its extensions have been developed by the community.
+
+See: 
+http://www.dcat.be/validator/
+https://www.npmjs.com/package/dcat-validator 
+https://joinup.ec.europa.eu/solution/dcat-ap-validator """@en ;
+    cav:refersTo camssa:73a7905c-9bf9-4a56-b059-60be50ff1aae .
+
+camssa:4e78155e-b1be-4664-959f-184e80491c33 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4ea657d1-d26a-48aa-b068-f7b1e3e02890 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4eedc59b-7ab1-4712-96c2-8ff09828513f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5387af64-a690-4617-94e5-968a4e46b774 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of DCAT is not related to the medullisation of business processes. Therefore this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:289c85b5-231e-4a9a-8012-98e6e9df7860 .
+
+camssa:5417600e-3304-4df5-9658-4962f3b9c550 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5642480b-0004-4fbb-a8fa-3445bc7eef8c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:5863ee57-32c2-4b9d-b6d2-78ba8f4f94f2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:5ac0f427-3e3e-46e9-98f4-ba4da4258603 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:60fdf6aa-2bf4-482f-ae20-56a172e96885 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of DCAT is not related to organisational interoperability. Therefore this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:06b4bc31-0954-4191-9698-c0bedc43a80a .
+
+camssa:610aae49-2576-459a-9786-aa4676ed8853 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:679f0880-af72-4e1c-9f0d-2b83d7a77194 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:2c9950b2-09dc-4c23-9cf2-6f1ed7063e0e .
+
+camssa:684b9c6d-89f3-4644-9c8e-6a3f609239f8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6860eaf8-6fcf-43a6-8f2e-0f8880999b4d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The DCAT vocabulary defines the "Distribution" concept which can be used for publishing datasets in different languages.
+
+See:
+https://www.w3.org/TR/vocab-dcat-2/#Class:Dataset"""@en ;
+    cav:refersTo camssa:5417600e-3304-4df5-9658-4962f3b9c550 .
+
+camssa:68a8b2d9-a8fc-4f9a-a9c2-b2a7bbdcebea a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The DCAT vocabulary has a strong support from the interest groups and is extensively used by public administrations’ for the exchange of data across borders and sectors.
+
+Additionally, the specification is widely used by public administrations profiling or extending it to fit domain-specific or national requirements
+- DCAT-AP: Application Profile for Public Sector Datasets.
+- DCAT-AP-BE: Extension of DCAT-AP for Belgium specific requirements.
+- StatDCAT-AP: Extension of DCAT-AP for the publication of statistical data.
+
+See DCAT Implementations: 
+https://www.w3.org/2011/gld/wiki/DCAT_Implementations """@en ;
+    cav:refersTo camssa:fea5a09c-20ab-4f41-b619-0dc319ec76f8 .
+
+camssa:6c8056c8-04ec-4b3f-b1a6-99c2e22eee7a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:6d6505c5-07c4-41aa-b509-4c03a3a10f0a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:3b79bd9b-2970-41d9-b4e2-6aa779464288 .
+
+camssa:6e3359da-85a7-4c98-97e4-0896f244dadf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By allowing the description of catalogues and datasets, aggregated DCAT metadata can serve as a manifest file as part of the digital preservation process.
+
+See:
+https://www.w3.org/TR/vocab-dcat-2/"""@en ;
+    cav:refersTo camssa:5642480b-0004-4fbb-a8fa-3445bc7eef8c .
+
+camssa:726ab2da-cc8b-4ee0-93ca-fb9b83e2c9a9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:73a7905c-9bf9-4a56-b059-60be50ff1aae a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:78a48fb3-4376-4911-b2c3-4fbae37b9104 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By allowing the exchange of datasets metadata, DCAT increases the searchability, visibility, discoverability and reuse of existing data, including information on processes and administrative rules. "@en ;
+    cav:refersTo camssa:83b15f81-0142-4862-afed-5eb41f92cb80 .
+
+camssa:7f573392-685c-4bfe-b88e-b603d2b9291d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DCAT is already associated to  EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, DCAT can define the interoperability aspects of the "Data Publication Component" and "Data Publication Service" ABBs of the EIRA Semantic View.
+
+See:                                                                                                                                       https://joinup.ec.europa.eu/sites/default/files/distribution/access_url/2019-03/76cb237b-0de8-464c-84ca-1327945eac3e/EIRA_v3_0_0_Overview.pdf               """@en ;
+    cav:refersTo camssa:726ab2da-cc8b-4ee0-93ca-fb9b83e2c9a9 .
+
+camssa:83b15f81-0142-4862-afed-5eb41f92cb80 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:87a119c9-fec5-4872-8131-2ffc6bbb84d4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DCAT, as a cross-border and cross-sector vocabulary increases government-to-government reuse of data and therefore can prevent citizens or businesses from providing standard information several times. Like all common vocabularies, DCAT facilitates the implementation of the once-only principle. 
+
+See:
+https://ec.europa.eu/isa2/dcat-ap-key-european-data-publishers-reach-data-consumers-and-create-european-open-data-ecosystem_en"""@en ;
+    cav:refersTo camssa:5ac0f427-3e3e-46e9-98f4-ba4da4258603 .
+
+camssa:8cd40217-c93e-4fcc-b46a-22ca34496640 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:90312213-7ac5-479c-90ec-c2b193b5447a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "As most of the vocabularies, DCAT reuses several existing ones (e.g. \"adms\", \"foaf\") and the Resource Description Framework (RDF). This  results in a dependency that can hamper interoperability, especially in the case where new releases of the reused vocabularies are not backward compatible."@en ;
+    cav:refersTo camssa:30cc7d6f-c02a-484e-b245-e5f541479ae5 .
+
+camssa:90395dd9-c055-4835-8477-28b01cde7156 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DCAT is included in the catalogues of the Netherlands and Spain.
+ 
+See: 
+https://www.forumstandaardisatie.nl/open-standaarden/lijst 
+https://administracionelectronica.gob.es/pae_Home/dam/jcr:9e2c2877-5103-4934-8440-c60ba2e10c48/Catalogue_of_Standards_NIF_Spain.pdf """@en ;
+    cav:refersTo camssa:c490d27b-8113-413f-a12e-e6fd19a0e3d2 .
+
+camssa:93fb8824-8bd5-4a4e-ac7c-6dba7dac764d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9631ad47-831a-4bc9-a7e6-f8365d10348e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9651f3b6-6287-46d7-942c-e4a420983f20 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:8cd40217-c93e-4fcc-b46a-22ca34496640 .
+
+camssa:9982c711-1c3a-4faa-8275-5989f76ef08f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:9c44d7b9-ab6a-4678-847d-67f8898bb17c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a6b58c8d-6252-4789-95ed-fc578da2026d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "DCAT is not included in any supra-national catalogue of specifications or standards. "@en ;
+    cav:refersTo camssa:31b530c8-b0d9-4c58-989e-6c15292cb35f .
+
+camssa:ae39827d-501a-44ce-99b0-c559090f3edc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DCAT-AP is an EU cross-border project consisting in an application profile of DCAT for European data portals.
+
+See: 
+https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/about """@en ;
+    cav:refersTo camssa:fe38b55c-0b80-42ba-bede-7eb8292ed6a9 .
+
+camssa:b07809bf-d93c-4057-b691-f532f2d0b643 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:b6cad0da-f500-480f-af75-dc41c779c00f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DCAT supports the evolution of European Public Services by enhancing the searchability and discoverability of datasets across borders. DCAT is an interoperability enabler.
+ 
+See:                                                                                                                                       https://www.w3.org/TR/vocab-dcat-2/ """@en ;
+    cav:refersTo camssa:cac638cb-c32a-4ad5-89b6-7cf3a006a12b .
+
+camssa:bb72cb57-51dd-4edb-b833-c647c0a6a3ae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "As most of the vocabularies, DCAT reuses several existing ones (e.g. \"adms\", \"foaf\") and the Resource Description Framework (RDF). This  results in a dependency that can hamper interoperability, especially in the case where new releases of the reused vocabularies are not backward compatible."@en ;
+    cav:refersTo camssa:c731e3ff-7f25-4041-ad49-6f86b5fe4cf2 .
+
+camssa:bc83c2cf-1907-426d-b238-7394c4dbce21 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The DCAT vocabulary supports the attribution of data and metadata to various participants such as resource creators, publishers and other parties.
+
+ In addition, it also supports the association of rights and licenses with catalogued Resources and Distributions.
+
+Such metadata improves the reliability of data exchanged between citizens, businesses and public administrations. """@en ;
+    cav:refersTo camssa:d451f24e-9ef6-4eef-bda8-9b99647c885d .
+
+camssa:be430fca-5492-4de5-a635-29a5e2840adf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c3a471ca-d0a3-44a5-96cc-04d75ac063cd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DCAT is a domain-agnostic specification that can be reused for the description of any dataset independently from the business domain addressed.
+
+For DCAT users having business-specific requirements, the specification is generally extended (e.g. StatDCAT-AP for statistical data)"""@en ;
+    cav:refersTo camssa:0268de02-434e-483c-aa26-e5aefb84fe03 .
+
+camssa:c490d27b-8113-413f-a12e-e6fd19a0e3d2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:c5f14295-0f1b-45b0-945f-a13a4582043d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The European Public Sector Information platform assessed the impact of the use of DCAT for the European Open Data Catalogues.
+
+See: 
+https://www.europeandataportal.eu/sites/default/files/2013_impact_of_standards_in_european_data_catalogues.pdf """@en ;
+    cav:refersTo camssa:4ea657d1-d26a-48aa-b068-f7b1e3e02890 .
+
+camssa:c731e3ff-7f25-4041-ad49-6f86b5fe4cf2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:int .
+
+camssa:c7fe140d-ec09-4bc9-818a-c489fddb2070 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including DCAT.
+
+See:
+https://www.w3.org/TR/patent-practice#ref-AC """@en ;
+    cav:refersTo camssa:684b9c6d-89f3-4644-9c8e-6a3f609239f8 .
+
+camssa:c8ac3dd5-39e7-464e-87b6-f07d24cffb21 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9631ad47-831a-4bc9-a7e6-f8365d10348e .
+
+camssa:ca699455-d448-4b97-8156-1bca77a88822 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cac638cb-c32a-4ad5-89b6-7cf3a006a12b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cd0a5a41-6cca-42c8-8d04-b8463c0de8c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:ce3e9b97-07a2-4cf9-9e1a-3108ab366c0b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f76533c9-0269-41ca-a8c2-6579ede05676 .
+
+camssa:d02db749-3f0d-417d-a78f-b6411c55e49c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DCAT is included in the national catalogues of the Netherlands and Spain. Both Member States comply with at least 4 out of 5 sections of the EIF according to the NIFO factsheets.
+                                                                       
+See:                                                                                                                                        https://administracionelectronica.gob.es/pae_Home/dam/jcr:9e2c2877-5103-4934-8440-c60ba2e10c48/Catalogue_of_Standards_NIF_Spain.pdf                      https://www.forumstandaardisatie.nl/open-standaarden/lijst                                                                                                                            """@en ;
+    cav:refersTo camssa:02526945-25b3-43e6-a003-2ab8e64e2ca8 .
+
+camssa:d451f24e-9ef6-4eef-bda8-9b99647c885d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d8815d7f-b7e0-4895-a220-b1e930bf4830 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DCAT does no directly help for the provision of application programming interfaces (APIs) or Web services.
+
+However, DCAT aims to ensure consistency by providing a standard description of the catalogues and datasets published by data portals across Europe. This description makes datasets more searchable and accessible for data reuse and encourages the data providers to use open data portals for dissemination of reusable data."""@en ;
+    cav:refersTo camssa:5863ee57-32c2-4b9d-b6d2-78ba8f4f94f2 .
+
+camssa:da0cd492-05ca-4839-845c-9a16da87a3c0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:dd78d21e-1aa0-483b-81c9-afec920e2b96 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e67c3614-2228-4ecc-a261-99f9cc2c0aec a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The European Public Sector Information platform assessed the impact of the use of DCAT for the European Open Data Catalogues.
+
+See: 
+https://www.europeandataportal.eu/sites/default/files/2013_impact_of_standards_in_european_data_catalogues.pdf """@en ;
+    cav:refersTo camssa:da0cd492-05ca-4839-845c-9a16da87a3c0 .
+
+camssa:ecb78316-db02-466a-96bb-5ca1787c5364 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ee285cf0-21a4-4bd8-871d-3734661af042 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6c8056c8-04ec-4b3f-b1a6-99c2e22eee7a .
+
+camssa:f25ea1bb-7afc-4d97-a2f2-19cba669039a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DCAT is an RDF vocabulary for representing data catalogues that allows data owners to provide metadata about the datasets they publish. By describing catalogues, datasets and resources, a publisher makes them easily searchable and discoverable.
+
+In fact, DCAT is used for the publication of datasets in linked open data portals at a National (e.g. ) and European scale ( European Data Portal)
+
+See:                                                                                                                                       https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases"""@en ;
+    cav:refersTo camssa:ca699455-d448-4b97-8156-1bca77a88822 .
+
+camssa:f29fe28c-fed3-4ed2-9f2a-2dc44366078c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DCAT is recommended by the Netherlands and Spain within their national catalogues of recommended specifications.
+
+See: 
+https://www.forumstandaardisatie.nl/open-standaarden/lijst 
+https://administracionelectronica.gob.es/pae_Home/dam/jcr:9e2c2877-5103-4934-8440-c60ba2e10c48/Catalogue_of_Standards_NIF_Spain.pdf 
+"""@en ;
+    cav:refersTo camssa:4eedc59b-7ab1-4712-96c2-8ff09828513f .
+
+camssa:f76533c9-0269-41ca-a8c2-6579ede05676 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:fad77027-ba36-44a9-9c75-ef9e719f10eb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:cd0a5a41-6cca-42c8-8d04-b8463c0de8c1 .
+
+camssa:fc024df2-598a-4b2c-925b-3066607330a5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9c44d7b9-ab6a-4678-847d-67f8898bb17c .
+
+camssa:fc6b77c3-784d-4396-a9d9-d5a579049e31 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fdbdc296-39b0-4f06-840d-d270ebbafd0c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Only Member States, in collaboration with the European Commission, are in charge of sumbitting any amendment on the NUTS classification. Therefore, NUTS has support from several communities which provide public support and manage its maintenance.
+
+European Commission reference, Regulation (EC) No 1059/2003 document, Article 5:
+https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1405939838475&uri=CELEX:32003R1059'"""@en ;
+    cav:refersTo camssa:610aae49-2576-459a-9786-aa4676ed8853 .
+
+camssa:fe38b55c-0b80-42ba-bede-7eb8292ed6a9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fea5a09c-20ab-4f41-b619-0dc319ec76f8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+

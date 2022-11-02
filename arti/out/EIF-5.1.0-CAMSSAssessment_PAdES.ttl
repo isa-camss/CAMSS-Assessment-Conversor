@@ -1,0 +1,676 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:b1046099ede26195d9c6408fc0e69dce9e924156aad25587ea67bcdd267933b9 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:d7dffc53ea55b3fab31ed77bd491c7d5cc9872e0749e9c05e4c29b06a834d3cf ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:1025bdfd-7666-4a97-aa73-ee16b889bb83,
+        camssa:17ab0e17-0e32-415d-aa14-1271490bf3cb,
+        camssa:183d7af9-74c2-43f8-bf64-b239fab672fb,
+        camssa:1d609977-bb31-408a-aec0-7d74ab4e5379,
+        camssa:1fd95226-e157-4a93-8a65-f048c2a26ff8,
+        camssa:22746c01-676b-4095-ac70-14159420cfcc,
+        camssa:23ee1826-07da-47bd-aa50-4d2c03eebc65,
+        camssa:24629102-c23f-4156-ad95-d8e6a385d344,
+        camssa:2c5f14f3-1843-4ccf-9a34-c14f5034b7b9,
+        camssa:3271f8b1-fa4f-4efe-8896-61d6707ef831,
+        camssa:3554bb02-e7f0-415c-bbff-eecf12bf8206,
+        camssa:3e2f859e-3cc0-4663-82ed-82fcc7380726,
+        camssa:430637fc-3357-454f-a748-ddc28f8007d3,
+        camssa:4a14b878-2ce9-47c5-b63f-f1bc0e816f81,
+        camssa:4a8de0d4-bb9c-4427-baa2-7f0c914630ac,
+        camssa:4b59d5b7-e30d-494d-8f65-96e8de3fa2d3,
+        camssa:4c0f7425-1e91-4ecd-9308-dabbb1f9fd5b,
+        camssa:4f4db625-a8b0-4e27-8610-18d0d46b9f8b,
+        camssa:5a0eabd7-7107-4d42-96a1-a89cdbc784b6,
+        camssa:64a1d90a-becc-4e9d-be9b-5097b464de72,
+        camssa:7d28de74-7c4c-483c-9b82-89c3d8bb551c,
+        camssa:805ea4e6-3332-4160-8769-7bddaf8d76ab,
+        camssa:86a48512-a6dd-4b47-a0e0-457c484f70b7,
+        camssa:89442aec-c9d0-470c-b76e-c81d61f2c15d,
+        camssa:89abc997-bbb2-4b07-9ada-bd87b1428a13,
+        camssa:8f0af341-11f5-4a2a-88cb-9787287e9d9f,
+        camssa:948d0cc8-f8c0-4841-862a-0cf429a462e2,
+        camssa:95e48345-2171-4124-b698-651b543e677a,
+        camssa:96ab476c-12ca-4d01-8326-a44c9f7229aa,
+        camssa:a546fa8f-fb4a-441f-8ae5-f2867eb05933,
+        camssa:ac56bb63-911f-459f-a30c-8824b8e5ace5,
+        camssa:b03c72ef-6510-4cce-97be-b14383b18fed,
+        camssa:b7ba4114-f458-486f-a525-66f41943b2d7,
+        camssa:c4f27d9a-003f-413e-bd22-0199c75218eb,
+        camssa:c5cf61a6-bd0c-4856-8f4d-aac9acea1b91,
+        camssa:c8a39079-6977-447f-812d-3ff4b6bb7e05,
+        camssa:ca0c69f4-3189-4f5d-9786-22ee9abdbd0a,
+        camssa:d3e45201-41c4-4fd1-ba78-525914d19b94,
+        camssa:dd9ddc60-02d0-4c5d-aa12-708efe5bb328,
+        camssa:e102b80c-43d7-4a3a-bb2e-e890e61d794a,
+        camssa:e1d862a5-d062-437a-8728-ec9f84b213a5,
+        camssa:eacce3db-b386-462b-b52c-f0130681c79c,
+        camssa:eb20b74a-46bc-4907-8be7-5f6b50b847f3,
+        camssa:fe3a0b4e-ff6d-4680-a402-0ccca7b35f95 ;
+    cav:status status:Complete ;
+    dct:title "PDF Advanced Electronic Signatures (PAdES) - ISO 14533-3:2017"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:d45d23e9-e101-4d99-aad1-16a986712f6d ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:0c126c99-aefb-4723-817d-d6a691e0a840 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1025bdfd-7666-4a97-aa73-ee16b889bb83 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no Member State that includes PAdES (ISO 14533-3:2017) in their national catalogue with The National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:ebb0e176-bc3e-4871-ab62-590413efaa90 .
+
+camssa:15443030-3546-4b86-a0cc-8b232b961a71 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:162e4dc4-e16d-48c8-b0ce-1cd025cad121 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "20"^^xsd:int .
+
+camssa:17ab0e17-0e32-415d-aa14-1271490bf3cb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PAdES is a business domain agnostic specification that can be reused in a cross-domain way. It can apply to any type of transaction, between an individual and a company, between two companies, between an individual and a governmental body, etc.
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html
+
+PAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:65b7cefb-5f0f-4552-a2ff-19e5a37aa917 .
+
+camssa:183d7af9-74c2-43f8-bf64-b239fab672fb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the PAdES in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:de8dcd12-5726-4df7-a2e2-5950d98eb16d .
+
+camssa:1b1b4acd-d385-498e-9c41-c2e08c09c259 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1d609977-bb31-408a-aec0-7d74ab4e5379 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PAdES is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification. 
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html"""@en ;
+    cav:refersTo camssa:c9faeb24-85a9-40d4-9164-1cc37151313f .
+
+camssa:1fd95226-e157-4a93-8a65-f048c2a26ff8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the PAdES in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:3b1de1f8-c2be-40b0-a5e5-f4ce254bc87c .
+
+camssa:204b1dfc-b3da-4066-9449-43e619c59f37 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "20"^^xsd:int .
+
+camssa:22746c01-676b-4095-ac70-14159420cfcc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PAdES is not related to the publication of public data as linked open data. Therefore, this criterion is not applicable to this specification. 
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html
+
+PAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:79f01cf9-f7fb-43a4-81a8-d539e9d3a33b .
+
+camssa:23ee1826-07da-47bd-aa50-4d2c03eebc65 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no Member States recommending PAdES (ISO 14533-3:2017) in their ICT National Catalogues.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:842cc891-a11d-4bc8-b8d4-954d7fa91665 .
+
+camssa:24629102-c23f-4156-ad95-d8e6a385d344 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:add64bf4-ee6f-427e-a9e7-da96061f791b .
+
+camssa:2c5f14f3-1843-4ccf-9a34-c14f5034b7b9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no disclosures of ISO IPR Database to identify the licensing under the specification. ISO 14533-3:2017 (PAdES) is not listed in ISO/IEC/ITU Common Patent policy, so it cannot be confirmed that the specification is licensed on a (F)RAND basis.
+
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347"""@en ;
+    cav:refersTo camssa:204b1dfc-b3da-4066-9449-43e619c59f37 .
+
+camssa:2f9cc26a-4131-448b-b577-dba9f88bced9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3271f8b1-fa4f-4efe-8896-61d6707ef831 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PAdES is a set of restrictions and extensions to PDF and ISO 32000-1 making it suitable for advanced electronic signatures. One profile of PAdES is PAdES-LTV (Long Term Validation), it is a signature conformant which has one or more long-term-validation attributes that guarantee the preservation of the authenticity of the signature.
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html
+
+PAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:4137dd11-5d39-4ff7-ba97-c0a7d55b7266 .
+
+camssa:3554bb02-e7f0-415c-bbff-eecf12bf8206 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6ab7e80d-264d-4e38-ae65-9c3f212181ae .
+
+camssa:386f5d5d-e4e5-45f1-88ce-852f2c437831 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3b1de1f8-c2be-40b0-a5e5-f4ce254bc87c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:3cb43640-4f2f-465c-acd6-99ff439b43ec a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:3e291ecf-c42b-4568-9291-4339b8848c0e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:3e2f859e-3cc0-4663-82ed-82fcc7380726 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PAdES is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. 
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html
+
+PAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:9bf5fd93-d1ec-4013-9507-9edf191ee50b .
+
+camssa:4137dd11-5d39-4ff7-ba97-c0a7d55b7266 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:430637fc-3357-454f-a748-ddc28f8007d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:bb43e3d2-599f-440d-af8d-efe7589459b6 .
+
+camssa:46e0cbcc-a5a2-471e-bbde-d7b112eaa9de a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "20"^^xsd:int .
+
+camssa:4a14b878-2ce9-47c5-b63f-f1bc0e816f81 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no disclosures of ISO IPR Database to identify the licensing under the specification. ISO 14533-3:2017 (PAdES) is not listed in ISO/IEC/ITU Common Patent policy, so it cannot be confirmed that the specification is licensed on a (F)RAND basis.
+
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347"""@en ;
+    cav:refersTo camssa:46e0cbcc-a5a2-471e-bbde-d7b112eaa9de .
+
+camssa:4a8de0d4-bb9c-4427-baa2-7f0c914630ac a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PAdES is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html
+
+PAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:52f28ce2-31c8-4d80-9523-b6b929eb0227 .
+
+camssa:4b59d5b7-e30d-494d-8f65-96e8de3fa2d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As defined on the TC standardisation, only TC members are involved in the development of ISO standards. A review is carried out to arrange the consensus firstly within the TC members and subsequently is reviewed by the different ISO member bodies. However, it cannot be considered a public review, because only TC members can participate.
+
+The ISO standardization process: 
+https://www.iso.org/stages-and-resources-for-standards-development.html"""@en ;
+    cav:refersTo camssa:162e4dc4-e16d-48c8-b0ce-1cd025cad121 .
+
+camssa:4c0f7425-1e91-4ecd-9308-dabbb1f9fd5b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PAdES is not related to the visibility of administrative information, data or services. Therefore, this criterion is not applicable to this specification.
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html
+
+PAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:639cefac-c4db-4ee8-a4f5-530a5f3dfd52 .
+
+camssa:4f4db625-a8b0-4e27-8610-18d0d46b9f8b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PAdES is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. 
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html
+
+PAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:15443030-3546-4b86-a0cc-8b232b961a71 .
+
+camssa:52f28ce2-31c8-4d80-9523-b6b929eb0227 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5a0eabd7-7107-4d42-96a1-a89cdbc784b6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PAdES is independent of any technology or platform. Moreover, it is independent of any environment, so it can be applied to any environment, for example, smart cards, GSM SIM cards, special programs for electronic signatures, etc. 
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html
+
+PAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:926f5cf0-a2e4-4b1f-847b-7bbb2913cc6f .
+
+camssa:6079d3be-642f-4083-940b-329150b3f323 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:639cefac-c4db-4ee8-a4f5-530a5f3dfd52 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:64a1d90a-becc-4e9d-be9b-5097b464de72 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PAdES is not related to the comprehensibility of administrative information, data or services. Therefore, this criterion is not applicable to this specification.
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html
+
+PAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:0c126c99-aefb-4723-817d-d6a691e0a840 .
+
+camssa:65b7cefb-5f0f-4552-a2ff-19e5a37aa917 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6ab7e80d-264d-4e38-ae65-9c3f212181ae a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6b93b425-31e2-444c-9c12-aad0a6ea5664 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "20"^^xsd:int .
+
+camssa:79f01cf9-f7fb-43a4-81a8-d539e9d3a33b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7bba3a7d-29ae-4468-aa91-c7acd228b4c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:7d28de74-7c4c-483c-9b82-89c3d8bb551c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:ef557779-6613-4581-8db1-724f9e4d1175 .
+
+camssa:7e4c5a02-85c9-46b3-9f4e-07d05b2ec315 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:805ea4e6-3332-4160-8769-7bddaf8d76ab a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PAdES is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification. 
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html
+
+PAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:cc867ab8-fdc7-43cc-8e0d-d32051bb3400 .
+
+camssa:80c927f3-fc04-4785-9af5-931f2e43cee1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:842cc891-a11d-4bc8-b8d4-954d7fa91665 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:86a48512-a6dd-4b47-a0e0-457c484f70b7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f501b798-4fac-4027-b2b3-698cf7ebd341 .
+
+camssa:89442aec-c9d0-470c-b76e-c81d61f2c15d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PAdES (ISO 14533-3:2017) is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:3cb43640-4f2f-465c-acd6-99ff439b43ec .
+
+camssa:89abc997-bbb2-4b07-9ada-bd87b1428a13 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After searching in the different official European websites, there is no evidence of any cross-border project that uses PAdES (ISO 14533-3:2017) nor explicit agreements involving the usage of the specification. However, the specification PAdES from ETSI, is involved in some cross-border projects as "Analysis of standards related to Trust Service Providers" developed by ENISA (European Union Agency for Network and Information Security) which is a centre of network and information security expertise for the EU, its member states, the private sector and Europe’s citizens. 
+
+ENISA project:
+https://www.enisa.europa.eu/publications/tsp_standards_2015/at_download/fullReport
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html
+
+PAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:6b93b425-31e2-444c-9c12-aad0a6ea5664 .
+
+camssa:89f72cc2-7a70-42f4-b00c-4acaad91c982 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8f0af341-11f5-4a2a-88cb-9787287e9d9f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PAdES is a business domain agnostic specification that can be reused in a cross-domain way. It can apply to any type of transaction, between an individual and a company, between two companies, between an individual and a governmental body, etc.
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html
+
+PAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:f7522ca5-b894-4db5-9754-a8fb26d317b6 .
+
+camssa:90d1a675-cf61-4987-9c58-14590ab72a45 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:926f5cf0-a2e4-4b1f-847b-7bbb2913cc6f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:948d0cc8-f8c0-4841-862a-0cf429a462e2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:95475403-9012-45f3-bd0c-76a9f2f57325 .
+
+camssa:95475403-9012-45f3-bd0c-76a9f2f57325 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:95e48345-2171-4124-b698-651b543e677a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PAdES (ISO 14533-3:2017) is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, it can define the interoperability aspects of the "e-Seal Preservation Service" and "e-Signature Preservation Service" ABBs of the EIRA Technical Infrastructure View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
+    cav:refersTo camssa:d6ad91df-f627-4db6-b5f9-6e352cafc5a6 .
+
+camssa:96ab476c-12ca-4d01-8326-a44c9f7229aa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of PAdES (ISO 14533-3:2017) within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:3e291ecf-c42b-4568-9291-4339b8848c0e .
+
+camssa:9a3134ae-e5a9-48a0-a19b-d299727a9f59 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:9bf5fd93-d1ec-4013-9507-9edf191ee50b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9f221f27-5bf0-41f6-b10f-44a7c7a24c37 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:a546fa8f-fb4a-441f-8ae5-f2867eb05933 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PAdES has sufficient market acceptance for its use in the development of products. In the following link there is an example of integrating digital signatures like PAdES in a framework.
+
+Digital signature service:
+https://ec.europa.eu/cefdigital/DSS/webapp-demo/doc/dss-documentation.html"""@en ;
+    cav:refersTo camssa:386f5d5d-e4e5-45f1-88ce-852f2c437831 .
+
+camssa:a8ddd243-145d-4fa9-9fb1-28d70854a0b7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:ac56bb63-911f-459f-a30c-8824b8e5ace5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:7bba3a7d-29ae-4468-aa91-c7acd228b4c1 .
+
+camssa:add64bf4-ee6f-427e-a9e7-da96061f791b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b03c72ef-6510-4cce-97be-b14383b18fed a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:2f9cc26a-4131-448b-b577-dba9f88bced9 .
+
+camssa:b7ba4114-f458-486f-a525-66f41943b2d7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:e1d7be60-51ac-4f31-a7c7-185c281e4745 .
+
+camssa:bb43e3d2-599f-440d-af8d-efe7589459b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:c4f27d9a-003f-413e-bd22-0199c75218eb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9a3134ae-e5a9-48a0-a19b-d299727a9f59 .
+
+camssa:c5cf61a6-bd0c-4856-8f4d-aac9acea1b91 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PAdES as an electronic signature that uses PDF will proportionate a secure and trustworthy eSignature for the data exchange between citizens and administrations.
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html
+
+PAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:e9931f91-c416-4b3c-b8b2-74e20ffa7f78 .
+
+camssa:c8a39079-6977-447f-812d-3ff4b6bb7e05 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PAdES is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification. 
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html
+
+PAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:1b1b4acd-d385-498e-9c41-c2e08c09c259 .
+
+camssa:c9faeb24-85a9-40d4-9164-1cc37151313f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ca0c69f4-3189-4f5d-9786-22ee9abdbd0a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are many free online tools that perform numerous checking processes in order to verify the conformity of the ETSI Advanced Electronic Signatures which include PAdES.
+
+PAdES conformance testing:
+https://signatures-conformance-checker.etsi.org/pub/index.shtml"""@en ;
+    cav:refersTo camssa:ec0bbac4-8fbd-4650-90f3-233269bc512f .
+
+camssa:cc867ab8-fdc7-43cc-8e0d-d32051bb3400 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d3e45201-41c4-4fd1-ba78-525914d19b94 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PAdES is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification.
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html
+
+PAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:7e4c5a02-85c9-46b3-9f4e-07d05b2ec315 .
+
+camssa:d45d23e9-e101-4d99-aad1-16a986712f6d a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:d6ad91df-f627-4db6-b5f9-6e352cafc5a6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:dd9ddc60-02d0-4c5d-aa12-708efe5bb328 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ISO has defined a clear procedure to develop its standards. It consists in a 6-steps process where everyone who is interested can participate. However, if you want to participate, you have to contact your national standards body and you have to be approved for joining the Technical committee (TC) who will develop the standard. ISO has defined the roadmap of standards, it is composed of 6 steps as before said. For the approval of a standard the two-thirds majority of P-members of TC is needed. If the result is negative, the document is returned to TC/SC to be further studied. 
+
+The ISO standardization process: 
+https://www.iso.org/stages-and-resources-for-standards-development.html"""@en ;
+    cav:refersTo camssa:a8ddd243-145d-4fa9-9fb1-28d70854a0b7 .
+
+camssa:de8dcd12-5726-4df7-a2e2-5950d98eb16d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:e102b80c-43d7-4a3a-bb2e-e890e61d794a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PAdES is independent of any technology or platform. Moreover, it is independent of any environment, so it can be applied to any environment, for example, smart cards, GSM SIM cards, special programs for electronic signatures, etc. 
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html
+
+PAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:6079d3be-642f-4083-940b-329150b3f323 .
+
+camssa:e1d7be60-51ac-4f31-a7c7-185c281e4745 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:e1d862a5-d062-437a-8728-ec9f84b213a5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PAdES is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+PAdES ISO reference:
+https://www.iso.org/standard/67937.html
+
+PAdES ETSI reference:
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:89f72cc2-7a70-42f4-b00c-4acaad91c982 .
+
+camssa:e9931f91-c416-4b3c-b8b2-74e20ffa7f78 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:eacce3db-b386-462b-b52c-f0130681c79c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9f221f27-5bf0-41f6-b10f-44a7c7a24c37 .
+
+camssa:eb20b74a-46bc-4907-8be7-5f6b50b847f3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PAdES (ISO 14533-3:2017) has the ISO community that supports the development of: International standards, Technical Specifications, Technical Report and Publicly Available Specification.
+
+The ISO standardization process:
+https://www.iso.org/stages-and-resources-for-standards-development.html"""@en ;
+    cav:refersTo camssa:90d1a675-cf61-4987-9c58-14590ab72a45 .
+
+camssa:ebb0e176-bc3e-4871-ab62-590413efaa90 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:ec0bbac4-8fbd-4650-90f3-233269bc512f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:ef557779-6613-4581-8db1-724f9e4d1175 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:f501b798-4fac-4027-b2b3-698cf7ebd341 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f7522ca5-b894-4db5-9754-a8fb26d317b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fe3a0b4e-ff6d-4680-a402-0ccca7b35f95 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The term of PAdES was first introduced in 2009 as PDF Advanced Electronic Signatures (PAdES) on ETSI Technical specifications. The specification has got some updates and the latest version is 1.2.1, it was published in 2010. So, it is mature enough for its use in the development of products and services.
+
+ETSI TS 101 733 V1.6.3 (2009-07):
+https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"""@en ;
+    cav:refersTo camssa:80c927f3-fc04-4785-9af5-931f2e43cee1 .
+

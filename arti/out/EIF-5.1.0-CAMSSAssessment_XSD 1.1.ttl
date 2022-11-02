@@ -1,0 +1,573 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:3b6795acd286431abd3ed379dee974077aa5531bcab4f31d406c995a0fa5908f a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:97a097de4c68e020312c08f731425d2221fe97a3fb145d9bc285a84805f0c02f ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:0478a4cc-eba0-4e7d-813d-785f91ed62bd,
+        camssa:09e49287-7e80-46f8-b6da-ceaf7b019ebf,
+        camssa:12a89d15-6fc8-47af-8910-a6a27feef652,
+        camssa:1312ee6f-fb49-4d9c-8b33-a2061471495d,
+        camssa:185398d7-a62f-40cd-a2e0-e197d9abfb53,
+        camssa:1a42e610-d6bb-4916-9a73-c5d9b74de8f0,
+        camssa:1a798c29-badc-432d-903c-def5ea84cf5c,
+        camssa:1b80e2b5-57c7-48fb-88c3-9d98bc00fdd5,
+        camssa:22a90277-eee0-4fdb-b869-30edcdf7d825,
+        camssa:2f5a5e29-4d1e-476e-a932-f65c0fb6385f,
+        camssa:33b2d2ed-9e7b-44cf-99a6-d355a2e8e959,
+        camssa:375c26b3-b5a2-471a-a53c-11970ce117db,
+        camssa:3ee38ec2-7961-49f7-95d3-ae18d4a864f2,
+        camssa:3fcc815c-f051-4be3-92e7-b89e5ed98d29,
+        camssa:41f54e9e-ae08-4eb1-939d-718548830e94,
+        camssa:45179bd2-e385-4a97-a209-8264d53f3425,
+        camssa:460a80cf-c8ef-4750-9faf-ccb34cd27d0c,
+        camssa:4b6dc8af-ebef-4638-9346-416140551fb0,
+        camssa:4fdd3d24-17c6-4c37-bdc1-d1a33807c460,
+        camssa:6194a3e0-d72c-4b1f-8695-585bb944fdad,
+        camssa:6a011110-64dc-4d50-bc46-a8a7e186df02,
+        camssa:8e257a5b-5c51-4c02-b88a-ff7b5a67b9af,
+        camssa:9258119a-c374-44f4-a554-930f1f71c785,
+        camssa:941321ac-daa1-4137-b35a-b677c34ea4c7,
+        camssa:9d831e12-efbe-4e69-b0e4-9c1c416cb7de,
+        camssa:a67dc977-9128-403a-9ff4-e0c0b93000a2,
+        camssa:ab4d531d-b9c1-4416-b46a-3e9f03c32084,
+        camssa:b6b4528e-7c86-4590-b41b-c7dbfd22575b,
+        camssa:b7acd034-c5cd-40d9-b42f-6af0bf72ebf3,
+        camssa:b7bb8bd7-be7f-4d44-a360-f85113edc1b0,
+        camssa:b7ccd21e-f0e5-4f15-b9e4-963facdaaddf,
+        camssa:b8a3f39d-617b-451f-a41e-737152e935a3,
+        camssa:c1f871b1-edd4-4813-b2f6-1fb058d63177,
+        camssa:c492f561-2ba6-4419-a323-c1adf3a30566,
+        camssa:cdb82fd8-fbf1-4390-8e27-b4c6d7d85847,
+        camssa:cf2895d9-448b-4c01-ab70-b30fc7b81e4d,
+        camssa:d286abba-eac5-4aff-9db7-994b97999ff4,
+        camssa:d2896dfe-3fe3-4516-a778-09cc6c5a0e95,
+        camssa:d3863b4a-10df-4e5e-bec6-0a9640dc5891,
+        camssa:d5afff4e-4ade-4921-a34f-cce9c35ef492,
+        camssa:d9723e21-0670-4eb2-b86c-d1c75450c17e,
+        camssa:e2c9bac9-8bd2-47b5-b275-74cf063c523a,
+        camssa:e7408869-90bf-4fed-be67-81188da3b2bb,
+        camssa:eb8562f9-a22b-4504-a4ad-f193aea3d16b ;
+    cav:status status:Complete ;
+    dct:title "XML Schema Definition Language (XSD) 1.1. Part 1 and 2."@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:434d1606-1042-46e3-9bb8-119b9342cede ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:01c3839e-a42a-4566-aecf-b6a3a88f1a6a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:0478a4cc-eba0-4e7d-813d-785f91ed62bd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XSD 1.1 is an open specification that can be used independently from other technologies or platforms. However, XSD 1.1 is defining datatypes which depend on definitions in XML and Namespaces in XML. This fact is not hampering the adoption of XSD as XML is worldwide adopted. "@en ;
+    cav:refersTo camssa:304af2af-dceb-4878-9326-39eaed17d094 .
+
+camssa:09d68b7a-e27d-4f3d-a445-4bc9d76b3f9f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:09e49287-7e80-46f8-b6da-ceaf7b019ebf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of XSD 1.1 is not related to define organisational interoperability aspects. Therefore this criterion is considered not applicable to this specification."@en ;
+    cav:refersTo camssa:a29df2ea-c305-4f97-9e82-a5f1034fa17b .
+
+camssa:0c052580-3d0d-457a-b490-67c310a7d41e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:10c5a027-6716-4b93-91b7-435c180ebf8a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:12a89d15-6fc8-47af-8910-a6a27feef652 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XSD 1.1 is supporting the second level of maturity of Tim Berners-Lee's 5-stars schema for open data. It eases the availability of the data and structures XML files. Additionally, XSD 1.1 is implied within the RDF 1.1 XML Syntax, used for the serialisation of RDF documents as XML. Therefore, XSD fosters the publication of data as Linked Open Data. 
+
+Moreover, although XSD is not related directly with Open Vocabularies, it can be found included within the Linked Open Vocabularies. It is possible because datatypes defined by XSD are commonly used as rdfs:range by properties. 
+
+See: 
+https://5stardata.info/en/
+https://www.w3.org/TR/rdf-syntax-grammar/
+https://lov.linkeddata.es/dataset/lov/vocabs/xsd"""@en ;
+    cav:refersTo camssa:5f128d0d-ccd5-463a-a2ce-1e80656feb73 .
+
+camssa:1312ee6f-fb49-4d9c-8b33-a2061471495d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:43ff70ac-078c-4436-b10d-b819523653e7 .
+
+camssa:185398d7-a62f-40cd-a2e0-e197d9abfb53 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By means of validating if XML files are conformant with the schema established, the specification helps to ensure the availability of internal information systems of public administrations. It is worth to note that it is possible due to the fact that XML is used to encode communications over the internet. "@en ;
+    cav:refersTo camssa:d4475bc5-bee8-4314-b65f-2805e0a7d9bd .
+
+camssa:1a42e610-d6bb-4916-9a73-c5d9b74de8f0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XSD is a business domain agnostic specification that can be used at any business domain. "@en ;
+    cav:refersTo camssa:6979ea42-0e21-44ea-be0e-f4d0658a0bb3 .
+
+camssa:1a798c29-badc-432d-903c-def5ea84cf5c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies """@en ;
+    cav:refersTo camssa:42a3e881-4da4-4362-90e1-6eaa0088a473 .
+
+camssa:1b80e2b5-57c7-48fb-88c3-9d98bc00fdd5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:2a8a9da5-f388-40e7-a6b4-d18457f8328d .
+
+camssa:22a90277-eee0-4fdb-b869-30edcdf7d825 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XSD 1.1 is an Open specification which is implied in the validation of XML documents. As XML is a de-facto standard implied in in the creation of solutions, including innovative ones, XSD is also fostering the creation of innovative solutions. "@en ;
+    cav:refersTo camssa:ec78874c-a565-477a-b2f1-079f3501e0bb .
+
+camssa:237a2527-9c7a-4511-8096-eacf4b94c059 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2461266a-6fcd-44ef-bcf0-9ae61625c2e8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2a8a9da5-f388-40e7-a6b4-d18457f8328d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:2bc7fa98-16f5-426f-99f1-3bdb6bda03de a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2f5a5e29-4d1e-476e-a932-f65c0fb6385f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of XSD 1.1 is not related to e-accessibility. Therefore this criterion is considered not applicable to this specification."@en ;
+    cav:refersTo camssa:5b34b21e-b9cf-4529-8c8b-0f41fb7af93d .
+
+camssa:2fa2ccb9-f6a5-4f46-bf99-915252b143e4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:304af2af-dceb-4878-9326-39eaed17d094 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:33b2d2ed-9e7b-44cf-99a6-d355a2e8e959 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "As XML is used to encode all communications all over the internet, XSD fosters the visibility and comprehensibility of administrations by providing validation of exchanged data."@en ;
+    cav:refersTo camssa:c4e67475-1fe0-4a2a-afa6-f9206bb46078 .
+
+camssa:375c26b3-b5a2-471a-a53c-11970ce117db a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of XSD 1.1 is not related to business processes modelling. Therefore this criterion is considered not applicable to this specification."@en ;
+    cav:refersTo camssa:10c5a027-6716-4b93-91b7-435c180ebf8a .
+
+camssa:3bacf370-8c7f-45e2-8f73-e6a7690df61b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:3ee38ec2-7961-49f7-95d3-ae18d4a864f2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are already studies and documentation assessing the specification in terms of effectiveness and efficiency. The topics are different, for instance, there is a study assessing the capabilities of XML Schema for the defense against Signature Wrapped Attacks. 
+Another field of documentation is the XML Schema clustering, and its effectiveness for the improvement of user results.
+See: 
+https://www.researchgate.net/publication/252053794_On_the_effectiveness_of_XML_Schema_validation_for_countering_XML_Signature_Wrapping_attacks
+https://www.researchgate.net/publication/254858700_XML_schema_matching_balancing_efficiency_and_effectiveness_by_means_of_clustering"""@en ;
+    cav:refersTo camssa:c26e20ec-b84c-4a0b-b9de-2e63fe4e5e5f .
+
+camssa:3fcc815c-f051-4be3-92e7-b89e5ed98d29 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XSD 1.1 is an open specification that can be used independently from other technologies or platforms. However, XSD 1.1 is defining datatypes which depend on definitions in XML and Namespaces in XML. This fact is not hampering the adoption of XSD as XML is worldwide adopted. "@en ;
+    cav:refersTo camssa:4520cf52-63f2-4872-a20e-8d2904b7cdf4 .
+
+camssa:41f54e9e-ae08-4eb1-939d-718548830e94 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XSD is a business domain agnostic specification that can be used at any business domain. "@en ;
+    cav:refersTo camssa:58d57065-e464-4d2a-b118-638e1b07eca9 .
+
+camssa:42a3e881-4da4-4362-90e1-6eaa0088a473 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:434d1606-1042-46e3-9bb8-119b9342cede a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:43ff70ac-078c-4436-b10d-b819523653e7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:45179bd2-e385-4a97-a209-8264d53f3425 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By defining schemas for XML documents, which are involved in the data exchange across borders, XSD ensures and eases the implementation of the once-only principle. "@en ;
+    cav:refersTo camssa:c254552b-b3fd-4314-8fd5-af4554b6c110 .
+
+camssa:4520cf52-63f2-4872-a20e-8d2904b7cdf4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:459cf971-b4f0-4957-a457-5c7059b960b2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:460a80cf-c8ef-4750-9faf-ccb34cd27d0c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:09d68b7a-e27d-4f3d-a445-4bc9d76b3f9f .
+
+camssa:4b6dc8af-ebef-4638-9346-416140551fb0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XSD provides schemas for the validation of XML and the proper data exchange by means of it. Therefore, by ensuring the well formation and validity of the documents being exchanged, XSD fosters the data portability between systems and administrations across borders. "@en ;
+    cav:refersTo camssa:0c052580-3d0d-457a-b490-67c310a7d41e .
+
+camssa:4fdd3d24-17c6-4c37-bdc1-d1a33807c460 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XSD is widely used when exchanging information in XML is needed. There are two european initiatives that are using XSD to provide services. 
+
+The first initiative is TED eSentool, a free web service of the Publications Office which is focused in allow eSenders to follow-up the process of their notices until publication. 
+
+The ESPD, is another cross border initiative using XSD for the validation of the XML documents generated while generating eProcurement process and documentation.  
+
+See: 
+https://esentool.ted.europa.eu/
+https://ec.europa.eu/growth/single-market/public-procurement/digital/espd"""@en ;
+    cav:refersTo camssa:be752491-5f79-44d6-aea2-50397c0ac194 .
+
+camssa:58d57065-e464-4d2a-b118-638e1b07eca9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5b34b21e-b9cf-4529-8c8b-0f41fb7af93d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5f128d0d-ccd5-463a-a2ce-1e80656feb73 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6194a3e0-d72c-4b1f-8695-585bb944fdad a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """8 Member States are recommending XSD in their ICT National Catalogues. 
+
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:237a2527-9c7a-4511-8096-eacf4b94c059 .
+
+camssa:634d6f05-5175-4590-92e6-4d60f2562d15 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:66eacb1f-7664-4c4f-ac86-4d86730a94fe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6979ea42-0e21-44ea-be0e-f4d0658a0bb3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6a011110-64dc-4d50-bc46-a8a7e186df02 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "As XML is used to encode all communications all over the internet, XSD fosters the visibility and comprehensibility of administrations by providing validation of exchanged data."@en ;
+    cav:refersTo camssa:3bacf370-8c7f-45e2-8f73-e6a7690df61b .
+
+camssa:7aa7de4e-2ca4-4af7-a23a-774c154745d4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:8b737232-9be7-497e-9c0e-9eaa23b66222 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:8e257a5b-5c51-4c02-b88a-ff7b5a67b9af a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XSD 1.1 is supporting the second level of maturity of Tim Berners-Lee's 5-stars schema for open data. It eases the availability of the data and structures XML files. Additionally, XSD 1.1 is implied within the RDF 1.1 XML Syntax, used for the serialisation of RDF documents as XML. Therefore, XSD fosters the publication of data as Open Data. 
+See: 
+https://5stardata.info/en/
+https://www.w3.org/TR/rdf-syntax-grammar/"""@en ;
+    cav:refersTo camssa:e2884ea3-bd0b-46f5-b40a-3885135f4679 .
+
+camssa:8e39e693-3af0-4be5-9f03-e8630bc65346 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9258119a-c374-44f4-a554-930f1f71c785 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:bdaaa919-4cac-4b96-bf28-bcc2ff658ffa .
+
+camssa:941321ac-daa1-4137-b35a-b677c34ea4c7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are already studies and documentation assessing the specification in terms of effectiveness and efficiency. The topics are different, for instance, there is a study assessing the capabilities of XML Schema for the defense against Signature Wrapped Attacks. 
+Another field of documentation is the XML Schema clustering, and its effectiveness for the improvement of user results.
+See: 
+https://www.researchgate.net/publication/252053794_On_the_effectiveness_of_XML_Schema_validation_for_countering_XML_Signature_Wrapping_attacks
+https://www.researchgate.net/publication/254858700_XML_schema_matching_balancing_efficiency_and_effectiveness_by_means_of_clustering"""@en ;
+    cav:refersTo camssa:8e39e693-3af0-4be5-9f03-e8630bc65346 .
+
+camssa:98d2bfd2-e88a-4ffc-9944-56366ad6ad00 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9d831e12-efbe-4e69-b0e4-9c1c416cb7de a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By establishing constraints on the creation and exchange of XML documents XSD fosters the trustworthy data exchange between administrations and stakeholders. However, XSD does not include security features in itself. Despite this, XML includes several recommendations in order to ensure the security of data and users. "@en ;
+    cav:refersTo camssa:e8677e19-277d-416d-8efa-4c3ea3492ff4 .
+
+camssa:a29df2ea-c305-4f97-9e82-a5f1034fa17b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a67dc977-9128-403a-9ff4-e0c0b93000a2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including XSD.
+
+See:
+https://www.w3.org/TR/patent-practice#ref-AC """@en ;
+    cav:refersTo camssa:2461266a-6fcd-44ef-bcf0-9ae61625c2e8 .
+
+camssa:ab4d531d-b9c1-4416-b46a-3e9f03c32084 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of XSD 1.1 is not related to long-term preservation of electronic documents. Therefore this criterion is considered not applicable to this specification."@en ;
+    cav:refersTo camssa:7aa7de4e-2ca4-4af7-a23a-774c154745d4 .
+
+camssa:b6b4528e-7c86-4590-b41b-c7dbfd22575b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 10 Member States' catalogues of recommended specifications. Some examples of Member States including XSD on their catalogues are the Netherlands, Slovenia, Spain or Portugal.
+
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:01c3839e-a42a-4566-aecf-b6a3a88f1a6a .
+
+camssa:b7acd034-c5cd-40d9-b42f-6af0bf72ebf3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XSD 1.1 is maintained by W3C which is an international community developing open standards. 
+
+See:
+https://www.w3.org/Consortium/
+https://www.w3.org/TR/xmlschema11-1/ 
+ https://www.w3.org/TR/xmlschema11-2/ """@en ;
+    cav:refersTo camssa:ea265e24-ef78-4661-90c3-5d637fc96790 .
+
+camssa:b7bb8bd7-be7f-4d44-a360-f85113edc1b0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XSD is included in 2 national catalogues of recommended specifications. They belong to the Netherlands and Spain. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+See:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:2bc7fa98-16f5-426f-99f1-3bdb6bda03de .
+
+camssa:b7ccd21e-f0e5-4f15-b9e4-963facdaaddf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XSD is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). Specifically, XSD can define the interoperability aspects of the "Data Syntax" ABBs of the EIRA Semantic View.
+See:
+https://joinup.ec.europa.eu/solution/elis"""@en ;
+    cav:refersTo camssa:bb8d9649-808b-49bc-bf10-22e14d77858c .
+
+camssa:b8a3f39d-617b-451f-a41e-737152e935a3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:cedea243-1068-456c-9698-b2d5aa61fadf .
+
+camssa:b8f1ff08-66cd-4970-82b7-e7719de1d433 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bb8d9649-808b-49bc-bf10-22e14d77858c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:bdaaa919-4cac-4b96-bf28-bcc2ff658ffa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:be752491-5f79-44d6-aea2-50397c0ac194 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c1f871b1-edd4-4813-b2f6-1fb058d63177 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of XSD 1.1 is not related to delivery of multilingual European public services. Therefore this criterion is considered not applicable to this specification."@en ;
+    cav:refersTo camssa:98d2bfd2-e88a-4ffc-9944-56366ad6ad00 .
+
+camssa:c23ab3df-f2e6-412d-accd-67e75dfc9423 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c254552b-b3fd-4314-8fd5-af4554b6c110 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c26e20ec-b84c-4a0b-b9de-2e63fe4e5e5f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c492f561-2ba6-4419-a323-c1adf3a30566 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies """@en ;
+    cav:refersTo camssa:8b737232-9be7-497e-9c0e-9eaa23b66222 .
+
+camssa:c4e67475-1fe0-4a2a-afa6-f9206bb46078 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cdb82fd8-fbf1-4390-8e27-b4c6d7d85847 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:66eacb1f-7664-4c4f-ac86-4d86730a94fe .
+
+camssa:cedea243-1068-456c-9698-b2d5aa61fadf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:cf2895d9-448b-4c01-ab70-b30fc7b81e4d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f5f54184-0baf-4418-9a16-a79d609f2a45 .
+
+camssa:d286abba-eac5-4aff-9db7-994b97999ff4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XSD provides schemas for the validation of XML and the proper data exchange by means of it. Therefore, by ensuring the well formation and validity of the documents being exchanged, XSD fosters the data portability between systems and administrations across borders. "@en ;
+    cav:refersTo camssa:459cf971-b4f0-4957-a457-5c7059b960b2 .
+
+camssa:d2896dfe-3fe3-4516-a778-09cc6c5a0e95 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The version which is being assessed was released in 2012, fact that demonstrates the maturity of the specification for its use in the development of products and services. Moreover, XSD is an open specification supported by products and services and it is involved in the development of web services as XML schemas are needed for validating XML files."@en ;
+    cav:refersTo camssa:e0cd2d58-e9db-420f-95a9-583e364c692b .
+
+camssa:d3863b4a-10df-4e5e-bec6-0a9640dc5891 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including XSD.
+
+See:
+https://www.w3.org/TR/patent-practice#ref-AC """@en ;
+    cav:refersTo camssa:b8f1ff08-66cd-4970-82b7-e7719de1d433 .
+
+camssa:d4475bc5-bee8-4314-b65f-2805e0a7d9bd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:d5afff4e-4ade-4921-a34f-cce9c35ef492 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:c23ab3df-f2e6-412d-accd-67e75dfc9423 .
+
+camssa:d9723e21-0670-4eb2-b86c-d1c75450c17e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:2fa2ccb9-f6a5-4f46-bf99-915252b143e4 .
+
+camssa:e0cd2d58-e9db-420f-95a9-583e364c692b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:e1e43c16-1c1c-48ac-a993-e82771a5a612 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:e2884ea3-bd0b-46f5-b40a-3885135f4679 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e2c9bac9-8bd2-47b5-b275-74cf063c523a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are existing mechanisms for assessing the conformity of XSD implementations. W3C provides with a XSD test suit that is available for free. 
+See: 
+https://github.com/w3c/xsdtests"""@en ;
+    cav:refersTo camssa:e51ba392-d69d-476b-9017-7e98cccc61db .
+
+camssa:e51ba392-d69d-476b-9017-7e98cccc61db a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:e7408869-90bf-4fed-be67-81188da3b2bb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:634d6f05-5175-4590-92e6-4d60f2562d15 .
+
+camssa:e8677e19-277d-416d-8efa-4c3ea3492ff4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ea265e24-ef78-4661-90c3-5d637fc96790 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:eb8562f9-a22b-4504-a4ad-f193aea3d16b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "At the moment of performing the assessment, the specification is not included in a catalogue of standards at EU level. "@en ;
+    cav:refersTo camssa:e1e43c16-1c1c-48ac-a993-e82771a5a612 .
+
+camssa:ec78874c-a565-477a-b2f1-079f3501e0bb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f5f54184-0baf-4418-9a16-a79d609f2a45 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
