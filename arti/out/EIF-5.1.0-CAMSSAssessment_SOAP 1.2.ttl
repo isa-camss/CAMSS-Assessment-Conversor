@@ -19,50 +19,50 @@ camssa:3dfa65a7bb19584569558cf85efcc952a71da0615e6734419e721b7831749698 a cav:As
     camss:submissionDate "None"^^xsd:date ;
     camss:toolVersion tool:5.1.0 ;
     cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
-    cav:resultsIn camssa:01fc0018-d681-49fb-ba73-58dd7bbe97cc,
-        camssa:05c6c576-2938-465a-919f-69e9b1d024e3,
-        camssa:05f37354-349a-4f82-b258-d7d112e3da78,
-        camssa:079de130-e9a9-481c-9dda-ff9517be74a7,
-        camssa:07e07862-dd38-4c55-a0fd-451131d702b3,
-        camssa:0a170709-05d1-4266-815f-4bd977331ecd,
-        camssa:0a97ce53-02ab-412c-9ade-a88ab0ca5953,
-        camssa:0df1d954-7d67-412c-a60a-18f03c1247c2,
-        camssa:0fa1c95b-b97a-4092-ac24-66680ecbdf1f,
-        camssa:1252bede-94a1-49e0-961d-51f4b60e21b9,
-        camssa:212f41a3-83df-4ad4-a994-6ee352d3de7e,
-        camssa:217c97c7-6240-417c-a67b-f7d80c4fb488,
-        camssa:2a34c67a-2c81-49dc-95cd-bc7b2b344b4f,
-        camssa:2b1a9190-eb06-42ef-ac87-03e7d835e4d5,
-        camssa:2c8cef2d-c9d5-42bb-9dcb-3658e28cc529,
-        camssa:31c4e691-c3c8-4b67-81dc-41eddae22b22,
-        camssa:33318e0d-67d2-416f-9640-da6c35acfa8b,
-        camssa:33b56186-621d-4cc3-8bc0-72a3e3a063bf,
-        camssa:35e9479b-335a-4da6-abd2-aee2b7c9002b,
-        camssa:3860e6be-290d-42dd-a613-49f3c8cbb5ad,
-        camssa:387a1607-7184-4d1e-ac0b-87cb6de1018b,
-        camssa:39eeb644-9fbc-43a5-82d4-ed13acd56e16,
-        camssa:3e7f5fa8-ec18-45c2-822d-8fa0e99e0ee7,
-        camssa:46cab0e6-de43-4ff3-9a34-de6c638314a0,
-        camssa:511f94ee-da34-42b1-a78a-1e917b05eab5,
-        camssa:58a373d7-7c4c-4212-b04b-cc26354ceb32,
-        camssa:73b479ed-80f3-41a1-bb6a-fcffebbee475,
-        camssa:7c8cd0aa-b1a7-4e5f-8500-f5a72b3c109c,
-        camssa:8219d332-9208-4809-89d2-40195cbb5b21,
-        camssa:8ee7681b-85f8-4866-9b0c-3af5d43259c9,
-        camssa:93762fe6-d81d-4504-bbd1-ffbe26ac89c1,
-        camssa:998f9873-8854-4188-b670-2c10cd153ffa,
-        camssa:a41a64e4-14f0-43dc-84f4-da2e251e2960,
-        camssa:a49e72b9-53a3-43c1-b17a-651c566ec122,
-        camssa:a60c1eb9-69b1-4488-95fd-fa8f46d8e1d0,
-        camssa:ab995934-d5f0-4f05-9997-32bb6e621026,
-        camssa:ad50f85a-2c37-4e03-b488-bd8d96a2c151,
-        camssa:b62f9d9e-e80b-4244-b1a2-4dcf98179dab,
-        camssa:b8535886-cbef-42cf-9d1f-170705155616,
-        camssa:babdd401-b241-43e3-be14-40c04c536013,
-        camssa:d003c876-e782-43f8-8fd4-092c34d4034e,
-        camssa:deb0de18-8af2-4cf7-a370-d830f942e94d,
-        camssa:fe2d5e0f-978d-4870-86da-f41c56a1c8e9,
-        camssa:ff585387-051d-419e-9a20-6d55079763d2 ;
+    cav:resultsIn camssa:0074d1c4-4415-4352-a426-b726f3adede2,
+        camssa:01de8780-e869-454d-83e0-9478fb6f5c7d,
+        camssa:0430455b-cae5-430c-80f5-baa6e7052ab1,
+        camssa:0980ab4d-b1e9-4dae-ad31-1355de4fcf09,
+        camssa:1096a479-8617-4977-8368-da6ada12f61c,
+        camssa:1a307cd7-9fef-4588-8218-44ca6161a31d,
+        camssa:1d13503e-4c1a-4ab8-8866-65b0886c57d0,
+        camssa:1fe38cef-50ed-462b-8d53-7d22fe60c9d8,
+        camssa:289b044a-076e-4b79-ab32-61d501b67117,
+        camssa:2a9b3004-0afa-4caa-a34a-9802f8fed311,
+        camssa:2f20e1c9-3e8c-48ec-ad01-76d6650013c7,
+        camssa:322bae5a-8390-4540-9e8e-3b8769bb60dc,
+        camssa:322ea0f9-defe-424c-a254-3083ffad5376,
+        camssa:35dc7ba2-9759-46fc-b50d-1fa2be74c556,
+        camssa:3cc51b50-9fbb-4953-a998-d2559dd09eba,
+        camssa:409760cf-5acd-4f6f-a0f6-7d28d132bc83,
+        camssa:42f339d9-d3de-4550-977e-97586795bf82,
+        camssa:4c4429d0-2612-463e-a78d-3b1210bf62cf,
+        camssa:4d5461f0-b098-4c41-a416-ce1d1aaad5b7,
+        camssa:4f4a7add-1a0d-4935-bc70-e34a06ade939,
+        camssa:5dcf799f-1cb9-4b4e-b1f3-3fb6a7fb7506,
+        camssa:6a664917-14c1-4ad6-b945-3fd728633460,
+        camssa:7169a92d-cdc8-4c04-8961-5dc9253023d0,
+        camssa:7ce1c777-2ae4-414e-9d43-09165c3664ee,
+        camssa:916fde23-b01e-4627-8336-834492298c50,
+        camssa:9613edf9-3fa8-4dfb-a108-e2d9b003a2d1,
+        camssa:9666360b-64d9-4155-86cf-ece276c1bd45,
+        camssa:a30150b4-cc05-47ea-acf7-78501dec4b04,
+        camssa:a8429cfe-71a2-4cf3-855d-c24495c0032e,
+        camssa:af263f8f-3211-4866-85c7-4ff4bb677576,
+        camssa:afc3b94d-d249-4b0a-882c-8f8fdc7ffa8e,
+        camssa:b43c4fd4-1697-4a6e-80d2-d6be1abb042b,
+        camssa:baa87c3f-d315-4841-873d-37bbe454e3c3,
+        camssa:c17f8295-8dbe-4ea8-b45c-2423563c08a5,
+        camssa:cef9e1b9-3087-4c36-9edf-47c137703aec,
+        camssa:d0506b1c-909d-42b8-9aa6-70abc6aa8696,
+        camssa:d226d79a-57a7-4271-9802-2cef2bce6a6d,
+        camssa:dd7e73c9-327f-4d82-8264-837f115dca4a,
+        camssa:e8fcadff-fc08-495b-abf5-3bc9157ae5fe,
+        camssa:e9383c93-96fe-4b1b-a6f3-ca590e9f78e4,
+        camssa:eb1cad4f-b1bf-4049-90d1-5af9c13f85eb,
+        camssa:f1c8aaf5-34cb-4ff9-adbc-6545fce76b29,
+        camssa:f6bb9a72-3927-4666-a301-37aa24a82ca7,
+        camssa:ffa2d219-9afa-47fc-8895-d34378460566 ;
     cav:status status:Complete ;
     dct:title "SOAP"@en .
 
@@ -71,301 +71,107 @@ camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:Na
     camss:contactPoint camssa:c297fdf3-9349-42d6-b1e8-239a47225f12 ;
     skos:prefLabel "CAMSS Team"@en .
 
-camssa:01fc0018-d681-49fb-ba73-58dd7bbe97cc a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification is included in 8 Member States' catalogues of recommended specifications. Some examples of Member States including SOAP on their catalogues are the Netherlands, Spain or France.
-See: 
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
-    cav:refersTo camssa:660536c3-f9a8-4972-bbb8-23e3531a4a63 .
-
-camssa:03b97dd9-d712-424c-89ce-f9155a1d9084 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
-    cav:value "100"^^xsd:int .
-
-camssa:0552a1a7-4d49-4eb1-83c9-7336468a73fa a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
-    cav:value "100"^^xsd:int .
-
-camssa:05c6c576-2938-465a-919f-69e9b1d024e3 a cav:Statement,
+camssa:0074d1c4-4415-4352-a426-b726f3adede2 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "None"@en ;
-    cav:refersTo camssa:842d7713-a3ee-4852-8fca-9059d1bfb76a .
+    cav:refersTo camssa:ef3ac3a3-1d7d-46b7-a38a-5e8372bb95dd .
 
-camssa:05f37354-349a-4f82-b258-d7d112e3da78 a cav:Statement,
+camssa:019f6736-52f4-419d-a32f-9d00dc36bf22 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """The purpose of SOAP 1.2 is to store, transport and exchange data through interoperable systems. Moreover, SOAP 1.2 uses XML which defines a set of rules for encoding documents in a human-readable format and machine-readable format enhancing the reusability of data and stimulating the interoperability of systems and services.  
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
 
-Additionally, W3C develops its specification independently from any vendor. Thus, the adoption of SOAP 1.2 does not hamper the data portability of data expressed with it. In fact, the adoption of SOAP endorses the binding and invoking of web services allowing data exchange across borders.
-
-See:
-https://www.w3.org/TR/2006/REC-xml11-20060816/
-https://www.w3.org/TR/soap12/"""@en ;
-    cav:refersTo camssa:965e5e29-7447-4504-854e-ca575559be68 .
-
-camssa:079de130-e9a9-481c-9dda-ff9517be74a7 a cav:Statement,
+camssa:01de8780-e869-454d-83e0-9478fb6f5c7d a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data, the second star corresponds to make data available as structured data, an area of application of SOAP 1.2.
+    cav:judgement "SOAP 1.2 is a sector domain agnostic specification that can be used independently from the business domain. "@en ;
+    cav:refersTo camssa:40a59107-55b6-4add-b7a7-932ae4cf5abc .
 
-In addition, SOAP 1.2 serialisation provides several advantages, especially if the Semantic Web is not just about providing metadata for existing web pages, but also about exchange of content that is machine-readable.  
-
-See:
-https://5stardata.info/en/
-https://pdfs.semanticscholar.org/dbf2/6496e5b3087b708d4c00883c6470b53ff8d8.pdf"""@en ;
-    cav:refersTo camssa:d872a8f2-3cbb-4972-8932-454d7386b75c .
-
-camssa:07e07862-dd38-4c55-a0fd-451131d702b3 a cav:Statement,
+camssa:02a9cd62-cc26-416e-9339-9f5c6dbeae0d a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including SOAP 1.2.
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
 
-See:
-https://www.w3.org/TR/patent-practice#ref-AC """@en ;
-    cav:refersTo camssa:a9352535-400a-4a25-accb-b415d7c464bd .
-
-camssa:0a170709-05d1-4266-815f-4bd977331ecd a cav:Statement,
+camssa:0430455b-cae5-430c-80f5-baa6e7052ab1 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
 
 W3C Process document:
 https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
-    cav:refersTo camssa:d1870296-dde4-4803-9287-dfabd22b6be7 .
+    cav:refersTo camssa:019f6736-52f4-419d-a32f-9d00dc36bf22 .
 
-camssa:0a3a89d9-5cc7-481b-bcd6-ccf3e87e111e a cav:Score,
+camssa:0747eecc-2140-455f-8c5b-fd178069f318 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
     cav:value "100"^^xsd:int .
 
-camssa:0a97ce53-02ab-412c-9ade-a88ab0ca5953 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """SOAP 1.2 can be used independently from any other technical specifications or operating system. As is shown in the SOAP 1.2 FAQ from W3C, SOAP can be adopted with no dependence on WSDL.
-
-See:
-https://www.w3.org/TR/soap12/
-https://www.w3.org/2003/06/soap12faq.html"""@en ;
-    cav:refersTo camssa:0a3a89d9-5cc7-481b-bcd6-ccf3e87e111e .
-
-camssa:0db65414-5b23-4182-a6de-faacbfb9598c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
-    cav:value "100"^^xsd:int .
-
-camssa:0df1d954-7d67-412c-a60a-18f03c1247c2 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:0552a1a7-4d49-4eb1-83c9-7336468a73fa .
-
-camssa:0fa1c95b-b97a-4092-ac24-66680ecbdf1f a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """SOAP 1.2 is associated to an EIRA ABB in the European Library Of Specifications (ELIS). More specifically, SOAP 1.2 can define the interoperability aspects of the "Machine to Machine Interface", "Data Exchange Component" and, “Data Exchange Service” ABBs from the EIRA Technical Infrastructure view.
-
-See:
-https://joinup.ec.europa.eu/release/eira-library-interoperability-specifications-elis/v100-beta"""@en ;
-    cav:refersTo camssa:b8eeb70a-c1d6-4be4-8b36-db228f332c7a .
-
-camssa:0fc28812-d83c-4c50-81bd-140d9774992c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
-    cav:value "100"^^xsd:int .
-
-camssa:1252bede-94a1-49e0-961d-51f4b60e21b9 a cav:Statement,
+camssa:0980ab4d-b1e9-4dae-ad31-1355de4fcf09 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """There are several studies assessing SOAP 1.2 performance and features in terms of efficiency and efficacy. As REST and SOAP-based web services are living together nowadays, one of the topics is the performance comparison. Moreover, the comparison between different SOAP toolkits is an exploited topic. 
 
 See: 
 https://aaltodoc.aalto.fi/bitstream/handle/123456789/29224/master_Makkonen_Joni_2017.pdf?sequence=1&isAllowed=y 
 https://dl.acm.org/citation.cfm?id=1033266"""@en ;
-    cav:refersTo camssa:4da2a238-6fde-4d43-8a65-16bd719e8dbe .
+    cav:refersTo camssa:1135cf7a-297d-4cb5-ba33-6cb2d612f2ca .
 
-camssa:144c3227-9330-4419-9414-b512d2d1e809 a cav:Score,
+camssa:0f3288b3-35c5-460f-a9df-43f21511c85c a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
     cav:value "100"^^xsd:int .
 
-camssa:1a7c5d73-d1aa-43c6-8ef8-deab16ac89c6 a cav:Score,
+camssa:1096a479-8617-4977-8368-da6ada12f61c a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
-    cav:value "100"^^xsd:int .
+    cav:judgement "The purpose of SOAP 1.2 is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:f9149eda-267c-4ee0-81c9-655ed050561b .
 
-camssa:1d6fd12f-05e7-4cab-ade9-ec3737481ab2 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
-    cav:value "100"^^xsd:int .
-
-camssa:212f41a3-83df-4ad4-a994-6ee352d3de7e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:51829d57-2eed-4204-8cdd-e0ad71e1f8db .
-
-camssa:217c97c7-6240-417c-a67b-f7d80c4fb488 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification is a widely used de-facto standard. It was launched for the first time in 1998 by engineers from Microsoft. Other companies with a wide market share are contributed to the development of the specification. Additionally, SOAP is developed and maintained by W3C and its working group. Thus, it is sufficiently mature for the development of products and services.
-
-See:
-https://www.w3.org/TR/soap12/  """@en ;
-    cav:refersTo camssa:92393394-74d4-4c16-8e86-930b82accbea .
-
-camssa:2a34c67a-2c81-49dc-95cd-bc7b2b344b4f a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:be8832b6-499f-45e9-9777-90e4ce0440d8 .
-
-camssa:2b1a9190-eb06-42ef-ac87-03e7d835e4d5 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """SOAP 1.2 is maintained by W3C which is an international community developing open standards. 
-
-See:
-https://www.w3.org/Consortium/"""@en ;
-    cav:refersTo camssa:40267ae4-8f4e-4a6b-b2c7-0213d4bb1c0d .
-
-camssa:2c8cef2d-c9d5-42bb-9dcb-3658e28cc529 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The purpose of SOAP 1.2 is not related to the  delivery of multilingual public services. Therefore, this criterion is not applicable to the specification."@en ;
-    cav:refersTo camssa:e5cfa05d-28e9-45c7-bf88-cebee2dc2d81 .
-
-camssa:2fe0cb6c-eec4-4f4b-b2f0-fe222188e20a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
-    cav:value "100"^^xsd:int .
-
-camssa:30baf7dc-535c-4dc2-a905-6c5c7e9fbacf a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
-    cav:value "100"^^xsd:int .
-
-camssa:31c4e691-c3c8-4b67-81dc-41eddae22b22 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """W3C provides a Markup Validation Service for free to validate SOAP 1.2 implementations.
-
-See:
-https://validator.w3.org/feed/docs/soap.html"""@en ;
-    cav:refersTo camssa:aec877c9-ab06-46cb-96d3-925491847aae .
-
-camssa:33318e0d-67d2-416f-9640-da6c35acfa8b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:0db65414-5b23-4182-a6de-faacbfb9598c .
-
-camssa:33b56186-621d-4cc3-8bc0-72a3e3a063bf a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The purpose of SOAP 1.2 is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
-    cav:refersTo camssa:d1806e7e-d7fc-40d4-921e-04e78ba8bebc .
-
-camssa:357b84e1-566d-4641-92d6-517daac1f175 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
-    cav:value "100"^^xsd:int .
-
-camssa:35e9479b-335a-4da6-abd2-aee2b7c9002b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """SOAP 1.2 is a messaging protocol for exchanging information in a structured way, it uses XML for its message format. As the protocol is a messaging system for exchanging information in a structured way, it helps to promote the visibility and comprehensibility of the administrative rules. In addition, it is a key enabler for web services reuse across borders along with UDDI and WSDL. 
-
-See:
-https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/cwbs_soapverdiffs.html"""@en ;
-    cav:refersTo camssa:a0425b70-75a0-40f9-af2b-dad7d9e37a4f .
-
-camssa:3860e6be-290d-42dd-a613-49f3c8cbb5ad a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including SOAP 1.2.
-
-See:
-https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
-    cav:refersTo camssa:84804f11-e073-4be6-8e89-51071795e566 .
-
-camssa:387a1607-7184-4d1e-ac0b-87cb6de1018b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """SOAP 1.2 is included in 2 national catalogues of recommended specifications. They belong to the Netherlands and Spain. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO)factsheets.
-
-See:
-https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
-    cav:refersTo camssa:933a9aa0-9a4e-40ce-9af0-6a2811bd9c76 .
-
-camssa:39eeb644-9fbc-43a5-82d4-ed13acd56e16 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of SOAP 1.2 is to store, transport and exchange data through interoperable systems. Moreover, SOAP 1.2 uses XML which defines a set of rules for encoding documents in a human-readable format and machine-readable format enhancing the reusability of data and stimulating the interoperability of systems and services.  
-
-Additionally, W3C develops its specification independently from any vendor. Thus, the adoption of SOAP 1.2 does not hamper the data portability of data expressed with it. In fact, the adoption of SOAP endorses the binding and invoking of web services allowing data exchange across borders.
-
-See:
-https://www.w3.org/TR/2006/REC-xml11-20060816/
-https://www.w3.org/TR/soap12/"""@en ;
-    cav:refersTo camssa:0fc28812-d83c-4c50-81bd-140d9774992c .
-
-camssa:3e7f5fa8-ec18-45c2-822d-8fa0e99e0ee7 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:8eeb40ef-4699-4194-8a38-1543aee1e801 .
-
-camssa:40267ae4-8f4e-4a6b-b2c7-0213d4bb1c0d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
-    cav:value "100"^^xsd:int .
-
-camssa:45b901eb-05bb-49bf-aa4c-55d127358761 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
-    cav:value "100"^^xsd:int .
-
-camssa:46cab0e6-de43-4ff3-9a34-de6c638314a0 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """8 Member States are recommending JSON in their ICT National Catalogues. 
-See: 
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:8971d940-a59e-4a76-a5a8-90277894934b .
-
-camssa:4da2a238-6fde-4d43-8a65-16bd719e8dbe a cav:Score,
+camssa:1135cf7a-297d-4cb5-ba33-6cb2d612f2ca a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
     cav:value "20"^^xsd:int .
 
-camssa:4e25c0ab-8e6f-45d2-80dd-4fdbd562f884 a cav:Score,
+camssa:1444cb88-e31e-4ff7-8b48-de3c3d609bdf a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
     cav:value "100"^^xsd:int .
 
-camssa:511f94ee-da34-42b1-a78a-1e917b05eab5 a cav:Statement,
+camssa:19a032b1-4bd3-4d81-864a-20c16d249739 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "The application of the once-only principle in all EU Member States public administrations aims at reducing the administrative burden. To achieve this, interoperability between public administrations is a sine qua non condition. SOAP addresses and facilitates the exchanging of information within cross border services and impacts positively the development of eGovernment."@en ;
-    cav:refersTo camssa:1a7c5d73-d1aa-43c6-8ef8-deab16ac89c6 .
-
-camssa:51829d57-2eed-4204-8cdd-e0ad71e1f8db a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
     cav:value "100"^^xsd:int .
 
-camssa:58a373d7-7c4c-4212-b04b-cc26354ceb32 a cav:Statement,
+camssa:1a307cd7-9fef-4588-8218-44ca6161a31d a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """SOAP 1.2 can be used independently from any other technical specifications or operating system. As is shown in the SOAP 1.2 FAQ from W3C, SOAP can be adopted with no dependence on WSDL.
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9526d9b5-e340-4c7c-ae2f-92dbe68ede71 .
 
-See:
-https://www.w3.org/TR/soap12/
-https://www.w3.org/2003/06/soap12faq.html"""@en ;
-    cav:refersTo camssa:4e25c0ab-8e6f-45d2-80dd-4fdbd562f884 .
-
-camssa:660536c3-f9a8-4972-bbb8-23e3531a4a63 a cav:Score,
+camssa:1d13503e-4c1a-4ab8-8866-65b0886c57d0 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
-    cav:value "100"^^xsd:int .
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:d1ac29d3-6ea9-430e-b4fb-fdb2e4fd5d01 .
 
-camssa:6a07d7f2-3b46-4372-8bf8-3f2a8ecb54e6 a cav:Score,
+camssa:1fe38cef-50ed-462b-8d53-7d22fe60c9d8 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
-    cav:value "100"^^xsd:int .
+    cav:judgement "The purpose of SOAP 1.2 is not related to the long-term preservation of electronic records and other kinds of information. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:19a032b1-4bd3-4d81-864a-20c16d249739 .
 
-camssa:72b4d1a0-7040-430e-a6ba-fee7115ff8b7 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
-    cav:value "20"^^xsd:int .
-
-camssa:73b479ed-80f3-41a1-bb6a-fcffebbee475 a cav:Statement,
+camssa:289b044a-076e-4b79-ab32-61d501b67117 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """SOAP 1.2 is a messaging protocol for exchanging information in a structured way, it uses XML for its message format. As the protocol is a messaging system for exchanging information in a structured way, it helps to promote the visibility and comprehensibility of the administrative rules. In addition, it is a key enabler for web services reuse across borders along with UDDI and WSDL. 
 
 See:
 https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/cwbs_soapverdiffs.html"""@en ;
-    cav:refersTo camssa:144c3227-9330-4419-9414-b512d2d1e809 .
+    cav:refersTo camssa:693affbc-93e7-4f53-aa2a-0692179818eb .
 
-camssa:7c8cd0aa-b1a7-4e5f-8500-f5a72b3c109c a cav:Statement,
+camssa:2a9b3004-0afa-4caa-a34a-9802f8fed311 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:867dc97f-0c6b-4b69-bc25-f026cff93cb2 .
+
+camssa:2d6b308c-3f42-41f5-b009-561ffa8d325c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:2f20e1c9-3e8c-48ec-ad01-76d6650013c7 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data, the second star corresponds to make data available as structured data, an area of application of SOAP 1.2.
 
@@ -374,111 +180,142 @@ In addition, SOAP 1.2 serialisation provides several advantages, especially if t
 See:
 https://5stardata.info/en/
 https://pdfs.semanticscholar.org/dbf2/6496e5b3087b708d4c00883c6470b53ff8d8.pdf"""@en ;
-    cav:refersTo camssa:2fe0cb6c-eec4-4f4b-b2f0-fe222188e20a .
+    cav:refersTo camssa:f3f44fe3-a168-4e60-8cfe-8bfa25848b63 .
 
-camssa:7fe06ee9-0978-440c-a3c6-32440689dd7f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
-    cav:value "100"^^xsd:int .
-
-camssa:8219d332-9208-4809-89d2-40195cbb5b21 a cav:Statement,
+camssa:322bae5a-8390-4540-9e8e-3b8769bb60dc a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "SOAP 1.2 is a sector domain agnostic specification that can be used independently from the business domain. "@en ;
-    cav:refersTo camssa:e6be7ac7-2037-49c6-b4d9-d81fbe12bdb3 .
+    cav:refersTo camssa:58b5a4be-5b56-4252-a5e6-39798be5d759 .
 
-camssa:842d7713-a3ee-4852-8fca-9059d1bfb76a a cav:Score,
+camssa:322ea0f9-defe-424c-a254-3083ffad5376 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
-    cav:value "100"^^xsd:int .
+    cav:judgement "The application of the once-only principle in all EU Member States public administrations aims at reducing the administrative burden. To achieve this, interoperability between public administrations is a sine qua non condition. SOAP addresses and facilitates the exchanging of information within cross border services and impacts positively the development of eGovernment."@en ;
+    cav:refersTo camssa:b2a70340-f7b1-494e-bb3f-f6aea83d126f .
 
-camssa:84804f11-e073-4be6-8e89-51071795e566 a cav:Score,
+camssa:35dc7ba2-9759-46fc-b50d-1fa2be74c556 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
-    cav:value "100"^^xsd:int .
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6b4ecbf3-1ad2-4cd8-8999-60d186fb9e26 .
 
-camssa:85e51ed4-d581-4dd5-bb69-4da7e743c4e3 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
-    cav:value "100"^^xsd:int .
-
-camssa:8971d940-a59e-4a76-a5a8-90277894934b a cav:Score,
+camssa:3a2e1057-2545-46ad-a85d-2ebbf4c82fc5 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
     cav:value "100"^^xsd:int .
 
-camssa:8ee7681b-85f8-4866-9b0c-3af5d43259c9 a cav:Statement,
+camssa:3cc51b50-9fbb-4953-a998-d2559dd09eba a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:c0579ab0-c041-4b18-b856-13e84494e042 .
+
+camssa:409760cf-5acd-4f6f-a0f6-7d28d132bc83 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SOAP 1.2 is maintained by W3C which is an international community developing open standards. 
+
+See:
+https://www.w3.org/Consortium/"""@en ;
+    cav:refersTo camssa:1444cb88-e31e-4ff7-8b48-de3c3d609bdf .
+
+camssa:40a59107-55b6-4add-b7a7-932ae4cf5abc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:42f339d9-d3de-4550-977e-97586795bf82 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SOAP 1.2 is to store, transport and exchange data through interoperable systems. Moreover, SOAP 1.2 uses XML which defines a set of rules for encoding documents in a human-readable format and machine-readable format enhancing the reusability of data and stimulating the interoperability of systems and services.  
+
+Additionally, W3C develops its specification independently from any vendor. Thus, the adoption of SOAP 1.2 does not hamper the data portability of data expressed with it. In fact, the adoption of SOAP endorses the binding and invoking of web services allowing data exchange across borders.
+
+See:
+https://www.w3.org/TR/2006/REC-xml11-20060816/
+https://www.w3.org/TR/soap12/"""@en ;
+    cav:refersTo camssa:ed16f81c-80a3-434e-9543-ff7739976498 .
+
+camssa:475f5b42-2323-4d95-92e7-89e470638127 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4b09dded-f99f-4091-8450-722dc5e6515d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4b2d4c3c-5542-4f80-86fd-55960c80cb20 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4c4429d0-2612-463e-a78d-3b1210bf62cf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including SOAP 1.2.
+
+See:
+https://www.w3.org/TR/patent-practice#ref-AC """@en ;
+    cav:refersTo camssa:d5d5f74c-f98b-4434-8bca-d8a6f0fcb0fc .
+
+camssa:4d5461f0-b098-4c41-a416-ce1d1aaad5b7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 8 Member States' catalogues of recommended specifications. Some examples of Member States including SOAP on their catalogues are the Netherlands, Spain or France.
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:0747eecc-2140-455f-8c5b-fd178069f318 .
+
+camssa:4f4a7add-1a0d-4935-bc70-e34a06ade939 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of SOAP 1.2 is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:02a9cd62-cc26-416e-9339-9f5c6dbeae0d .
+
+camssa:58b5a4be-5b56-4252-a5e6-39798be5d759 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5dcf799f-1cb9-4b4e-b1f3-3fb6a7fb7506 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "The purpose of SOAP 1.2 is not related to security and privacy. Therefore, this criterion is not applicable to the specification."@en ;
-    cav:refersTo camssa:1d6fd12f-05e7-4cab-ade9-ec3737481ab2 .
+    cav:refersTo camssa:df68a00a-3701-4001-8140-7a0781123af5 .
 
-camssa:8eeb40ef-4699-4194-8a38-1543aee1e801 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
-    cav:value "100"^^xsd:int .
-
-camssa:92393394-74d4-4c16-8e86-930b82accbea a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
-    cav:value "100"^^xsd:int .
-
-camssa:933a9aa0-9a4e-40ce-9af0-6a2811bd9c76 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
-    cav:value "100"^^xsd:int .
-
-camssa:93762fe6-d81d-4504-bbd1-ffbe26ac89c1 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
-
-W3C Process document:
-https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
-    cav:refersTo camssa:9550dc1f-06ab-43b6-a537-855c441b7499 .
-
-camssa:9550dc1f-06ab-43b6-a537-855c441b7499 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
-    cav:value "100"^^xsd:int .
-
-camssa:965e5e29-7447-4504-854e-ca575559be68 a cav:Score,
+camssa:6293701f-44c4-44b2-9530-13ce0f02879c a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
     cav:value "100"^^xsd:int .
 
-camssa:998f9873-8854-4188-b670-2c10cd153ffa a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:45b901eb-05bb-49bf-aa4c-55d127358761 .
-
-camssa:9d252d64-e0fc-4a6d-9540-f9381f5dc63f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
-    cav:value "100"^^xsd:int .
-
-camssa:a03b96f5-982b-41b0-b893-fa36dc749637 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
-    cav:value "20"^^xsd:int .
-
-camssa:a0425b70-75a0-40f9-af2b-dad7d9e37a4f a cav:Score,
+camssa:693affbc-93e7-4f53-aa2a-0692179818eb a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
     cav:value "100"^^xsd:int .
 
-camssa:a41a64e4-14f0-43dc-84f4-da2e251e2960 a cav:Statement,
+camssa:6a664917-14c1-4ad6-b945-3fd728633460 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:deca717a-c6e0-437d-8d2a-d5cfe7fd69b2 .
+    cav:judgement """According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data, the second star corresponds to make data available as structured data, an area of application of SOAP 1.2.
 
-camssa:a49e72b9-53a3-43c1-b17a-651c566ec122 a cav:Statement,
+In addition, SOAP 1.2 serialisation provides several advantages, especially if the Semantic Web is not just about providing metadata for existing web pages, but also about exchange of content that is machine-readable.  
+
+See:
+https://5stardata.info/en/
+https://pdfs.semanticscholar.org/dbf2/6496e5b3087b708d4c00883c6470b53ff8d8.pdf"""@en ;
+    cav:refersTo camssa:ae5167a8-f084-4c02-83e4-e09cd60e736b .
+
+camssa:6b4ecbf3-1ad2-4cd8-8999-60d186fb9e26 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """There are several studies assessing SOAP 1.2 performance and features in terms of efficiency and efficacy. As REST and SOAP-based web services are living together nowadays, one of the topics is the performance comparison. Moreover, the comparison between different SOAP toolkits is an exploited topic. 
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
 
-See: 
-https://aaltodoc.aalto.fi/bitstream/handle/123456789/29224/master_Makkonen_Joni_2017.pdf?sequence=1&isAllowed=y 
-https://dl.acm.org/citation.cfm?id=1033266"""@en ;
-    cav:refersTo camssa:72b4d1a0-7040-430e-a6ba-fee7115ff8b7 .
+camssa:6e78d64e-f73d-4a4f-9ea4-27a353336eea a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
 
-camssa:a60c1eb9-69b1-4488-95fd-fa8f46d8e1d0 a cav:Statement,
+camssa:7169a92d-cdc8-4c04-8961-5dc9253023d0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C provides a Markup Validation Service for free to validate SOAP 1.2 implementations.
+
+See:
+https://validator.w3.org/feed/docs/soap.html"""@en ;
+    cav:refersTo camssa:e67269dc-6d56-40f5-8f7f-a1a82df8caf1 .
+
+camssa:7ce1c777-2ae4-414e-9d43-09165c3664ee a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """SOAP 1.2 has been included within several European cross-border initiatives as can be read in the European Interoperability Architecture (EIA) called Common Vision for an EIA. 
 
@@ -487,120 +324,283 @@ e-SENSE, e-PSOS or SPOCS are initiatives that implemented SOAP 1.2 in order to c
 See:
 https://ec.europa.eu/isa2/sites/isa/files/isa_2.1_eia-finalreport-commonvisionforane
 https://www.etsi.org/deliver/etsi_sr/019000_019099/019050/01.01.01_60/sr_019050v010101p.pdf """@en ;
-    cav:refersTo camssa:30baf7dc-535c-4dc2-a905-6c5c7e9fbacf .
+    cav:refersTo camssa:cb0b0751-18b5-41df-b65a-23a2e2cfba06 .
 
-camssa:a9352535-400a-4a25-accb-b415d7c464bd a cav:Score,
+camssa:84801188-f432-4cc0-8eb8-81ad623c515c a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
     cav:value "100"^^xsd:int .
 
-camssa:ab995934-d5f0-4f05-9997-32bb6e621026 a cav:Statement,
+camssa:867dc97f-0c6b-4b69-bc25-f026cff93cb2 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "The purpose of SOAP 1.2 is not related to the long-term preservation of electronic records and other kinds of information. Therefore, this criterion is not applicable to the specification."@en ;
-    cav:refersTo camssa:85e51ed4-d581-4dd5-bb69-4da7e743c4e3 .
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
 
-camssa:ad50f85a-2c37-4e03-b488-bd8d96a2c151 a cav:Statement,
+camssa:87e04c6d-defb-4442-be24-c56d1f760e77 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:916fde23-b01e-4627-8336-834492298c50 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "None"@en ;
-    cav:refersTo camssa:9d252d64-e0fc-4a6d-9540-f9381f5dc63f .
+    cav:refersTo camssa:96025cfb-df82-4e83-b9e7-dd928263182f .
 
-camssa:aec877c9-ab06-46cb-96d3-925491847aae a cav:Score,
+camssa:9526d9b5-e340-4c7c-ae2f-92dbe68ede71 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
     cav:value "100"^^xsd:int .
 
-camssa:b62f9d9e-e80b-4244-b1a2-4dcf98179dab a cav:Statement,
+camssa:96025cfb-df82-4e83-b9e7-dd928263182f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:9613edf9-3fa8-4dfb-a108-e2d9b003a2d1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SOAP 1.2 can be used independently from any other technical specifications or operating system. As is shown in the SOAP 1.2 FAQ from W3C, SOAP can be adopted with no dependence on WSDL.
+
+See:
+https://www.w3.org/TR/soap12/
+https://www.w3.org/2003/06/soap12faq.html"""@en ;
+    cav:refersTo camssa:9e6267bf-4a3c-409e-9a50-9c7c672c1ccc .
+
+camssa:9666360b-64d9-4155-86cf-ece276c1bd45 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The specification is not included per se in any supra-national catalogue. Despite this, SOAP 1.2 is part of the Electronic Signatures and Infrastructures (ESI); Rationalized framework of Standards for Electronic Registered Delivery Services Applying Electronic Signatures, which is an ETSI Special Report. 
 
 See:
 https://www.etsi.org/deliver/etsi_sr/019000_019099/019050/01.01.01_60/sr_019050v010101p.pdf"""@en ;
-    cav:refersTo camssa:a03b96f5-982b-41b0-b893-fa36dc749637 .
+    cav:refersTo camssa:bbef0a2b-bb21-467f-9027-9ab2b8386539 .
 
-camssa:b8535886-cbef-42cf-9d1f-170705155616 a cav:Statement,
+camssa:9c4d7765-8fdd-4f36-99fe-e372e205e27f a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:febc101d-cdd4-4d80-9a1b-e49c980e6c05 .
-
-camssa:b8eeb70a-c1d6-4be4-8b36-db228f332c7a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
     cav:value "100"^^xsd:int .
 
-camssa:babdd401-b241-43e3-be14-40c04c536013 a cav:Statement,
+camssa:9e6267bf-4a3c-409e-9a50-9c7c672c1ccc a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "The purpose of SOAP 1.2 is not related to e-accessibility. Therefore, this criterion is not applicable to the specification."@en ;
-    cav:refersTo camssa:7fe06ee9-0978-440c-a3c6-32440689dd7f .
-
-camssa:be8832b6-499f-45e9-9777-90e4ce0440d8 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
     cav:value "100"^^xsd:int .
 
-camssa:c297fdf3-9349-42d6-b1e8-239a47225f12 a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "CAMSS@everis.com" .
-
-camssa:d003c876-e782-43f8-8fd4-092c34d4034e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The purpose of SOAP 1.2 is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
-    cav:refersTo camssa:03b97dd9-d712-424c-89ce-f9155a1d9084 .
-
-camssa:d1806e7e-d7fc-40d4-921e-04e78ba8bebc a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
-    cav:value "100"^^xsd:int .
-
-camssa:d1870296-dde4-4803-9287-dfabd22b6be7 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
-    cav:value "100"^^xsd:int .
-
-camssa:d872a8f2-3cbb-4972-8932-454d7386b75c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
-    cav:value "100"^^xsd:int .
-
-camssa:deb0de18-8af2-4cf7-a370-d830f942e94d a cav:Statement,
+camssa:a30150b4-cc05-47ea-acf7-78501dec4b04 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """SOAP 1.2 is a messaging protocol for exchanging information in a structured way, it provides endpoints that foster the availability of interfaces containing data from internal information systems of a public administration.
 
 See:
 https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/cwbs_soapverdiffs.html"""@en ;
-    cav:refersTo camssa:e9c8c802-abe8-4a9c-ad8d-d94469eab80d .
+    cav:refersTo camssa:fdd8eecd-0f98-4837-8076-7898a22f9abd .
 
-camssa:deca717a-c6e0-437d-8d2a-d5cfe7fd69b2 a cav:Score,
+camssa:a8429cfe-71a2-4cf3-855d-c24495c0032e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SOAP 1.2 is a messaging protocol for exchanging information in a structured way, it uses XML for its message format. As the protocol is a messaging system for exchanging information in a structured way, it helps to promote the visibility and comprehensibility of the administrative rules. In addition, it is a key enabler for web services reuse across borders along with UDDI and WSDL. 
+
+See:
+https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/cwbs_soapverdiffs.html"""@en ;
+    cav:refersTo camssa:b66a96ad-86cf-47a1-8d38-cb47838d7a65 .
+
+camssa:ae5167a8-f084-4c02-83e4-e09cd60e736b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:af263f8f-3211-4866-85c7-4ff4bb677576 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are several studies assessing SOAP 1.2 performance and features in terms of efficiency and efficacy. As REST and SOAP-based web services are living together nowadays, one of the topics is the performance comparison. Moreover, the comparison between different SOAP toolkits is an exploited topic. 
+
+See: 
+https://aaltodoc.aalto.fi/bitstream/handle/123456789/29224/master_Makkonen_Joni_2017.pdf?sequence=1&isAllowed=y 
+https://dl.acm.org/citation.cfm?id=1033266"""@en ;
+    cav:refersTo camssa:b23d57a2-fe37-4c74-9136-524175bfe497 .
+
+camssa:afc3b94d-d249-4b0a-882c-8f8fdc7ffa8e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of SOAP 1.2 is not related to e-accessibility. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:475f5b42-2323-4d95-92e7-89e470638127 .
+
+camssa:b23d57a2-fe37-4c74-9136-524175bfe497 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:b2a70340-f7b1-494e-bb3f-f6aea83d126f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b43c4fd4-1697-4a6e-80d2-d6be1abb042b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SOAP 1.2 can be used independently from any other technical specifications or operating system. As is shown in the SOAP 1.2 FAQ from W3C, SOAP can be adopted with no dependence on WSDL.
+
+See:
+https://www.w3.org/TR/soap12/
+https://www.w3.org/2003/06/soap12faq.html"""@en ;
+    cav:refersTo camssa:c4f65d22-694b-4f56-bf10-f6cf75fd3488 .
+
+camssa:b66a96ad-86cf-47a1-8d38-cb47838d7a65 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:baa87c3f-d315-4841-873d-37bbe454e3c3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is a widely used de-facto standard. It was launched for the first time in 1998 by engineers from Microsoft. Other companies with a wide market share are contributed to the development of the specification. Additionally, SOAP is developed and maintained by W3C and its working group. Thus, it is sufficiently mature for the development of products and services.
+
+See:
+https://www.w3.org/TR/soap12/  """@en ;
+    cav:refersTo camssa:d9b83390-0497-4454-8c24-9424e2f69770 .
+
+camssa:bbef0a2b-bb21-467f-9027-9ab2b8386539 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:c0579ab0-c041-4b18-b856-13e84494e042 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
     cav:value "100"^^xsd:int .
 
-camssa:e5cfa05d-28e9-45c7-bf88-cebee2dc2d81 a cav:Score,
+camssa:c17f8295-8dbe-4ea8-b45c-2423563c08a5 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:judgement """SOAP 1.2 is included in 2 national catalogues of recommended specifications. They belong to the Netherlands and Spain. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO)factsheets.
+
+See:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:87e04c6d-defb-4442-be24-c56d1f760e77 .
+
+camssa:c297fdf3-9349-42d6-b1e8-239a47225f12 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:c4f65d22-694b-4f56-bf10-f6cf75fd3488 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
     cav:value "100"^^xsd:int .
 
-camssa:e6be7ac7-2037-49c6-b4d9-d81fbe12bdb3 a cav:Score,
+camssa:cb0b0751-18b5-41df-b65a-23a2e2cfba06 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
     cav:value "100"^^xsd:int .
 
-camssa:e9c8c802-abe8-4a9c-ad8d-d94469eab80d a cav:Score,
+camssa:cef9e1b9-3087-4c36-9edf-47c137703aec a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:84801188-f432-4cc0-8eb8-81ad623c515c .
+
+camssa:d0506b1c-909d-42b8-9aa6-70abc6aa8696 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of SOAP 1.2 is not related to the  delivery of multilingual public services. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:0f3288b3-35c5-460f-a9df-43f21511c85c .
+
+camssa:d1ac29d3-6ea9-430e-b4fb-fdb2e4fd5d01 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:d226d79a-57a7-4271-9802-2cef2bce6a6d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """8 Member States are recommending JSON in their ICT National Catalogues. 
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:3a2e1057-2545-46ad-a85d-2ebbf4c82fc5 .
+
+camssa:d5d5f74c-f98b-4434-8bca-d8a6f0fcb0fc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d9b83390-0497-4454-8c24-9424e2f69770 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:dd7e73c9-327f-4d82-8264-837f115dca4a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
+    cav:refersTo camssa:2d6b308c-3f42-41f5-b009-561ffa8d325c .
+
+camssa:df68a00a-3701-4001-8140-7a0781123af5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e030cd8d-587d-49a8-bdbe-9d251dc1840b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:e67269dc-6d56-40f5-8f7f-a1a82df8caf1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:e8fcadff-fc08-495b-abf5-3bc9157ae5fe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including SOAP 1.2.
+
+See:
+https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
+    cav:refersTo camssa:9c4d7765-8fdd-4f36-99fe-e372e205e27f .
+
+camssa:e9383c93-96fe-4b1b-a6f3-ca590e9f78e4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6e78d64e-f73d-4a4f-9ea4-27a353336eea .
+
+camssa:eb1cad4f-b1bf-4049-90d1-5af9c13f85eb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:e030cd8d-587d-49a8-bdbe-9d251dc1840b .
+
+camssa:ed16f81c-80a3-434e-9543-ff7739976498 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ef3ac3a3-1d7d-46b7-a38a-5e8372bb95dd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f1c8aaf5-34cb-4ff9-adbc-6545fce76b29 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:4b2d4c3c-5542-4f80-86fd-55960c80cb20 .
+
+camssa:f3f44fe3-a168-4e60-8cfe-8bfa25848b63 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f6bb9a72-3927-4666-a301-37aa24a82ca7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SOAP 1.2 is to store, transport and exchange data through interoperable systems. Moreover, SOAP 1.2 uses XML which defines a set of rules for encoding documents in a human-readable format and machine-readable format enhancing the reusability of data and stimulating the interoperability of systems and services.  
+
+Additionally, W3C develops its specification independently from any vendor. Thus, the adoption of SOAP 1.2 does not hamper the data portability of data expressed with it. In fact, the adoption of SOAP endorses the binding and invoking of web services allowing data exchange across borders.
+
+See:
+https://www.w3.org/TR/2006/REC-xml11-20060816/
+https://www.w3.org/TR/soap12/"""@en ;
+    cav:refersTo camssa:6293701f-44c4-44b2-9530-13ce0f02879c .
+
+camssa:f9149eda-267c-4ee0-81c9-655ed050561b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fdd8eecd-0f98-4837-8076-7898a22f9abd a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
     cav:value "100"^^xsd:int .
 
-camssa:fe2d5e0f-978d-4870-86da-f41c56a1c8e9 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "SOAP 1.2 is a sector domain agnostic specification that can be used independently from the business domain. "@en ;
-    cav:refersTo camssa:6a07d7f2-3b46-4372-8bf8-3f2a8ecb54e6 .
-
-camssa:febc101d-cdd4-4d80-9a1b-e49c980e6c05 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
-    cav:value "100"^^xsd:int .
-
-camssa:ff585387-051d-419e-9a20-6d55079763d2 a cav:Statement,
+camssa:ffa2d219-9afa-47fc-8895-d34378460566 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "Nowadays, SOAP 1.2 is a de-facto messaging protocol for exchanging information in a structured way, and invoke web services SOAP-based. It is used in a wide variety of solutions, while REST is widely used as well, SOAP remains as one of the main protocol to implement SOAs, and this fact includes innovative solutions. "@en ;
-    cav:refersTo camssa:357b84e1-566d-4641-92d6-517daac1f175 .
+    cav:refersTo camssa:4b09dded-f99f-4091-8450-722dc5e6515d .
 

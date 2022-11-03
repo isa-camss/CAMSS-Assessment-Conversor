@@ -24,270 +24,162 @@ camssa:bc9f659cbdef41f6d1d2f943f0331540329ee14b10dc570794399fb1ec275d31 a cav:As
     camss:submissionDate "None"^^xsd:date ;
     camss:toolVersion tool:5.1.0 ;
     cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
-    cav:resultsIn camssa:0fa47f67-c04f-4eec-b046-027808062434,
-        camssa:12b546d3-b5f7-4b8b-86f8-a4ff194a8bba,
-        camssa:247d0223-4070-4c3e-8646-7c0c0d2017a8,
-        camssa:30d1b3be-a7f5-4da3-856a-8aa9193a57f4,
-        camssa:39fb8ebd-75ee-430a-b80b-c83f38d979af,
-        camssa:3c59f3f4-3e08-4f33-bd19-ac46537d81be,
-        camssa:3dc47b2f-bb8b-4bf5-9b3b-e50e5b40ca49,
-        camssa:42e17725-24dc-47d6-b69a-8429bbf2928e,
-        camssa:45748c5d-2c1d-47eb-b42b-c87eb49f0388,
-        camssa:46d3df5b-fde9-421d-92db-30c91695286b,
-        camssa:474e1316-26ac-4c4d-a39d-deaa84682e55,
-        camssa:47fea61b-bad3-4d3e-b0b8-cd3bec207237,
-        camssa:564e86f0-3d3d-430f-a7c5-1cd0e7d0a132,
-        camssa:56d6c0e1-e963-432f-809b-4b6a769bff31,
-        camssa:5e349d0b-8b3e-4e29-b40a-7ce4257b11f3,
-        camssa:61433ef6-430b-4a76-9712-d6ca856bbe1f,
-        camssa:6aa400cc-c888-42f3-b6b9-dc0832967f46,
-        camssa:73238f23-17f7-4f2c-91c3-322a6e24d153,
-        camssa:74a07dbf-38c8-45f8-b8f1-86b502ca0d3b,
-        camssa:790fce42-3605-4df8-9213-92fceaa7b014,
-        camssa:7ca01965-179d-4b59-b12a-a8a081d52727,
-        camssa:8691791f-579a-429b-b553-a24f608ead23,
-        camssa:86dc663b-2d36-4066-8e5e-b50d84da0b46,
-        camssa:9ace3761-80f1-47da-9e45-0bfaadae328d,
-        camssa:9fa0a044-65db-4f80-926d-819eecfbcacb,
-        camssa:ad905e70-cdfb-4525-a52c-d422cb9c45d6,
-        camssa:b1f8e3fe-27b1-4bc6-87cc-a8408727fc33,
-        camssa:b59622c1-3c7b-41cc-b638-beb074b04b0f,
-        camssa:b71fbf93-ee40-4d80-b7e2-89dbfd5559fe,
-        camssa:bc0b9f46-9a9b-4dbe-addf-f16b4b41346e,
-        camssa:cb919942-6b56-4ddf-9adb-9ff320da5d88,
-        camssa:cbf5f56a-3eae-472f-9fd4-7a32d3d50df9,
-        camssa:cf47f7b9-b45d-44fe-b5f7-19d4dd3087df,
-        camssa:d2ea02d8-e55b-47b1-869b-8604a25400a8,
-        camssa:dcea2887-f27d-48bc-9c78-c6baa6a93880,
-        camssa:ded16222-dfb7-46c4-a880-9502e7a241f6,
-        camssa:df13fbe5-7494-48e1-8282-10888fb4a888,
-        camssa:e0fdf498-ddd9-462c-9cf5-c85a4cddf900,
-        camssa:e1633ac5-696c-4a9a-8506-772b9788a6e8,
-        camssa:e8fc2b9d-47e5-4b06-b9ed-673cdbd3476d,
-        camssa:eca4fb93-f9e5-4514-80df-9abe9560402b,
-        camssa:f3800701-04a5-4738-8c41-8d6a63876181,
-        camssa:f60f1578-d5c0-4727-8735-c1350e989271,
-        camssa:febe3fa8-849c-40cf-afe7-7d2840a74a45 ;
+    cav:resultsIn camssa:0f3778f6-4063-4546-ba40-4ff849f30274,
+        camssa:10683b02-1f58-43e3-9f03-396f28cdb356,
+        camssa:1c3a5949-3536-4f91-8283-697c3536ab28,
+        camssa:1fb8cfa6-4222-49d8-8abe-e57c788b5053,
+        camssa:2917c48f-a506-4988-9e86-d21a32e72844,
+        camssa:3328b529-9010-49f9-9ec4-8f60fc5d12f1,
+        camssa:34038a1e-45bb-4d59-a2bc-2b530a0f78d4,
+        camssa:3d7221ba-e832-40cc-8ff5-e04b503c3320,
+        camssa:46376d0a-6424-4ed8-841a-d5a58ed19f3b,
+        camssa:4a2217c5-5421-436d-a6c9-08371e947d66,
+        camssa:50ca3765-515d-4611-a615-bfad43f7d47f,
+        camssa:56a9dc7d-e411-4e0a-944a-f5fd1e80a3c3,
+        camssa:577f9696-6976-460f-a389-7ef0ff7f028c,
+        camssa:5bf277cf-a978-4ce4-b379-d689d74b4f9d,
+        camssa:5d9c4037-3421-4bb5-803c-8fe7424e427d,
+        camssa:5e6c51aa-5bfc-4907-838e-b65d10ac7086,
+        camssa:6584986b-4119-42e0-adae-d6e7a6536973,
+        camssa:673cf6cf-ba74-4a38-8fc0-4bef4a74a8b5,
+        camssa:6bc1699f-11b5-4103-a0b3-b4a252bb312c,
+        camssa:7347aaa3-8b19-45a9-9410-d99f02b73cdc,
+        camssa:7ab229c6-741d-4551-bd68-a88eb19f21d3,
+        camssa:7bb079c4-63a6-4b44-ad73-85df78668364,
+        camssa:7eba421f-737a-4fb5-bb7f-f0f386be4518,
+        camssa:81e37958-24a5-48f9-bed0-014d55f01121,
+        camssa:889d3fcc-e886-48de-a0b9-18950c3502a7,
+        camssa:8a2eb549-73ee-4f01-9c5c-cbb2e50f54ce,
+        camssa:98c66c50-08e5-4b14-bebc-d85b3af49f47,
+        camssa:9d897c3b-1140-4ee7-b6b5-31d11f3bf98b,
+        camssa:a6205859-9201-41fc-ace1-38005d23908e,
+        camssa:a9a1bf32-210d-4d45-9e20-b6ee98236d68,
+        camssa:aae56850-d77c-4006-8e73-79e218681dd9,
+        camssa:b4c35a0a-61f5-4303-a0c6-58b4097b757e,
+        camssa:b558ed87-451a-495f-8e3d-8a215c80ebbc,
+        camssa:be71b7a0-d87e-40ab-a1e9-d23b721fe7ee,
+        camssa:c04996f0-0c48-4372-a84b-36d578a4c327,
+        camssa:ce2f872e-0693-445d-a44d-053678baa993,
+        camssa:d1e6c9a7-c4c3-426d-9305-2a4fd40f72df,
+        camssa:d56c3841-64a7-4379-a8af-4b5406d5d54b,
+        camssa:df32b0b2-d8a0-4686-9270-23dd3edd795d,
+        camssa:e31ffe4c-b62a-41cd-87d4-768cb7e060b4,
+        camssa:f0418b7a-cc2f-463c-a980-7a111c32ea16,
+        camssa:f845f452-1aef-45b9-b19c-9b36670d2eb2,
+        camssa:fed69927-bcd4-4fe1-9e7e-6d678d01e2c0,
+        camssa:ff493439-a270-473c-95a5-de5d30705de9 ;
     cav:status status:Complete ;
     dct:title "GITB Test Description Language (TDL)"@en .
 
-camssa:021c0341-db73-4f04-8da0-109f815da902 a cav:Score,
+camssa:07a5914c-5dbd-47e1-8cd8-ee8cf8fb27f9 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
     cav:value "100"^^xsd:int .
 
-camssa:04038d14-5830-4e93-872d-9ca30813c6f4 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
-    cav:value "100"^^xsd:int .
-
-camssa:0b91ecfd-959a-4cf5-8d36-4037c0d40f45 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
-    cav:value "100"^^xsd:int .
-
-camssa:0e94ff06-d769-4ddd-aa96-97e5d134b388 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
-    cav:value "100"^^xsd:int .
-
-camssa:0fa47f67-c04f-4eec-b046-027808062434 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'GITB provides a framework for conformance and interoperability testing. The test bed increases the efficiency and reliability of interoperable implementation of standards as well as it assures unbiased and objective nature of the standards implementation assessment process. In this regard, there are solutions that include GITB TDL in its implementation procesess, that is  the case of eDelivery and the European Single Procurement Document (ESPD) between others.
-
-JOINUP reference:
-https://joinup.ec.europa.eu/collection/interoperability-test-bed-repository/solution/interoperability-test-bed/detailed-information#capabilities
-
-GITB document:
-https://www.itb.ec.europa.eu/docs/tdl/latest/_downloads/0dc573d06adafa1a273edd793577016d/CEN_WS_GITB3_CWA_Final.pdf'"""@en ;
-    cav:refersTo camssa:5f800112-a30c-4131-8e0f-c796371d72f9 .
-
-camssa:12b546d3-b5f7-4b8b-86f8-a4ff194a8bba a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'Being part of a test bed, GITB TDL does not deal with information that needs to be reused other than the test cases. Therefore, this criterion is not applicable.
-
-GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
-    cav:refersTo camssa:d6be7d9e-213b-4325-857f-5dac519fb309 .
-
-camssa:13241f30-3864-4df4-a1d9-fbdc3b8ce189 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
-    cav:value "None"^^xsd:int .
-
-camssa:1aae46a3-d8f1-4d25-adc6-6eeb63d5efbf a cav:Score,
+camssa:082f149d-ef68-4ea7-8c96-373e24f9be80 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
     cav:value "100"^^xsd:int .
 
-camssa:1acb7ee8-177c-4079-9d52-766c131f082a a cav:Score,
+camssa:09d0e6e3-48de-4eff-9cf5-c72ee2b05d53 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:0b17d4d1-dfae-49e4-9a57-c12a7aa19bc7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
     cav:value "100"^^xsd:int .
 
-camssa:2259c583-1a7b-42d2-a9c8-97f51bbe04b5 a cav:Score,
+camssa:0f3778f6-4063-4546-ba40-4ff849f30274 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
-    cav:value "100"^^xsd:int .
-
-camssa:247d0223-4070-4c3e-8646-7c0c0d2017a8 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The GITB TDL documentation does not deal at any point with e-accessibility issues. Therefore, this criterion is not applicable.
+    cav:judgement """'After searching in the different official European websites, there is no evidence of any cross-border project that use GITB TDL nor explicit agreements involving the usage of the specification.
 
 GITB TDL reference:
 https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
-    cav:refersTo camssa:afbea4ba-a2dc-47e1-9f63-b8f7ce554f76 .
+    cav:refersTo camssa:a610f5c1-f7c7-4f8b-ba11-6b1965fb5525 .
 
-camssa:253d7399-99a0-4857-a7c8-99fd6b3bb855 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
-    cav:value "20"^^xsd:int .
-
-camssa:25a1fb1e-2c65-4d35-9c7c-494cc089767a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
-    cav:value "20"^^xsd:int .
-
-camssa:2ef1fd62-4a14-4c0f-9c29-6267ecfb441a a cav:Score,
+camssa:1053dde6-74a2-45c6-b301-e3484160df82 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
     cav:value "100"^^xsd:int .
 
-camssa:2f651d0a-9abd-443f-86dd-583c40683b60 a cav:Score,
+camssa:10683b02-1f58-43e3-9f03-396f28cdb356 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of GITB TDL as a European standard.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:962066d5-7d1c-49c7-af54-98a7fc0d0886 .
+
+camssa:11033fad-9d17-4b35-a1e7-3c5851170582 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:14b0ab24-c667-4440-baf8-6c6be735bdab a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
     cav:value "20"^^xsd:int .
 
-camssa:30d1b3be-a7f5-4da3-856a-8aa9193a57f4 a cav:Statement,
+camssa:1655e08e-40de-4f20-84fb-883e55f0d2f0 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """'After searching in the different official European websites and repositories, there is no evidence that the GITB TDL is included in an open repository/catalogue of standards at european level.
-
-GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
-    cav:refersTo camssa:4e5f23e6-d605-4034-969e-c26d8519cc66 .
-
-camssa:3202f136-8548-436b-862f-6d8934c6171e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
     cav:value "100"^^xsd:int .
 
-camssa:32f80cba-8813-423f-bbd0-a24306db3ffc a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
-    cav:value "100"^^xsd:int .
-
-camssa:33f89d2e-0e81-4d6d-ab15-c10caa57bcea a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
-    cav:value "100"^^xsd:int .
-
-camssa:38ee5d06-3437-42b1-9518-d5afc0dfc65d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
-    cav:value "20"^^xsd:int .
-
-camssa:397d5cc1-c313-4777-a683-c710a718a564 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
-    cav:value "100"^^xsd:int .
-
-camssa:39fb8ebd-75ee-430a-b80b-c83f38d979af a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of GITB TDL is not related to the comprehensibly of administrative procedures, rules data, and services. Therefore this criterion is not applicable to this specification.
-
-
-GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#what-is-the-gitb-tdl'"""@en ;
-    cav:refersTo camssa:cee92a55-997f-4b98-882f-3f09925b24d8 .
-
-camssa:3c59f3f4-3e08-4f33-bd19-ac46537d81be a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The GITB TDL major releases are public for anyone to use and review in GITHUB. There is also published documentation on its supporting processes and change management on its website. Being the first release on 2017, GITB TDL has undergone several improvements and overcome possible issues until the last version 1.15, which has been released on 2022.
-
-GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/changelog/index.html'"""@en ;
-    cav:refersTo camssa:2ef1fd62-4a14-4c0f-9c29-6267ecfb441a .
-
-camssa:3dc47b2f-bb8b-4bf5-9b3b-e50e5b40ca49 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of the GITB TDL is not related to long term preservation of electronic record. Therefore, this criterion is considered not applicable to this specifcation. 
-
-GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
-    cav:refersTo camssa:9b1e6596-f074-48c2-a998-4e6aa0343631 .
-
-camssa:42e17725-24dc-47d6-b69a-8429bbf2928e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'GITB TDL is maintained and supported by the interoperability test bed team. Further developments have been carried out by the developer community regarding GITB TDL that can be viewed at its webpage.
-
-GITB TDL change history reference:
-https://github.com/ISAITB/gitb/tree/master/gitb-validator-tdl/src/main/java/com/gitb/vs/tdl
-
-JOINUP reference:
-https://joinup.ec.europa.eu/collection/interoperability-test-bed-repository/solution/interoperability-test-bed/detailed-information#releases'"""@en ;
-    cav:refersTo camssa:cf7e7da5-1216-4dea-b76b-7ea1b0199f7e .
-
-camssa:45748c5d-2c1d-47eb-b42b-c87eb49f0388 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'There is no evidence that the GITB TDL encourages the creation of communities along with the sharing of their data and results on national platforms.
-
-GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
-    cav:refersTo camssa:f330a0a2-642a-412e-8f57-36c90cad60a9 .
-
-camssa:46d3df5b-fde9-421d-92db-30c91695286b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'GiITB TDL simplifies the delivery of European Public Services by contributing to the adoption of a multi-channel delivery approach.  
-
-GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html'"""@en ;
-    cav:refersTo camssa:0e94ff06-d769-4ddd-aa96-97e5d134b388 .
-
-camssa:474e1316-26ac-4c4d-a39d-deaa84682e55 a cav:Statement,
+camssa:1c3a5949-3536-4f91-8283-697c3536ab28 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'The purpose of the GITB TDL is to provide a syntax for conformance and interoperability testing. Therefore, this criterion is not applicable to the specification.
 
 GITB TDL reference:
 https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
-    cav:refersTo camssa:021c0341-db73-4f04-8da0-109f815da902 .
+    cav:refersTo camssa:27e1333a-8698-4e57-94f4-2902c80bb2a1 .
 
-camssa:47fea61b-bad3-4d3e-b0b8-cd3bec207237 a cav:Statement,
+camssa:1d657e57-e277-4741-b86a-6a92d308ada0 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """'The purpose of GITB TDL is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification. 
-
-GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#what-is-the-gitb-tdl'"""@en ;
-    cav:refersTo camssa:33f89d2e-0e81-4d6d-ab15-c10caa57bcea .
-
-camssa:4d6a6644-a3eb-43bd-b371-de4135f8fd35 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
-    cav:value "100"^^xsd:int .
-
-camssa:4e5f23e6-d605-4034-969e-c26d8519cc66 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
     cav:value "20"^^xsd:int .
 
-camssa:4fb4dd58-a2a4-491a-89df-597f9eb41dbf a cav:Score,
+camssa:1f4cef77-baf5-44b9-8d6c-59c4dcd72835 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
     cav:value "100"^^xsd:int .
 
-camssa:51833c8f-f550-4120-9184-386a6faf46fe a cav:Score,
+camssa:1fb8cfa6-4222-49d8-8abe-e57c788b5053 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
-    cav:value "20"^^xsd:int .
-
-camssa:564e86f0-3d3d-430f-a7c5-1cd0e7d0a132 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of the specifications is not related to the publication of Open Data. Therefore, this criterion is not applicable to this specification.
+    cav:judgement """'There is no evidence that the GITB TDL encourages the creation of communities along with the sharing of their data and results on national platforms.
 
 GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#what-is-the-gitb-tdl'"""@en ;
-    cav:refersTo camssa:713438c6-9bd1-4dbb-8a3f-cb7041b0f935 .
+https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
+    cav:refersTo camssa:f88db734-54de-4192-9f24-3254bc4cc00d .
 
-camssa:56d6c0e1-e963-432f-809b-4b6a769bff31 a cav:Statement,
+camssa:2716fe33-3b74-4894-8b93-f8c5490dad07 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:27e1333a-8698-4e57-94f4-2902c80bb2a1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2917c48f-a506-4988-9e86-d21a32e72844 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GITB TDL provides a framework for testing the efficient and secure exchange of information. See an example of this characteristics in the reference provided.
+
+GITB TDL example reference: WMS client request validation
+https://www.itb.ec.europa.eu/docs/tdl/latest/examples/index.html#example-6-wms-client-request-validation'"""@en ;
+    cav:refersTo camssa:07a5914c-5dbd-47e1-8cd8-ee8cf8fb27f9 .
+
+camssa:2b38d997-3cd3-4313-aaf6-84f73882d59d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:3328b529-9010-49f9-9ec4-8f60fc5d12f1 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'The GITB TDL can be customised for a specific project’s testing, independent processing, messaging and validation extensions to address missing capabilities or domain-specific needs.
 
@@ -296,101 +188,28 @@ https://joinup.ec.europa.eu/collection/interoperability-test-bed-repository/solu
 
 GITB TDL reference:
 https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#where-is-it-used'"""@en ;
-    cav:refersTo camssa:32f80cba-8813-423f-bbd0-a24306db3ffc .
+    cav:refersTo camssa:be872c8e-ca80-4079-a746-53f4922f2dbf .
 
-camssa:5e349d0b-8b3e-4e29-b40a-7ce4257b11f3 a cav:Statement,
+camssa:34038a1e-45bb-4d59-a2bc-2b530a0f78d4 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'GITB TDL promotes an environment for the adoption and implementation of e-business standards and specifications. Therefore GITB TDL impacts positively in the creation or adoption of organisational interoperability agreements. GITB TDL promotes the adoption of common validation syntax within multiple services testbed APIS (e.g. ESPD and AS4 messaging)
+    cav:judgement """'The purpose of GITB TDL is not related to the comprehensibly of administrative procedures, rules data, and services. Therefore this criterion is not applicable to this specification.
 
-GITB reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/_downloads/0dc573d06adafa1a273edd793577016d/CEN_WS_GITB3_CWA_Final.pdf
-
-GITB TDL examples:
-https://www.itb.ec.europa.eu/docs/tdl/latest/examples/index.html#examples'"""@en ;
-    cav:refersTo camssa:681deb5a-e89f-432c-9f83-9bb2533910cd .
-
-camssa:5f800112-a30c-4131-8e0f-c796371d72f9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
-    cav:value "60"^^xsd:int .
-
-camssa:61433ef6-430b-4a76-9712-d6ca856bbe1f a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'There is no evidence this specification is recommended by any European Member State.
 
 GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
-    cav:refersTo camssa:2f651d0a-9abd-443f-86dd-583c40683b60 .
+https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#what-is-the-gitb-tdl'"""@en ;
+    cav:refersTo camssa:62fcda7d-e0d6-4f51-aa3e-30990a7c6743 .
 
-camssa:681deb5a-e89f-432c-9f83-9bb2533910cd a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
-    cav:value "100"^^xsd:int .
-
-camssa:6aa400cc-c888-42f3-b6b9-dc0832967f46 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The GITB TDL can be used in the conformance and interoperability testing of various domains. For this matter, a large set of elements are defined to match its foreseen testing constructs.
-
-GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#what-is-the-gitb-tdl
-
-JOINUP reference:
-https://joinup.ec.europa.eu/collection/interoperability-test-bed-repository/solution/interoperability-test-bed/detailed-information#domainagnostic'"""@en ;
-    cav:refersTo camssa:2259c583-1a7b-42d2-a9c8-97f51bbe04b5 .
-
-camssa:7003cf43-43c6-4993-a3f4-f5500b4c36c5 a cav:Score,
+camssa:380f8ced-9306-4940-84cf-dd06b502152c a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
     cav:value "100"^^xsd:int .
 
-camssa:7114006b-820a-4e4c-a68b-058ed372ae63 a cav:Score,
+camssa:3c928c4d-a082-48f2-b633-0dbd6ab2700f a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
     cav:value "100"^^xsd:int .
 
-camssa:713438c6-9bd1-4dbb-8a3f-cb7041b0f935 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
-    cav:value "100"^^xsd:int .
-
-camssa:73238f23-17f7-4f2c-91c3-322a6e24d153 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'GITB TDL provides a framework for testing the efficient and secure exchange of information. See an example of this characteristics in the reference provided.
-
-GITB TDL example reference: WMS client request validation
-https://www.itb.ec.europa.eu/docs/tdl/latest/examples/index.html#example-6-wms-client-request-validation'"""@en ;
-    cav:refersTo camssa:7114006b-820a-4e4c-a68b-058ed372ae63 .
-
-camssa:74a07dbf-38c8-45f8-b8f1-86b502ca0d3b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'GITB TDL is a language created to express test cases against any given specification. Therefore it can be used in any domain.
-
-JOINUP reference:
-https://joinup.ec.europa.eu/collection/interoperability-test-bed-repository/solution/interoperability-test-bed/detailed-information#domainagnostic'"""@en ;
-    cav:refersTo camssa:cfdbd736-5336-4fcf-ba1e-f37f8e353107 .
-
-camssa:790fce42-3605-4df8-9213-92fceaa7b014 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"The Test Bed can be extended where needed to support domain-specific capabilities. For example, you can add processing handler extensions to the test bed's capabilities to undertake actions that it does not natively support. 
-
-GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#processing-handlers\""""@en ;
-    cav:refersTo camssa:0b91ecfd-959a-4cf5-8d36-4037c0d40f45 .
-
-camssa:7ca01965-179d-4b59-b12a-a8a081d52727 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'There is no evidence that the GITB TDL encourages the creation of communities along with the sharing of their data and results on national platforms.
-
-GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
-    cav:refersTo camssa:b5ce0059-37ec-4d5d-882e-f67b940ccd3a .
-
-camssa:81c24acb-6025-4b85-8013-c430834d25ab a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
-    cav:value "100"^^xsd:int .
-
-camssa:8691791f-579a-429b-b553-a24f608ead23 a cav:Statement,
+camssa:3d7221ba-e832-40cc-8ff5-e04b503c3320 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'GITB TDL is Licensed on a royalty-free basis under the European Union Public License (EUPL).
 
@@ -399,9 +218,27 @@ https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/eupl_v1.2
 
 GITB TDL reference: 
 https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#what-is-the-gitb-tdl'"""@en ;
-    cav:refersTo camssa:eae67578-0354-468c-a2c6-51dc77c7ec43 .
+    cav:refersTo camssa:f2342ddd-8374-4e37-b5a1-0594160b7cd8 .
 
-camssa:86dc663b-2d36-4066-8e5e-b50d84da0b46 a cav:Statement,
+camssa:3e3fa3ff-8fd6-483d-aba9-69d8007d7d1a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:46376d0a-6424-4ed8-841a-d5a58ed19f3b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The GITB TDL documentation does not deal at any point with e-accessibility issues. Therefore, this criterion is not applicable.
+
+GITB TDL reference:
+https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
+    cav:refersTo camssa:d09f9d39-ef4b-4692-a61e-9919d386bf67 .
+
+camssa:49814992-1c64-469c-a9ec-387775ba018e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:4a2217c5-5421-436d-a6c9-08371e947d66 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'The Interoperability Test Bed Team of DIGIT D.2. foresees the maintenance of the GITB software and specification based on the needs of the testing community and carries out evolutive maintenance with regular releases. In addition, the Test Bed team always prioritises user feedback for its change management. There is an open email whom anyone can address to propose a new issue or report a problem.
 
@@ -411,111 +248,220 @@ https://joinup.ec.europa.eu/collection/interoperability-test-bed-repository/solu
 GITB TDL reference:
 https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#how-is-it-maintained
 '"""@en ;
-    cav:refersTo camssa:3202f136-8548-436b-862f-6d8934c6171e .
+    cav:refersTo camssa:2b38d997-3cd3-4313-aaf6-84f73882d59d .
 
-camssa:9ace3761-80f1-47da-9e45-0bfaadae328d a cav:Statement,
+camssa:4bb949d2-e940-4b73-875b-7d7d50b85c7b a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """'GITB TDL implementations can be partial by supporting only a limited set of constructs. To support this last point, GITB TDL concepts and constructs are formalised using a published taxonomy that can be referenced to understand the TDL constructs that are used (within a test case) or supported (by a test bed).
-
-GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#where-is-it-used'"""@en ;
-    cav:refersTo camssa:4fb4dd58-a2a4-491a-89df-597f9eb41dbf .
-
-camssa:9b1e6596-f074-48c2-a998-4e6aa0343631 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
     cav:value "100"^^xsd:int .
 
-camssa:9b1ec49c-f87b-49e8-bf84-93ff46be1dd3 a schema:ContactPoint,
+camssa:50ca3765-515d-4611-a615-bfad43f7d47f a cav:Statement,
         owl:NamedIndividual ;
-    schema:email "DIGIT-CAMSS@eu.europa.eu" .
-
-camssa:9fa0a044-65db-4f80-926d-819eecfbcacb a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of GITB TDL is not related to the comprehensibly of administrative procedures, rules data, and services. Therefore this criterion is not applicable to this specification.
-
+    cav:judgement """'The purpose of GITB TDL is not related with data portability. Therefore, this criterion is not applicable to this specification.
 
 GITB TDL reference:
 https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#what-is-the-gitb-tdl'"""@en ;
-    cav:refersTo camssa:397d5cc1-c313-4777-a683-c710a718a564 .
+    cav:refersTo camssa:380f8ced-9306-4940-84cf-dd06b502152c .
 
-camssa:a9b99ece-1110-4d9f-bda1-c5332a9b66a0 a cav:Score,
+camssa:5288fd60-f4a2-4e20-8137-522da9e52761 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
     cav:value "20"^^xsd:int .
 
-camssa:ad8dc43d-2798-4b83-b489-6c3bacaeaa81 a cav:Score,
+camssa:54a857e5-808c-4591-ba64-e22f14bacde0 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:56a9dc7d-e411-4e0a-944a-f5fd1e80a3c3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GITB TDL is a language created to express test cases against any given specification. Therefore it can be used in any domain.
+
+JOINUP reference:
+https://joinup.ec.europa.eu/collection/interoperability-test-bed-repository/solution/interoperability-test-bed/detailed-information#domainagnostic'"""@en ;
+    cav:refersTo camssa:b822960a-9ef5-46c7-a810-5520492fbe2f .
+
+camssa:577f9696-6976-460f-a389-7ef0ff7f028c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The main purpose of the  GITB TDL is to test the conformance and interoperability of specifications.  
+
+GITB TDL reference:
+https://www.itb.ec.europa.eu/docs/tdl/1.2.0/introduction/index.html#what-is-the-gitb-tdl'"""@en ;
+    cav:refersTo camssa:8b706973-46ef-4167-865a-f16ae60ab6b1 .
+
+camssa:5bf277cf-a978-4ce4-b379-d689d74b4f9d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GITB provides a framework for conformance and interoperability testing. The test bed increases the efficiency and reliability of interoperable implementation of standards as well as it assures unbiased and objective nature of the standards implementation assessment process. In this regard, there are solutions that include GITB TDL in its implementation procesess, that is  the case of eDelivery and the European Single Procurement Document (ESPD) between others.
+
+JOINUP reference:
+https://joinup.ec.europa.eu/collection/interoperability-test-bed-repository/solution/interoperability-test-bed/detailed-information#capabilities
+
+GITB document:
+https://www.itb.ec.europa.eu/docs/tdl/latest/_downloads/0dc573d06adafa1a273edd793577016d/CEN_WS_GITB3_CWA_Final.pdf'"""@en ;
+    cav:refersTo camssa:f2b76df3-f879-4ff3-b95b-3f90605ab51b .
+
+camssa:5c119d5b-678d-494a-8105-a7caf1d017e7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
     cav:value "20"^^xsd:int .
 
-camssa:ad905e70-cdfb-4525-a52c-d422cb9c45d6 a cav:Statement,
+camssa:5d9c4037-3421-4bb5-803c-8fe7424e427d a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'The purpose of GITB TDL is not related with data portability. Therefore, this criterion is not applicable to this specification.
+    cav:judgement """'GITB TDL enables digital service delivery channels by verifying that the requirement of a given specification are met, as well as verifying that two or more parties can interact as expected.
 
 GITB TDL reference:
 https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#what-is-the-gitb-tdl'"""@en ;
-    cav:refersTo camssa:ed2b794b-1a64-4b58-be46-0da2482d89b1 .
+    cav:refersTo camssa:9cd1cab6-93f9-4720-8579-7a8ff775aece .
 
-camssa:ae110738-279f-4773-8c08-99f26a6c4eff a cav:Score,
+camssa:5e6c51aa-5bfc-4907-838e-b65d10ac7086 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
-    cav:value "20"^^xsd:int .
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:ee8367b4-0499-41e3-97b4-c9bf2141df53 .
 
-camssa:afbea4ba-a2dc-47e1-9f63-b8f7ce554f76 a cav:Score,
+camssa:62fcda7d-e0d6-4f51-aa3e-30990a7c6743 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
     cav:value "100"^^xsd:int .
 
-camssa:b1f8e3fe-27b1-4bc6-87cc-a8408727fc33 a cav:Statement,
+camssa:6584986b-4119-42e0-adae-d6e7a6536973 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'There is no such assessment and evidences found addressing the effectiveness of the specification.
+    cav:judgement """'Being part of a test bed, GITB TDL does not deal with information that needs to be reused other than the test cases. Therefore, this criterion is not applicable.
 
 GITB TDL reference:
 https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
-    cav:refersTo camssa:38ee5d06-3437-42b1-9518-d5afc0dfc65d .
+    cav:refersTo camssa:6fbce71b-4b55-4dc9-bb8e-e5d02876df94 .
 
-camssa:b59622c1-3c7b-41cc-b638-beb074b04b0f a cav:Statement,
+camssa:673cf6cf-ba74-4a38-8fc0-4bef4a74a8b5 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'The purpose of GITB TDL is not related with data portability. Therefore, this criterion is not applicable to this specification.
+    cav:judgement """'GITB TDL promotes an environment for the adoption and implementation of e-business standards and specifications. Therefore GITB TDL impacts positively in the creation or adoption of organisational interoperability agreements. GITB TDL promotes the adoption of common validation syntax within multiple services testbed APIS (e.g. ESPD and AS4 messaging)
+
+GITB reference:
+https://www.itb.ec.europa.eu/docs/tdl/latest/_downloads/0dc573d06adafa1a273edd793577016d/CEN_WS_GITB3_CWA_Final.pdf
+
+GITB TDL examples:
+https://www.itb.ec.europa.eu/docs/tdl/latest/examples/index.html#examples'"""@en ;
+    cav:refersTo camssa:f57e7273-5ef3-4f64-9c46-e2ffb5cb3ba4 .
+
+camssa:6bc1699f-11b5-4103-a0b3-b4a252bb312c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The GITB TDL can be used in the conformance and interoperability testing of various domains. For this matter, a large set of elements are defined to match its foreseen testing constructs.
+
+GITB TDL reference:
+https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#what-is-the-gitb-tdl
+
+JOINUP reference:
+https://joinup.ec.europa.eu/collection/interoperability-test-bed-repository/solution/interoperability-test-bed/detailed-information#domainagnostic'"""@en ;
+    cav:refersTo camssa:11033fad-9d17-4b35-a1e7-3c5851170582 .
+
+camssa:6fbce71b-4b55-4dc9-bb8e-e5d02876df94 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7347aaa3-8b19-45a9-9410-d99f02b73cdc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The GITB TDL is used in the GITB test bed software, nonetheless it is not tied to it.  It can also be processed by any test bed implementation that conforms to the GITB specifications.  Therefore, the GITB TDL can be platform-agnostic as long as the platform is TDL compliant.
+
+GITB TDL reference:
+https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#where-is-it-used'"""@en ;
+    cav:refersTo camssa:1d657e57-e277-4741-b86a-6a92d308ada0 .
+
+camssa:74e48574-33e7-438f-ac2e-5242dc9a06c9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:7ab229c6-741d-4551-bd68-a88eb19f21d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of GITB TDL is not related to the visibility of administrative procedures, rules data, and services. Therefore this criterion is not applicable to this specification.
 
 GITB TDL reference:
 https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#what-is-the-gitb-tdl'"""@en ;
-    cav:refersTo camssa:7003cf43-43c6-4993-a3f4-f5500b4c36c5 .
+    cav:refersTo camssa:acbda37e-f22d-442b-9bfa-7bf7bdebaade .
 
-camssa:b5ce0059-37ec-4d5d-882e-f67b940ccd3a a cav:Score,
+camssa:7b6a565c-8325-430d-a92c-c4529e7b8faa a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
     cav:value "20"^^xsd:int .
 
-camssa:b71fbf93-ee40-4d80-b7e2-89dbfd5559fe a cav:Statement,
+camssa:7bb079c4-63a6-4b44-ad73-85df78668364 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of GITB TDL as a European standard.
+    cav:judgement """"The Test Bed can be extended where needed to support domain-specific capabilities. For example, you can add processing handler extensions to the test bed's capabilities to undertake actions that it does not natively support. 
 
-ICT technical specifications:
-https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en
+GITB TDL reference:
+https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#processing-handlers\""""@en ;
+    cav:refersTo camssa:3c928c4d-a082-48f2-b633-0dbd6ab2700f .
 
-CENELEC and CEN search tool catalogue:
-https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
-    cav:refersTo camssa:25a1fb1e-2c65-4d35-9c7c-494cc089767a .
-
-camssa:bc0b9f46-9a9b-4dbe-addf-f16b4b41346e a cav:Statement,
+camssa:7eba421f-737a-4fb5-bb7f-f0f386be4518 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'GITB TDL provides a framework for testing the efficient and secure processing  of information/data. See an example of this characteristics in the reference provided:
+    cav:judgement """'After searching in the different official European websites and repositories, there is no evidence that the GITB TDL is included in an open repository/catalogue of standards at a national level.
 
-GITB TDL example reference: ASiC container validation for eTendering processes
-https://www.itb.ec.europa.eu/docs/tdl/latest/examples/index.html#example-7-asic-container-validation-for-etendering-processes'"""@en ;
-    cav:refersTo camssa:e4e3e9c1-ffef-42d2-98af-4f3db7e75783 .
+GITB TDL reference:
+https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
+    cav:refersTo camssa:5288fd60-f4a2-4e20-8137-522da9e52761 .
 
-camssa:cb919942-6b56-4ddf-9adb-9ff320da5d88 a cav:Statement,
+camssa:81e37958-24a5-48f9-bed0-014d55f01121 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'GITB TDL allows the review and provision of feedback but there is no pre-release public review process defined. There is no direct evidence that a public review is conducted according to the GITB TDL documentation.
 
 GITB TDL reference:
 https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#what-is-the-gitb-tdl'"""@en ;
-    cav:refersTo camssa:ae110738-279f-4773-8c08-99f26a6c4eff .
+    cav:refersTo camssa:14b0ab24-c667-4440-baf8-6c6be735bdab .
 
-camssa:cbf5f56a-3eae-472f-9fd4-7a32d3d50df9 a cav:Statement,
+camssa:85af545e-fcad-48eb-8770-e99479af1288 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:889d3fcc-e886-48de-a0b9-18950c3502a7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of GITB TDL is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification. 
+
+GITB TDL reference:
+https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#what-is-the-gitb-tdl'"""@en ;
+    cav:refersTo camssa:9c65040d-ab7f-4104-a9f9-3e5b03bfd09d .
+
+camssa:8a2eb549-73ee-4f01-9c5c-cbb2e50f54ce a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no such assessment and evidences found addressing the effectiveness of the specification.
+
+GITB TDL reference:
+https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
+    cav:refersTo camssa:7b6a565c-8325-430d-a92c-c4529e7b8faa .
+
+camssa:8b706973-46ef-4167-865a-f16ae60ab6b1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:962066d5-7d1c-49c7-af54-98a7fc0d0886 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "20"^^xsd:int .
+
+camssa:98c66c50-08e5-4b14-bebc-d85b3af49f47 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GiITB TDL simplifies the delivery of European Public Services by contributing to the adoption of a multi-channel delivery approach.  
+
+GITB TDL reference:
+https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html'"""@en ;
+    cav:refersTo camssa:4bb949d2-e940-4b73-875b-7d7d50b85c7b .
+
+camssa:9b1ec49c-f87b-49e8-bf84-93ff46be1dd3 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@eu.europa.eu" .
+
+camssa:9c65040d-ab7f-4104-a9f9-3e5b03bfd09d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9cd1cab6-93f9-4720-8579-7a8ff775aece a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:9d897c3b-1140-4ee7-b6b5-31d11f3bf98b a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'GITB TDL is Licensed on a royalty-free basis under the European Union Public License (EUPL).
 
@@ -524,153 +470,207 @@ https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/eupl_v1.2
 
 GITB TDL reference: 
 https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#what-is-the-gitb-tdl'"""@en ;
-    cav:refersTo camssa:04038d14-5830-4e93-872d-9ca30813c6f4 .
+    cav:refersTo camssa:2716fe33-3b74-4894-8b93-f8c5490dad07 .
 
-camssa:cdc79597-064d-4605-8694-1e6c0e7c6ed4 a cav:Score,
+camssa:a524c3d2-254b-498e-b17f-44d5fe079738 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
     cav:value "20"^^xsd:int .
 
-camssa:cee92a55-997f-4b98-882f-3f09925b24d8 a cav:Score,
+camssa:a610f5c1-f7c7-4f8b-ba11-6b1965fb5525 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
-    cav:value "100"^^xsd:int .
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "20"^^xsd:int .
 
-camssa:cf47f7b9-b45d-44fe-b5f7-19d4dd3087df a cav:Statement,
+camssa:a6205859-9201-41fc-ace1-38005d23908e a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'There is no Member State that includes GITB TDL in their national catalogue with The National Interoperability Framework (NIF) in alignment with the three categories 1. Conceptual model for integrated public services provision, 2. interoperability layers, and 3. interoperability principles.
-
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
-    cav:refersTo camssa:253d7399-99a0-4857-a7c8-99fd6b3bb855 .
-
-camssa:cf7e7da5-1216-4dea-b76b-7ea1b0199f7e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
-    cav:value "100"^^xsd:int .
-
-camssa:cfdbd736-5336-4fcf-ba1e-f37f8e353107 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
-    cav:value "100"^^xsd:int .
-
-camssa:d2ea02d8-e55b-47b1-869b-8604a25400a8 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The main purpose of the  GITB TDL is to test the conformance and interoperability of specifications.  
-
-GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/1.2.0/introduction/index.html#what-is-the-gitb-tdl'"""@en ;
-    cav:refersTo camssa:1acb7ee8-177c-4079-9d52-766c131f082a .
-
-camssa:d6be7d9e-213b-4325-857f-5dac519fb309 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
-    cav:value "100"^^xsd:int .
-
-camssa:dcea2887-f27d-48bc-9c78-c6baa6a93880 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'GITB TDL is already associated with EIRA ABBs in the EIRA Library Of Interoperability Specifications (ELIS). More specifically, GITB TDL can define the interoperability aspects of the Human Interface ABB of the EIRA Technical View.
-
-EIRA Library of Interoperability Specifications (ELIS):
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
-    cav:refersTo camssa:81c24acb-6025-4b85-8013-c430834d25ab .
-
-camssa:ded16222-dfb7-46c4-a880-9502e7a241f6 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'GITB TDL does not deal with personal data protection given that its purpose is to provide a language for interoperability and conformance testing. Therefore this criterion is not applicable to this specification.
-
-GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
-    cav:refersTo camssa:1aae46a3-d8f1-4d25-adc6-6eeb63d5efbf .
-
-camssa:df13fbe5-7494-48e1-8282-10888fb4a888 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'GITB TDL enables digital service delivery channels by verifying that the requirement of a given specification are met, as well as verifying that two or more parties can interact as expected.
+    cav:judgement """'The purpose of GITB TDL is not related with data portability. Therefore, this criterion is not applicable to this specification.
 
 GITB TDL reference:
 https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#what-is-the-gitb-tdl'"""@en ;
-    cav:refersTo camssa:fba7fa16-06d1-4c1d-afcb-c22afab755a4 .
+    cav:refersTo camssa:dcac513d-c49c-48b6-9145-13bfd062120b .
 
-camssa:e0fdf498-ddd9-462c-9cf5-c85a4cddf900 a cav:Statement,
+camssa:a9a1bf32-210d-4d45-9e20-b6ee98236d68 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The GITB TDL major releases are public for anyone to use and review in GITHUB. There is also published documentation on its supporting processes and change management on its website. Being the first release on 2017, GITB TDL has undergone several improvements and overcome possible issues until the last version 1.15, which has been released on 2022.
+
+GITB TDL reference:
+https://www.itb.ec.europa.eu/docs/tdl/latest/changelog/index.html'"""@en ;
+    cav:refersTo camssa:1053dde6-74a2-45c6-b301-e3484160df82 .
+
+camssa:aae56850-d77c-4006-8e73-79e218681dd9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no evidence this specification is recommended by any European Member State.
+
+GITB TDL reference:
+https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
+    cav:refersTo camssa:49814992-1c64-469c-a9ec-387775ba018e .
+
+camssa:acbda37e-f22d-442b-9bfa-7bf7bdebaade a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:b4c35a0a-61f5-4303-a0c6-58b4097b757e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of GITB TDL is not related to the comprehensibly of administrative procedures, rules data, and services. Therefore this criterion is not applicable to this specification.
+
+
+GITB TDL reference:
+https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#what-is-the-gitb-tdl'"""@en ;
+    cav:refersTo camssa:54a857e5-808c-4591-ba64-e22f14bacde0 .
+
+camssa:b558ed87-451a-495f-8e3d-8a215c80ebbc a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'The GITB TDL is used in the GITB test bed software, nonetheless it is not tied to it. It can also be processed by any test bed implementation that conforms to the GITB specifications. 
 
 GITB TDL reference:
 https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#where-is-it-used'"""@en ;
-    cav:refersTo camssa:ad8dc43d-2798-4b83-b489-6c3bacaeaa81 .
+    cav:refersTo camssa:a524c3d2-254b-498e-b17f-44d5fe079738 .
 
-camssa:e1633ac5-696c-4a9a-8506-772b9788a6e8 a cav:Statement,
+camssa:b822960a-9ef5-46c7-a810-5520492fbe2f a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """'After searching in the different official European websites, there is no evidence of any cross-border project that use GITB TDL nor explicit agreements involving the usage of the specification.
-
-GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
-    cav:refersTo camssa:51833c8f-f550-4120-9184-386a6faf46fe .
-
-camssa:e4e3e9c1-ffef-42d2-98af-4f3db7e75783 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
     cav:value "100"^^xsd:int .
 
-camssa:e8fc2b9d-47e5-4b06-b9ed-673cdbd3476d a cav:Statement,
+camssa:bbc83109-4925-4773-b761-67acf31b4fb4 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """'The purpose of GITB TDL is not related to the visibility of administrative procedures, rules data, and services. Therefore this criterion is not applicable to this specification.
-
-GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#what-is-the-gitb-tdl'"""@en ;
-    cav:refersTo camssa:4d6a6644-a3eb-43bd-b371-de4135f8fd35 .
-
-camssa:eae67578-0354-468c-a2c6-51dc77c7ec43 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
     cav:value "100"^^xsd:int .
 
-camssa:eca4fb93-f9e5-4514-80df-9abe9560402b a cav:Statement,
+camssa:be71b7a0-d87e-40ab-a1e9-d23b721fe7ee a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'After searching in the different official European websites and repositories, there is no evidence that the GITB TDL is included in an open repository/catalogue of standards at a national level.
+    cav:judgement """'GITB TDL is maintained and supported by the interoperability test bed team. Further developments have been carried out by the developer community regarding GITB TDL that can be viewed at its webpage.
 
-GITB TDL reference:
-https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
-    cav:refersTo camssa:a9b99ece-1110-4d9f-bda1-c5332a9b66a0 .
+GITB TDL change history reference:
+https://github.com/ISAITB/gitb/tree/master/gitb-validator-tdl/src/main/java/com/gitb/vs/tdl
 
-camssa:ed2b794b-1a64-4b58-be46-0da2482d89b1 a cav:Score,
+JOINUP reference:
+https://joinup.ec.europa.eu/collection/interoperability-test-bed-repository/solution/interoperability-test-bed/detailed-information#releases'"""@en ;
+    cav:refersTo camssa:85af545e-fcad-48eb-8770-e99479af1288 .
+
+camssa:be872c8e-ca80-4079-a746-53f4922f2dbf a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
     cav:value "100"^^xsd:int .
 
-camssa:ed89fff6-4665-4028-99b6-d5fcdc338d68 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
-    cav:value "20"^^xsd:int .
-
-camssa:f330a0a2-642a-412e-8f57-36c90cad60a9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
-    cav:value "20"^^xsd:int .
-
-camssa:f3800701-04a5-4738-8c41-8d6a63876181 a cav:Statement,
+camssa:c04996f0-0c48-4372-a84b-36d578a4c327 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'There is no such assessment and evidences found addressing the effectiveness of the specification.
 
 GITB TDL reference:
 https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
-    cav:refersTo camssa:cdc79597-064d-4605-8694-1e6c0e7c6ed4 .
+    cav:refersTo camssa:74e48574-33e7-438f-ac2e-5242dc9a06c9 .
 
-camssa:f60f1578-d5c0-4727-8735-c1350e989271 a cav:Statement,
+camssa:ce2f872e-0693-445d-a44d-053678baa993 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'The GITB TDL is used in the GITB test bed software, nonetheless it is not tied to it.  It can also be processed by any test bed implementation that conforms to the GITB specifications.  Therefore, the GITB TDL can be platform-agnostic as long as the platform is TDL compliant.
+    cav:judgement """'The purpose of the GITB TDL is not related to long term preservation of electronic record. Therefore, this criterion is considered not applicable to this specifcation. 
+
+GITB TDL reference:
+https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
+    cav:refersTo camssa:1655e08e-40de-4f20-84fb-883e55f0d2f0 .
+
+camssa:cff87203-c507-4f0f-8986-12875da912ef a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:d09f9d39-ef4b-4692-a61e-9919d386bf67 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d1e6c9a7-c4c3-426d-9305-2a4fd40f72df a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State that includes GITB TDL in their national catalogue with The National Interoperability Framework (NIF) in alignment with the three categories 1. Conceptual model for integrated public services provision, 2. interoperability layers, and 3. interoperability principles.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:3e3fa3ff-8fd6-483d-aba9-69d8007d7d1a .
+
+camssa:d56c3841-64a7-4379-a8af-4b5406d5d54b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GITB TDL does not deal with personal data protection given that its purpose is to provide a language for interoperability and conformance testing. Therefore this criterion is not applicable to this specification.
+
+GITB TDL reference:
+https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
+    cav:refersTo camssa:082f149d-ef68-4ea7-8c96-373e24f9be80 .
+
+camssa:dcac513d-c49c-48b6-9145-13bfd062120b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:df32b0b2-d8a0-4686-9270-23dd3edd795d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no evidence that the GITB TDL encourages the creation of communities along with the sharing of their data and results on national platforms.
+
+GITB TDL reference:
+https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
+    cav:refersTo camssa:5c119d5b-678d-494a-8105-a7caf1d017e7 .
+
+camssa:e31ffe4c-b62a-41cd-87d4-768cb7e060b4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GITB TDL provides a framework for testing the efficient and secure processing  of information/data. See an example of this characteristics in the reference provided:
+
+GITB TDL example reference: ASiC container validation for eTendering processes
+https://www.itb.ec.europa.eu/docs/tdl/latest/examples/index.html#example-7-asic-container-validation-for-etendering-processes'"""@en ;
+    cav:refersTo camssa:cff87203-c507-4f0f-8986-12875da912ef .
+
+camssa:ee8367b4-0499-41e3-97b4-c9bf2141df53 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "None"^^xsd:int .
+
+camssa:f0418b7a-cc2f-463c-a980-7a111c32ea16 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of the specifications is not related to the publication of Open Data. Therefore, this criterion is not applicable to this specification.
+
+GITB TDL reference:
+https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#what-is-the-gitb-tdl'"""@en ;
+    cav:refersTo camssa:1f4cef77-baf5-44b9-8d6c-59c4dcd72835 .
+
+camssa:f2342ddd-8374-4e37-b5a1-0594160b7cd8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f2b76df3-f879-4ff3-b95b-3f90605ab51b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "60"^^xsd:int .
+
+camssa:f57e7273-5ef3-4f64-9c46-e2ffb5cb3ba4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f845f452-1aef-45b9-b19c-9b36670d2eb2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After searching in the different official European websites and repositories, there is no evidence that the GITB TDL is included in an open repository/catalogue of standards at european level.
+
+GITB TDL reference:
+https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#introduction'"""@en ;
+    cav:refersTo camssa:09d0e6e3-48de-4eff-9cf5-c72ee2b05d53 .
+
+camssa:f88db734-54de-4192-9f24-3254bc4cc00d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "20"^^xsd:int .
+
+camssa:fed69927-bcd4-4fe1-9e7e-6d678d01e2c0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'GITB TDL implementations can be partial by supporting only a limited set of constructs. To support this last point, GITB TDL concepts and constructs are formalised using a published taxonomy that can be referenced to understand the TDL constructs that are used (within a test case) or supported (by a test bed).
 
 GITB TDL reference:
 https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html#where-is-it-used'"""@en ;
-    cav:refersTo camssa:ed89fff6-4665-4028-99b6-d5fcdc338d68 .
+    cav:refersTo camssa:bbc83109-4925-4773-b761-67acf31b4fb4 .
 
-camssa:fba7fa16-06d1-4c1d-afcb-c22afab755a4 a cav:Score,
+camssa:ff493439-a270-473c-95a5-de5d30705de9 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
-    cav:value "100"^^xsd:int .
+    cav:judgement """'GITB TDL is already associated with EIRA ABBs in the EIRA Library Of Interoperability Specifications (ELIS). More specifically, GITB TDL can define the interoperability aspects of the Human Interface ABB of the EIRA Technical View.
 
-camssa:febe3fa8-849c-40cf-afe7-7d2840a74a45 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "nan"@en ;
-    cav:refersTo camssa:13241f30-3864-4df4-a1d9-fbdc3b8ce189 .
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:0b17d4d1-dfae-49e4-9a57-c12a7aa19bc7 .
 

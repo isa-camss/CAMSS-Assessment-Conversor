@@ -24,150 +24,59 @@ camssa:eb9ce71172a94a5ae2fd5db712315ef239d218bbea63cd38f0fce310cad98cfe a cav:As
     camss:submissionDate "None"^^xsd:date ;
     camss:toolVersion tool:5.1.0 ;
     cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
-    cav:resultsIn camssa:006ca79a-1496-4841-bbfb-0a909367ca06,
-        camssa:053105ad-5457-46ab-9d9a-79194d7c17b2,
-        camssa:06c8aea7-8b6b-4ed0-be0f-7154e4e92e83,
-        camssa:0752b468-60a7-4480-914f-9e643c4e6522,
-        camssa:08145fb4-fff2-4caa-940a-721cd26e6cfa,
-        camssa:0e100364-2c85-4c64-9da7-c3a4b7428ec2,
-        camssa:10f65792-ebcf-46d2-a5fd-8369f3d998b6,
-        camssa:190b994f-af37-42e6-bb39-01d435d4014a,
-        camssa:204b247f-2fcd-4540-97ba-93cce79affa0,
-        camssa:21303ebd-9daa-4a4a-bad7-a42bf499c38d,
-        camssa:2538e7ac-2e51-48be-a4e3-e2faacf2ab2f,
-        camssa:2fd1c36e-858d-46db-a9fb-28f81123e07c,
-        camssa:30b0534c-35d1-4440-801f-6774df1c2f6b,
-        camssa:34dd3e47-5f18-4063-b63b-0fb45e29daab,
-        camssa:40cbf042-8682-4a93-89b8-863113a99d64,
-        camssa:49b1fd6f-40d4-4a5e-83b0-b7f4fb185bc7,
-        camssa:4d6f09ae-6e34-4e91-848d-d4996a445796,
-        camssa:4dd15341-c5ba-4700-80ec-8a3cf15683f7,
-        camssa:4eb9f797-bffb-4a92-977d-b30a71f9dea9,
-        camssa:528b189e-0dcd-4efc-b84b-4a91d4590d38,
-        camssa:56f9b350-ce75-459c-abf1-2376dc3ea455,
-        camssa:64a2a7d5-e092-41ef-b3f6-4847bc35c22e,
-        camssa:730cd57c-347d-4b5b-bf6f-e465fffe188e,
-        camssa:7480e33f-a170-432e-9aa6-9dab3b0d2e11,
-        camssa:7822b332-294c-4252-954b-e4608910f7b2,
-        camssa:7c0d0359-61a3-4496-8409-a886e35ddf93,
-        camssa:8157c572-c867-41ec-8611-3282347ef3ae,
-        camssa:9391eb3a-6463-4185-99c4-3201644ad5ce,
-        camssa:9f3e69a5-62ea-44ad-851a-2a189fc942d5,
-        camssa:afd25653-b732-4116-b440-e8c603b43e8c,
-        camssa:b0232038-588e-4d60-bd61-0ebeb608b63a,
-        camssa:b2892e72-d952-4e5e-858e-9edb64db1ffe,
-        camssa:b2b5c30c-94c5-4715-9d38-f65129eacc0c,
-        camssa:c329931c-5092-41cd-a371-014db55c84cf,
-        camssa:c371f766-62b9-4595-9ef5-c8dbb0e8684b,
-        camssa:c934eafd-9c48-418f-8d22-01bbd6140ed3,
-        camssa:ca815856-75c0-4c08-97f7-2f2a2fd95e53,
-        camssa:d32b45e5-45ad-425c-836b-cb7dbc7e6e37,
-        camssa:d3dd617c-9ca5-47ae-858a-b8ac05852b13,
-        camssa:d55be7a9-7024-41fb-8e2e-0bdeea280e52,
-        camssa:e1b607f2-aabf-4cdc-8d3b-5d01f2c43631,
-        camssa:e269fefa-226e-4d85-9476-b907ec2e8718,
-        camssa:ea05dfec-3ea3-42f2-9ca2-0a18d26cbb4d,
-        camssa:eb50489f-ff13-4f1a-a3e6-64a45880ede7 ;
+    cav:resultsIn camssa:03b210d0-0e43-41d4-aa41-b19277015114,
+        camssa:0cdf025c-a12a-4f6f-ab65-2ac32a7adfbd,
+        camssa:1222426e-4a4b-4a6c-9138-44dedaa1232f,
+        camssa:160c8aa3-8a73-4ad7-b0fe-1e8622409824,
+        camssa:2526e15f-0af9-4fec-840c-0132841a7e9b,
+        camssa:25ff6435-77d3-4b52-9998-97ad7083e35a,
+        camssa:26bd1109-4967-46f9-8cea-631e7a11dc13,
+        camssa:38b912d8-b3ab-4473-8434-3e1754851f91,
+        camssa:3f9d9a9f-73a9-46c3-a5c4-091f5d70f746,
+        camssa:45c86dc6-cfdc-4e12-8642-7b96cd69dca0,
+        camssa:4762e687-3930-4bcd-8251-9b94ba442669,
+        camssa:4804c45d-83aa-4261-9f24-2fb175858a2b,
+        camssa:4be62281-24eb-4b32-b8b7-d18dfb5af617,
+        camssa:4f176b20-f576-42ea-9a4d-8a3bc6c8f96e,
+        camssa:5308c964-5899-4159-8445-b1920f931fe4,
+        camssa:54e7cb6b-e6ad-460d-9a10-ce314cb49d57,
+        camssa:58327767-817c-4ac4-978d-083ffc89dd32,
+        camssa:5b651ba5-4c6d-4099-ad70-ca0aacb977a1,
+        camssa:5c8dd2fa-42a6-4226-a63a-54c82fb6aea5,
+        camssa:5d169515-d1df-42ca-adfb-b04e13bfa181,
+        camssa:5f62ef5c-2161-4048-997b-56304e04ccc9,
+        camssa:60656237-2202-4109-ac9b-e84576dd8232,
+        camssa:6a1608f1-fbd6-4a30-9233-655e3d8bae23,
+        camssa:7824830b-8bd5-4106-b442-84003949bdd3,
+        camssa:7b2b9777-4a4b-494a-b19d-1d3eab289ac3,
+        camssa:92a6ef81-d89f-4ad7-bf29-721c7110ec72,
+        camssa:92b9365b-62bf-4491-bdf4-1b07c0eb25aa,
+        camssa:a477f32e-5f9f-4959-80c5-fc7cd7bd20eb,
+        camssa:aa85c37f-c655-4005-9aeb-7c8b6476a06c,
+        camssa:ac44a60b-e44b-4a34-84ad-857f76aa7202,
+        camssa:b9a8b9be-857b-4359-b508-65e05102995c,
+        camssa:c8401182-1410-4f83-8174-74f297f2d097,
+        camssa:c9888b67-6efb-4c5e-ac1b-401024e7e8e7,
+        camssa:c9fc307a-8410-4a6c-a23f-107fffdd363c,
+        camssa:cbc992f5-285e-4fe0-a3ad-5fea72f95605,
+        camssa:d91c5a43-928d-45f0-ad79-83a89f706b7c,
+        camssa:dd50981d-04cf-4a4a-9d18-351cd8ab1a61,
+        camssa:e1ebfbc4-2c60-419f-8c6f-88c505d29957,
+        camssa:e515fe59-a970-4a47-833a-c68d2b0bcfe7,
+        camssa:e578222e-d473-4aa6-9aa7-98cb633d0069,
+        camssa:e5802a2b-00ac-410a-9100-685cbcd7a932,
+        camssa:e6466d44-d3e8-400b-80cf-465ac7c8f3eb,
+        camssa:e7738f45-26aa-446c-adec-c24a9d8d783c,
+        camssa:ff5e1af3-43f8-468a-8dbd-1f8dfb8d99dc ;
     cav:status status:Complete ;
     dct:title "Portable Network Graphics (PNG)"@en .
 
-camssa:006ca79a-1496-4841-bbfb-0a909367ca06 a cav:Statement,
+camssa:00d7168f-042c-4fe9-aaf9-c9a45ba2d7b3 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:6bae211a-6790-4537-8152-59d3a7f37c2b .
-
-camssa:00f88ab9-f915-49d1-a870-cd55ed2ad324 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
     cav:value "100"^^xsd:int .
 
-camssa:053105ad-5457-46ab-9d9a-79194d7c17b2 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """There are no disclosures of ISO IPR Database to identify the licensing under the specification. ISO 15948:2004 (PNG) is not listed in ISO/IEC/ITU Common Patent policy, so it cannot be confirmed that the specification is licensed on a royalty-free basis.
-
-ISO patents:
-https://www.iso.org/iso-standards-and-patents.html
-
-ISO standards and patents IPR database:
-http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347"""@en ;
-    cav:refersTo camssa:eeea93ca-62aa-4549-9364-3ea313824b8e .
-
-camssa:06c8aea7-8b6b-4ed0-be0f-7154e4e92e83 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification is included in 9 Member States' catalogues of recommended specifications. This Member States are Croatia, Estonia, France, Germany, Greece, Norway, Poland, Spain and Sweden.
-
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:662fb1ae-1789-440b-90f8-c32443faef99 .
-
-camssa:0752b468-60a7-4480-914f-9e643c4e6522 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification is independent of any technology and PNG images can be readable in any platform.
-
-PNG W3C reference:
-https://www.w3.org/TR/PNG/"""@en ;
-    cav:refersTo camssa:a3b23c67-7ec8-4555-935e-c33c95c64f8b .
-
-camssa:07c01b06-ade4-4608-bcac-76882127f61c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
-    cav:value "20"^^xsd:int .
-
-camssa:08145fb4-fff2-4caa-940a-721cd26e6cfa a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """PNG is a business domain agnostic specification that can be reused in a cross-domain way.
-
-PNG W3C reference:
-https://www.w3.org/TR/PNG/"""@en ;
-    cav:refersTo camssa:9ae27cfb-88f3-4d43-a028-bddf1af0fa4f .
-
-camssa:09723694-5ba1-4ae6-8c1f-a5466df1e204 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
-    cav:value "0"^^xsd:int .
-
-camssa:0e100364-2c85-4c64-9da7-c3a4b7428ec2 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """As defined on the TC standardisation, only TC members are involved in the development of ISO standards. A review is carried out to arrange the consensus firstly within the TC members and subsequently is reviewed by the different ISO member bodies. However, it cannot be considered a public review, because only TC members can participate.
-
-The ISO standardization process:
-https://www.iso.org/stages-and-resources-for-standards-development.html"""@en ;
-    cav:refersTo camssa:84f101de-5fdc-47cb-acc5-2feea0c4271a .
-
-camssa:10f65792-ebcf-46d2-a5fd-8369f3d998b6 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:7db8f927-d8d5-4b3b-b502-e84e0aeca7e8 .
-
-camssa:13ed137d-f9d2-420b-8bf1-d8bb7aed479c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
-    cav:value "100"^^xsd:int .
-
-camssa:141a7f86-7e0c-4258-9bc9-423fc085ffc3 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
-    cav:value "100"^^xsd:int .
-
-camssa:152922c4-7c9c-4523-9a25-e61f3632f3ae a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
-    cav:value "100"^^xsd:int .
-
-camssa:190b994f-af37-42e6-bb39-01d435d4014a a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification is independent of any technology and PNG images can be readable in any platform.
-
-PNG W3C reference:
-https://www.w3.org/TR/PNG/"""@en ;
-    cav:refersTo camssa:fdff9915-ae45-4534-9553-fe59a3f2cfff .
-
-camssa:1ef9e604-6543-492e-b65a-581cccac1f26 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
-    cav:value "100"^^xsd:int .
-
-camssa:204b247f-2fcd-4540-97ba-93cce79affa0 a cav:Statement,
+camssa:03b210d0-0e43-41d4-aa41-b19277015114 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The purpose of PNG is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. 
 
@@ -176,91 +85,72 @@ https://www.w3.org/TR/PNG/
 
 PNG ISO reference:
 https://www.iso.org/standard/29581.html"""@en ;
-    cav:refersTo camssa:2a142cfb-bc79-46de-bf50-f0df765306d4 .
+    cav:refersTo camssa:260b962b-2718-4085-99e9-6b91f76d4453 .
 
-camssa:21303ebd-9daa-4a4a-bad7-a42bf499c38d a cav:Statement,
+camssa:0618cc59-1128-4b27-b6de-c141a78e2c31 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """PNG is a business domain agnostic specification that can be reused in a cross-domain way.
-
-PNG W3C reference:
-https://www.w3.org/TR/PNG/"""@en ;
-    cav:refersTo camssa:bfa81fed-c61a-460b-9c53-fb14145ea524 .
-
-camssa:252a96d1-3676-4ec8-bb1f-1dabcd34a353 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
     cav:value "100"^^xsd:int .
 
-camssa:2538e7ac-2e51-48be-a4e3-e2faacf2ab2f a cav:Statement,
+camssa:070d5b80-54e5-4a0a-a87e-5bca468510ab a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "After searching for a conformity test to validate PNG format, no tool has been found with this purpose."@en ;
-    cav:refersTo camssa:b664de02-b60e-49ac-8fe2-bb3757b46036 .
-
-camssa:2a142cfb-bc79-46de-bf50-f0df765306d4 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
     cav:value "100"^^xsd:int .
 
-camssa:2aabf2fe-604d-4931-80ad-cbf573c83fa5 a cav:Score,
+camssa:0939c468-2d12-42fd-b8bf-b9790fd7a1d8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:0c6bcd4b-c79d-423c-9c80-e7c039443183 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0c838cdb-492d-4c13-8bec-4eae6ee3890c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "20"^^xsd:int .
+
+camssa:0cdf025c-a12a-4f6f-ab65-2ac32a7adfbd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0618cc59-1128-4b27-b6de-c141a78e2c31 .
+
+camssa:1222426e-4a4b-4a6c-9138-44dedaa1232f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f518802b-386b-4459-a1a3-9bf23d330a02 .
+
+camssa:13863f6b-8c5a-49dd-a27f-a6c5ffe12682 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:160c8aa3-8a73-4ad7-b0fe-1e8622409824 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6f17736c-20bd-47b6-9cc9-69dc07a17cae .
+
+camssa:1c2339dd-c7c6-4139-9968-f06bb4d9b2fc a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
     cav:value "100"^^xsd:int .
 
-camssa:2fd1c36e-858d-46db-a9fb-28f81123e07c a cav:Statement,
+camssa:2246a67c-ff7f-4c3c-9968-8736eafa8b61 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """Although PNG’s purpose is not the long-term preservation of data, it can be used to store images digitally.
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
 
-PNG W3C reference:
-https://www.w3.org/TR/PNG/
-
-PNG ISO reference:
-https://www.iso.org/standard/29581.html"""@en ;
-    cav:refersTo camssa:95296b5a-f376-46a5-8169-8c648c706184 .
-
-camssa:303fc008-80c7-4a48-b773-534c3eaf22c3 a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "CAMSS@everis.com" .
-
-camssa:30b0534c-35d1-4440-801f-6774df1c2f6b a cav:Statement,
+camssa:2526e15f-0af9-4fec-840c-0132841a7e9b a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """9 Member States are recommending PNG in their ICT National Catalogues. This Member States are Croatia, Estonia, France, Germany, Greece, Norway, Poland, Spain and Sweden.
 
 CAMSS List of Standards:
 https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:152922c4-7c9c-4523-9a25-e61f3632f3ae .
+    cav:refersTo camssa:807c3914-001e-491a-8c32-df839ee4fef5 .
 
-camssa:33c00a99-f413-45dc-8100-019887dd1fca a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
-    cav:value "100"^^xsd:int .
-
-camssa:34dd3e47-5f18-4063-b63b-0fb45e29daab a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of PNG is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification.
-
-PNG W3C reference:
-https://www.w3.org/TR/PNG/
-
-PNG ISO reference:
-https://www.iso.org/standard/29581.html"""@en ;
-    cav:refersTo camssa:b998f334-cb28-46a9-ab71-70eb58074a6d .
-
-camssa:40cbf042-8682-4a93-89b8-863113a99d64 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:b21af806-07bf-430d-88fd-26625a84dc34 .
-
-camssa:456ec53e-a47d-4c30-9344-593e291379bd a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
-    cav:value "100"^^xsd:int .
-
-camssa:46539dca-6fe4-47d7-bbcb-92896c270392 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
-    cav:value "20"^^xsd:int .
-
-camssa:49b1fd6f-40d4-4a5e-83b0-b7f4fb185bc7 a cav:Statement,
+camssa:25ff6435-77d3-4b52-9998-97ad7083e35a a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """There are no disclosures of ISO IPR Database to identify the licensing under the specification. ISO 15948:2004 (PNG) is not listed in ISO/IEC/ITU Common Patent policy, so it cannot be confirmed that the specification is licensed on a (F)RAND basis.
 
@@ -269,14 +159,14 @@ https://www.iso.org/iso-standards-and-patents.html
 
 ISO standards and patents IPR database:
 http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347"""@en ;
-    cav:refersTo camssa:cbcf97e6-5791-46d3-8ad1-5de9b5033412 .
+    cav:refersTo camssa:0c838cdb-492d-4c13-8bec-4eae6ee3890c .
 
-camssa:4d6f09ae-6e34-4e91-848d-d4996a445796 a cav:Statement,
+camssa:260b962b-2718-4085-99e9-6b91f76d4453 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:00f88ab9-f915-49d1-a870-cd55ed2ad324 .
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
 
-camssa:4dd15341-c5ba-4700-80ec-8a3cf15683f7 a cav:Statement,
+camssa:26bd1109-4967-46f9-8cea-631e7a11dc13 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """Although PNG supports the first level of maturity from the Tim Berners-Lee 5-star schema for the Open data, it does not support the main principles for the publication of data as Linked Open Data.
 
@@ -286,27 +176,138 @@ https://www.w3.org/wiki/LinkedData
 
 PNG W3C reference:
 https://www.w3.org/TR/PNG/"""@en ;
-    cav:refersTo camssa:f75e3e4c-b48e-4e13-b011-d3ba66678297 .
+    cav:refersTo camssa:8121e0ce-0d5c-45d8-a467-a7ecc9cdad11 .
 
-camssa:4eb9f797-bffb-4a92-977d-b30a71f9dea9 a cav:Statement,
+camssa:2c8c7a58-cb21-4750-b93d-66180976a6c0 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:09723694-5ba1-4ae6-8c1f-a5466df1e204 .
-
-camssa:4f721bc1-3000-43e3-8c28-66cb324b9cf7 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
     cav:value "100"^^xsd:int .
 
-camssa:528b189e-0dcd-4efc-b84b-4a91d4590d38 a cav:Statement,
+camssa:303fc008-80c7-4a48-b773-534c3eaf22c3 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:33528015-cf1f-4e14-b5ae-99ba46043ac5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:38b912d8-b3ab-4473-8434-3e1754851f91 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After searching for a conformity test to validate PNG format, no tool has been found with this purpose."@en ;
+    cav:refersTo camssa:c34c30c7-844b-4171-ad7f-019cbbe9388b .
+
+camssa:3c1b76f9-f4d9-4ee3-96ab-0d0577435be0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3f9d9a9f-73a9-46c3-a5c4-091f5d70f746 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PNG is an image extension which allows visualizing and storing images. However, as they cannot be protected with a password or something, everyone who has access to a PNG file can visualize it.
+
+PNG W3C reference:
+https://www.w3.org/TR/PNG/
+
+PNG ISO reference:
+https://www.iso.org/standard/29581.html"""@en ;
+    cav:refersTo camssa:a9d76c85-2ec0-442a-a076-3a7b2c23724c .
+
+camssa:3ffc97a1-1061-4a41-88de-eef7865fb349 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "20"^^xsd:int .
+
+camssa:45c86dc6-cfdc-4e12-8642-7b96cd69dca0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of PNG within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:13863f6b-8c5a-49dd-a27f-a6c5ffe12682 .
+
+camssa:463c1f1c-52ca-4d41-b2b8-dfa661504d13 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "20"^^xsd:int .
+
+camssa:4762e687-3930-4bcd-8251-9b94ba442669 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent of any technology and PNG images can be readable in any platform.
+
+PNG W3C reference:
+https://www.w3.org/TR/PNG/"""@en ;
+    cav:refersTo camssa:db780960-5c27-43ae-bf26-b93b657f5e33 .
+
+camssa:4804c45d-83aa-4261-9f24-2fb175858a2b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PNG is a business domain agnostic specification that can be reused in a cross-domain way.
+
+PNG W3C reference:
+https://www.w3.org/TR/PNG/"""@en ;
+    cav:refersTo camssa:00d7168f-042c-4fe9-aaf9-c9a45ba2d7b3 .
+
+camssa:4be62281-24eb-4b32-b8b7-d18dfb5af617 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PNG was first published as W3C recommendation in October 1996. Later in March 1997 was published in IETF's website as informational RFC 2083. In 2004, it became an ISO/IEC standard (15948:2004 PNG). Nowadays, there are millions of images with PNG extension over the Internet. So it is demonstrated that PNG has enough maturity for its use.
+
+RFC 2083 IETF - PNG informational:
+https://tools.ietf.org/html/rfc2083
+
+PNG ISO reference:
+https://www.iso.org/standard/29581.html"""@en ;
+    cav:refersTo camssa:1c2339dd-c7c6-4139-9968-f06bb4d9b2fc .
+
+camssa:4f176b20-f576-42ea-9a4d-8a3bc6c8f96e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 9 Member States' catalogues of recommended specifications. This Member States are Croatia, Estonia, France, Germany, Greece, Norway, Poland, Spain and Sweden.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:be42c4b4-f4bb-4f69-8212-55c4a89f4316 .
+
+camssa:51f1ab51-a3dd-45ab-b31a-9115cb796d35 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5308c964-5899-4159-8445-b1920f931fe4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As defined on the TC standardisation, only TC members are involved in the development of ISO standards. A review is carried out to arrange the consensus firstly within the TC members and subsequently is reviewed by the different ISO member bodies. However, it cannot be considered a public review, because only TC members can participate.
+
+The ISO standardization process:
+https://www.iso.org/stages-and-resources-for-standards-development.html"""@en ;
+    cav:refersTo camssa:463c1f1c-52ca-4d41-b2b8-dfa661504d13 .
+
+camssa:54e7cb6b-e6ad-460d-9a10-ce314cb49d57 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """PNG is used by 76.6% of all the websites as image extension. It is not only used over the Internet, PNG is commonly used to store images, so they can be visualized anytime. So it is demonstrated that PNG has enough market acceptance as image extension.
 
 Usage of image file formats broken down by ranking:
 https://w3techs.com/technologies/cross/image_format/ranking"""@en ;
-    cav:refersTo camssa:fe56d242-9eca-426d-a06c-63c239f801b9 .
+    cav:refersTo camssa:c28c22b1-461e-408d-b817-e442dfbd7b42 .
 
-camssa:56f9b350-ce75-459c-abf1-2376dc3ea455 a cav:Statement,
+camssa:58327767-817c-4ac4-978d-083ffc89dd32 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After carrying out research on the efficiency and effectiveness of PNG, no study or documentation assessing the specification has been found to justify this criterion. 
+However, there are many articles comparing PNG with JPG characteristics in terms of effectiveness and efficiency, for example:
+
+JPEG vs. PNG:
+https://www.digitaltrends.com/photography/jpeg-vs-png/"""@en ;
+    cav:refersTo camssa:c1bad0b8-e1ee-4d6d-9bb9-345d356020f8 .
+
+camssa:59977bd3-4ff8-40d2-bc42-0ddcbc2c7ff3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:5b651ba5-4c6d-4099-ad70-ca0aacb977a1 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """PNG is included in 3 national catalogues of recommended specifications. They belong to Estonia, Spain and Sweden. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
 
@@ -321,169 +322,74 @@ https://www.avropa.se/globalassets/dokument/open-it-standards.pdf?_t_id=1B2M2Y8A
 
 NIFO factsheets:
 https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
-    cav:refersTo camssa:d345b3ca-2dd8-4a1c-9657-c0d69224e812 .
+    cav:refersTo camssa:070d5b80-54e5-4a0a-a87e-5bca468510ab .
 
-camssa:605bc2c1-663c-4a87-8b5d-0af6cea4b0c9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
-    cav:value "100"^^xsd:int .
-
-camssa:621fa823-1a3d-4582-af02-f9b2d537565a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
-    cav:value "100"^^xsd:int .
-
-camssa:64a2a7d5-e092-41ef-b3f6-4847bc35c22e a cav:Statement,
+camssa:5c8dd2fa-42a6-4226-a63a-54c82fb6aea5 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "None"@en ;
-    cav:refersTo camssa:72e83faf-fda7-4895-8753-8d914d69d258 .
+    cav:refersTo camssa:0939c468-2d12-42fd-b8bf-b9790fd7a1d8 .
 
-camssa:662fb1ae-1789-440b-90f8-c32443faef99 a cav:Score,
+camssa:5d169515-d1df-42ca-adfb-b04e13bfa181 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0c6bcd4b-c79d-423c-9c80-e7c039443183 .
+
+camssa:5eb79569-5ea1-432e-ab46-d10bf47e35f9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
     cav:value "100"^^xsd:int .
 
-camssa:6bae211a-6790-4537-8152-59d3a7f37c2b a cav:Score,
+camssa:5f62ef5c-2161-4048-997b-56304e04ccc9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no disclosures of ISO IPR Database to identify the licensing under the specification. ISO 15948:2004 (PNG) is not listed in ISO/IEC/ITU Common Patent policy, so it cannot be confirmed that the specification is licensed on a royalty-free basis.
+
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347"""@en ;
+    cav:refersTo camssa:aaec9b72-c6da-4f2c-9a36-2bb3f9f74064 .
+
+camssa:60656237-2202-4109-ac9b-e84576dd8232 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:b2fe5108-5f87-41db-9c32-6f1cd5c3ba01 .
+
+camssa:6a1608f1-fbd6-4a30-9233-655e3d8bae23 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PNG is a business domain agnostic specification that can be reused in a cross-domain way.
+
+PNG W3C reference:
+https://www.w3.org/TR/PNG/"""@en ;
+    cav:refersTo camssa:2c8c7a58-cb21-4750-b93d-66180976a6c0 .
+
+camssa:6cb14f6e-c78c-4506-80a9-38311608306b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6f17736c-20bd-47b6-9cc9-69dc07a17cae a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
     cav:value "100"^^xsd:int .
 
-camssa:71f0a0a8-632d-4a32-b417-b6ae8d78d013 a cav:Score,
+camssa:74a7ec79-8b75-46d4-b398-e39a7812d596 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
-    cav:value "20"^^xsd:int .
-
-camssa:72e83faf-fda7-4895-8753-8d914d69d258 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
     cav:value "100"^^xsd:int .
 
-camssa:730cd57c-347d-4b5b-bf6f-e465fffe188e a cav:Statement,
+camssa:7824830b-8bd5-4106-b442-84003949bdd3 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:605bc2c1-663c-4a87-8b5d-0af6cea4b0c9 .
-
-camssa:7480e33f-a170-432e-9aa6-9dab3b0d2e11 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:4f721bc1-3000-43e3-8c28-66cb324b9cf7 .
-
-camssa:7822b332-294c-4252-954b-e4608910f7b2 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of PNG within any European catalogue of standards.
-
-ICT technical specifications:
-https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en
-
-CEN search tool catalogue:
-https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
-
-CENELEC search tool catalogue:
-https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
-    cav:refersTo camssa:46539dca-6fe4-47d7-bbcb-92896c270392 .
-
-camssa:788acb8d-119e-4fc9-98bb-ba2a45f1d6bc a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
-    cav:value "100"^^xsd:int .
-
-camssa:7c0d0359-61a3-4496-8409-a886e35ddf93 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:33c00a99-f413-45dc-8100-019887dd1fca .
-
-camssa:7db8f927-d8d5-4b3b-b502-e84e0aeca7e8 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
-    cav:value "100"^^xsd:int .
-
-camssa:805e2e97-8cf9-466d-a3e0-f91514287e37 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
-    cav:value "100"^^xsd:int .
-
-camssa:8157c572-c867-41ec-8611-3282347ef3ae a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of PNG is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification.
+    cav:judgement """The specification is independent of any technology and PNG images can be readable in any platform.
 
 PNG W3C reference:
-https://www.w3.org/TR/PNG/
+https://www.w3.org/TR/PNG/"""@en ;
+    cav:refersTo camssa:f4ee7440-3074-4874-872e-1048f88107c1 .
 
-PNG ISO reference:
-https://www.iso.org/standard/29581.html"""@en ;
-    cav:refersTo camssa:8c910f10-6310-4088-b2cc-257e7636ddec .
-
-camssa:84f101de-5fdc-47cb-acc5-2feea0c4271a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
-    cav:value "20"^^xsd:int .
-
-camssa:8c910f10-6310-4088-b2cc-257e7636ddec a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
-    cav:value "100"^^xsd:int .
-
-camssa:9391eb3a-6463-4185-99c4-3201644ad5ce a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of PNG is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification.
-
-PNG W3C reference:
-https://www.w3.org/TR/PNG/
-
-PNG ISO reference:
-https://www.iso.org/standard/29581.html"""@en ;
-    cav:refersTo camssa:252a96d1-3676-4ec8-bb1f-1dabcd34a353 .
-
-camssa:95296b5a-f376-46a5-8169-8c648c706184 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
-    cav:value "100"^^xsd:int .
-
-camssa:9ae27cfb-88f3-4d43-a028-bddf1af0fa4f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
-    cav:value "100"^^xsd:int .
-
-camssa:9f3e69a5-62ea-44ad-851a-2a189fc942d5 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification allows saving and exchanging content as images. However, the typology of PNG files are not the most used to exchange and reuse information across borders. At least not in the domain of eProcurement or the development of CEF Building Blocks in which the once-only principle is based.
-
-PNG W3C reference:
-https://www.w3.org/TR/PNG/
-
-PNG ISO reference:
-https://www.iso.org/standard/29581.html"""@en ;
-    cav:refersTo camssa:b6516cca-be55-4e8e-b449-dc6273f99b67 .
-
-camssa:a293e89c-2698-4ed5-9347-7eb7458dfa52 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
-    cav:value "20"^^xsd:int .
-
-camssa:a3b23c67-7ec8-4555-935e-c33c95c64f8b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
-    cav:value "100"^^xsd:int .
-
-camssa:afd25653-b732-4116-b440-e8c603b43e8c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:1ef9e604-6543-492e-b65a-581cccac1f26 .
-
-camssa:b0232038-588e-4d60-bd61-0ebeb608b63a a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """PNG is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, PNG can define the interoperability aspects of the "Representation" ABBs of the EIRA Semantic View.
-
-EIRA Library of Interoperability Specifications (ELIS):
-https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
-    cav:refersTo camssa:788acb8d-119e-4fc9-98bb-ba2a45f1d6bc .
-
-camssa:b21af806-07bf-430d-88fd-26625a84dc34 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
-    cav:value "100"^^xsd:int .
-
-camssa:b2892e72-d952-4e5e-858e-9edb64db1ffe a cav:Statement,
+camssa:7b2b9777-4a4b-494a-b19d-1d3eab289ac3 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The purpose of PNG is not related with data portability. Therefore, this criterion is not applicable to this specification. 
 
@@ -492,61 +398,29 @@ https://www.w3.org/TR/PNG/
 
 PNG ISO reference:
 https://www.iso.org/standard/29581.html"""@en ;
-    cav:refersTo camssa:141a7f86-7e0c-4258-9bc9-423fc085ffc3 .
+    cav:refersTo camssa:33528015-cf1f-4e14-b5ae-99ba46043ac5 .
 
-camssa:b2b5c30c-94c5-4715-9d38-f65129eacc0c a cav:Statement,
+camssa:807c3914-001e-491a-8c32-df839ee4fef5 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """PNG was first published as W3C recommendation in October 1996. Later in March 1997 was published in IETF's website as informational RFC 2083. In 2004, it became an ISO/IEC standard (15948:2004 PNG). Nowadays, there are millions of images with PNG extension over the Internet. So it is demonstrated that PNG has enough maturity for its use.
-
-RFC 2083 IETF - PNG informational:
-https://tools.ietf.org/html/rfc2083
-
-PNG ISO reference:
-https://www.iso.org/standard/29581.html"""@en ;
-    cav:refersTo camssa:2aabf2fe-604d-4931-80ad-cbf573c83fa5 .
-
-camssa:b6516cca-be55-4e8e-b449-dc6273f99b67 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
-    cav:value "20"^^xsd:int .
-
-camssa:b664de02-b60e-49ac-8fe2-bb3757b46036 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
-    cav:value "20"^^xsd:int .
-
-camssa:b998f334-cb28-46a9-ab71-70eb58074a6d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
     cav:value "100"^^xsd:int .
 
-camssa:bfa81fed-c61a-460b-9c53-fb14145ea524 a cav:Score,
+camssa:8121e0ce-0d5c-45d8-a467-a7ecc9cdad11 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "20"^^xsd:int .
+
+camssa:8317ba50-b879-4db9-ae24-3f875ad62537 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
     cav:value "100"^^xsd:int .
 
-camssa:c329931c-5092-41cd-a371-014db55c84cf a cav:Statement,
+camssa:92a6ef81-d89f-4ad7-bf29-721c7110ec72 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "None"@en ;
-    cav:refersTo camssa:805e2e97-8cf9-466d-a3e0-f91514287e37 .
+    cav:refersTo camssa:c9956308-5622-4937-ba12-366b8d5805d0 .
 
-camssa:c371f766-62b9-4595-9ef5-c8dbb0e8684b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """PNG could help understand the data of public administration by adding PNG image. In this sense, the specification can play an active role on the representation of the information in an easier visual way. This fact can consider PNG to foster the comprehensibility of administrative rules and data.
-
-PNG W3C reference:
-https://www.w3.org/TR/PNG/
-
-PNG ISO reference:
-https://www.iso.org/standard/29581.html"""@en ;
-    cav:refersTo camssa:fdb3c315-8d8d-4b34-8653-deaaba224c3d .
-
-camssa:c934eafd-9c48-418f-8d22-01bbd6140ed3 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "After searching in the different official European websites, there is no evidence of any cross-border project that use PNG nor explicit agreements involving the usage of the specification."@en ;
-    cav:refersTo camssa:71f0a0a8-632d-4a32-b417-b6ae8d78d013 .
-
-camssa:ca815856-75c0-4c08-97f7-2f2a2fd95e53 a cav:Statement,
+camssa:92b9365b-62bf-4491-bdf4-1b07c0eb25aa a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The purpose of PNG is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
 
@@ -555,84 +429,45 @@ https://www.w3.org/TR/PNG/
 
 PNG ISO reference:
 https://www.iso.org/standard/29581.html"""@en ;
-    cav:refersTo camssa:e16d5e15-2578-4acf-b028-23fb4d3fef41 .
+    cav:refersTo camssa:d69abcc5-8214-4ad4-8ff2-b03fed304a08 .
 
-camssa:cbcf97e6-5791-46d3-8ad1-5de9b5033412 a cav:Score,
+camssa:a414d2aa-f36a-415f-9494-1456daf0a853 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
     cav:value "20"^^xsd:int .
 
-camssa:d0b52ee6-5ae0-429b-b056-864eb0f4f685 a cav:Score,
+camssa:a477f32e-5f9f-4959-80c5-fc7cd7bd20eb a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
-    cav:value "20"^^xsd:int .
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f8fd521b-053c-4686-8e9f-38880efe9c49 .
 
-camssa:d32b45e5-45ad-425c-836b-cb7dbc7e6e37 a cav:Statement,
+camssa:a9bade95-6a62-4b9c-b458-3569143ad98f a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """ISO has defined a clear procedure to develop its standards. It consists in a 6-steps process where everyone who is interested can participate. However, if you want to participate, you have to contact your national standards body and you have to be approved for joining the Technical committee (TC) who will develop the standard. ISO has defined the roadmap of standards, it is composed of 6 steps as before said. For the approval of a standard the two-thirds majority of P-members of TC is needed. If the result is negative, the document is returned to TC/SC to be further studied.
-
-The ISO standardization process:
-https://www.iso.org/stages-and-resources-for-standards-development.html"""@en ;
-    cav:refersTo camssa:13ed137d-f9d2-420b-8bf1-d8bb7aed479c .
-
-camssa:d345b3ca-2dd8-4a1c-9657-c0d69224e812 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
     cav:value "100"^^xsd:int .
 
-camssa:d3dd617c-9ca5-47ae-858a-b8ac05852b13 a cav:Statement,
+camssa:a9d76c85-2ec0-442a-a076-3a7b2c23724c a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """After carrying out research on the efficiency and effectiveness of PNG, no study or documentation assessing the specification has been found to justify this criterion. 
-However, there are many articles comparing PNG with JPG characteristics in terms of effectiveness and efficiency, for example:
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "20"^^xsd:int .
 
-JPEG vs. PNG:
-https://www.digitaltrends.com/photography/jpeg-vs-png/"""@en ;
-    cav:refersTo camssa:07c01b06-ade4-4608-bcac-76882127f61c .
-
-camssa:d55be7a9-7024-41fb-8e2e-0bdeea280e52 a cav:Statement,
+camssa:aa85c37f-c655-4005-9aeb-7c8b6476a06c a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """PNG is an image extension which allows visualizing and storing images. However, as they cannot be protected with a password or something, everyone who has access to a PNG file can visualize it.
+    cav:judgement """Although PNG’s purpose is not the long-term preservation of data, it can be used to store images digitally.
 
 PNG W3C reference:
 https://www.w3.org/TR/PNG/
 
 PNG ISO reference:
 https://www.iso.org/standard/29581.html"""@en ;
-    cav:refersTo camssa:a293e89c-2698-4ed5-9347-7eb7458dfa52 .
+    cav:refersTo camssa:a9bade95-6a62-4b9c-b458-3569143ad98f .
 
-camssa:e16d5e15-2578-4acf-b028-23fb4d3fef41 a cav:Score,
+camssa:aaec9b72-c6da-4f2c-9a36-2bb3f9f74064 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
-    cav:value "100"^^xsd:int .
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "20"^^xsd:int .
 
-camssa:e1b607f2-aabf-4cdc-8d3b-5d01f2c43631 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """PNG has the ISO community that supports the development of International standards. Moreover, it is published and supported in W3C website which is an international community developing open standards.
-
-The ISO standardization process:
-http://www.isotc292online.org/projects/iso-process/
-
-W3C PNG reference:
-https://www.w3.org/TR/PNG/"""@en ;
-    cav:refersTo camssa:621fa823-1a3d-4582-af02-f9b2d537565a .
-
-camssa:e266f47a-325a-4c64-994b-191ad43e48ff a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
-    cav:value "100"^^xsd:int .
-
-camssa:e269fefa-226e-4d85-9476-b907ec2e8718 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Although PNG’s purpose is not to foster the visibility administrative data or services, PNG can help to enhance the visualization and visibility of public administrations by providing content more visible and easy to read. In fact, the specification helps to store and to make images readable for the visualization of data of a public administration.
-
-PNG W3C reference:
-https://www.w3.org/TR/PNG/
-
-PNG ISO reference:
-https://www.iso.org/standard/29581.html"""@en ;
-    cav:refersTo camssa:456ec53e-a47d-4c30-9344-593e291379bd .
-
-camssa:ea05dfec-3ea3-42f2-9ca2-0a18d26cbb4d a cav:Statement,
+camssa:ac44a60b-e44b-4a34-84ad-857f76aa7202 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The purpose of PNG is not related with data portability. Therefore, this criterion is not applicable to this specification. 
 
@@ -641,39 +476,204 @@ https://www.w3.org/TR/PNG/
 
 PNG ISO reference:
 https://www.iso.org/standard/29581.html"""@en ;
-    cav:refersTo camssa:e266f47a-325a-4c64-994b-191ad43e48ff .
+    cav:refersTo camssa:6cb14f6e-c78c-4506-80a9-38311608306b .
 
-camssa:eb50489f-ff13-4f1a-a3e6-64a45880ede7 a cav:Statement,
+camssa:b2fe5108-5f87-41db-9c32-6f1cd5c3ba01 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:b6b4995a-3e49-4589-93c1-51497e60a566 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:b9a8b9be-857b-4359-b508-65e05102995c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:b6b4995a-3e49-4589-93c1-51497e60a566 .
+
+camssa:be42c4b4-f4bb-4f69-8212-55c4a89f4316 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:c1989c7a-e22c-4bc9-a127-6232ddd00922 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c1bad0b8-e1ee-4d6d-9bb9-345d356020f8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:c28c22b1-461e-408d-b817-e442dfbd7b42 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c34c30c7-844b-4171-ad7f-019cbbe9388b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "20"^^xsd:int .
+
+camssa:c8401182-1410-4f83-8174-74f297f2d097 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After searching in the different official European websites, there is no evidence of any cross-border project that use PNG nor explicit agreements involving the usage of the specification."@en ;
+    cav:refersTo camssa:a414d2aa-f36a-415f-9494-1456daf0a853 .
+
+camssa:c9888b67-6efb-4c5e-ac1b-401024e7e8e7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PNG could help understand the data of public administration by adding PNG image. In this sense, the specification can play an active role on the representation of the information in an easier visual way. This fact can consider PNG to foster the comprehensibility of administrative rules and data.
+
+PNG W3C reference:
+https://www.w3.org/TR/PNG/
+
+PNG ISO reference:
+https://www.iso.org/standard/29581.html"""@en ;
+    cav:refersTo camssa:51f1ab51-a3dd-45ab-b31a-9115cb796d35 .
+
+camssa:c9956308-5622-4937-ba12-366b8d5805d0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c9fc307a-8410-4a6c-a23f-107fffdd363c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although PNG’s purpose is not to foster the visibility administrative data or services, PNG can help to enhance the visualization and visibility of public administrations by providing content more visible and easy to read. In fact, the specification helps to store and to make images readable for the visualization of data of a public administration.
+
+PNG W3C reference:
+https://www.w3.org/TR/PNG/
+
+PNG ISO reference:
+https://www.iso.org/standard/29581.html"""@en ;
+    cav:refersTo camssa:2246a67c-ff7f-4c3c-9968-8736eafa8b61 .
+
+camssa:cbc992f5-285e-4fe0-a3ad-5fea72f95605 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PNG is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification.
+
+PNG W3C reference:
+https://www.w3.org/TR/PNG/
+
+PNG ISO reference:
+https://www.iso.org/standard/29581.html"""@en ;
+    cav:refersTo camssa:74a7ec79-8b75-46d4-b398-e39a7812d596 .
+
+camssa:d69abcc5-8214-4ad4-8ff2-b03fed304a08 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d8e59055-6bd8-417d-a3bf-7f050d64c455 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d91c5a43-928d-45f0-ad79-83a89f706b7c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification allows saving and exchanging content as images. However, the typology of PNG files are not the most used to exchange and reuse information across borders. At least not in the domain of eProcurement or the development of CEF Building Blocks in which the once-only principle is based.
+
+PNG W3C reference:
+https://www.w3.org/TR/PNG/
+
+PNG ISO reference:
+https://www.iso.org/standard/29581.html"""@en ;
+    cav:refersTo camssa:3ffc97a1-1061-4a41-88de-eef7865fb349 .
+
+camssa:da76040f-8fd8-4ea2-97bb-2abb7100bae3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:db780960-5c27-43ae-bf26-b93b657f5e33 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:dd50981d-04cf-4a4a-9d18-351cd8ab1a61 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:d8e59055-6bd8-417d-a3bf-7f050d64c455 .
+
+camssa:e1ebfbc4-2c60-419f-8c6f-88c505d29957 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:da76040f-8fd8-4ea2-97bb-2abb7100bae3 .
+
+camssa:e515fe59-a970-4a47-833a-c68d2b0bcfe7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PNG has the ISO community that supports the development of International standards. Moreover, it is published and supported in W3C website which is an international community developing open standards.
+
+The ISO standardization process:
+http://www.isotc292online.org/projects/iso-process/
+
+W3C PNG reference:
+https://www.w3.org/TR/PNG/"""@en ;
+    cav:refersTo camssa:3c1b76f9-f4d9-4ee3-96ab-0d0577435be0 .
+
+camssa:e578222e-d473-4aa6-9aa7-98cb633d0069 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """After carrying out research on the efficiency and effectiveness of PNG, no study or documentation assessing the specification has been found to justify this criterion. 
 However, there are many articles comparing PNG with JPG characteristics in terms of effectiveness and efficiency, for example:
 
 JPEG vs. PNG:
 https://www.digitaltrends.com/photography/jpeg-vs-png/"""@en ;
-    cav:refersTo camssa:d0b52ee6-5ae0-429b-b056-864eb0f4f685 .
+    cav:refersTo camssa:59977bd3-4ff8-40d2-bc42-0ddcbc2c7ff3 .
 
-camssa:eeea93ca-62aa-4549-9364-3ea313824b8e a cav:Score,
+camssa:e5802a2b-00ac-410a-9100-685cbcd7a932 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
-    cav:value "20"^^xsd:int .
+    cav:judgement """The purpose of PNG is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification.
 
-camssa:f75e3e4c-b48e-4e13-b011-d3ba66678297 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
-    cav:value "20"^^xsd:int .
+PNG W3C reference:
+https://www.w3.org/TR/PNG/
 
-camssa:fdb3c315-8d8d-4b34-8653-deaaba224c3d a cav:Score,
+PNG ISO reference:
+https://www.iso.org/standard/29581.html"""@en ;
+    cav:refersTo camssa:8317ba50-b879-4db9-ae24-3f875ad62537 .
+
+camssa:e6466d44-d3e8-400b-80cf-465ac7c8f3eb a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:judgement """ISO has defined a clear procedure to develop its standards. It consists in a 6-steps process where everyone who is interested can participate. However, if you want to participate, you have to contact your national standards body and you have to be approved for joining the Technical committee (TC) who will develop the standard. ISO has defined the roadmap of standards, it is composed of 6 steps as before said. For the approval of a standard the two-thirds majority of P-members of TC is needed. If the result is negative, the document is returned to TC/SC to be further studied.
+
+The ISO standardization process:
+https://www.iso.org/stages-and-resources-for-standards-development.html"""@en ;
+    cav:refersTo camssa:f0f2504e-4d66-4b6b-9593-77813826182d .
+
+camssa:e7738f45-26aa-446c-adec-c24a9d8d783c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PNG is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification.
+
+PNG W3C reference:
+https://www.w3.org/TR/PNG/
+
+PNG ISO reference:
+https://www.iso.org/standard/29581.html"""@en ;
+    cav:refersTo camssa:c1989c7a-e22c-4bc9-a127-6232ddd00922 .
+
+camssa:f0f2504e-4d66-4b6b-9593-77813826182d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
     cav:value "100"^^xsd:int .
 
-camssa:fdff9915-ae45-4534-9553-fe59a3f2cfff a cav:Score,
+camssa:f4ee7440-3074-4874-872e-1048f88107c1 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
     cav:value "100"^^xsd:int .
 
-camssa:fe56d242-9eca-426d-a06c-63c239f801b9 a cav:Score,
+camssa:f518802b-386b-4459-a1a3-9bf23d330a02 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
     cav:value "100"^^xsd:int .
+
+camssa:f8fd521b-053c-4686-8e9f-38880efe9c49 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:ff5e1af3-43f8-468a-8dbd-1f8dfb8d99dc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:5eb79569-5ea1-432e-ab46-d10bf47e35f9 .
 

@@ -24,95 +24,69 @@ camssa:bda8be94d4758fb6c0288312faa31f14cbe930ab37957458e49cb0c6333bb74d a cav:As
     camss:submissionDate "None"^^xsd:date ;
     camss:toolVersion tool:5.1.0 ;
     cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
-    cav:resultsIn camssa:020c9646-0b7b-4c16-9a1e-f3b56f638091,
-        camssa:0d572cca-d2ff-41bf-bae0-444d4d17cd39,
-        camssa:0ef58b43-543d-4d1c-b239-547e18f3692d,
-        camssa:12409904-2cd2-45d6-9023-8ef8ee941877,
-        camssa:17aff5a1-8596-40c0-a4df-e899c3c7c6dc,
-        camssa:1cf2535b-15c0-48e8-93b0-236da5942987,
-        camssa:1d40ba1a-a945-4dc0-88dc-8634a0e09054,
-        camssa:1fbec053-a2cb-464c-b137-e85a71e2ce52,
-        camssa:2070e7b3-78d8-493c-8345-275fdc82b499,
-        camssa:20e398ab-cbef-4770-ab24-9067b67b739f,
-        camssa:220659e6-7e10-4eb3-8247-096717163f22,
-        camssa:246856a6-ba31-4702-af84-2c6ad20f89e8,
-        camssa:26ed4b54-1cb7-47cb-8e27-5c1d08d5935f,
-        camssa:2d2601b3-decb-4065-b980-a708a66a2373,
-        camssa:38b2f899-4920-465f-bd7b-409ffcf812df,
-        camssa:42887fcd-3192-4861-ac97-003ab1b39b8b,
-        camssa:56277634-c82a-4e9f-8c72-9495a00f232e,
-        camssa:5a732c70-2a06-4881-bfe7-ad40d900ca4a,
-        camssa:5e2b6ec5-4e32-4e42-8b70-2c6992147801,
-        camssa:6572c604-d15b-46fe-9a82-8e38b378150a,
-        camssa:6b7f4ba3-b7a1-4848-9eec-9d4f1decf037,
-        camssa:792cce79-574a-4cde-97d6-94da1398ce1f,
-        camssa:7dee1ace-5533-477f-b44f-405baeb42cdd,
-        camssa:7f950fb3-1cbb-4d04-ad44-8f367e663158,
-        camssa:8701eb28-f0eb-4a19-9da3-a492fcb4e2cd,
-        camssa:87dfe663-cc2b-42c4-ad41-af9c64dfa638,
-        camssa:890c6d15-774f-4460-896e-9d9ae5ffe020,
-        camssa:8aa102cb-f83f-4648-b3f2-b68d6818db48,
-        camssa:8f6aa62b-3807-4c74-9e7a-69023c26c933,
-        camssa:8fdfdfb7-18ec-45bb-87d9-3b713ce12314,
-        camssa:904aa37e-85c6-40dc-9a49-79ceac221ea7,
-        camssa:9852bfac-fb4a-4a2a-b9a6-62d54a267684,
-        camssa:99314323-744d-4458-9f0a-28ec5507a4d8,
-        camssa:9c61ea40-e1e3-4546-a93c-f95553a893b6,
-        camssa:a110b09e-382b-4d1c-8e55-24811d20c92e,
-        camssa:ad150296-c35c-4bab-98d3-511ceed6afe4,
-        camssa:b85d4650-ead6-4757-b1ed-8e5d7d78ca87,
-        camssa:bf4e7ed9-c31c-4895-a779-f61d87c6c931,
-        camssa:c4259bbf-3852-4d18-8701-12752e68a69e,
-        camssa:c9e70c82-84b2-4887-957a-a73854a62512,
-        camssa:ccafe2d8-aca9-452f-9c6c-d2f983a2a17c,
-        camssa:df29f5d0-af8d-44bc-aca1-f21c69430cea,
-        camssa:fd826fd5-d82d-4b32-a75c-9094c30a474f,
-        camssa:fd94ab5d-f494-443c-b701-efbc6175ff9c ;
+    cav:resultsIn camssa:0b8d19f1-3e86-4a0d-8d65-82e2619eac8f,
+        camssa:0f121ac2-74c1-48e2-867d-99c21677f3c6,
+        camssa:0fda175a-d695-4b20-8ce6-0ccf3460995f,
+        camssa:10e1badf-5369-4783-b40c-b55a0a6edb2c,
+        camssa:1bdf81bc-c78a-48b1-8011-a1143c8bddae,
+        camssa:1e27c432-cb7e-4567-9a3b-6e828ed4d173,
+        camssa:210ed72c-fd19-41e5-87e9-9b4c2f0b5260,
+        camssa:2b75cbc7-d028-4d0d-ad91-61045a8ef326,
+        camssa:2bc63411-1247-43d1-b83a-036655c942ac,
+        camssa:35f077c5-4911-47ad-a07e-c1fd24fc496d,
+        camssa:48ea8995-8ca1-49df-8b8d-87f54b215e66,
+        camssa:4ac03d00-db8e-440d-9f69-e0390ed3df60,
+        camssa:50b43d03-0cfb-4da1-a30b-6e5e960e72cb,
+        camssa:50e82f1d-6d68-4ca4-ab94-578b0a0eeb93,
+        camssa:554f0508-f848-4c95-bee7-9f7817c793cd,
+        camssa:5a5e6497-8e8b-473c-8e2c-73cf6c5dd203,
+        camssa:5fea5d95-a2f1-4eee-b8a1-d3aeaae1e474,
+        camssa:6358849f-c8ce-48d4-9d64-d17d47526158,
+        camssa:8bc00acf-a5b3-4eb7-a8f9-9dec914a1fa8,
+        camssa:95a7b4ea-62ec-4de3-b1ef-9fc40af9cd6c,
+        camssa:98a8412f-27c3-492b-aa6d-f78d58528f88,
+        camssa:993306da-5e32-4ad6-a69a-a4aaf6c8b694,
+        camssa:9f8b4a92-0d89-4b7c-9d2a-3db0dfc5fd65,
+        camssa:a3cc3a7b-1042-4c73-b706-478c2523b3ff,
+        camssa:a55f1aa7-5d52-4415-b291-7a1a84a608e3,
+        camssa:a7061a2a-b2ec-4199-b769-abc53c35fd08,
+        camssa:a740e697-2700-482b-96ca-0ebecc5812c1,
+        camssa:b3da35c7-b721-406f-936b-77a376ebdc78,
+        camssa:b9ab32d6-3b88-4483-9f29-02f31af6ab26,
+        camssa:c1a09b26-f9e5-4cff-b9d7-86e87f25fdab,
+        camssa:c8572ac0-23b7-4a2f-8178-f23ee84442c4,
+        camssa:c94a051b-68a9-439c-93ef-9e63c19919f2,
+        camssa:cd7cdb48-a20f-4c3b-967c-ba978b717976,
+        camssa:cf843cf6-160a-4ef0-91c5-afa15b52c0ae,
+        camssa:d4674367-307d-4e83-8def-26d0738bc26c,
+        camssa:d6048069-14cb-422d-8c55-b68c069021cd,
+        camssa:dddf926f-e6be-47df-bbf8-5afe6c24457b,
+        camssa:e1021270-1d47-48a8-8869-47e988b5fa2b,
+        camssa:e150de0a-05ae-4043-88da-e1eb1860d47d,
+        camssa:e5818104-e6c4-4cdb-98eb-9e28fa265489,
+        camssa:ede1aff4-29d6-4a96-b524-a5f474660560,
+        camssa:f197b9b2-4cd7-43f9-8d73-6a1c3e5a70a9,
+        camssa:f2c3f0ab-4f92-4bd1-9951-de000a31e3b7,
+        camssa:f46dbb36-7978-4c7c-b41b-f1aa30d5770a ;
     cav:status status:Complete ;
     dct:title "ISAE 3402"@en .
 
-camssa:020c9646-0b7b-4c16-9a1e-f3b56f638091 a cav:Statement,
+camssa:031db715-129f-413d-9905-f54afbdd798a a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """'ISAE 3402 depends on NIA 402 and ISAE 3000. ISAE 3402 states that assurance engagements should be 
-performed in accordance with the ISAE 3000 standard.
-
-ISAE 3402 exposure draft:
- https://www.ifac.org/system/files/uploads/Trans/ISAE%203402%20(definitiva%202013).pdf'"""@en ;
-    cav:refersTo camssa:47e37998-30f4-48b9-9778-fc961444e0b3 .
-
-camssa:0d572cca-d2ff-41bf-bae0-444d4d17cd39 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"ISAE 3402 is not focused on the publication of data as open data. It is dedicated to establishing 
-internal controls for the assurance of services' quality from the customer perspective.  Therefore this criterion is not applicable to this specification.
-
-ISAE 3402 reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf\""""@en ;
-    cav:refersTo camssa:206f4815-a900-49c1-8596-e818cecc5885 .
-
-camssa:0ef58b43-543d-4d1c-b239-547e18f3692d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'There is no Member State that includes ISAE 3402 in their national catalogue with The National Interoperability Framework (NIF) in alignment with the three categories 1. Conceptual model for integrated public services provision, 2. interoperability layers, and 3. interoperability principles.
-
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
-    cav:refersTo camssa:35279c2d-8913-4c5e-90d6-87246fb8b20a .
-
-camssa:0f7cb325-2470-410b-be46-06ba65a1cdff a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
     cav:value "100"^^xsd:int .
 
-camssa:12409904-2cd2-45d6-9023-8ef8ee941877 a cav:Statement,
+camssa:05e8106c-5d5d-42b3-bc4b-2ff835b375a9 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """"ISAE 3402 Intellectual property rights disclosures' are license-free, therefore it is available with any restrictions related to (F)RAND.
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
 
-ISAE 3402 reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf
+camssa:06d71d9c-6064-4c74-9ed5-b26dd7aa57db a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "20"^^xsd:int .
 
-\""""@en ;
-    cav:refersTo camssa:23b47814-022e-4f0a-abb5-9bbc7b06bfe7 .
-
-camssa:17aff5a1-8596-40c0-a4df-e899c3c7c6dc a cav:Statement,
+camssa:0b8d19f1-3e86-4a0d-8d65-82e2619eac8f a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'Different existing reports point out the benefits of implementing ISAE 3402. An example of such assessment 
 can be found in the following link:
@@ -120,9 +94,244 @@ can be found in the following link:
 Report o ISAE 3402:
 https://isae3402.co.uk/sites/default/files/Whitepaper_ISAE_3402.pdf
 '"""@en ;
-    cav:refersTo camssa:9fd0143c-be2e-49c9-a791-298b09032978 .
+    cav:refersTo camssa:d662de05-8e2a-41c7-92cd-c91306fac5bb .
 
-camssa:1cf2535b-15c0-48e8-93b0-236da5942987 a cav:Statement,
+camssa:0e072836-39fb-4a1e-b926-f60cad8f758a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0ebdd4e4-0e5e-469b-b225-98c23654eedc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "20"^^xsd:int .
+
+camssa:0f121ac2-74c1-48e2-867d-99c21677f3c6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISAE 3402 depends on NIA 402 and ISAE 3000. ISAE 3402 states that assurance engagements should be 
+performed in accordance with the ISAE 3000 standard.
+
+ISAE 3402 exposure draft:
+ https://www.ifac.org/system/files/uploads/Trans/ISAE%203402%20(definitiva%202013).pdf
+'"""@en ;
+    cav:refersTo camssa:3bced717-7ae2-45cb-884e-bd5391a582c8 .
+
+camssa:0f789018-3430-48c7-920b-9a035d255a15 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0fda175a-d695-4b20-8ce6-0ccf3460995f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISAE 3402 is already associated with EIRA ABBs in the EIRA Library Of Interoperability Specifications (ELIS). More specifically, ISAE 3402 can define the interoperability aspects of the Privacy Framework ABB of the EIRA Organisational View.
+
+ELIS reference:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss
+/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:971b9dae-2618-45c1-87b6-61f297963a1e .
+
+camssa:10e1badf-5369-4783-b40c-b55a0a6edb2c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Even though ISAE 3402 is more focused on auditing and ensuring the management of the information 
+provided in transactions from the private sector, this specification could also help to ensure that the public 
+services requiring information from both parties (Public administrations and the service consumers) are 
+properly managed and monitored allowing the information to be secured and exchanged between public 
+administrations fostering the once-only principle.
+
+ISAE 3402 handbook reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
+    cav:refersTo camssa:57f08256-6963-4118-bdef-f4f11e9b8a09 .
+
+camssa:1225ff3f-58a2-4ac0-b3ed-87682d0e8451 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:16881432-8fc7-42a6-8047-8bcdccda772d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:19ef010b-30a3-424a-9e55-01df0df3f5f3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:1bdf81bc-c78a-48b1-8011-a1143c8bddae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Although ISAE 3402 is not developed by European Organisations that are following the European 
+Standardisation Regulation, it is being recommended by ENISA according to the report for Security 
+certification practice in the EU.
+
+ENISA webpage:
+https://www.enisa.europa.eu/publications/security-certification-practice-in-the-euinformation-security\\x02management-systems-a-case-study/at_download/fullReport '"""@en ;
+    cav:refersTo camssa:eae2fcf4-b870-49fa-8c37-e9bf927b8a79 .
+
+camssa:1e27c432-cb7e-4567-9a3b-6e828ed4d173 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Being an international standard that encompasses the internal security framework of all private and public
+administrations, ISAE 3402 helps to create digitally by default services that reduce the administrative burden on both
+sides, public administrations and stakeholders.
+
+ISAE 3402 handbook reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
+    cav:refersTo camssa:d18db5ec-d7d0-4ae9-91a3-d33b52f876fc .
+
+camssa:210ed72c-fd19-41e5-87e9-9b4c2f0b5260 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The IAASB is dedicated to operating as transparently as possible. IAASB meetings are open to the public 
+and meeting agendas, agenda papers, and meeting highlights are posted on the website. In addition, the 
+website includes project histories, audio recordings of the IAASB meetings, IAASB Exposure Drafts and all 
+comments made on those drafts by stakeholders.
+
+IAASB reference:
+https://www.iaasb.org/about-iaasb'"""@en ;
+    cav:refersTo camssa:2b0f1bfa-0c5c-4602-81e7-de514f5bb271 .
+
+camssa:220a7440-56d0-48ad-83ef-71fc4e05b64e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "60"^^xsd:int .
+
+camssa:2b0f1bfa-0c5c-4602-81e7-de514f5bb271 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:2b75cbc7-d028-4d0d-ad91-61045a8ef326 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ISAE 3402 is part of the International Federation of Accountants (IFAC) standard providing companies in the 
+financial sector with an independent assessment tool on user entities' controls over financial reporting. The ISAE 3402 auditing tools, therefore, are ony meant to be used as a whole.
+
+ISAE 3402 handbook reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf\""""@en ;
+    cav:refersTo camssa:6b6bab70-b3e0-43c7-9de6-c2de24b55ed3 .
+
+camssa:2bc63411-1247-43d1-b83a-036655c942ac a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'In 1992 there was the SAS (Statement on Auditing Standards) 70 and then there was a transition to the
+ISAE 3402 / SSAE16 which is based on the SSAE 16 and is an analysis and evaluation standard
+(assurance). Finally, the standard was published by The International Auditing and Assurance Standards
+Board (IAASB) in December 2009.  Therefore we can state that ISAE 3402 has a widespread market acceptance.
+
+ISAE 3402 history:
+https://www.isae3402.com/ISAE3402_history'"""@en ;
+    cav:refersTo camssa:90c29431-2f18-45f4-96ac-a19deace4dd7 .
+
+camssa:2e28cd7d-82f6-4548-b6ac-4dc893dcc2e5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "20"^^xsd:int .
+
+camssa:32af6dd8-e6e3-4bfe-a77a-cdac92ed05a1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "60"^^xsd:int .
+
+camssa:35f077c5-4911-47ad-a07e-c1fd24fc496d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISAE 3402 depends on NIA 402 and ISAE 3000. ISAE 3402 states that assurance engagements should be 
+performed in accordance with the ISAE 3000 standard.
+
+ISAE 3402 exposure draft:
+ https://www.ifac.org/system/files/uploads/Trans/ISAE%203402%20(definitiva%202013).pdf'"""@en ;
+    cav:refersTo camssa:06d71d9c-6064-4c74-9ed5-b26dd7aa57db .
+
+camssa:37f0ebc6-0621-4c7c-b141-3960563433b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:39f4e666-f41f-4655-a148-d3f2c5c7d642 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "80"^^xsd:int .
+
+camssa:3a0a6b6f-a18c-43c7-a9db-b60f11625efe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "80"^^xsd:int .
+
+camssa:3bced717-7ae2-45cb-884e-bd5391a582c8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:int .
+
+camssa:3df693c0-24b6-428d-a79c-1a9afff92dd2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3fdc1371-f789-497c-b194-2846ebe2cdf1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "None"^^xsd:int .
+
+camssa:40bab06a-ca92-4c59-82c4-2553e134c7c4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:4707383e-98d7-4362-b3db-02266e5c1291 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:48ea8995-8ca1-49df-8b8d-87f54b215e66 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISAE 3402 was developed to provide an international assurance standard for allowing public accountants to
+issue a report for use by user organizations and their auditors (user auditors) on the controls at a service
+organization that are likely to impact or be a part of the user organization’s system of internal control over
+financial reporting.  The main purpose of ISAE 3402, therefore, is to assure the integrity of data and preserving the confidentiality of the information being exchanged, thus, ensuring the protection of personal data. 
+
+ISAE 3402 overview webpage:
+https://www.isae3402.com/ISAE3402_overview'"""@en ;
+    cav:refersTo camssa:cf8bd131-9629-4130-95ae-8773d5e6cbe5 .
+
+camssa:49dbf296-666e-4551-a7f9-013fb644fa91 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4ac03d00-db8e-440d-9f69-e0390ed3df60 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"No evidence has been found that ISAE 3402 is recommended by any European Member State's Catalogue.
+
+CAMSS list of standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specificationscamss
+/camss-list-standards\""""@en ;
+    cav:refersTo camssa:19ef010b-30a3-424a-9e55-01df0df3f5f3 .
+
+camssa:50b43d03-0cfb-4da1-a30b-6e5e960e72cb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no evidence found that the ISAE 3402 encourages the creation of communities along with the sharing of their data and results on European platforms.
+
+ISAE 3402 handbook reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
+    cav:refersTo camssa:88c4a188-1188-482a-acf1-6e3d552b16b4 .
+
+camssa:50e82f1d-6d68-4ca4-ab94-578b0a0eeb93 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISAE 3402 is mainly focused on establishing quality control processes in private sector companies, 
+administrations could benefit from implementing it for those procedures that require payments. This would 
+allow public administrations to clearly define and expose how their procedures are carried out and therefore, 
+enhance transparency and comprehensibility of data.
+
+ISAE 3402 website:
+https://www.isae3402.com/ISAE3402_overview#'"""@en ;
+    cav:refersTo camssa:220a7440-56d0-48ad-83ef-71fc4e05b64e .
+
+camssa:50fc218c-5dea-4dd8-85f4-050af23efe9e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "20"^^xsd:int .
+
+camssa:53232b88-ad10-4e14-bf89-d5a7287efb80 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:554f0508-f848-4c95-bee7-9f7817c793cd a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'ISAE 3402 was developed to provide an international standard of assurance in the context of information 
 security and confidentiality that could enable accountants to issue a report for use by user organizations and 
@@ -135,77 +344,163 @@ https://www.sap.com/about/trust-center/certification-compliance/sap-application-
 
 ISAE 3402 reference:
 https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:bab3b8d9-4c4b-4d2f-8125-6349f731bd45 .
+    cav:refersTo camssa:16881432-8fc7-42a6-8047-8bcdccda772d .
 
-camssa:1d40ba1a-a945-4dc0-88dc-8634a0e09054 a cav:Statement,
+camssa:57f08256-6963-4118-bdef-f4f11e9b8a09 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5a4d3d1e-7ee3-4f8c-8a49-59f820dc871d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "60"^^xsd:int .
+
+camssa:5a5e6497-8e8b-473c-8e2c-73cf6c5dd203 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ISAE 3402 is part of the International Federation of Accountants (IFAC) standard providing companies in the 
+financial sector with an independent assessment tool on user entities' controls over financial reporting. ISAE 
+3402 auditing tool, therefore, does not allow for extensions. 
+
+ISAE 3402 handbook reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf\""""@en ;
+    cav:refersTo camssa:2e28cd7d-82f6-4548-b6ac-4dc893dcc2e5 .
+
+camssa:5fea5d95-a2f1-4eee-b8a1-d3aeaae1e474 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:3fdc1371-f789-497c-b194-2846ebe2cdf1 .
+
+camssa:60b3f919-994f-4837-9878-1d64465beb36 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6358849f-c8ce-48d4-9d64-d17d47526158 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'The purpose of ISAE 3402 is not related to the enabling of data portability between systems or applications.  Therefore this criterion is not applicable to this specification.
 
 ISAE 3402 handbook reference:
 https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:69f017bf-82e4-41df-897f-95d2fcba551a .
+    cav:refersTo camssa:8dc73472-1f9e-44e1-a66d-44d3e35d3913 .
 
-camssa:1fbec053-a2cb-464c-b137-e85a71e2ce52 a cav:Statement,
+camssa:65e61cfe-2b09-44e3-93e0-7fb5b002e545 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """'There is no evidence found that the ISAE 3402 encourages the creation of communities along with the sharing of their data and results on European platforms.
-
-ISAE 3402 handbook reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:6b67372d-a377-473d-a6e7-826bb9c4f320 .
-
-camssa:206f4815-a900-49c1-8596-e818cecc5885 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
     cav:value "100"^^xsd:int .
 
-camssa:2070e7b3-78d8-493c-8345-275fdc82b499 a cav:Statement,
+camssa:6b6bab70-b3e0-43c7-9de6-c2de24b55ed3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "20"^^xsd:int .
+
+camssa:88c4a188-1188-482a-acf1-6e3d552b16b4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "20"^^xsd:int .
+
+camssa:8bc00acf-a5b3-4eb7-a8f9-9dec914a1fa8 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'First of all ISAE 3402 provides a guarantee in the context of the security and confidentiality of information for 
 users and companies. Therefore, when a public administration contracts a service from a private company, it 
-can request the ISAE 3402 to ensure that their data complies with adequate confidentiality and security.
+can request the ISAE 3402 to ensure that their data complies with adequate confidentiality and security, 
 
 ISAE 3402 handbook reference:
 https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:af472d8a-0dc1-41a2-b919-8636e1dc84d3 .
+    cav:refersTo camssa:3a0a6b6f-a18c-43c7-a9db-b60f11625efe .
 
-camssa:20e398ab-cbef-4770-ab24-9067b67b739f a cav:Statement,
+camssa:8c00dba2-768b-4a5d-b6ab-fae9ba742578 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """'The IAASB is dedicated to operating as transparently as possible. IAASB meetings are open to the public 
-and meeting agendas, agenda papers, and meeting highlights are posted on the website. In addition, the 
-website includes project histories, audio recordings of the IAASB meetings, IAASB Exposure Drafts and all 
-comments made on those drafts by stakeholders.
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
 
-IAASB reference:
-https://www.iaasb.org/about-iaasb'"""@en ;
-    cav:refersTo camssa:6cd80a9f-cfee-4019-9ba6-9c27ef3a5a01 .
+camssa:8dc73472-1f9e-44e1-a66d-44d3e35d3913 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
 
-camssa:21063e0c-7627-4b79-a554-a6a1d4466efc a cav:Score,
+camssa:9021d436-20ce-4643-a0ae-e10948c76b5f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:90c29431-2f18-45f4-96ac-a19deace4dd7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:94bb792e-4568-4986-92d5-fb387a3f3b4c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:95a7b4ea-62ec-4de3-b1ef-9fc40af9cd6c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ISAE 3402 is part of the International Federation of Accountants (IFAC) standard providing companies in the 
+financial sector with an independent assessment tool on user entities' controls over financial reporting. The ISAE 3402 auditing tool, therefore, it does not allow customisation. 
+
+ISAE 3402 handbook reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf\""""@en ;
+    cav:refersTo camssa:0ebdd4e4-0e5e-469b-b225-98c23654eedc .
+
+camssa:971b9dae-2618-45c1-87b6-61f297963a1e a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
     cav:value "100"^^xsd:int .
 
-camssa:2109e3fb-1c89-4453-8f72-7b5f29dc6319 a cav:Score,
+camssa:98a8412f-27c3-492b-aa6d-f78d58528f88 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
-    cav:value "100"^^xsd:int .
+    cav:judgement """'ISAE 3402 has been selected as the basis for the Cloud Computing Compliance Controls Catalogue 
+(C5), which outlines prerequisites for a conformity assessment using international standards (ISAE 3000, 
+ISAE 3402), adding cloud-specific requirements, especially for transparency.
 
-camssa:220659e6-7e10-4eb3-8247-096717163f22 a cav:Statement,
+Joinup Cloud Computing (RP 2020):
+https://joinup.ec.europa.eu/collection/rolling-plan-ict-standardisation/cloud-computing-rp2020'"""@en ;
+    cav:refersTo camssa:d926028a-0aae-4395-bbe5-f61eac0d2538 .
+
+camssa:993306da-5e32-4ad6-a69a-a4aaf6c8b694 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'ISAE 3402 was developed to provide an international assurance standard for allowing public accountants to
-issue a report for use by user organizations and their auditors (user auditors) on the controls at a service
-organization that are likely to impact or be a part of the user organization’s system of internal control over
-financial reporting.  The main purpose of ISAE 3402, therefore, is to assure the integrity of data and preserving the confidentiality of the information being exchanged, thus, ensuring the protection of personal data. 
+    cav:judgement """'The purpose of ISAE 3402 is not related to the enabling of data portability between systems or applications.  Therefore this criterion is not applicable to this specification.
 
-ISAE 3402 overview webpage:
-https://www.isae3402.com/ISAE3402_overview'"""@en ;
-    cav:refersTo camssa:480ec9e1-a521-444f-bd55-cc51932466f5 .
+ISAE 3402 handbook reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
+    cav:refersTo camssa:3df693c0-24b6-428d-a79c-1a9afff92dd2 .
 
-camssa:23b47814-022e-4f0a-abb5-9bbc7b06bfe7 a cav:Score,
+camssa:9f8b4a92-0d89-4b7c-9d2a-3db0dfc5fd65 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
-    cav:value "100"^^xsd:int .
+    cav:judgement """'The purpose of ISAE 3402 standard is other than enabling e-accessibility, therefore, this criterion is not 
+applicable to the standard.
 
-camssa:246856a6-ba31-4702-af84-2c6ad20f89e8 a cav:Statement,
+ISAE 3402 handbook reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
+    cav:refersTo camssa:60b3f919-994f-4837-9878-1d64465beb36 .
+
+camssa:a3cc3a7b-1042-4c73-b706-478c2523b3ff a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no evidence found that the ISAE 3402 encourages the creation of communities along with the sharing of their data and results on national platforms.
+
+ISAE 3402 handbook reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
+    cav:refersTo camssa:50fc218c-5dea-4dd8-85f4-050af23efe9e .
+
+camssa:a55f1aa7-5d52-4415-b291-7a1a84a608e3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State that includes ISAE 3402 in their national catalogue with The National Interoperability Framework (NIF) in alignment with the three categories 1. Conceptual model for integrated public services provision, 2. interoperability layers, and 3. interoperability principles.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:05e8106c-5d5d-42b3-bc4b-2ff835b375a9 .
+
+camssa:a7061a2a-b2ec-4199-b769-abc53c35fd08 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISAE 3402 in itself is a method to audit the information systems. As it is available for free it can be 
+used to assess and audit the performance of organisations against the requirements it establishes.
+
+ISAE 3402 handbook reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
+    cav:refersTo camssa:5a4d3d1e-7ee3-4f8c-8a49-59f820dc871d .
+
+camssa:a740e697-2700-482b-96ca-0ebecc5812c1 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'ISAE 3402 was published for the first time in 2009, which means that it has evolved from a 
 stable version and it is mature enough to consider it for the creation and development of solutions and 
@@ -214,246 +509,38 @@ services. ISAE 3402 supersedes SAS 70 and puts more emphasis on procedures for t
 ISAE 3402 history
 https://www.isae3402.com/ISAE3402_history/
 '"""@en ;
-    cav:refersTo camssa:868f4dcb-ec26-4d89-93ff-94837deef750 .
+    cav:refersTo camssa:40bab06a-ca92-4c59-82c4-2553e134c7c4 .
 
-camssa:26ed4b54-1cb7-47cb-8e27-5c1d08d5935f a cav:Statement,
+camssa:a86506a0-3438-4c67-8321-1565b8a8bd72 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """'ISAE 3402 is mainly focused on establishing quality control processes in private sector companies, 
-administrations could benefit from implementing it for those procedures that require payments. This would 
-allow public administrations to clearly define and expose how their procedures are carried out and therefore, 
-enhance transparency and comprehensibility of data.
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
 
-ISAE 3402 website:
-https://www.isae3402.com/ISAE3402_overview#'"""@en ;
-    cav:refersTo camssa:8609fefc-8a3b-48a3-92b9-88027ccb6f22 .
-
-camssa:27eceb0e-ff40-4b4d-8592-5591ba2c0d2f a cav:Score,
+camssa:ac05d0ec-30fc-4fe8-9eb4-22cb0bd42fff a schema:ContactPoint,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
-    cav:value "100"^^xsd:int .
+    schema:email "DIGIT-CAMSS@eu.europa.eu" .
 
-camssa:2d2601b3-decb-4065-b980-a708a66a2373 a cav:Statement,
+camssa:b3da35c7-b721-406f-936b-77a376ebdc78 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'There is not enough information to determine that the ISAE 3402 has been included within an agreement 
-between organisations or countries involved in the provision of public services.
+    cav:judgement """'The implementation of ISAE 3402 could, for example, allow administrations to properly track how the 
+different organisations providing digital public services are distributing funds. Or also to ensure that the 
+procedures and transactions with stakeholders are properly mapped. ISAE 3402 auditing tool, therefore, is 
+designed to be imlemented in any domain.
 
 ISAE 3402 handbook reference:
 https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:27eceb0e-ff40-4b4d-8592-5591ba2c0d2f .
+    cav:refersTo camssa:0f789018-3430-48c7-920b-9a035d255a15 .
 
-camssa:35279c2d-8913-4c5e-90d6-87246fb8b20a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
-    cav:value "20"^^xsd:int .
-
-camssa:38b2f899-4920-465f-bd7b-409ffcf812df a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISAE 3402 in itself is a method to audit the information systems. As it is available for free it can be 
-used to assess and audit the performance of organisations against the requirements it establishes.
-
-ISAE 3402 handbook reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:3ab0c118-b343-4cc0-963f-6de83ff893c4 .
-
-camssa:3ab0c118-b343-4cc0-963f-6de83ff893c4 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
-    cav:value "60"^^xsd:int .
-
-camssa:3e47e013-639d-462e-8a19-35a465b711a3 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
-    cav:value "100"^^xsd:int .
-
-camssa:42887fcd-3192-4861-ac97-003ab1b39b8b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'Being an international standard that encompasses the internal security framework of all private and public
-administrations, ISAE 3402 helps to create digitally by default services that reduce the administrative burden on both
-sides, public administrations and stakeholders.
-
-ISAE 3402 handbook reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:86c77fa0-fb3c-4117-a2f8-4ad3e21dd752 .
-
-camssa:4664b0cc-0b6b-44db-85f9-7fe3bcb177a0 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
-    cav:value "100"^^xsd:int .
-
-camssa:47ac9fce-aff9-4682-96f5-0590a0fe3dd9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
-    cav:value "60"^^xsd:int .
-
-camssa:47bb5aff-a786-455e-bc8f-d09a3695816c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
-    cav:value "60"^^xsd:int .
-
-camssa:47e37998-30f4-48b9-9778-fc961444e0b3 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
-    cav:value "20"^^xsd:int .
-
-camssa:480ec9e1-a521-444f-bd55-cc51932466f5 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
-    cav:value "100"^^xsd:int .
-
-camssa:536d254d-cdfd-4881-95cb-e988016e49a7 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
-    cav:value "100"^^xsd:int .
-
-camssa:548fb512-5e86-45fd-8232-aa08360796c4 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
-    cav:value "100"^^xsd:int .
-
-camssa:56277634-c82a-4e9f-8c72-9495a00f232e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISAE 3402 depends on NIA 402 and ISAE 3000. ISAE 3402 states that assurance engagements should be 
-performed in accordance with the ISAE 3000 standard.
-
-ISAE 3402 exposure draft:
- https://www.ifac.org/system/files/uploads/Trans/ISAE%203402%20(definitiva%202013).pdf
-'"""@en ;
-    cav:refersTo camssa:5cf68cf2-26c1-4e2c-baef-00b6d5184ed4 .
-
-camssa:5a732c70-2a06-4881-bfe7-ad40d900ca4a a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "nan"@en ;
-    cav:refersTo camssa:686ed4b8-cadf-472f-92ff-7442daab2b37 .
-
-camssa:5cf68cf2-26c1-4e2c-baef-00b6d5184ed4 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
-    cav:value "20"^^xsd:int .
-
-camssa:5e2b6ec5-4e32-4e42-8b70-2c6992147801 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'There is no evidence found that the ISAE 3402 encourages the creation of communities along with the sharing of their data and results on national platforms.
-
-ISAE 3402 handbook reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:a8a6701f-3974-4860-89da-9723bb4b6128 .
-
-camssa:6166799f-8667-427d-b07b-eeff465f9429 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
-    cav:value "20"^^xsd:int .
-
-camssa:6572c604-d15b-46fe-9a82-8e38b378150a a cav:Statement,
+camssa:b9ab32d6-3b88-4483-9f29-02f31af6ab26 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'To maintain the confidentiality, integrity, and availability of financial information, ISAE 3402 implements
 controls that trace the movements of that data as well as preserve it.
 
 ISAE 3402 UK website reference:
 https://isae3402.co.uk/isae-3402'"""@en ;
-    cav:refersTo camssa:47bb5aff-a786-455e-bc8f-d09a3695816c .
+    cav:refersTo camssa:32af6dd8-e6e3-4bfe-a77a-cdac92ed05a1 .
 
-camssa:686ed4b8-cadf-472f-92ff-7442daab2b37 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
-    cav:value "None"^^xsd:int .
-
-camssa:69f017bf-82e4-41df-897f-95d2fcba551a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
-    cav:value "100"^^xsd:int .
-
-camssa:6b67372d-a377-473d-a6e7-826bb9c4f320 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
-    cav:value "20"^^xsd:int .
-
-camssa:6b7f4ba3-b7a1-4848-9eec-9d4f1decf037 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISAE 3402 has been selected as the basis for the Cloud Computing Compliance Controls Catalogue 
-(C5), which outlines prerequisites for a conformity assessment using international standards (ISAE 3000, 
-ISAE 3402), adding cloud-specific requirements, especially for transparency.
-
-Joinup Cloud Computing (RP 2020):
-https://joinup.ec.europa.eu/collection/rolling-plan-ict-standardisation/cloud-computing-rp2020'"""@en ;
-    cav:refersTo camssa:7c70451b-ed7e-423c-a16f-826fd6113513 .
-
-camssa:6cd80a9f-cfee-4019-9ba6-9c27ef3a5a01 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
-    cav:value "100"^^xsd:int .
-
-camssa:6e135cea-ba64-46b4-998c-cb8ace9abf1c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
-    cav:value "100"^^xsd:int .
-
-camssa:6e5ecb11-f610-4961-84d7-4eddbccdd190 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
-    cav:value "100"^^xsd:int .
-
-camssa:792cce79-574a-4cde-97d6-94da1398ce1f a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISAE 3402 is focused on the preservation of confidential data and its availability. Therefore this criterion is not applicable to this specification.
-
-
-ISAE 3402 handbook reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:4664b0cc-0b6b-44db-85f9-7fe3bcb177a0 .
-
-camssa:7c70451b-ed7e-423c-a16f-826fd6113513 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
-    cav:value "100"^^xsd:int .
-
-camssa:7dee1ace-5533-477f-b44f-405baeb42cdd a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'Even though ISAE 3402 is more focused on auditing and ensuring the management of the information 
-provided in transactions from the private sector, this specification could also help to ensure that the public 
-services requiring information from both parties (Public administrations and the service consumers) are 
-properly managed and monitored allowing the information to be secured and exchanged between public 
-administrations fostering the once-only principle.
-
-ISAE 3402 handbook reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:6e135cea-ba64-46b4-998c-cb8ace9abf1c .
-
-camssa:7f950fb3-1cbb-4d04-ad44-8f367e663158 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'Although ISAE 3402 is not developed by European Organisations that are following the European 
-Standardisation Regulation, it is being recommended by ENISA according to the report for Security 
-certification practice in the EU.
-
-ENISA webpage:
-https://www.enisa.europa.eu/publications/security-certification-practice-in-the-euinformation-security\\x02management-systems-a-case-study/at_download/fullReport '"""@en ;
-    cav:refersTo camssa:8854c11b-94fa-4a8b-b693-81f7705e93ef .
-
-camssa:8609fefc-8a3b-48a3-92b9-88027ccb6f22 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
-    cav:value "60"^^xsd:int .
-
-camssa:8637fee9-ea7d-474c-b4e5-3883d951a37f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
-    cav:value "100"^^xsd:int .
-
-camssa:868f4dcb-ec26-4d89-93ff-94837deef750 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
-    cav:value "100"^^xsd:int .
-
-camssa:86ab416a-cb90-4ecb-bbef-53e80cf24746 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
-    cav:value "80"^^xsd:int .
-
-camssa:86c77fa0-fb3c-4117-a2f8-4ad3e21dd752 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
-    cav:value "100"^^xsd:int .
-
-camssa:8701eb28-f0eb-4a19-9da3-a492fcb4e2cd a cav:Statement,
+camssa:c1a09b26-f9e5-4cff-b9d7-86e87f25fdab a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'The IAASB is dedicated to operating as transparently as possible. IAASB meetings are open to the public 
 and meeting agendas, agenda papers, and meeting highlights are posted on the website. In addition, the 
@@ -462,23 +549,91 @@ comments made on those drafts by stakeholders.
 
 IAASB reference:
 https://www.iaasb.org/about-iaasb'"""@en ;
-    cav:refersTo camssa:6e5ecb11-f610-4961-84d7-4eddbccdd190 .
+    cav:refersTo camssa:0e072836-39fb-4a1e-b926-f60cad8f758a .
 
-camssa:87dfe663-cc2b-42c4-ad41-af9c64dfa638 a cav:Statement,
+camssa:c8572ac0-23b7-4a2f-8178-f23ee84442c4 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """"ISAE 3402 is part of the International Federation of Accountants (IFAC) standard providing companies in the 
-financial sector with an independent assessment tool on user entities' controls over financial reporting. The ISAE 3402 auditing tools, therefore, are ony meant to be used as a whole.
+    cav:judgement """'There is not enough information to determine that the ISAE 3402 has been included within an agreement 
+between organisations or countries involved in the provision of public services.
 
 ISAE 3402 handbook reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf\""""@en ;
-    cav:refersTo camssa:d8a83133-e926-4303-8e37-d763d1772feb .
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
+    cav:refersTo camssa:53232b88-ad10-4e14-bf89-d5a7287efb80 .
 
-camssa:8854c11b-94fa-4a8b-b693-81f7705e93ef a cav:Score,
+camssa:c94a051b-68a9-439c-93ef-9e63c19919f2 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:judgement """'After searching in the different official European websites and repositories, there is no evidence that ISAE 3402 is included in an open repository/catalogue of standards at a national level.
+
+
+CAMSS list of standards reference:
+ https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss
+/camss-list-standards'"""@en ;
+    cav:refersTo camssa:a86506a0-3438-4c67-8321-1565b8a8bd72 .
+
+camssa:cd7cdb48-a20f-4c3b-967c-ba978b717976 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISAE 3402 audits can be helpful when it comes to recommending best practices regarding data confientiality 
+and security, thus, making it a standard that facilitates the modelling of business processes.
+
+ISAE 3402 handbook reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
+    cav:refersTo camssa:9021d436-20ce-4643-a0ae-e10948c76b5f .
+
+camssa:ce239fb4-d43c-4290-97f3-dc9ff0a414ee a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:cf843cf6-160a-4ef0-91c5-afa15b52c0ae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISAE 3402 is focused on the preservation of confidential data and its availability. Therefore this criterion is not applicable to this specification.
+
+
+ISAE 3402 handbook reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
+    cav:refersTo camssa:37f0ebc6-0621-4c7c-b141-3960563433b6 .
+
+camssa:cf8bd131-9629-4130-95ae-8773d5e6cbe5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
     cav:value "100"^^xsd:int .
 
-camssa:890c6d15-774f-4460-896e-9d9ae5ffe020 a cav:Statement,
+camssa:d18db5ec-d7d0-4ae9-91a3-d33b52f876fc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d4674367-307d-4e83-8def-26d0738bc26c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISAE 3402 is focused on ensuring risk management regarding the security of information, therefore, 
+this criterion does not apply due to the scope of the specification.
+
+ISAE 3402 handbook reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
+    cav:refersTo camssa:49dbf296-666e-4551-a7f9-013fb644fa91 .
+
+camssa:d6048069-14cb-422d-8c55-b68c069021cd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISAE 3402 is mainly focused on establishing quality control processes in private sector companies, 
+administrations could benefit from implementing it for those procedures that require payments. This would 
+allow public administrations to clearly define and expose how their procedures are carried out and therefore, 
+enhance transparency and comprehensibility of data.
+
+ISAE 3402 website:
+https://www.isae3402.com/ISAE3402_overview#'"""@en ;
+    cav:refersTo camssa:fe44c21d-5d79-4444-bc4d-0f3e5af11ee4 .
+
+camssa:d662de05-8e2a-41c7-92cd-c91306fac5bb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d926028a-0aae-4395-bbe5-f61eac0d2538 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:dddf926f-e6be-47df-bbf8-5afe6c24457b a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion 
 of ISAE 3402 within any European catalogue of standards.
@@ -491,219 +646,9 @@ https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
 
 CENELEC search tool catalogue:
 https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25'"""@en ;
-    cav:refersTo camssa:6166799f-8667-427d-b07b-eeff465f9429 .
+    cav:refersTo camssa:ce239fb4-d43c-4290-97f3-dc9ff0a414ee .
 
-camssa:89c2cbab-9bbf-472b-b17d-eed7a44337a6 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
-    cav:value "100"^^xsd:int .
-
-camssa:8aa102cb-f83f-4648-b3f2-b68d6818db48 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"ISAE 3402 is part of the International Federation of Accountants (IFAC) standard providing companies in the 
-financial sector with an independent assessment tool on user entities' controls over financial reporting. The ISAE 3402 auditing tool, therefore, it does not allow customisation. 
-
-ISAE 3402 handbook reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf\""""@en ;
-    cav:refersTo camssa:e67dea77-37fa-41cc-818b-1a601f048d77 .
-
-camssa:8f6aa62b-3807-4c74-9e7a-69023c26c933 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The implementation of ISAE 3402 could, for example, allow administrations to properly track how the 
-different organisations providing digital public services are distributing funds. Or also to ensure that the 
-procedures and transactions with stakeholders are properly mapped. ISAE 3402 auditing tool, therefore, is 
-designed to be imlemented in any domain.
-
-ISAE 3402 handbook reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:efa3356f-630b-477f-ac5a-e8679af6c5d9 .
-
-camssa:8fdfdfb7-18ec-45bb-87d9-3b713ce12314 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"No evidence has been found that ISAE 3402 is recommended by any European Member State's Catalogue.
-
-CAMSS list of standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specificationscamss
-/camss-list-standards\""""@en ;
-    cav:refersTo camssa:f99d45db-c853-4cc0-a23d-4dd399c5d154 .
-
-camssa:904aa37e-85c6-40dc-9a49-79ceac221ea7 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISAE 3402 is mainly focused on establishing quality control processes in private sector companies, 
-administrations could benefit from implementing it for those procedures that require payments. This would 
-allow public administrations to clearly define and expose how their procedures are carried out and therefore, 
-enhance transparency and comprehensibility of data.
-
-ISAE 3402 website:
-https://www.isae3402.com/ISAE3402_overview#'"""@en ;
-    cav:refersTo camssa:47ac9fce-aff9-4682-96f5-0590a0fe3dd9 .
-
-camssa:93475e7f-e10f-41f1-9aa1-3acb1294c78c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
-    cav:value "20"^^xsd:int .
-
-camssa:9852bfac-fb4a-4a2a-b9a6-62d54a267684 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of ISAE 3402 is not related to enabling digital service delivery channels, therefore, this criterion 
-is not applicable to this specification. 
-
-ISAE 3402 handbook reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:89c2cbab-9bbf-472b-b17d-eed7a44337a6 .
-
-camssa:99314323-744d-4458-9f0a-28ec5507a4d8 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'In 1992 there was the SAS (Statement on Auditing Standards) 70 and then there was a transition to the
-ISAE 3402 / SSAE16 which is based on the SSAE 16 and is an analysis and evaluation standard
-(assurance). Finally, the standard was published by The International Auditing and Assurance Standards
-Board (IAASB) in December 2009.  Therefore we can state that ISAE 3402 has a widespread market acceptance.
-
-ISAE 3402 history:
-https://www.isae3402.com/ISAE3402_history'"""@en ;
-    cav:refersTo camssa:0f7cb325-2470-410b-be46-06ba65a1cdff .
-
-camssa:9c61ea40-e1e3-4546-a93c-f95553a893b6 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISAE 3402 is licensed royalty-free and can be certified by any public auditor.
-
-ISAE 3402 reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:d92a2264-a2d2-447e-8fef-2a74ef50d8d7 .
-
-camssa:9fd0143c-be2e-49c9-a791-298b09032978 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
-    cav:value "100"^^xsd:int .
-
-camssa:a110b09e-382b-4d1c-8e55-24811d20c92e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISAE 3402 is focused on ensuring risk management regarding the security of information, therefore, 
-this criterion does not apply due to the scope of the specification.
-
-ISAE 3402 handbook reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:a720d93d-e3cc-46a1-bed8-f2193d87a9d4 .
-
-camssa:a720d93d-e3cc-46a1-bed8-f2193d87a9d4 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
-    cav:value "100"^^xsd:int .
-
-camssa:a8a6701f-3974-4860-89da-9723bb4b6128 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
-    cav:value "20"^^xsd:int .
-
-camssa:ac05d0ec-30fc-4fe8-9eb4-22cb0bd42fff a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "DIGIT-CAMSS@eu.europa.eu" .
-
-camssa:ad150296-c35c-4bab-98d3-511ceed6afe4 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'First of all ISAE 3402 provides a guarantee in the context of the security and confidentiality of information for 
-users and companies. Therefore, when a public administration contracts a service from a private company, it 
-can request the ISAE 3402 to ensure that their data complies with adequate confidentiality and security, 
-
-ISAE 3402 handbook reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:86ab416a-cb90-4ecb-bbef-53e80cf24746 .
-
-camssa:af472d8a-0dc1-41a2-b919-8636e1dc84d3 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
-    cav:value "80"^^xsd:int .
-
-camssa:b85d4650-ead6-4757-b1ed-8e5d7d78ca87 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISAE 3402 audits can be helpful when it comes to recommending best practices regarding data confientiality 
-and security, thus, making it a standard that facilitates the modelling of business processes.
-
-ISAE 3402 handbook reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:536d254d-cdfd-4881-95cb-e988016e49a7 .
-
-camssa:bab3b8d9-4c4b-4d2f-8125-6349f731bd45 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
-    cav:value "100"^^xsd:int .
-
-camssa:bf4e7ed9-c31c-4895-a779-f61d87c6c931 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of ISAE 3402 is not related to the enabling of data portability between systems or applications.  Therefore this criterion is not applicable to this specification.
-
-ISAE 3402 handbook reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:2109e3fb-1c89-4453-8f72-7b5f29dc6319 .
-
-camssa:c4259bbf-3852-4d18-8701-12752e68a69e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'Different existing reports point out the benefits of implementing ISAE 3402 in terms of efficiency. An example 
-of such assessment can be found in the following link. 
-
-Report on ISAE 3402:
-https://isae3402.co.uk/sites/default/files/Whitepaper_ISAE_3402.pdf'"""@en ;
-    cav:refersTo camssa:548fb512-5e86-45fd-8232-aa08360796c4 .
-
-camssa:c9e70c82-84b2-4887-957a-a73854a62512 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISAE 3402 is already associated with EIRA ABBs in the EIRA Library Of Interoperability Specifications (ELIS). More specifically, ISAE 3402 can define the interoperability aspects of the Privacy Framework ABB of the EIRA Organisational View.
-
-ELIS reference:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss
-/solution/elis/release/v110'"""@en ;
-    cav:refersTo camssa:21063e0c-7627-4b79-a554-a6a1d4466efc .
-
-camssa:ccafe2d8-aca9-452f-9c6c-d2f983a2a17c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"ISAE 3402 is part of the International Federation of Accountants (IFAC) standard providing companies in the 
-financial sector with an independent assessment tool on user entities' controls over financial reporting. ISAE 
-3402 auditing tool, therefore, does not allow for extensions. 
-
-ISAE 3402 handbook reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf\""""@en ;
-    cav:refersTo camssa:93475e7f-e10f-41f1-9aa1-3acb1294c78c .
-
-camssa:d8a83133-e926-4303-8e37-d763d1772feb a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
-    cav:value "20"^^xsd:int .
-
-camssa:d92a2264-a2d2-447e-8fef-2a74ef50d8d7 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
-    cav:value "100"^^xsd:int .
-
-camssa:df29f5d0-af8d-44bc-aca1-f21c69430cea a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of ISAE 3402 standard is other than enabling e-accessibility, therefore, this criterion is not 
-applicable to the standard.
-
-ISAE 3402 handbook reference:
-https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:8637fee9-ea7d-474c-b4e5-3883d951a37f .
-
-camssa:dff9a0cf-8b80-46a1-a2e1-ae85ca5f0b1e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
-    cav:value "20"^^xsd:int .
-
-camssa:e67dea77-37fa-41cc-818b-1a601f048d77 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
-    cav:value "20"^^xsd:int .
-
-camssa:efa3356f-630b-477f-ac5a-e8679af6c5d9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
-    cav:value "100"^^xsd:int .
-
-camssa:f99d45db-c853-4cc0-a23d-4dd399c5d154 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
-    cav:value "20"^^xsd:int .
-
-camssa:fd826fd5-d82d-4b32-a75c-9094c30a474f a cav:Statement,
+camssa:e1021270-1d47-48a8-8869-47e988b5fa2b a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'The implementation of ISAE 3402 could, for example, allow administrations to properly track how the 
 different organisations providing digital public services are distributing funds. Or also to ensure that the 
@@ -712,15 +657,70 @@ be used in any domain.
 
 ISAE 3402 handbook reference:
 https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
-    cav:refersTo camssa:3e47e013-639d-462e-8a19-35a465b711a3 .
+    cav:refersTo camssa:4707383e-98d7-4362-b3db-02266e5c1291 .
 
-camssa:fd94ab5d-f494-443c-b701-efbc6175ff9c a cav:Statement,
+camssa:e150de0a-05ae-4043-88da-e1eb1860d47d a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'After searching in the different official European websites and repositories, there is no evidence that ISAE 3402 is included in an open repository/catalogue of standards at a national level.
+    cav:judgement """'First of all ISAE 3402 provides a guarantee in the context of the security and confidentiality of information for 
+users and companies. Therefore, when a public administration contracts a service from a private company, it 
+can request the ISAE 3402 to ensure that their data complies with adequate confidentiality and security.
 
+ISAE 3402 handbook reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
+    cav:refersTo camssa:39f4e666-f41f-4655-a148-d3f2c5c7d642 .
 
-CAMSS list of standards reference:
- https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss
-/camss-list-standards'"""@en ;
-    cav:refersTo camssa:dff9a0cf-8b80-46a1-a2e1-ae85ca5f0b1e .
+camssa:e5818104-e6c4-4cdb-98eb-9e28fa265489 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ISAE 3402 is not related to enabling digital service delivery channels, therefore, this criterion 
+is not applicable to this specification. 
+
+ISAE 3402 handbook reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
+    cav:refersTo camssa:94bb792e-4568-4986-92d5-fb387a3f3b4c .
+
+camssa:eae2fcf4-b870-49fa-8c37-e9bf927b8a79 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:ede1aff4-29d6-4a96-b524-a5f474660560 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ISAE 3402 Intellectual property rights disclosures' are license-free, therefore it is available with any restrictions related to (F)RAND.
+
+ISAE 3402 reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf
+
+\""""@en ;
+    cav:refersTo camssa:031db715-129f-413d-9905-f54afbdd798a .
+
+camssa:f197b9b2-4cd7-43f9-8d73-6a1c3e5a70a9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Different existing reports point out the benefits of implementing ISAE 3402 in terms of efficiency. An example 
+of such assessment can be found in the following link. 
+
+Report on ISAE 3402:
+https://isae3402.co.uk/sites/default/files/Whitepaper_ISAE_3402.pdf'"""@en ;
+    cav:refersTo camssa:65e61cfe-2b09-44e3-93e0-7fb5b002e545 .
+
+camssa:f2c3f0ab-4f92-4bd1-9951-de000a31e3b7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISAE 3402 is licensed royalty-free and can be certified by any public auditor.
+
+ISAE 3402 reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf'"""@en ;
+    cav:refersTo camssa:8c00dba2-768b-4a5d-b6ab-fae9ba742578 .
+
+camssa:f46dbb36-7978-4c7c-b41b-f1aa30d5770a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ISAE 3402 is not focused on the publication of data as open data. It is dedicated to establishing 
+internal controls for the assurance of services' quality from the customer perspective.  Therefore this criterion is not applicable to this specification.
+
+ISAE 3402 reference:
+https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf\""""@en ;
+    cav:refersTo camssa:1225ff3f-58a2-4ac0-b3ed-87682d0e8451 .
+
+camssa:fe44c21d-5d79-4444-bc4d-0f3e5af11ee4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "60"^^xsd:int .
 

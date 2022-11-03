@@ -1,7 +1,7 @@
 import os, warnings
-import re
 import glob
 import uuid
+import requests
 from rdflib import URIRef, Literal, Namespace, Graph
 from rdflib.namespace import RDF, OWL, XSD
 import utils
@@ -84,9 +84,9 @@ class GraphInstance:
         Reads a ttl file and transforms it to an rdflib graph instance.
         :return: sets the graph
         """
-        data = open(self.filepath, 'rb')
-        self.g = Graph()
         try:
+            data = open(self.filepath, 'rb')
+            self.g = Graph()
             self.g.parse(data, format='turtle')
         except RuntimeWarning:
             breakpoint()
@@ -296,6 +296,15 @@ class GraphInstance:
             self.dict_responses['stmt'][2] = 'None'
             self.dict_responses['score'][2] = '0'
             self.dict_responses['answer'][2] = 'None'
+        # check A33
+        if self.tool_version in ['3.0.0', '3.1.0']:
+            self.dict_responses['stmt'][33] = "The specification is associated with EIRA ABB's in the EIRA Library " \
+                                              "of Interoperability Specifications (ELIS).\n\n" \
+                                              "ELIS link:\n" \
+                                              "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"
+            if self.dict_responses['old_score'] in ['0', '2']:
+                self.dict_responses['score'][33] = '100'
+                self.dict_responses['answer'][33] = 'Yes/Gradient'
         # generate the list of unfilled criteria that need to be created
         unfilled_criteria = [i for i, x in enumerate(self.dict_crit[self.eif_version]) if
                              x == '']
@@ -422,7 +431,7 @@ def main():
         # create csv with scores
         new_graph.responses_new_df[new_graph.ttl_filename] = new_graph.responses_new
         new_graph.g_scores[new_graph.ttl_filename].append(new_graph.tool_version)
-        utils.get_punct(new_graph.g_scores, new_graph.tool_version, new_graph.responses_new_df)
+        utils.get_punct(new_graph.g_scores, new_graph.responses_new_df)
     # CAMSS Assessment graph constructor
     final_ass_graph = GraphInstance(glob.glob(input_folder + '/AssessmentsG' + '/*')[0])
     print(f"Extracting and initialising migration of the {final_ass_graph.ttl_filename} dataset")

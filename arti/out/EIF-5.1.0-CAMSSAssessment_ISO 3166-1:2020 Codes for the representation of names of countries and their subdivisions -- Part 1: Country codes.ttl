@@ -24,54 +24,316 @@ camssa:eb76ccccb4450d4deb8ed437b25028accf24d221f8c2a472b18bc61ba51bd947 a cav:As
     camss:submissionDate "None"^^xsd:date ;
     camss:toolVersion tool:5.1.0 ;
     cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
-    cav:resultsIn camssa:01d038fd-2d28-445e-a6da-95ce4f1cf0b0,
-        camssa:083ad27e-8f98-4039-8c50-524675d3b628,
-        camssa:110c0922-6838-413f-a679-1850212abe71,
-        camssa:1183a8a7-2716-480c-a133-93da704a958f,
-        camssa:11b74c92-4361-4d22-92ed-b2392f050106,
-        camssa:122fede5-6272-48f3-aa2f-4e2f59aafd73,
-        camssa:198afcde-c32e-496c-b5d5-c88ec4eab2a4,
-        camssa:209ac94d-6efd-4377-8304-1e4895f47175,
-        camssa:23fcb5b9-1112-4dbe-bf85-3a491d767aab,
-        camssa:297a0351-0769-4a34-940a-2554d436f971,
-        camssa:351a17a1-9953-4b08-a7cc-7fa154b79c0e,
-        camssa:38db7033-a164-4121-80b8-ff766f9dc531,
-        camssa:3eae94ef-8376-4e99-a688-ffbb21b1cce6,
-        camssa:3fd7de1c-b93a-47f5-a8f9-7e9d5bd150ed,
-        camssa:407d64a5-b752-4569-a9ea-6a015b23d8f6,
-        camssa:473c42e5-4ace-4a46-aac5-bd9465e021f0,
-        camssa:4864eb45-cee7-4e02-8e9f-892931be3eca,
-        camssa:5f1911fb-7368-49a1-9182-98ec6b1b06bb,
-        camssa:60798c9e-1c43-4e33-ac14-76d9a49b9c66,
-        camssa:6b90b515-f43c-4b39-bb06-817b82963e6a,
-        camssa:70fb5583-55e8-445f-8d1c-c19ed76fc963,
-        camssa:78c9d1e8-6326-44e1-ae04-bb5dc4d7f755,
-        camssa:79b24c1e-c0b9-4952-a2d9-1efeb2187509,
-        camssa:7cab1f1c-6f25-49ac-8060-ed0374866c4f,
-        camssa:80883693-09bd-4ff4-bb37-2801975286df,
-        camssa:81ffcacd-e74c-4693-b769-cd1f8b27a482,
-        camssa:8848925b-6e62-419a-b080-e0fcc7ee86b1,
-        camssa:9fa38f03-4bc4-414b-be07-943addf8b7f4,
-        camssa:a12c7798-f70c-49d3-bfbb-aab66b65859c,
-        camssa:a3de48ed-9bbb-4bde-a04d-75fcbce7e3d4,
-        camssa:a91db52b-a044-429f-ba1b-17927e39ab6f,
-        camssa:aa223682-5241-4246-b54f-207f35bc42f2,
-        camssa:b7dd5dc2-60bd-426f-8137-d03b0d1ddbe7,
-        camssa:b80595f1-113c-4721-8227-eb31d4c39599,
-        camssa:c2e55832-ec6f-4ce4-a229-0e13ee87e9fa,
-        camssa:c5a4a881-d7ec-4b97-a2c1-c14b939c34a7,
-        camssa:ceb2c062-9d05-415a-94a5-18b397f473ff,
-        camssa:cf5a5e37-998a-4279-9034-874a42b9442a,
-        camssa:d58d3749-3115-473e-8a09-6da0f152a761,
-        camssa:d9dd2fca-9426-4180-bc25-7ba288cf8250,
-        camssa:e164b622-ee41-41ae-b5ca-83eb139c0fe5,
-        camssa:e390bc1f-b768-4f2c-b337-c19a1a3989f7,
-        camssa:ed8860ca-6be8-4737-90c2-3bfc22ff63cf,
-        camssa:fed84d4f-513a-467c-a74a-c36a062eee50 ;
+    cav:resultsIn camssa:074f236a-3542-4ace-8b0d-54c90b4ebe5f,
+        camssa:154416a8-7926-4b21-9800-7c9456aa7976,
+        camssa:1db9f311-ddac-407e-8f9e-b1a797ac7850,
+        camssa:1efd7ec8-febe-45ae-8b62-ec507dfc632b,
+        camssa:20a4c916-2613-48be-876e-dd87afbbf9d4,
+        camssa:2337c8b4-a15d-4c47-ad59-a5bcc7f4b6e3,
+        camssa:27976b5b-4186-43f1-bba6-b247d267c81b,
+        camssa:2ebcd378-8824-4313-927a-ab6f32c3ee64,
+        camssa:3405a8a2-3b82-4b6d-ace0-58a6e5e14ca9,
+        camssa:4278abcd-150f-498f-9795-63c256e0d566,
+        camssa:4b92ef9e-c90c-4ad9-af49-34ed6032f72f,
+        camssa:505e2a37-eaff-49a0-9f27-07c860967d44,
+        camssa:55a7f87f-6020-4a2d-a7f0-6d6818b78098,
+        camssa:579ee59b-f950-4410-83bb-8cd36617ec23,
+        camssa:63578744-ef23-472b-9033-4df5c4875d43,
+        camssa:6f9f63e7-9425-421a-afce-adec07cb36b9,
+        camssa:77018517-4b8d-4565-8e46-070c4ebfe4de,
+        camssa:7eaba098-7969-4b09-8c43-e18136008249,
+        camssa:82571beb-a758-406f-b8c7-2148a5aa24a6,
+        camssa:84627e9e-2c46-4cff-a682-77c53dbc1107,
+        camssa:8833548e-ed34-4e03-8ffe-3f5b1e1637f9,
+        camssa:887e6753-a9d6-4764-8def-9a12d142da6e,
+        camssa:8ba18941-874c-417f-9fbb-9095ae0cf368,
+        camssa:8c0a74df-f11b-45c3-9a7b-41e48ff35d9d,
+        camssa:8e12cbd1-7e49-4898-8b63-a1c319cb5386,
+        camssa:9a9b32f6-2f50-43fd-9581-f513e36893d3,
+        camssa:a58e0310-97ae-4a29-97b4-efac1bc74cf3,
+        camssa:a966401c-f554-499f-8d1c-d9fdfbbba29d,
+        camssa:b2695a1e-45d2-40b1-9efa-64b2c92ae0ca,
+        camssa:b82b6823-a4ce-4bd6-87b4-71e3fec477b9,
+        camssa:c2702972-ee94-4564-8384-202fb5f7cd2f,
+        camssa:cb52ecc4-d93d-4b2c-a8cb-2f6c442a3979,
+        camssa:ceea9b33-0d8a-48a6-8a83-24008d3c6246,
+        camssa:d38bba17-ec70-40c5-9eac-c016c1d20733,
+        camssa:d44fc787-c25f-421e-927d-459e8a348892,
+        camssa:d5c41a81-7a33-4aa3-8f64-38ffd8364955,
+        camssa:d907bb7c-2a3a-4efa-a630-eb5d53f009ef,
+        camssa:df51d2ea-fbaf-440c-b4d4-0a8785a09147,
+        camssa:dfafb918-3f7d-4dca-b36f-5a86432b3b6d,
+        camssa:f3e07fff-2c97-492a-aae9-c8759ab915a2,
+        camssa:f95b1f41-d0c9-4fef-9f7d-c055aeda45fc,
+        camssa:f9dd4766-c56f-4b56-bd42-eb47c5b715db,
+        camssa:fc3ea95a-9476-40cd-ace2-c3ed82829028,
+        camssa:fd196c25-41b9-4cc8-a188-7171e2a2271b ;
     cav:status status:Complete ;
     dct:title "ISO 3166-1:2020 Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes"@en .
 
-camssa:01d038fd-2d28-445e-a6da-95ce4f1cf0b0 a cav:Statement,
+camssa:039d7de5-dc9e-480b-9287-fc966cd1e31a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:0568d330-46d0-4a10-b8aa-0ac548d85109 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:074f236a-3542-4ace-8b0d-54c90b4ebe5f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 3166-1 is already associated with EIRA ABBs in the EIRA Library Of Interoperability Specifications (ELIS). More specifically, ISO 3166-1 can define the interoperability aspects of the Data Set ABB of the EIRA Semantic View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:c4f5d213-3aed-47d4-aca8-565311c82fe9 .
+
+camssa:0cc7b51b-9009-4398-99b9-173d73dda213 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "80"^^xsd:int .
+
+camssa:154416a8-7926-4b21-9800-7c9456aa7976 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Participation in ISO technical committee work is possible, depending on the membership category of the participant. Public reviews are not foreseen, provided that the Public Administration was a subscriber member.
+
+ISO membership manual, 'ISO member rights, good practice and obligations' section:
+https://www.iso.org/publication/PUB100399.html\""""@en ;
+    cav:refersTo camssa:ad954459-2bfc-4b7f-ae89-8e5336bbe743 .
+
+camssa:16895185-df9d-48bf-a131-6462e30349fa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:1b53e548-552c-4d0e-93d3-4d54472c4fc3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "20"^^xsd:int .
+
+camssa:1db9f311-ddac-407e-8f9e-b1a797ac7850 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ISO 3166-1 is not related to e-accessibility. Therefore, this criterion does not apply to this
+specification.
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html'"""@en ;
+    cav:refersTo camssa:736f6e30-2e07-4a1d-a4b8-18d35536de1e .
+
+camssa:1efd7ec8-febe-45ae-8b62-ec507dfc632b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 3166-1 is a key component in the development of some national and cross-border projects and initiatives. However, ISO 3166-1 does not encourage the creation of communities nor promotes the sharing of data and results in any national platform.
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html'"""@en ;
+    cav:refersTo camssa:c5f73bf5-b76c-4152-ab66-bd9f5f849bbc .
+
+camssa:20a4c916-2613-48be-876e-dd87afbbf9d4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 3166-1 is intended to identify a country, dependencies and special areas of geographical interest. This specification relates to metadata, and can be used in any system that ingests metadata. Therefore, it can be considered technology-agnostic.
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html '"""@en ;
+    cav:refersTo camssa:8a5ce34b-d1cd-4377-8dcd-9489190ce136 .
+
+camssa:2337c8b4-a15d-4c47-ad59-a5bcc7f4b6e3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 3166-1 is a key component in the development of some European cross-border projects and initiatives. It is the case of the INSPIRE (Infrastructure for Spatial Information in the European Community) project which makes use of ISO 3166-1 to ensure the maintenance of spatial data sets and corresponding data services in the EU (see INSPIRE Legislation reference, Directive 2007/2/EC document, Article 14). 
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html
+
+INSPIRE reference, Directive 2007/2/EC document, Article 14:
+https://inspire.ec.europa.eu/inspire-legislation/26'"""@en ;
+    cav:refersTo camssa:f1d57a92-eb8a-47cd-b2b4-16c4e46c9f42 .
+
+camssa:27976b5b-4186-43f1-bba6-b247d267c81b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 3166-1 does not explicitly enable data portability but does contribute to the expanding the sharing of data among public administrations at national and European level. It is the case of the INSPIRE (Infrastructure for Spatial Information in the European Community) project which makes use of ISO 3166-1 to ensure the maintenance of spatial data sets and corresponding data services in the EU (see INSPIRE Legislation reference, Directive 2007/2/EC document, Article 14).
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html 
+
+INSPIRE reference, Directive 2007/2/EC document, Article 14:
+https://inspire.ec.europa.eu/inspire-legislation/26'"""@en ;
+    cav:refersTo camssa:af91c8a3-14d0-43c3-b84a-e9fafbe8d426 .
+
+camssa:2ebcd378-8824-4313-927a-ab6f32c3ee64 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Despite being involved in several projects, ISO 3166-1 has no evaluations that assess it and no evidence of any technological solutions that indirectly assess the specification has been found. Therefore, there is no assessment of the specification's efficiency.
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html\""""@en ;
+    cav:refersTo camssa:6647757b-0c62-42e3-a479-e11b0f47bf8d .
+
+camssa:3405a8a2-3b82-4b6d-ace0-58a6e5e14ca9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 3166-1 is intended to identify a country, dependencies and special areas of geographical interest. There is no possibility to extend the coding system as ISO 3166-1 was conceived for a unique purpose.
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html '"""@en ;
+    cav:refersTo camssa:34d3ce84-2288-435e-957f-3c5b156e58a0 .
+
+camssa:34d3ce84-2288-435e-957f-3c5b156e58a0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "20"^^xsd:int .
+
+camssa:3ae3b7ba-650a-4eb0-959d-0dbf0fe4d790 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3af4f5a7-07c8-478a-8469-577f918c2db4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:411e87a4-583f-4ebf-b5a4-9afe30eef394 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "60"^^xsd:int .
+
+camssa:4278abcd-150f-498f-9795-63c256e0d566 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 3166-1 is intended to identify a country, dependencies and special areas of geographical interest. This specification relates to metadata, and can be used in any system that ingests metadata. Therefore, it can be considered platform-agnostic.
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html '"""@en ;
+    cav:refersTo camssa:ccfae298-1a18-42ff-90ab-783286d356d5 .
+
+camssa:44e9b1cd-78cd-425b-b1a7-343cf5477a26 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "80"^^xsd:int .
+
+camssa:47d7bdbc-a48b-49ab-b707-995410e10883 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "40"^^xsd:int .
+
+camssa:4b92ef9e-c90c-4ad9-af49-34ed6032f72f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:d4565724-8a7f-4eff-8811-660d2470e83c .
+
+camssa:4f017e70-7b89-4544-bf72-3039357aaf5d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "20"^^xsd:int .
+
+camssa:505e2a37-eaff-49a0-9f27-07c860967d44 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ISO 3166 Maintenance Agency is responsible for providing public support for any request regarding ISO 3166-1, but does not define the country names itself; the country names come from United Nations (UN) sources.
+
+ISO reference, ISO 3166 Country Codes:
+https://www.iso.org/iso-3166-country-codes.html?msclkid=54aebe8ca9f611ec89ac280389b78309'"""@en ;
+    cav:refersTo camssa:0cc7b51b-9009-4398-99b9-173d73dda213 .
+
+camssa:55a7f87f-6020-4a2d-a7f0-6d6818b78098 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ISO 3166-1 is not related to the protection of personal data. Therefore, this criterion is not applicable to this specification.
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html '"""@en ;
+    cav:refersTo camssa:0568d330-46d0-4a10-b8aa-0ac548d85109 .
+
+camssa:579ee59b-f950-4410-83bb-8cd36617ec23 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ISO 3166-1 specification is integrated in some Authority tables (e.g., Country) of the Publications Office (OP) of the European Union, but the specification as such is not included in any open repository of standards at European level.
+
+OP reference, Authority tables:
+https://op.europa.eu/en/web/eu-vocabularies/authority-tables?msclkid=72f85375b00d11ec9c13d3f9f6befab0'"""@en ;
+    cav:refersTo camssa:16895185-df9d-48bf-a131-6462e30349fa .
+
+camssa:61067f2a-c404-4be6-8330-e8785719f728 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:618799d5-2be5-46d6-94d0-c21accf08adc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:63578744-ef23-472b-9033-4df5c4875d43 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 3166-1 provides a collection of codes for the names of countries, dependent territories and special areas of geographical interest, regardless of any specific domain. Therefore, the specification can be implemented in any domain.
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html '"""@en ;
+    cav:refersTo camssa:677acb04-7d0c-4f99-b51c-e96c7aa21c59 .
+
+camssa:6647757b-0c62-42e3-a479-e11b0f47bf8d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:672f3e94-f052-4af9-8d20-a53d26ffdd56 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:677acb04-7d0c-4f99-b51c-e96c7aa21c59 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6f9f63e7-9425-421a-afce-adec07cb36b9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ISO 3166-1 is not related to secure exchange of data. Therefore, this criterion does not apply to this
+specification.
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html'"""@en ;
+    cav:refersTo camssa:672f3e94-f052-4af9-8d20-a53d26ffdd56 .
+
+camssa:736f6e30-2e07-4a1d-a4b8-18d35536de1e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:74e4534b-caf5-4142-a207-e512d4928c0c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:77018517-4b8d-4565-8e46-070c4ebfe4de a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ISO 3166-1 is not related to secure process of data. Therefore, this criterion does not apply to this
+specification.
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html'"""@en ;
+    cav:refersTo camssa:039d7de5-dc9e-480b-9287-fc966cd1e31a .
+
+camssa:7886538b-4811-4b10-be1c-d7f91a6605cd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "40"^^xsd:int .
+
+camssa:7eaba098-7969-4b09-8c43-e18136008249 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 3166-1 is intended to identify a country, dependencies and special areas of geographical interest. There is no possibility of partial implementation of the specification, as the specification has a single purpose.
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html '"""@en ;
+    cav:refersTo camssa:1b53e548-552c-4d0e-93d3-4d54472c4fc3 .
+
+camssa:82571beb-a758-406f-b8c7-2148a5aa24a6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are two Member States recommending ISO 3166-1 in their ICT National Catalogues. These Member
+States are Malta and the Netherlands.
+
+National catalogue Malta: 
+https://mccaa.org.mt/Section/Content?contentId=1243
+
+National catalogue The Netherlands:
+https://www.forumstandaardisatie.nl/open-standaarden/lijst'"""@en ;
+    cav:refersTo camssa:ecdd268a-c75d-4736-9ce4-bbe8194e23e3 .
+
+camssa:84627e9e-2c46-4cff-a682-77c53dbc1107 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """"The specification is included in two Member States' catalogues of recommended specifications. These
 Member States are Malta and the Netherlands.
@@ -81,152 +343,98 @@ https://mccaa.org.mt/Section/Content?contentId=1243
 
 National catalogue The Netherlands:
 https://www.forumstandaardisatie.nl/open-standaarden/lijst\""""@en ;
-    cav:refersTo camssa:b8af0402-2d53-476d-b685-044e0f0ea2b3 .
+    cav:refersTo camssa:9caa1093-0b60-47c1-874f-788507dfe020 .
 
-camssa:083ad27e-8f98-4039-8c50-524675d3b628 a cav:Statement,
+camssa:8833548e-ed34-4e03-8ffe-3f5b1e1637f9 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """"ISO 3166-1 can enable scope the comprehensibility of administrations when combined with other specifications, notably when referencing to public services' data models and recommendations (see EU Vocabularies reference, Authority tables section). The Core Person Vocabulary recommendation of the Semantic Interoperability Community (Semic) is a clear example of spatial data understanding at European level, as in combination with ISO 3166-1 a person or organisation's identity can be traced in detail.
-
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html
-
-EU Vocabularies reference, Authority tables section:
-https://op.europa.eu/en/web/eu-vocabularies/authority-tables
-
-EU Seminc Github reference, Core Person Vocabulary, Location section:
-https://semiceu.github.io/Core-Person-Vocabulary/releases/2.00/?msclkid=7f4a3d0ca9ca11ec99845e3a63e37998#Location\""""@en ;
-    cav:refersTo camssa:c653010a-cd13-4c9a-81e5-19f7ddb1b445 .
-
-camssa:09060eff-9acc-47c1-ac98-759bbe369326 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
-    cav:value "100"^^xsd:int .
-
-camssa:0fc39b95-d5d4-4d6d-a21b-501592cc3d63 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
-    cav:value "20"^^xsd:int .
-
-camssa:110c0922-6838-413f-a679-1850212abe71 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'As a system requirement enabler for the availability of spatial data among EU public administrations, ISO 3166-1 facilitates digital service delivery channels for the exchange, sharing, access and use of interoperable spatial data and spatial data services at different levels of public authority and in different sectors (see INSPIRE Data Specification on Administrative Units reference and INSPIRE reference, Directive 2007/2/EC document, Article 1).
+    cav:judgement """'ISO 3166-1 could be beneficial for the application of the one-time principle, as this specification may allow the reuse of relevant information regarding administrative units and the geometry of the maritime area at European level (see INSPIRE Data Specification on Administrative Units reference).
 
 ISO 3166-1 reference:
 https://www.iso.org/standard/72482.html
 
 INSPIRE Data Specification on Administrative Units reference:
-https://inspire.ec.europa.eu/id/document/tg/au
+https://inspire.ec.europa.eu/id/document/tg/au'"""@en ;
+    cav:refersTo camssa:44e9b1cd-78cd-425b-b1a7-343cf5477a26 .
 
-INSPIRE reference, Directive 2007/2/EC document, Article 1:
-https://inspire.ec.europa.eu/inspire-legislation/26'"""@en ;
-    cav:refersTo camssa:09060eff-9acc-47c1-ac98-759bbe369326 .
-
-camssa:1183a8a7-2716-480c-a133-93da704a958f a cav:Statement,
+camssa:887e6753-a9d6-4764-8def-9a12d142da6e a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'The purpose of ISO 3166-1 is not related to e-accessibility. Therefore, this criterion does not apply to this
-specification.
+    cav:judgement """"ISO 3166-1 consists of a collection of codes for the names of countries, dependent territories and special areas of geographical interest. Although this collection can be mapped against this same collection to test the specification's implementation conformance, the specification does not publicly provide conformance testing requirements (see ISO 3166-1 reference, official preview documentation); the user may opt for their own techniques or for third-party software conformance services.
+
+ISO 3166-1 reference, official preview documentation:
+https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en\""""@en ;
+    cav:refersTo camssa:fe33c438-de74-49ba-b274-ceef76ae1061 .
+
+camssa:8a5ce34b-d1cd-4377-8dcd-9489190ce136 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8ba18941-874c-417f-9fbb-9095ae0cf368 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 3166-1 does not explicitly enable data portability but does contribute to the expanding the sharing of data among public administrations at national and European level. It is the case of the INSPIRE (Infrastructure for Spatial Information in the European Community) project which makes use of ISO 3166-1 to ensure the maintenance of spatial data sets and corresponding data services in the EU (see INSPIRE Legislation reference, Directive 2007/2/EC document, Article 14).
 
 ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html'"""@en ;
-    cav:refersTo camssa:75954365-ec38-493e-a28d-2600292c2b2f .
+https://www.iso.org/standard/72482.html 
 
-camssa:11b74c92-4361-4d22-92ed-b2392f050106 a cav:Statement,
+INSPIRE reference, Directive 2007/2/EC document, Article 14:
+https://inspire.ec.europa.eu/inspire-legislation/26'"""@en ;
+    cav:refersTo camssa:47d7bdbc-a48b-49ab-b707-995410e10883 .
+
+camssa:8bbd924c-1f60-4fb7-9aba-7e8912055460 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "80"^^xsd:int .
+
+camssa:8c0a74df-f11b-45c3-9a7b-41e48ff35d9d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Despite being involved in several projects, ISO 3166-1 has no evaluations that assess it and no evidence of any technological solutions that indirectly assess the specification has been found. Therefore, there is no assessment of the specification's effectiveness.
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html\""""@en ;
+    cav:refersTo camssa:3af4f5a7-07c8-478a-8469-577f918c2db4 .
+
+camssa:8e12cbd1-7e49-4898-8b63-a1c319cb5386 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'ISO 3166-1 may help easing the creation and formalisation of Interoperability agreements; for example, the Reference And Management Of Nomenclatures (RAMON) is a self-declared organisational interoperability agreement which integrates ISO 3166-1 along with other international specifications.
 
 EUROSTAT reference, RAMON data server:
 https://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_CLS_DLD&StrNom=CL_GEO&StrLanguageCode=EN&msclkid=5b294654b00e11ecb0cfbc45e6ce9d20'"""@en ;
-    cav:refersTo camssa:a2ceea5b-252c-47d7-9775-30d205e4ce45 .
+    cav:refersTo camssa:411e87a4-583f-4ebf-b5a4-9afe30eef394 .
 
-camssa:122fede5-6272-48f3-aa2f-4e2f59aafd73 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISO 3166-1 provides a collection of codes for the names of countries, dependent territories and special areas of geographical interest, regardless of any specific domain. Therefore, the specification can be implemented in any domain.
-
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html '"""@en ;
-    cav:refersTo camssa:b49c82b4-5965-43e7-97a9-064c73345a88 .
-
-camssa:18f0e684-624e-42f3-bf9a-baf8d9753730 a cav:Score,
+camssa:95179cf9-097f-4c44-880c-6972f12849c8 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
     cav:value "100"^^xsd:int .
 
-camssa:198afcde-c32e-496c-b5d5-c88ec4eab2a4 a cav:Statement,
+camssa:9550248a-b915-4168-80d1-14b259541f4c a schema:ContactPoint,
         owl:NamedIndividual ;
-    cav:judgement """'ISO has defined a clear procedure to develop its standards. It consists in a 6-steps process where everyone who is interested can participate. However, if you want to participate, you have to contact your national standards body and you have to be approved for joining the Technical committee (TC) who will develop the standard. ISO has defined the roadmap of standards, it is composed of 6 steps as before said. For the approval of a standard the two-thirds majority of P-members of TC is needed. If the result is negative, the document is returned to TC/SC to be further studied.
+    schema:email "DIGIT-CAMSS@eu.europa.eu" .
 
-The ISO standardization process: 
-https://www.iso.org/stages-and-resources-for-standards-development.html'"""@en ;
-    cav:refersTo camssa:a5e2f462-0350-4116-b328-d49b165f06ac .
-
-camssa:1df5195d-362f-4326-bbb3-5a2b99a92fdc a cav:Score,
+camssa:978e4a33-29b5-4aa9-a59b-4c71efea8881 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
-    cav:value "100"^^xsd:int .
-
-camssa:209ac94d-6efd-4377-8304-1e4895f47175 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "nan"@en ;
-    cav:refersTo camssa:34ec6aa8-6b85-4a6c-b14b-81d7b84f5285 .
-
-camssa:2215c4c4-6127-43a8-ae16-687d15846020 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
     cav:value "20"^^xsd:int .
 
-camssa:23fcb5b9-1112-4dbe-bf85-3a491d767aab a cav:Statement,
+camssa:9a9b32f6-2f50-43fd-9581-f513e36893d3 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'ISO 3166-1 is intended to identify a country, dependencies and special areas of geographical interest. There is no possibility of partial implementation of the specification, as the specification has a single purpose.
+    cav:judgement """'ISO 3166-1 is included in 2 national catalogues of recommended specifications. They belong to Malta and the Netherlands. The National Interoperability Framework (NIF) of these Member States varies when aligned with the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. Whereas the Netherlands perfoms higher, Malta has a middle-lower performance compared to the European average. Some of the Maltese weaknesses relate to the three EIF categories, the need to improve the EIF Principles and the Conceptual Model scoreboards. In addition, there is data missing on the Inclusion and Accessibility and Preservation of Information on the EIF Principles.
 
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html '"""@en ;
-    cav:refersTo camssa:4e999b7d-0cab-4bf2-878f-7661798a492d .
+National catalogue Malta: 
+https://mccaa.org.mt/Section/Content?contentId=1243
 
-camssa:247c6b6a-e126-42c1-9adc-01659adf8a9d a cav:Score,
+National catalogue The Netherlands:
+https://www.forumstandaardisatie.nl/open-standaarden/lijst
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/digital-public-administration-factsheets-2021'"""@en ;
+    cav:refersTo camssa:c4b32085-8960-4569-b429-d47503f1a31f .
+
+camssa:9caa1093-0b60-47c1-874f-788507dfe020 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
-    cav:value "80"^^xsd:int .
-
-camssa:297a0351-0769-4a34-940a-2554d436f971 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'According to the official documentation, ISO 3166-1 was first published in 1974, and subsequent editions in 2003, 2013 and 2020. ISO 3166-1 is the Part 1 of the ISO 3166 family of standards, which was divided in three parts in 1997. Part 1 was created on the basis of country names obtained from the United Nations. In 2013 the specification was integrated in an ISO "standard as a database" (see ISO 3166-1 reference, Country Codes on the Online Browsing Platform), easing its accessibility on the web and integrating all the specification's supporting processes (e.g. change history of country codes). Besides, the specification has published documentation on its supporting processes (see ISO 3166-1 reference, Public Information on ISO 3166-1).
-
-ISO 3166-1 reference, Introduction section:
-https://www.iso.org/obp/ui/#iso:std:72482:en
-
-ISO 3166-1 reference, Country Codes on the Online Browsing Platform:
-https://www.iso.org/obp/ui/#search/code/
-
-ISO 3166-1 reference, Public Information on ISO 3166-1:
-rg/livelink/livelink?func=ll&objId=16944257&objAction=browse&viewType=1'"""@en ;
-    cav:refersTo camssa:18f0e684-624e-42f3-bf9a-baf8d9753730 .
-
-camssa:2ba628d7-4545-454c-99f9-e22c82f726b1 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
     cav:value "100"^^xsd:int .
 
-camssa:2fd4448a-879a-4c31-accf-db2750a381ae a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
-    cav:value "100"^^xsd:int .
-
-camssa:30840f50-9b39-447b-ae6a-7f1a645e5a9e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
-    cav:value "100"^^xsd:int .
-
-camssa:3160f367-b7c9-4b32-9438-52c596438149 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
-    cav:value "100"^^xsd:int .
-
-camssa:34ec6aa8-6b85-4a6c-b14b-81d7b84f5285 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
-    cav:value "None"^^xsd:int .
-
-camssa:351a17a1-9953-4b08-a7cc-7fa154b79c0e a cav:Statement,
+camssa:a58e0310-97ae-4a29-97b4-efac1bc74cf3 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'ISO 3166-1 has been adopted by different specifications and used in different contexts, indicating market acceptance. For example, at European level the Publications Office (OP) of the European Union has added ISO 3166-1 to the Country code list (compiled in EU Vocabularies). Moreover, the Domain Name System (DNS) of the Internet is based on the ISO 3166-1 standard which is massively used on a daily basis.
 
@@ -238,132 +446,167 @@ https://op.europa.eu/web/eu-vocabularies/dataset/-/resource?uri=http://publicati
 
 Internet Assigned Numbers Authority (IANA) reference, DNS section:
 https://www.iana.org/domains'"""@en ;
-    cav:refersTo camssa:2fd4448a-879a-4c31-accf-db2750a381ae .
+    cav:refersTo camssa:61067f2a-c404-4be6-8330-e8785719f728 .
 
-camssa:37a3c610-f25c-4927-bdbb-7192aa45b4bb a cav:Score,
+camssa:a966401c-f554-499f-8d1c-d9fdfbbba29d a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:judgement """"ISO 3166-1 can enable scope the comprehensibility of administrations when combined with other specifications, notably when referencing to public services' data models and recommendations (see EU Vocabularies reference, Authority tables section). The Core Person Vocabulary recommendation of the Semantic Interoperability Community (Semic) is a clear example of spatial data understanding at European level, as in combination with ISO 3166-1 a person or organisation's identity can be traced in detail.
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html
+
+EU Vocabularies reference, Authority tables section:
+https://op.europa.eu/en/web/eu-vocabularies/authority-tables
+
+EU Seminc Github reference, Core Person Vocabulary, Location section:
+https://semiceu.github.io/Core-Person-Vocabulary/releases/2.00/?msclkid=7f4a3d0ca9ca11ec99845e3a63e37998#Location\""""@en ;
+    cav:refersTo camssa:b846425e-dbf6-470c-9523-1a465e7c8aa9 .
+
+camssa:ad954459-2bfc-4b7f-ae89-8e5336bbe743 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
     cav:value "20"^^xsd:int .
 
-camssa:38db7033-a164-4121-80b8-ff766f9dc531 a cav:Statement,
+camssa:af91c8a3-14d0-43c3-b84a-e9fafbe8d426 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """'ISO 3166-1 is intended to identify a country, dependencies and special areas of geographical interest. This specification relates to metadata, and can be used in any system that ingests metadata. Therefore, it can be considered technology-agnostic.
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "40"^^xsd:int .
 
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html '"""@en ;
-    cav:refersTo camssa:1df5195d-362f-4326-bbb3-5a2b99a92fdc .
-
-camssa:3eae94ef-8376-4e99-a688-ffbb21b1cce6 a cav:Statement,
+camssa:b0438df8-8c1d-44a9-9c07-6acae1d0300b a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """"In accordance with Common Patent Policy for ITU-T/ITU-R/ISO/IEC the ISO 3166-1 is licensed under royalty-free basis. Although there are terms included that allow patent holder to apply specific costs. It is defined in IPR disclosures that can be found at ISO's webpage. 
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
 
-ISO patents:
-https://www.iso.org/iso-standards-and-patents.html 
-
-ISO standards and patents IPR database:
-http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347 \""""@en ;
-    cav:refersTo camssa:e95daffc-273e-4444-a377-2f8f5184f7a0 .
-
-camssa:3fd7de1c-b93a-47f5-a8f9-7e9d5bd150ed a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'There is no possibility of tailoring the ISO 3166-1 country codes system, nor any kind of authorising process is allowed, as the specification was conceived for a unique purpose.
-
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html '"""@en ;
-    cav:refersTo camssa:2215c4c4-6127-43a8-ae16-687d15846020 .
-
-camssa:407d64a5-b752-4569-a9ea-6a015b23d8f6 a cav:Statement,
+camssa:b2695a1e-45d2-40b1-9efa-64b2c92ae0ca a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'ISO 3166-1 could be used in a multilingual context beyond a statistical purpose. The specification could be useful in determining the linguistic and dialectical areas when establishing a specific European public service.
 
 ISO 3166-1 reference:
 https://www.iso.org/standard/72482.html'"""@en ;
-    cav:refersTo camssa:4251b9d9-c72a-46c3-ae6e-bc402f753346 .
+    cav:refersTo camssa:7886538b-4811-4b10-be1c-d7f91a6605cd .
 
-camssa:420501f1-bd57-48ca-8823-d5b67ce7a3f3 a cav:Score,
+camssa:b82b6823-a4ce-4bd6-87b4-71e3fec477b9 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:judgement """'The purpose of ISO 3166-1 is not related to facilitating the publication of open data. Therefore, this criterion is not applicable to this specification.
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html'"""@en ;
+    cav:refersTo camssa:74e4534b-caf5-4142-a207-e512d4928c0c .
+
+camssa:b846425e-dbf6-470c-9523-1a465e7c8aa9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
     cav:value "80"^^xsd:int .
 
-camssa:4251b9d9-c72a-46c3-ae6e-bc402f753346 a cav:Score,
+camssa:c2702972-ee94-4564-8384-202fb5f7cd2f a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
-    cav:value "40"^^xsd:int .
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no mention of ISO 3166-1 in any official document stating its conformance in regards to Regulation 1025/2012.
 
-camssa:4265955a-eff9-4143-95a5-051eb05292dd a cav:Score,
+ICT technical specifications:
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technicalspecifications_en
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:978e4a33-29b5-4aa9-a59b-4c71efea8881 .
+
+camssa:c4b32085-8960-4569-b429-d47503f1a31f a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c4f5d213-3aed-47d4-aca8-565311c82fe9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:c5f73bf5-b76c-4152-ab66-bd9f5f849bbc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
     cav:value "20"^^xsd:int .
 
-camssa:473c42e5-4ace-4a46-aac5-bd9465e021f0 a cav:Statement,
+camssa:cb52ecc4-d93d-4b2c-a8cb-2f6c442a3979 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'ISO 3166-1 could be beneficial for the application of the one-time principle, as this specification may allow the reuse of relevant information regarding administrative units and the geometry of the maritime area at European level (see INSPIRE Data Specification on Administrative Units reference).
+    cav:judgement """'There is no possibility of tailoring the ISO 3166-1 country codes system, nor any kind of authorising process is allowed, as the specification was conceived for a unique purpose.
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html '"""@en ;
+    cav:refersTo camssa:4f017e70-7b89-4544-bf72-3039357aaf5d .
+
+camssa:ccfae298-1a18-42ff-90ab-783286d356d5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:ceea9b33-0d8a-48a6-8a83-24008d3c6246 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'As a system requirement enabler for the availability of spatial data among EU public administrations, ISO 3166-1 facilitates digital service delivery channels for the exchange, sharing, access and use of interoperable spatial data and spatial data services at different levels of public authority and in different sectors (see INSPIRE Data Specification on Administrative Units reference and INSPIRE reference, Directive 2007/2/EC document, Article 1).
 
 ISO 3166-1 reference:
 https://www.iso.org/standard/72482.html
 
 INSPIRE Data Specification on Administrative Units reference:
-https://inspire.ec.europa.eu/id/document/tg/au'"""@en ;
-    cav:refersTo camssa:9a977d46-e7bb-4922-96b7-a315b5a1fa19 .
+https://inspire.ec.europa.eu/id/document/tg/au
 
-camssa:4743b756-9647-4c89-b887-0588164bddd9 a cav:Score,
+INSPIRE reference, Directive 2007/2/EC document, Article 1:
+https://inspire.ec.europa.eu/inspire-legislation/26'"""@en ;
+    cav:refersTo camssa:e1683ee6-7efa-46d7-bfae-3a60734332f4 .
+
+camssa:d0c40898-a322-4820-bfa8-901d3d703e78 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
     cav:value "20"^^xsd:int .
 
-camssa:4864eb45-cee7-4e02-8e9f-892931be3eca a cav:Statement,
+camssa:d20ef363-7a12-4513-b6af-5e4e2f955cd5 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """"Despite being involved in several projects, ISO 3166-1 has no evaluations that assess it and no evidence of any technological solutions that indirectly assess the specification has been found. Therefore, there is no assessment of the specification's efficiency.
-
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html\""""@en ;
-    cav:refersTo camssa:0fc39b95-d5d4-4d6d-a21b-501592cc3d63 .
-
-camssa:49ebe0e3-1e03-4483-b1a9-c492b828eda0 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
-    cav:value "20"^^xsd:int .
-
-camssa:4af9eb0b-a689-4f29-aacc-4f24c248ab2b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
-    cav:value "20"^^xsd:int .
-
-camssa:4e999b7d-0cab-4bf2-878f-7661798a492d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
-    cav:value "20"^^xsd:int .
-
-camssa:5cff169a-54b4-4466-a7e6-8515b3ea8c22 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
     cav:value "100"^^xsd:int .
 
-camssa:5f1911fb-7368-49a1-9182-98ec6b1b06bb a cav:Statement,
+camssa:d38bba17-ec70-40c5-9eac-c016c1d20733 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'ISO 3166-1 does not explicitly enable data portability but does contribute to the expanding the sharing of data among public administrations at national and European level. It is the case of the INSPIRE (Infrastructure for Spatial Information in the European Community) project which makes use of ISO 3166-1 to ensure the maintenance of spatial data sets and corresponding data services in the EU (see INSPIRE Legislation reference, Directive 2007/2/EC document, Article 14).
-
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html 
-
-INSPIRE reference, Directive 2007/2/EC document, Article 14:
-https://inspire.ec.europa.eu/inspire-legislation/26'"""@en ;
-    cav:refersTo camssa:818ad68d-fb5d-47ed-bd14-8836efce7a05 .
-
-camssa:60798c9e-1c43-4e33-ac14-76d9a49b9c66 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISO 3166-1 is intended to identify a country, dependencies and special areas of geographical interest. This specification relates to metadata, and can be used in any system that ingests metadata. Therefore, it can be considered platform-agnostic.
+    cav:judgement """'ISO 3166-1 is a key component in the development of some European cross-border projects and initiatives. However, ISO 3166-1 does not encourage the creation of communities nor promotes the sharing of data and results in any European platform.
 
 ISO 3166-1 reference:
 https://www.iso.org/standard/72482.html '"""@en ;
-    cav:refersTo camssa:5cff169a-54b4-4466-a7e6-8515b3ea8c22 .
+    cav:refersTo camssa:d0c40898-a322-4820-bfa8-901d3d703e78 .
 
-camssa:63db0280-4933-4c0a-9f60-85c78201f33e a cav:Score,
+camssa:d44fc787-c25f-421e-927d-459e8a348892 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
-    cav:value "80"^^xsd:int .
+    cav:judgement """'ISO 3166-1 can enable the exposure of interfaces if combined with other specifications, notably those specifications inherent to the interface of a given public service. For example, the specification prompts the display of data associated to the country or territory where a user is submitting an ESPD (European Single Procurement Document) form.
 
-camssa:6b90b515-f43c-4b39-bb06-817b82963e6a a cav:Statement,
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html
+
+ESPD reference, Legal framework and context section:
+https://docs.ted.europa.eu/ESPD-EDM/3.0.1/xml_business_handbook.html#_i_1_1_legal_framework_and_context'"""@en ;
+    cav:refersTo camssa:8bbd924c-1f60-4fb7-9aba-7e8912055460 .
+
+camssa:d4565724-8a7f-4eff-8811-660d2470e83c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "None"^^xsd:int .
+
+camssa:d5c41a81-7a33-4aa3-8f64-38ffd8364955 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO has defined a clear procedure to develop its standards. It consists in a 6-steps process where everyone who is interested can participate. However, if you want to participate, you have to contact your national standards body and you have to be approved for joining the Technical committee (TC) who will develop the standard. ISO has defined the roadmap of standards, it is composed of 6 steps as before said. For the approval of a standard the two-thirds majority of P-members of TC is needed. If the result is negative, the document is returned to TC/SC to be further studied.
+
+The ISO standardization process: 
+https://www.iso.org/stages-and-resources-for-standards-development.html'"""@en ;
+    cav:refersTo camssa:fbd24e0e-4b5c-4ffb-8d96-bf3c5a7df36c .
+
+camssa:d907bb7c-2a3a-4efa-a630-eb5d53f009ef a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 3166-1 provides a collection of codes for the names of countries, dependent territories and special areas of geographical interest, regardless of any specific domain. Therefore, the specification can be used in any domain.
+
+ISO 3166-1 reference:
+https://www.iso.org/standard/72482.html '"""@en ;
+    cav:refersTo camssa:d20ef363-7a12-4513-b6af-5e4e2f955cd5 .
+
+camssa:dd8cc980-0c57-4be6-92c6-68518af52f05 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:df51d2ea-fbaf-440c-b4d4-0a8785a09147 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """"In accordance with Common Patent Policy for ITU-T/ITU-R/ISO/IEC the ISO 3166-1 is licensed under (F)RAND basis. Although there are terms included that allow patent holder to apply specific costs. It is defined in IPR disclosures that can be found at ISO's webpage. 
 
@@ -372,9 +615,38 @@ https://www.iso.org/iso-standards-and-patents.html
 
 ISO standards and patents IPR database:
 http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347 \""""@en ;
-    cav:refersTo camssa:85594768-7316-4b06-9198-35d7e06b0a4e .
+    cav:refersTo camssa:b0438df8-8c1d-44a9-9c07-6acae1d0300b .
 
-camssa:70fb5583-55e8-445f-8d1c-c19ed76fc963 a cav:Statement,
+camssa:dfafb918-3f7d-4dca-b36f-5a86432b3b6d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'According to the official documentation, ISO 3166-1 was first published in 1974, and subsequent editions in 2003, 2013 and 2020. ISO 3166-1 is the Part 1 of the ISO 3166 family of standards, which was divided in three parts in 1997. Part 1 was created on the basis of country names obtained from the United Nations. In 2013 the specification was integrated in an ISO "standard as a database" (see ISO 3166-1 reference, Country Codes on the Online Browsing Platform), easing its accessibility on the web and integrating all the specification's supporting processes (e.g. change history of country codes). Besides, the specification has published documentation on its supporting processes (see ISO 3166-1 reference, Public Information on ISO 3166-1).
+
+ISO 3166-1 reference, Introduction section:
+https://www.iso.org/obp/ui/#iso:std:72482:en
+
+ISO 3166-1 reference, Country Codes on the Online Browsing Platform:
+https://www.iso.org/obp/ui/#search/code/
+
+ISO 3166-1 reference, Public Information on ISO 3166-1:
+rg/livelink/livelink?func=ll&objId=16944257&objAction=browse&viewType=1'"""@en ;
+    cav:refersTo camssa:95179cf9-097f-4c44-880c-6972f12849c8 .
+
+camssa:e1683ee6-7efa-46d7-bfae-3a60734332f4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:ecdd268a-c75d-4736-9ce4-bbe8194e23e3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f1d57a92-eb8a-47cd-b2b4-16c4e46c9f42 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f3e07fff-2c97-492a-aae9-c8759ab915a2 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'ISO 3166-1 can enable visibility of administrations when combined with other specifications, notably Internet protocols (e.g. Domain Name System, DNS) or those specifications inherent to the interface of a given public service. For example, the specification prompts visibility of administrations in e-procurement (see CEF Digital home reference, eProcurement section) by allowing, for instance, the display of data associated to the country or territory where a user is submitting an ESPD (European Single Procurement Document) form.
 
@@ -389,186 +661,14 @@ https://ec.europa.eu/digital-building-blocks/wikis/display/CEFDIGITAL/eProcureme
 
 ESPD reference, Legal framework and context section:
 https://docs.ted.europa.eu/ESPD-EDM/3.0.1/xml_business_handbook.html#_i_1_1_legal_framework_and_context'"""@en ;
-    cav:refersTo camssa:247c6b6a-e126-42c1-9adc-01659adf8a9d .
+    cav:refersTo camssa:f8b494ef-3fb1-4bdc-8560-76a9e169cbfb .
 
-camssa:75954365-ec38-493e-a28d-2600292c2b2f a cav:Score,
+camssa:f8b494ef-3fb1-4bdc-8560-76a9e169cbfb a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
-    cav:value "100"^^xsd:int .
-
-camssa:78c9d1e8-6326-44e1-ae04-bb5dc4d7f755 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"ISO 3166-1 consists of a collection of codes for the names of countries, dependent territories and special areas of geographical interest. Although this collection can be mapped against this same collection to test the specification's implementation conformance, the specification does not publicly provide conformance testing requirements (see ISO 3166-1 reference, official preview documentation); the user may opt for their own techniques or for third-party software conformance services.
-
-ISO 3166-1 reference, official preview documentation:
-https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:ed-4:v1:en\""""@en ;
-    cav:refersTo camssa:91640e30-0aa3-4fe0-95c4-bc3838bac772 .
-
-camssa:79b24c1e-c0b9-4952-a2d9-1efeb2187509 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISO 3166-1 is a key component in the development of some European cross-border projects and initiatives. However, ISO 3166-1 does not encourage the creation of communities nor promotes the sharing of data and results in any European platform.
-
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html '"""@en ;
-    cav:refersTo camssa:7a77e389-9542-4935-9dee-8d5e20d5aea7 .
-
-camssa:7a77e389-9542-4935-9dee-8d5e20d5aea7 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
-    cav:value "20"^^xsd:int .
-
-camssa:7cab1f1c-6f25-49ac-8060-ed0374866c4f a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISO 3166-1 does not explicitly enable data portability but does contribute to the expanding the sharing of data among public administrations at national and European level. It is the case of the INSPIRE (Infrastructure for Spatial Information in the European Community) project which makes use of ISO 3166-1 to ensure the maintenance of spatial data sets and corresponding data services in the EU (see INSPIRE Legislation reference, Directive 2007/2/EC document, Article 14).
-
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html 
-
-INSPIRE reference, Directive 2007/2/EC document, Article 14:
-https://inspire.ec.europa.eu/inspire-legislation/26'"""@en ;
-    cav:refersTo camssa:ff311866-639f-48d5-98a7-490e93512b50 .
-
-camssa:7e7f569a-af29-4310-9f04-db46fda3ee2a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
-    cav:value "100"^^xsd:int .
-
-camssa:80883693-09bd-4ff4-bb37-2801975286df a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISO 3166-1 is already associated with EIRA ABBs in the EIRA Library Of Interoperability Specifications (ELIS). More specifically, ISO 3166-1 can define the interoperability aspects of the Data Set ABB of the EIRA Semantic View.
-
-EIRA Library of Interoperability Specifications (ELIS):
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
-    cav:refersTo camssa:e77c6b38-49b7-41c5-a38d-d36c5ade4052 .
-
-camssa:818ad68d-fb5d-47ed-bd14-8836efce7a05 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
-    cav:value "40"^^xsd:int .
-
-camssa:81ffcacd-e74c-4693-b769-cd1f8b27a482 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'There are two Member States recommending ISO 3166-1 in their ICT National Catalogues. These Member
-States are Malta and the Netherlands.
-
-National catalogue Malta: 
-https://mccaa.org.mt/Section/Content?contentId=1243
-
-National catalogue The Netherlands:
-https://www.forumstandaardisatie.nl/open-standaarden/lijst'"""@en ;
-    cav:refersTo camssa:30840f50-9b39-447b-ae6a-7f1a645e5a9e .
-
-camssa:827ebd6a-5d6c-4097-a05a-baaa56709386 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
-    cav:value "100"^^xsd:int .
-
-camssa:85594768-7316-4b06-9198-35d7e06b0a4e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
-    cav:value "100"^^xsd:int .
-
-camssa:8848925b-6e62-419a-b080-e0fcc7ee86b1 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of ISO 3166-1 is not related to facilitating the publication of open data. Therefore, this criterion is not applicable to this specification.
-
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html'"""@en ;
-    cav:refersTo camssa:7e7f569a-af29-4310-9f04-db46fda3ee2a .
-
-camssa:91640e30-0aa3-4fe0-95c4-bc3838bac772 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
-    cav:value "60"^^xsd:int .
-
-camssa:947dd303-e388-4161-a2f4-f6029d523658 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
-    cav:value "100"^^xsd:int .
-
-camssa:9550248a-b915-4168-80d1-14b259541f4c a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "DIGIT-CAMSS@eu.europa.eu" .
-
-camssa:9a977d46-e7bb-4922-96b7-a315b5a1fa19 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
     cav:value "80"^^xsd:int .
 
-camssa:9e0f6bef-4086-49bc-9e40-74c401b03286 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
-    cav:value "100"^^xsd:int .
-
-camssa:9fa38f03-4bc4-414b-be07-943addf8b7f4 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no mention of ISO 3166-1 in any official document stating its conformance in regards to Regulation 1025/2012.
-
-ICT technical specifications:
-https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technicalspecifications_en
-
-CENELEC and CEN search tool catalogue:
-https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
-    cav:refersTo camssa:49ebe0e3-1e03-4483-b1a9-c492b828eda0 .
-
-camssa:a12c7798-f70c-49d3-bfbb-aab66b65859c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISO 3166-1 is intended to serve as a code list for the names of countries, dependent territories and special areas of geographical interest. Therefore, it is not designed to address nor prevent data long-term preservation.
-
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html'"""@en ;
-    cav:refersTo camssa:f99eaa39-d469-44c4-8f19-0eaba6040bb6 .
-
-camssa:a2ceea5b-252c-47d7-9775-30d205e4ce45 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
-    cav:value "60"^^xsd:int .
-
-camssa:a30904d2-4a3f-4d3d-8c4f-ec64536c47fa a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
-    cav:value "100"^^xsd:int .
-
-camssa:a3de48ed-9bbb-4bde-a04d-75fcbce7e3d4 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"Participation in ISO technical committee work is possible, depending on the membership category of the participant. Public reviews are not foreseen, provided that the Public Administration was a subscriber member.
-
-ISO membership manual, 'ISO member rights, good practice and obligations' section:
-https://www.iso.org/publication/PUB100399.html\""""@en ;
-    cav:refersTo camssa:cd1fa68d-d90f-412e-8290-b7e2f152a3af .
-
-camssa:a5e2f462-0350-4116-b328-d49b165f06ac a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
-    cav:value "80"^^xsd:int .
-
-camssa:a91db52b-a044-429f-ba1b-17927e39ab6f a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The ISO 3166 Maintenance Agency is responsible for providing public support for any request regarding ISO 3166-1, but does not define the country names itself; the country names come from United Nations (UN) sources.
-
-ISO reference, ISO 3166 Country Codes:
-https://www.iso.org/iso-3166-country-codes.html?msclkid=54aebe8ca9f611ec89ac280389b78309'"""@en ;
-    cav:refersTo camssa:63db0280-4933-4c0a-9f60-85c78201f33e .
-
-camssa:aa223682-5241-4246-b54f-207f35bc42f2 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISO 3166-1 is intended to identify a country, dependencies and special areas of geographical interest. There is no possibility to extend the coding system as ISO 3166-1 was conceived for a unique purpose.
-
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html '"""@en ;
-    cav:refersTo camssa:37a3c610-f25c-4927-bdbb-7192aa45b4bb .
-
-camssa:ae8fc4fa-70c7-49c7-b467-e0c9aa0c5831 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
-    cav:value "100"^^xsd:int .
-
-camssa:b49c82b4-5965-43e7-97a9-064c73345a88 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
-    cav:value "100"^^xsd:int .
-
-camssa:b7dd5dc2-60bd-426f-8137-d03b0d1ddbe7 a cav:Statement,
+camssa:f95b1f41-d0c9-4fef-9f7d-c055aeda45fc a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'The INSPIRE (Infrastructure for Spatial Information in the European Community) project partly relies on the ISO 3166-1 specification (see INSPIRE Data Specification on Administrative Units reference). INSPIRE is a key delivery agent of European public services which addresses the exchange, sharing, access and use of interoperable spatial data and spatial data services at different levels of public authority and in different sectors. Therefore, the specification may contribute to simplify the delivery of European public services.
 
@@ -580,147 +680,47 @@ https://inspire.ec.europa.eu/id/document/tg/au
 
 INSPIRE reference, Directive 2007/2/EC document, Article 1:
 https://inspire.ec.europa.eu/inspire-legislation/26'"""@en ;
-    cav:refersTo camssa:947dd303-e388-4161-a2f4-f6029d523658 .
+    cav:refersTo camssa:3ae3b7ba-650a-4eb0-959d-0dbf0fe4d790 .
 
-camssa:b80595f1-113c-4721-8227-eb31d4c39599 a cav:Statement,
+camssa:f9dd4766-c56f-4b56-bd42-eb47c5b715db a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'ISO 3166-1 is included in 2 national catalogues of recommended specifications. They belong to Malta and the Netherlands. The National Interoperability Framework (NIF) of these Member States varies when aligned with the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. Whereas the Netherlands perfoms higher, Malta has a middle-lower performance compared to the European average. Some of the Maltese weaknesses relate to the three EIF categories, the need to improve the EIF Principles and the Conceptual Model scoreboards. In addition, there is data missing on the Inclusion and Accessibility and Preservation of Information on the EIF Principles.
-
-National catalogue Malta: 
-https://mccaa.org.mt/Section/Content?contentId=1243
-
-National catalogue The Netherlands:
-https://www.forumstandaardisatie.nl/open-standaarden/lijst
-
-NIFO factsheets:
-https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/digital-public-administration-factsheets-2021'"""@en ;
-    cav:refersTo camssa:2ba628d7-4545-454c-99f9-e22c82f726b1 .
-
-camssa:b8af0402-2d53-476d-b685-044e0f0ea2b3 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
-    cav:value "100"^^xsd:int .
-
-camssa:c2e55832-ec6f-4ce4-a229-0e13ee87e9fa a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The ISO 3166-1 specification is integrated in some Authority tables (e.g., Country) of the Publications Office (OP) of the European Union, but the specification as such is not included in any open repository of standards at European level.
-
-OP reference, Authority tables:
-https://op.europa.eu/en/web/eu-vocabularies/authority-tables?msclkid=72f85375b00d11ec9c13d3f9f6befab0'"""@en ;
-    cav:refersTo camssa:4265955a-eff9-4143-95a5-051eb05292dd .
-
-camssa:c5a4a881-d7ec-4b97-a2c1-c14b939c34a7 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of ISO 3166-1 is not related to secure exchange of data. Therefore, this criterion does not apply to this
-specification.
+    cav:judgement """'ISO 3166-1 is intended to serve as a code list for the names of countries, dependent territories and special areas of geographical interest. Therefore, it is not designed to address nor prevent data long-term preservation.
 
 ISO 3166-1 reference:
 https://www.iso.org/standard/72482.html'"""@en ;
-    cav:refersTo camssa:827ebd6a-5d6c-4097-a05a-baaa56709386 .
+    cav:refersTo camssa:fd11fea4-c611-4708-ba8d-8f393192bbf5 .
 
-camssa:c653010a-cd13-4c9a-81e5-19f7ddb1b445 a cav:Score,
+camssa:fbd24e0e-4b5c-4ffb-8d96-bf3c5a7df36c a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
     cav:value "80"^^xsd:int .
 
-camssa:cd1fa68d-d90f-412e-8290-b7e2f152a3af a cav:Score,
+camssa:fc3ea95a-9476-40cd-ace2-c3ed82829028 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
-    cav:value "20"^^xsd:int .
+    cav:judgement """"In accordance with Common Patent Policy for ITU-T/ITU-R/ISO/IEC the ISO 3166-1 is licensed under royalty-free basis. Although there are terms included that allow patent holder to apply specific costs. It is defined in IPR disclosures that can be found at ISO's webpage. 
 
-camssa:ceb2c062-9d05-415a-94a5-18b397f473ff a cav:Statement,
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html 
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347 \""""@en ;
+    cav:refersTo camssa:618799d5-2be5-46d6-94d0-c21accf08adc .
+
+camssa:fd11fea4-c611-4708-ba8d-8f393192bbf5 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """'ISO 3166-1 is a key component in the development of some European cross-border projects and initiatives. It is the case of the INSPIRE (Infrastructure for Spatial Information in the European Community) project which makes use of ISO 3166-1 to ensure the maintenance of spatial data sets and corresponding data services in the EU (see INSPIRE Legislation reference, Directive 2007/2/EC document, Article 14). 
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "40"^^xsd:int .
 
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html
-
-INSPIRE reference, Directive 2007/2/EC document, Article 14:
-https://inspire.ec.europa.eu/inspire-legislation/26'"""@en ;
-    cav:refersTo camssa:a30904d2-4a3f-4d3d-8c4f-ec64536c47fa .
-
-camssa:cf5a5e37-998a-4279-9034-874a42b9442a a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of ISO 3166-1 is not related to the protection of personal data. Therefore, this criterion is not applicable to this specification.
-
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html '"""@en ;
-    cav:refersTo camssa:9e0f6bef-4086-49bc-9e40-74c401b03286 .
-
-camssa:d58d3749-3115-473e-8a09-6da0f152a761 a cav:Statement,
+camssa:fd196c25-41b9-4cc8-a188-7171e2a2271b a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'The purpose of ISO 639-2 is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
 
 ISO 3166-1 reference:
 https://www.iso.org/standard/72482.html'"""@en ;
-    cav:refersTo camssa:fc6e58e1-de20-4963-aa96-32f32a0dc5e3 .
+    cav:refersTo camssa:dd8cc980-0c57-4be6-92c6-68518af52f05 .
 
-camssa:d9dd2fca-9426-4180-bc25-7ba288cf8250 a cav:Statement,
+camssa:fe33c438-de74-49ba-b274-ceef76ae1061 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """"Despite being involved in several projects, ISO 3166-1 has no evaluations that assess it and no evidence of any technological solutions that indirectly assess the specification has been found. Therefore, there is no assessment of the specification's effectiveness.
-
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html\""""@en ;
-    cav:refersTo camssa:4af9eb0b-a689-4f29-aacc-4f24c248ab2b .
-
-camssa:e164b622-ee41-41ae-b5ca-83eb139c0fe5 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISO 3166-1 can enable the exposure of interfaces if combined with other specifications, notably those specifications inherent to the interface of a given public service. For example, the specification prompts the display of data associated to the country or territory where a user is submitting an ESPD (European Single Procurement Document) form.
-
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html
-
-ESPD reference, Legal framework and context section:
-https://docs.ted.europa.eu/ESPD-EDM/3.0.1/xml_business_handbook.html#_i_1_1_legal_framework_and_context'"""@en ;
-    cav:refersTo camssa:420501f1-bd57-48ca-8823-d5b67ce7a3f3 .
-
-camssa:e390bc1f-b768-4f2c-b337-c19a1a3989f7 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISO 3166-1 is a key component in the development of some national and cross-border projects and initiatives. However, ISO 3166-1 does not encourage the creation of communities nor promotes the sharing of data and results in any national platform.
-
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html'"""@en ;
-    cav:refersTo camssa:4743b756-9647-4c89-b887-0588164bddd9 .
-
-camssa:e77c6b38-49b7-41c5-a38d-d36c5ade4052 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
-    cav:value "100"^^xsd:int .
-
-camssa:e95daffc-273e-4444-a377-2f8f5184f7a0 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
-    cav:value "100"^^xsd:int .
-
-camssa:ed8860ca-6be8-4737-90c2-3bfc22ff63cf a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'ISO 3166-1 provides a collection of codes for the names of countries, dependent territories and special areas of geographical interest, regardless of any specific domain. Therefore, the specification can be used in any domain.
-
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html '"""@en ;
-    cav:refersTo camssa:ae8fc4fa-70c7-49c7-b467-e0c9aa0c5831 .
-
-camssa:f99eaa39-d469-44c4-8f19-0eaba6040bb6 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
-    cav:value "40"^^xsd:int .
-
-camssa:fc6e58e1-de20-4963-aa96-32f32a0dc5e3 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
-    cav:value "100"^^xsd:int .
-
-camssa:fed84d4f-513a-467c-a74a-c36a062eee50 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of ISO 3166-1 is not related to secure process of data. Therefore, this criterion does not apply to this
-specification.
-
-ISO 3166-1 reference:
-https://www.iso.org/standard/72482.html'"""@en ;
-    cav:refersTo camssa:3160f367-b7c9-4b32-9438-52c596438149 .
-
-camssa:ff311866-639f-48d5-98a7-490e93512b50 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
-    cav:value "40"^^xsd:int .
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "60"^^xsd:int .
 

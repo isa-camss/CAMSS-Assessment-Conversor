@@ -24,257 +24,106 @@ camssa:f2dba2635732e7f4423c2372ad8dc48b4431caf859340e185dcf34231090a1bb a cav:As
     camss:submissionDate "None"^^xsd:date ;
     camss:toolVersion tool:5.1.0 ;
     cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
-    cav:resultsIn camssa:003e140e-a771-4578-b420-5cf5a44eb4ce,
-        camssa:0108cb1e-606c-48bf-999e-2a69d03fd74b,
-        camssa:085301c5-2e23-4a56-9639-2d00f0f328ad,
-        camssa:0d84e403-181a-4290-a109-52970c2e0e47,
-        camssa:12104ae3-0054-4d64-948c-0b9f545623a8,
-        camssa:134c3307-5c70-47a2-8fa0-198e7a56bb27,
-        camssa:16dfb074-d3e1-4d55-a377-c5c46ff4fc18,
-        camssa:17bf8462-3ace-4058-be24-b4065680f314,
-        camssa:1b1a0a3b-09d2-4e65-a737-300e209be7d1,
-        camssa:371b6f80-eb2a-4f8f-a155-0950350d5cd0,
-        camssa:43ef4af9-1bab-40ac-b4ef-db279e914e08,
-        camssa:48146f01-f967-4aa9-be22-4f98f4fa0e38,
-        camssa:4f5e064f-f816-4821-a848-4243c25110d6,
-        camssa:543306d7-dd6a-4e18-9d45-76d974d8764e,
-        camssa:5759b949-528a-45d0-98e4-e55b4dfd3525,
-        camssa:5d723c39-09f3-42a0-8f76-34e9fc0dea5a,
-        camssa:63350cb5-50fa-4dab-bced-c50f04d7389f,
-        camssa:675478e5-d1ad-4e0b-a203-e383042c3256,
-        camssa:76e792f5-01e2-4bcb-971c-ecf68bf4c91a,
-        camssa:76eac499-5ded-4b1b-a162-8322af1ee504,
-        camssa:7df8f4ca-4c9d-491b-bf85-956c29113e3c,
-        camssa:82a36a70-a035-4be0-8eb9-30bd5be85939,
-        camssa:9a05d86d-2465-41d2-8680-8cd3ee6f53d6,
-        camssa:a2086d58-4aea-48a7-bde4-4f9b26917ffd,
-        camssa:a2d6dafd-1067-457e-9d6e-718489b3f288,
-        camssa:a86e863b-01ab-4665-a4e6-ad0e4efe6188,
-        camssa:af59b743-05e9-4b53-a8b8-8d157d8c0aa6,
-        camssa:b1aa58d3-99a9-4f7e-8508-202c64066a96,
-        camssa:b490f214-b8c0-415e-bf59-a168a6372329,
-        camssa:b6727763-ce45-4865-b9bf-2558867192f4,
-        camssa:b6bb7fc2-cb5e-426d-be56-165b70428bfb,
-        camssa:b7c6d585-84cb-4870-ab78-1791e247b9d8,
-        camssa:b8874f96-14c7-46ba-9a4b-b8fb3526b530,
-        camssa:ba4dc454-8b98-420c-94e3-6ed3b8dbcddf,
-        camssa:bb9d2276-0a00-4e9c-9323-9f497d4b3597,
-        camssa:c696b9ab-ee8c-46b3-aa7d-9fc0a68ad132,
-        camssa:cbabcf8b-5306-4267-a874-91e09b9a056d,
-        camssa:d162b251-d86f-4704-88ca-82cccb2fdff5,
-        camssa:d2244aac-ac0e-4b89-9c35-76d5dd986227,
-        camssa:d4dcb582-e234-47f7-ab93-3a2b477973cc,
-        camssa:e2b4333d-4ee0-4b49-aae9-a14da2c128bf,
-        camssa:f6ab64ca-74f8-44c4-ad4c-bf6fcc23a684,
-        camssa:f80df4c7-20a9-42df-9808-8f5b80aed094,
-        camssa:fc6a0753-bcba-40bd-9800-c369005ee354 ;
+    cav:resultsIn camssa:054d9125-9693-420d-a860-44a2caabd883,
+        camssa:1062ea43-33c7-43e9-a9b5-bf7e096d93b6,
+        camssa:15db2288-f8f0-4647-8383-9c6e1cac2e79,
+        camssa:1dd9c058-b3c7-4d95-8b2b-ace6f3edb5b9,
+        camssa:2c30d865-f71c-40cf-83ab-4593c6972843,
+        camssa:306be7e4-4b88-43c4-a8b8-a226b56baba0,
+        camssa:37838978-18e1-469d-8829-f51a144fa266,
+        camssa:3afc846f-5bb8-4f84-b6c7-eef71ac2567b,
+        camssa:3d0efc76-c057-4115-b386-21a2aa27afbf,
+        camssa:42b3dc04-de2e-4051-b5fe-17b2eb78a154,
+        camssa:47c8a378-833f-4d2c-96de-eda106b6423e,
+        camssa:4b9f8340-3c82-4c15-9af1-4455525e8ccb,
+        camssa:4fdff969-f74c-47c8-b83c-8ae58a82ebfb,
+        camssa:5164c7ba-e6e1-448f-a16a-37d0bc1663a0,
+        camssa:633d2d50-0462-4a20-9966-276bc09f1c5f,
+        camssa:6f9b40b8-50cf-4e02-87e7-07430d9ec5b4,
+        camssa:79375dbd-b1f7-4852-a1fc-207dfbc0689b,
+        camssa:7bb92db8-1de2-44d7-afe5-2655628f671d,
+        camssa:857289d1-d401-448d-a734-505c7da4e1f6,
+        camssa:8b6ddb40-f454-4518-bfb0-8210df1a4d27,
+        camssa:903a015c-c7d7-460c-b405-ea0eb1669c97,
+        camssa:934d66cf-a94d-4033-841c-1e00156bed66,
+        camssa:98231ed9-399b-4127-ac1f-3764efcb8128,
+        camssa:9bfd39a1-9e65-4b00-9ce2-a42befa3776a,
+        camssa:9ef73815-5532-47ef-887b-c5ec99dc2e43,
+        camssa:b2795372-d736-41cd-821b-d81f69ee1bc0,
+        camssa:b3736796-3602-4cb7-ab84-4a7df294ea01,
+        camssa:b832275f-585b-4bb6-acaa-0b3a2bf400a8,
+        camssa:b8eb4843-e85e-4b91-b011-c0d494c79ec1,
+        camssa:beb68607-aed8-4314-a64b-e56546129bfd,
+        camssa:c2c35d8b-8097-475e-9e70-a9acfb56aad2,
+        camssa:c5a65235-c910-4775-b258-fb8eb703c7e7,
+        camssa:c712f065-08ff-4f71-83ba-9cb61769e680,
+        camssa:cb8d4423-8bb2-400c-953d-0e447b420338,
+        camssa:cc3c0032-9038-4682-8326-240dd2e5749d,
+        camssa:d391cc88-3758-4be5-954b-8f88200c650e,
+        camssa:d3ee96aa-83f5-4cd8-b3bd-144703d8bc20,
+        camssa:d414bc1d-0d0e-4ebe-a89e-473cb1c73d82,
+        camssa:d8c3437e-7bd7-4993-b45e-ce357d154362,
+        camssa:dcf2597e-792f-4b8a-aa6b-99e01199c999,
+        camssa:e129764e-54a9-4fd2-86f2-05e5ce108544,
+        camssa:ebdfa34d-cbaf-471b-b2c7-16e4f9f5cb7a,
+        camssa:ede202c2-3e69-4456-831e-2e56e0a5a6ec,
+        camssa:fd942117-459d-4bff-b470-06560efba93a ;
     cav:status status:Complete ;
     dct:title "Standard for Public Code"@en .
 
-camssa:003e140e-a771-4578-b420-5cf5a44eb4ce a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of Standard for Public Code is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
-
-The Standard for Public Code webpage:
-https://standard.publiccode.net/"""@en ;
-    cav:refersTo camssa:b98367bf-de5a-4500-9e29-cca3864a595c .
-
-camssa:0108cb1e-606c-48bf-999e-2a69d03fd74b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:046928e0-f9d8-4c09-b44e-f98bfcd04ebf .
-
-camssa:046928e0-f9d8-4c09-b44e-f98bfcd04ebf a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
-    cav:value "100"^^xsd:int .
-
-camssa:085301c5-2e23-4a56-9639-2d00f0f328ad a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:95c7083e-5006-46e2-8702-d086f2ca789a .
-
-camssa:0a2180fa-7a2b-4e47-9d0f-057befb0a8c0 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
-    cav:value "100"^^xsd:int .
-
-camssa:0d84e403-181a-4290-a109-52970c2e0e47 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification includes accessibility as one of the aspects to take into account for the development of new solutions and products. Since it is a key aspect for the equal treatment of citizens. 
-
-Moreover, it provides guidelines on how the code has to be documented using WCAG standard to ensure the maximum user/usage scope possible. 
-
-The Standard for Public Code webpage:
-https://standard.publiccode.net/"""@en ;
-    cav:refersTo camssa:b448c627-f1aa-4331-93a4-be264908474f .
-
-camssa:12104ae3-0054-4d64-948c-0b9f545623a8 a cav:Statement,
+camssa:054d9125-9693-420d-a860-44a2caabd883 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The Standard for Public code aims to provide a set of elements that can help public administrations to build open-source solutions that can be reused across borders and amongst organisations. It provides great scalability which can help to build alternatives and systems fostering and ensuring data portability. 
 
 The Standard for Public Code webpage:
 https://standard.publiccode.net/
 """@en ;
-    cav:refersTo camssa:46fc1e8f-fc5e-4bd5-ad3f-9bdb125ea440 .
+    cav:refersTo camssa:bf002120-2e59-4b25-a9a6-b8a952fd30a1 .
 
-camssa:134c3307-5c70-47a2-8fa0-198e7a56bb27 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """There are no Member States recommending Standard for Public Code in their ICT National Catalogues.
-
-The Standard for Public Code webpage:
-https://standard.publiccode.net/
-
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
-    cav:refersTo camssa:e04f0501-90f2-4d0f-ac76-63f96782ff6e .
-
-camssa:16dfb074-d3e1-4d55-a377-c5c46ff4fc18 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The project is based on openness and this philosophy has led to establish a framework for development that allows everyone with interest and knowledge to contribute to the improvement of the specification. 
-
-The Standard for Public Code webpage:
-https://standard.publiccode.net/
-
-The Standard for Public Code contributing section: 
-https://standard.publiccode.net/CONTRIBUTING.html"""@en ;
-    cav:refersTo camssa:78c006c4-54c7-4f78-ab75-0b8ca1643e4e .
-
-camssa:17bf8462-3ace-4058-be24-b4065680f314 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """At the time of elaborating this assessment, this specification is not included in any EIRA ABB in the last version of the European Library Of Specifications (ELIS). However, it has been associated to "Organisational Agreeement" of the Organisational view for the on-going version that is going to be published in May 2021. 
-
-EIRA Library of Interoperability Specifications (ELIS):
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis
-
-EIRA Library of Interoperability Specifications v1.0.1 (ELIS):
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v101-0"""@en ;
-    cav:refersTo camssa:e6765aaa-1c2c-4a6c-84d9-c4ba24ffed4e .
-
-camssa:1b1a0a3b-09d2-4e65-a737-300e209be7d1 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:b41defdb-9f10-487a-a603-5266cfd0db61 .
-
-camssa:1c9d75e4-33f9-4ea5-89f5-19c667e3b3da a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
-    cav:value "100"^^xsd:int .
-
-camssa:1f79c1ff-174e-4a6c-8fc1-639375cd3208 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
-    cav:value "100"^^xsd:int .
-
-camssa:22dfea4f-ff64-49b3-bc41-7346567fa5ee a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
-    cav:value "100"^^xsd:int .
-
-camssa:236a8679-df78-4d0f-9e2e-350872721fd3 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
-    cav:value "20"^^xsd:int .
-
-camssa:2498b1ac-90b9-4b28-b824-11a752e192a9 a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "NaN"^^xsd:double .
-
-camssa:2d1c8bce-30e8-4ff7-bfb9-14dc21c355c0 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
-    cav:value "100"^^xsd:int .
-
-camssa:2efe09b9-a112-461b-a5ae-7251756683b8 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
-    cav:value "100"^^xsd:int .
-
-camssa:3059ead8-f08d-45ce-ac20-135f9f55788c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
-    cav:value "100"^^xsd:int .
-
-camssa:33cefe54-a076-414a-b34d-c534a7890736 a cav:Score,
+camssa:05f283ae-a320-4ff1-a126-7cf308cfb63b a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
     cav:value "100"^^xsd:int .
 
-camssa:3417f0f5-d264-4a25-aa64-75cb7fac19ef a cav:Score,
+camssa:0a46c525-9c49-4990-bb31-da57db45fa39 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
     cav:value "100"^^xsd:int .
 
-camssa:371b6f80-eb2a-4f8f-a155-0950350d5cd0 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The Standard for Public Code gives public organizations a model for building their own open source solutions to enable successful future reuse by similar public organizations in other places. It includes guidance for policy makers, city administrators, developers and vendors. This fact can help organisations to make their information and rules available while improving the decission-making process. 
-
-The Standard for Public Code webpage:
-https://standard.publiccode.net/"""@en ;
-    cav:refersTo camssa:c476a725-8858-471f-a92f-3ecb9d32040a .
-
-camssa:3e97995a-1e4b-46c4-9174-7934a51c73a1 a cav:Score,
+camssa:0a67c68f-142b-48b0-adbd-318cc836e15e a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
     cav:value "100"^^xsd:int .
 
-camssa:43ef4af9-1bab-40ac-b4ef-db279e914e08 a cav:Statement,
+camssa:1062ea43-33c7-43e9-a9b5-bf7e096d93b6 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """Standard for Public Code has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Moreover, the standard is currently evolving and the defined process is open, with complete access and rights to contribute meaning that everyone can participate with suggestions, issues, or problems while contributors can also make changes and document them directly. In this sense, the decision making process is constantly open to the community.
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:4c85784d-2805-4d2f-85a0-e6f01234a076 .
 
-The Standard for Public Code webpage:
-https://standard.publiccode.net/
-
-The Standard for Public Code contributing section: 
-https://standard.publiccode.net/CONTRIBUTING.html"""@en ;
-    cav:refersTo camssa:6bab0ab9-8735-4bd3-93b6-77a663719dc1 .
-
-camssa:46fc1e8f-fc5e-4bd5-ad3f-9bdb125ea440 a cav:Score,
+camssa:118f39fb-52a2-4e7d-9c64-ef1b16548466 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
     cav:value "100"^^xsd:int .
 
-camssa:48146f01-f967-4aa9-be22-4f98f4fa0e38 a cav:Statement,
+camssa:12e47ee1-9883-485f-a418-92d299be6591 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:15db2288-f8f0-4647-8383-9c6e1cac2e79 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The Standard for Public Code is a set of criteria that supports public organizations in developing and maintaining software and policy together. So it can be said that it is independent of any platform or technology.
 
 The Standard for Public Code webpage:
 https://standard.publiccode.net/"""@en ;
-    cav:refersTo camssa:8b925ab0-b567-430c-928f-9174e84b57c1 .
+    cav:refersTo camssa:0a46c525-9c49-4990-bb31-da57db45fa39 .
 
-camssa:48801d30-70b1-4e09-889f-0e3b4c004d78 a cav:Score,
+camssa:164c4079-6f10-4e50-b569-df20c46c5a18 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
     cav:value "100"^^xsd:int .
 
-camssa:4cef8762-2c3b-4129-bda1-82cd637bb3a0 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
-    cav:value "100"^^xsd:int .
-
-camssa:4f5e064f-f816-4821-a848-4243c25110d6 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """There is no Member State that includes Standard for Public Code in their national catalogue with The National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
-
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:629fdd4f-a8fb-44a5-bd58-9bf74050482a .
-
-camssa:543306d7-dd6a-4e18-9d45-76d974d8764e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of Standard for Public Code is the reuse of code for the creation of solutions with the most transparent and efficient process, independently from the project type or solution domain. Taking this as a basis, the specification can foster and help the availability of interfaces of internal information systems. 
-
-The Standard for Public Code webpage:
-https://standard.publiccode.net/
-"""@en ;
-    cav:refersTo camssa:2efe09b9-a112-461b-a5ae-7251756683b8 .
-
-camssa:550c8d26-5026-4680-ba06-21cdaf04d4e1 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
-    cav:value "20"^^xsd:int .
-
-camssa:5759b949-528a-45d0-98e4-e55b4dfd3525 a cav:Statement,
+camssa:1dd9c058-b3c7-4d95-8b2b-ace6f3edb5b9 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The Standard for Public Code provides public organizations with a model for building their open source solutions to enable successful future reuse by similar public organizations in other places. 
 
@@ -288,147 +137,100 @@ https://standard.publiccode.net/
 5-star linked open data:
 https://www.w3.org/DesignIssues/LinkedData.html
 """@en ;
-    cav:refersTo camssa:ccd1c11d-d734-49ce-89ca-b7faf3c45576 .
+    cav:refersTo camssa:24252f4c-2429-4e09-badb-955c0863e92c .
 
-camssa:5d723c39-09f3-42a0-8f76-34e9fc0dea5a a cav:Statement,
+camssa:1f8eb701-66f9-47ee-9070-8ccc04bb7974 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:3059ead8-f08d-45ce-ac20-135f9f55788c .
-
-camssa:629fdd4f-a8fb-44a5-bd58-9bf74050482a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
     cav:value "20"^^xsd:int .
 
-camssa:63350cb5-50fa-4dab-bced-c50f04d7389f a cav:Statement,
+camssa:23024e3c-4e29-4734-a2da-da100ff2704c a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """This standard is licensed CC-0, which essentially means that the project, along with the contributions is in the public domain in whatever jurisdiction possible, and everyone can do whatever they want with it.
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
 
-The Standard for Public Code webpage:
-https://standard.publiccode.net/"""@en ;
-    cav:refersTo camssa:0a2180fa-7a2b-4e47-9d0f-057befb0a8c0 .
+camssa:24252f4c-2429-4e09-badb-955c0863e92c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
 
-camssa:675478e5-d1ad-4e0b-a203-e383042c3256 a cav:Statement,
+camssa:2485045b-d433-4d0d-a88f-f12823b2c4e0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2498b1ac-90b9-4b28-b824-11a752e192a9 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "NaN"^^xsd:double .
+
+camssa:24e37156-0f6b-413e-9711-6995c0243d5c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2c30d865-f71c-40cf-83ab-4593c6972843 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The Standard for Public Code is a business domain agnostic document that can be reused in a cross-domain. 
 
 The Standard for Public Code webpage:
 https://standard.publiccode.net/"""@en ;
-    cav:refersTo camssa:48801d30-70b1-4e09-889f-0e3b4c004d78 .
+    cav:refersTo camssa:2485045b-d433-4d0d-a88f-f12823b2c4e0 .
 
-camssa:6bab0ab9-8735-4bd3-93b6-77a663719dc1 a cav:Score,
+camssa:306be7e4-4b88-43c4-a8b8-a226b56baba0 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:ae28fdd0-ac27-48bf-9fed-b5394a612b8a .
+
+camssa:30f6c3bc-7d25-4e35-ab02-90559d473ad3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
     cav:value "100"^^xsd:int .
 
-camssa:71803b8d-d709-4e2d-aba2-0f189f68d9c9 a cav:Score,
+camssa:37838978-18e1-469d-8829-f51a144fa266 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
-    cav:value "20"^^xsd:int .
+    cav:judgement """The specification aims to be the basis for the development of public solutions that could be reusable across borders. It provides codebases that can be adapted to reach specific business requirements of certain implementations. Security is a key aspect when exchanging information and in this way, the specification states that when developing or implementing public source it should be enabled communication points to communicate regarding security aspects.
 
-camssa:72a8c390-f2a4-4edb-94be-b1f64ebf5b5a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
-    cav:value "100"^^xsd:int .
+Moreover, the flexibility that codebases grant allows administrations to integrate specific security capabilities to ensure a secure and trustworthy data exchange. 
 
-camssa:76aaccdb-18ca-42a1-a1e2-524190b5c592 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
-    cav:value "100"^^xsd:int .
+The Standard for Public Code webpage:
+https://standard.publiccode.net/"""@en ;
+    cav:refersTo camssa:30f6c3bc-7d25-4e35-ab02-90559d473ad3 .
 
-camssa:76e792f5-01e2-4bcb-971c-ecf68bf4c91a a cav:Statement,
+camssa:3afc846f-5bb8-4f84-b6c7-eef71ac2567b a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The specification defines not only the codebase for the development of reusable solutions but also how the code has to be developed to ensure the maximum standardised method and its possible future reuse by other solutions or initiatives. In this sense, the specification provides a set of elements that stakeholders using and contributing must take into account to increase the successful and efficient collaboration between parties. 
 
 The Standard for Public Code webpage:
 https://standard.publiccode.net/"""@en ;
-    cav:refersTo camssa:33cefe54-a076-414a-b34d-c534a7890736 .
+    cav:refersTo camssa:05f283ae-a320-4ff1-a126-7cf308cfb63b .
 
-camssa:76eac499-5ded-4b1b-a162-8322af1ee504 a cav:Statement,
+camssa:3d0efc76-c057-4115-b386-21a2aa27afbf a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """The standard for Public Code is supported by many public technologists and policymakers that can contribute to the development of the standard at the same time all the contributors review those updates. Moreover, it is focused on the development of open-source with an open development process, which fosters support from anyone with knowledge and interest in contributing.
-
-The Standard for Public Code update process:
-https://standard.publiccode.net/CONTRIBUTING.html"""@en ;
-    cav:refersTo camssa:1f79c1ff-174e-4a6c-8fc1-639375cd3208 .
-
-camssa:78c006c4-54c7-4f78-ab75-0b8ca1643e4e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
-    cav:value "100"^^xsd:int .
-
-camssa:7df8f4ca-4c9d-491b-bf85-956c29113e3c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """After searching for a certification or conformity test to validate possible implementations or contributions to the specification the Foundation for Public Code has established a common method for validating and certificating those new codebase elements. However, there is no automated tool for users to test conformity or reach certifications. 
+    cav:judgement """The scalability and broad character of the specification can make possible the creation and the availability of solutions fostering the reuse and availability of information between administrations and citizens. This fact demonstrates that the specification can foster the implementation of the once-only principle. 
 
 The Standard for Public Code webpage:
 https://standard.publiccode.net/"""@en ;
-    cav:refersTo camssa:bd157ac1-63bd-4731-8850-56f3497a6d06 .
+    cav:refersTo camssa:b7fa14af-08c2-48dd-8dbf-10fe3d349f0e .
 
-camssa:7ebdfc63-bbe0-4091-a68b-5ade07d966e2 a cav:Score,
+camssa:3eb60da0-0c91-4907-ad9b-70fe9c84ed02 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
     cav:value "100"^^xsd:int .
 
-camssa:82a36a70-a035-4be0-8eb9-30bd5be85939 a cav:Statement,
+camssa:42b3dc04-de2e-4051-b5fe-17b2eb78a154 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:b3ef1dcb-5f45-4a83-aaab-2dccee78163e .
-
-camssa:856725c1-6a67-42d1-88e9-221622d81b7b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
-    cav:value "100"^^xsd:int .
-
-camssa:89137675-8c1c-40ef-bc8b-faed411ad52d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
-    cav:value "100"^^xsd:int .
-
-camssa:896ba1f5-1772-4953-8d54-bffbe60982af a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
-    cav:value "20"^^xsd:int .
-
-camssa:8b925ab0-b567-430c-928f-9174e84b57c1 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
-    cav:value "100"^^xsd:int .
-
-camssa:8ea5a369-07ec-4973-94e1-4a72fd6185e1 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
-    cav:value "100"^^xsd:int .
-
-camssa:95c53e59-d296-41f3-b608-a29efe039584 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
-    cav:value "100"^^xsd:int .
-
-camssa:95c7083e-5006-46e2-8702-d086f2ca789a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
-    cav:value "100"^^xsd:int .
-
-camssa:9a05d86d-2465-41d2-8680-8cd3ee6f53d6 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The Standard for Public Code is a set of criteria that supports public organizations in developing and maintaining software and policy together. So it can be said that it is independent of any platform or technology.
+    cav:judgement """The Standard for Public Code aims to be a reference resource for making public administration efficient when creating public services and products reusable. Its usage can benefit European Institutions of a common method for the development of software solutions to be deployed all around Europe. The flexibility and capacity to adapt the code for a specific purpose and the general guidelines for its creation and documentation can foster the creation of software solutions supporting multilingualism. Moreover, it could be used together with other already existing resources as the CEF Translation Building Block to ensure multilingual service delivery.
 
 The Standard for Public Code webpage:
 https://standard.publiccode.net/"""@en ;
-    cav:refersTo camssa:2d1c8bce-30e8-4ff7-bfb9-14dc21c355c0 .
+    cav:refersTo camssa:68e55bb8-d3a2-40f3-a513-eb35e4241636 .
 
-camssa:9b2eb969-3b54-40b2-ae3c-8dbaf7ab8fa7 a cav:Score,
+camssa:464987ea-8543-4275-9921-ec95dbf15ddf a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
     cav:value "100"^^xsd:int .
 
-camssa:a203b616-5441-4426-bd24-6a97160a6e5b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
-    cav:value "100"^^xsd:int .
-
-camssa:a2086d58-4aea-48a7-bde4-4f9b26917ffd a cav:Statement,
+camssa:47c8a378-833f-4d2c-96de-eda106b6423e a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of the Standard for Public Code within any European catalogue of standards.
 
@@ -440,118 +242,50 @@ https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
 
 CENELEC search tool catalogue:
 https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
-    cav:refersTo camssa:d78f85cc-2cdc-40e7-8863-ea88818ab29d .
+    cav:refersTo camssa:60c48081-9b4a-462a-81cc-16d40eb84dc5 .
 
-camssa:a2d6dafd-1067-457e-9d6e-718489b3f288 a cav:Statement,
+camssa:4b9f8340-3c82-4c15-9af1-4455525e8ccb a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """The Standard for Public Code is a set of criteria that supports public organizations in developing and maintaining software and policy together, so it can be said that Standard for Public code fosters the visibility of administrative rules, data, services and decision-making of a public administration. 
+    cav:judgement """This standard is licensed CC-0, which essentially means that the project, along with the contributions is in the public domain in whatever jurisdiction possible, and everyone can do whatever they want with it.
 
 The Standard for Public Code webpage:
 https://standard.publiccode.net/"""@en ;
-    cav:refersTo camssa:da53b04b-7744-4e67-afc4-dde3690b1201 .
+    cav:refersTo camssa:9d668a7d-dee4-4aa6-9a18-02ccef17aae8 .
 
-camssa:a86e863b-01ab-4665-a4e6-ad0e4efe6188 a cav:Statement,
+camssa:4c85784d-2805-4d2f-85a0-e6f01234a076 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:e9be89ca-96ef-4e09-ad3c-3b115d2902d6 .
-
-camssa:af59b743-05e9-4b53-a8b8-8d157d8c0aa6 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The scalability and broad character of the specification can make possible the creation and the availability of solutions fostering the reuse and availability of information between administrations and citizens. This fact demonstrates that the specification can foster the implementation of the once-only principle. 
-
-The Standard for Public Code webpage:
-https://standard.publiccode.net/"""@en ;
-    cav:refersTo camssa:a203b616-5441-4426-bd24-6a97160a6e5b .
-
-camssa:b1aa58d3-99a9-4f7e-8508-202c64066a96 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The Standard for Public Code is a business domain agnostic document that can be reused in a cross-domain. 
-
-The Standard for Public Code webpage:
-https://standard.publiccode.net/"""@en ;
-    cav:refersTo camssa:9b2eb969-3b54-40b2-ae3c-8dbaf7ab8fa7 .
-
-camssa:b3ef1dcb-5f45-4a83-aaab-2dccee78163e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
     cav:value "100"^^xsd:int .
 
-camssa:b41defdb-9f10-487a-a603-5266cfd0db61 a cav:Score,
+camssa:4dbc9301-dfb9-490d-a291-6ca05254b873 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
     cav:value "100"^^xsd:int .
 
-camssa:b448c627-f1aa-4331-93a4-be264908474f a cav:Score,
+camssa:4fdff969-f74c-47c8-b83c-8ae58a82ebfb a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
-    cav:value "100"^^xsd:int .
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:4dbc9301-dfb9-490d-a291-6ca05254b873 .
 
-camssa:b490f214-b8c0-415e-bf59-a168a6372329 a cav:Statement,
+camssa:5164c7ba-e6e1-448f-a16a-37d0bc1663a0 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """The Standard for Public Code aims to be a reference resource for making public administration efficient when creating public services and products reusable. Its usage can benefit European Institutions of a common method for the development of software solutions to be deployed all around Europe. The flexibility and capacity to adapt the code for a specific purpose and the general guidelines for its creation and documentation can foster the creation of software solutions supporting multilingualism. Moreover, it could be used together with other already existing resources as the CEF Translation Building Block to ensure multilingual service delivery.
+    cav:judgement """This standard is licensed CC-0, which essentially means that the project, along with the contributions, is in the public domain in whatever jurisdiction possible, and everyone can do whatever they want with it.
 
 The Standard for Public Code webpage:
 https://standard.publiccode.net/"""@en ;
-    cav:refersTo camssa:8ea5a369-07ec-4973-94e1-4a72fd6185e1 .
+    cav:refersTo camssa:d82dbf55-1c32-4df5-aba2-1fbbe27ad596 .
 
-camssa:b6727763-ce45-4865-b9bf-2558867192f4 a cav:Statement,
+camssa:57bf4ab5-dd15-424a-beb3-6059ca33be31 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """The specification was produced in 2019. The standard evolution involves many public technologists, policymakers, however, it is an ongoing work that can be further improved. At the same time, it can be implemented for the creation of products and services as part of the improvement process. Although the specification maturity has room for improvement, it is important to consider the option when developing products and services.
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "20"^^xsd:int .
 
-The Standard for Public Code webpage:
-https://standard.publiccode.net"""@en ;
-    cav:refersTo camssa:71803b8d-d709-4e2d-aba2-0f189f68d9c9 .
-
-camssa:b6bb7fc2-cb5e-426d-be56-165b70428bfb a cav:Statement,
+camssa:60c48081-9b4a-462a-81cc-16d40eb84dc5 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "After searching in the different official European websites, there is no evidence of any cross-border project that uses the Standard for Public Codes nor explicit agreements involving the usage of the specification."@en ;
-    cav:refersTo camssa:236a8679-df78-4d0f-9e2e-350872721fd3 .
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
 
-camssa:b7c6d585-84cb-4870-ab78-1791e247b9d8 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Although there are no specific studies or documentation about the "Standard for Public Code", there are several studies concerning the importance to include open source solutions and software to public administrations and their benefit to administrations, businesses and citizens.
-
-Adopting open source software in public administration: The importance of boundary spanners and political commitment
-https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000258
-
-A study on the introduction of Open Source Software in the Public Administration:
-https://link.springer.com/chapter/10.1007/0-387-34226-5_16
-
-Open source software for the public administration:
-https://www.researchgate.net/publication/228770161_Open_source_software_for_the_public_administration
-"""@en ;
-    cav:refersTo camssa:89137675-8c1c-40ef-bc8b-faed411ad52d .
-
-camssa:b8874f96-14c7-46ba-9a4b-b8fb3526b530 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The Standard for Public code aims to provide a set of elements that can help public administrations to build open-source solutions that can be reused across borders and amongst organisations. It provides great scalability which can help to build alternatives and systems fostering and ensuring data portability. 
-
-The Standard for Public Code webpage:
-https://standard.publiccode.net/
-"""@en ;
-    cav:refersTo camssa:95c53e59-d296-41f3-b608-a29efe039584 .
-
-camssa:b98367bf-de5a-4500-9e29-cca3864a595c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
-    cav:value "100"^^xsd:int .
-
-camssa:ba4dc454-8b98-420c-94e3-6ed3b8dbcddf a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Although there are no specific studies or documentation about the "Standard for Public Code", there are several studies concerning the importance to include open source solutions and software to public administrations and their benefit to administrations, businesses and citizens.
-
-Adopting open source software in public administration: The importance of boundary spanners and political commitment
-https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000258
-
-A study on the introduction of Open Source Software in the Public Administration:
-https://link.springer.com/chapter/10.1007/0-387-34226-5_16
-
-Open source software for the public administration:
-https://www.researchgate.net/publication/228770161_Open_source_software_for_the_public_administration
-"""@en ;
-    cav:refersTo camssa:856725c1-6a67-42d1-88e9-221622d81b7b .
-
-camssa:bb9d2276-0a00-4e9c-9323-9f497d4b3597 a cav:Statement,
+camssa:633d2d50-0462-4a20-9966-276bc09f1c5f a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The Standard for Public Code provides public organizations with a model for building their open source solutions to enable successful future reuse by similar public organizations in other places. 
 
@@ -559,107 +293,370 @@ Besides, the standard also aims to make sure that the generated code is publishe
 
 The Standard for Public Code webpage:
 https://standard.publiccode.net/"""@en ;
-    cav:refersTo camssa:3417f0f5-d264-4a25-aa64-75cb7fac19ef .
+    cav:refersTo camssa:d46f89c0-1d71-4388-a25b-8f3f78157108 .
 
-camssa:bd157ac1-63bd-4731-8850-56f3497a6d06 a cav:Score,
+camssa:644063da-d698-4c47-9a4e-c474e9bdb3e2 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
     cav:value "20"^^xsd:int .
 
-camssa:c476a725-8858-471f-a92f-3ecb9d32040a a cav:Score,
+camssa:68e55bb8-d3a2-40f3-a513-eb35e4241636 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
     cav:value "100"^^xsd:int .
 
-camssa:c696b9ab-ee8c-46b3-aa7d-9fc0a68ad132 a cav:Statement,
+camssa:6a87735a-6c14-45e6-9f32-afc4938fc4cd a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """Not enough information has been gathered to determine that the specification impacts positively or negatively to long-term preservations. Therefore, it seems that the specification's purpose is not related to the preservation of electronic resources.
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "20"^^xsd:int .
+
+camssa:6f9b40b8-50cf-4e02-87e7-07430d9ec5b4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no Member States recommending Standard for Public Code in their ICT National Catalogues.
 
 The Standard for Public Code webpage:
-https://standard.publiccode.net/"""@en ;
-    cav:refersTo camssa:7ebdfc63-bbe0-4091-a68b-5ade07d966e2 .
+https://standard.publiccode.net/
 
-camssa:cbabcf8b-5306-4267-a874-91e09b9a056d a cav:Statement,
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:1f8eb701-66f9-47ee-9070-8ccc04bb7974 .
+
+camssa:715ff673-d8d6-41fa-b99e-a2b399470774 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:756aa7f4-474d-42a5-ae1d-96975ee855e1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:79375dbd-b1f7-4852-a1fc-207dfbc0689b a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The Standard for Public Code is not included in any Member States' catalogues of recommended specifications.
 
 CAMSS List of Standards:
 https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:550c8d26-5026-4680-ba06-21cdaf04d4e1 .
+    cav:refersTo camssa:a07abe82-f976-47e3-8027-da9e6d292691 .
 
-camssa:ccd1c11d-d734-49ce-89ca-b7faf3c45576 a cav:Score,
+camssa:7b374671-469e-4560-89a0-d4cf8e0296f1 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
     cav:value "100"^^xsd:int .
 
-camssa:d162b251-d86f-4704-88ca-82cccb2fdff5 a cav:Statement,
+camssa:7bb92db8-1de2-44d7-afe5-2655628f671d a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:3e97995a-1e4b-46c4-9174-7934a51c73a1 .
-
-camssa:d2244aac-ac0e-4b89-9c35-76d5dd986227 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification aims to be the basis for the development of public solutions that could be reusable across borders. It provides codebases that can be adapted to reach specific business requirements of certain implementations. Security is a key aspect when exchanging information and in this way, the specification states that when developing or implementing public source it should be enabled communication points to communicate regarding security aspects.
-
-Moreover, the flexibility that codebases grant allows administrations to integrate specific security capabilities to ensure a secure and trustworthy data exchange. 
+    cav:judgement """The Standard for Public Code gives public organizations a model for building their own open source solutions to enable successful future reuse by similar public organizations in other places. It includes guidance for policy makers, city administrators, developers and vendors. This fact can help organisations to make their information and rules available while improving the decission-making process. 
 
 The Standard for Public Code webpage:
 https://standard.publiccode.net/"""@en ;
-    cav:refersTo camssa:1c9d75e4-33f9-4ea5-89f5-19c667e3b3da .
+    cav:refersTo camssa:e2d9e642-06e9-48a8-87e7-18e4269bb31a .
 
-camssa:d4dcb582-e234-47f7-ab93-3a2b477973cc a cav:Statement,
+camssa:7e9677ee-b7b3-428f-a06a-d2d078c7f04f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:857289d1-d401-448d-a734-505c7da4e1f6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although there are no specific studies or documentation about the "Standard for Public Code", there are several studies concerning the importance to include open source solutions and software to public administrations and their benefit to administrations, businesses and citizens.
+
+Adopting open source software in public administration: The importance of boundary spanners and political commitment
+https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000258
+
+A study on the introduction of Open Source Software in the Public Administration:
+https://link.springer.com/chapter/10.1007/0-387-34226-5_16
+
+Open source software for the public administration:
+https://www.researchgate.net/publication/228770161_Open_source_software_for_the_public_administration
+"""@en ;
+    cav:refersTo camssa:95e6f4d2-54e2-4406-8680-ef7ec937b1da .
+
+camssa:878d806a-baec-4ee2-9138-242087204bd1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:8b6ddb40-f454-4518-bfb0-8210df1a4d27 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After searching for a certification or conformity test to validate possible implementations or contributions to the specification the Foundation for Public Code has established a common method for validating and certificating those new codebase elements. However, there is no automated tool for users to test conformity or reach certifications. 
+
+The Standard for Public Code webpage:
+https://standard.publiccode.net/"""@en ;
+    cav:refersTo camssa:57bf4ab5-dd15-424a-beb3-6059ca33be31 .
+
+camssa:903a015c-c7d7-460c-b405-ea0eb1669c97 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The standard for Public Code is supported by many public technologists and policymakers that can contribute to the development of the standard at the same time all the contributors review those updates. Moreover, it is focused on the development of open-source with an open development process, which fosters support from anyone with knowledge and interest in contributing.
+
+The Standard for Public Code update process:
+https://standard.publiccode.net/CONTRIBUTING.html"""@en ;
+    cav:refersTo camssa:715ff673-d8d6-41fa-b99e-a2b399470774 .
+
+camssa:934d66cf-a94d-4033-841c-1e00156bed66 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Not enough information has been gathered to determine that the specification impacts positively or negatively to long-term preservations. Therefore, it seems that the specification's purpose is not related to the preservation of electronic resources.
+
+The Standard for Public Code webpage:
+https://standard.publiccode.net/"""@en ;
+    cav:refersTo camssa:3eb60da0-0c91-4907-ad9b-70fe9c84ed02 .
+
+camssa:9474c89b-13ef-4e00-9cae-29bca1af3e93 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:95e6f4d2-54e2-4406-8680-ef7ec937b1da a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:98231ed9-399b-4127-ac1f-3764efcb8128 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no Member State that includes Standard for Public Code in their national catalogue with The National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:756aa7f4-474d-42a5-ae1d-96975ee855e1 .
+
+camssa:9bfd39a1-9e65-4b00-9ce2-a42befa3776a a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "None"@en ;
-    cav:refersTo camssa:76aaccdb-18ca-42a1-a1e2-524190b5c592 .
+    cav:refersTo camssa:164c4079-6f10-4e50-b569-df20c46c5a18 .
 
-camssa:d78f85cc-2cdc-40e7-8863-ea88818ab29d a cav:Score,
+camssa:9d668a7d-dee4-4aa6-9a18-02ccef17aae8 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9ef73815-5532-47ef-887b-c5ec99dc2e43 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Standard for Public Code has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Moreover, the standard is currently evolving and the defined process is open, with complete access and rights to contribute meaning that everyone can participate with suggestions, issues, or problems while contributors can also make changes and document them directly. In this sense, the decision making process is constantly open to the community.
+
+The Standard for Public Code webpage:
+https://standard.publiccode.net/
+
+The Standard for Public Code contributing section: 
+https://standard.publiccode.net/CONTRIBUTING.html"""@en ;
+    cav:refersTo camssa:e32738ba-d0a3-47e7-b0b3-3be8acbbd16f .
+
+camssa:a07abe82-f976-47e3-8027-da9e6d292691 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
     cav:value "20"^^xsd:int .
 
-camssa:da53b04b-7744-4e67-afc4-dde3690b1201 a cav:Score,
+camssa:a9ded75c-1e7b-48e5-bb18-6589e09ef0d9 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
     cav:value "100"^^xsd:int .
 
-camssa:e04f0501-90f2-4d0f-ac76-63f96782ff6e a cav:Score,
+camssa:ae28fdd0-ac27-48bf-9fed-b5394a612b8a a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:b0b9f06a-af28-44c0-8faf-c5e6e2cbaa69 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
     cav:value "20"^^xsd:int .
 
-camssa:e2b4333d-4ee0-4b49-aae9-a14da2c128bf a cav:Statement,
+camssa:b2795372-d736-41cd-821b-d81f69ee1bc0 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "None"@en ;
-    cav:refersTo camssa:72a8c390-f2a4-4edb-94be-b1f64ebf5b5a .
+    cav:refersTo camssa:f26ae816-7f04-45e0-90eb-d58880ee5aac .
 
-camssa:e6765aaa-1c2c-4a6c-84d9-c4ba24ffed4e a cav:Score,
+camssa:b2a5ce51-8107-4f5a-93d7-ecdd35cdfbcd a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
     cav:value "100"^^xsd:int .
 
-camssa:e9be89ca-96ef-4e09-ad3c-3b115d2902d6 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
-    cav:value "100"^^xsd:int .
-
-camssa:f6ab64ca-74f8-44c4-ad4c-bf6fcc23a684 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """This standard is licensed CC-0, which essentially means that the project, along with the contributions, is in the public domain in whatever jurisdiction possible, and everyone can do whatever they want with it.
-
-The Standard for Public Code webpage:
-https://standard.publiccode.net/"""@en ;
-    cav:refersTo camssa:4cef8762-2c3b-4129-bda1-82cd637bb3a0 .
-
-camssa:f80df4c7-20a9-42df-9808-8f5b80aed094 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:22dfea4f-ff64-49b3-bc41-7346567fa5ee .
-
-camssa:fc6a0753-bcba-40bd-9800-c369005ee354 a cav:Statement,
+camssa:b3736796-3602-4cb7-ab84-4a7df294ea01 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """Even though it is a very recent standard produced in 2019, it has a strong community supporting it with a clear process of development. However, there are not relevant implementations supporting a wide market acceptance of the specification at the moment of performing the assessment. 
 
 The Standard for Public Code webpage:
 https://standard.publiccode.net"""@en ;
-    cav:refersTo camssa:896ba1f5-1772-4953-8d54-bffbe60982af .
+    cav:refersTo camssa:b0b9f06a-af28-44c0-8faf-c5e6e2cbaa69 .
+
+camssa:b7fa14af-08c2-48dd-8dbf-10fe3d349f0e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b832275f-585b-4bb6-acaa-0b3a2bf400a8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:464987ea-8543-4275-9921-ec95dbf15ddf .
+
+camssa:b8eb4843-e85e-4b91-b011-c0d494c79ec1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although there are no specific studies or documentation about the "Standard for Public Code", there are several studies concerning the importance to include open source solutions and software to public administrations and their benefit to administrations, businesses and citizens.
+
+Adopting open source software in public administration: The importance of boundary spanners and political commitment
+https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000258
+
+A study on the introduction of Open Source Software in the Public Administration:
+https://link.springer.com/chapter/10.1007/0-387-34226-5_16
+
+Open source software for the public administration:
+https://www.researchgate.net/publication/228770161_Open_source_software_for_the_public_administration
+"""@en ;
+    cav:refersTo camssa:23024e3c-4e29-4734-a2da-da100ff2704c .
+
+camssa:beb68607-aed8-4314-a64b-e56546129bfd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Standard for Public code aims to provide a set of elements that can help public administrations to build open-source solutions that can be reused across borders and amongst organisations. It provides great scalability which can help to build alternatives and systems fostering and ensuring data portability. 
+
+The Standard for Public Code webpage:
+https://standard.publiccode.net/
+"""@en ;
+    cav:refersTo camssa:7e9677ee-b7b3-428f-a06a-d2d078c7f04f .
+
+camssa:bf002120-2e59-4b25-a9a6-b8a952fd30a1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c19bd14f-67df-45db-b341-8cafe0a528b9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c255d994-dade-401e-93fb-6339e285dfc6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c2c35d8b-8097-475e-9e70-a9acfb56aad2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Standard for Public Code is a set of criteria that supports public organizations in developing and maintaining software and policy together, so it can be said that Standard for Public code fosters the visibility of administrative rules, data, services and decision-making of a public administration. 
+
+The Standard for Public Code webpage:
+https://standard.publiccode.net/"""@en ;
+    cav:refersTo camssa:a9ded75c-1e7b-48e5-bb18-6589e09ef0d9 .
+
+camssa:c5a65235-c910-4775-b258-fb8eb703c7e7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Standard for Public Code is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+The Standard for Public Code webpage:
+https://standard.publiccode.net/"""@en ;
+    cav:refersTo camssa:c19bd14f-67df-45db-b341-8cafe0a528b9 .
+
+camssa:c712f065-08ff-4f71-83ba-9cb61769e680 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:b2a5ce51-8107-4f5a-93d7-ecdd35cdfbcd .
+
+camssa:cb8d4423-8bb2-400c-953d-0e447b420338 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After searching in the different official European websites, there is no evidence of any cross-border project that uses the Standard for Public Codes nor explicit agreements involving the usage of the specification."@en ;
+    cav:refersTo camssa:644063da-d698-4c47-9a4e-c474e9bdb3e2 .
+
+camssa:cc3c0032-9038-4682-8326-240dd2e5749d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The project is based on openness and this philosophy has led to establish a framework for development that allows everyone with interest and knowledge to contribute to the improvement of the specification. 
+
+The Standard for Public Code webpage:
+https://standard.publiccode.net/
+
+The Standard for Public Code contributing section: 
+https://standard.publiccode.net/CONTRIBUTING.html"""@en ;
+    cav:refersTo camssa:e38ae5ad-822d-4521-aea1-700025d8bc9a .
+
+camssa:d391cc88-3758-4be5-954b-8f88200c650e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:7b374671-469e-4560-89a0-d4cf8e0296f1 .
+
+camssa:d3ee96aa-83f5-4cd8-b3bd-144703d8bc20 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Standard for Public Code is a set of criteria that supports public organizations in developing and maintaining software and policy together. So it can be said that it is independent of any platform or technology.
+
+The Standard for Public Code webpage:
+https://standard.publiccode.net/"""@en ;
+    cav:refersTo camssa:c255d994-dade-401e-93fb-6339e285dfc6 .
+
+camssa:d414bc1d-0d0e-4ebe-a89e-473cb1c73d82 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification includes accessibility as one of the aspects to take into account for the development of new solutions and products. Since it is a key aspect for the equal treatment of citizens. 
+
+Moreover, it provides guidelines on how the code has to be documented using WCAG standard to ensure the maximum user/usage scope possible. 
+
+The Standard for Public Code webpage:
+https://standard.publiccode.net/"""@en ;
+    cav:refersTo camssa:12e47ee1-9883-485f-a418-92d299be6591 .
+
+camssa:d46f89c0-1d71-4388-a25b-8f3f78157108 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d82dbf55-1c32-4df5-aba2-1fbbe27ad596 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d8c3437e-7bd7-4993-b45e-ce357d154362 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0a67c68f-142b-48b0-adbd-318cc836e15e .
+
+camssa:dcf2597e-792f-4b8a-aa6b-99e01199c999 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9474c89b-13ef-4e00-9cae-29bca1af3e93 .
+
+camssa:e129764e-54a9-4fd2-86f2-05e5ce108544 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:24e37156-0f6b-413e-9711-6995c0243d5c .
+
+camssa:e2d9e642-06e9-48a8-87e7-18e4269bb31a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e32738ba-d0a3-47e7-b0b3-3be8acbbd16f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e38ae5ad-822d-4521-aea1-700025d8bc9a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:ebdfa34d-cbaf-471b-b2c7-16e4f9f5cb7a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Standard for Public Code is a business domain agnostic document that can be reused in a cross-domain. 
+
+The Standard for Public Code webpage:
+https://standard.publiccode.net/"""@en ;
+    cav:refersTo camssa:118f39fb-52a2-4e7d-9c64-ef1b16548466 .
+
+camssa:ede202c2-3e69-4456-831e-2e56e0a5a6ec a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Standard for Public Code is the reuse of code for the creation of solutions with the most transparent and efficient process, independently from the project type or solution domain. Taking this as a basis, the specification can foster and help the availability of interfaces of internal information systems. 
+
+The Standard for Public Code webpage:
+https://standard.publiccode.net/
+"""@en ;
+    cav:refersTo camssa:878d806a-baec-4ee2-9138-242087204bd1 .
+
+camssa:f26ae816-7f04-45e0-90eb-d58880ee5aac a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:fd942117-459d-4bff-b470-06560efba93a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification was produced in 2019. The standard evolution involves many public technologists, policymakers, however, it is an ongoing work that can be further improved. At the same time, it can be implemented for the creation of products and services as part of the improvement process. Although the specification maturity has room for improvement, it is important to consider the option when developing products and services.
+
+The Standard for Public Code webpage:
+https://standard.publiccode.net"""@en ;
+    cav:refersTo camssa:6a87735a-6c14-45e6-9f32-afc4938fc4cd .
 

@@ -19,50 +19,50 @@ camssa:1d001a802ccff9f7fbfffacecdb87e0296d7aa0ae46183aa257e392b16f306fa a cav:As
     camss:submissionDate "None"^^xsd:date ;
     camss:toolVersion tool:5.1.0 ;
     cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
-    cav:resultsIn camssa:021cdd87-288c-4302-91b7-069e7082e6c2,
-        camssa:04491196-8c49-49c3-bd3d-a91d6f00c839,
-        camssa:0a706181-e0c7-4e50-b690-ccf24483da25,
-        camssa:1155ccda-9a0a-4e3a-b7a1-eb72d00164ea,
-        camssa:119672c8-c566-401a-be6b-458f05265484,
-        camssa:1357fe3b-06aa-483e-9b53-fe974bf7a524,
-        camssa:17a320a4-886e-4ea2-aa68-2c24abb8c8d8,
-        camssa:17b15d85-0819-4ad7-8690-0474095b1338,
-        camssa:205814a7-d67b-4829-920d-88b32bb4057c,
-        camssa:26356266-9287-4b09-921a-d2b3285a8866,
-        camssa:2caec4a5-fba4-414f-b1f5-a501b0a14c77,
-        camssa:303da59c-83f1-45e9-a68c-ec0ce6ba519f,
-        camssa:424f3ee3-45dd-4c1f-b7ed-5e53368c555b,
-        camssa:50ce697d-c955-424d-b737-152142ba7a8a,
-        camssa:57e3265b-51fa-4358-88b8-3fd4874b0453,
-        camssa:6317919b-7fdb-4efa-b17e-6fbc806c6ee5,
-        camssa:715cac95-ddc9-4f82-b352-b009fd705978,
-        camssa:771fea42-e024-401c-8881-7a0387a4969d,
-        camssa:7aeee17b-4c3f-448f-a228-e24f23eb0bed,
-        camssa:8549f569-aae5-480a-9f76-3b06f23105dc,
-        camssa:890e8b2f-2603-45d1-8fe4-5caca3a35b38,
-        camssa:91b953ad-a0f7-4725-ac89-af97417924d8,
-        camssa:9379dc4e-7dbf-4cff-8078-b2a230344d96,
-        camssa:9cf19c6a-1cfe-479d-ab22-c1e6efc78310,
-        camssa:9f091b5a-71a9-4f08-ba31-542ce4460d62,
-        camssa:a530f3b4-3765-44a4-89a8-7d2e17a46254,
-        camssa:ae4d99d9-bb11-4c23-9941-5f3f79961b52,
-        camssa:bafd75cb-8dde-4185-8b38-b57f788db3f0,
-        camssa:bc218efa-6bc1-4d51-96a7-844527d36ca7,
-        camssa:c17648f8-4ba9-49b2-9645-51875f7ed896,
-        camssa:c42fcf3d-9403-45e3-a5d6-5d7aeba2430d,
-        camssa:ca605fe9-ff26-498b-9546-ddf84d8005d1,
-        camssa:cc20f379-c6e4-4bad-9909-62dbca989553,
-        camssa:cfd36338-2bed-43c3-bca3-f4429361c75a,
-        camssa:d25956b6-570a-4237-8e43-970ba7137e9c,
-        camssa:d3cd9b28-c9f3-40b5-b303-67c154f03b9c,
-        camssa:ee8bf30e-5378-425b-b05a-9d8ae008b11e,
-        camssa:f17ffb5e-fd61-4acc-80b7-3231097c643f,
-        camssa:f38ebdc5-435e-4bf7-9fce-4d77a17ea7c3,
-        camssa:f54368e4-9db5-453c-a8ff-024024bce945,
-        camssa:f557229f-8585-4baf-b5c9-e1cbced697f9,
-        camssa:f8ad5a04-5680-48b3-94b6-b55c4ad599dd,
-        camssa:f906e266-e362-4093-bdd9-25a0d397e199,
-        camssa:fdb50003-3031-4305-8448-04ee1fbbe9da ;
+    cav:resultsIn camssa:0484913a-523c-4931-81df-458841420955,
+        camssa:0cc1fc94-88a4-47aa-be27-1300ed4f3298,
+        camssa:13797174-a719-4f43-b0fc-823671f3cc11,
+        camssa:17047cc4-32e8-49af-bdcf-2b80cf5fcad4,
+        camssa:181d6048-586b-4346-ac55-b2047d4b1fc4,
+        camssa:1af7d335-b7a2-4eec-8a59-4ea2e6aef04c,
+        camssa:26912841-888a-4928-8a72-fb9fdca847cc,
+        camssa:28bb55f5-685e-4eed-830a-7fef4cabdc86,
+        camssa:2c30b40b-e186-4111-9910-f83d5a2f6904,
+        camssa:2d097f70-b869-470b-b3c9-0baef120400c,
+        camssa:2fca0f85-7342-4aba-8b17-aba29338fc50,
+        camssa:38aa0ec5-aeb0-4f5f-8310-f2de33c98007,
+        camssa:39d8dd6b-e093-45c1-ac35-be718df2f289,
+        camssa:3c00d5f2-d2e2-4b2f-805f-bd12ae33bf42,
+        camssa:3c54e4cd-e194-4056-a846-d37cf218403f,
+        camssa:3d5cb41c-7f1e-49cf-a44f-e39dcff09b03,
+        camssa:43dbcc5c-71f0-41fc-9a2a-e82817778ad7,
+        camssa:4642d164-62d7-4095-872f-1ac888003a01,
+        camssa:47ecfa2b-7964-4454-8928-4c7080e76d1b,
+        camssa:4f744e29-818b-4103-814a-fe89739c8f67,
+        camssa:5259ac08-346d-42cf-a30a-964c36995456,
+        camssa:5587fbae-a9dc-49fd-b199-a3a87849b6ee,
+        camssa:657c9cf8-8bf3-469b-982b-722cc64254ee,
+        camssa:7013c5c8-ace4-4f43-ac60-29e60c704036,
+        camssa:7524ca61-bebd-4f00-944a-22be43ebf9cc,
+        camssa:7c5140ca-52db-473e-8266-31c1ee86ddb3,
+        camssa:8a809a74-54be-4424-91b9-4dabea5e5858,
+        camssa:8ffbb40b-4621-40d1-9094-75b394cacd9d,
+        camssa:9020792c-6d09-4b06-97f6-e12128606c01,
+        camssa:9a25462b-d087-4d35-9701-fb236c853ae7,
+        camssa:a15d5512-b8e8-4dbd-9e49-86b3e9c547ed,
+        camssa:ab162194-4b0c-4b8e-8d13-dd6b2ffccf93,
+        camssa:bf712e58-0ca4-4999-b883-24cb3bcf30b7,
+        camssa:c0ae2db3-bc97-4533-9c72-2f6e9f30c133,
+        camssa:c1e324e0-3309-4ac6-a046-9ef82bdde7ae,
+        camssa:c28620ef-1bca-474e-b783-2191bb834b28,
+        camssa:c801a8de-465c-4464-9ec9-f944666d2a86,
+        camssa:ddfe51a5-6e61-4d4a-8de8-fff830f9d93f,
+        camssa:e278bfc7-5ab6-4d7c-b533-ecfdce56b6ce,
+        camssa:f39933db-2e4d-439b-993d-a5569d6649e2,
+        camssa:f98256bb-c4cc-46f2-8406-559ce683af99,
+        camssa:fb98de32-5c17-4ba7-98a8-ad1c435cb6f4,
+        camssa:fc5ddc16-aaa1-493d-b860-89a58c2c936c,
+        camssa:fcba82c7-0c8e-4101-9586-7914b6360619 ;
     cav:status status:Complete ;
     dct:title "Xforms 2.0"@en .
 
@@ -71,25 +71,149 @@ camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:Na
     camss:contactPoint camssa:88e1375e-27f9-48a0-b4c1-fa59cc4faced ;
     skos:prefLabel "CAMSS Team"@en .
 
-camssa:01a1463c-a2d3-4338-85a7-403c8a035543 a cav:Score,
+camssa:042e9860-9519-4997-a8eb-65827b35c0b0 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
     cav:value "100"^^xsd:int .
 
-camssa:021cdd87-288c-4302-91b7-069e7082e6c2 a cav:Statement,
+camssa:0484913a-523c-4931-81df-458841420955 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+    cav:judgement """The purpose of Xforms is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification.
 
-W3C Process document:
-https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
-    cav:refersTo camssa:3385074f-d072-496a-bcdd-ab63f1f970a1 .
+Xforms 2.0 W3C reference:
+https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
+    cav:refersTo camssa:c35e8bde-bb38-4b5e-afcb-421ee9450606 .
 
-camssa:02ba72a0-ea38-4f41-91de-4bd1c4987967 a cav:Score,
+camssa:075b0bdc-0cc6-466d-86f1-87a7f9003bb6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:08fa0680-9dc3-4b11-839c-8754096ca758 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:09e8ea8e-f5e5-4121-b7b8-d9fddf27e7ad a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0cc1fc94-88a4-47aa-be27-1300ed4f3298 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:1d1d1f11-7e00-47a2-92ec-8fed886a2d2b .
+
+camssa:13797174-a719-4f43-b0fc-823671f3cc11 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By allowing public administrations to have online forms to interact with the population, Xforms fosters the visibility and comprehensibility of public administrations and services.
+
+Xforms 2.0 W3C reference:
+https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
+    cav:refersTo camssa:d8ebfc61-3d65-4a2f-b486-2e561581f11f .
+
+camssa:17047cc4-32e8-49af-bdcf-2b80cf5fcad4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Xforms is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification. 
+
+Xforms 2.0 W3C reference:
+https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
+    cav:refersTo camssa:4019ac5a-7095-48b3-ac9e-6ce5afbe4756 .
+
+camssa:181d6048-586b-4346-ac55-b2047d4b1fc4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By allowing public administrations to have online forms to interact with the population, Xforms fosters the visibility and comprehensibility of public administrations and services.
+
+Xforms 2.0 W3C reference:
+https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
+    cav:refersTo camssa:bb8a43d4-d9c9-4656-8b92-c3954109dc0b .
+
+camssa:18fdee41-02ff-4a71-bc50-a8bc3e732993 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:195393cb-cc1c-47d8-b3d7-2f467b9a0bb6 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
     cav:value "100"^^xsd:int .
 
-camssa:04491196-8c49-49c3-bd3d-a91d6f00c839 a cav:Statement,
+camssa:1af7d335-b7a2-4eec-8a59-4ea2e6aef04c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are many documents that evaluate the effectiveness and efficiency of this specification. For example, in the following link there is a study of Xforms called "Efficient evaluation of shared predicates for XForms page access control".
+
+Xforms evaluation:
+https://ieeexplore.ieee.org/document/4766728"""@en ;
+    cav:refersTo camssa:8534fd1e-5e28-4948-99e9-097d766841de .
+
+camssa:1d1d1f11-7e00-47a2-92ec-8fed886a2d2b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:1eea1e78-da4e-48c8-b102-822367cc4c75 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:26912841-888a-4928-8a72-fb9fdca847cc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Xforms 2.0 is a business domain agnostic specification that can be reused in a cross-domain way.
+
+Xforms 2.0 W3C reference:
+https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
+    cav:refersTo camssa:fcdea5ae-7532-426a-a611-93a29b61f591 .
+
+camssa:28bb55f5-685e-4eed-830a-7fef4cabdc86 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
+    cav:refersTo camssa:97f54258-fd4f-4a56-995d-9f187c172ae2 .
+
+camssa:2c30b40b-e186-4111-9910-f83d5a2f6904 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licences granted under the W3C Patent Policy apply to all W3C specifications, including Xforms 2.0.
+
+W3C Patent practice:
+https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
+    cav:refersTo camssa:042e9860-9519-4997-a8eb-65827b35c0b0 .
+
+camssa:2c9850c7-6806-44a7-99ea-a1b7ff4b00f3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2d097f70-b869-470b-b3c9-0baef120400c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XForms specification became an official W3C Recommendation on 14 October 2003. It has been evolved over the years with versions updates demonstrating that it overcame the possible issues raised on the development and implementation.
+
+Xforms 2.0 W3C reference:
+https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
+    cav:refersTo camssa:8c4e0b9a-3a89-42f7-85f0-0912ba45a854 .
+
+camssa:2fca0f85-7342-4aba-8b17-aba29338fc50 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:81d8a7d8-0a66-41d0-9730-4c41f6da9b7d .
+
+camssa:317ccfa2-bab0-410f-b8a7-4422a5a5b5cd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:38aa0ec5-aeb0-4f5f-8310-f2de33c98007 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f66815fb-064f-4b1d-bb7c-ecba18b39bf5 .
+
+camssa:38fa5245-b8e0-4ac7-a20a-9a29407dd102 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:39d8dd6b-e093-45c1-ac35-be718df2f289 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The purpose of Xforms is not related to the publication of public data as linked open data. Therefore, this criterion is not applicable to this specification.
 
@@ -98,48 +222,206 @@ https://www.w3.org/community/xformsusers/wiki/XForms_2.0
 
 5-star linked open data:
 https://www.w3.org/DesignIssues/LinkedData.html"""@en ;
-    cav:refersTo camssa:cf120117-6ae1-481e-8bc6-8a4f0a0d3355 .
+    cav:refersTo camssa:ec1a0264-8b2c-4f76-bce8-a2b09ac9df6c .
 
-camssa:0a706181-e0c7-4e50-b690-ccf24483da25 a cav:Statement,
+camssa:3c00d5f2-d2e2-4b2f-805f-bd12ae33bf42 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """The purpose of Xforms is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification.
+    cav:judgement "After searching for a certification or conformity test to validate Xforms 2.0 no tool has been found that assess the conformity of the specification. However, there are tools that validate the previous version of Xforms, version 1.1."@en ;
+    cav:refersTo camssa:e97e82ed-8046-44ea-b370-297f87402251 .
+
+camssa:3c54e4cd-e194-4056-a846-d37cf218403f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:68dd044e-c748-4038-85e0-bb6a1b2213e7 .
+
+camssa:3d5cb41c-7f1e-49cf-a44f-e39dcff09b03 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After searching in the different official European websites, there is no evidence of any cross-border project that uses Xforms nor explicit agreements involving the usage of the specification."@en ;
+    cav:refersTo camssa:f60a08a0-5f47-4b31-9bc1-a5c890971489 .
+
+camssa:3d89c594-408a-49c1-8625-f6886986359c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4019ac5a-7095-48b3-ac9e-6ce5afbe4756 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:43c47c37-6cf3-4435-8016-a4fb10e9b089 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:43dbcc5c-71f0-41fc-9a2a-e82817778ad7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Xforms is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
 
 Xforms 2.0 W3C reference:
 https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:1a077c59-49ba-4e7d-869f-e3d1a62dceb1 .
+    cav:refersTo camssa:f5b56feb-e51e-407d-979e-242f40a9d902 .
 
-camssa:1155ccda-9a0a-4e3a-b7a1-eb72d00164ea a cav:Statement,
+camssa:4642d164-62d7-4095-872f-1ac888003a01 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no Member State that includes Xforms 2.0 in their national catalogue with The National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:38fa5245-b8e0-4ac7-a20a-9a29407dd102 .
+
+camssa:47ecfa2b-7964-4454-8928-4c7080e76d1b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Xforms 2.0 is a business domain agnostic specification that can be reused in a cross-domain way.
+
+Xforms 2.0 W3C reference:
+https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
+    cav:refersTo camssa:4d0592a3-c0a7-4b87-bd03-b12066a47a18 .
+
+camssa:49bced07-4543-4fd7-a892-27d8ed038f12 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4d0592a3-c0a7-4b87-bd03-b12066a47a18 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4f744e29-818b-4103-814a-fe89739c8f67 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:49bced07-4543-4fd7-a892-27d8ed038f12 .
+
+camssa:5259ac08-346d-42cf-a30a-964c36995456 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licences granted under the W3C Patent Policy apply to all W3C specifications, including Xforms 2.0.
+
+W3C Patent practice:
+https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
+    cav:refersTo camssa:83b05ca4-4c3d-4913-be36-bde6e2663617 .
+
+camssa:5466f979-0f25-48be-9946-6ad6805fed4c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5587fbae-a9dc-49fd-b199-a3a87849b6ee a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
+    cav:refersTo camssa:72e3ae59-6917-43ac-b6b1-370f86a675d7 .
+
+camssa:5b2908bc-8761-45ee-a163-3e03fbbdf77b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:657c9cf8-8bf3-469b-982b-722cc64254ee a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:08fa0680-9dc3-4b11-839c-8754096ca758 .
+
+camssa:68dd044e-c748-4038-85e0-bb6a1b2213e7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:7013c5c8-ace4-4f43-ac60-29e60c704036 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """Xforms 2.0 can be used independently of any other technical specifications or operating system. However, Xforms is based on XML, so it can be dependent on conventions and rules for the correct XML usage. 
 
 Xforms 2.0 W3C reference:
 https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:70fc717f-5da8-47da-87aa-5ff65a39744e .
+    cav:refersTo camssa:43c47c37-6cf3-4435-8016-a4fb10e9b089 .
 
-camssa:119672c8-c566-401a-be6b-458f05265484 a cav:Statement,
+camssa:72e3ae59-6917-43ac-b6b1-370f86a675d7 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:ab309999-3d86-42e8-8ba9-b789057ad5f6 .
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
 
-camssa:1357fe3b-06aa-483e-9b53-fe974bf7a524 a cav:Statement,
+camssa:7524ca61-bebd-4f00-944a-22be43ebf9cc a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """The purpose of Xforms is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. 
+    cav:judgement """Xforms 2.0 is maintained by W3C which is an international community developing open standards. 
+
+Developer community W3C:
+https://www.w3.org/Consortium/"""@en ;
+    cav:refersTo camssa:9250aa97-78fb-438c-a460-7dd418484afa .
+
+camssa:75e7540c-3175-40bb-a9fe-f8574dca60e5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:7c5140ca-52db-473e-8266-31c1ee86ddb3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Xfoms 2.0 is not related to data portability. Therefore, this criterion is not applicable to this specification. 
 
 Xforms 2.0 W3C reference:
 https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:8b19ecce-6e86-4ec6-b191-9118a84061b4 .
+    cav:refersTo camssa:317ccfa2-bab0-410f-b8a7-4422a5a5b5cd .
 
-camssa:1395888f-149d-48a5-b1cb-32fdc86f539d a cav:Score,
+camssa:81d8a7d8-0a66-41d0-9730-4c41f6da9b7d a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
-    cav:value "20"^^xsd:int .
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
 
-camssa:1567333b-0bc4-4d26-aae1-adfe01715646 a cav:Score,
+camssa:83b05ca4-4c3d-4913-be36-bde6e2663617 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
     cav:value "100"^^xsd:int .
 
-camssa:17a320a4-886e-4ea2-aa68-2c24abb8c8d8 a cav:Statement,
+camssa:8534fd1e-5e28-4948-99e9-097d766841de a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:86b51cde-b510-4720-be31-88247e0abee4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:870fa236-9143-473b-b386-abe891ceb963 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:88e1375e-27f9-48a0-b4c1-fa59cc4faced a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:8a809a74-54be-4424-91b9-4dabea5e5858 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Xforms was updated to version 2.0 in 2010 and has the full support from the W3C group, an international community where Member organizations, a full-time staff, and the public work together to develop Web standards.
+
+Xforms 2.0 W3C reference:
+https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
+    cav:refersTo camssa:09e8ea8e-f5e5-4121-b7b8-d9fddf27e7ad .
+
+camssa:8c4e0b9a-3a89-42f7-85f0-0912ba45a854 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:8e3d353a-c00c-467f-8058-953e0662cdd5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:8ffbb40b-4621-40d1-9094-75b394cacd9d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Xforms is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification.
+
+Xforms 2.0 W3C reference:
+https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
+    cav:refersTo camssa:075b0bdc-0cc6-466d-86f1-87a7f9003bb6 .
+
+camssa:9020792c-6d09-4b06-97f6-e12128606c01 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of Xforms within any European catalogue of standards.
 
@@ -151,469 +433,187 @@ https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
 
 CENELEC search tool catalogue:
 https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
-    cav:refersTo camssa:dec7851e-3d8b-43f0-8177-00c23840e024 .
+    cav:refersTo camssa:870fa236-9143-473b-b386-abe891ceb963 .
 
-camssa:17b15d85-0819-4ad7-8690-0474095b1338 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
-
-W3C Process document:
-https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
-    cav:refersTo camssa:80c6a361-bf28-470d-95ae-2d433daa325d .
-
-camssa:1a077c59-49ba-4e7d-869f-e3d1a62dceb1 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
-    cav:value "100"^^xsd:int .
-
-camssa:1c7d97e9-ef56-4821-b185-a7d7eac2ad5b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
-    cav:value "100"^^xsd:int .
-
-camssa:205814a7-d67b-4829-920d-88b32bb4057c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Xforms 2.0 is a business domain agnostic specification that can be reused in a cross-domain way.
-
-Xforms 2.0 W3C reference:
-https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:2452c9cb-a324-4d5d-8683-1f1deddf3ed2 .
-
-camssa:234b823f-95b1-42c2-b0ce-4fc7a579cb72 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
-    cav:value "100"^^xsd:int .
-
-camssa:2452c9cb-a324-4d5d-8683-1f1deddf3ed2 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
-    cav:value "100"^^xsd:int .
-
-camssa:26356266-9287-4b09-921a-d2b3285a8866 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:b826397e-6336-4878-bae9-7272c933cc21 .
-
-camssa:2caec4a5-fba4-414f-b1f5-a501b0a14c77 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Xforms 2.0 is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, Xforms can define the interoperability aspects of the Forms Management Component", and  "Forms Management Service" ABBs of the EIRA Technical Infraestructure View.
-
-EIRA Library of Interoperability Specifications (ELIS):
-https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
-    cav:refersTo camssa:d7f13494-d6ae-4664-a19a-a9c33859f529 .
-
-camssa:303da59c-83f1-45e9-a68c-ec0ce6ba519f a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:ea44118c-41ab-4bff-9dc7-ad28cf66ee7a .
-
-camssa:3385074f-d072-496a-bcdd-ab63f1f970a1 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
-    cav:value "100"^^xsd:int .
-
-camssa:3672fd78-e6cb-4899-b160-40dea5d7a10b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
-    cav:value "20"^^xsd:int .
-
-camssa:36bea35e-298e-4484-ae48-166e828b8f19 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
-    cav:value "100"^^xsd:int .
-
-camssa:3c3a7860-0705-4396-a346-b7523d99e864 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
-    cav:value "100"^^xsd:int .
-
-camssa:424f3ee3-45dd-4c1f-b7ed-5e53368c555b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The W3C Royalty-Free IPR licences granted under the W3C Patent Policy apply to all W3C specifications, including Xforms 2.0.
-
-W3C Patent practice:
-https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
-    cav:refersTo camssa:1567333b-0bc4-4d26-aae1-adfe01715646 .
-
-camssa:47c8967d-2fd2-4a5a-9861-860784e6c605 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
-    cav:value "100"^^xsd:int .
-
-camssa:50ce697d-c955-424d-b737-152142ba7a8a a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:c15f041f-7c3c-4870-8f00-9433db7cbfe9 .
-
-camssa:534cd017-c5f8-4097-ad54-3dec859e435a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
-    cav:value "100"^^xsd:int .
-
-camssa:57e3265b-51fa-4358-88b8-3fd4874b0453 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:fa1445fe-4c3d-4067-84a0-16235b69748b .
-
-camssa:62937b27-469b-4229-8a57-7ebe78606163 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
-    cav:value "20"^^xsd:int .
-
-camssa:62f724da-6c1e-48f1-9166-4ad6076ec737 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
-    cav:value "100"^^xsd:int .
-
-camssa:6317919b-7fdb-4efa-b17e-6fbc806c6ee5 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Xforms 2.0 is maintained by W3C which is an international community developing open standards. 
-
-Developer community W3C:
-https://www.w3.org/Consortium/"""@en ;
-    cav:refersTo camssa:7a8ac2bb-3bcb-45e9-9ecc-bd2ea53e89e4 .
-
-camssa:70fc717f-5da8-47da-87aa-5ff65a39744e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
-    cav:value "100"^^xsd:int .
-
-camssa:715cac95-ddc9-4f82-b352-b009fd705978 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of Xforms is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification.
-
-Xforms 2.0 W3C reference:
-https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:3c3a7860-0705-4396-a346-b7523d99e864 .
-
-camssa:726c5c17-dd0b-422b-952f-03db20c8b117 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
-    cav:value "100"^^xsd:int .
-
-camssa:74b91555-7b40-4b97-9dd4-cf1147843976 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
-    cav:value "100"^^xsd:int .
-
-camssa:771fea42-e024-401c-8881-7a0387a4969d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """There are no Member States recommending Xforms 2.0 in their ICT National Catalogues. However, Germany is recommending a previous version, Xforms 1.1.
- 
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:3672fd78-e6cb-4899-b160-40dea5d7a10b .
-
-camssa:7a8ac2bb-3bcb-45e9-9ecc-bd2ea53e89e4 a cav:Score,
+camssa:9250aa97-78fb-438c-a460-7dd418484afa a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
     cav:value "100"^^xsd:int .
 
-camssa:7aeee17b-4c3f-448f-a228-e24f23eb0bed a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of Xfoms 2.0 is not related to data portability. Therefore, this criterion is not applicable to this specification. 
-
-Xforms 2.0 W3C reference:
-https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:36bea35e-298e-4484-ae48-166e828b8f19 .
-
-camssa:80c6a361-bf28-470d-95ae-2d433daa325d a cav:Score,
+camssa:97f54258-fd4f-4a56-995d-9f187c172ae2 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
     cav:value "100"^^xsd:int .
 
-camssa:8549f569-aae5-480a-9f76-3b06f23105dc a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:b957a22a-78c1-4eff-b961-dab388a7b61f .
-
-camssa:88e1375e-27f9-48a0-b4c1-fa59cc4faced a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "CAMSS@everis.com" .
-
-camssa:890e8b2f-2603-45d1-8fe4-5caca3a35b38 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of Xforms is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
-
-Xforms 2.0 W3C reference:
-https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:f66ec426-eb73-4e05-be5a-2b32267d15ef .
-
-camssa:8b19ecce-6e86-4ec6-b191-9118a84061b4 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
-    cav:value "100"^^xsd:int .
-
-camssa:91b953ad-a0f7-4725-ac89-af97417924d8 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The W3C Royalty-Free IPR licences granted under the W3C Patent Policy apply to all W3C specifications, including Xforms 2.0.
-
-W3C Patent practice:
-https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
-    cav:refersTo camssa:a31519bb-4d6b-4b17-8275-82dc4beff9a1 .
-
-camssa:9379dc4e-7dbf-4cff-8078-b2a230344d96 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:fb2f1c7a-5dbb-45ad-881f-3731e0f6da7b .
-
-camssa:954a94ec-85d0-4c2a-84d1-9fbc4d34d2b4 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
-    cav:value "100"^^xsd:int .
-
-camssa:9a6c53ff-125c-4927-a471-44b346a5682a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
-    cav:value "100"^^xsd:int .
-
-camssa:9cf19c6a-1cfe-479d-ab22-c1e6efc78310 a cav:Statement,
+camssa:9a25462b-d087-4d35-9701-fb236c853ae7 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The specification is aimed to participate in the evaluation of access policies, participating in authentication processes that can ease the secure and trustworthy exchange of data. For security reasons, the XForms Processor must not dereference the URI bound to this form control without explicit user permission.
 
 Xforms 2.0 W3C reference:
 https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:b75f46f8-7fcd-402b-8791-aae97419ec3e .
+    cav:refersTo camssa:86b51cde-b510-4720-be31-88247e0abee4 .
 
-camssa:9f091b5a-71a9-4f08-ba31-542ce4460d62 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """XForms specification became an official W3C Recommendation on 14 October 2003. It has been evolved over the years with versions updates demonstrating that it overcame the possible issues raised on the development and implementation.
-
-Xforms 2.0 W3C reference:
-https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:9a6c53ff-125c-4927-a471-44b346a5682a .
-
-camssa:a31519bb-4d6b-4b17-8275-82dc4beff9a1 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
-    cav:value "100"^^xsd:int .
-
-camssa:a530f3b4-3765-44a4-89a8-7d2e17a46254 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """There is no Member State that includes Xforms 2.0 in their national catalogue with The National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
-
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:c5cf9429-821b-4df8-a161-60317caf9bef .
-
-camssa:ab309999-3d86-42e8-8ba9-b789057ad5f6 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
-    cav:value "100"^^xsd:int .
-
-camssa:ae4d99d9-bb11-4c23-9941-5f3f79961b52 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "After searching for a certification or conformity test to validate Xforms 2.0 no tool has been found that assess the conformity of the specification. However, there are tools that validate the previous version of Xforms, version 1.1."@en ;
-    cav:refersTo camssa:62937b27-469b-4229-8a57-7ebe78606163 .
-
-camssa:af0ebff1-83ab-431e-b241-19f077e22591 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
-    cav:value "100"^^xsd:int .
-
-camssa:b75f46f8-7fcd-402b-8791-aae97419ec3e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
-    cav:value "100"^^xsd:int .
-
-camssa:b826397e-6336-4878-bae9-7272c933cc21 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
-    cav:value "100"^^xsd:int .
-
-camssa:b957a22a-78c1-4eff-b961-dab388a7b61f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
-    cav:value "100"^^xsd:int .
-
-camssa:bafd75cb-8dde-4185-8b38-b57f788db3f0 a cav:Statement,
+camssa:a15d5512-b8e8-4dbd-9e49-86b3e9c547ed a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "None"@en ;
-    cav:refersTo camssa:62f724da-6c1e-48f1-9166-4ad6076ec737 .
+    cav:refersTo camssa:ec2c35a7-1909-4bf1-91f1-dd9c3cd76c81 .
 
-camssa:bc218efa-6bc1-4d51-96a7-844527d36ca7 a cav:Statement,
+camssa:aacc94e0-2bf5-4ace-928d-90800d4a5a88 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:74b91555-7b40-4b97-9dd4-cf1147843976 .
-
-camssa:c15f041f-7c3c-4870-8f00-9433db7cbfe9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
-    cav:value "100"^^xsd:int .
-
-camssa:c17648f8-4ba9-49b2-9645-51875f7ed896 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of Xforms is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
-
-Xforms 2.0 W3C reference:
-https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:d92e5e25-fd64-4ff9-8ec6-48bcd86d5bdb .
-
-camssa:c42fcf3d-9403-45e3-a5d6-5d7aeba2430d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Xforms was updated to version 2.0 in 2010 and has the full support from the W3C group, an international community where Member organizations, a full-time staff, and the public work together to develop Web standards.
-
-Xforms 2.0 W3C reference:
-https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:47c8967d-2fd2-4a5a-9861-860784e6c605 .
-
-camssa:c5cf9429-821b-4df8-a161-60317caf9bef a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
     cav:value "20"^^xsd:int .
 
-camssa:ca605fe9-ff26-498b-9546-ddf84d8005d1 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """By allowing public administrations to have online forms to interact with the population, Xforms fosters the visibility and comprehensibility of public administrations and services.
-
-Xforms 2.0 W3C reference:
-https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:954a94ec-85d0-4c2a-84d1-9fbc4d34d2b4 .
-
-camssa:cc20f379-c6e4-4bad-9909-62dbca989553 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of Xfoms 2.0 is not related to data portability. Therefore, this criterion is not applicable to this specification. 
-
-Xforms 2.0 W3C reference:
-https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:01a1463c-a2d3-4338-85a7-403c8a035543 .
-
-camssa:cf120117-6ae1-481e-8bc6-8a4f0a0d3355 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
-    cav:value "100"^^xsd:int .
-
-camssa:cfd36338-2bed-43c3-bca3-f4429361c75a a cav:Statement,
+camssa:ab162194-4b0c-4b8e-8d13-dd6b2ffccf93 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "None"@en ;
-    cav:refersTo camssa:02ba72a0-ea38-4f41-91de-4bd1c4987967 .
+    cav:refersTo camssa:195393cb-cc1c-47d8-b3d7-2f467b9a0bb6 .
 
-camssa:d25956b6-570a-4237-8e43-970ba7137e9c a cav:Statement,
+camssa:bb8a43d4-d9c9-4656-8b92-c3954109dc0b a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """The purpose of Xforms is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification. 
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
 
-Xforms 2.0 W3C reference:
-https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:234b823f-95b1-42c2-b0ce-4fc7a579cb72 .
-
-camssa:d3cd9b28-c9f3-40b5-b303-67c154f03b9c a cav:Statement,
+camssa:bf712e58-0ca4-4999-b883-24cb3bcf30b7 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """There are many documents that evaluate the effectiveness and efficiency of this specification. For example, in the following link there is a study of Xforms called "Efficient evaluation of shared predicates for XForms page access control".
 
 Xforms evaluation:
 https://ieeexplore.ieee.org/document/4766728"""@en ;
-    cav:refersTo camssa:f80f9d51-7f45-4efd-97ce-37b265c61b21 .
+    cav:refersTo camssa:cb150507-816a-4da6-aa7f-2ed8978f0a98 .
 
-camssa:d7f13494-d6ae-4664-a19a-a9c33859f529 a cav:Score,
+camssa:c0ae2db3-bc97-4533-9c72-2f6e9f30c133 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
-    cav:value "100"^^xsd:int .
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:8e3d353a-c00c-467f-8058-953e0662cdd5 .
 
-camssa:d92e5e25-fd64-4ff9-8ec6-48bcd86d5bdb a cav:Score,
+camssa:c1e324e0-3309-4ac6-a046-9ef82bdde7ae a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
-    cav:value "100"^^xsd:int .
+    cav:judgement """The purpose of Xforms is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
 
-camssa:da5e244a-7f9b-4fbe-a2fa-38d55fb1efbb a cav:Score,
+Xforms 2.0 W3C reference:
+https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
+    cav:refersTo camssa:5466f979-0f25-48be-9946-6ad6805fed4c .
+
+camssa:c28620ef-1bca-474e-b783-2191bb834b28 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:e3851cfb-6be2-4a41-8a3e-9deaf4cbbbe2 .
+
+camssa:c35e8bde-bb38-4b5e-afcb-421ee9450606 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
     cav:value "100"^^xsd:int .
 
-camssa:dec7851e-3d8b-43f0-8177-00c23840e024 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
-    cav:value "20"^^xsd:int .
-
-camssa:ea44118c-41ab-4bff-9dc7-ad28cf66ee7a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
-    cav:value "100"^^xsd:int .
-
-camssa:ee8bf30e-5378-425b-b05a-9d8ae008b11e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """By allowing public administrations to have online forms to interact with the population, Xforms fosters the visibility and comprehensibility of public administrations and services.
-
-Xforms 2.0 W3C reference:
-https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:af0ebff1-83ab-431e-b241-19f077e22591 .
-
-camssa:f17ffb5e-fd61-4acc-80b7-3231097c643f a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of Xforms is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification.
-
-Xforms 2.0 W3C reference:
-https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:da5e244a-7f9b-4fbe-a2fa-38d55fb1efbb .
-
-camssa:f38ebdc5-435e-4bf7-9fce-4d77a17ea7c3 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "After searching in the different official European websites, there is no evidence of any cross-border project that uses Xforms nor explicit agreements involving the usage of the specification."@en ;
-    cav:refersTo camssa:1395888f-149d-48a5-b1cb-32fdc86f539d .
-
-camssa:f54368e4-9db5-453c-a8ff-024024bce945 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Xforms 2.0 is not included in any Member States' catalogues of recommended specifications. However, Germany includes a previous version in its catalogue of recommended specifications.
-
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:ff3a57ee-83a1-4b98-92b5-0d47e3c9b1d6 .
-
-camssa:f557229f-8585-4baf-b5c9-e1cbced697f9 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Xforms 2.0 is a business domain agnostic specification that can be reused in a cross-domain way.
-
-Xforms 2.0 W3C reference:
-https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:534cd017-c5f8-4097-ad54-3dec859e435a .
-
-camssa:f66ec426-eb73-4e05-be5a-2b32267d15ef a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
-    cav:value "100"^^xsd:int .
-
-camssa:f80f9d51-7f45-4efd-97ce-37b265c61b21 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
-    cav:value "100"^^xsd:int .
-
-camssa:f8ad5a04-5680-48b3-94b6-b55c4ad599dd a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:1c7d97e9-ef56-4821-b185-a7d7eac2ad5b .
-
-camssa:f906e266-e362-4093-bdd9-25a0d397e199 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """There are many documents that evaluate the effectiveness and efficiency of this specification. For example, in the following link there is a study of Xforms called "Efficient evaluation of shared predicates for XForms page access control".
-
-Xforms evaluation:
-https://ieeexplore.ieee.org/document/4766728"""@en ;
-    cav:refersTo camssa:fd324cff-ac52-4620-8cb6-a13802b05bed .
-
-camssa:fa1445fe-4c3d-4067-84a0-16235b69748b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
-    cav:value "100"^^xsd:int .
-
-camssa:fb2f1c7a-5dbb-45ad-881f-3731e0f6da7b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
-    cav:value "0"^^xsd:int .
-
-camssa:fd324cff-ac52-4620-8cb6-a13802b05bed a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
-    cav:value "100"^^xsd:int .
-
-camssa:fdb50003-3031-4305-8448-04ee1fbbe9da a cav:Statement,
+camssa:c801a8de-465c-4464-9ec9-f944666d2a86 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """Xforms 2.0 can be used independently of any other technical specifications or operating system. However, Xforms is based on XML, so it can be dependent on conventions and rules for the correct XML usage. 
 
 Xforms 2.0 W3C reference:
 https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
-    cav:refersTo camssa:726c5c17-dd0b-422b-952f-03db20c8b117 .
+    cav:refersTo camssa:3d89c594-408a-49c1-8625-f6886986359c .
 
-camssa:ff3a57ee-83a1-4b98-92b5-0d47e3c9b1d6 a cav:Score,
+camssa:cb150507-816a-4da6-aa7f-2ed8978f0a98 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d8ebfc61-3d65-4a2f-b486-2e561581f11f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:ddfe51a5-6e61-4d4a-8de8-fff830f9d93f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Xfoms 2.0 is not related to data portability. Therefore, this criterion is not applicable to this specification. 
+
+Xforms 2.0 W3C reference:
+https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
+    cav:refersTo camssa:2c9850c7-6806-44a7-99ea-a1b7ff4b00f3 .
+
+camssa:e278bfc7-5ab6-4d7c-b533-ecfdce56b6ce a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no Member States recommending Xforms 2.0 in their ICT National Catalogues. However, Germany is recommending a previous version, Xforms 1.1.
+ 
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:fbe1160e-04f5-4ecb-a5e7-266bb17a2678 .
+
+camssa:e3851cfb-6be2-4a41-8a3e-9deaf4cbbbe2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:e97e82ed-8046-44ea-b370-297f87402251 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
     cav:value "20"^^xsd:int .
+
+camssa:ec1a0264-8b2c-4f76-bce8-a2b09ac9df6c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ec2c35a7-1909-4bf1-91f1-dd9c3cd76c81 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:f39933db-2e4d-439b-993d-a5569d6649e2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Xforms 2.0 is not included in any Member States' catalogues of recommended specifications. However, Germany includes a previous version in its catalogue of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:aacc94e0-2bf5-4ace-928d-90800d4a5a88 .
+
+camssa:f5b56feb-e51e-407d-979e-242f40a9d902 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f60a08a0-5f47-4b31-9bc1-a5c890971489 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "20"^^xsd:int .
+
+camssa:f66815fb-064f-4b1d-bb7c-ecba18b39bf5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f98256bb-c4cc-46f2-8406-559ce683af99 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:18fdee41-02ff-4a71-bc50-a8bc3e732993 .
+
+camssa:fb98de32-5c17-4ba7-98a8-ad1c435cb6f4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Xforms is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification.
+
+Xforms 2.0 W3C reference:
+https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
+    cav:refersTo camssa:1eea1e78-da4e-48c8-b102-822367cc4c75 .
+
+camssa:fbe1160e-04f5-4ecb-a5e7-266bb17a2678 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:fc5ddc16-aaa1-493d-b860-89a58c2c936c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:5b2908bc-8761-45ee-a163-3e03fbbdf77b .
+
+camssa:fcba82c7-0c8e-4101-9586-7914b6360619 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Xforms is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. 
+
+Xforms 2.0 W3C reference:
+https://www.w3.org/community/xformsusers/wiki/XForms_2.0"""@en ;
+    cav:refersTo camssa:75e7540c-3175-40bb-a9fe-f8574dca60e5 .
+
+camssa:fcdea5ae-7532-426a-a611-93a29b61f591 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
 

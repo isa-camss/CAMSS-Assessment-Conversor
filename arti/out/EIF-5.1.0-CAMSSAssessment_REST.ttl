@@ -24,412 +24,95 @@ camssa:8d3865076d549117b88c16224ddab2b3a114b2dfbd683303f021845c4c63d994 a cav:As
     camss:submissionDate "None"^^xsd:date ;
     camss:toolVersion tool:5.1.0 ;
     cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
-    cav:resultsIn camssa:0e20e56c-9cbd-4856-9029-b9723173aeff,
-        camssa:16737e54-8701-47d6-8dfa-bcd9cc7aac4b,
-        camssa:17ff8362-c53a-4a31-bd54-d052b68c4a19,
-        camssa:1ae3544a-9295-4fe2-9d85-fa2a77576aad,
-        camssa:26a01eaf-6150-40d7-b92e-c879c54c762a,
-        camssa:2a90b3eb-c5fe-45de-954c-91be3cf0b64a,
-        camssa:34df8adf-5d66-457b-8295-2dee6fc304d7,
-        camssa:3dd7ae2e-c949-4caa-9cf6-a367415163f0,
-        camssa:45738c66-6108-4ac1-b38d-3751b4b14d8b,
-        camssa:4735ea7c-fc82-4de4-9745-cac3ac8faa5a,
-        camssa:5ceaea66-784c-4414-9f4f-298a3aac1a1d,
-        camssa:5d29b992-1ae8-40f8-9575-dc61ccf7576e,
-        camssa:6f7d4dff-7aea-422a-80bf-67a759863a8a,
-        camssa:71e97a36-592b-45ed-9585-bd9acda82ec6,
-        camssa:77108bc1-b9db-4c71-b762-3150389852cd,
-        camssa:7bd8f2ad-1d26-49aa-8b2b-8a9259cbb1e0,
-        camssa:836dd0d2-36c6-4b9f-8caf-97dce0ff1915,
-        camssa:84c91553-051e-4988-9330-d75a363398ac,
-        camssa:86758fb9-fb66-4788-9ef5-3549968c8821,
-        camssa:8bd79449-7908-418c-a0dc-4de7bede4aca,
-        camssa:8de2822f-189a-49bd-a670-9e5df2104e13,
-        camssa:9051c7f2-becd-4121-8f59-61ddcc03f584,
-        camssa:94f54e2c-9055-4916-84ae-e73f70f376f6,
-        camssa:ac80019f-8c74-407c-85b5-eaa8f51b1a94,
-        camssa:b27ed6d5-f95f-45d0-8708-a5a11b4d3ecb,
-        camssa:b37814a7-fbfb-4171-88b2-8c5f8458f67b,
-        camssa:b8628b40-7260-4fd4-8d7d-e5cc6142273e,
-        camssa:bba539d3-d73d-40fa-a619-b8eca1b5ceee,
-        camssa:c0d95289-8dae-4ffd-996a-d86b370601c5,
-        camssa:c15d31d0-8e70-466d-9cf7-cf3581530f76,
-        camssa:c646695f-bdf4-46fe-95dd-83550c613872,
-        camssa:cd27050c-e86a-432e-bfd1-a4bc65cd9c83,
-        camssa:d020f2ba-f023-4110-bcd1-86ae74d4d4ac,
-        camssa:d61afd15-ea71-4e63-a12d-bafadddd380c,
-        camssa:db5a41e8-8bbd-4e7a-8953-2c4224533816,
-        camssa:dd4f87bf-a01c-4da2-bb7b-72c9bda0241d,
-        camssa:e690484e-447b-459b-9079-77355a77c6b5,
-        camssa:e83ea024-fdb9-4707-8c17-bf2328f33aa0,
-        camssa:ea496374-50b9-4979-bdb6-a11cd6c23b23,
-        camssa:ed8765df-9ae9-4251-908c-205a223507fd,
-        camssa:f6aebe0e-58b5-457b-9b94-c634b2ad6b28,
-        camssa:fa70bfb0-16cf-47d6-af79-ddbd2d6b795e,
-        camssa:ff6e751f-41e9-41b8-b9af-19dac930c393,
-        camssa:ffb4f57f-9361-44ac-bd90-8eaf1850c0e2 ;
+    cav:resultsIn camssa:02e00b0d-4087-4521-b12b-bd2b110caaa2,
+        camssa:03953003-220e-42c9-abfe-e7d020017f11,
+        camssa:1a52aead-be6a-4520-afdd-5ae9914753c9,
+        camssa:1b7f355c-c94a-4c6b-8b1e-88ae42eb0842,
+        camssa:241962f2-6b7a-4aa4-8b41-42e74073e550,
+        camssa:26d8d2a8-f6bd-4f15-8a00-66ae78ee5cb3,
+        camssa:2920faef-0423-4ee6-a938-a31c17a8ce28,
+        camssa:299d5381-a220-454d-93f9-28d74d9f08a0,
+        camssa:2a817423-a9c0-481b-b6ed-16b1380355ed,
+        camssa:2a8e0f1f-5321-41ff-b9c5-8ace80f58f62,
+        camssa:363843d0-6f62-4e4d-b991-0578112a22d3,
+        camssa:473471e7-a6f4-411f-8366-40bd0c37bc34,
+        camssa:4b8bd0db-c9f1-444f-88db-2f41d021a4f6,
+        camssa:5a6a3b66-27ce-41ed-94f9-ddd2fa26d8d8,
+        camssa:5c4337dc-531d-4b22-887a-5e9189c5f229,
+        camssa:5f4e9e98-7808-4798-a15d-760601e120f7,
+        camssa:6053551b-fdab-48e0-81ca-a3f6d2dd1275,
+        camssa:61975cba-8893-4900-83e9-616c4a4935ae,
+        camssa:6312505a-edd3-4933-bffa-5bcd5403b4fe,
+        camssa:6dc9f6c8-9cb7-4434-9794-d7e73dc2211b,
+        camssa:70378fee-13c9-43f5-88a6-095c2702ed20,
+        camssa:7938b920-ada8-4a07-b290-f24fd87ef709,
+        camssa:7bee005b-86a7-4dd4-8b2c-dcc13c905c30,
+        camssa:84d4aba3-752d-46ee-b35e-5bce642ed256,
+        camssa:898c7c34-a6de-4f4d-abb2-10e027c3dcff,
+        camssa:94e1ee9f-2045-4713-8b9b-26f3813f517c,
+        camssa:9571c397-a7d3-4867-ae62-5f3a0a168318,
+        camssa:9d563b35-ccc0-4e7e-8776-4b975b91d308,
+        camssa:9f78c8b6-8554-4196-990c-95f09860c2e7,
+        camssa:a945da60-0b3b-45cf-9ccc-5e7dd780f5e1,
+        camssa:b1ec0232-91b6-4c91-91d4-033e09efc644,
+        camssa:b1f09401-97b6-47e8-ab10-2b5fda48d3d1,
+        camssa:b417c2a9-b377-4c17-ad8f-1f661fde4e01,
+        camssa:b9f0dd4f-1bfc-4811-95df-fd632168cfa5,
+        camssa:bb5e1a30-3b2a-4e49-9a96-2f6b4d613bb7,
+        camssa:bb7fa06a-1ecb-47ef-a3b4-47233120c569,
+        camssa:bc40ca00-e247-4597-8d4f-75ee5fb62a6f,
+        camssa:bc4c2820-0182-4a7f-bf5b-44d06e3f4ea9,
+        camssa:be1b4080-bd29-4f35-858a-d180f5c980ce,
+        camssa:d13732c7-af6e-46ba-9bb9-0a9064ecffe6,
+        camssa:d70ee20b-a54f-4aa5-a26c-caf8ee0854f4,
+        camssa:d8a51439-8319-45a2-a790-d581b0938ce6,
+        camssa:f22c0503-4940-4d04-849e-b732ed4b1602,
+        camssa:f48da802-0d03-4058-9bec-17bf9969594c ;
     cav:status status:Complete ;
     dct:title "REST"@en .
 
-camssa:00e5f26a-97e4-4efc-bf5f-7aa9af2e0681 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
-    cav:value "20"^^xsd:int .
-
-camssa:02f9f031-e242-4f4b-aa35-098daa3f7140 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
-    cav:value "100"^^xsd:int .
-
-camssa:0ca98970-61f0-44be-b3db-b2c77d2742b0 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
-    cav:value "100"^^xsd:int .
-
-camssa:0e0c6158-79a1-4b8b-a0b5-d1a9976ece34 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
-    cav:value "100"^^xsd:int .
-
-camssa:0e20e56c-9cbd-4856-9029-b9723173aeff a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'Being a software architectural style based on http methods, REST principles can be applied in any case, and therefore, is a resource not subject to royalties or any kind of propietary restrictions.
-
-REST reference:
-https://restfulapi.net/
-'"""@en ;
-    cav:refersTo camssa:260ee4a6-06d3-474c-9d74-9a81c90c7aaf .
-
-camssa:0ff4892f-6267-47f2-a46e-d2c0fc6e32c0 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
-    cav:value "100"^^xsd:int .
-
-camssa:12008e51-ccc1-40d3-bdbc-86cef88ae6f8 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
-    cav:value "100"^^xsd:int .
-
-camssa:16737e54-8701-47d6-8dfa-bcd9cc7aac4b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of REST is not related to the reuse of information. Therefore, this criterion is not applicable to this specification. 
-
-REST reference:
-https://restfulapi.net/'"""@en ;
-    cav:refersTo camssa:894e310e-7ad1-40c2-b9d8-f3804be5f641 .
-
-camssa:17ff8362-c53a-4a31-bd54-d052b68c4a19 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'REST architectural constraints are designed to ensure interoperability between different internet computer systems, thus rendering the communications between systems that  conform to REST more efficient and easy. Consequently,
-REST can impact positivey in the creation of organisational interoperability agreements.
-
-REST reference:
-https://restfulapi.net/
-
-R. Fielding dissertation: chapter 5.
-https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm'"""@en ;
-    cav:refersTo camssa:ed1d8753-aabf-48af-b99d-bf30558459b9 .
-
-camssa:1ae3544a-9295-4fe2-9d85-fa2a77576aad a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of REST is not related to the protection of personal data. Therefore, this criterion is not applicable to this specification. 
-
-REST reference:
-https://restfulapi.net/'"""@en ;
-    cav:refersTo camssa:71b6180b-6928-417c-be36-d2be684d52f6 .
-
-camssa:260ee4a6-06d3-474c-9d74-9a81c90c7aaf a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
-    cav:value "100"^^xsd:int .
-
-camssa:26a01eaf-6150-40d7-b92e-c879c54c762a a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"Europeana is a European Commission project which aims to create a cross-border database of all Europe's national museums artworks. For that purpose, the Europeana REST api allows the building of applications  that use the wealth of the collections drawn from the major museums across Europe.
-
-Europeana REST api reference:    
-https://pro.europeana.eu/page/intro#:~:text=The%20Europeana%20REST%20API%20allows%20you%20to%20build,from%20the%20major%20museums%20and%20galleries%20across%20Europe.\""""@en ;
-    cav:refersTo camssa:bf9c2f1b-99d6-4e56-ac47-a403df3c41b3 .
-
-camssa:27537cc8-1d95-42f7-89e3-9c483b23acd2 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
-    cav:value "100"^^xsd:int .
-
-camssa:2a3e740e-c809-4254-9ddc-2dd0c4337e4e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
-    cav:value "100"^^xsd:int .
-
-camssa:2a90b3eb-c5fe-45de-954c-91be3cf0b64a a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The six architectural constraints of REST emphasize the scalability of interactions between components, uniform interfaces, independent deployment of components and the creation of layered architecture to facilitate its usage across business domains.  
-
-REST reference:
-https://restfulapi.net/'"""@en ;
-    cav:refersTo camssa:9cdf67ea-e344-40f6-b0f0-fc3dc093dbf4 .
-
-camssa:2d7dea4d-1409-4ca4-992d-73cd8eed7b44 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
-    cav:value "20"^^xsd:int .
-
-camssa:30dc09bb-1631-4369-a00c-10de69e7ac26 a cav:Score,
+camssa:02ae56f4-8fa5-4c29-bf78-479fb33e0c6e a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
     cav:value "20"^^xsd:int .
 
-camssa:315f0ec4-5e03-43c1-8193-d201ad49a8eb a cav:Score,
+camssa:02e00b0d-4087-4521-b12b-bd2b110caaa2 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
-    cav:value "100"^^xsd:int .
-
-camssa:34df8adf-5d66-457b-8295-2dee6fc304d7 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "nan"@en ;
-    cav:refersTo camssa:44b21db0-b26f-4bb1-8ca4-9dacc48be586 .
-
-camssa:3dd7ae2e-c949-4caa-9cf6-a367415163f0 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'As REST is an architectural style, it is designed to be compatible with any software, and does not rely on any other standard or specification.
+    cav:judgement """'The purpose of REST is not related to the development of business processes.  Therefore this criterion is not applicable.  
 
 REST reference:
-https://restfulapi.net/rest-architectural-constraints/'"""@en ;
-    cav:refersTo camssa:0ff4892f-6267-47f2-a46e-d2c0fc6e32c0 .
+https://restfulapi.net/'"""@en ;
+    cav:refersTo camssa:803b35f8-8242-4c68-bca5-74a0b589bcb5 .
 
-camssa:3f7f5c6a-b71b-4ec2-8d6d-225eeb945468 a cav:Score,
+camssa:03953003-220e-42c9-abfe-e7d020017f11 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:judgement """"REST is a sofware architectural style which defines a set of costraints for how the architecture of an internet-scale distributed hypermedia system should behave. REST architectural constraints are designed to provide efficient and scalable client-server applications through a URI resource approach. In this regard, REST allows for a greater  interoperability, explicitly addressing and enabling data portability between systems/applications.
+
+REST reference:
+https://restfulapi.net/
+
+REST Introduction from Roy Fielding's dissertation:
+https://www.ics.uci.edu/~fielding/pubs/dissertation/introduction.htm\""""@en ;
+    cav:refersTo camssa:f9ffcb5f-9be0-4ef9-b239-6a07122b94ff .
+
+camssa:044d273e-62cf-4814-884e-72fba5d24bf3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
     cav:value "100"^^xsd:int .
 
-camssa:3ff3a096-179d-4ff3-8112-072607b9df95 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
-    cav:value "100"^^xsd:int .
-
-camssa:43d5a606-a3ec-4767-92f8-e23e048a82a8 a cav:Score,
+camssa:0cbd6d8a-9ed3-45a9-bb43-77c48d83c108 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
     cav:value "100"^^xsd:int .
 
-camssa:44b21db0-b26f-4bb1-8ca4-9dacc48be586 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
-    cav:value "100"^^xsd:int .
-
-camssa:45738c66-6108-4ac1-b38d-3751b4b14d8b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'REST enables digital service delivery channels by providing a widely-used architectural style designed for client-server applications.  
-
-REST reference:
-https://restfulapi.net/'"""@en ;
-    cav:refersTo camssa:43d5a606-a3ec-4767-92f8-e23e048a82a8 .
-
-camssa:4735ea7c-fc82-4de4-9745-cac3ac8faa5a a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'There are many communities that share their data and results of their implementations of REST. Some examples of such communities can be found in the following links.
-
-3CX community:
-https://www.3cx.com/community/threads/rest-api.74033/
-
-DocuWare community forum:
-https://support.docuware.com/es-ES/forums/help-with-technical-problems/07aabc66-fcd2-ea11-bf22-00155d3d4054'"""@en ;
-    cav:refersTo camssa:75caa67e-21fe-44f4-b391-8e6fdfd47344 .
-
-camssa:47fa6780-4ef4-49c8-ae99-3aa40a412db7 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
-    cav:value "100"^^xsd:int .
-
-camssa:4d3ff640-bd2d-48be-9a74-c85828f869bf a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
-    cav:value "100"^^xsd:int .
-
-camssa:4d65a743-3f51-4c47-af8d-8a64facca29a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
-    cav:value "100"^^xsd:int .
-
-camssa:4e4a44b3-df93-44fa-9cb1-7eeb76d448af a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
-    cav:value "100"^^xsd:int .
-
-camssa:51004c7b-3812-4888-9b3e-df88e0b7617b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
-    cav:value "100"^^xsd:int .
-
-camssa:5ceaea66-784c-4414-9f4f-298a3aac1a1d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'There is no evidence found of the creation of any community along with the sharing of their data and results on European platforms.
-
-REST reference:
-https://restfulapi.net/'"""@en ;
-    cav:refersTo camssa:00e5f26a-97e4-4efc-bf5f-7aa9af2e0681 .
-
-camssa:5d29b992-1ae8-40f8-9575-dc61ccf7576e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'REST architectural style streamlines administrative processes by easing the communication and digital exchange of information between clients and servers. For that matter, the implementation of REST architectural constraints helps to simplify the delivery of European Public Services.
-
-REST reference:
-https://restfulapi.net/rest-architectural-constraints/'"""@en ;
-    cav:refersTo camssa:27537cc8-1d95-42f7-89e3-9c483b23acd2 .
-
-camssa:658dfe01-23e6-4caa-a5f2-0c72e6ec226d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
-    cav:value "None"^^xsd:int .
-
-camssa:660b12d0-3ccf-4c10-be1e-0eda16c8c08d a cav:Score,
+camssa:1674a38b-b172-4269-9c3c-dcab346b1dcf a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
     cav:value "100"^^xsd:int .
 
-camssa:69605c67-323f-4f97-9383-a24a6f899218 a cav:Score,
+camssa:1a52aead-be6a-4520-afdd-5ae9914753c9 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
-    cav:value "100"^^xsd:int .
-
-camssa:6f0c67d8-e6b2-4d75-ac79-cb7028d0b6b3 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
-    cav:value "60"^^xsd:int .
-
-camssa:6f7d4dff-7aea-422a-80bf-67a759863a8a a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'REST architectural style is mainly defined by its architectural constraints. Any system that does not conform to all of RESTs constraints cannot be considered as RESTful.  Therefore, the specification does not support partial implementtions.
-
-REST architectural constraints reference:
-https://restfulapi.net/rest-architectural-constraints/'"""@en ;
-    cav:refersTo camssa:30dc09bb-1631-4369-a00c-10de69e7ac26 .
-
-camssa:71b6180b-6928-417c-be36-d2be684d52f6 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
-    cav:value "100"^^xsd:int .
-
-camssa:71e97a36-592b-45ed-9585-bd9acda82ec6 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'Through the caching architectural principle, REST has the ability to store copies of frequently accessed data in several places along the requeest-response path.
-The Cache Control Headers can indicate when a representation never expires, meaning that the data of the representation is well preserved.   
-
-REST Caching resference:
-https://restfulapi.net/caching/'"""@en ;
-    cav:refersTo camssa:3f7f5c6a-b71b-4ec2-8d6d-225eeb945468 .
-
-camssa:75840583-c204-4f1a-b2a8-ee23223985ff a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
-    cav:value "100"^^xsd:int .
-
-camssa:75caa67e-21fe-44f4-b391-8e6fdfd47344 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
-    cav:value "100"^^xsd:int .
-
-camssa:76bb2afc-ed1d-4a4b-9448-144a4f7e9d68 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
-    cav:value "100"^^xsd:int .
-
-camssa:77108bc1-b9db-4c71-b762-3150389852cd a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"Within the Roy Fielding dissertation of REST ou can find a chapter that addresses the experience and lessons learned from applying REST.  REST's efficiency, as stated in the dissertation, is mainly based on its architectural constraints, which captures all of those aspects of a distributed hypermedia system that are considered central to the behavioral and performance requirements of the Web.
-
-R. Fielding dissertation.  Chapter 6: experience and evaluation.
-https://www.ics.uci.edu/~fielding/pubs/dissertation/evaluation.htm\""""@en ;
-    cav:refersTo camssa:47fa6780-4ef4-49c8-ae99-3aa40a412db7 .
-
-camssa:7bd8f2ad-1d26-49aa-8b2b-8a9259cbb1e0 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'REST apis have 8 main security design principles that aim to provide a secure and trustwrthy exchange and processing of data.  
-
-REST API security essentials reference:
-https://restfulapi.net/security-essentials/'"""@en ;
-    cav:refersTo camssa:a58895a5-4ffb-4b96-9bf9-1b5a945a6826 .
-
-camssa:836dd0d2-36c6-4b9f-8caf-97dce0ff1915 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'REST has been included in the catalogue of Finland and Slovakia. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. 
-
-National catalogue of Finland: 
-https://joinup.ec.europa.eu/sites/default/files/inline-files/Finland%20Factsheet%20Validated.pdf
-
-National catalogue of Slovakia:
-https://joinup.ec.europa.eu/sites/default/files/inline-files/NIFO%20-%20Factsheet%20Slovakia_2016_v1_0.pdf
-
-NIFO factsheets:
-https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/digital-public-administration-factsheets-2021'"""@en ;
-    cav:refersTo camssa:660b12d0-3ccf-4c10-be1e-0eda16c8c08d .
-
-camssa:84c91553-051e-4988-9330-d75a363398ac a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The REST API is the most widely used API for client-server interface interaction, being implemented by large organisations such as Facebook or Amazon, thus demonstrating its maturity for the development of digital solutions/services.
-
-REST reference:
- https://restfulapi.net/
-
-Amazon Web Services reference:
-https://docs.aws.amazon.com/apigateway/api-reference/
-
-Facebook reference:
-https://zappysys.com/blog/get-data-from-facebook-in-ssis-using-rest-api/#:~:text=Facebook%20provides%20rich%20set%20of%20REST%20API%20to,popular%20programming%20languages%20%28e.g.%20C%23%2C%20Java%2C%20Ruby%2C%20Python%29.'"""@en ;
-    cav:refersTo camssa:95da67ac-93ba-4390-b60d-caecacdc725c .
-
-camssa:86758fb9-fb66-4788-9ef5-3549968c8821 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'REST specification conformance can be manually assessed by following its architectural constraints to help in obtaining a uniform interface and guiding the behaviour of components. No conformance testing platform has been found, however, there are accessible assessment online guides.
-
-REST reference:
-https://restfulapi.net/rest-architectural-constraints/
-'"""@en ;
-    cav:refersTo camssa:6f0c67d8-e6b2-4d75-ac79-cb7028d0b6b3 .
-
-camssa:894e310e-7ad1-40c2-b9d8-f3804be5f641 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
-    cav:value "100"^^xsd:int .
-
-camssa:8b89f854-0a94-4a6d-aa33-6919f833391e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
-    cav:value "100"^^xsd:int .
-
-camssa:8bd79449-7908-418c-a0dc-4de7bede4aca a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The six architectural constraints of REST emphasize the scalability of interactions between components, uniform interfaces, independent deployment of components and the creation of layered architecture to allow its implementation across business domains.  
-
-REST reference:
-https://restfulapi.net/
-'"""@en ;
-    cav:refersTo camssa:0ca98970-61f0-44be-b3db-b2c77d2742b0 .
-
-camssa:8de2822f-189a-49bd-a670-9e5df2104e13 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'As REST is an architectural style, it is designed to be implemented in any platform, and does not rely on any other standard or specification.
-
-REST reference:
-https://restfulapi.net/rest-architectural-constraints/'"""@en ;
-    cav:refersTo camssa:8b89f854-0a94-4a6d-aa33-6919f833391e .
-
-camssa:8f792c28-f59f-4236-bff0-2ffd1b95d30d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
-    cav:value "100"^^xsd:int .
-
-camssa:9051c7f2-becd-4121-8f59-61ddcc03f584 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The REST specification appears in the EIRA Library of Interoperable Specifications (ELIS) as a technical application associated to the machine to machine interface ABB,  therefore it can be mapped to the EIRA.
-
-ELIS referenece:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
-    cav:refersTo camssa:4d3ff640-bd2d-48be-9a74-c85828f869bf .
-
-camssa:94f54e2c-9055-4916-84ae-e73f70f376f6 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'REST is an architecture style that defines how different systems should interact. REST APIs generate a way of accessing web services in a simple and flexible way without having any processing thus allowing greater interoperability between clients and servers.
+    cav:judgement """'REST is an architecture style that defines how different systems should interact. REST APIs generate a way of accessing web services in a simple and flexible way without having any processing,Therefore allowing for a comprehensible display of administrative procedures, and services.
 The french government website data.gouv.fr which hosts the french governments datasets is built under the REST architectural style.
 
 REST reference:
@@ -437,72 +120,53 @@ https://restfulapi.net/
 
 Data.gouv.fr reference:
 https://doc.data.gouv.fr/api/intro/'"""@en ;
-    cav:refersTo camssa:ed607593-c9b0-4616-ad48-7888a696c4c2 .
+    cav:refersTo camssa:485b9543-b082-4f33-bb7c-b54e2a81998e .
 
-camssa:95da67ac-93ba-4390-b60d-caecacdc725c a cav:Score,
+camssa:1b7f355c-c94a-4c6b-8b1e-88ae42eb0842 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:judgement """"Europeana is a European Commission project which aims to create a cross-border database of all Europe's national museums artworks. For that purpose, the Europeana REST api allows the building of applications  that use the wealth of the collections drawn from the major museums across Europe.
+
+Europeana REST api reference:    
+https://pro.europeana.eu/page/intro#:~:text=The%20Europeana%20REST%20API%20allows%20you%20to%20build,from%20the%20major%20museums%20and%20galleries%20across%20Europe.\""""@en ;
+    cav:refersTo camssa:8650e236-0b07-418e-a813-2f0406147d4d .
+
+camssa:1cb277ef-a1a6-4967-8da3-bd5d59475420 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
     cav:value "100"^^xsd:int .
 
-camssa:9c685fa2-611e-4b71-95bc-7ebe72600a9c a cav:Score,
+camssa:21934c74-f9b8-4ebf-bd05-40dace13525d a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
-    cav:value "60"^^xsd:int .
-
-camssa:9cdf67ea-e344-40f6-b0f0-fc3dc093dbf4 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
     cav:value "100"^^xsd:int .
 
-camssa:a58895a5-4ffb-4b96-9bf9-1b5a945a6826 a cav:Score,
+camssa:241962f2-6b7a-4aa4-8b41-42e74073e550 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
-    cav:value "100"^^xsd:int .
+    cav:judgement """'REST is an architecture style that defines how different systems should interact. REST APIs generate a way of accessing web services in a simple and flexible way without having any processing, thus explicitly addressing and enabling e-accessibility
 
-camssa:ac80019f-8c74-407c-85b5-eaa8f51b1a94 a cav:Statement,
+REST reference:
+https://restfulapi.net/'"""@en ;
+    cav:refersTo camssa:5dc50018-c75e-47cf-bb66-1172863bef80 .
+
+camssa:26d8d2a8-f6bd-4f15-8a00-66ae78ee5cb3 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'With a REST protocol you can do the following operations with data POST (creation), GET, PUT, DELETE. So in some way, it facilitates the publication of public data as open data. 
+    cav:judgement """'Through the caching architectural principle, REST has the ability to store copies of frequently accessed data in several places along the requeest-response path.
+The Cache Control Headers can indicate when a representation never expires, meaning that the data of the representation is well preserved.   
 
-See this link for the justification: 
-https://www.bbvaapimarket.com/es/mundo-api/api-rest-que-es-y-cuales-son-sus-ventajas-en-el-desarrollo-de-proyectos/ '"""@en ;
-    cav:refersTo camssa:315f0ec4-5e03-43c1-8193-d201ad49a8eb .
+REST Caching resference:
+https://restfulapi.net/caching/'"""@en ;
+    cav:refersTo camssa:2dc0cc9c-692c-4b83-af70-dfe30849abe7 .
 
-camssa:b27ed6d5-f95f-45d0-8708-a5a11b4d3ecb a cav:Statement,
+camssa:2920faef-0423-4ee6-a938-a31c17a8ce28 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement "nan"@en ;
-    cav:refersTo camssa:c2429e88-9f95-461c-891f-e4d6337195ed .
-
-camssa:b37814a7-fbfb-4171-88b2-8c5f8458f67b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of REST within any European catalogue of standards.
-
-ICT technical specifications:
-https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en
-
-CENELEC and CEN search tool catalogue:
-https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::
-
-CENELEC and CEN website:
-https://www.cencenelec.eu/'"""@en ;
-    cav:refersTo camssa:ba7018bd-c8c7-4a6d-a951-4e65fc126160 .
-
-camssa:b8628b40-7260-4fd4-8d7d-e5cc6142273e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"REST is a sofware architectural style which defines a set of costraints for how the architecture of an internet-scale distributed hypermedia system should behave. REST architectural constraints are designed to provide efficient and scalable client-server applications allowing for extensions and new adaptations when needed. In this regard, REST allows for a greater interoperability, explicitly addressing and enabling data portability between systems/applications.
+    cav:judgement """'Being a software architectural style based on http methods, REST principles can be applied in any case, and therefore, is a resource not subject to royalties or any kind of propietary restrictions.
 
 REST reference:
 https://restfulapi.net/
+'"""@en ;
+    cav:refersTo camssa:dbf4f5ca-3da1-4aa6-b27a-9db7a585c16b .
 
-REST Introduction from Roy Fielding's dissertation:
-https://www.ics.uci.edu/~fielding/pubs/dissertation/introduction.htm\""""@en ;
-    cav:refersTo camssa:12008e51-ccc1-40d3-bdbc-86cef88ae6f8 .
-
-camssa:ba7018bd-c8c7-4a6d-a951-4e65fc126160 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
-    cav:value "20"^^xsd:int .
-
-camssa:bba539d3-d73d-40fa-a619-b8eca1b5ceee a cav:Statement,
+camssa:299d5381-a220-454d-93f9-28d74d9f08a0 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'In the REST architectural style, data and functionality are considered resources and are accessed using Uniform Resource Identifiers (URIs).  
 With a REST protocol you can do the following operations with data POST (creation), GET, PUT, DELETE. Thus, in some way, it facilitates the publication of public data as open data. 
@@ -516,193 +180,17 @@ https://www.bbvaapimarket.com/es/mundo-api/api-rest-que-es-y-cuales-son-sus-vent
 The 5-star of Tim Berners-Lee can be found in the following link: 
 https://5stardata.info/en/ 
 '"""@en ;
-    cav:refersTo camssa:658dfe01-23e6-4caa-a5f2-0c72e6ec226d .
+    cav:refersTo camssa:792cd949-7b6d-4dfb-b66c-4a6af143136c .
 
-camssa:bf9c2f1b-99d6-4e56-ac47-a403df3c41b3 a cav:Score,
+camssa:2a817423-a9c0-481b-b6ed-16b1380355ed a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
-    cav:value "100"^^xsd:int .
-
-camssa:c0d95289-8dae-4ffd-996a-d86b370601c5 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'REST is an architecture style that defines how different systems should interact. REST APIs generate a way of accessing web services in a simple and flexible way without having any processing,Therefore allowing for a comprehensible display of administrative procedures, and services.
-The french government website data.gouv.fr which hosts the french governments datasets is built under the REST architectural style.
+    cav:judgement """'REST architectural style streamlines administrative processes by easing the communication and digital exchange of information between clients and servers. For that matter, the implementation of REST architectural constraints helps to simplify the delivery of European Public Services.
 
 REST reference:
-https://restfulapi.net/
+https://restfulapi.net/rest-architectural-constraints/'"""@en ;
+    cav:refersTo camssa:a44db3fd-6788-4bf3-9ece-2f68d85c2b8a .
 
-Data.gouv.fr reference:
-https://doc.data.gouv.fr/api/intro/'"""@en ;
-    cav:refersTo camssa:3ff3a096-179d-4ff3-8112-072607b9df95 .
-
-camssa:c15d31d0-8e70-466d-9cf7-cf3581530f76 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'REST is an architecture style that defines how different systems should interact. REST APIs generate a way of accessing web services in a simple and flexible way without having any processing, thus explicitly addressing and enabling e-accessibility
-
-REST reference:
-https://restfulapi.net/'"""@en ;
-    cav:refersTo camssa:e7adaf75-4be4-4696-b776-7a523945e1d2 .
-
-camssa:c2429e88-9f95-461c-891f-e4d6337195ed a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
-    cav:value "100"^^xsd:int .
-
-camssa:c646695f-bdf4-46fe-95dd-83550c613872 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'REST apis have 8 main security design principles that aim to provide a secure and trustwrthy exchange and processing of data.  
-
-REST API security essentials reference:
-https://restfulapi.net/security-essentials/'"""@en ;
-    cav:refersTo camssa:d140a079-599e-4a6b-a5e2-ea8ee73b02e9 .
-
-camssa:cd27050c-e86a-432e-bfd1-a4bc65cd9c83 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'REST has a wide-spread market acceptance as it is a common method to connect components in microservice architectures.  Among the top businessess who implement it we can find IBM or Amazon Web services.
-
-Amazon Web Services reference:
-https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-rest-api.html
-
-REST IBM reference:
-https://www.ibm.com/es-es/cloud/learn/rest-apis'"""@en ;
-    cav:refersTo camssa:4d65a743-3f51-4c47-af8d-8a64facca29a .
-
-camssa:ce0c0cdf-a019-406a-a6dc-5311d442a672 a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "DIGIT-CAMSS@eu.europa.eu" .
-
-camssa:d020f2ba-f023-4110-bcd1-86ae74d4d4ac a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'Within the Roy Fielding dissertation of REST you can find a chapter that addresses the experience and lessons learned from applying REST.  The evaluation of effectiveness, as outlined in the dissertation, is based on the versatility and domain-agnostic nature of REST.   
-
-R. Fielding dissertation.  Chapter 6: experience and evaluation.
-https://www.ics.uci.edu/~fielding/pubs/dissertation/evaluation.htm'"""@en ;
-    cav:refersTo camssa:2a3e740e-c809-4254-9ddc-2dd0c4337e4e .
-
-camssa:d140a079-599e-4a6b-a5e2-ea8ee73b02e9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
-    cav:value "100"^^xsd:int .
-
-camssa:d61afd15-ea71-4e63-a12d-bafadddd380c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of REST as a European standard.
-
-ICT technical specifications:
-https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en
-
-CENELEC and CEN search tool catalogue:
-https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
-    cav:refersTo camssa:2d7dea4d-1409-4ca4-992d-73cd8eed7b44 .
-
-camssa:db5a41e8-8bbd-4e7a-8953-2c4224533816 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of REST is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification. 
-
-REST reference:
-https://restfulapi.net/'"""@en ;
-    cav:refersTo camssa:51004c7b-3812-4888-9b3e-df88e0b7617b .
-
-camssa:dd4f87bf-a01c-4da2-bb7b-72c9bda0241d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "nan"@en ;
-    cav:refersTo camssa:e9a7883f-e2ad-47cc-b6c7-23609b06215e .
-
-camssa:e690484e-447b-459b-9079-77355a77c6b5 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """' REST is included in the ICT national catalogues of Slovakia and Finland.
-
-Finland national catalogue:
-https://joinup.ec.europa.eu/sites/default/files/inline-files/Finland%20Factsheet%20Validated.pdf
-
-Slovakia national catalogue:
-https://joinup.ec.europa.eu/sites/default/files/inline-files/Slovakia%20Factsheet_0.pdf'"""@en ;
-    cav:refersTo camssa:4e4a44b3-df93-44fa-9cb1-7eeb76d448af .
-
-camssa:e7adaf75-4be4-4696-b776-7a523945e1d2 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
-    cav:value "100"^^xsd:int .
-
-camssa:e83ea024-fdb9-4707-8c17-bf2328f33aa0 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'One of REST's architectural properties is the modifiability of components to meet changing needs. The REST constraint "code on demand" applies when returning executable code is needed in order to support a part of the application. Therefore the server can extend or customize the functionality of a client by transferring executable code: for example, compiled components such as Java applets, or client-side scripts such as JavaScript.
-
-REST "code on demand" reference:
-https://restfulapi.net/rest-architectural-constraints/#code-on-demand
-
-REST R. Fielding dissertation: Chapter 5
-https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm'"""@en ;
-    cav:refersTo camssa:8f792c28-f59f-4236-bff0-2ffd1b95d30d .
-
-camssa:e9a7883f-e2ad-47cc-b6c7-23609b06215e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
-    cav:value "100"^^xsd:int .
-
-camssa:ea496374-50b9-4979-bdb6-a11cd6c23b23 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'There are many available public online channels for the exchange of help and knowledge among REST users. See the links below for such examples.
-
-Microsoft developer network reference:
-https://social.msdn.microsoft.com/Forums/es-ES/d720e383-96ca-4b8a-9d53-ad78bc51eeee/web-api-rest-c-json
-
-Opentext developer reference:
-https://forums.opentext.com/forums/developer/discussion/235439/rest-api-categories'"""@en ;
-    cav:refersTo camssa:9c685fa2-611e-4b71-95bc-7ebe72600a9c .
-
-camssa:ed1d8753-aabf-48af-b99d-bf30558459b9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
-    cav:value "100"^^xsd:int .
-
-camssa:ed607593-c9b0-4616-ad48-7888a696c4c2 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
-    cav:value "100"^^xsd:int .
-
-camssa:ed8765df-9ae9-4251-908c-205a223507fd a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"The uniform interface constraint is fundamental to the design of any RESTful system. It simplifies and decouples the architecture, which enables each part to evolve indepently.  For that reason, REST architectural style ensures standarized transfer of information between softwares, thus enabling the exposure of interfaces.
-
-REST reference:
-https://restfulapi.net/rest-architectural-constraints/#uniform-interface
-
-REST Chapter 5 from Roy Fielding's dissertation:
-https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm\""""@en ;
-    cav:refersTo camssa:02f9f031-e242-4f4b-aa35-098daa3f7140 .
-
-camssa:f6aebe0e-58b5-457b-9b94-c634b2ad6b28 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"REST is a sofware architectural style which defines a set of costraints for how the architecture of an internet-scale distributed hypermedia system should behave. REST architectural constraints are designed to provide efficient and scalable client-server applications through a URI resource approach. In this regard, REST allows for a greater  interoperability, explicitly addressing and enabling data portability between systems/applications.
-
-REST reference:
-https://restfulapi.net/
-
-REST Introduction from Roy Fielding's dissertation:
-https://www.ics.uci.edu/~fielding/pubs/dissertation/introduction.htm\""""@en ;
-    cav:refersTo camssa:75840583-c204-4f1a-b2a8-ee23223985ff .
-
-camssa:fa70bfb0-16cf-47d6-af79-ddbd2d6b795e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of REST is not related to the development of business processes.  Therefore this criterion is not applicable.  
-
-REST reference:
-https://restfulapi.net/'"""@en ;
-    cav:refersTo camssa:0e0c6158-79a1-4b8b-a0b5-d1a9976ece34 .
-
-camssa:ff6e751f-41e9-41b8-b9af-19dac930c393 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'One of REST's architectural properties is the modifiability of components to meet changing needs. The REST constraint "code on demand" applies when returning executable code is needed in order to support a part of the application.  Therefore the server can extend or customize the functionality of a client by transferring executable code: for example, compiled components such as Java applets, or client-side scripts such as JavaScript.
-
-REST "code on demand" reference:
-https://restfulapi.net/rest-architectural-constraints/#code-on-demand
-
-REST R. Fielding dissertation: Chapter 5
-https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm'"""@en ;
-    cav:refersTo camssa:69605c67-323f-4f97-9383-a24a6f899218 .
-
-camssa:ffb4f57f-9361-44ac-bd90-8eaf1850c0e2 a cav:Statement,
+camssa:2a8e0f1f-5321-41ff-b9c5-8ace80f58f62 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'The REST standard is recommended in the national catalogue of Slovakia and Finland.
 
@@ -714,5 +202,517 @@ https://joinup.ec.europa.eu/sites/default/files/inline-files/Finland%20Factsheet
 
 Slovakia national catalogue:
 https://joinup.ec.europa.eu/sites/default/files/inline-files/Slovakia%20Factsheet_0.pdf'"""@en ;
-    cav:refersTo camssa:76bb2afc-ed1d-4a4b-9448-144a4f7e9d68 .
+    cav:refersTo camssa:93f60d7c-a0d3-4343-8ca3-7e56b46c158a .
+
+camssa:2ad42711-6eaa-45e7-b732-26ef611c1657 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:2cbc2304-0c0c-4d71-af3c-8316f5d6396b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2dc0cc9c-692c-4b83-af70-dfe30849abe7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:31824714-1c0c-4495-a1fd-56c2d38bde41 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:363843d0-6f62-4e4d-b991-0578112a22d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'REST has a wide-spread market acceptance as it is a common method to connect components in microservice architectures.  Among the top businessess who implement it we can find IBM or Amazon Web services.
+
+Amazon Web Services reference:
+https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-rest-api.html
+
+REST IBM reference:
+https://www.ibm.com/es-es/cloud/learn/rest-apis'"""@en ;
+    cav:refersTo camssa:21934c74-f9b8-4ebf-bd05-40dace13525d .
+
+camssa:3dfbe382-bad9-45d9-aed8-65b4e11d862c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:4160d73c-9d73-47bf-8e4d-e8c9eefd5cbb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:473471e7-a6f4-411f-8366-40bd0c37bc34 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The REST API is the most widely used API for client-server interface interaction, being implemented by large organisations such as Facebook or Amazon, thus demonstrating its maturity for the development of digital solutions/services.
+
+REST reference:
+ https://restfulapi.net/
+
+Amazon Web Services reference:
+https://docs.aws.amazon.com/apigateway/api-reference/
+
+Facebook reference:
+https://zappysys.com/blog/get-data-from-facebook-in-ssis-using-rest-api/#:~:text=Facebook%20provides%20rich%20set%20of%20REST%20API%20to,popular%20programming%20languages%20%28e.g.%20C%23%2C%20Java%2C%20Ruby%2C%20Python%29.'"""@en ;
+    cav:refersTo camssa:4160d73c-9d73-47bf-8e4d-e8c9eefd5cbb .
+
+camssa:4838d62a-1e83-428e-b175-3143b4a5c1f3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:485b9543-b082-4f33-bb7c-b54e2a81998e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4a0bbe12-007d-4b71-8274-ec9ba07317a9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4b8bd0db-c9f1-444f-88db-2f41d021a4f6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of REST is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification. 
+
+REST reference:
+https://restfulapi.net/'"""@en ;
+    cav:refersTo camssa:82af0c4c-98ac-4abc-b813-277deb70561c .
+
+camssa:516af525-a7bb-4e53-ac10-7a75c63dec67 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5a6a3b66-27ce-41ed-94f9-ddd2fa26d8d8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no evidence found of the creation of any community along with the sharing of their data and results on European platforms.
+
+REST reference:
+https://restfulapi.net/'"""@en ;
+    cav:refersTo camssa:efa66d30-47f2-4cf1-a62b-a800d23fa7d7 .
+
+camssa:5c4337dc-531d-4b22-887a-5e9189c5f229 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of REST as a European standard.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:cd0dd06d-e30f-4cf1-a4d9-c9e35438fdcd .
+
+camssa:5dc50018-c75e-47cf-bb66-1172863bef80 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5f4e9e98-7808-4798-a15d-760601e120f7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'REST enables digital service delivery channels by providing a widely-used architectural style designed for client-server applications.  
+
+REST reference:
+https://restfulapi.net/'"""@en ;
+    cav:refersTo camssa:0cbd6d8a-9ed3-45a9-bb43-77c48d83c108 .
+
+camssa:6053551b-fdab-48e0-81ca-a3f6d2dd1275 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The REST specification appears in the EIRA Library of Interoperable Specifications (ELIS) as a technical application associated to the machine to machine interface ABB,  therefore it can be mapped to the EIRA.
+
+ELIS referenece:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:e2f6e9e3-97a5-4064-989d-366064abf691 .
+
+camssa:61975cba-8893-4900-83e9-616c4a4935ae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The six architectural constraints of REST emphasize the scalability of interactions between components, uniform interfaces, independent deployment of components and the creation of layered architecture to allow its implementation across business domains.  
+
+REST reference:
+https://restfulapi.net/
+'"""@en ;
+    cav:refersTo camssa:b0503d2a-6a3b-4d54-b37a-5b6e40026a2e .
+
+camssa:6312505a-edd3-4933-bffa-5bcd5403b4fe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The uniform interface constraint is fundamental to the design of any RESTful system. It simplifies and decouples the architecture, which enables each part to evolve indepently.  For that reason, REST architectural style ensures standarized transfer of information between softwares, thus enabling the exposure of interfaces.
+
+REST reference:
+https://restfulapi.net/rest-architectural-constraints/#uniform-interface
+
+REST Chapter 5 from Roy Fielding's dissertation:
+https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm\""""@en ;
+    cav:refersTo camssa:957b14c5-ef3d-4bc6-8329-399a9725ee86 .
+
+camssa:63af946b-789d-4dc7-9afe-195595c98a8d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6dc9f6c8-9cb7-4434-9794-d7e73dc2211b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'With a REST protocol you can do the following operations with data POST (creation), GET, PUT, DELETE. So in some way, it facilitates the publication of public data as open data. 
+
+See this link for the justification: 
+https://www.bbvaapimarket.com/es/mundo-api/api-rest-que-es-y-cuales-son-sus-ventajas-en-el-desarrollo-de-proyectos/ '"""@en ;
+    cav:refersTo camssa:ad52488a-1f7f-4f78-824f-ff079000da1c .
+
+camssa:70378fee-13c9-43f5-88a6-095c2702ed20 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:1cb277ef-a1a6-4967-8da3-bd5d59475420 .
+
+camssa:7471f735-21ca-4844-a6ca-6c70ba5a33f1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:792cd949-7b6d-4dfb-b66c-4a6af143136c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "None"^^xsd:int .
+
+camssa:7938b920-ada8-4a07-b290-f24fd87ef709 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'REST has been included in the catalogue of Finland and Slovakia. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. 
+
+National catalogue of Finland: 
+https://joinup.ec.europa.eu/sites/default/files/inline-files/Finland%20Factsheet%20Validated.pdf
+
+National catalogue of Slovakia:
+https://joinup.ec.europa.eu/sites/default/files/inline-files/NIFO%20-%20Factsheet%20Slovakia_2016_v1_0.pdf
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/digital-public-administration-factsheets-2021'"""@en ;
+    cav:refersTo camssa:1674a38b-b172-4269-9c3c-dcab346b1dcf .
+
+camssa:7bee005b-86a7-4dd4-8b2c-dcc13c905c30 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of REST is not related to the protection of personal data. Therefore, this criterion is not applicable to this specification. 
+
+REST reference:
+https://restfulapi.net/'"""@en ;
+    cav:refersTo camssa:4a0bbe12-007d-4b71-8274-ec9ba07317a9 .
+
+camssa:803b35f8-8242-4c68-bca5-74a0b589bcb5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:82af0c4c-98ac-4abc-b813-277deb70561c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:84d4aba3-752d-46ee-b35e-5bce642ed256 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'REST is an architecture style that defines how different systems should interact. REST APIs generate a way of accessing web services in a simple and flexible way without having any processing thus allowing greater interoperability between clients and servers.
+The french government website data.gouv.fr which hosts the french governments datasets is built under the REST architectural style.
+
+REST reference:
+https://restfulapi.net/
+
+Data.gouv.fr reference:
+https://doc.data.gouv.fr/api/intro/'"""@en ;
+    cav:refersTo camssa:31824714-1c0c-4495-a1fd-56c2d38bde41 .
+
+camssa:8650e236-0b07-418e-a813-2f0406147d4d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:898c7c34-a6de-4f4d-abb2-10e027c3dcff a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """' REST is included in the ICT national catalogues of Slovakia and Finland.
+
+Finland national catalogue:
+https://joinup.ec.europa.eu/sites/default/files/inline-files/Finland%20Factsheet%20Validated.pdf
+
+Slovakia national catalogue:
+https://joinup.ec.europa.eu/sites/default/files/inline-files/Slovakia%20Factsheet_0.pdf'"""@en ;
+    cav:refersTo camssa:2cbc2304-0c0c-4d71-af3c-8316f5d6396b .
+
+camssa:8fbdd17c-7fb1-4e03-92f3-59591f291706 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "60"^^xsd:int .
+
+camssa:92d63684-bbaf-4d09-b671-f407865a0a5b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:93f60d7c-a0d3-4343-8ca3-7e56b46c158a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:94e1ee9f-2045-4713-8b9b-26f3813f517c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'REST architectural style is mainly defined by its architectural constraints. Any system that does not conform to all of RESTs constraints cannot be considered as RESTful.  Therefore, the specification does not support partial implementtions.
+
+REST architectural constraints reference:
+https://restfulapi.net/rest-architectural-constraints/'"""@en ;
+    cav:refersTo camssa:02ae56f4-8fa5-4c29-bf78-479fb33e0c6e .
+
+camssa:94f401da-f7f9-45f2-a831-0c96df09efb9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:9571c397-a7d3-4867-ae62-5f3a0a168318 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are many communities that share their data and results of their implementations of REST. Some examples of such communities can be found in the following links.
+
+3CX community:
+https://www.3cx.com/community/threads/rest-api.74033/
+
+DocuWare community forum:
+https://support.docuware.com/es-ES/forums/help-with-technical-problems/07aabc66-fcd2-ea11-bf22-00155d3d4054'"""@en ;
+    cav:refersTo camssa:94f401da-f7f9-45f2-a831-0c96df09efb9 .
+
+camssa:957b14c5-ef3d-4bc6-8329-399a9725ee86 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:9d563b35-ccc0-4e7e-8776-4b975b91d308 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'REST apis have 8 main security design principles that aim to provide a secure and trustwrthy exchange and processing of data.  
+
+REST API security essentials reference:
+https://restfulapi.net/security-essentials/'"""@en ;
+    cav:refersTo camssa:c517e37f-8f97-43c3-8f16-e500df4421d0 .
+
+camssa:9f78c8b6-8554-4196-990c-95f09860c2e7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'One of REST's architectural properties is the modifiability of components to meet changing needs. The REST constraint "code on demand" applies when returning executable code is needed in order to support a part of the application.  Therefore the server can extend or customize the functionality of a client by transferring executable code: for example, compiled components such as Java applets, or client-side scripts such as JavaScript.
+
+REST "code on demand" reference:
+https://restfulapi.net/rest-architectural-constraints/#code-on-demand
+
+REST R. Fielding dissertation: Chapter 5
+https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm'"""@en ;
+    cav:refersTo camssa:3dfbe382-bad9-45d9-aed8-65b4e11d862c .
+
+camssa:a44db3fd-6788-4bf3-9ece-2f68d85c2b8a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a945da60-0b3b-45cf-9ccc-5e7dd780f5e1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'As REST is an architectural style, it is designed to be compatible with any software, and does not rely on any other standard or specification.
+
+REST reference:
+https://restfulapi.net/rest-architectural-constraints/'"""@en ;
+    cav:refersTo camssa:d8674b1c-0d53-48d1-b34d-d0dd1a526120 .
+
+camssa:ad52488a-1f7f-4f78-824f-ff079000da1c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b0503d2a-6a3b-4d54-b37a-5b6e40026a2e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b1ec0232-91b6-4c91-91d4-033e09efc644 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'REST apis have 8 main security design principles that aim to provide a secure and trustwrthy exchange and processing of data.  
+
+REST API security essentials reference:
+https://restfulapi.net/security-essentials/'"""@en ;
+    cav:refersTo camssa:cb7430e2-6feb-4275-9c09-5a188844a05e .
+
+camssa:b1f09401-97b6-47e8-ab10-2b5fda48d3d1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'As REST is an architectural style, it is designed to be implemented in any platform, and does not rely on any other standard or specification.
+
+REST reference:
+https://restfulapi.net/rest-architectural-constraints/'"""@en ;
+    cav:refersTo camssa:2ad42711-6eaa-45e7-b732-26ef611c1657 .
+
+camssa:b417c2a9-b377-4c17-ad8f-1f661fde4e01 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'One of REST's architectural properties is the modifiability of components to meet changing needs. The REST constraint "code on demand" applies when returning executable code is needed in order to support a part of the application. Therefore the server can extend or customize the functionality of a client by transferring executable code: for example, compiled components such as Java applets, or client-side scripts such as JavaScript.
+
+REST "code on demand" reference:
+https://restfulapi.net/rest-architectural-constraints/#code-on-demand
+
+REST R. Fielding dissertation: Chapter 5
+https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm'"""@en ;
+    cav:refersTo camssa:e215de48-0294-49f6-861f-943412a2d78d .
+
+camssa:b9b998bc-6274-4274-905b-28b6a660742f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b9f0dd4f-1bfc-4811-95df-fd632168cfa5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Within the Roy Fielding dissertation of REST ou can find a chapter that addresses the experience and lessons learned from applying REST.  REST's efficiency, as stated in the dissertation, is mainly based on its architectural constraints, which captures all of those aspects of a distributed hypermedia system that are considered central to the behavioral and performance requirements of the Web.
+
+R. Fielding dissertation.  Chapter 6: experience and evaluation.
+https://www.ics.uci.edu/~fielding/pubs/dissertation/evaluation.htm\""""@en ;
+    cav:refersTo camssa:4838d62a-1e83-428e-b175-3143b4a5c1f3 .
+
+camssa:bb5e1a30-3b2a-4e49-9a96-2f6b4d613bb7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:b9b998bc-6274-4274-905b-28b6a660742f .
+
+camssa:bb7fa06a-1ecb-47ef-a3b4-47233120c569 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of REST is not related to the reuse of information. Therefore, this criterion is not applicable to this specification. 
+
+REST reference:
+https://restfulapi.net/'"""@en ;
+    cav:refersTo camssa:516af525-a7bb-4e53-ac10-7a75c63dec67 .
+
+camssa:bc40ca00-e247-4597-8d4f-75ee5fb62a6f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'REST specification conformance can be manually assessed by following its architectural constraints to help in obtaining a uniform interface and guiding the behaviour of components. No conformance testing platform has been found, however, there are accessible assessment online guides.
+
+REST reference:
+https://restfulapi.net/rest-architectural-constraints/
+'"""@en ;
+    cav:refersTo camssa:8fbdd17c-7fb1-4e03-92f3-59591f291706 .
+
+camssa:bc4c2820-0182-4a7f-bf5b-44d06e3f4ea9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:c69b9ac1-e1da-4eb4-bf36-20251f4f8318 .
+
+camssa:be1b4080-bd29-4f35-858a-d180f5c980ce a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"REST is a sofware architectural style which defines a set of costraints for how the architecture of an internet-scale distributed hypermedia system should behave. REST architectural constraints are designed to provide efficient and scalable client-server applications allowing for extensions and new adaptations when needed. In this regard, REST allows for a greater interoperability, explicitly addressing and enabling data portability between systems/applications.
+
+REST reference:
+https://restfulapi.net/
+
+REST Introduction from Roy Fielding's dissertation:
+https://www.ics.uci.edu/~fielding/pubs/dissertation/introduction.htm\""""@en ;
+    cav:refersTo camssa:63af946b-789d-4dc7-9afe-195595c98a8d .
+
+camssa:c517e37f-8f97-43c3-8f16-e500df4421d0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c69b9ac1-e1da-4eb4-bf36-20251f4f8318 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:cb7430e2-6feb-4275-9c09-5a188844a05e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:cd0dd06d-e30f-4cf1-a4d9-c9e35438fdcd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "20"^^xsd:int .
+
+camssa:ce0c0cdf-a019-406a-a6dc-5311d442a672 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@eu.europa.eu" .
+
+camssa:d13732c7-af6e-46ba-9bb9-0a9064ecffe6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of REST within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::
+
+CENELEC and CEN website:
+https://www.cencenelec.eu/'"""@en ;
+    cav:refersTo camssa:92d63684-bbaf-4d09-b671-f407865a0a5b .
+
+camssa:d53ef471-dddf-428b-9e31-2aa33fd6985b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d70ee20b-a54f-4aa5-a26c-caf8ee0854f4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The six architectural constraints of REST emphasize the scalability of interactions between components, uniform interfaces, independent deployment of components and the creation of layered architecture to facilitate its usage across business domains.  
+
+REST reference:
+https://restfulapi.net/'"""@en ;
+    cav:refersTo camssa:7471f735-21ca-4844-a6ca-6c70ba5a33f1 .
+
+camssa:d8674b1c-0d53-48d1-b34d-d0dd1a526120 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d8a51439-8319-45a2-a790-d581b0938ce6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are many available public online channels for the exchange of help and knowledge among REST users. See the links below for such examples.
+
+Microsoft developer network reference:
+https://social.msdn.microsoft.com/Forums/es-ES/d720e383-96ca-4b8a-9d53-ad78bc51eeee/web-api-rest-c-json
+
+Opentext developer reference:
+https://forums.opentext.com/forums/developer/discussion/235439/rest-api-categories'"""@en ;
+    cav:refersTo camssa:dce0dfb3-9480-4a6e-9953-5e11e60a39c1 .
+
+camssa:dbf4f5ca-3da1-4aa6-b27a-9db7a585c16b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:dce0dfb3-9480-4a6e-9953-5e11e60a39c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "60"^^xsd:int .
+
+camssa:e215de48-0294-49f6-861f-943412a2d78d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:e2f6e9e3-97a5-4064-989d-366064abf691 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:efa66d30-47f2-4cf1-a62b-a800d23fa7d7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "20"^^xsd:int .
+
+camssa:f22c0503-4940-4d04-849e-b732ed4b1602 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Within the Roy Fielding dissertation of REST you can find a chapter that addresses the experience and lessons learned from applying REST.  The evaluation of effectiveness, as outlined in the dissertation, is based on the versatility and domain-agnostic nature of REST.   
+
+R. Fielding dissertation.  Chapter 6: experience and evaluation.
+https://www.ics.uci.edu/~fielding/pubs/dissertation/evaluation.htm'"""@en ;
+    cav:refersTo camssa:044d273e-62cf-4814-884e-72fba5d24bf3 .
+
+camssa:f48da802-0d03-4058-9bec-17bf9969594c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'REST architectural constraints are designed to ensure interoperability between different internet computer systems, thus rendering the communications between systems that  conform to REST more efficient and easy. Consequently,
+REST can impact positivey in the creation of organisational interoperability agreements.
+
+REST reference:
+https://restfulapi.net/
+
+R. Fielding dissertation: chapter 5.
+https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm'"""@en ;
+    cav:refersTo camssa:d53ef471-dddf-428b-9e31-2aa33fd6985b .
+
+camssa:f9ffcb5f-9be0-4ef9-b239-6a07122b94ff a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
 

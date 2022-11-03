@@ -24,399 +24,181 @@ camssa:e2467b920113fac3c7fb0aafb9d2ae37eb817b7c881b3ddb222e6ab390e1ce95 a cav:As
     camss:submissionDate "None"^^xsd:date ;
     camss:toolVersion tool:5.1.0 ;
     cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
-    cav:resultsIn camssa:06d51a7f-3c78-4f45-b5b4-8231679341d8,
-        camssa:08e67390-a4d3-4ca4-a2f9-fbfa705009e6,
-        camssa:0ac2c479-29cf-476b-a591-7dd0b06bf0bc,
-        camssa:2467e312-1952-42fb-961c-fef069c2f68d,
-        camssa:32ff0e6c-640a-4e89-a040-04a1f79f107c,
-        camssa:3356cf4c-576f-4100-81b8-7cc6bd1c1062,
-        camssa:3d22ffb3-2802-401c-b035-0be0f10fdef4,
-        camssa:4b385282-1b8a-4095-b762-661796a828e9,
-        camssa:55ae7ff7-ec0a-44d6-bf75-9d452ea30c43,
-        camssa:58db064a-fe66-4232-b092-4ab8ae81fa49,
-        camssa:5c675bf1-7ad0-4118-935a-54e12729857e,
-        camssa:64430f07-8f52-4614-b496-14724e72cafb,
-        camssa:7546bf16-a8bd-4f9a-819a-0741f18b123b,
-        camssa:755d4997-f943-439a-8681-75b35c8f71ef,
-        camssa:8201f91c-f7a9-463f-83df-fe7f08f3dc30,
-        camssa:8bb6129f-6460-446c-9ee9-10d94f79b1f0,
-        camssa:8d212e2e-c783-4895-b977-b068b7ca7cdc,
-        camssa:961bcf2c-92db-475a-92c8-19161bc33575,
-        camssa:a819d602-f7f1-4e82-8100-b10eae6c014e,
-        camssa:af594fa0-2686-4653-8e95-304917060bad,
-        camssa:b00d07fe-276d-408d-9d20-2ae74994335f,
-        camssa:c202bee1-9319-43dc-9ed2-9e3d731cf32c,
-        camssa:c2c2e4f0-1f8d-4574-899d-5614b8502645,
-        camssa:c3011f59-f277-4362-912e-ac98cc129d20,
-        camssa:c831804f-ae6e-47d0-b877-e187440b783c,
-        camssa:cc6ca88d-df3b-4831-8c04-9a5b347ac117,
-        camssa:ccb9e127-a6c3-4887-b38f-b8b8a52a425a,
-        camssa:cdd65d05-8d42-4e87-b1e8-1d0885cbc474,
-        camssa:cff74c49-4114-495a-a55e-323a29dadd05,
-        camssa:d7cc7f77-0475-467c-af3f-61b83c3d508d,
-        camssa:d8f231b7-7f5e-4f06-aae7-0e00a50e8cc6,
-        camssa:d925c026-e984-4050-b71f-c4a6cf08af22,
-        camssa:db04aead-b21f-4583-8326-31338ce9d00e,
-        camssa:db5314d9-b018-49a9-aebf-aefad5dbf6ed,
-        camssa:e0471a88-6ec3-4aba-8642-33addfd39244,
-        camssa:e16bb877-d1aa-460a-815d-aaba18662204,
-        camssa:e4f69284-9164-4639-a805-8f852d6fd10d,
-        camssa:e860f66b-e2f2-40e6-9be4-bc1cc3d5fab6,
-        camssa:e86bb5a0-e691-488f-9ea7-99089ec8a7df,
-        camssa:f0b113cf-1aef-4148-85af-97f2931501f7,
-        camssa:f0c70a5f-4237-4b3c-b201-755f2918f54d,
-        camssa:f3fce3c1-b86a-4f09-afc8-1bf606745e54,
-        camssa:f437d9cf-96a5-4d61-8e25-b45d4054ab1f,
-        camssa:f73046db-5f3b-49c1-bb0e-08e1241b09a8 ;
+    cav:resultsIn camssa:0432711b-2a7e-4209-b69f-33ee6e290ca2,
+        camssa:0782dab1-0515-4eef-92d1-31a3bce6ec39,
+        camssa:07b3d1d2-606b-4308-a607-359750e5f524,
+        camssa:0932bda8-e57d-474d-b638-8a1156e83f27,
+        camssa:0c4b00e9-fdea-40b4-9feb-8dc4e41c4bfc,
+        camssa:0d01e7c5-97cb-4cca-a6e8-41e5f5f7f14d,
+        camssa:12da9793-5c00-4135-a074-7b3e94ad59fa,
+        camssa:14fc6cbc-68f2-4511-816b-23b15b270e4a,
+        camssa:1ad2a264-2b60-4768-8651-3d7127975a5d,
+        camssa:1e33488c-0105-4930-863b-a173558fcdf0,
+        camssa:380bed87-be64-49b4-bb50-e8ffaafb240a,
+        camssa:4366950d-efe9-4a27-8e13-9eb8d88a96ef,
+        camssa:45e19e55-6dd9-4335-87c2-e7adea830b50,
+        camssa:45edd1cc-eeb6-4c65-80a9-377e7847006c,
+        camssa:465c1a65-41f9-4b84-b0eb-1c7da825296c,
+        camssa:532a7a32-fa8b-46cf-aafd-170430d83452,
+        camssa:5c6fc3db-fc9d-4e53-8de7-6f9c521c88a1,
+        camssa:6405161b-8163-499f-894d-40dbf6fa380b,
+        camssa:69dd39df-9a08-47ff-beb7-cddf6796cab9,
+        camssa:7d106623-ae61-4d40-88bd-684981f805ca,
+        camssa:802cc234-0f1c-49c8-8bd2-44ed18b5d224,
+        camssa:8047b656-d8d1-4a78-a6fd-8f16f3f83884,
+        camssa:84a256da-6725-460f-bb26-6e8e3e6e42a6,
+        camssa:868608c4-87b5-413b-b6df-4c939cbf66a1,
+        camssa:87a72fa6-28a7-4979-b87a-d02992623bc3,
+        camssa:9d748010-d87f-47c7-9db3-e213e06744b1,
+        camssa:a893f6f1-3398-40d7-ad62-c546f8d499e8,
+        camssa:a9f14f2e-60c1-4675-b1aa-b84cdc772240,
+        camssa:b35821b4-e341-4010-b201-e97d932be30e,
+        camssa:b914dfff-fe7d-4708-96bc-b0622c2c7046,
+        camssa:bc9e3a08-1d89-44af-a5a7-bcd32772d031,
+        camssa:bd9888e5-863c-472b-a4dc-c22b8feb3ef0,
+        camssa:c82eec51-670d-4148-b414-91196aec50a6,
+        camssa:c9cb2c2c-b088-482c-a516-38747ba8962e,
+        camssa:cdbd23d8-af1e-4009-8d76-0d2c96fb2cdc,
+        camssa:d2004562-2429-4833-9580-8b3725cacb8f,
+        camssa:d30b096f-97e0-4ef2-b894-828590ca69e7,
+        camssa:d70b0c30-8f1a-4c40-82dd-9135055a778f,
+        camssa:db062b6a-cab5-4e54-8355-dd0d33278c1a,
+        camssa:e5fc17c8-1cda-4a29-bab7-a4e03deedfe8,
+        camssa:e61483a7-8391-4569-96f3-3fe4aba72f9c,
+        camssa:f82f0487-9e36-4526-bb55-064fa375c818,
+        camssa:f8b23c8e-89ef-4ef3-bc48-305f075d6b52,
+        camssa:ff51e70f-1c61-4ddd-b811-37758622ad61 ;
     cav:status status:Complete ;
     dct:title "Core Public Service Vocabulary Application Profile (CPSV-AP) v2.2"@en .
 
-camssa:03c4f49f-8e37-4781-8b3b-be72c620aeaa a cav:Score,
+camssa:0432711b-2a7e-4209-b69f-33ee6e290ca2 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
-    cav:value "100"^^xsd:int .
-
-camssa:03d4635f-c730-461b-8a70-651eeaa053c4 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
-    cav:value "100"^^xsd:int .
-
-camssa:065b0cea-c211-43d0-9cef-e794239479f4 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
-    cav:value "100"^^xsd:int .
-
-camssa:06d51a7f-3c78-4f45-b5b4-8231679341d8 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:03c4f49f-8e37-4781-8b3b-be72c620aeaa .
-
-camssa:08a3f630-a7ec-4589-80a8-3248c6114846 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
-    cav:value "20"^^xsd:int .
-
-camssa:08e67390-a4d3-4ca4-a2f9-fbfa705009e6 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """CPSV-AP is independent of any software, hardware, or operating system. So it can be said that the specification is independent of any specific technology or platform.
+    cav:judgement """The purpose of this Core Vocabulary is not related to security and privacy of the data exchange. Therefore, this criterion is not applicable to this specification.
 
 CPSV-AP reference:
 https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
-    cav:refersTo camssa:9bc95eec-3b0f-4390-a14a-e08d91de461a .
+    cav:refersTo camssa:d1c16a52-e282-4848-b1e2-5f240daf00b6 .
 
-camssa:0ac2c479-29cf-476b-a591-7dd0b06bf0bc a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The application of the once-only principle in all EU Member States public administrations aims at reducing the administrative burden. This Core Vocabulary fosters interoperability between public administrations, cross border services and impacts positively the development of eGovernment.
-
-CPSV-AP reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
-    cav:refersTo camssa:c31e9fd2-8b1d-4e50-bba9-9956b04ac7fe .
-
-camssa:1138a2bf-e281-4afd-bcbe-e3d5aaeb231e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
-    cav:value "100"^^xsd:int .
-
-camssa:16269103-5374-4877-b300-312c6619999f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
-    cav:value "100"^^xsd:int .
-
-camssa:1681d299-b137-4342-bd53-2420e1ed36fe a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
-    cav:value "20"^^xsd:int .
-
-camssa:229bfc4f-a2a1-44ab-a14c-87405e403397 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
-    cav:value "100"^^xsd:int .
-
-camssa:2467e312-1952-42fb-961c-fef069c2f68d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of this Core Vocabulary is not related to the modelling of organisational interoperability aspects. Therefore, this criterion is not applicable to the specification.
-
-CPSV-AP reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
-    cav:refersTo camssa:a51cd025-5cbd-43fa-a9f3-66fbd172aa15 .
-
-camssa:274b79a9-873e-46f9-afec-7b906c25f721 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
-    cav:value "20"^^xsd:int .
-
-camssa:2c0871cb-2a3d-4384-a58a-7fc736b4a601 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
-    cav:value "100"^^xsd:int .
-
-camssa:2e9d9d80-e7aa-4f4d-a774-cf047e757b9b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
-    cav:value "100"^^xsd:int .
-
-camssa:316bdf69-8262-42b4-a84f-da900aa8fb6b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
-    cav:value "100"^^xsd:int .
-
-camssa:32ff0e6c-640a-4e89-a040-04a1f79f107c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:531b7e3e-a99b-460d-bda3-cd35ccfcbb64 .
-
-camssa:3356cf4c-576f-4100-81b8-7cc6bd1c1062 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Core Public Service Vocabulary Application Profile 2.2 is already associated to an EIRA ABB in the European Library Of Specifications (ELIS). Specifically, this Core Vocabulary can define the interoperability aspects of the "Core Data Model" and "Data" ABBs from the EIRA Semantic view.
-
-EIRA Library of Interoperability Specifications (ELIS):
-https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
-    cav:refersTo camssa:f8e503c8-90da-4310-990a-270dd6888cab .
-
-camssa:34113bd7-80c3-45f4-b4df-f2e6b7c945de a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
-    cav:value "100"^^xsd:int .
-
-camssa:34595a4d-766e-462b-8ef3-75c9ac9ef5f7 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
-    cav:value "100"^^xsd:int .
-
-camssa:3d22ffb3-2802-401c-b035-0be0f10fdef4 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification was developed in 2014 by Catalogue of Services actions, and it has been evolved taking into account the inputs of the different stakeholders involved according to the development process stated by SEMIC. It is supporting several initiatives at European level, this fact demonstrates the maturity for its use in the development of products and services.
-
-CPSV-AP reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
-    cav:refersTo camssa:03d4635f-c730-461b-8a70-651eeaa053c4 .
-
-camssa:3d8c91fc-c3f2-43a1-aa75-d5c583b4a0f4 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
-    cav:value "100"^^xsd:int .
-
-camssa:4b385282-1b8a-4095-b762-661796a828e9 a cav:Statement,
+camssa:0782dab1-0515-4eef-92d1-31a3bce6ec39 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """All solutions developed in ISA² Programme are under ISA Open Metadata Licence which is perpetual, royalty-free and non-exclusive license to Use and re-Use the Works.
 
 ISA open metadata license:
 https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11"""@en ;
-    cav:refersTo camssa:9a0b05b8-ae80-4726-bf91-48a2b4d36c07 .
+    cav:refersTo camssa:63ec6fdd-0085-4e05-9ea1-622ede08b523 .
 
-camssa:531b7e3e-a99b-460d-bda3-cd35ccfcbb64 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
-    cav:value "100"^^xsd:int .
-
-camssa:558123f2-b503-4132-9e55-4bbef857d9f1 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
-    cav:value "100"^^xsd:int .
-
-camssa:55ae7ff7-ec0a-44d6-bf75-9d452ea30c43 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """There is no Member State that includes CPSV-AP in their national catalogue with the National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
-
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:1681d299-b137-4342-bd53-2420e1ed36fe .
-
-camssa:58db064a-fe66-4232-b092-4ab8ae81fa49 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """This Core Vocabulary was developed in 2014 and has good acceptance in the European Union. The CPSV-AP is already being used by public administrations in Belgium, Italy, Finland and Estonia to create a cross-border federated catalogue of public services. Moreover, it is the basis of the European Catalogue of Services 
-
-CPSV-AP reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile
-
-CPSV-AP used in EU:
-https://www.ceps.eu/wp-content/uploads/2019/06/NO0119341ENN.en_.pdf
-
-Catalogue of Services:
-https://ec.europa.eu/isa2/catalogue-services-helping-eu-countries-catalogue-and-describe-public-services_en"""@en ;
-    cav:refersTo camssa:5ae2cfa9-9236-4bcb-94df-70f27093149d .
-
-camssa:59fcbf27-900d-4048-981d-2d3f5d1e7744 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
-    cav:value "100"^^xsd:int .
-
-camssa:5a31fdf9-9bfd-4157-9ab3-bcbda4327633 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
-    cav:value "100"^^xsd:int .
-
-camssa:5ae2cfa9-9236-4bcb-94df-70f27093149d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
-    cav:value "100"^^xsd:int .
-
-camssa:5c675bf1-7ad0-4118-935a-54e12729857e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """There are not explicit studies or documentation regarding the effectiveness or efficiency of the Core Vocabulary Application Profile. However, an article on the usefulness of the AP for the publication of linked data from administrations. 
-
-Study about ISA2 efficiency:
-https://www.ceps.eu/wp-content/uploads/2019/06/NO0119341ENN.en_.pdf
-
-On using the core public sector vocabulary (CPSV) to publish a "citizen's guide" as linked data:
-https://www.researchgate.net/publication/325495548_On_using_the_core_public_sector_vocabulary_CPSV_to_publish_a_citizen's_guide_as_linked_data"""@en ;
-    cav:refersTo camssa:274b79a9-873e-46f9-afec-7b906c25f721 .
-
-camssa:64430f07-8f52-4614-b496-14724e72cafb a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """CPSV-AP is a reusable and extensible data model for harmonising the way public services are described in a machine-readable format. So it describes the public administrations and eases their visualization and comprehensibility.
-
-CPSV-AP reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
-    cav:refersTo camssa:34113bd7-80c3-45f4-b4df-f2e6b7c945de .
-
-camssa:714df911-c44e-4d6a-9f22-66a3a51c740d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
-    cav:value "100"^^xsd:int .
-
-camssa:7546bf16-a8bd-4f9a-819a-0741f18b123b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """There are not explicit studies or documentation regarding the effectiveness or efficiency of the Core Vocabulary Application Profile. However, an article on the usefulness of the AP for the publication of linked data from administrations. 
-
-Study about ISA2 efficiency:
-https://www.ceps.eu/wp-content/uploads/2019/06/NO0119341ENN.en_.pdf
-
-On using the core public sector vocabulary (CPSV) to publish a "citizen's guide" as linked data:
-https://www.researchgate.net/publication/325495548_On_using_the_core_public_sector_vocabulary_CPSV_to_publish_a_citizen's_guide_as_linked_data"""@en ;
-    cav:refersTo camssa:08a3f630-a7ec-4589-80a8-3248c6114846 .
-
-camssa:755d4997-f943-439a-8681-75b35c8f71ef a cav:Statement,
+camssa:07b3d1d2-606b-4308-a607-359750e5f524 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "None"@en ;
-    cav:refersTo camssa:c5b25efb-7b51-4aaf-836f-569df0f5470b .
+    cav:refersTo camssa:77c11588-4a47-4843-83a1-12d07bdf6e50 .
 
-camssa:77aee415-9b39-42e4-9ea9-ffe05fdb57cc a cav:Score,
+camssa:081dd176-c42a-4cbc-be9c-6f102164bf32 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
-    cav:value "100"^^xsd:int .
-
-camssa:79eb67e4-acad-48af-a2b8-955152d7c219 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
     cav:value "20"^^xsd:int .
 
-camssa:8141ae83-1d4d-484e-b2fa-cfdfa7661e4d a cav:Score,
+camssa:0932bda8-e57d-474d-b638-8a1156e83f27 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:judgement """The Semantic Interoperability Community (SEMIC) develops solutions to help European public administrations perform seamless and meaningful cross-border and cross-domain data exchanges. They develop semantic specifications and interoperability solutions under the ISA² Programme. When a new solution release is finished, it is submitted for a public review with a minimum period of four weeks.
+
+Specification development process by the ISA Programme:
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/document/description-change-management-release-and-publication-process-structural-metadata-specifications
+
+Detailed document ISA Programme:
+https://joinup.ec.europa.eu/sites/default/files/document/2016-10/description_of_a_change_management_release_and_publication_process_for_structural_metadata_specifications_developed_by_the_isa_progr.pdf"""@en ;
+    cav:refersTo camssa:b7d5584d-6f29-4ee9-a856-19d4209340d9 .
+
+camssa:0a5ef51e-0b5e-4bbd-b411-306bc5790551 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
     cav:value "100"^^xsd:int .
 
-camssa:8201f91c-f7a9-463f-83df-fe7f08f3dc30 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:841478b8-8f2f-4666-bd1f-d6177e6f6668 .
-
-camssa:841478b8-8f2f-4666-bd1f-d6177e6f6668 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
-    cav:value "100"^^xsd:int .
-
-camssa:85a7372b-074c-4362-ab94-3135bdb95687 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
-    cav:value "100"^^xsd:int .
-
-camssa:8bb6129f-6460-446c-9ee9-10d94f79b1f0 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:c09ae4cc-c384-4504-9caf-ca164acbaa99 .
-
-camssa:8d212e2e-c783-4895-b977-b068b7ca7cdc a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """CPSV-AP is independent of any software, hardware, or operating system. So it can be said that the specification is independent of any specific technology or platform.
-
-CPSV-AP reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
-    cav:refersTo camssa:77aee415-9b39-42e4-9ea9-ffe05fdb57cc .
-
-camssa:9247dd8c-bebe-45b4-9232-c04e57ce4bfb a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
-    cav:value "100"^^xsd:int .
-
-camssa:961bcf2c-92db-475a-92c8-19161bc33575 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification is included in 1 Member States' catalogue of recommended specifications. The Member State that includes this Core Vocabulary on their catalogue is Belgium.
-
-Belgium national catalogue:
-https://www.belgif.be/nl/specifications"""@en ;
-    cav:refersTo camssa:1138a2bf-e281-4afd-bcbe-e3d5aaeb231e .
-
-camssa:9a0b05b8-ae80-4726-bf91-48a2b4d36c07 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
-    cav:value "100"^^xsd:int .
-
-camssa:9bc95eec-3b0f-4390-a14a-e08d91de461a a cav:Score,
+camssa:0bd3d6bb-61c5-4742-9d6f-8086d80630eb a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
     cav:value "100"^^xsd:int .
 
-camssa:a51cd025-5cbd-43fa-a9f3-66fbd172aa15 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
-    cav:value "100"^^xsd:int .
-
-camssa:a819d602-f7f1-4e82-8100-b10eae6c014e a cav:Statement,
+camssa:0c4b00e9-fdea-40b4-9feb-8dc4e41c4bfc a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """As it happens with all the e-Government Vocabularies, it has the SEMIC action from the ISA2 as responsible for the maintenance of the development.
 
 SEMIC in Joinup:
 https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic"""@en ;
-    cav:refersTo camssa:cd4ed893-03ea-4eb9-8152-473122d922c2 .
+    cav:refersTo camssa:bfdfaaca-cafd-4677-98cf-d439332fd1a1 .
 
-camssa:af594fa0-2686-4653-8e95-304917060bad a cav:Statement,
+camssa:0cfd8e97-7b07-488a-9875-aec3969e4b55 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """CPSV-AP is a reusable and extensible data model for harmonising the way public services are described in a machine-readable format. So it describes the public administrations and eases their visualization and comprehensibility.
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0d01e7c5-97cb-4cca-a6e8-41e5f5f7f14d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All solutions developed in ISA² Programme are under ISA Open Metadata Licence which is perpetual, royalty-free and non-exclusive license to Use and re-Use the Works.
+
+ISA open metadata license:
+https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11"""@en ;
+    cav:refersTo camssa:fb8e30b1-a99f-4e2b-b0dd-224af309ded6 .
+
+camssa:12da9793-5c00-4135-a074-7b3e94ad59fa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification was developed in 2014 by Catalogue of Services actions, and it has been evolved taking into account the inputs of the different stakeholders involved according to the development process stated by SEMIC. It is supporting several initiatives at European level, this fact demonstrates the maturity for its use in the development of products and services.
 
 CPSV-AP reference:
 https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
-    cav:refersTo camssa:065b0cea-c211-43d0-9cef-e794239479f4 .
+    cav:refersTo camssa:2a57296c-c55e-4263-ba3f-6b92785cb531 .
 
-camssa:b00d07fe-276d-408d-9d20-2ae74994335f a cav:Statement,
+camssa:14fc6cbc-68f2-4511-816b-23b15b270e4a a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """The CPSV-AP allows describing public services in a standard human and machine-readable format. This fact fosters the discoverability of the datasets containing the information of public services. Moreover, enhances its reuse and visibility. 
+    cav:judgement """The purpose of this Core Vocabulary is to harmonise public services (information) stored in different local, regional and national information sources, allowing the information to be searched and shared easily within and across public administrations all over Europe.
 
-CPSV-AP Joinup webpage:
-https://joinup.ec.europa.eu/solution/core-public-service-vocabulary-application-profile/release/22
+CPSV-AP reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
+    cav:refersTo camssa:804c08c5-60e7-47b1-85ab-8eba747dfba3 .
 
-5-star linked open data:
-https://www.w3.org/DesignIssues/LinkedData.html
-
-On using the core public sector vocabulary (CPSV) to publish a "citizen's guide" as linked data:
-https://www.researchgate.net/publication/325495548_On_using_the_core_public_sector_vocabulary_CPSV_to_publish_a_citizen's_guide_as_linked_data"""@en ;
-    cav:refersTo camssa:2c0871cb-2a3d-4384-a58a-7fc736b4a601 .
-
-camssa:b4874aba-c166-41f6-96e8-9afb27b7bc8b a cav:Score,
+camssa:184993c2-9041-4709-ad85-b72b42016a62 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
     cav:value "100"^^xsd:int .
 
-camssa:b4f6f21a-7db8-4831-8ccb-c5699718ee5e a schema:ContactPoint,
+camssa:1ad2a264-2b60-4768-8651-3d7127975a5d a cav:Statement,
         owl:NamedIndividual ;
-    schema:email "CAMSS@everis.com" .
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:642f0c9f-1dff-4a20-9cbc-573bae9b36a5 .
 
-camssa:baf98003-3c1b-4821-9e54-1348917042ca a cav:Score,
+camssa:1e33488c-0105-4930-863b-a173558fcdf0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of CPSV-AP is related to the delivery of multilingual public services. All datatype properties with datatype “text” where the value for that property may exist in multiple languages, the property has multiple instances which are tagged with a language identifier for each language in which the value for that property exists.
+
+CPSV-AP reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
+    cav:refersTo camssa:243606d2-fd1e-4da0-9c82-6d2739e18f32 .
+
+camssa:2202acd7-9031-4042-82e3-10e4d49000b9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:243606d2-fd1e-4da0-9c82-6d2739e18f32 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
     cav:value "100"^^xsd:int .
 
-camssa:bce15008-f305-438e-8e29-583cb46df7c1 a cav:Score,
+camssa:282de30d-5d64-48df-a622-37e5970afa8c a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
     cav:value "100"^^xsd:int .
 
-camssa:c09ae4cc-c384-4504-9caf-ca164acbaa99 a cav:Score,
+camssa:2a57296c-c55e-4263-ba3f-6b92785cb531 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
     cav:value "100"^^xsd:int .
 
-camssa:c202bee1-9319-43dc-9ed2-9e3d731cf32c a cav:Statement,
+camssa:349bf30e-2a20-4d25-b77a-0cc2fe2dbe5f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:380bed87-be64-49b4-bb50-e8ffaafb240a a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The CPSV-AP allows describing public services in a standardised human and machine-readable format. This fact fosters the discoverability of the datasets containing information about public services. Therefore, it enhances its reuse and visibility.
 
@@ -429,114 +211,71 @@ https://5stardata.info/en/
 
 On using the core public sector vocabulary (CPSV) to publish a "citizen's guide" as linked data:
 https://www.researchgate.net/publication/325495548_On_using_the_core_public_sector_vocabulary_CPSV_to_publish_a_citizen's_guide_as_linked_data"""@en ;
-    cav:refersTo camssa:3d8c91fc-c3f2-43a1-aa75-d5c583b4a0f4 .
+    cav:refersTo camssa:f80a7592-d1e7-4579-8961-77e4016bd5e3 .
 
-camssa:c2c2e4f0-1f8d-4574-899d-5614b8502645 a cav:Statement,
+camssa:3b50acb9-94fe-4dbc-9573-6a89ba57e8dc a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:558123f2-b503-4132-9e55-4bbef857d9f1 .
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
 
-camssa:c3011f59-f277-4362-912e-ac98cc129d20 a cav:Statement,
+camssa:4366950d-efe9-4a27-8e13-9eb8d88a96ef a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """The purpose of this Core Vocabulary is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification.
+    cav:judgement """CPSV-AP is independent of any software, hardware, or operating system. So it can be said that the specification is independent of any specific technology or platform.
 
 CPSV-AP reference:
 https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
-    cav:refersTo camssa:316bdf69-8262-42b4-a84f-da900aa8fb6b .
+    cav:refersTo camssa:bceedb56-0928-4cd4-86ab-1a0c41d25d0f .
 
-camssa:c31e9fd2-8b1d-4e50-bba9-9956b04ac7fe a cav:Score,
+camssa:45e19e55-6dd9-4335-87c2-e7adea830b50 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
-    cav:value "100"^^xsd:int .
+    cav:judgement """There are not explicit studies or documentation regarding the effectiveness or efficiency of the Core Vocabulary Application Profile. However, an article on the usefulness of the AP for the publication of linked data from administrations. 
 
-camssa:c5b25efb-7b51-4aaf-836f-569df0f5470b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
-    cav:value "100"^^xsd:int .
+Study about ISA2 efficiency:
+https://www.ceps.eu/wp-content/uploads/2019/06/NO0119341ENN.en_.pdf
 
-camssa:c69bb375-3558-4b93-a762-69a8dfac773d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
-    cav:value "100"^^xsd:int .
+On using the core public sector vocabulary (CPSV) to publish a "citizen's guide" as linked data:
+https://www.researchgate.net/publication/325495548_On_using_the_core_public_sector_vocabulary_CPSV_to_publish_a_citizen's_guide_as_linked_data"""@en ;
+    cav:refersTo camssa:9c711005-34cc-4a3f-b310-ad49e8a231e0 .
 
-camssa:c831804f-ae6e-47d0-b877-e187440b783c a cav:Statement,
+camssa:45edd1cc-eeb6-4c65-80a9-377e7847006c a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """The CPSV-AP allows describing public services in a standarised human and machine-readable format. This fact fosters the discoverability of the datasets containing the information of public services. Therefore, it enhances its reuse and visibility. That is the reason why CPSV-AP is implementing the EU Catalogue of Services. Moreover, it is recommended in the CarTool 3.1.0 as one of the Operational enablers for the Catalogue of Services Solution Architecture Template (SAT).
+    cav:judgement """The CPSV-AP allows describing public services in a standard human and machine-readable format. This fact fosters the discoverability of the datasets containing the information of public services. Moreover, enhances its reuse and visibility. 
 
 CPSV-AP Joinup webpage:
 https://joinup.ec.europa.eu/solution/core-public-service-vocabulary-application-profile/release/22
 
-Catalogue of Services news page: 
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html
+
+On using the core public sector vocabulary (CPSV) to publish a "citizen's guide" as linked data:
+https://www.researchgate.net/publication/325495548_On_using_the_core_public_sector_vocabulary_CPSV_to_publish_a_citizen's_guide_as_linked_data"""@en ;
+    cav:refersTo camssa:184993c2-9041-4709-ad85-b72b42016a62 .
+
+camssa:465c1a65-41f9-4b84-b0eb-1c7da825296c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """This Core Vocabulary was developed in 2014 and has good acceptance in the European Union. The CPSV-AP is already being used by public administrations in Belgium, Italy, Finland and Estonia to create a cross-border federated catalogue of public services. Moreover, it is the basis of the European Catalogue of Services 
+
+CPSV-AP reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile
+
+CPSV-AP used in EU:
+https://www.ceps.eu/wp-content/uploads/2019/06/NO0119341ENN.en_.pdf
+
+Catalogue of Services:
 https://ec.europa.eu/isa2/catalogue-services-helping-eu-countries-catalogue-and-describe-public-services_en"""@en ;
-    cav:refersTo camssa:714df911-c44e-4d6a-9f22-66a3a51c740d .
+    cav:refersTo camssa:3b50acb9-94fe-4dbc-9573-6a89ba57e8dc .
 
-camssa:c902ea7a-665a-46a0-84fd-f8aa03640a24 a cav:Score,
+camssa:4a923cb6-530f-4ece-a6a6-e394faa073c3 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
     cav:value "100"^^xsd:int .
 
-camssa:cc6ca88d-df3b-4831-8c04-9a5b347ac117 a cav:Statement,
+camssa:4edfea18-f58e-4699-8f11-b7c99ca5b010 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """All solutions developed in ISA² Programme are under ISA Open Metadata Licence which is perpetual, royalty-free and non-exclusive license to Use and re-Use the Works.
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
 
-ISA open metadata license:
-https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11"""@en ;
-    cav:refersTo camssa:db31dc9b-a7b2-494b-b872-f16ced9ae057 .
-
-camssa:ccb9e127-a6c3-4887-b38f-b8b8a52a425a a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:9247dd8c-bebe-45b4-9232-c04e57ce4bfb .
-
-camssa:cd4ed893-03ea-4eb9-8152-473122d922c2 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
-    cav:value "100"^^xsd:int .
-
-camssa:cdd65d05-8d42-4e87-b1e8-1d0885cbc474 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """As a vocabulary, the implementation of CPSV-AP can be tested using methods like SHACL shapes and using semantic reasoners to ensure that the implementation is well-formed. These validation mechanisms can be used with open source tools or lite versions of tools like GrapghDB or Protégé.
-
-SHACL validation: 
-https://graphdb.ontotext.com/documentation/free/shacl-validation.html#what-is-shacl-validation
-
-Semantic Reasoners List: 
-http://owl.cs.manchester.ac.uk/tools/list-of-reasoners/ """@en ;
-    cav:refersTo camssa:8141ae83-1d4d-484e-b2fa-cfdfa7661e4d .
-
-camssa:cff74c49-4114-495a-a55e-323a29dadd05 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The Semantic Interoperability Community (SEMIC) has established Working Groups. These Working Groups are open to the participation of everyone interested in semantic solution working for public administrations in the Member States or in EU institutions.
-
-SEMIC working groups:
-https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/about"""@en ;
-    cav:refersTo camssa:59fcbf27-900d-4048-981d-2d3f5d1e7744 .
-
-camssa:d7cc7f77-0475-467c-af3f-61b83c3d508d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The Core Public Service Vocabulary Application Profile is a business domain agnostic specification that can be reused in a cross-domain way.
-
-CPSV-AP reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
-    cav:refersTo camssa:b4874aba-c166-41f6-96e8-9afb27b7bc8b .
-
-camssa:d8f231b7-7f5e-4f06-aae7-0e00a50e8cc6 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Belgium is recommending CPSV-AP in their ICT National Catalogues.
-
-Belgium national catalogue:
-https://www.belgif.be/nl/specifications"""@en ;
-    cav:refersTo camssa:c902ea7a-665a-46a0-84fd-f8aa03640a24 .
-
-camssa:d925c026-e984-4050-b71f-c4a6cf08af22 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of this core Vocabulary is not related to the availability of interfaces with internal information systems. Therefore, this criterion does not apply to this specification. 
-
-CPSV-AP reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
-    cav:refersTo camssa:16269103-5374-4877-b300-312c6619999f .
-
-camssa:db04aead-b21f-4583-8326-31338ce9d00e a cav:Statement,
+camssa:532a7a32-fa8b-46cf-aafd-170430d83452 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of CPSV-AP within any European catalogue of standards.
 
@@ -548,112 +287,373 @@ https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
 
 CENELEC search tool catalogue:
 https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
-    cav:refersTo camssa:79eb67e4-acad-48af-a2b8-955152d7c219 .
+    cav:refersTo camssa:7b1760e1-ed88-4d92-bbaa-6df67e8d1858 .
 
-camssa:db31dc9b-a7b2-494b-b872-f16ced9ae057 a cav:Score,
+camssa:54ffb8d5-0a17-4888-be1d-9e83851e2eb6 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
     cav:value "100"^^xsd:int .
 
-camssa:db5314d9-b018-49a9-aebf-aefad5dbf6ed a cav:Statement,
+camssa:598ac3c7-4a39-478a-af1b-3e0ce59bae25 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """The purpose of CPSV-AP is related to the delivery of multilingual public services. All datatype properties with datatype “text” where the value for that property may exist in multiple languages, the property has multiple instances which are tagged with a language identifier for each language in which the value for that property exists.
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:5c6fc3db-fc9d-4e53-8de7-6f9c521c88a1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this Core Vocabulary is not related to the modelling of organisational interoperability aspects. Therefore, this criterion is not applicable to the specification.
 
 CPSV-AP reference:
 https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
-    cav:refersTo camssa:baf98003-3c1b-4821-9e54-1348917042ca .
+    cav:refersTo camssa:be17664e-3c48-4aad-abec-01383c38b785 .
 
-camssa:e0471a88-6ec3-4aba-8642-33addfd39244 a cav:Statement,
+camssa:63ec6fdd-0085-4e05-9ea1-622ede08b523 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """The purpose of this Core Vocabulary is to harmonise public services (information) stored in different local, regional and national information sources, allowing the information to be searched and shared easily within and across public administrations all over Europe.
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
 
-CPSV-AP reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
-    cav:refersTo camssa:fdb37de4-d2a4-4171-9b5b-b23bebd83d5d .
-
-camssa:e16bb877-d1aa-460a-815d-aaba18662204 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:34595a4d-766e-462b-8ef3-75c9ac9ef5f7 .
-
-camssa:e4f69284-9164-4639-a805-8f852d6fd10d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "None"@en ;
-    cav:refersTo camssa:2e9d9d80-e7aa-4f4d-a774-cf047e757b9b .
-
-camssa:e860f66b-e2f2-40e6-9be4-bc1cc3d5fab6 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of this Core Vocabulary is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
-
-CPSV-AP reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
-    cav:refersTo camssa:bce15008-f305-438e-8e29-583cb46df7c1 .
-
-camssa:e86bb5a0-e691-488f-9ea7-99089ec8a7df a cav:Statement,
+camssa:6405161b-8163-499f-894d-40dbf6fa380b a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The Core Public Service Vocabulary Application Profile is a business domain agnostic specification that can be reused in a cross-domain way.
 
 CPSV-AP reference:
 https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
-    cav:refersTo camssa:229bfc4f-a2a1-44ab-a14c-87405e403397 .
+    cav:refersTo camssa:644040e3-7bf4-4b0a-9c28-53a14a9d900b .
 
-camssa:f084b361-6146-444a-a097-bea4a82d4fa2 a cav:Score,
+camssa:642f0c9f-1dff-4a20-9cbc-573bae9b36a5 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
     cav:value "100"^^xsd:int .
 
-camssa:f0b113cf-1aef-4148-85af-97f2931501f7 a cav:Statement,
+camssa:644040e3-7bf4-4b0a-9c28-53a14a9d900b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:69dd39df-9a08-47ff-beb7-cddf6796cab9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are not explicit studies or documentation regarding the effectiveness or efficiency of the Core Vocabulary Application Profile. However, an article on the usefulness of the AP for the publication of linked data from administrations. 
+
+Study about ISA2 efficiency:
+https://www.ceps.eu/wp-content/uploads/2019/06/NO0119341ENN.en_.pdf
+
+On using the core public sector vocabulary (CPSV) to publish a "citizen's guide" as linked data:
+https://www.researchgate.net/publication/325495548_On_using_the_core_public_sector_vocabulary_CPSV_to_publish_a_citizen's_guide_as_linked_data"""@en ;
+    cav:refersTo camssa:081dd176-c42a-4cbc-be9c-6f102164bf32 .
+
+camssa:6f4415f6-e526-4621-9c4d-6709752db7d9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:71ca3cf1-0a2f-475e-8304-4a0592bf39c5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:77c11588-4a47-4843-83a1-12d07bdf6e50 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:7b1760e1-ed88-4d92-bbaa-6df67e8d1858 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:7d106623-ae61-4d40-88bd-684981f805ca a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this Core Vocabulary is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+CPSV-AP reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
+    cav:refersTo camssa:54ffb8d5-0a17-4888-be1d-9e83851e2eb6 .
+
+camssa:802cc234-0f1c-49c8-8bd2-44ed18b5d224 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CPSV-AP is independent of any software, hardware, or operating system. So it can be said that the specification is independent of any specific technology or platform.
+
+CPSV-AP reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
+    cav:refersTo camssa:0bd3d6bb-61c5-4742-9d6f-8086d80630eb .
+
+camssa:8047b656-d8d1-4a78-a6fd-8f16f3f83884 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Core Public Service Vocabulary Application Profile is a business domain agnostic specification that can be reused in a cross-domain way.
+
+CPSV-AP reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
+    cav:refersTo camssa:b533903e-93a4-44a2-a6f2-25aad1197f36 .
+
+camssa:804c08c5-60e7-47b1-85ab-8eba747dfba3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:84a256da-6725-460f-bb26-6e8e3e6e42a6 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "None"@en ;
-    cav:refersTo camssa:f84e287e-b0bd-4d76-899b-50e483c5be0a .
+    cav:refersTo camssa:ba2907e3-f634-4cc3-9428-a296302f237d .
 
-camssa:f0c70a5f-4237-4b3c-b201-755f2918f54d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of this Core Vocabulary is not related to security and privacy of the data exchange. Therefore, this criterion is not applicable to this specification.
-
-CPSV-AP reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
-    cav:refersTo camssa:5a31fdf9-9bfd-4157-9ab3-bcbda4327633 .
-
-camssa:f3fce3c1-b86a-4f09-afc8-1bf606745e54 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of this Core Vocabulary is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification.
-
-CPSV-AP reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
-    cav:refersTo camssa:85a7372b-074c-4362-ab94-3135bdb95687 .
-
-camssa:f437d9cf-96a5-4d61-8e25-b45d4054ab1f a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The Semantic Interoperability Community (SEMIC) develops solutions to help European public administrations perform seamless and meaningful cross-border and cross-domain data exchanges. They develop semantic specifications and interoperability solutions under the ISA² Programme. When a new solution release is finished, it is submitted for a public review with a minimum period of four weeks.
-
-Specification development process by the ISA Programme:
-https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/document/description-change-management-release-and-publication-process-structural-metadata-specifications
-
-Detailed document ISA Programme:
-https://joinup.ec.europa.eu/sites/default/files/document/2016-10/description_of_a_change_management_release_and_publication_process_for_structural_metadata_specifications_developed_by_the_isa_progr.pdf"""@en ;
-    cav:refersTo camssa:f084b361-6146-444a-a097-bea4a82d4fa2 .
-
-camssa:f73046db-5f3b-49c1-bb0e-08e1241b09a8 a cav:Statement,
+camssa:868608c4-87b5-413b-b6df-4c939cbf66a1 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The purpose of this Core Vocabulary is to harmonise public services (information) stored in different local, regional and national information sources, allowing the information to be searched and shared easily within and across public administrations all over Europe.
 
 CPSV-AP reference:
 https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
-    cav:refersTo camssa:c69bb375-3558-4b93-a762-69a8dfac773d .
+    cav:refersTo camssa:cdde6e97-5871-4dfc-8b05-4498f269081d .
 
-camssa:f84e287e-b0bd-4d76-899b-50e483c5be0a a cav:Score,
+camssa:87a72fa6-28a7-4979-b87a-d02992623bc3 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:judgement """The CPSV-AP allows describing public services in a standarised human and machine-readable format. This fact fosters the discoverability of the datasets containing the information of public services. Therefore, it enhances its reuse and visibility. That is the reason why CPSV-AP is implementing the EU Catalogue of Services. Moreover, it is recommended in the CarTool 3.1.0 as one of the Operational enablers for the Catalogue of Services Solution Architecture Template (SAT).
+
+CPSV-AP Joinup webpage:
+https://joinup.ec.europa.eu/solution/core-public-service-vocabulary-application-profile/release/22
+
+Catalogue of Services news page: 
+https://ec.europa.eu/isa2/catalogue-services-helping-eu-countries-catalogue-and-describe-public-services_en"""@en ;
+    cav:refersTo camssa:d07132eb-982d-48ee-8255-1df4a6f8bf8c .
+
+camssa:9c711005-34cc-4a3f-b310-ad49e8a231e0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:9d748010-d87f-47c7-9db3-e213e06744b1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Belgium is recommending CPSV-AP in their ICT National Catalogues.
+
+Belgium national catalogue:
+https://www.belgif.be/nl/specifications"""@en ;
+    cav:refersTo camssa:d8cb141a-77fc-459d-a688-0fdbf4809df2 .
+
+camssa:a4d94cd0-3e7a-44d5-9b4e-0306bc296db4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
     cav:value "100"^^xsd:int .
 
-camssa:f8e503c8-90da-4310-990a-270dd6888cab a cav:Score,
+camssa:a893f6f1-3398-40d7-ad62-c546f8d499e8 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:judgement """CPSV-AP is a reusable and extensible data model for harmonising the way public services are described in a machine-readable format. So it describes the public administrations and eases their visualization and comprehensibility.
+
+CPSV-AP reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
+    cav:refersTo camssa:bf13a798-2312-475e-a9cf-7b52da5e3c34 .
+
+camssa:a9f14f2e-60c1-4675-b1aa-b84cdc772240 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0a5ef51e-0b5e-4bbd-b411-306bc5790551 .
+
+camssa:b0243d8e-29ef-438b-8d1f-0735d001b84a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
     cav:value "100"^^xsd:int .
 
-camssa:fdb37de4-d2a4-4171-9b5b-b23bebd83d5d a cav:Score,
+camssa:b35821b4-e341-4010-b201-e97d932be30e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:a4d94cd0-3e7a-44d5-9b4e-0306bc296db4 .
+
+camssa:b4f6f21a-7db8-4831-8ccb-c5699718ee5e a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:b533903e-93a4-44a2-a6f2-25aad1197f36 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b7d5584d-6f29-4ee9-a856-19d4209340d9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b914dfff-fe7d-4708-96bc-b0622c2c7046 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CPSV-AP is a reusable and extensible data model for harmonising the way public services are described in a machine-readable format. So it describes the public administrations and eases their visualization and comprehensibility.
+
+CPSV-AP reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
+    cav:refersTo camssa:349bf30e-2a20-4d25-b77a-0cc2fe2dbe5f .
+
+camssa:ba2907e3-f634-4cc3-9428-a296302f237d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:bc9e3a08-1d89-44af-a5a7-bcd32772d031 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this core Vocabulary is not related to the availability of interfaces with internal information systems. Therefore, this criterion does not apply to this specification. 
+
+CPSV-AP reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
+    cav:refersTo camssa:4a923cb6-530f-4ece-a6a6-e394faa073c3 .
+
+camssa:bceedb56-0928-4cd4-86ab-1a0c41d25d0f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bd9888e5-863c-472b-a4dc-c22b8feb3ef0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:e58ac746-d67a-4a4a-a915-d85c7f47ae8f .
+
+camssa:be17664e-3c48-4aad-abec-01383c38b785 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bf13a798-2312-475e-a9cf-7b52da5e3c34 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:bfdfaaca-cafd-4677-98cf-d439332fd1a1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c5b7e972-fd01-4004-960a-f853095eba14 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:c82eec51-670d-4148-b414-91196aec50a6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:598ac3c7-4a39-478a-af1b-3e0ce59bae25 .
+
+camssa:c9cb2c2c-b088-482c-a516-38747ba8962e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:2202acd7-9031-4042-82e3-10e4d49000b9 .
+
+camssa:cbd75d34-b0f9-4401-8ab9-f862f7fb8b4a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:cdbd23d8-af1e-4009-8d76-0d2c96fb2cdc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As a vocabulary, the implementation of CPSV-AP can be tested using methods like SHACL shapes and using semantic reasoners to ensure that the implementation is well-formed. These validation mechanisms can be used with open source tools or lite versions of tools like GrapghDB or Protégé.
+
+SHACL validation: 
+https://graphdb.ontotext.com/documentation/free/shacl-validation.html#what-is-shacl-validation
+
+Semantic Reasoners List: 
+http://owl.cs.manchester.ac.uk/tools/list-of-reasoners/ """@en ;
+    cav:refersTo camssa:c5b7e972-fd01-4004-960a-f853095eba14 .
+
+camssa:cdde6e97-5871-4dfc-8b05-4498f269081d a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
     cav:value "100"^^xsd:int .
+
+camssa:d07132eb-982d-48ee-8255-1df4a6f8bf8c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d1c16a52-e282-4848-b1e2-5f240daf00b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d2004562-2429-4833-9580-8b3725cacb8f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this Core Vocabulary is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification.
+
+CPSV-AP reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
+    cav:refersTo camssa:b0243d8e-29ef-438b-8d1f-0735d001b84a .
+
+camssa:d30b096f-97e0-4ef2-b894-828590ca69e7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no Member State that includes CPSV-AP in their national catalogue with the National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:4edfea18-f58e-4699-8f11-b7c99ca5b010 .
+
+camssa:d70b0c30-8f1a-4c40-82dd-9135055a778f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6f4415f6-e526-4621-9c4d-6709752db7d9 .
+
+camssa:d8cb141a-77fc-459d-a688-0fdbf4809df2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:db062b6a-cab5-4e54-8355-dd0d33278c1a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Semantic Interoperability Community (SEMIC) has established Working Groups. These Working Groups are open to the participation of everyone interested in semantic solution working for public administrations in the Member States or in EU institutions.
+
+SEMIC working groups:
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/about"""@en ;
+    cav:refersTo camssa:f7279d7b-5c88-4114-8657-07f58a3db24a .
+
+camssa:dbc0e625-7e56-4532-a569-a4fd2669eb23 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e58ac746-d67a-4a4a-a915-d85c7f47ae8f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:e5fc17c8-1cda-4a29-bab7-a4e03deedfe8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The application of the once-only principle in all EU Member States public administrations aims at reducing the administrative burden. This Core Vocabulary fosters interoperability between public administrations, cross border services and impacts positively the development of eGovernment.
+
+CPSV-AP reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
+    cav:refersTo camssa:dbc0e625-7e56-4532-a569-a4fd2669eb23 .
+
+camssa:e61483a7-8391-4569-96f3-3fe4aba72f9c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this Core Vocabulary is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification.
+
+CPSV-AP reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"""@en ;
+    cav:refersTo camssa:cbd75d34-b0f9-4401-8ab9-f862f7fb8b4a .
+
+camssa:f7279d7b-5c88-4114-8657-07f58a3db24a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:f80a7592-d1e7-4579-8961-77e4016bd5e3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f82f0487-9e36-4526-bb55-064fa375c818 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 1 Member States' catalogue of recommended specifications. The Member State that includes this Core Vocabulary on their catalogue is Belgium.
+
+Belgium national catalogue:
+https://www.belgif.be/nl/specifications"""@en ;
+    cav:refersTo camssa:282de30d-5d64-48df-a622-37e5970afa8c .
+
+camssa:f8b23c8e-89ef-4ef3-bc48-305f075d6b52 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:71ca3cf1-0a2f-475e-8304-4a0592bf39c5 .
+
+camssa:fb8e30b1-a99f-4e2b-b0dd-224af309ded6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ff51e70f-1c61-4ddd-b811-37758622ad61 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0cfd8e97-7b07-488a-9875-aec3969e4b55 .
 
