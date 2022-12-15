@@ -1,12 +1,10 @@
 import os, warnings
 import glob
 import uuid
-import requests
 from rdflib import URIRef, Literal, Namespace, Graph
 from rdflib.namespace import RDF, OWL, XSD
 import utils
 
-warnings.filterwarnings('ignore')
 # assessment(s) graph namespaces, apart from RDF, OWL and XSD
 CAMSS = Namespace("http://data.europa.eu/2sa#")
 CAMSSA = Namespace("http://data.europa.eu/2sa/assessments/")
@@ -69,6 +67,7 @@ class GraphInstance:
     tool_version: str
     dict_crit: dict = Scenario().dic_criteria
     dict_responses: dict = {'stmt': ['None'] * 44, 'old_score': ['None'] * 44, 'score': ['None'] * 44, 'criteria': ['None'] * 44, 'answer': ['None'] * 44}
+    responses_old: list # number of not answered, n/a, no, yes responses
     responses_new: list = [None, None, None, None]  # number of not answered, n/a, no, yes responses
     responses_new_df: dict = {}
     g_scores: dict = {}
@@ -84,12 +83,9 @@ class GraphInstance:
         Reads a ttl file and transforms it to an rdflib graph instance.
         :return: sets the graph
         """
-        try:
-            data = open(self.filepath, 'rb')
-            self.g = Graph()
-            self.g.parse(data, format='turtle')
-        except RuntimeWarning:
-            breakpoint()
+        data = open(self.filepath, 'rb')
+        self.g = Graph()
+        self.g.parse(data, format='turtle')
         data.close()
         return
 
@@ -222,6 +218,7 @@ class GraphInstance:
         This method populates the dictionary of responses from the old Assessment. Mapping of criteria.
         :return: population of the dictionary of responses
         """
+        self.responses_old = [0, 0, 0, 0]
         # s stands for subject, p stands for predicate, o stands for object
         for s, p, o in self.g.triples((URIRef(CAMSSA + self.ass_id, CAMSSA), CAV.resultsIn, None)):
             # original statement for a specific criterion (old CAMSS EIF scenario)
@@ -230,6 +227,13 @@ class GraphInstance:
             id_score = str(self.g.value(subject=o, predicate=CAV.refersTo, any=None)).split("/")[-1]
             # original criterion score (old CAMSS EIF scenario)
             score = self.g.value(subject=URIRef(CAMSSA + id_score, CAMSSA), predicate=CAV.value, any=None)
+            # set responses_old
+            if str(score) == "0":
+                self.responses_old[2] += 1
+            elif str(score) == "1":
+                self.responses_old[3] += 1
+            elif str(score) == "2":
+                self.responses_old[1] += 1
             # original identifier of the criterion (old CAMSS EIF scenario)
             id_criterion = str(self.g.value(subject=URIRef(CAMSSA + str(id_score), CAMSSA), predicate=CAV.assignedTo,
                                             any=None)).split("/")[-1].split("c-")[-1]
@@ -254,6 +258,8 @@ class GraphInstance:
                             self.dict_responses['answer'][index] = 'Yes/Gradient'
                         elif self.dict_responses['old_score'][index] == "2":
                             self.dict_responses['answer'][index] = 'Not Applicable'
+                        elif self.dict_responses['old_score'][index] == "None":
+                            self.dict_responses['answer'][index] = 'Not Applicable'
                         else:
                             self.dict_responses['answer'][index] = 'Not Answered'
                         # self.add_results_subgraph(statement, score, equiv_id_criterion)
@@ -270,6 +276,8 @@ class GraphInstance:
                     elif self.dict_responses['old_score'][index] == "1":
                         self.dict_responses['answer'][index] = 'Yes/Gradient'
                     elif self.dict_responses['old_score'][index] == "2":
+                        self.dict_responses['answer'][index] = 'Not Applicable'
+                    elif self.dict_responses['old_score'][index] == "None":
                         self.dict_responses['answer'][index] = 'Not Applicable'
                     else:
                         self.dict_responses['answer'][index] = 'Not Answered'
@@ -313,16 +321,7 @@ class GraphInstance:
             self.dict_responses['stmt'][index] = 'None'
             self.dict_responses['score'][index] = '100'
             self.dict_responses['criteria'][index] = self.dict_crit[self.sc510_id][i]
-            if self.dict_responses['old_score'][index] == "0":
-                self.dict_responses['answer'][index] = 'No/Gradient'
-            elif self.dict_responses['old_score'][index] == "1":
-                self.dict_responses['answer'][index] = 'Yes/Gradient'
-            elif self.dict_responses['old_score'][index] == "2":
-                self.dict_responses['answer'][index] = 'Not Applicable'
-            elif self.dict_responses['old_score'][index] == "None":
-                self.dict_responses['answer'][index] = 'Not Applicable'
-            else:
-                self.dict_responses['answer'][index] = 'Not Answered'
+            self.dict_responses['answer'][index] = 'Not Applicable'
 
     def set_old_scores(self):
         """
@@ -333,16 +332,11 @@ class GraphInstance:
         # scores
         self.g_scores[self.ttl_filename] = []
         # old scores for v300 and v310: automated and strength
-        total_old = len(self.dict_responses['old_score'])
-        responses_old = [0,  # number of not answered, in old version of EIF Scenario this field is always 0
-                         sum([1 for i in self.dict_responses['old_score'] if i == "2"]),  # number of n/a
-                         sum([1 for i in self.dict_responses['old_score'] if i == "0"]),  # number of negative answers
-                         sum([1 for i in self.dict_responses['old_score'] if i == "1"])  # number of positive answers
-                         ]
+        total_old = sum(self.responses_old)
         self.g_scores[self.ttl_filename].append(
-            round((responses_old[3]) / (total_old - responses_old[1]) * 100))
+            round((self.responses_old[3] / (total_old - self.responses_old[1])) * 100))
         self.g_scores[self.ttl_filename].append(
-            round(((responses_old[3] + responses_old[2]) / total_old) * 100))
+            round(((self.responses_old[3] + self.responses_old[2]) / total_old) * 100))
 
     def set_new_scores(self):
         """
@@ -355,7 +349,7 @@ class GraphInstance:
         not_app = sum([1 for i in self.dict_responses['answer'] if i == 'Not Applicable'])
         total_new = 44 - (1 if self.dict_responses['answer'][1] in ['Not Applicable', 'Not answered'] else 0)
         self.g_scores[self.ttl_filename].append(
-            round(pos_ans / (total_new - not_app) * 100))
+            round((pos_ans / (total_new - not_app)) * 100))
         self.g_scores[self.ttl_filename].append(
             round(((pos_ans + neg_ans) / total_new) * 100))
         # populate the dictionary of new responses where the number of not applicable, negative and positive answers is given
