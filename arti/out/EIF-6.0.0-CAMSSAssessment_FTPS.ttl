@@ -1,0 +1,667 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:4a0145c17eaf18a255567874eb0907e74e9042e8424507439cf7138da9b10717 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:e41213fb14c1adb9399c01ba2716777ad755f60c7900cc97cbd7d16bc774452c ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:0c1dcee8-2057-47e5-9863-e6ad0a1367d2,
+        camssa:1486b310-5342-41e0-be87-ed37ed937186,
+        camssa:26a9805c-b084-4c04-8d79-4d6bcc0fbe4a,
+        camssa:2eebfd54-8ae8-4050-8af8-2d3ad3d342a5,
+        camssa:3c896ec5-3c3b-4e43-a059-88564ea9cbb7,
+        camssa:406758e9-6af7-494a-bb76-762dc65a727c,
+        camssa:458a767d-4bd9-4413-a252-f40876bc8de9,
+        camssa:45b74082-2c1d-4ae0-9c7f-a1cefad41182,
+        camssa:491b72d6-a84c-4b68-b589-97114bc9ebef,
+        camssa:5458b01f-3416-42eb-976f-6e2f9365313b,
+        camssa:60be65ae-c972-4946-9254-849a2c297b65,
+        camssa:61db162b-97ff-40d9-b5c0-79220b36e2ff,
+        camssa:62720c2c-fa60-4fc6-95ac-790d0c4e8f88,
+        camssa:68b56b17-a563-4344-b5b1-b54488b0c6dd,
+        camssa:75fde3cb-74a5-4048-9dd3-fb77033c511b,
+        camssa:7c8dddb3-f0c8-4aad-a361-38722ed3cd69,
+        camssa:870ff8b9-123d-4385-a0c6-21cb18912538,
+        camssa:8838cb58-923b-48bb-a8eb-b79042639667,
+        camssa:8ee38a3c-3792-44f6-8de0-3c41767f94bf,
+        camssa:8fbb9dd1-b09b-4695-846a-18dc45b65cf0,
+        camssa:95be75e8-4203-4e77-b4c3-da12398064ec,
+        camssa:963b9460-d267-43ff-9943-a22be33e3dfa,
+        camssa:a6f6a4c8-6171-4ac8-a18e-77e075517990,
+        camssa:a9f31666-d4d0-4991-8255-d81c1d51bc7f,
+        camssa:afef1a31-693f-488b-968a-b842a910340d,
+        camssa:b0e3c511-4962-4daa-80aa-1f16a2f8cdd1,
+        camssa:b57aff39-7c12-41bf-b917-1df75f627694,
+        camssa:c9c04516-e93f-4c92-a5e7-9792a9661e00,
+        camssa:cf194538-28b3-43ab-b3e8-b48eea581583,
+        camssa:d05b349c-a4d5-4d8b-99c7-626d65bf916a,
+        camssa:d3604998-d261-42e7-8a89-4876d7cafcb0,
+        camssa:dc0e2e9c-a704-4783-adff-7bcaab06358e,
+        camssa:dca900be-b47c-46eb-8488-cd3349566d38,
+        camssa:dde6b282-678e-485d-9027-a57ff4a224b7,
+        camssa:e22baae1-1cbe-493b-be06-ccab38995e02,
+        camssa:e7a9775f-664b-40fc-b6ef-f3015cd4479a,
+        camssa:e88f463e-1243-4b74-810e-121139c1e713,
+        camssa:e9033009-7ed0-4ba8-acf9-ea6676056929,
+        camssa:eb82f663-0a1e-4a2f-93c0-465b61f82fb0,
+        camssa:eb96c866-1d70-41c8-b680-eb1adc2dcfc0,
+        camssa:eccf1432-2735-4827-8884-8326a42fb454,
+        camssa:ef169943-4c95-481d-99da-3c9a6ea5f180,
+        camssa:f931f0a4-2fed-4a95-8623-c7d0fdd9c3fa,
+        camssa:fc9390fa-d292-4fb2-aeae-fb3f1a1ea6d3,
+        camssa:ffa207ae-2844-40e3-87d9-d453e3097734 ;
+    cav:status status:Complete ;
+    dct:title "File Transfer Protocol over Transport Layer Security (FTPS or FTP over TLS)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:44b25a9b-47a6-492b-9a35-defbab77103d ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:07acc0a0-5ce5-48c7-94e1-3d568473c039 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:0c1dcee8-2057-47e5-9863-e6ad0a1367d2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6d8de87b-60d5-45cf-aebe-4fe270ed9aec .
+
+camssa:0d454f00-a2ae-4490-8cf1-8d65563c2a94 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "20"^^xsd:int .
+
+camssa:1023f7c9-f894-4c87-ad7c-48d9895e616c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:1486b310-5342-41e0-be87-ed37ed937186 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:e23677e8-f6d3-4cf9-9c0d-bc76e9403676 .
+
+camssa:15bf5a12-54c3-473e-8495-70b8469a9232 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:19e72a4c-dde8-46ec-adbf-aa3d814670bb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:1dd71613-00c7-41c3-9534-ff19f3cd5ed6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:1e693c11-74c1-463c-8068-ea574b50e69a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:23002975-24f9-40e9-8575-7cac8ca1ffe2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:2632fbae-b871-42d8-a444-8e6b90dae71f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:26a9805c-b084-4c04-8d79-4d6bcc0fbe4a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """FTPS allows public administration to share and exchange information with others, so it helps with the visibility of data. However, FTPS is a protocol only intended to exchange the data, it doesn't help to comprehend it.
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217"""@en ;
+    cav:refersTo camssa:6ca898fb-ba53-481d-864b-4d88b1dae75d .
+
+camssa:2a3e5bbb-0d54-479d-b266-b79cd315d274 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2eebfd54-8ae8-4050-8af8-2d3ad3d342a5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:8ebd39f1-a926-4718-ba12-d3a13dd72747 .
+
+camssa:2effcf31-ee8c-497e-afdb-0dbaa05c4de1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:388f0a52-626f-4ffb-ae37-91763ea6824c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:3a208f5c-0c9c-4ba9-b5b4-4667dd288f41 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:3c896ec5-3c3b-4e43-a059-88564ea9cbb7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, FTPS is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. FTPS is therefore licensed on a royalty-free basis.
+No IPR disclosures have been submitted directly on the FTPS specification (RFC 4217).
+
+Intellectual Property Rights in IETF:
+https://tools.ietf.org/html/rfc3668
+
+Like all the IETF standards, FTPS is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. Therefore, FTPS is licensed on a royalty-free basis.
+
+Intellectual Property Rights in IETF:
+https://tools.ietf.org/html/rfc3668"""@en ;
+    cav:refersTo camssa:59150aaa-1190-4d8e-a7b3-71c0b029bc02 .
+
+camssa:3fbcbc86-03f4-43b0-953f-9835a8f8efcb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:406758e9-6af7-494a-bb76-762dc65a727c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """FTPS is maintained and developed by IETF which is an international community developing open standards. 
+
+Developer community IETF: 
+https://www.ietf.org/about/"""@en ;
+    cav:refersTo camssa:b6f450cd-485c-4d5e-819d-16237db22043 .
+
+camssa:44b25a9b-47a6-492b-9a35-defbab77103d a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:45776a94-586d-49ad-a8d3-5945bec292db a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "20"^^xsd:int .
+
+camssa:458a767d-4bd9-4413-a252-f40876bc8de9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of FTPS within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:1dd71613-00c7-41c3-9534-ff19f3cd5ed6 .
+
+camssa:45b74082-2c1d-4ae0-9c7f-a1cefad41182 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f77cf002-dfe1-46ba-a014-ec688f575faa .
+
+camssa:489c724d-b457-463e-b213-7182778446c2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:48d78f2a-96e2-45c4-94fe-c7777dd05cdf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:491b72d6-a84c-4b68-b589-97114bc9ebef a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """FTPS is an extension of the File Transfer Protocol (FTP) that adds support for the Transport Layer Security (TLS) to secure the data exchange. So it is dependant of FTP and TLS versions.
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217"""@en ;
+    cav:refersTo camssa:bea7f9b2-9b91-4127-aece-34cea65a10fd .
+
+camssa:4c8fb594-a26d-4662-b541-b85ddc8a1179 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:5458b01f-3416-42eb-976f-6e2f9365313b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """FTPS was first published as a draft RFC in 1996, but the RFC was not finished until 2005. Since then, many implementations using FTPS have been done to secure FTP, which it proves that it is mature enough for the development of products and services.
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217"""@en ;
+    cav:refersTo camssa:7543e267-5ac0-4460-8d8a-19ba7580838c .
+
+camssa:59150aaa-1190-4d8e-a7b3-71c0b029bc02 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:60be65ae-c972-4946-9254-849a2c297b65 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:3a208f5c-0c9c-4ba9-b5b4-4667dd288f41 .
+
+camssa:61db162b-97ff-40d9-b5c0-79220b36e2ff a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """FTPS as an extension of FTP, is used for file exchange by some public organisations. By allowing public administration to share information with others, it fosters the visibility of data (e.g. administrative rules, processes etc.) and facilitates public administrations the decision-making. 
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217"""@en ;
+    cav:refersTo camssa:1023f7c9-f894-4c87-ad7c-48d9895e616c .
+
+camssa:62720c2c-fa60-4fc6-95ac-790d0c4e8f88 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """FTPS is a network protocol for transferring files over the Internet. It has the same specifications as FTP but it uses the Transport Layer Security (TLS) to secure the communications.
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217"""@en ;
+    cav:refersTo camssa:3fbcbc86-03f4-43b0-953f-9835a8f8efcb .
+
+camssa:64282d31-aa10-4593-8b33-96b9d599779c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:68b56b17-a563-4344-b5b1-b54488b0c6dd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f2b27ca4-69b0-4d16-b716-962f7a2421b1 .
+
+camssa:6ca898fb-ba53-481d-864b-4d88b1dae75d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "20"^^xsd:int .
+
+camssa:6d6670f9-713f-408c-828f-8139a30c71fa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6d8de87b-60d5-45cf-aebe-4fe270ed9aec a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:712f9eea-9498-40c3-9784-227ed7fd8304 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7543e267-5ac0-4460-8d8a-19ba7580838c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:75fde3cb-74a5-4048-9dd3-fb77033c511b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a formal review and approval so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
+Each distinct version of an Internet standards-related specification is published as part of the "Request for Comments" (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications.
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's "Internet-Drafts" directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.
+
+Standard process IETF:
+https://www.ietf.org/standards/process/ 
+
+Internet Best Current Practices IETF:
+https://tools.ietf.org/html/rfc2026"""@en ;
+    cav:refersTo camssa:a65b52a3-b5c6-4c2c-b355-b3e85a4d7811 .
+
+camssa:7c8dddb3-f0c8-4aad-a361-38722ed3cd69 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:a6ab2a37-7079-40a6-8395-39ed927f38cd .
+
+camssa:870ff8b9-123d-4385-a0c6-21cb18912538 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """FTPS is an extension of FTP which allows public administration to exchange information securely, so it avoids multiple requests of standard information to citizens or businesses. 
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217"""@en ;
+    cav:refersTo camssa:2effcf31-ee8c-497e-afdb-0dbaa05c4de1 .
+
+camssa:8838cb58-923b-48bb-a8eb-b79042639667 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of FTPS is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217"""@en ;
+    cav:refersTo camssa:c56abddd-ff0f-44b5-a180-fd60caecca75 .
+
+camssa:8ebd39f1-a926-4718-ba12-d3a13dd72747 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8ee38a3c-3792-44f6-8de0-3c41767f94bf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+None"""@en ;
+    cav:refersTo camssa:e49f9465-b680-42b3-8600-075ccb4a6f0d .
+
+camssa:8fbb9dd1-b09b-4695-846a-18dc45b65cf0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no tools that assess the conformity of FTPS implementations. However, there are online tools developed by the FTP community, which assess FTP and FTPS servers performance. 
+
+FileZilla tests FTPS implementation:
+https://filezilla-project.org/"""@en ;
+    cav:refersTo camssa:45776a94-586d-49ad-a8d3-5945bec292db .
+
+camssa:8ff97715-56cb-4de4-9dc0-b8e56bf40fb1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:95be75e8-4203-4e77-b4c3-da12398064ec a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 1 Member States' catalogues of recommended specifications. This Member States is Germany.
+
+National catalogue Germany: 
+http://www.cio.bund.de/SharedDocs/Publikationen/DE/Architekturen-und-Standards/SAGA/saga_modul_tech_spez_de_bund_5_0_download.pdf?__blob=publicationFile"""@en ;
+    cav:refersTo camssa:fafbc416-254b-42da-bebf-edef2579b1a7 .
+
+camssa:963b9460-d267-43ff-9943-a22be33e3dfa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of FTPS is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217"""@en ;
+    cav:refersTo camssa:48d78f2a-96e2-45c4-94fe-c7777dd05cdf .
+
+camssa:9a90b84b-97c6-4a9d-a9d4-954e42c50d43 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a65b52a3-b5c6-4c2c-b355-b3e85a4d7811 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:a6ab2a37-7079-40a6-8395-39ed927f38cd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:a6f6a4c8-6171-4ac8-a18e-77e075517990 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:388f0a52-626f-4ffb-ae37-91763ea6824c .
+
+camssa:a9f31666-d4d0-4991-8255-d81c1d51bc7f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although FTPS is an alternative of FTP for a secure communication internet protocol and it has been supported by some commercial file transfer tools, SFTP is easier to implement and it works better over NATs and firewalls without the issues that hamper FTPS implementations. So, it does not have a complete market acceptance.
+
+FTPS - Obsolescent Secure FTP:
+https://www.ssh.com/ssh/ftp/ftps
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217"""@en ;
+    cav:refersTo camssa:0d454f00-a2ae-4490-8cf1-8d65563c2a94 .
+
+camssa:afef1a31-693f-488b-968a-b842a910340d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """FTPS is a secure internet protocol for the exchange of data over an Internet network. It makes data accessible on the web which is the first level of maturity defined in the Tim Berners-Lee's 5-star for Open Data.
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217
+
+Tim Berners-Lee 5-star schema for Open Data:   
+https://5stardata.info/en/
+
+According to the 5-star Open Data model suggested by Tim Berners-Lee about how to publish linked data, FTPS as an internet protocol for the exchange of data, supports the first level of maturity which corresponds to make data available as structured data.
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html"""@en ;
+    cav:refersTo camssa:489c724d-b457-463e-b213-7182778446c2 .
+
+camssa:b0e3c511-4962-4daa-80aa-1f16a2f8cdd1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are documents that compare different secured versions of FTP (FTPS and SFTP), and the main differences between them. From there, it can be assessed the efficiency and effectiveness of the usage of FTPS in comparison with other type of FTP.
+
+FTPS vs SFTP:
+https://www.goanywhere.com/blog/2016/11/23/sftp-vs-ftps-the-key-differences"""@en ;
+    cav:refersTo camssa:8ff97715-56cb-4de4-9dc0-b8e56bf40fb1 .
+
+camssa:b57aff39-7c12-41bf-b917-1df75f627694 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:ebb9bd25-9bf5-44a4-a52c-51ad459e83d2 .
+
+camssa:b6f450cd-485c-4d5e-819d-16237db22043 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ba7d1a32-7122-4e30-88c7-f9306344f522 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:be0f3717-1d36-4491-9ccc-a69688ac52ef a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "20"^^xsd:int .
+
+camssa:bea7f9b2-9b91-4127-aece-34cea65a10fd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:int .
+
+camssa:c56abddd-ff0f-44b5-a180-fd60caecca75 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c59e81c8-fbcb-4ec0-9f59-f5c590318e86 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c9c04516-e93f-4c92-a5e7-9792a9661e00 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of FTPS is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification. 
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217"""@en ;
+    cav:refersTo camssa:712f9eea-9498-40c3-9784-227ed7fd8304 .
+
+camssa:ce7642c4-7c43-40a4-82fb-26446c5ca689 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cf194538-28b3-43ab-b3e8-b48eea581583 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of FTPS is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217"""@en ;
+    cav:refersTo camssa:6d6670f9-713f-408c-828f-8139a30c71fa .
+
+camssa:d05b349c-a4d5-4d8b-99c7-626d65bf916a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are documents that compare different secured versions of FTP (FTPS and SFTP), and the main differences between them. From there, it can be assessed the efficiency and effectiveness of the usage of FTPS in comparison with other type of FTP.
+
+FTPS vs SFTP:
+https://www.goanywhere.com/blog/2016/11/23/sftp-vs-ftps-the-key-differences"""@en ;
+    cav:refersTo camssa:2a3e5bbb-0d54-479d-b266-b79cd315d274 .
+
+camssa:d3604998-d261-42e7-8a89-4876d7cafcb0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:15bf5a12-54c3-473e-8495-70b8469a9232 .
+
+camssa:dc0e2e9c-a704-4783-adff-7bcaab06358e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of FTPS is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification. 
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217"""@en ;
+    cav:refersTo camssa:ce7642c4-7c43-40a4-82fb-26446c5ca689 .
+
+camssa:dca900be-b47c-46eb-8488-cd3349566d38 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """FTPS is a business domain agnostic specification that can be reused in a cross-domain way.
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217
+
+FTPS is a business domain agnostic specification that can be reused in a cross-domain way.
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217"""@en ;
+    cav:refersTo camssa:2632fbae-b871-42d8-a444-8e6b90dae71f .
+
+camssa:dde6b282-678e-485d-9027-a57ff4a224b7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9a90b84b-97c6-4a9d-a9d4-954e42c50d43 .
+
+camssa:e22baae1-1cbe-493b-be06-ccab38995e02 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The main purpose of FTPS as an extension of FTP is to allow the exchange of documents on the internet. So it clearly fosters data portability between systems and applications.
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217
+
+The main purpose of FTPS as an extension of FTP is to allow the exchange of documents on the internet. So it clearly fosters data portability between systems and applications.
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217"""@en ;
+    cav:refersTo camssa:4c8fb594-a26d-4662-b541-b85ddc8a1179 .
+
+camssa:e23677e8-f6d3-4cf9-9c0d-bc76e9403676 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e2589ad0-64b5-4742-8614-556620e1339c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:e49f9465-b680-42b3-8600-075ccb4a6f0d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:e7a9775f-664b-40fc-b6ef-f3015cd4479a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:19e72a4c-dde8-46ec-adbf-aa3d814670bb .
+
+camssa:e88f463e-1243-4b74-810e-121139c1e713 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """FTPS is an extension of the File Transfer Protocol (FTP) that adds support for the Transport Layer Security (TLS) to secure the data exchange. So it is dependant of FTP and TLS versions.
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217"""@en ;
+    cav:refersTo camssa:be0f3717-1d36-4491-9ccc-a69688ac52ef .
+
+camssa:e9033009-7ed0-4ba8-acf9-ea6676056929 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no Member State that includes FTPS in their national catalogue with The National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:23002975-24f9-40e9-8575-7cac8ca1ffe2 .
+
+camssa:eb82f663-0a1e-4a2f-93c0-465b61f82fb0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:64282d31-aa10-4593-8b33-96b9d599779c .
+
+camssa:eb96c866-1d70-41c8-b680-eb1adc2dcfc0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although FTPS is not the main specification used for FTP secured transfers, it has been selected for its use in the initiative "The Big Data Platform Initiative of the EC Joint Research Centre", it takes care of ensuring data transfer to EOS.
+
+JRC Big Data Platform (JEODPP):
+https://ec.europa.eu/eurostat/cros/system/files/dawos18_lecture.soille.jeodpp.pdf"""@en ;
+    cav:refersTo camssa:c59e81c8-fbcb-4ec0-9f59-f5c590318e86 .
+
+camssa:ebb9bd25-9bf5-44a4-a52c-51ad459e83d2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:eccf1432-2735-4827-8884-8326a42fb454 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The IETF is a consensus-based group, and authority to act on behalf of the community requires a high degree of consensus and the continued consent of the community. The process of creating an Internet Standard is straightforward: a specification undergoes a period of development and several iterations of review by the Internet community and revision based upon experience is adopted as a Standard by the appropriate body and is published. In practice, the process is more complicated, due to (1) the difficulty of creating specifications of high technical quality; (2) the need to consider the interests of all the affected parties; (3) the importance of establishing widespread community consensus; and (4) the difficulty of evaluating the utility of a particular specification for the Internet community. The goals of the Internet Standards Process are:
+- Technical excellence;
+- prior implementation and testing;
+- clear, concise, and easily understood documentation;
+- openness and fairness; and 
+- timeliness.
+The goal of technical competence, the requirement for prior implementation and testing, and the need to allow all interested parties to comment all require significant time and effort. The Internet Standards Process is intended to balance these conflicting goals. The process is believed to be as short and simple as possible without sacrificing technical excellence, thorough testing before adoption of a standard, or openness and fairness.
+
+Standard process IETF:
+https://www.ietf.org/standards/process/"""@en ;
+    cav:refersTo camssa:1e693c11-74c1-463c-8068-ea574b50e69a .
+
+camssa:ef169943-4c95-481d-99da-3c9a6ea5f180 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Germany is recommending FTPS in their ICT National Catalogues.
+
+National catalogue Germany: 
+http://www.cio.bund.de/SharedDocs/Publikationen/DE/Architekturen-und-Standards/SAGA/saga_modul_tech_spez_de_bund_5_0_download.pdf?__blob=publicationFile"""@en ;
+    cav:refersTo camssa:fe9d3917-7e9a-4db3-af0b-1659d161ab3d .
+
+camssa:f2b27ca4-69b0-4d16-b716-962f7a2421b1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:f77cf002-dfe1-46ba-a014-ec688f575faa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:f931f0a4-2fed-4a95-8623-c7d0fdd9c3fa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:07acc0a0-5ce5-48c7-94e1-3d568473c039 .
+
+camssa:fafbc416-254b-42da-bebf-edef2579b1a7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:fc9390fa-d292-4fb2-aeae-fb3f1a1ea6d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:e2589ad0-64b5-4742-8614-556620e1339c .
+
+camssa:fe9d3917-7e9a-4db3-af0b-1659d161ab3d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ffa207ae-2844-40e3-87d9-d453e3097734 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """FTPS is a protocol for data exchange, it allows the communication between multiple endpoints and it makes available interfaces for public administrations systems.
+
+FTPS IETF reference:
+https://tools.ietf.org/html/rfc4217"""@en ;
+    cav:refersTo camssa:ba7d1a32-7122-4e30-88c7-f9306344f522 .
+

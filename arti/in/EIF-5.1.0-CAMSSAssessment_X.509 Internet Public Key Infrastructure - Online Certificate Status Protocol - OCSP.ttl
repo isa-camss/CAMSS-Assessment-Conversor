@@ -1,0 +1,736 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:71b734d93eea13de404910eb634943e6bc28f69d27f2f63bcbdf62230a832bb3 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:5ed47f48-ada9-48e7-9698-58f2e249a01c ;
+    skos:prefLabel "CAMSS Team European Commission DG DIGIT"@en .
+
+camssa:7754685b92f9f7d78095c5adc328d78dd8b14aa5d1b4bf77f935628a3b6dc0ab a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:39eee9a3f8d54dac0e11456b98c29454ebb157dc3a8991f456b7b659bf990370 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:0357acb1-5c0c-456d-80b8-a079bfb20e32,
+        camssa:07ecc9c6-a800-438f-9b1c-9bade6375a49,
+        camssa:0ba75bba-7ae0-4044-b329-ae8dcc6ba1b0,
+        camssa:0c9bc0f9-589d-4dca-ab05-cc38c11bd4d3,
+        camssa:1466a8f1-fca1-48b1-9433-333f1cdacbdb,
+        camssa:14c9b512-52fa-4064-84c0-ddbf7a35c5cf,
+        camssa:1514acd6-85fb-4cd0-a260-b7e3bcd8e877,
+        camssa:248341e6-219c-47e6-94e8-ce19e6e4f0cf,
+        camssa:29ab224d-5945-4dca-89f1-571aaedd145d,
+        camssa:2b2f7152-89d3-41f4-a83c-cf3737d5d116,
+        camssa:34c32376-8be6-4ca3-9270-f97bebd723d6,
+        camssa:364b5506-9196-4d8b-a236-9ebcc969b8bd,
+        camssa:37c54dc7-6aaf-4021-b965-e94741f0e450,
+        camssa:47e634fe-315b-449a-818a-085993473a18,
+        camssa:4a09b57a-7a19-4fe2-b28c-0b3b96135bb4,
+        camssa:4fc99a8c-26a2-4400-b360-3b9e3efed18b,
+        camssa:677e49be-819f-4765-8085-e47815a7efd2,
+        camssa:69fc2e88-8650-4a9f-8c67-a300c4ee0774,
+        camssa:6b4e57f9-5682-4492-ad2d-15ca78ebd84d,
+        camssa:6bac26bb-ac02-4780-88e4-224a3ad4cf16,
+        camssa:6cb784e8-6e2e-42c5-a432-e66ccc85bd6d,
+        camssa:6ebafd3f-cf50-4c51-a0f0-38861491df77,
+        camssa:7580a100-9628-4170-aba3-091023ec9c8c,
+        camssa:7e8516eb-d0c4-43b1-971d-192861ed3523,
+        camssa:84c726d7-2d8d-4ea9-a23c-41762a1f3e2d,
+        camssa:894c1521-915e-4cd3-a8d6-842d3f58137b,
+        camssa:89fd0e2d-7b09-481d-af25-47cd4c4621f6,
+        camssa:8ebcc14e-381f-46c9-ba04-32fea33a21e8,
+        camssa:923a6c70-3597-4bd7-83ca-02f9ea8f6616,
+        camssa:99ccab72-dbda-4444-aded-5b590cf5ad32,
+        camssa:adebcf36-ab60-4de7-9b13-a5548b12d39f,
+        camssa:b0aa7dd6-9d77-4cdf-9833-4d8e25803948,
+        camssa:bb6caf5c-9c83-4d10-b974-8f79d77532c3,
+        camssa:bbe85f2f-ef43-47ca-aea8-d950ac28a39a,
+        camssa:bd7969c6-d995-4dae-aaa9-788f92bbe8e0,
+        camssa:ccc24836-a41f-464b-bbc1-277baf2f855e,
+        camssa:cdbcb014-0b17-4727-bf2c-fdd9479bb5d7,
+        camssa:d425444d-efba-414a-96e6-efb9eab0f959,
+        camssa:d6bb0d37-90d8-4977-a168-cc600690bf86,
+        camssa:e322beac-6dc8-4848-96f2-a5a0342349dd,
+        camssa:f1deadec-d103-48af-a52c-7a3c1eaeea44,
+        camssa:fa14bae6-a46a-4b49-91eb-aab7c02efc09,
+        camssa:ff06e262-b90b-4bc0-92c6-4bcc2a6d4e24,
+        camssa:ffde53c5-bd45-4703-a529-45f1b84a6140 ;
+    cav:status status:Complete ;
+    dct:title "X.509 Internet Public Key Infrastructure - Online Certificate Status Protocol - OCSP"@en .
+
+camssa:0155c169-d4a5-4983-bd18-c666c397c111 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:01a54b00-e9d8-4c03-8f06-197957d39c0d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:0357acb1-5c0c-456d-80b8-a079bfb20e32 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OCSP helps easing the formalisation of Interoperability agreements. E.g., the Digital Signature Service.
+
+Digital Signature Service framework reference:
+https://ec.europa.eu/cefdigital/DSS/webapp-demo/doc/dss-documentation.html'"""@en ;
+    cav:refersTo camssa:ac0219e5-5f17-4191-9371-1f42bbd957b7 .
+
+camssa:07ecc9c6-a800-438f-9b1c-9bade6375a49 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data,
+the first star corresponds to the publication of data under an open license. OCSP generally uses open
+source protocol syntax when determining the status of a digital certificate, such as HTTP and SMTP.
+
+OCSP reference, section 2:
+https://datatracker.ietf.org/doc/html/rfc2560
+
+Tim Berners-Lee 5-star schema for Open Data:
+https://5stardata.info/en/'"""@en ;
+    cav:refersTo camssa:e5d6b835-4e42-4915-b132-a690769436b3 .
+
+camssa:09522bda-d111-4e62-b9a9-37ec3166cd07 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0a24091e-c9e6-468e-a7a5-f31ba6c6f188 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "60"^^xsd:int .
+
+camssa:0ba75bba-7ae0-4044-b329-ae8dcc6ba1b0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of OCSP is not related to the allowance of extensions.
+
+OCSP reference:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:235bd76d-1d6b-40ec-9a7f-3b1f3d2bf2dd .
+
+camssa:0c9bc0f9-589d-4dca-ab05-cc38c11bd4d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OCSP specifies the data to be exchanged between an application that checks the status of one or more
+certificates and the server that provides the corresponding status. However, no evidence was found
+supporting the evolution of European public services.
+
+OCSP reference, section 2:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:bdd69c3e-49eb-4000-a4d9-6d261de7f55e .
+
+camssa:114554de-2850-4d9c-bb4a-12c4b1ecb11b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:11dff721-6693-4d2a-9ca8-abef5808fe3f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1466a8f1-fca1-48b1-9433-333f1cdacbdb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of OCSP is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification.
+
+OCSP reference:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:a29c6ab8-ddcc-4dfa-bc65-d7955b2899bd .
+
+camssa:14c9b512-52fa-4064-84c0-ddbf7a35c5cf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'An OCSP client requests status from an OCSP responder and suspends acceptance of the concerned
+certificates until the responder provides a response. In this sense, OCSP enables the secure exchange of
+data.
+
+OCSP reference, section 2:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:d47abde0-5747-497f-9128-2d71814cc5ff .
+
+camssa:1514acd6-85fb-4cd0-a260-b7e3bcd8e877 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OCSP defines a protocol useful in determining the current status of a digital certificate without requiring
+CRLs. Therefore, it does not explicitly enable the delivery of any service, but can implicitly reduce the
+administrative burden.
+
+OCSP reference:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:114554de-2850-4d9c-bb4a-12c4b1ecb11b .
+
+camssa:1fd3f828-a2c4-411b-8d35-eb2c5aef90c2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:21b64574-7e5f-4c59-ab58-3fbae093404f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:235bd76d-1d6b-40ec-9a7f-3b1f3d2bf2dd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:248341e6-219c-47e6-94e8-ce19e6e4f0cf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OCSP is included in 1 national catalogue of recommended specifications. It belongs to Spain.
+The National Interoperability Framework (NIF) of this Member States is almost fully aligned with the
+European Interoperability Framework (EIF) according to the National Interoperability Framework
+Observatory (NIFO) factsheets.
+
+National catalogue Spain:
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio
+/pae_Normas_tecnicas_de_interoperabilidad.html#CATALOGOESTANDARES
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/digital-public-administration-factsheets-2021'"""@en ;
+    cav:refersTo camssa:afe81b95-2d6b-4247-a73a-0386b840cbb8 .
+
+camssa:29ab224d-5945-4dca-89f1-571aaedd145d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The use of precomputed responses allows replay attacks in which an old (good) response is replayed prior
+to its expiration date but after the certificate has been revoked. Deployments of OCSP should carefully
+evaluate the benefit of precomputed responses against the probability of a replay attack and the costs
+associated with its successful execution.
+
+OCSP reference, section 5:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:6be5d9c6-8ade-4810-8b28-2003e6a60e0e .
+
+camssa:2b2f7152-89d3-41f4-a83c-cf3737d5d116 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OCSP specifies the data that needs to be exchanged between an application checking the status of one or
+more certificates and the server providing the corresponding status. The purpose of OCSP is not related to the comprehensibility of administrative procedures, rules data, and services.
+
+OCSP reference, section 2:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:d3714c9a-f78e-4e55-b750-b8afec40b35a .
+
+camssa:2e29c53b-efe9-4dd0-bb0d-a9a0265e7470 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "80"^^xsd:int .
+
+camssa:34c32376-8be6-4ca3-9270-f97bebd723d6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OCSP is a a protocol that determines the status of a digital certificate. Therefore, this criterion is not
+applicable to the specification.
+
+OCSP reference:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:0155c169-d4a5-4983-bd18-c666c397c111 .
+
+camssa:364b5506-9196-4d8b-a236-9ebcc969b8bd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is independent of any software, hardware, or operating system. Therefore, OCSP is
+independent of any specific platform.
+
+OCSP reference:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:44e842f7-d3cd-4e9c-86d3-a8c1cf93f27d .
+
+camssa:37c54dc7-6aaf-4021-b965-e94741f0e450 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of OCSP is not related to the delivery of multilingual public services. Therefore, this criterion is
+not applicable to this specification.
+
+OCSP reference:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:815fdafc-8673-45b7-a202-e83875ed05f6 .
+
+camssa:3e70b601-4c67-4ef1-8e7e-55ad39fa6a98 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:42f14d7f-27fb-42b8-acc6-ef0c86aadc48 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "20"^^xsd:int .
+
+camssa:44e842f7-d3cd-4e9c-86d3-a8c1cf93f27d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:47e634fe-315b-449a-818a-085993473a18 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion
+of OCSP within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technicalspecifications_
+en
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:01a54b00-e9d8-4c03-8f06-197957d39c0d .
+
+camssa:4a09b57a-7a19-4fe2-b28c-0b3b96135bb4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:ac26cc0e-a992-48b9-9c37-03a113bfa4a0 .
+
+camssa:4fc99a8c-26a2-4400-b360-3b9e3efed18b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OCSP allows applications to determine the revocation status of identified certificates. In this sense, the
+specification addresses data protection but does not make any reference to relevant regulations at a European level.
+
+OCSP reference, section 2:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:2e29c53b-efe9-4dd0-bb0d-a9a0265e7470 .
+
+camssa:596d42af-651f-4f4d-8654-ea64cee1f0a3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:5ed47f48-ada9-48e7-9698-58f2e249a01c a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@eu.europa.eu" .
+
+camssa:6485eb81-5609-485c-847b-2c361020b622 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:677e49be-819f-4765-8085-e47815a7efd2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of OCSP is not related to the implementation of the once-only principle. Therefore, this criterion
+does not apply to this specification.
+
+OCSP reference:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:e00ecda0-5260-4785-bebb-065b5bad3102 .
+
+camssa:69fc2e88-8650-4a9f-8c67-a300c4ee0774 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The specification is included in 1 Member State' catalogue of recommended specifications. This Member
+State is Spain.
+
+National catalogue Spain:
+https://administracionelectronica.gob.es/pae_Home/dam/jcr:9e2c2877-5103-4934-8440-c60ba2e10c48
+/Catalogue_of_Standards_NIF_Spain.pdf
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss
+/camss-list-standards\""""@en ;
+    cav:refersTo camssa:f8ee12e1-c411-49e3-af30-35c1297f988a .
+
+camssa:6b4e57f9-5682-4492-ad2d-15ca78ebd84d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After searching in the different official European websites, there is a piece of evidence of a cross-border
+project that use OCSP involving the usage of the specification.
+
+Digital Signature Service framework reference:
+https://ec.europa.eu/cefdigital/DSS/webapp-demo/doc/dss-documentation.html'"""@en ;
+    cav:refersTo camssa:eb7a73f6-e341-4143-85b3-4694c284968e .
+
+camssa:6bac26bb-ac02-4780-88e4-224a3ad4cf16 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OCSP is already associated with EIRA ABBs in the EIRA Library Of Interoperability Specifications (ELIS). More
+specifically, OCSP can define the interoperability aspects of the Trust Registry Component, Trust Registry
+Service and Trust Registry Provisioning Component ABBs of the EIRA Technical View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:21b64574-7e5f-4c59-ab58-3fbae093404f .
+
+camssa:6be5d9c6-8ade-4810-8b28-2003e6a60e0e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "80"^^xsd:int .
+
+camssa:6cb784e8-6e2e-42c5-a432-e66ccc85bd6d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The dependency on different transport mechanism, such as HTTP, SMTP or LDAP, when sending an OCSP
+request in specific rollout scenarios suggests that the specification is not technology-agnostic.
+
+OCSP reference, section 4.1:
+https://datatracker.ietf.org/doc/html/rfc6960#section-4.1'"""@en ;
+    cav:refersTo camssa:fe3323b9-98a1-474c-921a-d4d5f6023a81 .
+
+camssa:6ebafd3f-cf50-4c51-a0f0-38861491df77 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no conformity test coming from the IETF, but the specification defines conformance as requirements
+that can be measured manually.
+
+OCSP reference, sections 2.1, 2.2, 2.3:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:0a24091e-c9e6-468e-a7a5-f31ba6c6f188 .
+
+camssa:7580a100-9628-4170-aba3-091023ec9c8c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification was developed in 2002. Up-to-date, the X.509 Internet Public Key Infrastructure Online
+Certificate Status Protocol (OCSP) updates the previous X.509 Internet Public Key Infrastructure (RFC
+5912), reaching version 8.
+
+OCSP reference, Abstract section:
+https://datatracker.ietf.org/doc/html/rfc2560
+
+OCSP version reference:
+https://datatracker.ietf.org/doc/rfc6960/'"""@en ;
+    cav:refersTo camssa:feca8f4e-d881-4033-b105-643bbf4aa771 .
+
+camssa:76642613-d825-4e17-a6a8-6cc8f8a20244 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "60"^^xsd:int .
+
+camssa:7b5607a2-6ce1-48c0-807d-f2fb358fc7cf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7e8516eb-d0c4-43b1-971d-192861ed3523 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OCSP is meant to serve in the Internet of Things domain. Moreover, the specification is also available for its
+use within a public administration service, for example in PDF signatures.
+
+OCSP reference:
+https://datatracker.ietf.org/doc/html/rfc2560
+
+Adobe OCSP reference:
+https://www.adobe.com/devnet-docs/acrobatetk/tools/QuickKeys/Acrobat_SigRevCheck_KeyAll.pdf'"""@en ;
+    cav:refersTo camssa:98005102-fcb6-4376-be55-ed3348e0431b .
+
+camssa:815fdafc-8673-45b7-a202-e83875ed05f6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:84c726d7-2d8d-4ea9-a23c-41762a1f3e2d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification proposes optional extensions. Therefore, it can be considered that OCSP allows for partial
+implementation.
+
+OCSP reference, section 4:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:ea50608c-28c8-4d6b-8134-88ff2ae64570 .
+
+camssa:853e5024-6888-4d0b-ac2e-4f86efbf9fe9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:894c1521-915e-4cd3-a8d6-842d3f58137b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OCSP is a protocol useful in determining the current status of a digital certificate without requiring Certificate
+Revocation Lists (CRLs). The purpose of OCSP is not related to the visibility of administrative procedures, rules data, and services.
+
+OCSP reference, Abstract section and Appendix A:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:596d42af-651f-4f4d-8654-ea64cee1f0a3 .
+
+camssa:89fd0e2d-7b09-481d-af25-47cd4c4621f6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"After carrying out information retrieval, the Spanish CERES (Certification Authority Portal) is using OCSP
+proving its efficiency. All the certificate validation services from the Spanish Certification Authorities are
+using OCSP.
+
+CERES' OCSP reference:
+https://www.cert.fnmt.es/en/catalogo-de-servicios/validacion-de-certificados/ocsp\""""@en ;
+    cav:refersTo camssa:76642613-d825-4e17-a6a8-6cc8f8a20244 .
+
+camssa:8ebcc14e-381f-46c9-ba04-32fea33a21e8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Several implementations from the open source and proprietary sectors exist, as well as fully featured servers
+and libraries for building custom applications. An example of this is the Windows server, which since 2009
+includes the OCSP protocol.
+
+Microsoft reference, Implementing OCSP responder:
+https://techcommunity.microsoft.com/t5/ask-the-directory-services-team/implementing-an-ocsp-responderpart-
+i-introducing-ocsp/ba-p/396493'"""@en ;
+    cav:refersTo camssa:b9c522be-7f5c-48e8-8f3b-92c4741acc7a .
+
+camssa:923a6c70-3597-4bd7-83ca-02f9ea8f6616 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of OCSP as a
+European standard.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technicalspecifications_
+en
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:42f14d7f-27fb-42b8-acc6-ef0c86aadc48 .
+
+camssa:98005102-fcb6-4376-be55-ed3348e0431b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:99ccab72-dbda-4444-aded-5b590cf5ad32 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OCSP defines a protocol useful in determining the current status of a digital certificate without requiring
+CRLs (certificate revocation list). Therefore, it can simplify the delivery of any European public service.
+
+OCSP reference:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:09522bda-d111-4e62-b9a9-37ec3166cd07 .
+
+camssa:a29c6ab8-ddcc-4dfa-bc65-d7955b2899bd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:abdabee4-21ed-4d70-bad4-71df48fad17a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ac0219e5-5f17-4191-9371-1f42bbd957b7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "60"^^xsd:int .
+
+camssa:ac26cc0e-a992-48b9-9c37-03a113bfa4a0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:adebcf36-ab60-4de7-9b13-a5548b12d39f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:7b5607a2-6ce1-48c0-807d-f2fb358fc7cf .
+
+camssa:afe81b95-2d6b-4247-a73a-0386b840cbb8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b0aa7dd6-9d77-4cdf-9833-4d8e25803948 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"1 Member State is recommending OCSP in its ICT National Catalogue. This Member State is Spain and
+CERES is the digital public service procured by OCSP.
+
+National catalogue Spain:
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio
+/pae_Normas_tecnicas_de_interoperabilidad.html#CATALOGOESTANDARES
+
+CERES' OCSP reference:
+https://www.cert.fnmt.es/en/catalogo-de-servicios/validacion-de-certificados/ocsp\""""@en ;
+    cav:refersTo camssa:f330f6e8-8bab-4bf6-a67f-7b983e6186a2 .
+
+camssa:b16e59f2-2ebd-47fc-b304-a703bf52af57 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b9c522be-7f5c-48e8-8f3b-92c4741acc7a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bae26af6-1fd3-4c41-b702-b3ef28b656d8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bb6caf5c-9c83-4d10-b974-8f79d77532c3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no study analysing the effectiveness of OCSP. However, there are several papers claiming that the
+CRL (certificate revocation list) has been bypassed in favour of the OCSP specification (e.g. from the IEEE),
+as well as forums (e.g. stackexchange) stating that OCSP offers a faster service.
+
+IEEExplore reference:
+https://ieeexplore.ieee.org/abstract/document/1045949
+
+Stackexchange reference:
+https://security.stackexchange.com/questions/134100/difference-between-ocsp-crl-and-cdp'"""@en ;
+    cav:refersTo camssa:cae753a7-1b92-4aff-8809-d18f311c0121 .
+
+camssa:bbe85f2f-ef43-47ca-aea8-d950ac28a39a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of OCSP is not related to the modelling of business processes. Therefore, this criterion is not
+applicable to the specification.
+
+OCSP reference:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:abdabee4-21ed-4d70-bad4-71df48fad17a .
+
+camssa:bc7748d2-c738-4e2b-8f84-c82383f23084 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bd7969c6-d995-4dae-aaa9-788f92bbe8e0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OCSP is a a protocol that determines the status of a digital certificate. Therefore, this criterion is not
+applicable to the specification.
+
+OCSP reference:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:1fd3f828-a2c4-411b-8d35-eb2c5aef90c2 .
+
+camssa:bdd69c3e-49eb-4000-a4d9-6d261de7f55e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "80"^^xsd:int .
+
+camssa:cae753a7-1b92-4aff-8809-d18f311c0121 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "60"^^xsd:int .
+
+camssa:ccc24836-a41f-464b-bbc1-277baf2f855e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:e8da3e8b-ac55-47cc-9f1f-d187d7197d4c .
+
+camssa:cdbcb014-0b17-4727-bf2c-fdd9479bb5d7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The message formating may vary, depending on the transport method used (HTTP, SMTP, LDAP, etc.).
+Therefore, a response may include information on the revocation status of certificates that were not included
+in the request, so this protocol can be customised.
+
+OCSP reference, sections 1 and 4.2:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:6485eb81-5609-485c-847b-2c361020b622 .
+
+camssa:d3714c9a-f78e-4e55-b750-b8afec40b35a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d425444d-efba-414a-96e6-efb9eab0f959 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Like all the IETF standards subject to the IETF Trust's Legal Provisions Relating to IETF Documents, OCSP
+is a free and open technical specification, built on IETF standards and licenses from the Open Web
+Foundation. Therefore, OCSP is licensed under (F)RAND basis.
+
+Intellectual Property Rights in IETF, section 8:
+https://tools.ietf.org/html/rfc3668
+
+IETF Trust's Legal Provisions Relating to IETF Documents: 
+http://trustee.ietf.org/license-info\""""@en ;
+    cav:refersTo camssa:3e70b601-4c67-4ef1-8e7e-55ad39fa6a98 .
+
+camssa:d47abde0-5747-497f-9128-2d71814cc5ff a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d6bb0d37-90d8-4977-a168-cc600690bf86 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data,
+the first star corresponds to publication of data under open license. OCSP describes the data to be used
+between an application that checks the status of one or more certificates and the server that provides the
+corresponding status. As a consequence, this specification supports the publication of data as open data.
+
+OCSP reference, section 2:
+https://datatracker.ietf.org/doc/html/rfc2560#section-2
+
+Tim Berners-Lee 5-star schema for Open Data:
+https://5stardata.info/en/'"""@en ;
+    cav:refersTo camssa:bae26af6-1fd3-4c41-b702-b3ef28b656d8 .
+
+camssa:e00ecda0-5260-4785-bebb-065b5bad3102 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e322beac-6dc8-4848-96f2-a5a0342349dd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of OCSP is not related to e-accessibility. Therefore, this criterion is considered not applicable to
+this specification.
+
+OCSP reference:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:b16e59f2-2ebd-47fc-b304-a703bf52af57 .
+
+camssa:e5d6b835-4e42-4915-b132-a690769436b3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "80"^^xsd:int .
+
+camssa:e8da3e8b-ac55-47cc-9f1f-d187d7197d4c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ea50608c-28c8-4d6b-8134-88ff2ae64570 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "80"^^xsd:int .
+
+camssa:eb7a73f6-e341-4143-85b3-4694c284968e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f1d71506-44ea-4d72-8efe-7cf1056d8b55 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:f1deadec-d103-48af-a52c-7a3c1eaeea44 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of OCSP is not related to the long-term preservation of data/information/knowledge. Therefore,
+this criterion is considered not applicable to this specification.
+
+OCSP reference:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:f1d71506-44ea-4d72-8efe-7cf1056d8b55 .
+
+camssa:f330f6e8-8bab-4bf6-a67f-7b983e6186a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f8ee12e1-c411-49e3-af30-35c1297f988a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:fa14bae6-a46a-4b49-91eb-aab7c02efc09 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OCSP is maintained and developed by IETF which is an international community developing open
+standards.
+
+IETF developer community:
+https://www.ietf.org/about/'"""@en ;
+    cav:refersTo camssa:853e5024-6888-4d0b-ac2e-4f86efbf9fe9 .
+
+camssa:fe3323b9-98a1-474c-921a-d4d5f6023a81 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:int .
+
+camssa:feca8f4e-d881-4033-b105-643bbf4aa771 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:ff06e262-b90b-4bc0-92c6-4bcc2a6d4e24 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is available for its implementation in any business domain. By contrast, when there exist
+some difficulties to connect to the certificate status service provider, certificate-using systems could
+implement CRL (certificate revocation list) processing logic as a fall-back position.
+
+OCSP reference:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:11dff721-6693-4d2a-9ca8-abef5808fe3f .
+
+camssa:ffde53c5-bd45-4703-a529-45f1b84a6140 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OCSP specifies the data to be exchanged between an application that checks the status of one or more
+certificates and the server that provides the corresponding status. However, no evidence was found supporting its implementation in any European public services.
+
+OCSP reference, section 2:
+https://datatracker.ietf.org/doc/html/rfc2560'"""@en ;
+    cav:refersTo camssa:bc7748d2-c738-4e2b-8f84-c82383f23084 .
+

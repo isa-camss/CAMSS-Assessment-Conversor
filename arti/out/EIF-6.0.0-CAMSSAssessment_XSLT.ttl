@@ -1,0 +1,575 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:4d04f5539c96e1a6d3b6abe23551cac5ef5c58105915362ad38252329c4b37e9 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:088ecda1c81a62bb73536c28835ab1a3225e9e609308950756ff65847197344d ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:0c3f3aaa-e518-47de-bb9c-8e5a249f97b5,
+        camssa:0e9bbe01-74f4-4bee-831a-2f3956d2bb49,
+        camssa:17de7b6e-33bb-4d3f-9ea4-4183c213a476,
+        camssa:1a2581a5-7ab7-4525-b5ff-f511f46a4755,
+        camssa:1f993494-ccfd-4e7d-83dc-ec6e90d3238d,
+        camssa:21f64a2b-4444-4fd9-af6a-d40e7b5f2c38,
+        camssa:284138a0-d73a-4037-a231-b4daa550e02a,
+        camssa:28596196-821f-4881-a216-bf8f041f0121,
+        camssa:2bc1f4e9-a97f-402d-b5d9-c4f129a855d5,
+        camssa:3bc42392-3117-460f-a001-3204229792b3,
+        camssa:41a5d455-6841-467d-98ca-f1f63d2d6a4f,
+        camssa:49e32650-6630-4db1-857e-60e4b456f766,
+        camssa:4df036f2-9240-4b1b-9b96-5d798f9539d7,
+        camssa:510098c3-6028-495a-bda8-7b7ce5000a2f,
+        camssa:57ec09d8-6736-4991-865e-cdf5616a3c70,
+        camssa:5eae4e27-3432-4356-816c-cd7706893d72,
+        camssa:61ed063e-d8db-4f82-a2f2-8bf40a97b572,
+        camssa:62c60bbb-6d0d-4a12-8584-76d5f346ad1c,
+        camssa:6f7a8442-9a36-49f1-96ad-cf5d66090968,
+        camssa:73c157ca-95b9-47c6-899d-566bc36d5ebb,
+        camssa:79c02a57-228b-49f2-a31d-65d6b1c9ad1b,
+        camssa:7cacf697-2382-48c9-b8aa-5eca2ab2fddd,
+        camssa:84c8a51f-0edc-4968-8407-98572f8405d3,
+        camssa:88df9a25-1b7e-49d8-a19e-b3ee1d6182bf,
+        camssa:8f76954a-b272-47bd-979a-cbf4cc2e9526,
+        camssa:93c33f1b-baa0-40cc-b617-05f7ed47dba0,
+        camssa:97723f87-a28c-408a-b63c-01904961a5a0,
+        camssa:a26d83a0-21c1-45ef-a957-fce48963d594,
+        camssa:a3154863-ec3c-492b-b051-d75bdb7d33b7,
+        camssa:a3f96896-95b2-44ed-98cb-36a1fbc80ca6,
+        camssa:ac1615e4-00ad-40ec-9c6c-63ad855553f1,
+        camssa:ba6d254a-f32c-4c3b-9887-1967b2f04546,
+        camssa:bab69881-a622-4827-8a52-cf392a8b77a7,
+        camssa:bd6cb887-e0f1-489c-8a97-00e882b83ebc,
+        camssa:bf6a0011-2185-4a53-a40d-95b65e05846a,
+        camssa:c2ceecae-1773-4f8d-8f8a-6c68214835cb,
+        camssa:c9b16071-f1d3-41fc-bc62-a5cc2fb91a6b,
+        camssa:cab0b6ad-0c65-41fe-b2bc-43b213bcd3bf,
+        camssa:d17e96a4-22ac-4475-aa2a-6a383efc9bb3,
+        camssa:da0c6949-34cc-4af9-b684-b79a84871e7d,
+        camssa:de2d8bae-c135-4704-874a-0713f2c5a3b0,
+        camssa:e3ac435a-1ce6-4d21-9daf-a898140d42a8,
+        camssa:e6f6bd66-f858-410f-ab5d-c05fbb218c96,
+        camssa:eeac2aa5-1062-4da1-96ab-f72b9f4ca24a,
+        camssa:ef7d0f87-b13a-4b2f-9346-182f6f7e23c4 ;
+    cav:status status:Complete ;
+    dct:title "XSLT"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:32302f4a-f2ec-491d-a489-a635790d44c2 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:03f67cd8-785c-47b8-970a-f2a0a55966c0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0c3f3aaa-e518-47de-bb9c-8e5a249f97b5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:319cd25a-36c0-4ad6-8dae-938adf6056a9 .
+
+camssa:0e9bbe01-74f4-4bee-831a-2f3956d2bb49 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of XSLT is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:03f67cd8-785c-47b8-970a-f2a0a55966c0 .
+
+camssa:10125ae2-581f-4eb1-b6fc-8582599d76b8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:11a07c41-3b91-40b4-a7d3-bf619ac7ddd7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:13cbe2f8-f654-47a5-a9a4-b2943fda4abd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:17a4dcef-7eab-4bd2-bcf8-f301cc664dc5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:17de7b6e-33bb-4d3f-9ea4-4183c213a476 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and the approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/TR/xslt-30/"""@en ;
+    cav:refersTo camssa:c22db5b1-83ed-4bab-bed7-4dcbd5dce94a .
+
+camssa:1a2581a5-7ab7-4525-b5ff-f511f46a4755 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:67d188c2-140f-4a3b-9be5-1159ada2d120 .
+
+camssa:1f993494-ccfd-4e7d-83dc-ec6e90d3238d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XSLT is a business domain agnostic specification.
+
+XSLT is a business domain agnostic specification."""@en ;
+    cav:refersTo camssa:dd76cb72-0ff1-4725-a131-a9ddc4ac16df .
+
+camssa:1fc9047a-514d-4792-bcab-6a0ba5275b1f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:21f64a2b-4444-4fd9-af6a-d40e7b5f2c38 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:5ab84988-1038-4abb-91f9-6481ffe2f8a7 .
+
+camssa:284138a0-d73a-4037-a231-b4daa550e02a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of XSLT is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:1fc9047a-514d-4792-bcab-6a0ba5275b1f .
+
+camssa:28596196-821f-4881-a216-bf8f041f0121 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:30730b71-6610-45cc-9279-de04df1e0183 .
+
+camssa:2bc1f4e9-a97f-402d-b5d9-c4f129a855d5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/TR/xslt-30/"""@en ;
+    cav:refersTo camssa:dfc9d8dc-13e5-4858-9edb-03ba36930905 .
+
+camssa:2ce86d9a-7fe1-48fd-9131-293175193299 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:30730b71-6610-45cc-9279-de04df1e0183 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:319cd25a-36c0-4ad6-8dae-938adf6056a9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:32302f4a-f2ec-491d-a489-a635790d44c2 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:3bc42392-3117-460f-a001-3204229792b3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The European Union (EU) Member States are currently implementing the INSPIRE Directive and related regulations, included in the ISA programme. So it should be used by all member states."@en ;
+    cav:refersTo camssa:486fe150-2cb1-403b-aeb2-a8d11278942a .
+
+camssa:41a5d455-6841-467d-98ca-f1f63d2d6a4f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to the delivery of multilingual services. Therefore, this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:13cbe2f8-f654-47a5-a9a4-b2943fda4abd .
+
+camssa:41a73e9e-f7a9-45a6-8936-d723d9951cf5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:486fe150-2cb1-403b-aeb2-a8d11278942a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:49e32650-6630-4db1-857e-60e4b456f766 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:e0b04831-8bec-41a4-8a88-87768fd009f4 .
+
+camssa:4ab2caad-a789-4b7a-9604-7d33b88560f1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4df036f2-9240-4b1b-9b96-5d798f9539d7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The European Union (EU) Member States are currently implementing the INSPIRE Directive and related regulations, included in the ISA programme. This projects includes the usage of XSLT for each member state of the Union.
+
+See:
+https://ies-svn.jrc.ec.europa.eu/projects/registry-development/wiki/Re3gistry_1_0_documentation#_cp3"""@en ;
+    cav:refersTo camssa:91651cfa-b27b-485f-99fe-55813fa2957a .
+
+camssa:510098c3-6028-495a-bda8-7b7ce5000a2f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:c0f7f43f-6392-49a2-8d81-c776dbc33000 .
+
+camssa:539737ab-834b-40b1-804a-8ff964d27ae0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:57ec09d8-6736-4991-865e-cdf5616a3c70 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XSLT has an open-source framework processor (XT-Speedo), so it is independent from any technology or platform."@en ;
+    cav:refersTo camssa:bb60e15e-45f0-41d4-bb6a-1c18469aadc9 .
+
+camssa:580bbab4-b309-4f8a-a8a2-fe56d51ac439 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:5ab84988-1038-4abb-91f9-6481ffe2f8a7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:5eae4e27-3432-4356-816c-cd7706893d72 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XSLT is a language for transforming XML documents. Therefore, it fosters the visibility and comprehensibility of public administrations data and services as it facilitates the visibility of the documents. "@en ;
+    cav:refersTo camssa:bffde10f-17c9-44c0-af29-efa1d32efd75 .
+
+camssa:61ed063e-d8db-4f82-a2f2-8bf40a97b572 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6fb71153-f51a-431a-bc1d-760ef6284da1 .
+
+camssa:62c60bbb-6d0d-4a12-8584-76d5f346ad1c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XSLT is extensively supported in the web browsers and it helps to transform a wide number of formats including HTML, XSL, Formatting Objects, PDF, PostScript and PNG."@en ;
+    cav:refersTo camssa:11a07c41-3b91-40b4-a7d3-bf619ac7ddd7 .
+
+camssa:66531ade-9c5f-4b0f-98e7-4e65742fefa1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:67d188c2-140f-4a3b-9be5-1159ada2d120 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6f7a8442-9a36-49f1-96ad-cf5d66090968 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including XSLT.
+
+The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including XSLT."""@en ;
+    cav:refersTo camssa:aa40f75e-d2a9-4bf4-8577-c3e50e838422 .
+
+camssa:6fb71153-f51a-431a-bc1d-760ef6284da1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:73b42a85-2015-4a55-b976-1fa2351ef1bc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:73c157ca-95b9-47c6-899d-566bc36d5ebb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are some projects that include XSLT "A Prototype Cross-Border GML Data Service" that has opened new opportunities for creating
+integrated cross-border spatial data services with Geography Mark-up Language. In addition, the INSPIRE Directive and related regulations can also be considered a cross-border EU initiative, included in the ISA programme.
+
+See:
+https://agile-online.org/conference_paper/cds/agile_2004/papers/4-2-3_lehto.pdf
+https://ies-svn.jrc.ec.europa.eu/projects/registry-development/wiki/Re3gistry_1_0_documentation#_cp3"""@en ;
+    cav:refersTo camssa:8eb45ef2-38bc-4075-908c-23b54789828d .
+
+camssa:79c02a57-228b-49f2-a31d-65d6b1c9ad1b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XSLT is a language for transforming XML documents. Therefore, it fosters the visibility and comprehensibility of public administrations data and services as it facilitates the visibility of the documents. "@en ;
+    cav:refersTo camssa:f5adef8a-79f4-432f-a4da-0409cdd9b17f .
+
+camssa:7cacf697-2382-48c9-b8aa-5eca2ab2fddd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are document of the European Commission assessing the suitability of XSLT specification.
+
+See:
+ https://ec.europa.eu/cefdigital/DSS/webapp-demo/doc/dss-documentation.html#_xades_profiles"""@en ;
+    cav:refersTo camssa:17a4dcef-7eab-4bd2-bcf8-f301cc664dc5 .
+
+camssa:84c8a51f-0edc-4968-8407-98572f8405d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:66531ade-9c5f-4b0f-98e7-4e65742fefa1 .
+
+camssa:88df9a25-1b7e-49d8-a19e-b3ee1d6182bf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The European Union (EU) Member States are currently implementing the INSPIRE Directive and related regulations, included in the ISA programme. This projects includes the usage of XSLT included in a catalogue of standards at EU level too.
+
+See:
+https://ies-svn.jrc.ec.europa.eu/projects/registry-development/wiki/Re3gistry_1_0_documentation#_cp3"""@en ;
+    cav:refersTo camssa:d0b8d5fd-4138-43b7-8c9c-cac8e84dbed6 .
+
+camssa:8eb45ef2-38bc-4075-908c-23b54789828d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8f647da5-deab-4ce6-9b81-504fd35757ff a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8f76954a-b272-47bd-979a-cbf4cc2e9526 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:a67bee44-df6b-4c70-87d3-93a6b35e69ed .
+
+camssa:91651cfa-b27b-485f-99fe-55813fa2957a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:93c33f1b-baa0-40cc-b617-05f7ed47dba0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:d39550ce-d9d0-4af6-b9b8-c4c6d312c741 .
+
+camssa:960a0c34-a9ce-49ea-bd16-105d5ad2ff3f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:97723f87-a28c-408a-b63c-01904961a5a0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+None"""@en ;
+    cav:refersTo camssa:b7e5822d-cb85-42d2-83eb-99ad6c840ded .
+
+camssa:9b9a3f68-b999-4ef6-83b4-8cdfdd3654e9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100+0"^^xsd:int .
+
+camssa:a26d83a0-21c1-45ef-a957-fce48963d594 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XSLT is a language for transforming XML documents. Therefore, it fosters the visibility and comprehensibility of public administrations data and services as it facilitates the visibility of the documents. "@en ;
+    cav:refersTo camssa:580bbab4-b309-4f8a-a8a2-fe56d51ac439 .
+
+camssa:a3154863-ec3c-492b-b051-d75bdb7d33b7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are document of the European Commission assessing the suitability of XSLT specification.
+
+See:
+ https://ec.europa.eu/cefdigital/DSS/webapp-demo/doc/dss-documentation.html#_xades_profiles"""@en ;
+    cav:refersTo camssa:b75ab65f-4070-4f48-880e-bc44264a82dd .
+
+camssa:a3f96896-95b2-44ed-98cb-36a1fbc80ca6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XSLT has provided a of applying different XSLT transformations
+to the XML raw report and generating HTML pages.
+
+See:
+https://signatures-conformance-checker.etsi.org/pub/ASiCConformanceTestChecker_v1.0.pdf"""@en ;
+    cav:refersTo camssa:f7a10d61-1a64-4604-bb7a-4faca73d8713 .
+
+camssa:a4c380a8-26fe-48e7-b57b-7412cec5ae3f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:a67bee44-df6b-4c70-87d3-93a6b35e69ed a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:aa40f75e-d2a9-4bf4-8577-c3e50e838422 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:ac1615e4-00ad-40ec-9c6c-63ad855553f1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:8f647da5-deab-4ce6-9b81-504fd35757ff .
+
+camssa:b7268b9c-ca1f-44a9-b6da-7f4f01ceeec6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b75ab65f-4070-4f48-880e-bc44264a82dd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b7e5822d-cb85-42d2-83eb-99ad6c840ded a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:ba6d254a-f32c-4c3b-9887-1967b2f04546 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XSLT is included in 7 national catalogues. They belong to Member States which comply with at least 4 out of 5 sections of the EIF according to the NIFO factsheets. 
+See:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:539737ab-834b-40b1-804a-8ff964d27ae0 .
+
+camssa:bab69881-a622-4827-8a52-cf392a8b77a7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specification is not related to the publication of data as linked open data. Therefore, this specification is not applicable for this criterion.
+
+None"""@en ;
+    cav:refersTo camssa:9b9a3f68-b999-4ef6-83b4-8cdfdd3654e9 .
+
+camssa:bb60e15e-45f0-41d4-bb6a-1c18469aadc9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bd6cb887-e0f1-489c-8a97-00e882b83ebc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to e-accessibility. Therefore, this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:2ce86d9a-7fe1-48fd-9131-293175193299 .
+
+camssa:bf6a0011-2185-4a53-a40d-95b65e05846a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:960a0c34-a9ce-49ea-bd16-105d5ad2ff3f .
+
+camssa:bffde10f-17c9-44c0-af29-efa1d32efd75 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:c0f7f43f-6392-49a2-8d81-c776dbc33000 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:c22db5b1-83ed-4bab-bed7-4dcbd5dce94a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:c2ceecae-1773-4f8d-8f8a-6c68214835cb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of XSLT is not related  to the long-term preservation of electronic records and other kinds of information. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:10125ae2-581f-4eb1-b6fc-8582599d76b8 .
+
+camssa:c9b16071-f1d3-41fc-bc62-a5cc2fb91a6b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XSLT is maintained by W3C which is an international community developing open standards. 
+
+See:
+https://www.w3.org/Consortium/"""@en ;
+    cav:refersTo camssa:73b42a85-2015-4a55-b976-1fa2351ef1bc .
+
+camssa:cab0b6ad-0c65-41fe-b2bc-43b213bcd3bf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:41a73e9e-f7a9-45a6-8936-d723d9951cf5 .
+
+camssa:d0b8d5fd-4138-43b7-8c9c-cac8e84dbed6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d17e96a4-22ac-4475-aa2a-6a383efc9bb3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XSLT has an open-source framework processor (XT-Speedo), so it is independent from any technology or platform."@en ;
+    cav:refersTo camssa:dc6c3468-a183-4dae-9b46-e9b2841ca867 .
+
+camssa:d39550ce-d9d0-4af6-b9b8-c4c6d312c741 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:d96d19d1-8edb-412d-804d-84604f8bd29f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:da0c6949-34cc-4af9-b684-b79a84871e7d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The application of the once-only principle in all EU Member States public administrations aims at reducing the administrative burden. To achieve this, interoperability between public administrations is a sine qua non condition.
+
+XSLT is a language for transforming XML documents, consequently it can be concluded that through this functions it promotes the once-only principle"""@en ;
+    cav:refersTo camssa:b7268b9c-ca1f-44a9-b6da-7f4f01ceeec6 .
+
+camssa:dc6c3468-a183-4dae-9b46-e9b2841ca867 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:dd76cb72-0ff1-4725-a131-a9ddc4ac16df a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:de2d8bae-c135-4704-874a-0713f2c5a3b0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:a4c380a8-26fe-48e7-b57b-7412cec5ae3f .
+
+camssa:dfc9d8dc-13e5-4858-9edb-03ba36930905 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e0b04831-8bec-41a4-8a88-87768fd009f4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:e3ac435a-1ce6-4d21-9daf-a898140d42a8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specification is not related to data portability. Therefore, this criterion is not applicable to this specification.
+
+The purpose of the specification is not related to data portability. Therefore, this criterion is not applicable to this specification."""@en ;
+    cav:refersTo camssa:eff8a281-d018-40bd-bbc3-518c31594fa2 .
+
+camssa:e6f6bd66-f858-410f-ab5d-c05fbb218c96 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:d96d19d1-8edb-412d-804d-84604f8bd29f .
+
+camssa:ee0d00eb-4721-46d0-bbf6-e513b0f55f89 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:eeac2aa5-1062-4da1-96ab-f72b9f4ca24a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XSLT is not related to fostering the creation of innovative solution."@en ;
+    cav:refersTo camssa:ee0d00eb-4721-46d0-bbf6-e513b0f55f89 .
+
+camssa:ef7d0f87-b13a-4b2f-9346-182f6f7e23c4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to secure and trustworthy data exchange. Therefore, this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:4ab2caad-a789-4b7a-9604-7d33b88560f1 .
+
+camssa:eff8a281-d018-40bd-bbc3-518c31594fa2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:f5adef8a-79f4-432f-a4da-0409cdd9b17f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f7a10d61-1a64-4604-bb7a-4faca73d8713 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+

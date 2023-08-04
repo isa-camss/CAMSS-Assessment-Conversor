@@ -1,0 +1,761 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:0dae9ff44053cfac7f524cca9edc8ddab0cd00460e007259159e74f25c1d9dea a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:be42c15832ab4d32f3581e93cde7ab0e77be66d93031df8ffeea54c6f563bb16 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:015972d8-a035-4643-95fd-d65d3de3f065,
+        camssa:04ddb479-6aad-4fa3-8057-34b804a1b500,
+        camssa:068c66bf-46a7-4f49-bed3-abf6882db350,
+        camssa:0d5ed772-bfda-4bdf-a619-acf7db16fa82,
+        camssa:0dea8f21-2f2a-41b3-a95a-284b7ca77e7d,
+        camssa:15a462ac-0835-4a8a-b479-86204fe83a93,
+        camssa:1b9af2b9-c4d3-4da2-975e-2fc17be2100c,
+        camssa:1d529f3b-953a-4224-8566-bf6280d1e2ca,
+        camssa:28ac210f-4127-458a-a86c-fc9f4f4f5664,
+        camssa:367f971c-3e2b-432a-907b-f83fd2a5889e,
+        camssa:3c96ca53-b93b-4eba-8b38-af14e8214ad3,
+        camssa:3e079a05-2e74-431c-9a38-1da902ca8236,
+        camssa:4481c3d4-ae1f-4646-9d3b-8b81a8cd302a,
+        camssa:4893f5da-4876-4e22-87b9-fda6ca904db6,
+        camssa:48caba6f-3f67-4bfe-b141-1b15066ad135,
+        camssa:4b73b125-51e3-42a9-8b56-4e10d187a116,
+        camssa:5208f41f-f2d5-42a0-91d6-e33faa26a957,
+        camssa:5c55c29d-0a08-4ad9-8384-4653925697e9,
+        camssa:73a1f4c8-8507-4853-bf73-7ed5d0fbad23,
+        camssa:770f3d1f-061a-4676-974e-0ab691248086,
+        camssa:78384256-3a90-4735-9678-9650c569ec33,
+        camssa:79884740-671e-4c3c-892b-088a6eea4e4f,
+        camssa:7cf3fb32-27ac-4993-aad3-f792f221d84b,
+        camssa:7e88a1b4-3068-405d-875a-cecde159f433,
+        camssa:89ed4691-c66b-4e56-98b2-407490155759,
+        camssa:8b0ca7dc-1ede-4147-8dda-89c55293c162,
+        camssa:91775634-9f41-4efd-bd82-bf1fe001b420,
+        camssa:96526b8d-4f2b-42e9-b390-00836a3176c0,
+        camssa:9eb59234-00d9-4f26-ac6f-a5231e981f9f,
+        camssa:a09c550c-eafb-4848-93b3-08933ea16712,
+        camssa:a24d07fb-4b15-45bf-bfc7-c49c91452610,
+        camssa:a2badcfb-34e8-4359-8c61-fce6ada25aad,
+        camssa:a51418db-b945-4da7-b36d-d63d85892dfa,
+        camssa:ae2da9af-894a-40eb-b974-08df278fe748,
+        camssa:b9e09ef7-636e-43fc-a61f-e06e0d6e434f,
+        camssa:c0c0d65c-ea0f-4c7e-b609-b175846fc7d6,
+        camssa:cad0e99b-0df7-4bde-b426-b6301f233e11,
+        camssa:d978b81d-c072-495e-a5bc-3d8ed03bcbfe,
+        camssa:dfdd3313-4a0c-4712-80f0-3452c6e4e389,
+        camssa:e53bc795-b476-413f-bd52-97441d27dd31,
+        camssa:e85eba5a-bc31-4e83-aa0c-55d64b6c3bc9,
+        camssa:f1b0b819-9b97-4778-a955-f1e7dc75cd60,
+        camssa:f9e07f57-7d50-4b94-9e3b-ad9a563ab12b,
+        camssa:fa28e6c4-5a8b-4398-8285-2a001db38deb,
+        camssa:fc22a563-754c-4a48-9675-c8f0decd4162 ;
+    cav:status status:Complete ;
+    dct:title "OWASP SAMM"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:ad6304a3-9748-4b62-a279-f747ae5e5b3d ;
+    skos:prefLabel "CAMSS TEAM"@en .
+
+camssa:015972d8-a035-4643-95fd-d65d3de3f065 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this specification is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to the specification. 
+
+SAMM webpage:
+https://owaspsamm.org
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf """@en ;
+    cav:refersTo camssa:633eb1e1-9428-49ad-8aed-d76a29722c62 .
+
+camssa:01992b7d-e2f8-4d8b-9848-7e6054a40f4f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:04ddb479-6aad-4fa3-8057-34b804a1b500 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:25fcb357-1cae-42ea-b364-dd492b442e27 .
+
+camssa:068c66bf-46a7-4f49-bed3-abf6882db350 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAMM’s purpose is focused to help and improve security capabilities within organisations and software development. Therefore, it can be said that by applying SAMM public administrations can work towards ensuring secure and trustworthy data exchange with all stakeholders.
+
+SAMM webpage:
+https://owaspsamm.org/ 
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf """@en ;
+    cav:refersTo camssa:552bdf4f-fe73-4b69-9b50-5ba6301723af .
+
+camssa:0c1406ba-bac6-49bc-b71f-d96092845d67 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0d5ed772-bfda-4bdf-a619-acf7db16fa82 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this specification is not related to e-accessibility. Therefore, this criterion is not applicable to the specification. 
+
+SAMM webpage:
+https://owaspsamm.org/ 
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf """@en ;
+    cav:refersTo camssa:94e4d6b1-16dc-4cd9-b8b5-de3da39d8fdd .
+
+camssa:0dea8f21-2f2a-41b3-a95a-284b7ca77e7d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:dad9b553-e689-4e87-9314-36d7dc6c03c8 .
+
+camssa:0fdfd6fb-953a-468e-8ee3-8010d2d558f0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:15a462ac-0835-4a8a-b479-86204fe83a93 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:b3124500-b0c7-40ee-8f7d-be6785f786e2 .
+
+camssa:1675d29b-06ec-437f-9fb8-81edcb48ce3f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:1b44b7e5-28c1-4b29-8495-01c91bd4030b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:1b9af2b9-c4d3-4da2-975e-2fc17be2100c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no Member State that includes SAMM in their national catalogue with The National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:51b23749-67f8-49c3-bfbd-d8afe3c86ef8 .
+
+camssa:1cbcf483-c7b7-4656-8e55-758fd97540b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:1d529f3b-953a-4224-8566-bf6280d1e2ca a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After searching in the different official European websites, agencies such as ENISA or ETSI are recommending SAMSS as one of the reference frameworks for the development of secure software solutions. 
+
+ETSI SmartM2M; Security; Standards Landscape and best practices:  
+https://www.etsi.org/deliver/etsi_tr/103500_103599/103533/01.01.01_60/tr_103533v010101p.pdf 
+
+ENISA Advancing Software Security in the EU: 
+https://www.enisa.europa.eu/publications/advancing-software-security-through-the-eu-certification-framework
+
+ENISA Good Practices for Security of IoT - Secure Software Development Lifecycle: 
+https://www.enisa.europa.eu/publications/good-practices-for-security-of-iot-1"""@en ;
+    cav:refersTo camssa:342abd5e-0bf3-4e67-89f1-6d8a18866a3e .
+
+camssa:1f434771-4fc7-4d74-941f-2bf12152e065 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:25631a16-cfb8-4141-9962-353662d527de a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:25fcb357-1cae-42ea-b364-dd492b442e27 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:28ac210f-4127-458a-a86c-fc9f4f4f5664 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+The purpose of SAMM is not related to the publication of linked open data. Therefore, this criterion is not applicable to the specification.
+
+SAMM webpage:
+https://owaspsamm.org
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf 
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html"""@en ;
+    cav:refersTo camssa:cd69e4b8-0bae-4dc3-a0ef-6927f28c96bf .
+
+camssa:28ebe785-b8b2-4234-a656-681b29122936 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:2df852c3-69d3-46e0-ac6b-a4a066c31b05 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2e0f13fe-0902-4db3-810b-ebbc07b331a1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:30adee24-9efb-4ae6-8820-cbe00d1c7c88 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:342abd5e-0bf3-4e67-89f1-6d8a18866a3e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:367f971c-3e2b-432a-907b-f83fd2a5889e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are several documentation from European agencies on standardisation and cyber security about the possibilities and benefits of using SAMM as the bases to ensure the creation of secure services and software solutions.
+
+SAMM webpage:
+https://owaspsamm.org
+
+SAMM Documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf
+
+ETSI SmartM2M; Security; Standards Landscape and best practices:  
+https://www.etsi.org/deliver/etsi_tr/103500_103599/103533/01.01.01_60/tr_103533v010101p.pdf 
+
+ENISA Advancing Software Security in the EU: 
+https://www.enisa.europa.eu/publications/advancing-software-security-through-the-eu-certification-framework
+
+ENISA Good Practices for Security of IoT - Secure Software Development Lifecycle: 
+https://www.enisa.europa.eu/publications/good-practices-for-security-of-iot-1"""@en ;
+    cav:refersTo camssa:ce134cdd-4a55-4231-b99b-6dd886d56c2a .
+
+camssa:389d306a-4a33-4519-9bfc-3fdd28776a42 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:3c96ca53-b93b-4eba-8b38-af14e8214ad3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:45dc7cbc-ae9d-48fc-9c67-61d15582343e .
+
+camssa:3d5f871e-fafa-4d5f-a129-99afc89f0e19 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:3e079a05-2e74-431c-9a38-1da902ca8236 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+None"""@en ;
+    cav:refersTo camssa:389d306a-4a33-4519-9bfc-3fdd28776a42 .
+
+camssa:3e360505-a51d-4b63-84a9-fb7e243de84e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:4481c3d4-ae1f-4646-9d3b-8b81a8cd302a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAMM is licensed under CC, which essentially means that the commercial use of the work and possible derivative works is allowed, the distribution of which must be done with a license equal to the one that regulates the original work.
+
+SAMM webpage:
+https://owaspsamm.org/
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf 
+
+SAMM is licensed under CC, which essentially means that the commercial use of the work and possible derivative works is allowed, the distribution of which must be done with a license equal to the one that regulates the original work.
+
+SAMM webpage:
+https://owaspsamm.org/
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf """@en ;
+    cav:refersTo camssa:28ebe785-b8b2-4234-a656-681b29122936 .
+
+camssa:45dc7cbc-ae9d-48fc-9c67-61d15582343e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:4893f5da-4876-4e22-87b9-fda6ca904db6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:25631a16-cfb8-4141-9962-353662d527de .
+
+camssa:48bf7a02-b21e-468d-ba98-90d382534821 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:48caba6f-3f67-4bfe-b141-1b15066ad135 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SAMM is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification.
+
+SAMM webpage:
+https://owaspsamm.org/ 
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf """@en ;
+    cav:refersTo camssa:a8ef2f69-190d-4602-8cd6-141c8a9d13db .
+
+camssa:4b73b125-51e3-42a9-8b56-4e10d187a116 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SAMM is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+SAMM webpage:
+https://owaspsamm.org
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf """@en ;
+    cav:refersTo camssa:0fdfd6fb-953a-468e-8ee3-8010d2d558f0 .
+
+camssa:4d91fb70-f168-4381-a418-0a8cd45585cf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:51b23749-67f8-49c3-bfbd-d8afe3c86ef8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:5208f41f-f2d5-42a0-91d6-e33faa26a957 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no Member States recommending SAMM in their ICT National Catalogues.
+
+The SAMM webpage:
+https://standard.publiccode.net/
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf 
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:4d91fb70-f168-4381-a418-0a8cd45585cf .
+
+camssa:54591d3c-1836-4ceb-aa65-8907b096ca92 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:552bdf4f-fe73-4b69-9b50-5ba6301723af a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5c55c29d-0a08-4ad9-8384-4653925697e9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAMM is a business domain agnostic document that can be reused in a cross-domain environment. 
+
+SAMM webpage:
+https://owaspsamm.org/ 
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf 
+
+SAMM is a business domain agnostic document that can be reused in a cross-domain environment. 
+
+SAMM webpage:
+https://owaspsamm.org/ 
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf """@en ;
+    cav:refersTo camssa:c28572a3-087a-404f-92ea-5edf8a975fbb .
+
+camssa:633eb1e1-9428-49ad-8aed-d76a29722c62 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:64252788-964e-46ea-b1db-3a923ed53905 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:73a1f4c8-8507-4853-bf73-7ed5d0fbad23 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ETSI and ENISA are recommending it within documents about guidelines and best practices for securing solutions and services. 
+
+ETSI SmartM2M; Security; Standards Landscape and best practices:  
+https://www.etsi.org/deliver/etsi_tr/103500_103599/103533/01.01.01_60/tr_103533v010101p.pdf 
+
+ENISA Advancing Software Security in the EU: 
+https://www.enisa.europa.eu/publications/advancing-software-security-through-the-eu-certification-framework
+
+ENISA Good Practices for Security of IoT - Secure Software Development Lifecycle: 
+https://www.enisa.europa.eu/publications/good-practices-for-security-of-iot-1"""@en ;
+    cav:refersTo camssa:98517d54-1d80-4bba-b1f8-4d92c0e9082b .
+
+camssa:750a29b4-9b7f-45de-bf78-d434b8cb19b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:770f3d1f-061a-4676-974e-0ab691248086 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:acf08ceb-9ce2-4eaa-9c9e-d7c0bea9b928 .
+
+camssa:78384256-3a90-4735-9678-9650c569ec33 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After searching for a certification or conformity test to validate this document, no tool has been found that assesses the conformity of the specification."@en ;
+    cav:refersTo camssa:d1c31b22-1b54-459d-9f27-95fba5864ea4 .
+
+camssa:79884740-671e-4c3c-892b-088a6eea4e4f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:dafb6c20-4f7c-4a65-8aac-beb148bfa865 .
+
+camssa:7cf3fb32-27ac-4993-aad3-f792f221d84b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:1f434771-4fc7-4d74-941f-2bf12152e065 .
+
+camssa:7e88a1b4-3068-405d-875a-cecde159f433 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:30adee24-9efb-4ae6-8820-cbe00d1c7c88 .
+
+camssa:89ed4691-c66b-4e56-98b2-407490155759 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:2e0f13fe-0902-4db3-810b-ebbc07b331a1 .
+
+camssa:8b0ca7dc-1ede-4147-8dda-89c55293c162 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAMM aims to help organizations analyse their current software security practices. By following and implementing SAMM European Institutions can improve and develop software that allows data portability ensuring maximum security on these information transactions.
+
+SAMM webpage:
+https://owaspsamm.org/ 
+
+SAMM Documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf
+
+SAMM aims to help organizations analyse their current software security practices. By following and implementing SAMM European Institutions can improve and develop software that allows data portability ensuring maximum security on these information transactions.
+
+SAMM webpage:
+https://owaspsamm.org/ 
+
+SAMM Documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf"""@en ;
+    cav:refersTo camssa:c0bcccf7-c59f-41e8-b383-760b80d62101 .
+
+camssa:91775634-9f41-4efd-bd82-bf1fe001b420 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0c1406ba-bac6-49bc-b71f-d96092845d67 .
+
+camssa:94e4d6b1-16dc-4cd9-b8b5-de3da39d8fdd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:96526b8d-4f2b-42e9-b390-00836a3176c0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Even though the version assessed is a very recent version of the specification, it has a strong community supporting it with a clear process of development that has been working towards the maximisation of quality and usefulness. So it can be used in the development of products and services. 
+
+SAMM webpage:
+https://owaspsamm.org/
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf """@en ;
+    cav:refersTo camssa:2df852c3-69d3-46e0-ac6b-a4a066c31b05 .
+
+camssa:9676039f-fb07-45d0-94d0-b76323fb6a18 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:98517d54-1d80-4bba-b1f8-4d92c0e9082b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9eb59234-00d9-4f26-ac6f-a5231e981f9f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OWASP defines and evolves specifications on a community-driven basis, where all the stakeholders have the opportunity to contribute to the development of the specification.
+
+The assets of the specifications are publically available on Github and all users can create issues or add modifications.
+
+SAMM webpage:
+https://owaspsamm.org/
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf 
+
+Contribute page: 
+https://owaspsamm.org/contributing/"""@en ;
+    cav:refersTo camssa:9676039f-fb07-45d0-94d0-b76323fb6a18 .
+
+camssa:a09c550c-eafb-4848-93b3-08933ea16712 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAMM is a commonly used method for assessing and improving security aspects. It can be considered as a security framework that needs to be followed according to organisations needs to provide compliant and services and data that can be reused across border and institutions without hampering its usefulness and security features.
+
+SAMM webpage:
+https://owaspsamm.org 
+
+SAMM Documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf"""@en ;
+    cav:refersTo camssa:64252788-964e-46ea-b1db-3a923ed53905 .
+
+camssa:a1c73a5c-85c4-4823-9cbe-ddef02c7c216 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:a24d07fb-4b15-45bf-bfc7-c49c91452610 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAMM is a set of criteria that supports all types of organizations in developing and improving software solutions. It supports the complete software lifecycle and is technology and process agnostic, allowing its maximum reuse.
+
+SAMM webpage:
+https://owaspsamm.org/ 
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf """@en ;
+    cav:refersTo camssa:1b44b7e5-28c1-4b29-8495-01c91bd4030b .
+
+camssa:a2badcfb-34e8-4359-8c61-fce6ada25aad a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAMM is a set of criteria that supports all types of organizations in developing and improving software solutions. It supports the complete software lifecycle and is technology and process agnostic, allowing its maximum reuse.
+
+SAMM webpage:
+https://owaspsamm.org/ 
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf """@en ;
+    cav:refersTo camssa:54591d3c-1836-4ceb-aa65-8907b096ca92 .
+
+camssa:a51418db-b945-4da7-b36d-d63d85892dfa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SAMM is not related to the comprehensibility of administrative information, data or services. Therefore, this criterion is not applicable to this specification. 
+
+SAMM webpage:
+https://owaspsamm.org/
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf """@en ;
+    cav:refersTo camssa:01992b7d-e2f8-4d8b-9848-7e6054a40f4f .
+
+camssa:a8ef2f69-190d-4602-8cd6-141c8a9d13db a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:aaa9035a-a0fd-48ce-9bc4-b01e7b131594 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:acf08ceb-9ce2-4eaa-9c9e-d7c0bea9b928 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ad6304a3-9748-4b62-a279-f747ae5e5b3d a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "NaN"^^xsd:double .
+
+camssa:ae2da9af-894a-40eb-b974-08df278fe748 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The scalability and broad character of the specification can make possible the creation and the availability of solutions fostering the reuse and availability of information between administrations and citizens. This fact demonstrates that the specification can foster the implementation of the once-only principle while ensuring the security and trustworthy data exchanges. 
+
+SAMM webpage:
+https://owaspsamm.org/ 
+
+SAMM Documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf"""@en ;
+    cav:refersTo camssa:48bf7a02-b21e-468d-ba98-90d382534821 .
+
+camssa:b3124500-b0c7-40ee-8f7d-be6785f786e2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:b9e09ef7-636e-43fc-a61f-e06e0d6e434f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SAMM is not related to the visibility of administrative information, data or services. Therefore, this criterion is not applicable to this specification. 
+
+SAMM webpage:
+https://owaspsamm.org/
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf """@en ;
+    cav:refersTo camssa:cc55be94-e1e7-42ab-b34d-1da470ffc927 .
+
+camssa:bc0b4375-b0e4-4f5a-89aa-be17703fe34c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c0bcccf7-c59f-41e8-b383-760b80d62101 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:c0c0d65c-ea0f-4c7e-b609-b175846fc7d6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The first version of the specification was released back in 2009 and has been maintained and evolved on a community-driven basis until achieving version 2.0 released in 2020. The evolution of the specification involves a wide range of technical profiles and experience in the field of this specification. Through continuous improvement and discussion the specification has been released late in 2020 but with a cured development ensuring the maturity of the specification.
+
+SAMM webpage:
+https://owaspsamm.org/
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf """@en ;
+    cav:refersTo camssa:1675d29b-06ec-437f-9fb8-81edcb48ce3f .
+
+camssa:c28572a3-087a-404f-92ea-5edf8a975fbb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:cad0e99b-0df7-4bde-b426-b6301f233e11 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAMM includes recommendations on data protection and requirements for the proper protection and management of relevant data over their lifetime and also over time. More specifically, it is written down under the operational management and the first stream, which states the outcomes and need of establishing a data catalogue.
+
+SAMM webpage:
+https://owaspsamm.org
+
+SAMM Documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf"""@en ;
+    cav:refersTo camssa:dcb2fc14-8919-4114-ba0b-6f3d06c7bd15 .
+
+camssa:cc55be94-e1e7-42ab-b34d-1da470ffc927 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:cd69e4b8-0bae-4dc3-a0ef-6927f28c96bf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "0+100"^^xsd:int .
+
+camssa:ce134cdd-4a55-4231-b99b-6dd886d56c2a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d1c31b22-1b54-459d-9f27-95fba5864ea4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "20"^^xsd:int .
+
+camssa:d978b81d-c072-495e-a5bc-3d8ed03bcbfe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAMM is supported by many public technologists and its own community that are able to contribute on the development of the standard at the same time all the contributors review those updates. 
+
+SAMM webpage:
+https://owaspsamm.org/
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf """@en ;
+    cav:refersTo camssa:fef05f69-1ea1-4402-a599-39cfcb018dd0 .
+
+camssa:dad9b553-e689-4e87-9314-36d7dc6c03c8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:dafb6c20-4f7c-4a65-8aac-beb148bfa865 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:dcb2fc14-8919-4114-ba0b-6f3d06c7bd15 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:dfdd3313-4a0c-4712-80f0-3452c6e4e389 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. 
+
+Moreover, the community has established different ways to contribute to the development of tools and documents.
+
+SAMM webpage:
+https://owaspsamm.org/
+
+SAMM documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf 
+
+Contribute page: 
+https://owaspsamm.org/contributing/"""@en ;
+    cav:refersTo camssa:3d5f871e-fafa-4d5f-a129-99afc89f0e19 .
+
+camssa:e53bc795-b476-413f-bd52-97441d27dd31 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAMM is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:a1c73a5c-85c4-4823-9cbe-ddef02c7c216 .
+
+camssa:e85eba5a-bc31-4e83-aa0c-55d64b6c3bc9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:1cbcf483-c7b7-4656-8e55-758fd97540b6 .
+
+camssa:f1b0b819-9b97-4778-a955-f1e7dc75cd60 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:750a29b4-9b7f-45de-bf78-d434b8cb19b6 .
+
+camssa:f9e07f57-7d50-4b94-9e3b-ad9a563ab12b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are several documentation from European agencies on standardisation and cyber security about the possibilities and benefits of using SAMM as the bases to ensure the creation of secure services and software solutions.
+
+SAMM webpage:
+https://owaspsamm.org
+
+SAMM Documentation: 
+https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf
+
+ETSI SmartM2M; Security; Standards Landscape and best practices:  
+https://www.etsi.org/deliver/etsi_tr/103500_103599/103533/01.01.01_60/tr_103533v010101p.pdf 
+
+ENISA Advancing Software Security in the EU: 
+https://www.enisa.europa.eu/publications/advancing-software-security-through-the-eu-certification-framework
+
+ENISA Good Practices for Security of IoT - Secure Software Development Lifecycle: 
+https://www.enisa.europa.eu/publications/good-practices-for-security-of-iot-1"""@en ;
+    cav:refersTo camssa:aaa9035a-a0fd-48ce-9bc4-b01e7b131594 .
+
+camssa:fa28e6c4-5a8b-4398-8285-2a001db38deb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:3e360505-a51d-4b63-84a9-fb7e243de84e .
+
+camssa:fc22a563-754c-4a48-9675-c8f0decd4162 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:bc0b4375-b0e4-4f5a-89aa-be17703fe34c .
+
+camssa:fef05f69-1ea1-4402-a599-39cfcb018dd0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+

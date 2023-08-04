@@ -1,0 +1,651 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:19cf3473d8aecb562c8a4096d5e4899b15e59139f93520d01e28acae10873ff2 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:dd3c03c70c338994d0cb5a38c92ea1920f2526959fa7fa1bcb1d6f4eb345374a ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:06e98d37-1626-461f-8a24-ba86fc5ee664,
+        camssa:0e213c7c-8af6-452f-90ee-e0c643b629ec,
+        camssa:0f7d1587-2829-4e6f-99d1-140ab720cbd2,
+        camssa:198d03d1-9013-45b2-a5bc-0fb500575772,
+        camssa:2335d631-347b-45bf-9d7f-fe17fcdf6e1d,
+        camssa:2cf6e299-a6cd-4cb8-88a5-b3a437d248c9,
+        camssa:35346d41-9fcd-4871-9919-ed98f8282e55,
+        camssa:3cb6b191-a1b1-400b-826a-adca0cd3aeca,
+        camssa:45a0cad8-c88f-4ebd-a391-9ea97487dd62,
+        camssa:46384ef6-545f-4ac6-a625-cbd01b1ea1d8,
+        camssa:4e1ea6fd-a7fa-4c8a-95a0-4ab3a9edd718,
+        camssa:4ececc2e-da01-4527-b015-b2b9c89b797c,
+        camssa:55f029b2-1ff1-4728-ab15-e75a2476b137,
+        camssa:573c6d94-5893-467a-aff7-138c9e90cce6,
+        camssa:573ff15a-d15c-4707-9e4c-2ad02f83b2fc,
+        camssa:57ef30cb-5cd9-4d59-bdaf-6bba7b917396,
+        camssa:695d6e66-f95c-48ae-a0be-89e8234044c7,
+        camssa:6b59a89d-1174-4631-9479-69be3a026661,
+        camssa:6d749072-6ef2-445d-85d6-7b0fa5378ca3,
+        camssa:70ab281e-cd29-409e-9b41-6f1068d10f77,
+        camssa:858cb5e5-0717-4d62-9ce0-568f78a54e30,
+        camssa:85f58d25-a4e7-4fc3-a867-54fe18e78930,
+        camssa:8c6c5eeb-edd7-4c07-b0cb-32e2f1e02f09,
+        camssa:9338c904-86f9-4cae-bf0e-96d60e690246,
+        camssa:9451a3fc-a7b5-4766-ae48-b57ba5919745,
+        camssa:9573f152-0de0-45e6-af9f-7d7973cb297f,
+        camssa:9bbfa119-7786-4c87-b461-f8419cae1a82,
+        camssa:9e669e85-2199-41a3-81df-e365c54d3845,
+        camssa:a1756fcb-c95a-45bc-ae3e-a4e68189ad69,
+        camssa:a540ffb3-957c-4517-8b77-546943e5943b,
+        camssa:b64b5211-8f6c-43a9-9871-cc750ba7498d,
+        camssa:c280d04e-1cb7-483e-b5ae-e5dc4786b7a4,
+        camssa:c5ef619f-6598-4579-9e2d-f8007e81416f,
+        camssa:c806a224-89ef-403a-9f19-ea248a3e7583,
+        camssa:d24efee5-448f-4deb-940f-cf414dbae1dd,
+        camssa:d35e599a-f708-41a6-8af8-5facb3a0e135,
+        camssa:d75f6dea-3170-46b5-b2f1-b3276fc824a4,
+        camssa:de245df5-2f0c-4ede-81c2-30af24e51a13,
+        camssa:de4f5b3f-d7ea-4f74-8893-19b86e488d52,
+        camssa:debce67c-b62d-4c1c-99b9-427a7bbadca8,
+        camssa:f4c73a76-5610-41a0-976d-7d8ddc129c26,
+        camssa:fb1b6930-be12-4318-8e91-156f0d6112f9,
+        camssa:fe3b9bf9-5c8c-4b13-abf6-248e95100090,
+        camssa:ff2d5dac-98bb-4b74-b0ef-77f08397e983 ;
+    cav:status status:Complete ;
+    dct:title "Eurovoc"@en .
+
+camssa:dc03fdba33ba33606e802b3a6b6fe67c2f21945bf21daee58012b477e0de91aa a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:d0cb1aac-3ffe-49b8-b1c0-961ca62e6f75 ;
+    skos:prefLabel "CAMSS TEAM"@en .
+
+camssa:022ff19f-a15c-4a73-b689-5a7303e1e8c3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:06e98d37-1626-461f-8a24-ba86fc5ee664 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are different documentation and information that takes into account EuroVoc as part of the narrative and includes it as valuable. An article shows the usefulness of EuroVoc since it is included as the core of an application for the categorisation of documents (see link below). Also, an example of a use case for the Italian Chamber of Deputies. In here, the use case was presented in a EuroVoc conference to show the result and the effectiveness of using EuroVoc as the basis for the semi-automatic classification of documents.
+
+JRC EuroVoc Indexer JEX - A freely available multi-label categorisation tool
+https://www.researchgate.net/publication/256846257_JRC_EuroVoc_Indexer_JEX_-_A_freely_available_multi-label_categorisation_tool
+
+Eurovoc and parliamentary documents: A semi-automatic classification experience at the Italian Chamber of Deputies:
+https://expertsystem.com/expert-systems-cogito-semantic-platform-to-be-featured-at-eurovoc-conference/"""@en ;
+    cav:refersTo camssa:6da67430-4164-463f-81f1-cf30cde887d1 .
+
+camssa:0bcace3b-b06a-4f25-9b9d-27d2038de0a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:0e213c7c-8af6-452f-90ee-e0c643b629ec a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """
+After searching for a certification or conformity test to validate EuroVoc no tool has been found that assess the conformity of the specification.
+"""@en ;
+    cav:refersTo camssa:e082db9c-5464-4574-ae59-9c2588d5c5a6 .
+
+camssa:0f7d1587-2829-4e6f-99d1-140ab720cbd2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """EuroVoc is a public asset developed by a European Institution and can be accessed and reused without any payment conditions. Therefore, it can be considered that the specification is licensed under royalty-free basis and (F)RAND basis. 
+
+EuroVoc reference:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:43a1b509-256a-48f2-b41c-d1ab842f6c5a .
+
+camssa:14630dc2-a0c3-4ed6-8b75-d306e5af0aa9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:186a5761-e8d6-4b98-bf72-7d255ff9eec0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "20"^^xsd:int .
+
+camssa:198d03d1-9013-45b2-a5bc-0fb500575772 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:022ff19f-a15c-4a73-b689-5a7303e1e8c3 .
+
+camssa:1b3371b2-d2fa-4b47-82c0-833fad854591 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1eb06f81-c61d-49de-bdf1-129a538d772a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:20df51bd-9ffa-4ef4-a3b0-61d4a9b6fd18 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2335d631-347b-45bf-9d7f-fe17fcdf6e1d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Even though EuroVoc is mainly focused on eGovernment since it was developed to support the data processing and classification within European Institutions, it covers different domains and subdomains that go beyond eGovernment such as energy or transports. Therefore, it can be considered as reusable amongst other business domains.
+
+EuroVoc webpage:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:c90d2360-fbb2-449f-9cf1-1403e2013756 .
+
+camssa:275e5586-217e-4345-a666-17f587a506db a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:294b56dc-07ff-4893-a3db-e66761a4e2c8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2cf6e299-a6cd-4cb8-88a5-b3a437d248c9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """EuroVoc was developed to support the processing of documentary information. Besides, since it helps to classify the knowledge domains and subdomains it is helpful fostering the visibility of administrative data and supporting the decision-making process. 
+
+EuroVoc webpage:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:0bcace3b-b06a-4f25-9b9d-27d2038de0a2 .
+
+camssa:336e1b68-c20b-43c7-a2e7-2000f8db37c3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:35346d41-9fcd-4871-9919-ed98f8282e55 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """EuroVoc is not included in any national catalogue of recommended specifications whose Member State NIF is fully aligned with at least 4 out of 5 sections of the EIF according to NIFO factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:c0447836-9bb7-41bf-a51d-ed9169decb29 .
+
+camssa:372dab93-4b42-48ea-b816-8c20763a361e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3758021c-1d0f-47e7-910d-75bb2e26365f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3cb6b191-a1b1-400b-826a-adca0cd3aeca a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of EuroVoc is related to the delivery of multilingual public services. By establishing language equivalences between identical concepts expressed in different languages, it allows documents to be indexed in the language of the documentalist and searches to be made in the user’s language;
+
+EuroVoc webpage:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc
+"""@en ;
+    cav:refersTo camssa:6388b671-6439-4d48-9537-0b1ff36751d7 .
+
+camssa:410e545f-0bb3-486a-be21-4e47c8108d7f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:43a1b509-256a-48f2-b41c-d1ab842f6c5a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:45a0cad8-c88f-4ebd-a391-9ea97487dd62 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """
+The purpose of EuroVoc  is not related to the modelling of organisational interoperability aspects.Therefore, this criterion is not applicable to the specification
+"""@en ;
+    cav:refersTo camssa:372dab93-4b42-48ea-b816-8c20763a361e .
+
+camssa:46384ef6-545f-4ac6-a625-cbd01b1ea1d8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9c579ea3-a841-44a3-84bb-031af240aab4 .
+
+camssa:474ecb87-ccc7-46eb-87a6-f2f10233bea8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:495e7cb5-193c-4303-9305-7cc9cb358025 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:4e1ea6fd-a7fa-4c8a-95a0-4ab3a9edd718 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:d7b02f39-1c78-437f-9b04-bdc176cbd37e .
+
+camssa:4ececc2e-da01-4527-b015-b2b9c89b797c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:73626802-2f3c-486d-8f53-1af703281b7f .
+
+camssa:4f374f1e-1d06-4088-8862-1ee390c553c0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:55f029b2-1ff1-4728-ab15-e75a2476b137 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The application of the once-only principle in all EU Member States public administrations aims at reducing the administrative burden.
+
+EuroVoc fosters interoperability between public administrations, cross border services and impacts positively the development of eGovernment.
+
+EuroVoc webpage:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:3758021c-1d0f-47e7-910d-75bb2e26365f .
+
+camssa:573c6d94-5893-467a-aff7-138c9e90cce6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:d250e68a-02e2-44b3-b07a-21179e6acb62 .
+
+camssa:573ff15a-d15c-4707-9e4c-2ad02f83b2fc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:410e545f-0bb3-486a-be21-4e47c8108d7f .
+
+camssa:57ef30cb-5cd9-4d59-bdaf-6bba7b917396 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Even though EuroVoc is mainly focused on eGovernment since it was developed to support the data processing and classification within European Institutions, it covers different domains and subdomains that go beyond eGovernment such as energy or transports. Therefore, it can be considered as reusable amongst other business domains.
+
+EuroVoc webpage:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:65e4f8a0-9ced-476c-baef-0507184035c9 .
+
+camssa:6388b671-6439-4d48-9537-0b1ff36751d7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:65e4f8a0-9ced-476c-baef-0507184035c9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:695d6e66-f95c-48ae-a0be-89e8234044c7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """
+The purpose of EuroVoc is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+"""@en ;
+    cav:refersTo camssa:4f374f1e-1d06-4088-8862-1ee390c553c0 .
+
+camssa:6a8ee261-051d-4e11-b6c0-2c258739cfbe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:6b59a89d-1174-4631-9479-69be3a026661 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:94744b60-bab8-4fa8-b1de-d2398cc64a7f .
+
+camssa:6d749072-6ef2-445d-85d6-7b0fa5378ca3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """EuroVoc is used for the EU Open Data Portal, the site where EU Institutions publish their datasets for their reuse. In there, it is also used the classification of EuroVoc in order to improve the shareability, researchability and interoperability when processing the data. It helps to link data under knowledge domains.  
+
+EuroVoc in EU Open Data Portal:  
+https://data.europa.eu/euodp/es/data/dataset/building-stock-observatory
+
+EuroVoc reference:
+https://eur-lex.europa.eu/browse/eurovoc.html?locale=en
+
+Tim Berners-Lee 5-star schema for Open Data:   
+https://5stardata.info/en/"""@en ;
+    cav:refersTo camssa:cc487d49-d238-4358-b59b-71faf415ef72 .
+
+camssa:6da67430-4164-463f-81f1-cf30cde887d1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6feee29a-38a0-42f1-be2d-e524c7f8021c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:70ab281e-cd29-409e-9b41-6f1068d10f77 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of EuroVoc is to allow the exchange of documents between systems and applications. 
+
+EuroVoc webpage:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:20df51bd-9ffa-4ef4-a3b0-61d4a9b6fd18 .
+
+camssa:73626802-2f3c-486d-8f53-1af703281b7f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:82c6cde2-d2ca-4e9d-9208-3d8111d2e300 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:858cb5e5-0717-4d62-9ce0-568f78a54e30 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """EuroVoc is used for data processing acrosss Europe by the European Insitutions and also the National ones. Moreover, there is the possibility to search European Laws amongst other documents using its classification. It can be done through a EurLex, the European Gateway for regulation. 
+
+Additionally, it is used in the EU Open Data Portal as a method for knowledge classification. In the EU Open Data Portal, datasets are related and linked to EuroVoc domains that improve the searchability and reuse of information.
+
+EU Open Data Portal example:
+https://data.europa.eu/euodp/es/data/dataset/building-stock-observatory 
+
+Search by EuroVoc: 
+https://eur-lex.europa.eu/browse/eurovoc.html?params=12,1216#arrow_1216
+
+Publication Office of the European Union:
+https://op.europa.eu/en/home"""@en ;
+    cav:refersTo camssa:87af2f14-5252-42b4-b31a-86c6e81a5f61 .
+
+camssa:85f58d25-a4e7-4fc3-a867-54fe18e78930 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:96e5be94-c1f5-4213-9fb0-5ace22ae3efd .
+
+camssa:87af2f14-5252-42b4-b31a-86c6e81a5f61 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8805dc61-3c8a-44db-9ca0-7aa0c5dfe0b0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8c6c5eeb-edd7-4c07-b0cb-32e2f1e02f09 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:1eb06f81-c61d-49de-bdf1-129a538d772a .
+
+camssa:9090d2cd-c740-4beb-900f-4b6302fbe2f6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:9338c904-86f9-4cae-bf0e-96d60e690246 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of EuroVoc is not related to security and privacy of the data exchange. Therefore, this criterion is not applicable to this specification. 
+
+EuroVoc webpage:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:a6d26341-94b1-4874-a0ae-2df820729d66 .
+
+camssa:9451a3fc-a7b5-4766-ae48-b57ba5919745 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """EuroVoc was developed for the first time in 1982. It has been constantly evolving to adapt user's needs. Moreover, there are several releases since it was developed that justify its maturity and its use in the developement products and services. 
+
+
+EuroVoc Releases: 
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:97487b68-0b47-439b-9f2b-84249fc4270d .
+
+camssa:94744b60-bab8-4fa8-b1de-d2398cc64a7f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9573f152-0de0-45e6-af9f-7d7973cb297f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent from any software, hardware, or operating system. So it can be said that EuroVoc is independent of any specific technology or platform. 
+
+EuroVoc webpage:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:c30248e4-78f1-412c-abd4-2b1090e2c25d .
+
+camssa:96e5be94-c1f5-4213-9fb0-5ace22ae3efd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:97487b68-0b47-439b-9f2b-84249fc4270d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:9bbfa119-7786-4c87-b461-f8419cae1a82 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f9849a3e-e84f-4fbb-9670-aacc76bb7898 .
+
+camssa:9c579ea3-a841-44a3-84bb-031af240aab4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:9e669e85-2199-41a3-81df-e365c54d3845 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, the Publication Office of the European Union has listed it within EurVocabularies with all the specifications and resources produced and used by European Institutions. 
+
+EU Vocabularies: 
+https://op.europa.eu/en/web/eu-vocabularies
+
+Joinup post linked to the EuroVoc reosurces: 
+https://joinup.ec.europa.eu/collection/eu-semantic-interoperability-catalogue/news/eurovoc-freely-available"""@en ;
+    cav:refersTo camssa:dfbb2ea4-e364-4c06-a417-369837e55325 .
+
+camssa:a1756fcb-c95a-45bc-ae3e-a4e68189ad69 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """EuroVoc is used for the EU Open Data Portal, the site where EU Institutions publish their datasets for their reuse. In there, it is also used the classification of EuroVoc in order to improve the shareability, researchability and interoperability when processing the data. It helps to link data under knowledge domains. 
+ 
+EuroVoc webpage:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html"""@en ;
+    cav:refersTo camssa:14630dc2-a0c3-4ed6-8b75-d306e5af0aa9 .
+
+camssa:a540ffb3-957c-4517-8b77-546943e5943b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Publications Office of the European Union who is in charge of the development of the EuroVoc, has defined a mechanism for the improvement and maintenance of the specification. 
+
+EuroVoc about:  
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:6a8ee261-051d-4e11-b6c0-2c258739cfbe .
+
+camssa:a64f365f-5da2-4dfd-ba66-c9f12282c6f3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a6d26341-94b1-4874-a0ae-2df820729d66 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b64b5211-8f6c-43a9-9871-cc750ba7498d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """EuroVoc was developed for the first time in 1982 and has de full support from the European Union, since it was developed to support and help European and National institutions on their functions. The taxonomy categorises knowledge domains close to the European Institution. Therefore, it can be considered with market acceptance at eGovernment level for the development of products and services.
+
+EuroVoc over the time: 
+https://op.europa.eu/es/web/eu-vocabularies/th-dataset/-/resource/dataset/eurovoc?target=About#Time
+
+Eurovoc: 
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:294b56dc-07ff-4893-a3db-e66761a4e2c8 .
+
+camssa:b6d3e030-06f7-45a6-b564-8c1e98dd601b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:c0447836-9bb7-41bf-a51d-ed9169decb29 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:c280d04e-1cb7-483e-b5ae-e5dc4786b7a4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """EuroVoc is a public asset developed by a European Institution and can be accessed and reused without any payment conditions. Therefore, it can be considered that the specifications is licensed on a royalty-free basis.
+
+EuroVoc reference:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:a64f365f-5da2-4dfd-ba66-c9f12282c6f3 .
+
+camssa:c30248e4-78f1-412c-abd4-2b1090e2c25d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c5ef619f-6598-4579-9e2d-f8007e81416f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of EuroVoc is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
+
+EuroVoc webpage:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:82c6cde2-d2ca-4e9d-9208-3d8111d2e300 .
+
+camssa:c806a224-89ef-403a-9f19-ea248a3e7583 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specification is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. 
+
+EuroVoc webpage:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:495e7cb5-193c-4303-9305-7cc9cb358025 .
+
+camssa:c90d2360-fbb2-449f-9cf1-1403e2013756 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cc487d49-d238-4358-b59b-71faf415ef72 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d0cb1aac-3ffe-49b8-b1c0-961ca62e6f75 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "NaN"^^xsd:double .
+
+camssa:d24efee5-448f-4deb-940f-cf414dbae1dd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:275e5586-217e-4345-a666-17f587a506db .
+
+camssa:d250e68a-02e2-44b3-b07a-21179e6acb62 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d35e599a-f708-41a6-8af8-5facb3a0e135 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """In the maintenance and development process that the Publications Office has developed there is no public consultation foreseen in the development process of the specification. However, it is worth to note that users can contribute to a previous phase.
+
+EuroVoc
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc
+
+"""@en ;
+    cav:refersTo camssa:186a5761-e8d6-4b98-bf72-7d255ff9eec0 .
+
+camssa:d75f6dea-3170-46b5-b2f1-b3276fc824a4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Eurovoc has the support of the Publication Office of the European Union as a developer community. 
+
+Publication Office of the European Union:
+https://op.europa.eu/en/home"""@en ;
+    cav:refersTo camssa:1b3371b2-d2fa-4b47-82c0-833fad854591 .
+
+camssa:d7b02f39-1c78-437f-9b04-bdc176cbd37e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "20"^^xsd:int .
+
+camssa:de245df5-2f0c-4ede-81c2-30af24e51a13 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """EuroVoc is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:b6d3e030-06f7-45a6-b564-8c1e98dd601b .
+
+camssa:de4f5b3f-d7ea-4f74-8893-19b86e488d52 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no Member States recommending EuroVoc in their ICT National Catalogues.
+ 
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:9090d2cd-c740-4beb-900f-4b6302fbe2f6 .
+
+camssa:debce67c-b62d-4c1c-99b9-427a7bbadca8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent from any software, hardware, or operating system. So it can be said that EuroVoc is independent of any specific technology or platform. 
+
+EuroVoc webpage:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:336e1b68-c20b-43c7-a2e7-2000f8db37c3 .
+
+camssa:dfbb2ea4-e364-4c06-a417-369837e55325 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e082db9c-5464-4574-ae59-9c2588d5c5a6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "20"^^xsd:int .
+
+camssa:f4c73a76-5610-41a0-976d-7d8ddc129c26 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are different documentation and information that takes into account EuroVoc as part of the narrative and includes it as valuable. An article shows the usefulness of EuroVoc since it is included as the core of an application for the categorisation of documents (see link below). Also, an example of a use case for the Italian Chamber of Deputies. In here, the use case was presented in a EuroVoc conference to show the result and the effectiveness of using EuroVoc as the basis for the semi-automatic classification of documents.
+
+JRC EuroVoc Indexer JEX - A freely available multi-label categorisation tool
+https://www.researchgate.net/publication/256846257_JRC_EuroVoc_Indexer_JEX_-_A_freely_available_multi-label_categorisation_tool
+
+Eurovoc and parliamentary documents: A semi-automatic classification experience at the Italian Chamber of Deputies:
+https://expertsystem.com/expert-systems-cogito-semantic-platform-to-be-featured-at-eurovoc-conference/"""@en ;
+    cav:refersTo camssa:8805dc61-3c8a-44db-9ca0-7aa0c5dfe0b0 .
+
+camssa:f93376c0-687f-4ca9-a2d9-cd5b15dd4a3a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f9849a3e-e84f-4fbb-9670-aacc76bb7898 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fb1b6930-be12-4318-8e91-156f0d6112f9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Taking the initial purpose of the specification, it can be considered that the specification is involved in fostering the comprehensibility of Public Administrations data as well as relevant data produced for the decision-making process. 
+
+EuroVoc webpage:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:6feee29a-38a0-42f1-be2d-e524c7f8021c .
+
+camssa:fe3b9bf9-5c8c-4b13-abf6-248e95100090 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of EuroVoc is to allow the exchange of documents between systems and applications. 
+
+EuroVoc webpage:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:474ecb87-ccc7-46eb-87a6-f2f10233bea8 .
+
+camssa:ff2d5dac-98bb-4b74-b0ef-77f08397e983 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of EuroVoc is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+EuroVoc webpage:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"""@en ;
+    cav:refersTo camssa:f93376c0-687f-4ca9-a2d9-cd5b15dd4a3a .
+

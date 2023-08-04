@@ -1,0 +1,686 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:235d154484e9dca20d3607addaf6e0b1f5eb19d730e55854ba864f00436bbdb9 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:f02ea1d3690a89ddc570508919eb8bc2468493430ab03f24fd0d61998501e306 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:0408d886-278c-4464-87ff-6dfa32b3b7e0,
+        camssa:0663e824-5392-48b5-95ef-a39b7cb29e8e,
+        camssa:0b615a19-9494-48e9-87ca-03424cd1f01e,
+        camssa:0b618cf4-fd44-4963-83e6-35f0ed65e94a,
+        camssa:1314959e-ec68-4e6a-833f-a73105914b9b,
+        camssa:15631c78-0687-435e-8727-bee2da3455e5,
+        camssa:1933ae08-4bd7-467f-83ec-be9673d344ce,
+        camssa:1f189876-e918-4aa0-9f5f-cda83b225c98,
+        camssa:2ce99eec-6175-466f-a5e3-cda04fdb83ef,
+        camssa:3224e9f1-0c43-4dea-b7e4-aeb765f1a549,
+        camssa:3458286f-9866-400e-9dba-c5a60f170efd,
+        camssa:370a36ef-a0e3-4724-8be5-e68f65c5bf94,
+        camssa:3886a69d-e196-44d3-ad5a-abd3ff582438,
+        camssa:3ce1fd70-c21c-4dc3-bae3-53710f4cfa3f,
+        camssa:4bfad41a-2730-4131-847b-90fdc41156a6,
+        camssa:50a0e477-6780-4216-aafb-d28eb8a81a92,
+        camssa:56e885cd-53d7-43ae-8ac4-7e860e270fef,
+        camssa:5a2adb4b-897e-49dd-a307-e282d2927f21,
+        camssa:6260a889-0fc1-40b2-816b-6bcfbbbdd544,
+        camssa:65496d3d-9367-4907-b16a-77d32fb7ce5d,
+        camssa:696a379d-3539-4b8c-b964-5fdf26a76b17,
+        camssa:7000629c-804e-4635-8ac5-9023f9251e73,
+        camssa:75a935d6-7518-4b78-8fa8-833ccb5e0cee,
+        camssa:76654906-c1e7-4c1c-b832-7b496801b158,
+        camssa:814d36b4-3063-4d0c-8d0a-141e66afb092,
+        camssa:8348a587-e3b1-49fc-83ef-0aa1a3438f30,
+        camssa:86fff9ce-ceb2-439e-ba3c-1c4f144f77ab,
+        camssa:8772c0be-bd36-4551-ab6d-759d5ec13538,
+        camssa:8af07c94-e83a-44c8-9aa0-fc05f37154e9,
+        camssa:8d0d309b-b67f-4f72-8614-42ad8fcb7d40,
+        camssa:9557394a-2d6d-4ee3-8b87-b412067ec553,
+        camssa:9671318c-a3a0-4376-99e3-458a4ad31c23,
+        camssa:9859cfdf-d9bb-415b-9e71-52cc218ab52a,
+        camssa:9876cfc3-d3a8-4f1d-99bd-94d8cd0a9d9c,
+        camssa:ab4a1501-aa15-4ed0-bb40-aed9a26be6bd,
+        camssa:ace0e6af-e515-4148-8aa8-26424a3af529,
+        camssa:b24b191e-d334-40be-8fba-202e8ce07b09,
+        camssa:b6cc0719-cb7b-4ce7-b04b-16d182315704,
+        camssa:b7ff25de-c74b-4cb4-aa67-85462c5b502c,
+        camssa:c272f84d-10ae-4d22-aa9f-a7593ef2912a,
+        camssa:d60777cd-f18e-421b-b10d-cff8c0a21e38,
+        camssa:e8a8171a-4a28-450f-a503-a7d89135f918,
+        camssa:f1795995-4342-445f-bb2c-cb6b47792cc0,
+        camssa:f44462af-cac5-42f4-8751-bf26ab7d8281,
+        camssa:ff974388-d697-4add-a218-7f02163bc014 ;
+    cav:status status:Complete ;
+    dct:title "LegalDocML"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:0adac92c-9852-4c41-b06d-3d69d8cd8081 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:0408d886-278c-4464-87ff-6dfa32b3b7e0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6a97fa4b-e830-4624-9472-0bed81e89514 .
+
+camssa:0663e824-5392-48b5-95ef-a39b7cb29e8e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OASIS has defined a clear Technical Committee (hereby TC) process where all the stakeholders involved have the opportunity to participate in the development of the specification development process.
+
+OASIS guideline:
+https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26"""@en ;
+    cav:refersTo camssa:e196c249-2cef-4f04-baaf-40a7449796cc .
+
+camssa:0adac92c-9852-4c41-b06d-3d69d8cd8081 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:0b615a19-9494-48e9-87ca-03424cd1f01e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no Member States recommending LegalDocML in their ICT National Catalogues.
+ 
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:70bdfe54-c69c-45fd-b631-47a517329857 .
+
+camssa:0b618cf4-fd44-4963-83e6-35f0ed65e94a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:add119ed-8de0-4067-becf-7daaf561b1a5 .
+
+camssa:0c5567e0-6468-47f6-a993-9ddf93ba34cd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:0f9574aa-07cd-4eeb-b264-cf4a77d06e98 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:12696376-2f42-459d-b116-89889fad3122 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100+0"^^xsd:int .
+
+camssa:1314959e-ec68-4e6a-833f-a73105914b9b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:fee45232-8d73-4fed-9cb4-c3caa9cf433b .
+
+camssa:15631c78-0687-435e-8727-bee2da3455e5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Following the purpose of the TC in charge of its development, LegalDocML can ease the accessibility of legal and administrative information commonly used and developed by public organisations and government bodies. The implementation within LEOS project demonstrates the usefulness of the specification in the visibility and the decision-making process of public administrations. Therefore, it can be concluded that the specification fosters the visibility of administrative rules, data, services and decision-making of a public administration.
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php
+
+LEOS: 
+https://joinup.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation"""@en ;
+    cav:refersTo camssa:8b617fd2-0ee9-4aac-861b-aa6ac77d0469 .
+
+camssa:1933ae08-4bd7-467f-83ec-be9673d344ce a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9299f501-9aa2-4730-a8fd-66b3ed4e1a72 .
+
+camssa:1c69afd0-359c-42ee-a25a-fd916b6245a8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:1cec04db-85fe-48f8-97b6-d223503142cd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1e475e58-2773-4a43-a232-e9f7fd161c8b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:1f189876-e918-4aa0-9f5f-cda83b225c98 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification aims to provide a format for long-term storage and access to parliamentary, legislative and judicial documents that allows search, interpretation and visualization of documents. Therefore, LegalDocML can support and foster the long-term preservation of electronic records, especially legal texts.
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php
+"""@en ;
+    cav:refersTo camssa:7fd27ee3-5de9-4299-943c-6cbc7c7e5473 .
+
+camssa:26a71957-2edc-4bed-a794-fdcbbec6c330 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:2a5d793d-8535-4003-bbf0-746e18995d6b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2ce99eec-6175-466f-a5e3-cda04fdb83ef a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The LegalDocML is developed by OASIS using the technical commities (TC). The goal of the TC in charge of LegalDocML development is to collect requirements from the community of the stakeholders who create, manage and use legislative and legal documents  in order to extend and refine the standard.
+The main objective of the OASIS community is to promote individuals, organizations, and governments come together to solve some of the world’s biggest technical challenges through the development of open code and open standards
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php
+
+OASIS home page: 
+https://www.oasis-open.org/
+"""@en ;
+    cav:refersTo camssa:612daa0b-6c1e-44d5-8d29-e6b602e0e671 .
+
+camssa:3224e9f1-0c43-4dea-b7e4-aeb765f1a549 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The OASIS TC in charge of LegalDocML operates under the Royalty Free on Limited Terms IPR mode as defined in the OASIS Intellectual Property Rights (IPR) Policy.
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php
+
+The OASIS TC in charge of LegalDocML operates under the Royalty Free on Limited Terms IPR mode as defined in the OASIS Intellectual Property Rights (IPR) Policy.
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php"""@en ;
+    cav:refersTo camssa:583b6c96-d73c-4883-ac6b-bbf537da09e3 .
+
+camssa:3458286f-9866-400e-9dba-c5a60f170efd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LegalDocML is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:ea62c12a-9e25-472a-b513-8da256550817 .
+
+camssa:370a36ef-a0e3-4724-8be5-e68f65c5bf94 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6f9dd449-8e6e-4c9e-abb8-9b62c57590ea .
+
+camssa:3886a69d-e196-44d3-ad5a-abd3ff582438 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of LegalDocMC is not related to the publication of public data as linked open data. Therefore, this criterion is not applicable to this specification. 
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php
+
+None"""@en ;
+    cav:refersTo camssa:12696376-2f42-459d-b116-89889fad3122 .
+
+camssa:3ce1fd70-c21c-4dc3-bae3-53710f4cfa3f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The LegalDocML can be related also to contracts with legal bindings or relevance for the administration and regulatory boards. The specification can allow public administrations to define XML schemas for the reuse of information across borders including reference to contracts or other legal documents without requiring the submission or provision more than once. 
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php
+"""@en ;
+    cav:refersTo camssa:5f01f3c7-2ac5-47ab-bc40-eaeb6c210ad4 .
+
+camssa:3d67f2e8-9387-46b3-99b8-376c436c5fbe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:41a1e437-741f-4cb2-bcb0-7ec6993b8b9c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:4829542b-0938-40e0-a420-07d2c50cf8c9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4bfad41a-2730-4131-847b-90fdc41156a6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of LegalDocML is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php"""@en ;
+    cav:refersTo camssa:f00e1f07-c2f5-4c28-9dd0-ef06773e0f83 .
+
+camssa:50a0e477-6780-4216-aafb-d28eb8a81a92 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of LegalDocML is to provide a format for long-term storage and access to parliamentary, legislative and judicial documents that allows search, interpretation and visualization of documents. Concequently, it can be said that the specification fosters data portability between systems and applications.
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php
+
+The purpose of LegalDocML is to provide a format for long-term storage and access to parliamentary, legislative and judicial documents that allows search, interpretation and visualization of documents. Concequently, it can be said that the specification fosters data portability between systems and applications.
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php"""@en ;
+    cav:refersTo camssa:5bc494ef-82d6-4700-a2c1-1930aa592d20 .
+
+camssa:56e885cd-53d7-43ae-8ac4-7e860e270fef a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The LegalDocML TC works to advance worldwide best practices for the use of XML within a Parliaments', Assembly's or Congress' document management processes, within courts' and tribunals' judgment management systems, and generally in legal documents including contracts. It can be concluded that the specification fosters defining organisational interoperability aspects
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php"""@en ;
+    cav:refersTo camssa:9d3ee5bc-64f7-4490-b6ec-e93cdc652abf .
+
+camssa:583b6c96-d73c-4883-ac6b-bbf537da09e3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:5a2adb4b-897e-49dd-a307-e282d2927f21 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification was standardised officially in 2018 by OASIS, it was developed using the LegalDocML TC which is focused on promoting a common legal document standard (based on Akoma Ntoso-UN). 
+
+The European Commission includes in its Rolling Plan for ICT Standardisation and in the related standardisation activities of the same rolling plan, more spcifically under the focus of eGovernment (1) Policy and Legislation; (2) Requested Actions. Due to this recommendation it can be considered that the specification is sufficiently mature for its use in the developments of products and services.
+
+Moreover, LEOS project and pilot wich aims to ease the creation and management of Legal text is using it as basis. 
+
+Akoma Ntoso: 
+http://www.akomantoso.org/ 
+
+The European Commission includes in its Rolling Plan for ICT Standarisation:
+https://ec.europa.eu/digital-single-market/en/rolling-plan-ict-standardisation
+
+LEOS: 
+https://joinup.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation/application-architecture"""@en ;
+    cav:refersTo camssa:1e475e58-2773-4a43-a232-e9f7fd161c8b .
+
+camssa:5bc494ef-82d6-4700-a2c1-1930aa592d20 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:5f01f3c7-2ac5-47ab-bc40-eaeb6c210ad4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:612daa0b-6c1e-44d5-8d29-e6b602e0e671 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6260a889-0fc1-40b2-816b-6bcfbbbdd544 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out an exhaustive search concerning LegalDocML validation, conformance and certification, no tool has been found available for free for these purposes. "@en ;
+    cav:refersTo camssa:f7dd3983-d9ad-4a1f-b1a6-ab31f4f5c6e2 .
+
+camssa:62f01cc8-6feb-4847-ade0-d53061598594 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:65496d3d-9367-4907-b16a-77d32fb7ce5d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The business domain in which the specification was developed was mainly the administrations and the management of legal, political/administrative and contract management. However, this can be extended to other business domains where this kind of documents are basic for the development of the activity.
+
+LegalDocML TC: 
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=legaldocml
+
+The business domain in which the specification was developed was mainly the administrations and the management of legal, political/administrative and contract management. However, this can be extended to other business domains where this kind of documents are basic for the development of the activity.
+
+LegalDocML TC: 
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=legaldocml"""@en ;
+    cav:refersTo camssa:fe4d4bfb-02bc-4622-a253-51cd708484e9 .
+
+camssa:69250b06-182d-4f31-b8b3-f84f48d49622 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:696a379d-3539-4b8c-b964-5fdf26a76b17 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of LegalDocML is not related to e-accessibility. Therefore, this criterion is not applicable to this specification.
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php"""@en ;
+    cav:refersTo camssa:3d67f2e8-9387-46b3-99b8-376c436c5fbe .
+
+camssa:6a97fa4b-e830-4624-9472-0bed81e89514 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:6f9dd449-8e6e-4c9e-abb8-9b62c57590ea a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7000629c-804e-4635-8ac5-9023f9251e73 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LegalDocML has no requirement recognizing and executing the content on the receiving end. The receiving agents must ignore executable content coming from unsecured channels and/or unknown sources. However, the specification is XML based and it provides a set of common elements that are used to validate the information and the structure of the information exchange. This fact contributes to the trustworthy data exchange between parties.
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php
+
+Akoma Ntoso Media Type Version 1.0:
+http://docs.oasis-open.org/legaldocml/akn-media/v1.0/csprd01/akn-media-v1.0-csprd01.html#_Toc417907373"""@en ;
+    cav:refersTo camssa:7782187c-2683-4ef0-b651-fd315fb41e02 .
+
+camssa:70bdfe54-c69c-45fd-b631-47a517329857 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:747c28b0-3f7a-4f18-9cf3-b4569d06c948 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:75a935d6-7518-4b78-8fa8-833ccb5e0cee a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The LegalDocML is XML base, which allow the estructuration of legal documents data and its exchange between systems. This can also be used for instance, in  combination with the e-translation building block, to translate the content to other languages in the European Union. Then the collaboration between Member States can be improved using the method for the alignment of legal frameworks. 
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php"""@en ;
+    cav:refersTo camssa:cc9cebc7-f5cd-404b-b61a-22dfb2def57a .
+
+camssa:76654906-c1e7-4c1c-b832-7b496801b158 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:d3ea5d4a-14f4-4b0a-a67e-b8f80d9887b9 .
+
+camssa:7782187c-2683-4ef0-b651-fd315fb41e02 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7fd27ee3-5de9-4299-943c-6cbc7c7e5473 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:814d36b4-3063-4d0c-8d0a-141e66afb092 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of LegalDocML within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:62f01cc8-6feb-4847-ade0-d53061598594 .
+
+camssa:8348a587-e3b1-49fc-83ef-0aa1a3438f30 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:d0bb23dc-a728-4feb-9962-00a3a4d834b3 .
+
+camssa:86fff9ce-ceb2-439e-ba3c-1c4f144f77ab a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OASIS has defined a clear process where all the stakeholders involved have the opportunity to participate in the development of the specification development process. Moreover, there is a public review in the TC process.
+ 
+OASIS guideline:
+https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26
+The Akoma Ntoso review process: 
+http://www.akomantoso.org/?p=141"""@en ;
+    cav:refersTo camssa:c204099b-4464-4fe4-a16f-a3a9ba5ebd45 .
+
+camssa:8772c0be-bd36-4551-ab6d-759d5ec13538 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LegalDocML is XML based, however, it is not dependent on any other technology or platform, so it can be implemented independently from specific technologies or platforms.
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php"""@en ;
+    cav:refersTo camssa:9f65e44b-9503-4ce2-9821-4caf19abf10b .
+
+camssa:8af07c94-e83a-44c8-9aa0-fc05f37154e9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0c5567e0-6468-47f6-a993-9ddf93ba34cd .
+
+camssa:8b617fd2-0ee9-4aac-861b-aa6ac77d0469 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8d0d309b-b67f-4f72-8614-42ad8fcb7d40 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are different documentation and studies related to the use of LegalDocML. An example is "Evaluating LegalDocML and LegalRuleML as a Standard for Sharing Normative Information in the AEC/FM Domain analyses the LegalDOCML specification"
+
+Evaluating LegalDocML and LegalRuleML as a Standard for Sharing (...):
+https://www.researchgate.net/publication/318010726_Evaluating_LegalDocML_and_LegalRuleML_as_a_Standard_for_Sharing_Normative_Information_in_the_AECFM_Domain"""@en ;
+    cav:refersTo camssa:0f9574aa-07cd-4eeb-b264-cf4a77d06e98 .
+
+camssa:9299f501-9aa2-4730-a8fd-66b3ed4e1a72 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9557394a-2d6d-4ee3-8b87-b412067ec553 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:a331fbe6-c0ba-4be7-ad38-4b59523e9a41 .
+
+camssa:9671318c-a3a0-4376-99e3-458a4ad31c23 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LegalDocML is XML based, however, it is not dependent on any other technology or platform, so it can be implemented independently from specific technologies or platforms.
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php"""@en ;
+    cav:refersTo camssa:d1cf5ff2-d5ea-4e20-af14-4ef6cad9ae21 .
+
+camssa:9859cfdf-d9bb-415b-9e71-52cc218ab52a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:e2d27ea0-540d-4307-8dd0-be6918a4c39c .
+
+camssa:9876cfc3-d3a8-4f1d-99bd-94d8cd0a9d9c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The LegalDocML TC works to advance worldwide best practices for the use of XML within a Parliaments', Assembly's or Congress' document management processes, within courts' and tribunals' judgment management systems, and generally in legal documents including contracts. 
+
+The specification as can be domonstrated for its implementation in LEOS project and pilot, can ease and foster the visibility of data, administrative rules and ease the decision making process of public administrations. 
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php
+
+LEOS: 
+https://joinup.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation"""@en ;
+    cav:refersTo camssa:747c28b0-3f7a-4f18-9cf3-b4569d06c948 .
+
+camssa:9ac06528-66a6-41dd-84b7-ee3d62327afa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9d3ee5bc-64f7-4490-b6ec-e93cdc652abf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9f65e44b-9503-4ce2-9821-4caf19abf10b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a331fbe6-c0ba-4be7-ad38-4b59523e9a41 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:a65a67e2-5d2c-414f-8814-876020846a4b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:ab4a1501-aa15-4ed0-bb40-aed9a26be6bd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+None"""@en ;
+    cav:refersTo camssa:a65a67e2-5d2c-414f-8814-876020846a4b .
+
+camssa:ace0e6af-e515-4148-8aa8-26424a3af529 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:26a71957-2edc-4bed-a794-fdcbbec6c330 .
+
+camssa:add119ed-8de0-4067-becf-7daaf561b1a5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:b24b191e-d334-40be-8fba-202e8ce07b09 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:41a1e437-741f-4cb2-bcb0-7ec6993b8b9c .
+
+camssa:b4db0b57-a8c8-4ab2-8dc4-19c9740162c0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:b6cc0719-cb7b-4ce7-b04b-16d182315704 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:b4db0b57-a8c8-4ab2-8dc4-19c9740162c0 .
+
+camssa:b7ff25de-c74b-4cb4-aa67-85462c5b502c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9ac06528-66a6-41dd-84b7-ee3d62327afa .
+
+camssa:c204099b-4464-4fe4-a16f-a3a9ba5ebd45 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c272f84d-10ae-4d22-aa9f-a7593ef2912a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are different documentation and studies related to the use of LegalDocML. An example is "Evaluating LegalDocML and LegalRuleML as a Standard for Sharing Normative Information in the AEC/FM Domain analyses the LegalDOCML specification"
+
+Evaluating LegalDocML and LegalRuleML as a Standard for Sharing (...):
+https://www.researchgate.net/publication/318010726_Evaluating_LegalDocML_and_LegalRuleML_as_a_Standard_for_Sharing_Normative_Information_in_the_AECFM_Domain"""@en ;
+    cav:refersTo camssa:2a5d793d-8535-4003-bbf0-746e18995d6b .
+
+camssa:cc9cebc7-f5cd-404b-b61a-22dfb2def57a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d0bb23dc-a728-4feb-9962-00a3a4d834b3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d1cf5ff2-d5ea-4e20-af14-4ef6cad9ae21 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:d3ea5d4a-14f4-4b0a-a67e-b8f80d9887b9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:d60777cd-f18e-421b-b10d-cff8c0a21e38 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no Member State that includes LegalDocML in their national catalogue with The National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:1c69afd0-359c-42ee-a25a-fd916b6245a8 .
+
+camssa:e0692b68-b634-44de-abc0-ced0869892f6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:e196c249-2cef-4f04-baaf-40a7449796cc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:e2d27ea0-540d-4307-8dd0-be6918a4c39c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e8a8171a-4a28-450f-a503-a7d89135f918 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The European Commission includes in its Rolling Plan for ICT Standardisation and in the related standardisation activities of the same rolling plan. The specification has sufficient market acceptance for its use in the development of products and services. The inclusion as basis for LEOS supports the fact that the specification has sufficient market acceptance according to the target audince. 
+
+In addition, The LegalDocML TC works to advance worldwide best practices for the use of XML within a Parliaments', Assembly's or Congress' document management processes, within courts' and tribunals' judgment management systems, and generally in legal documents including contracts.
+
+The European Commission includes in its Rolling Plan for ICT Standarisation:
+https://ec.europa.eu/digital-single-market/en/rolling-plan-ict-standardisation
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php"""@en ;
+    cav:refersTo camssa:4829542b-0938-40e0-a420-07d2c50cf8c9 .
+
+camssa:ea62c12a-9e25-472a-b513-8da256550817 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:f00e1f07-c2f5-4c28-9dd0-ef06773e0f83 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f1795995-4342-445f-bb2c-cb6b47792cc0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is used to encode and structure legal documents as XML, therefore it can help to the structured data exchange and the availability of interfaces with internal information. LEOS allows a common interface where this XML content is displayed in a user-friendly way to allow the creation and management of legal documents.
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php
+
+LEOS: 
+https://joinup.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation"""@en ;
+    cav:refersTo camssa:e0692b68-b634-44de-abc0-ced0869892f6 .
+
+camssa:f44462af-cac5-42f4-8751-bf26ab7d8281 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:69250b06-182d-4f31-b8b3-f84f48d49622 .
+
+camssa:f7dd3983-d9ad-4a1f-b1a6-ab31f4f5c6e2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "20"^^xsd:int .
+
+camssa:fe4d4bfb-02bc-4622-a253-51cd708484e9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:fee45232-8d73-4fed-9cb4-c3caa9cf433b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ff974388-d697-4add-a218-7f02163bc014 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification has been selected within the scope of LEOS project to develop the LEOS software, which aims to ease the drafting and edition of legal documents. 
+
+Moreover, LegalDocML has been included  within the European Commission's Rolling Plan for ICT Standarisation and in the related standardisation activities of the same report.
+
+LEOS: 
+https://joinup.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation
+
+The European Commission includes in its Rolling Plan for ICT Standarisation:
+https://ec.europa.eu/digital-single-market/en/rolling-plan-ict-standardisation
+
+
+"""@en ;
+    cav:refersTo camssa:1cec04db-85fe-48f8-97b6-d223503142cd .
+

@@ -1,0 +1,645 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:57bf894f64d3f8828131acaae8877a958881afe73e3e3d08ee0c2cdc7402f51a a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:a5e285ce592fea5c490319fb4731e4aac5db6c4430c8a3b8011b4dbc5121cda8 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:02c39bdf-d5bb-4e19-9eff-4959d46f0512,
+        camssa:0c09898e-b77d-4c57-995b-a03c63f05b40,
+        camssa:0d73283f-721e-4029-8ad6-0d274259b070,
+        camssa:0e86bf03-9995-49fb-ab57-97328f9cd922,
+        camssa:0f46e1d2-58c5-41e0-b72f-b436ccd7604c,
+        camssa:19c6a172-fd16-40fe-a700-a449cc1fec9c,
+        camssa:21f18d06-e20a-42d5-852c-a8c4fde96994,
+        camssa:2731fde3-12d1-4eaf-bd25-08a5422c3ff3,
+        camssa:2e6a920f-9bab-4cc3-b4ba-03632cbd5afc,
+        camssa:2f96b56a-e5a5-4fac-ba29-bc0fc0f54470,
+        camssa:30ddf16d-b675-4af0-b97d-8133ff696adb,
+        camssa:37ef3051-03c0-4c27-bc0e-6fb49ddd122b,
+        camssa:44907047-5495-43ba-aa18-83b1f530e05f,
+        camssa:45b9be68-5736-4ae9-a245-100edb2bbf15,
+        camssa:49170f57-78d1-4618-9d99-d0bb363d1560,
+        camssa:4cbf60ca-d5ad-4df8-bd20-e58bb7b9aebc,
+        camssa:5bddfaf0-6992-440f-98bb-bc4dd405d5c7,
+        camssa:65ec0343-0b07-42d4-a982-854316ec4e1e,
+        camssa:71475fac-65be-4af0-b7d5-23f0c34ade08,
+        camssa:77ba6d83-bc4f-4318-ab73-79743074f7da,
+        camssa:7d4ff142-7469-4b3c-abb8-a531958a4ef5,
+        camssa:7dc2dde8-0be7-4260-9097-a5f0be00ec01,
+        camssa:83edde90-f14a-4e22-8022-d5d8830e61dc,
+        camssa:90bcd70e-7126-4291-9ac8-11988c6b91c5,
+        camssa:96151b8f-9ba7-47f4-b965-01ab4b1b9282,
+        camssa:999c7eb3-3aa7-4bfb-85a5-5c63bf7f9840,
+        camssa:9c938972-cd12-4639-9d82-977aa6b52d9a,
+        camssa:9d30cd35-d019-4e6e-b227-d1d21aa6c886,
+        camssa:a08754c4-4e22-4f32-b3eb-9aa7a0e4dc4f,
+        camssa:ad5112c6-62cf-4f2d-9d46-e4b71e5af55f,
+        camssa:b16feff4-b173-480a-b87d-658b6d0ac461,
+        camssa:bff51c2f-96aa-4a3a-937f-1eafbf222eac,
+        camssa:c06e6bd9-4c7e-44ec-97b9-b60698eb8a50,
+        camssa:d26e21de-82c3-4d52-b3f3-018143f02421,
+        camssa:da004990-afb9-489b-b27e-2184f1fd3688,
+        camssa:dd0fd0f6-7ef4-4609-a1ad-ea126e4f9f8d,
+        camssa:e8fad33e-fece-4664-930a-7837eba35e7f,
+        camssa:e996888d-90d5-40f1-8095-e717f17c521a,
+        camssa:ec061213-9970-48bd-9e61-0336f0bb77bc,
+        camssa:efc8a66c-c675-46e5-9116-371bca5a276f,
+        camssa:f284d24f-7d3f-4803-8923-57f3657b116e,
+        camssa:fcf34ec5-7e78-4ff6-8459-afcb28f0fa2f,
+        camssa:fdb97d28-eda0-4180-90b1-a5b0f315d638,
+        camssa:ffb5e386-f279-49a3-8e8a-0dc5783905bb ;
+    cav:status status:Complete ;
+    dct:title "Core Location Vocabulary (CLV) v1.0"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:b3605697-c6d9-40aa-89c9-dd76f180c6bb ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:02c39bdf-d5bb-4e19-9eff-4959d46f0512 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CLV is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:4b6cd004-1068-450d-ae29-a12b54835de4 .
+
+camssa:0c09898e-b77d-4c57-995b-a03c63f05b40 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:a57862a5-a818-4860-9f65-3ef076806806 .
+
+camssa:0d73283f-721e-4029-8ad6-0d274259b070 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:da69e677-094c-4253-89f0-e60505edc76b .
+
+camssa:0e86bf03-9995-49fb-ab57-97328f9cd922 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After carrying out information retrieval, no document or study has been found assessing the CLV in terms of efficiency or effectiveness. However, there is an ISA2 documentation where there are defined use cases and benefits of using its solutions, including the different Core Vocabularies. 
+
+Use cases and benefits of ISA² specifications:
+https://ec.europa.eu/isa2/sites/isa/files/docs/publications/isa2_study_use_cases_and_benefits_of_isa2_specifications_january_2019.pdf"""@en ;
+    cav:refersTo camssa:8bb19c81-fe6f-47d6-99f4-50d7d66bb21a .
+
+camssa:0f46e1d2-58c5-41e0-b72f-b436ccd7604c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Core Location Vocabulary is a business domain agnostic specification that can be reused in a cross-domain way.
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:492b1fcc-4d55-47b1-9be6-d4a44703e66e .
+
+camssa:11d8bc86-3b78-468d-9121-4724e4b66d75 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:19c6a172-fd16-40fe-a700-a449cc1fec9c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the Core Location Vocabulary is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification. 
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:62a1d197-83fd-42cf-a850-e66e393a5967 .
+
+camssa:1b6b7b84-92a0-461e-94c1-9bcf0c312b55 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:1fef714b-1588-48b0-aa63-ec72b33a6e36 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:21f18d06-e20a-42d5-852c-a8c4fde96994 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After searching in the different official European websites, there is no evidence of any cross-border project that use CLV nor explicit agreements involving the usage of the specification."@en ;
+    cav:refersTo camssa:4dbf2c96-807e-4893-a6ba-99d6e1e79498 .
+
+camssa:255c1681-49d8-4087-adf7-ac3048488c1f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2731fde3-12d1-4eaf-bd25-08a5422c3ff3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the Core Location Vocabulary is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:c96072d2-9437-4c7d-a242-a19a676239b6 .
+
+camssa:2e6a920f-9bab-4cc3-b4ba-03632cbd5afc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the Core Location Vocabulary is to capture the fundamental characteristics of a location, represented as an address, a geographic name or geometry. It was developed from November 2011 until February 2012. It had some updates, and it was finally published in May 2012. This fact shows that CLV is mature enough for its use in the development of products and services.
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:b0d49a9c-69cb-41a8-9d4e-d36b056a9555 .
+
+camssa:2f96b56a-e5a5-4fac-ba29-bc0fc0f54470 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:306dee22-ade3-493e-91e7-787b54a7f517 .
+
+camssa:306dee22-ade3-493e-91e7-787b54a7f517 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:30ddf16d-b675-4af0-b97d-8133ff696adb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent of any software or platform. The Core Location Vocabulary can be used by any organisation.
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:e8a4f222-1ddd-43f1-88ca-8255b1a5a421 .
+
+camssa:31359f9d-4c43-4a04-8eb0-32d7f5292e53 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:37ef3051-03c0-4c27-bc0e-6fb49ddd122b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Core Location Vocabulary allows managing cross-border repositories of public services and organisations. So, it fosters data portability between systems and applications supporting the implementation and evolution of European public services.
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:ae937b38-18cd-4cea-bfbc-bd78c9129938 .
+
+camssa:3a98e802-3d0e-4624-84b5-4a4ee995e569 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3aab4bc5-c56c-4866-b7d5-8fff2f41a3be a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3f9c0a46-36ec-4928-a91b-9320a1697f80 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:44907047-5495-43ba-aa18-83b1f530e05f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of CLV within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:e3780e17-5908-4c9a-9d75-483555194130 .
+
+camssa:45b9be68-5736-4ae9-a245-100edb2bbf15 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Core Location Vocabulary has a good market acceptance for its use in the development of products and services. For example, it has been used to create the OSLO Vocabulary which is a simplified, reusable and extensible data model that captures the fundamental characteristics of information exchanged by public administration in Flanders.
+
+OSLO Vocabulary:
+https://joinup.ec.europa.eu/collection/oslo-open-standards-local-administrations-flanders/solution/oslo-open-standards-linked-administrations-flanders/about
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:71c75c17-f5d2-4c77-ad1b-71cf640033d7 .
+
+camssa:48a516c7-91c5-4c81-b0b6-9b927c81398c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:49170f57-78d1-4618-9d99-d0bb363d1560 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:638e5837-dfec-44d5-9746-ddd51c92d794 .
+
+camssa:492b1fcc-4d55-47b1-9be6-d4a44703e66e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:49edba33-8c16-4a7f-b60c-276d42a5277f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4b6cd004-1068-450d-ae29-a12b54835de4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:4cbf60ca-d5ad-4df8-bd20-e58bb7b9aebc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Core Vocabularies can be used as the foundation of common export formats for data in base registries like cadastral, business registers or public service portals. The Core Location Vocabulary is a simplified, reusable and extensible data model that captures the fundamental characteristics of a location, represented as an address, a geographic name, or a geometry. 
+
+By describing locations (addresses, geographical names, etc) in a common way using both human and machine-readable format, it allows the publication of information as linked open data for its consultation and reuse.
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary
+
+Use cases and benefits of ISA² specifications:
+https://ec.europa.eu/isa2/sites/isa/files/docs/publications/isa2_study_use_cases_and_benefits_of_isa2_specifications_january_2019.pdf"""@en ;
+    cav:refersTo camssa:90bb16da-6ec8-4582-a77b-5db21b5b9422 .
+
+camssa:4dbf2c96-807e-4893-a6ba-99d6e1e79498 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "20"^^xsd:int .
+
+camssa:5bddfaf0-6992-440f-98bb-bc4dd405d5c7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As it happens with all the e-Government Vocabularies, it has the SEMIC action from the ISA2 as responsible for the maintenance of the development.
+
+SEMIC in Joinup:
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic"""@en ;
+    cav:refersTo camssa:9d6fbd77-f36e-4f01-a410-ef57a3883bdf .
+
+camssa:62a1d197-83fd-42cf-a850-e66e393a5967 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:638e5837-dfec-44d5-9746-ddd51c92d794 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:65ec0343-0b07-42d4-a982-854316ec4e1e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no Member States recommending CLV in their ICT National Catalogues.
+ 
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:72cc52c2-3dbd-483d-8588-0c10deccf8ff .
+
+camssa:70704027-ae85-4471-92cd-ca167e80eb1d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:709bbf37-6604-40e1-bd33-cd081b322f91 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:71475fac-65be-4af0-b7d5-23f0c34ade08 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of CLV is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification.
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:a6f2c7db-7e70-401c-88bd-3be4a22129b0 .
+
+camssa:71c75c17-f5d2-4c77-ad1b-71cf640033d7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:722354c2-1ea0-4b5c-b185-421f3c64be03 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:72cc52c2-3dbd-483d-8588-0c10deccf8ff a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:77ba6d83-bc4f-4318-ab73-79743074f7da a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """​The Semantic Interoperability Community (SEMIC) that developed this specification, is in charge of developing solutions to help European public administrations perform seamless and meaningful cross-border and cross-domain data exchanges. They develop semantic specifications and interoperability solutions under the ISA² Programme. When a new solution release is finished, it is submitted for a public review with a minimum period of four weeks.
+
+Specification development process by the ISA Programme:
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/document/description-change-management-release-and-publication-process-structural-metadata-specifications
+
+Detailed document ISA Programme:
+https://joinup.ec.europa.eu/sites/default/files/document/2016-10/description_of_a_change_management_release_and_publication_process_for_structural_metadata_specifications_developed_by_the_isa_progr.pdf"""@en ;
+    cav:refersTo camssa:83e2fe23-00ea-49a3-9865-5803b0831d36 .
+
+camssa:7c93e2c9-140d-4f16-8965-ae6d1d7aae06 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7d4ff142-7469-4b3c-abb8-a531958a4ef5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:abec5e4a-27e1-43d8-bb34-efd8b4749346 .
+
+camssa:7dc2dde8-0be7-4260-9097-a5f0be00ec01 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the Core Location Vocabulary is to create a reusable and extensible data model that captures the fundamental characteristics related to people, locations and businesses. By providing a set of information to describe data in the sectors mentioned before, it helps public administrations to save and comprehend in an orderly and standardized way, information related to people, locations or business.
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:3aab4bc5-c56c-4866-b7d5-8fff2f41a3be .
+
+camssa:7e2d7ac2-085c-4487-bb14-ba40d95e8298 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:83e2fe23-00ea-49a3-9865-5803b0831d36 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:83edde90-f14a-4e22-8022-d5d8830e61dc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:3a98e802-3d0e-4624-84b5-4a4ee995e569 .
+
+camssa:8b787de6-4101-409d-8814-8bf2242db00c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8bb19c81-fe6f-47d6-99f4-50d7d66bb21a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:90bb16da-6ec8-4582-a77b-5db21b5b9422 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:90bcd70e-7126-4291-9ac8-11988c6b91c5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Core Location Vocabulary defines a core data model that allows the description of locations, geographical elements in a common way. This fact ensures a trustworthy reuse and data exchange among administrations and stakeholders.  
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:8b787de6-4101-409d-8814-8bf2242db00c .
+
+camssa:92c9268f-7d21-481f-92b5-df529ef92f73 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:96151b8f-9ba7-47f4-b965-01ab4b1b9282 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:709bbf37-6604-40e1-bd33-cd081b322f91 .
+
+camssa:999c7eb3-3aa7-4bfb-85a5-5c63bf7f9840 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Semantic Interoperability Community (SEMIC) has established Working Groups. These Working Groups are open to the participation of everyone interested in semantic solutions working for public administrations in the Member States or in EU institutions.
+
+SEMIC working groups:
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/about"""@en ;
+    cav:refersTo camssa:31359f9d-4c43-4a04-8eb0-32d7f5292e53 .
+
+camssa:9c938972-cd12-4639-9d82-977aa6b52d9a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:1fef714b-1588-48b0-aa63-ec72b33a6e36 .
+
+camssa:9d30cd35-d019-4e6e-b227-d1d21aa6c886 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As a vocabulary, the implementation of CLV can be tested using methods like SHACL shapes and using semantic reasoners to ensure that the implementation is well-formed. These validation mechanisms can be used with open source tools or lite versions of tools like GrapghDB or Protégé.
+
+SHACL validation:
+https://graphdb.ontotext.com/documentation/free/shacl-validation.html#what-is-shacl-validation
+
+Semantic Reasoners List:
+http://owl.cs.manchester.ac.uk/tools/list-of-reasoners/"""@en ;
+    cav:refersTo camssa:fb97a5b3-01c2-4bf7-8717-c790a4aa77ca .
+
+camssa:9d6fbd77-f36e-4f01-a410-ef57a3883bdf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a08754c4-4e22-4f32-b3eb-9aa7a0e4dc4f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Core Location Vocabulary is a business domain agnostic specification that can be reused in a cross-domain way.
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:7e2d7ac2-085c-4487-bb14-ba40d95e8298 .
+
+camssa:a57862a5-a818-4860-9f65-3ef076806806 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a6f2c7db-7e70-401c-88bd-3be4a22129b0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:abec5e4a-27e1-43d8-bb34-efd8b4749346 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ad5112c6-62cf-4f2d-9d46-e4b71e5af55f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:70704027-ae85-4471-92cd-ca167e80eb1d .
+
+camssa:ae937b38-18cd-4cea-bfbc-bd78c9129938 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b0d49a9c-69cb-41a8-9d4e-d36b056a9555 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:b16feff4-b173-480a-b87d-658b6d0ac461 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent of any software or platform. The Core Location Vocabulary can be used by any organisation.
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:7c93e2c9-140d-4f16-8965-ae6d1d7aae06 .
+
+camssa:b3605697-c6d9-40aa-89c9-dd76f180c6bb a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:ba306d2d-7008-4632-88de-410ea342c47c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:bff51c2f-96aa-4a3a-937f-1eafbf222eac a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After carrying out information retrieval, no document or study has been found assessing the CLV in terms of efficiency or effectiveness. However, there is an ISA2 documentation where there are defined use cases and benefits of using its solutions, including the different Core Vocabularies. 
+
+Use cases and benefits of ISA² specifications:
+https://ec.europa.eu/isa2/sites/isa/files/docs/publications/isa2_study_use_cases_and_benefits_of_isa2_specifications_january_2019.pdf"""@en ;
+    cav:refersTo camssa:ba306d2d-7008-4632-88de-410ea342c47c .
+
+camssa:c06e6bd9-4c7e-44ec-97b9-b60698eb8a50 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Core Location Vocabulary allows managing cross-border repositories of public services and organisations. So, it fosters data portability between systems and applications supporting the implementation and evolution of European public services.
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:11d8bc86-3b78-468d-9121-4724e4b66d75 .
+
+camssa:c96072d2-9437-4c7d-a242-a19a676239b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:d26e21de-82c3-4d52-b3f3-018143f02421 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Core Vocabularies can be used as the foundation of common export formats for data in base registries like cadastral, business registers or public service portals. The Core Location Vocabulary is a simplified, reusable and extensible data model that captures the fundamental characteristics of a location, represented as an address, a geographic name, or a geometry. By describing locations (addresses, geographical names, etc) in a common way using both human and machine-readable format, it allows the publication of information as open data for its consultation and reuse.
+
+Tim Berners-Lee 5-star schema for Open Data:
+https://5stardata.info/en/
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary
+
+Use cases and benefits of ISA² specifications:
+https://ec.europa.eu/isa2/sites/isa/files/docs/publications/isa2_study_use_cases_and_benefits_of_isa2_specifications_january_2019.pdf"""@en ;
+    cav:refersTo camssa:fab9e59e-ebbd-4b26-9dae-6a5af854150e .
+
+camssa:da004990-afb9-489b-b27e-2184f1fd3688 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:722354c2-1ea0-4b5c-b185-421f3c64be03 .
+
+camssa:da69e677-094c-4253-89f0-e60505edc76b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:dd0fd0f6-7ef4-4609-a1ad-ea126e4f9f8d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All solutions developed in ISA² Programme are under ISA Open Metadata Licence which is perpetual, royalty-free and non-exclusive license to Use and re-Use the Works.
+
+ISA open metadata license:
+https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11"""@en ;
+    cav:refersTo camssa:e7a38d6d-fce9-4840-a97c-ddb89e88386d .
+
+camssa:e3780e17-5908-4c9a-9d75-483555194130 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:e3fda45c-7563-4f98-94b8-a186ac2d98a7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e7a38d6d-fce9-4840-a97c-ddb89e88386d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e8a4f222-1ddd-43f1-88ca-8255b1a5a421 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:e8fad33e-fece-4664-930a-7837eba35e7f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the Core Location Vocabulary is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:49edba33-8c16-4a7f-b60c-276d42a5277f .
+
+camssa:e996888d-90d5-40f1-8095-e717f17c521a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no Member State that includes CLV in their national catalogue with The National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:48a516c7-91c5-4c81-b0b6-9b927c81398c .
+
+camssa:ec061213-9970-48bd-9e61-0336f0bb77bc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of CLV is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. 
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:92c9268f-7d21-481f-92b5-df529ef92f73 .
+
+camssa:ec767037-6ee9-45a3-998e-27f440678770 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:efc8a66c-c675-46e5-9116-371bca5a276f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All solutions developed in ISA² Programme are under ISA Open Metadata Licence which is perpetual, royalty-free and non-exclusive license to Use and re-Use the Works.
+
+ISA open metadata license:
+https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11"""@en ;
+    cav:refersTo camssa:e3fda45c-7563-4f98-94b8-a186ac2d98a7 .
+
+camssa:f284d24f-7d3f-4803-8923-57f3657b116e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:1b6b7b84-92a0-461e-94c1-9bcf0c312b55 .
+
+camssa:fab9e59e-ebbd-4b26-9dae-6a5af854150e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fb97a5b3-01c2-4bf7-8717-c790a4aa77ca a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:fcf34ec5-7e78-4ff6-8459-afcb28f0fa2f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the Core Location Vocabulary is to create a reusable and extensible data model that captures the fundamental characteristics related to people, locations and businesses. By providing a set of information to describe data in the sectors mentioned before, it helps public administrations with the visualization of people, locations or business.
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:ec767037-6ee9-45a3-998e-27f440678770 .
+
+camssa:fdb97d28-eda0-4180-90b1-a5b0f315d638 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the Core Location Vocabulary is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification. 
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:255c1681-49d8-4087-adf7-ac3048488c1f .
+
+camssa:ffb5e386-f279-49a3-8e8a-0dc5783905bb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Core Location Vocabulary facilitates the process for institutions to classify and to describe data about location aspects of public organisations, citizens, and businesses. By ensuring the reuse of information among administrations and systems, it fosters interoperability and impacts positively on the development of eGovernment.
+
+CLV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"""@en ;
+    cav:refersTo camssa:3f9c0a46-36ec-4928-a91b-9320a1697f80 .
+

@@ -1,0 +1,648 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:d70415c8-08da-44d6-ae8a-a235bb214857 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:f7f5a1c3e03801cfd326c4d990c8ef4c71b94918b54a13c03467dcbcf5ec54dd a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:fa1ca0429a628b89323bf5677343ada8ad700197ca9a3d467e79de87beda3149 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:03e4aa20-b883-4de3-9be0-269320e2e851,
+        camssa:0ce5d2a8-cd80-4ca3-9763-28e2cb9699f0,
+        camssa:0f83f954-04bf-4e99-ae95-f8e82c2f785b,
+        camssa:0fe14daa-ba4b-4bf7-9fdf-fc1d3835f089,
+        camssa:101ae004-2408-4b4e-b257-96cb30412f4c,
+        camssa:14799654-dfc7-45a6-b202-41852bd853ca,
+        camssa:1b3dd688-50d8-4333-9aa9-c51d27d555af,
+        camssa:2d0e823a-618c-4e8d-85d0-eae20e2d27d4,
+        camssa:34308996-c1f4-4498-867c-6fe48a03448f,
+        camssa:38c86778-1ffe-430f-84dc-84a2ffd052a1,
+        camssa:3bf567ff-d426-43d3-b542-9a9b80c55be9,
+        camssa:40229c1f-0c1d-432a-b0a6-4acfc6dc282a,
+        camssa:44313602-57e0-4ccd-b5f4-c4e1bbda84cf,
+        camssa:4658ba7c-624c-4df7-9003-c8ac35f8f5c5,
+        camssa:4963267e-adf2-40a2-b375-4f39cd87acb3,
+        camssa:4a2471b5-8e6c-4336-a0f5-4b61912223b9,
+        camssa:4b7898bb-7a02-4a7a-aafc-c25f0c2a727d,
+        camssa:4d871bba-2a5a-434e-a30d-96663077a0e3,
+        camssa:62344d01-4551-497e-a1d8-3dff347d640a,
+        camssa:6d8c9ff5-92f6-4b97-9420-86fa7f9a0704,
+        camssa:71c46266-a918-4f73-8577-d99ff783af88,
+        camssa:78d217ba-ed92-4aec-a602-89fe7b37d3d6,
+        camssa:847960ef-bcca-4507-84fa-34cbff8a171f,
+        camssa:875cf2c4-8ba0-4cd8-adcf-5b2b7e136d2f,
+        camssa:87a165c4-c1c8-4380-81f5-16cd22279777,
+        camssa:88de97c3-2fb0-486d-8c9f-f4d380d4c190,
+        camssa:8a867cc9-333d-47e5-8274-e392c290353b,
+        camssa:8ee90dd5-c426-49be-a64f-b9d5f8093a47,
+        camssa:94df42ab-cdef-4bdc-8a44-12b04ea88d43,
+        camssa:9aeb1fac-26ad-4b03-87be-2b8a2df16504,
+        camssa:9d1dfb18-049c-4823-ae90-c6ddf8a5e0c2,
+        camssa:a530d696-2cc8-4b08-81cc-d894abc896d4,
+        camssa:a5642784-6b86-42a5-a69a-fa62be177331,
+        camssa:a5d7d717-8761-46d1-b4cd-4cf97b75b770,
+        camssa:bd7cf89a-5feb-4cc0-8d49-d2871a268b59,
+        camssa:c2bdaa56-eb58-4c33-bfc8-6d1bb4e4271f,
+        camssa:d3ca3bf2-b83a-47a5-a548-53121eef12ae,
+        camssa:dd7db673-cec5-4de0-8ed6-d1e16302ca31,
+        camssa:dfffb9b7-4f5c-4b9c-8b9a-7363eb336a65,
+        camssa:e5fe20bf-504b-4fb6-a394-345d6ec299f7,
+        camssa:e6a22a80-26b4-4834-a0a2-bcff6023c0fa,
+        camssa:ea28e7ec-c840-4824-86b5-9a736b0067af,
+        camssa:eae68ffa-259c-4b23-bab4-aba5192b0098,
+        camssa:ec91b93e-8b5e-4fde-a368-22f56f647a05,
+        camssa:fcff0f6d-dc96-4a40-adae-32299e0a9e4d ;
+    cav:status status:Complete ;
+    dct:title "Portable Document Format/A (PDF/A)"@en .
+
+camssa:019529f9-20a4-459e-a685-7f5e4aa2994e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:03e4aa20-b883-4de3-9be0-269320e2e851 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:990510e7-6fb8-4383-80f9-c546e3f5e05f .
+
+camssa:0442d8e1-fdad-498e-8b61-052361dbdb9e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:0ce5d2a8-cd80-4ca3-9763-28e2cb9699f0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the PDF/A in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:8b585585-781a-4bf8-a4b8-8e25c7d3dcbf .
+
+camssa:0f83f954-04bf-4e99-ae95-f8e82c2f785b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9dafcba3-10ad-44e3-bcad-9b23e24ef58f .
+
+camssa:0fe14daa-ba4b-4bf7-9fdf-fc1d3835f089 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The main objective of the Portable Document Format/A (PDF/A) is to allow text format and images to be independent and work for any software, hardware or operating system. So it can be said that PDF/A is independent of any specific technology or platform."@en ;
+    cav:refersTo camssa:f0a2ed77-b274-4810-bcb1-883c5ba9484a .
+
+camssa:101ae004-2408-4b4e-b257-96cb30412f4c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:dacac0a9-0512-4093-b3a2-3e2c873d278a .
+
+camssa:1022c0cc-1600-4983-8671-f9e85b7f4145 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "20+0"^^xsd:int .
+
+camssa:14799654-dfc7-45a6-b202-41852bd853ca a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:3e12ac00-9989-4af3-9239-c401c8d679e5 .
+
+camssa:1b3dd688-50d8-4333-9aa9-c51d27d555af a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PDF/A is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification. 
+
+PDF/A reference:
+https://www.iso.org/standard/38920.html
+https://www.iso.org/standard/50655.html"""@en ;
+    cav:refersTo camssa:2c39228d-2ab4-49e9-870c-d61ab19ba126 .
+
+camssa:1f56fe69-787a-4c95-ba10-4cfa4ca1e299 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:278caeee-f88a-43b6-97ba-ec10176bfc81 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "20"^^xsd:int .
+
+camssa:2c39228d-2ab4-49e9-870c-d61ab19ba126 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2d0e823a-618c-4e8d-85d0-eae20e2d27d4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:90f6dfc0-2413-438b-9d94-4a44b6938704 .
+
+camssa:30001d7e-e491-4e0b-9aa3-a7056d211626 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:32bae16f-3213-45e8-a1d1-870278c36814 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:34308996-c1f4-4498-867c-6fe48a03448f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As a document exchange format, PDF/A is a valuable tool for sharing information through the internet. Allowing sharing data and information the standard foster the visibility of administration data and services. Additionally, it eases the decision-making process within administrations. 
+
+PDF/A reference:
+https://www.iso.org/standard/38920.html
+https://www.iso.org/standard/50655.html"""@en ;
+    cav:refersTo camssa:f2c6f4b6-6035-4116-9d30-5c94da534bf8 .
+
+camssa:3592dcb2-34d0-48ed-b100-e19c0a396bda a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:38c86778-1ffe-430f-84dc-84a2ffd052a1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:fca42ff4-6cd5-4916-9622-95f699c4aad0 .
+
+camssa:3af1668e-45af-4e58-82a2-0e929a62c070 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:3b043c0b-105f-4da5-9d26-7c8105b717c8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3bf567ff-d426-43d3-b542-9a9b80c55be9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the PDF/A in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:32bae16f-3213-45e8-a1d1-870278c36814 .
+
+camssa:3e12ac00-9989-4af3-9239-c401c8d679e5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:40229c1f-0c1d-432a-b0a6-4acfc6dc282a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PDF/A is a business agnostic document format that can be reused in a cross-domain way.
+
+PDF/A is a business agnostic document format that can be reused in a cross-domain way."""@en ;
+    cav:refersTo camssa:1f56fe69-787a-4c95-ba10-4cfa4ca1e299 .
+
+camssa:41e49608-e698-4f30-b646-9a18426285a9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:44313602-57e0-4ccd-b5f4-c4e1bbda84cf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:956d8903-0405-442b-b0ed-66de823fdd46 .
+
+camssa:4658ba7c-624c-4df7-9003-c8ac35f8f5c5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although PDF/A supports the first level of maturity from the Tim Berners-Lee 5-star schema for the Open data, it is not supporting the main principles for the publication of data as Linked Open Data. 
+
+PDF/A reference:
+https://www.iso.org/standard/38920.html
+https://www.iso.org/standard/50655.html
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html
+
+None"""@en ;
+    cav:refersTo camssa:1022c0cc-1600-4983-8671-f9e85b7f4145 .
+
+camssa:4963267e-adf2-40a2-b375-4f39cd87acb3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:a1b09e2a-0dfa-431d-add4-6c5a68904600 .
+
+camssa:4a2471b5-8e6c-4336-a0f5-4b61912223b9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PDF/A has the ISO community that supports the development of: International standards, Technical Specifications, Technical Report and Publicly Available Specification.
+
+The ISO standardization process:
+http://www.isotc292online.org/projects/iso-process/"""@en ;
+    cav:refersTo camssa:83f4c4ac-9ad2-4f79-99ae-12bebf5a28e1 .
+
+camssa:4b4b985e-3d1c-4724-a335-b5b3729f1870 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4b7898bb-7a02-4a7a-aafc-c25f0c2a727d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:badaa24a-1f4c-4ed0-aed8-02f245102f95 .
+
+camssa:4d871bba-2a5a-434e-a30d-96663077a0e3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As defined on the TC standardisation, only TC members are involved in the development of ISO standards. A review is carried out to arrange the consensus firstly within the TC members and subsequently is reviewed by the different ISO member bodies. However, it cannot be considered a public review, because only TC members can participate.
+
+The ISO standardization process: 
+https://www.iso.org/stages-and-resources-for-standards-development.html"""@en ;
+    cav:refersTo camssa:278caeee-f88a-43b6-97ba-ec10176bfc81 .
+
+camssa:4f049c6d-a3d0-4fef-940a-c6a9ec563206 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5f2977d6-c81e-4e42-9889-2360971e94f8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:62344d01-4551-497e-a1d8-3dff347d640a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The standard provides security features that foster the trustworthy data exchange between administration and stakeholders. PDF/A protects in itself data integrity, but also provides capabilities to protect with passwords and user roles the access to the document. 
+
+PDF/A reference:
+https://www.iso.org/standard/38920.html
+https://www.iso.org/standard/50655.html"""@en ;
+    cav:refersTo camssa:e4fb415d-a767-4fb3-8da3-1efd83d349e2 .
+
+camssa:680dad8c-ffe5-4d27-b869-fb31130aebec a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "20+20"^^xsd:int .
+
+camssa:6b593999-e8bd-4eaa-b29b-7c186e3ee820 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6d8c9ff5-92f6-4b97-9420-86fa7f9a0704 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The main objective of the Portable Document Format/A (PDF/A) is to allow text format and images to be independent and work for any software, hardware or operating system. So it can be said that PDF/A is independent of any specific technology or platform."@en ;
+    cav:refersTo camssa:6e0e21aa-505b-4b19-ac12-0a215fad74d9 .
+
+camssa:6e0e21aa-505b-4b19-ac12-0a215fad74d9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:71c46266-a918-4f73-8577-d99ff783af88 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:a4df8d76-3a4e-4ec9-9492-6eecedabe9dc .
+
+camssa:78d217ba-ed92-4aec-a602-89fe7b37d3d6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PDF/A is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification.
+
+PDF/A reference:
+https://www.iso.org/standard/38920.html
+https://www.iso.org/standard/50655.html"""@en ;
+    cav:refersTo camssa:4b4b985e-3d1c-4724-a335-b5b3729f1870 .
+
+camssa:7ef6538a-5d9a-4d2d-97af-78cabbf345e7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:83f4c4ac-9ad2-4f79-99ae-12bebf5a28e1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:847960ef-bcca-4507-84fa-34cbff8a171f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The ISO specifications are published to be able to respond to a market need which represent a consensus of an expert group. In 2005 PDF/A was published which specifies how to use the Portable Document Format (PDF) 1.4 for long-term preservation of electronic documents. These facts demonstrate the maturity and market acceptance for its use in the development of products and services. 
+
+PDF/A reference:
+https://www.iso.org/standard/38920.html
+https://www.iso.org/standard/50655.html"""@en ;
+    cav:refersTo camssa:ba664e99-dd52-4530-b1cd-f74ac9092468 .
+
+camssa:875cf2c4-8ba0-4cd8-adcf-5b2b7e136d2f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As a document exchange format, PDF/A is a valuable tool for sharing information through the internet. Allowing sharing data and information the standard foster the comprehensibility of administration data and services. Additionally, it eases the decision-making process within administrations. 
+
+PDF/A reference:
+https://www.iso.org/standard/38920.html
+https://www.iso.org/standard/50655.html"""@en ;
+    cav:refersTo camssa:95417b6f-3c80-4d4f-bfea-e0484e714f25 .
+
+camssa:87a165c4-c1c8-4380-81f5-16cd22279777 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no disclosures of ISO IPR Database to identify the licensing under the specification. ISO 19005-1:2005 (PDF/A-1) and ISO 19005-2:2011 (PDF/A-2) are not listed in ISO/IEC/ITU Common Patent policy, so it cannot be confirmed that the specification is licensed on a (F)RAND basis.
+
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html 
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347 
+
+There are no disclosures of ISO IPR Database to identify the licensing under the specification. ISO 19005-1:2005 (PDF/A-1) and ISO 19005-2:2011 (PDF/A-2) are not listed in ISO/IEC/ITU Common Patent policy, so it cannot be confirmed that the specification is licensed on a (F)RAND basis.
+
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html 
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347 """@en ;
+    cav:refersTo camssa:680dad8c-ffe5-4d27-b869-fb31130aebec .
+
+camssa:88de97c3-2fb0-486d-8c9f-f4d380d4c190 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PDF/A is designed for this purpose. It is an Electronic document file format for long-term preservation of data.
+
+PDF/A reference:
+https://www.iso.org/standard/38920.html
+https://www.iso.org/standard/50655.html"""@en ;
+    cav:refersTo camssa:afcc5f4c-0040-43b5-abed-38da487c1b6d .
+
+camssa:8a867cc9-333d-47e5-8274-e392c290353b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ISO has defined a clear procedure to develop its standards. It consists in a 6-steps process where everyone who is interested can participate. However, if you want to participate, you have to contact your national standards body and you have to be approved for joining the Technical committee (TC) who will develop the standard. ISO has defined the roadmap of standards, it is composed of 6 steps as before said. For the approval of a standard the two-thirds majority of P-members of TC is needed. If the result is negative, the document is returned to TC/SC to be further studied.
+
+The ISO standardization process: 
+https://www.iso.org/stages-and-resources-for-standards-development.html"""@en ;
+    cav:refersTo camssa:5f2977d6-c81e-4e42-9889-2360971e94f8 .
+
+camssa:8b585585-781a-4bf8-a4b8-8e25c7d3dcbf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:8ee90dd5-c426-49be-a64f-b9d5f8093a47 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:3592dcb2-34d0-48ed-b100-e19c0a396bda .
+
+camssa:90f6dfc0-2413-438b-9d94-4a44b6938704 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:9259c419-fcda-46f9-94b3-f7e5493d1d21 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:94df42ab-cdef-4bdc-8a44-12b04ea88d43 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PDF/A is included in 3 national catalogues of recommended specifications. They belong to Estonia, Spain and Sweden. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. 
+
+National catalogue Estonia: 
+https://www.mkm.ee/sites/default/files/interoperability-framework_2011.doc
+
+National catalogue Spain:
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#CATALOGOESTANDARES
+
+National catalogue Sweden:
+https://www.avropa.se/globalassets/dokument/open-it-standards.pdf?_t_id=1B2M2Y8AsgTpgAmY7PhCfg%3d%3d&_t_q=standards&_t_tags=language%3asv%2csiteid%3a95d515a5-23ca-47bf-87a9-07b10d8ac360&_t_ip=178.139.72.144&_t_hit.id=Avropa_Core_Models_Media_GenericMedia/_ff07d720-f793-44b0-994d-27e79b28f6bd&_t_hit.pos=7
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:4f049c6d-a3d0-4fef-940a-c6a9ec563206 .
+
+camssa:95417b6f-3c80-4d4f-bfea-e0484e714f25 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:956d8903-0405-442b-b0ed-66de823fdd46 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:990510e7-6fb8-4383-80f9-c546e3f5e05f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:9aeb1fac-26ad-4b03-87be-2b8a2df16504 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The main objective of the Portable Document Format/A (PDF/A) is to allow text format and images to be independent and work for any software, hardware, or operating system while transferring. Additionally, PDF/A is widely used by administrations to share their information and data. Fostering the availability of data and information, it fosters the data portability using documents. Moreover, the PDF/A includes features that impact positively the preservation of the information contained in this format. It is an extended method to ensure the availability of digital information over time.
+
+The main objective of the Portable Document Format/A (PDF/A) is to allow text format and images to be independent and work for any software, hardware, or operating system while transferring. Additionally, PDF/A is widely used by administrations to share their information and data. Fostering the availability of data and information, it fosters the data portability using documents. Moreover, the PDF/A includes features that impact positively the preservation of the information contained in this format. It is an extended method to ensure the availability of digital information over time."""@en ;
+    cav:refersTo camssa:f20f4fdf-8b35-4b78-bcbc-75ab20f00ff0 .
+
+camssa:9d1dfb18-049c-4823-ae90-c6ddf8a5e0c2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PDF-Tools provides a conformance validation for PDF and its extensions, including PDF/A. There are for free and under payment. 
+
+PDF/A validators:
+https://www.pdf-online.com/osa/validate.aspx
+https://www.pdf-tools.com/pdf20/en/products/pdf-converter-validation/pdf-validator"""@en ;
+    cav:refersTo camssa:7ef6538a-5d9a-4d2d-97af-78cabbf345e7 .
+
+camssa:9dafcba3-10ad-44e3-bcad-9b23e24ef58f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a1b09e2a-0dfa-431d-add4-6c5a68904600 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:a4df8d76-3a4e-4ec9-9492-6eecedabe9dc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a530d696-2cc8-4b08-81cc-d894abc896d4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0442d8e1-fdad-498e-8b61-052361dbdb9e .
+
+camssa:a5642784-6b86-42a5-a69a-fa62be177331 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After searching in the different official European websites, there is no evidence of any cross-border project that use PDF/A nor explicit agreements involving the usage of the specification."@en ;
+    cav:refersTo camssa:d1651cfe-acdf-472f-908f-b186f26efe76 .
+
+camssa:a5d7d717-8761-46d1-b4cd-4cf97b75b770 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 5 Member States' catalogues of recommended specifications. These Member States are Estonia, Germany, Spain, Sweden and UK.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:30001d7e-e491-4e0b-9aa3-a7056d211626 .
+
+camssa:ab491dc7-eaef-491d-928e-ad873d77d158 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:afcc5f4c-0040-43b5-abed-38da487c1b6d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:ba664e99-dd52-4530-b1cd-f74ac9092468 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:badaa24a-1f4c-4ed0-aed8-02f245102f95 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:bd7cf89a-5feb-4cc0-8d49-d2871a268b59 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PDF/A is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification. 
+
+PDF/A reference:
+https://www.iso.org/standard/38920.html
+https://www.iso.org/standard/50655.html"""@en ;
+    cav:refersTo camssa:3b043c0b-105f-4da5-9d26-7c8105b717c8 .
+
+camssa:c0aa5709-bb75-44ee-a05d-37154a6644a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:c2bdaa56-eb58-4c33-bfc8-6d1bb4e4271f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+None"""@en ;
+    cav:refersTo camssa:c0aa5709-bb75-44ee-a05d-37154a6644a2 .
+
+camssa:d1651cfe-acdf-472f-908f-b186f26efe76 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "20"^^xsd:int .
+
+camssa:d3ca3bf2-b83a-47a5-a548-53121eef12ae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PDF/A is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+PDF/A reference:
+https://www.iso.org/standard/38920.html
+https://www.iso.org/standard/50655.html"""@en ;
+    cav:refersTo camssa:9259c419-fcda-46f9-94b3-f7e5493d1d21 .
+
+camssa:d5a9db88-7a42-4b70-bf2b-d850ca39ea30 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:d70415c8-08da-44d6-ae8a-a235bb214857 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:d80d22ad-f56d-4a67-bb9e-5870a4ed68fd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:dacac0a9-0512-4093-b3a2-3e2c873d278a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:dd7db673-cec5-4de0-8ed6-d1e16302ca31 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:d5a9db88-7a42-4b70-bf2b-d850ca39ea30 .
+
+camssa:dfffb9b7-4f5c-4b9c-8b9a-7363eb336a65 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:ab491dc7-eaef-491d-928e-ad873d77d158 .
+
+camssa:e4fb415d-a767-4fb3-8da3-1efd83d349e2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e5fe20bf-504b-4fb6-a394-345d6ec299f7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:eae65a09-bd2b-40c6-96e1-f67af6d4a11d .
+
+camssa:e6a22a80-26b4-4834-a0a2-bcff6023c0fa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PDF/A is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. 
+
+PDF/A reference:
+https://www.iso.org/standard/38920.html
+https://www.iso.org/standard/50655.html"""@en ;
+    cav:refersTo camssa:41e49608-e698-4f30-b646-9a18426285a9 .
+
+camssa:ea28e7ec-c840-4824-86b5-9a736b0067af a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of PDF/A within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:3af1668e-45af-4e58-82a2-0e929a62c070 .
+
+camssa:eae65a09-bd2b-40c6-96e1-f67af6d4a11d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:eae68ffa-259c-4b23-bab4-aba5192b0098 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of PDF/A is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+PDF/A reference:
+https://www.iso.org/standard/38920.html
+https://www.iso.org/standard/50655.html"""@en ;
+    cav:refersTo camssa:019529f9-20a4-459e-a685-7f5e4aa2994e .
+
+camssa:ec91b93e-8b5e-4fde-a368-22f56f647a05 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PDF/A is highly adopted as a document format for exchange information, which is technological independent. These facts demonstrate the maturity and market acceptance for its use in the development of products and services. 
+
+PDF/A reference:
+https://www.iso.org/standard/38920.html
+https://www.iso.org/standard/50655.html"""@en ;
+    cav:refersTo camssa:d80d22ad-f56d-4a67-bb9e-5870a4ed68fd .
+
+camssa:f0a2ed77-b274-4810-bcb1-883c5ba9484a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f20f4fdf-8b35-4b78-bcbc-75ab20f00ff0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:f2c6f4b6-6035-4116-9d30-5c94da534bf8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:fca42ff4-6cd5-4916-9622-95f699c4aad0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fcff0f6d-dc96-4a40-adae-32299e0a9e4d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """5 Member States are recommending PDF/A in their ICT National Catalogues. This Member States are Estonia, Germany, Spain, Sweden and UK.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:6b593999-e8bd-4eaa-b29b-7c186e3ee820 .
+

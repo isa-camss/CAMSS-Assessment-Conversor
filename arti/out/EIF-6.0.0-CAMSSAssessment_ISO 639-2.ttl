@@ -1,0 +1,754 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:68a26bea6b625a737557ee332b4b9002750eb0254afcf7bde675ebf55af697ff a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:ea1887cf6ceb4929fc4a5de8a2180ce8ce23f197de2b61a275d88cd46323fb6a ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:014a6c63-e7c9-4ef9-970a-fd9f5386701d,
+        camssa:03db109e-9350-4529-999c-999f9e576efd,
+        camssa:04ccd0bb-36f1-4f8d-85c7-00326da10bf4,
+        camssa:0919392d-cc07-4c9a-a7d9-f43c3c42871e,
+        camssa:09aacbad-c468-4098-960a-08bedc7578ce,
+        camssa:12600ffc-7a7c-4742-b39f-15bf03420c31,
+        camssa:164513fd-db75-41e8-910e-28f5fc4aa3c2,
+        camssa:239fca3f-ad30-41da-b6c6-5f7796592d56,
+        camssa:244aa33c-ff6a-462a-aa96-83c99af5734f,
+        camssa:2bf11f68-49c5-40b6-b228-3cb12d8f256a,
+        camssa:34b19090-2996-4495-95f6-80707898934e,
+        camssa:3711a8f6-9628-4ebd-8fb7-82a390d54069,
+        camssa:3d0dabef-0696-4f15-8d11-da69efd1f791,
+        camssa:4418d919-88da-46d4-8344-72252f10368f,
+        camssa:4f0d6b4a-b5bd-4bde-af47-88e4941c6220,
+        camssa:5038a97f-b9ec-4e3b-b750-a0e3fc8ee59a,
+        camssa:55caa77f-865f-49eb-815c-5d4f9c292999,
+        camssa:5b116639-c476-4feb-aed4-584c7b8a1d5a,
+        camssa:5c273304-1ee6-4e27-9ebd-f4cc46d5633d,
+        camssa:5d605053-e115-4c8c-ba4d-653a2464b5b7,
+        camssa:620b390f-b9eb-44e9-8f9a-7a3d78c94548,
+        camssa:65d30882-7a65-4412-bb9e-5d9452475ee2,
+        camssa:701dc1f0-f6a5-45a2-8935-42370e097a3d,
+        camssa:73de9ea3-72e4-4efa-a0b1-0cb304b98e23,
+        camssa:7b631fe2-132d-469c-bb67-df6451f09cec,
+        camssa:7cadfecd-81f1-42bb-9ce9-de9b27dfca2d,
+        camssa:81f0fec0-b34f-4362-9c44-be1bd69ebc9f,
+        camssa:83014825-33a8-4ee1-aa60-82def76778c6,
+        camssa:92299198-9eb7-47f8-acbe-6ee3e17c2561,
+        camssa:94aca20d-96ec-47e2-b498-90ae69c2d647,
+        camssa:9693108d-06dc-4ded-b665-797d9d924ecb,
+        camssa:9a45a95d-6946-44cd-821e-a303b067dd0f,
+        camssa:a34c8894-fa81-43fe-ab15-717a724d0456,
+        camssa:a4052707-b163-431b-861f-77516eff9b65,
+        camssa:b60e002f-e6db-4208-a6a1-d0bfed45dd7f,
+        camssa:bcc7a8ea-52e2-4763-8ba4-e71f8632bfad,
+        camssa:c2d254e2-88bc-4363-b2a2-6357dc91b02a,
+        camssa:c3c5264e-1c2d-465e-8138-799334b83e54,
+        camssa:c87cf78a-3548-475d-bb12-1b2bcd565a7d,
+        camssa:c9f8862e-125d-4854-b78c-73d8912f9aa1,
+        camssa:cc96b79e-16b2-4363-bc07-33b9cdee5da5,
+        camssa:d0bf513a-b1b1-4aa4-884b-e4afa53436f3,
+        camssa:e5484823-2759-4496-8fff-08c55400c535,
+        camssa:eef37fd1-9c6b-4df9-848b-ca50c8b3dd1b,
+        camssa:f2da016e-afde-41cc-a37f-168200a96614 ;
+    cav:status status:Complete ;
+    dct:title "Codes for the representation of names of languages-- Part 2: alpha-3 code (ISO 639-2)"@en .
+
+camssa:71b734d93eea13de404910eb634943e6bc28f69d27f2f63bcbdf62230a832bb3 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:2fd0c52c-6c0b-4f5a-b2f4-d61059fbec97 ;
+    skos:prefLabel "CAMSS Team European Commission DG DIGIT"@en .
+
+camssa:014a6c63-e7c9-4ef9-970a-fd9f5386701d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ISO 639-2 is not related to ensure the protection of personal data. Therefore, this criterion is not applicable to this specification.
+
+ISO 639-2 reference:
+https://www.iso.org/standard/4767.html
+
+ISO 639-2 FAQs:
+https://www.loc.gov/standards/iso639-2/faq.html#5'"""@en ;
+    cav:refersTo camssa:8f77ee35-3b0f-46b6-a310-81321e11cca1 .
+
+camssa:03db109e-9350-4529-999c-999f9e576efd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is intended to server as a code to identify a language name. Therefore, it is not designed to address nor prevent data long-term preservation.
+
+ISO 369-2 FAQs:
+https://www.loc.gov/standards/iso639-2/faq.html#7'"""@en ;
+    cav:refersTo camssa:904b115e-b43a-4d58-979b-186d9c4ef814 .
+
+camssa:04ccd0bb-36f1-4f8d-85c7-00326da10bf4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no evidence of any assessment regarding the effectiveness of this specification, nor any evaluation submitted by a European administration.
+
+Publications Office reference:
+https://op.europa.eu/en/home
+
+Language codelist reference:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/language'"""@en ;
+    cav:refersTo camssa:ace6fd80-348f-43b8-a6dc-de3696ab112e .
+
+camssa:0568be65-e4de-42a6-926b-e997510da231 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:09021c78-778c-4d29-b130-524e247e71e4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:0919392d-cc07-4c9a-a7d9-f43c3c42871e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ISO 369-2 is intended to server as a code to identify a language name. Although this collection can be mapped against this same collection to test the specification's implementation conformance, the specification does not publicly provide conformance testing requirements (see ISO 639 reference); the user may opt for their own techniques or for third-party software conformance services. 
+
+ISO 639-2 reference:
+https://www.loc.gov/standards/iso639-2/faq.html#13
+
+ISO 639 reference:
+https://www.iso.org/standard/4767.html\""""@en ;
+    cav:refersTo camssa:b2abbef7-5098-4560-87dd-628eefbd0f51 .
+
+camssa:09aacbad-c468-4098-960a-08bedc7578ce a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ISO 639-2 code suite was developed for its use by libraries, information services and publishers to indicate language in the exchange of information, especially in computerised systems. Indicating language in the exchange of information is becoming more necessary in the European cross-border context.
+
+ISO 369-2 FAQs:
+https://www.loc.gov/standards/iso639-2/faq.html#5'
+
+'The ISO 639-2 code suite was developed to be used by libraries, information services and publishers to indicate language in the exchange of information, especially in computerised systems. It can foster data portability in the context of a an interoperability solution (e.g., the ADMS from the ISA Programme).
+
+ISO 369-2 FAQs:
+https://www.loc.gov/standards/iso639-2/faq.html#5
+
+ADMS ISA Programme reference:
+https://joinup.ec.europa.eu/sites/default/files/document/2013-06/Case%20Study%20-%20%20How%20to%20describe%20semantic%20interoperability%20assets%20in%20an%20ADMS%20compliant%20way%20-%20v1.06.pdf'"""@en ;
+    cav:refersTo camssa:868ea6d1-65df-438a-9069-22ec36e1e8d7 .
+
+camssa:0f0d01c2-2608-4ec0-b786-9e9c604597bd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:12600ffc-7a7c-4742-b39f-15bf03420c31 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After carrying out a search, two projects involving the specification were found: the Data Dictionary (DD) system developed under the IDA/EINRC framework running at the European Environment Agency’s site, and eCertis under ISA².
+
+European Environment Agency reference:
+http://dd.eionet.europa.eu
+
+ISA² reference:
+https://ec.europa.eu/isa2/solutions/e-certis_en#:~:text=e-Certis%20is%20a%20free%20online%20tool%20mapping%20documents,%28e.g.%20tax%2C%20social%20security%20obligations%2C%20criminal%20records%2C%20etc.%29.'"""@en ;
+    cav:refersTo camssa:c5452e97-ea1e-4b07-b3d5-b94ec0c1c8b2 .
+
+camssa:164513fd-db75-41e8-910e-28f5fc4aa3c2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of ISO 639-2 within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:58f107d6-a7ec-4da9-a9bf-c1242fe1ffd8 .
+
+camssa:1aee71cf-1402-4e84-a391-c94572d29aa6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:239fca3f-ad30-41da-b6c6-5f7796592d56 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of ISO 639-2 as a European standard.
+
+ICT technical specifications: 
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en
+
+CENELEC and CEN search tool catalogue: 
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:29e42b77-7587-427c-8c30-41324596e88f .
+
+camssa:244aa33c-ff6a-462a-aa96-83c99af5734f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ISO 639-2 is not related to reduce administrative burden. The specification is intended to serve as a code to identify a language name. Therefore, this criterion is considered not applicable to this specification.
+
+ISO 369-2 FAQs:
+https://www.loc.gov/standards/iso639-2/faq.html#7'"""@en ;
+    cav:refersTo camssa:c6829b4d-2d1c-460e-9bb7-e644b85e4e5a .
+
+camssa:28a64237-f9fc-4ab4-bd82-ab6be4bd2ec9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "80"^^xsd:int .
+
+camssa:297862e5-3048-4543-8cb7-5fe1a14229c9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:29e42b77-7587-427c-8c30-41324596e88f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "20"^^xsd:int .
+
+camssa:2bf11f68-49c5-40b6-b228-3cb12d8f256a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 639-2 is intended to identify a language name. This specification relates to metadata, and can be used in any system that ingests metadata. Therefore, it can be considered technology-agnostic.
+
+ISO 369-2 FAQs:
+https://www.loc.gov/standards/iso639-2/faq.html#5
+
+https://www.loc.gov/standards/iso639-2/faq.html#7'"""@en ;
+    cav:refersTo camssa:0f0d01c2-2608-4ec0-b786-9e9c604597bd .
+
+camssa:2fd0c52c-6c0b-4f5a-b2f4-d61059fbec97 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@eu.europa.eu" .
+
+camssa:34b19090-2996-4495-95f6-80707898934e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 639-2 has been extensively used in the library industry and can also be used for any domain that requires the expression of language in codes. The EU Official Language codelist and the SCL-language classification provides the outline of standard code lists for languages in Europe. They draw on the ISO 639-2 alpha3 codes (among others) with a focus on European languages.
+
+ISO 369-2 FAQs:
+https://www.loc.gov/standards/iso639-2/faq.html#5
+
+Language codelist reference:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/language
+
+SCL-languages referece:
+https://joinup.ec.europa.eu/collection/eu-semantic-interoperability-catalogue/solution/scl-languages?f%5B0%5D=solution_content_bundle%3Aasset_distribution'
+
+'ISO 639-2 has been extensively used in the library industry and can also be used for any domain that requires the expression of language in codes. This specification has been implemented in other domains where a linguistic solution was needed, for example in e-procurement (eForms).
+
+ISO 369-2 FAQs:
+https://www.loc.gov/standards/iso639-2/faq.html#5
+
+eForms Language reference:
+https://docs.ted.europa.eu/eforms/0.5.0/codelists/index.html#_tailored_codelists'"""@en ;
+    cav:refersTo camssa:fbb3c95b-bdfd-404e-8e3f-3f84848f8555 .
+
+camssa:3711a8f6-9628-4ebd-8fb7-82a390d54069 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 639-2 was published in 1998. And this specification is reviewed every 5 years, last review was in 2021. 
+
+ISO 639-2 reference:
+https://www.iso.org/standard/4767.html
+
+The Library of Congress Network Development & MARC 21 reference, change and release management:
+https://www.loc.gov/marc/languages/languagechg.html'"""@en ;
+    cav:refersTo camssa:09021c78-778c-4d29-b130-524e247e71e4 .
+
+camssa:3d0dabef-0696-4f15-8d11-da69efd1f791 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0568be65-e4de-42a6-926b-e997510da231 .
+
+camssa:4418d919-88da-46d4-8344-72252f10368f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ISO 639-2 is not related to reduce administrative burden. The specification is intended to serve as a code to identify a language name. Therefore, this criterion is considered not applicable to this specification.
+
+ISO 369-2 FAQs:
+https://www.loc.gov/standards/iso639-2/faq.html#7'"""@en ;
+    cav:refersTo camssa:755c665b-6ce8-47b1-9e55-cdf6bc2640da .
+
+camssa:4641ecb2-c1e6-4690-a4fb-5dac59ddcc4f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "40"^^xsd:int .
+
+camssa:4f0d6b4a-b5bd-4bde-af47-88e4941c6220 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The specification is included in 1 Member State' catalogue of recommended specifications. This Member State is Spain.
+
+National catalogue Spain:
+https://administracionelectronica.gob.es/pae_Home/dam/jcr:9e2c2877-5103-4934-8440-c60ba2e10c48/Catalogue_of_Standards_NIF_Spain.pdf
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards\""""@en ;
+    cav:refersTo camssa:e22b799f-c4e5-4eb8-a84b-eeefa825d345 .
+
+camssa:4f2a6a22-9482-45a5-bf8f-b09eb0f15a87 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:5038a97f-b9ec-4e3b-b750-a0e3fc8ee59a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO has defined a clear procedure to develop its standards. It consists in a 6-steps process where everyone who is interested can participate. However, if you want to participate, you have to contact your national standards body and you have to be approved for joining the Technical committee (TC) who will develop the standard. ISO has defined the roadmap of standards, it is composed of 6 steps as before said. For the approval of a standard the two-thirds majority of P-members of TC is needed. If the result is negative, the document is returned to TC/SC to be further studied. 
+
+The ISO standardization process:
+https://www.iso.org/stages-and-resources-for-standards-development.html'"""@en ;
+    cav:refersTo camssa:4641ecb2-c1e6-4690-a4fb-5dac59ddcc4f .
+
+camssa:55caa77f-865f-49eb-815c-5d4f9c292999 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"In accordance with Common Patent Policy for ITU-T/ITU-R/ISO/IEC the ISO 639-2 is licensed under (F)RAND basis. Although there are terms included that allow patent holder to apply specific costs. It is defined in IPR disclosures that can be found at ISO's webpage. 
+
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347"
+
+"In accordance with Common Patent Policy for ITU-T/ITU-R/ISO/IEC the ISO 639-2 is licensed under royalty-free basis. Although there are terms included that allow patent holder to apply specific costs. It is defined in IPR disclosures that can be found at ISO's webpage. 
+
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347\""""@en ;
+    cav:refersTo camssa:4f2a6a22-9482-45a5-bf8f-b09eb0f15a87 .
+
+camssa:5646418d-032a-42e4-887f-f3b666e4cb27 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "20"^^xsd:int .
+
+camssa:565417aa-4b09-4862-b15d-3b0e585f97ec a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100"^^xsd:int .
+
+camssa:570b2c85-12d5-4f46-b97f-49f9121fe7db a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:58f107d6-a7ec-4da9-a9bf-c1242fe1ffd8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:5b116639-c476-4feb-aed4-584c7b8a1d5a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:b94b97bf-68fe-4f89-b56d-a1ac99507656 .
+
+camssa:5b7d7af0-8168-42ac-9402-f1073f222ebb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "20"^^xsd:int .
+
+camssa:5c273304-1ee6-4e27-9ebd-f4cc46d5633d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:bd9fac84-0168-49ce-b597-d938d7393cfe .
+
+camssa:5d605053-e115-4c8c-ba4d-653a2464b5b7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 639-2 is intended to identify a language name. This specification relates to metadata, and can be used in any system that ingests metadata. Therefore, it can be considered platform-agnostic.
+
+ISO 369-2 FAQs:
+https://www.loc.gov/standards/iso639-2/faq.html#5
+
+https://www.loc.gov/standards/iso639-2/faq.html#7'"""@en ;
+    cav:refersTo camssa:bf8039ae-bf96-425b-b3fa-ea1b47c1d499 .
+
+camssa:620b390f-b9eb-44e9-8f9a-7a3d78c94548 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ISO 639-2 code suite was developed to be used by libraries, information services and publishers to indicate language in the exchange of information, especially in computerised systems. Therefore, the specification prompts visibility of administrations by allowing, for instance, the publication of data or the display of web content in the language of the user. For example, the European Commission website (http://ec.europa.eu) can be switched into one of the official languages of the EU. 
+
+ISO 369-2 FAQs:
+https://www.loc.gov/standards/iso639-2/faq.html#5
+
+Language codelist reference:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/language
+
+European Commission reference:
+https://ec.europa.eu/'"""@en ;
+    cav:refersTo camssa:c0c497d3-398e-4672-8e76-430719fbaf9c .
+
+camssa:65d30882-7a65-4412-bb9e-5d9452475ee2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:570b2c85-12d5-4f46-b97f-49f9121fe7db .
+
+camssa:65fff6e7-e9b7-4a2c-b362-64dc106f8de7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:68e2175e-e079-4645-95e4-b811e78ba86f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "20+20"^^xsd:int .
+
+camssa:701dc1f0-f6a5-45a2-8935-42370e097a3d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:c4e8305c-f38b-4f06-aaf9-fdac5688a08a .
+
+camssa:73de9ea3-72e4-4efa-a0b1-0cb304b98e23 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'For the ISO 639-2 maintenance, there is the Library of Congress Registration Authority (ISO 639-2/RA). This community supports the development of this specification and attends language code change requests.
+
+ISO 639-2/RA reference:
+https://www.loc.gov/standards/iso639-2/'"""@en ;
+    cav:refersTo camssa:65fff6e7-e9b7-4a2c-b362-64dc106f8de7 .
+
+camssa:750a3c10-7016-47ec-9de0-9ebc5e7fc95f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:755c665b-6ce8-47b1-9e55-cdf6bc2640da a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:7765ed73-0b8e-46ca-8e78-27bb8ab2c788 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7b631fe2-132d-469c-bb67-df6451f09cec a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ISO 639-2 is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification.
+
+ISO 369-2 FAQs: 
+https://www.loc.gov/standards/iso639-2/faq.html#5'"""@en ;
+    cav:refersTo camssa:1aee71cf-1402-4e84-a391-c94572d29aa6 .
+
+camssa:7cadfecd-81f1-42bb-9ce9-de9b27dfca2d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 639-2 has been adopted by different specifications and used in different contexts. According to the Summer Institute of Linguistics (SIL), regristration authority in charge of the ISO 639-3, ISO 639-3 and ISO 639-2 are complementary and compatible, although having been conceived for different purposes. Moreover, the IETF BCP 47 language tags (generally used when working with HTML and XML) has included all ISO 639 codes in their code suite, indicating market acceptance.
+
+ISO 639-2 Registration Authority reference:
+https://www.loc.gov/standards/iso639-2/develop.html
+
+SIL reference:
+https://iso639-3.sil.org/about/relationships
+
+IETF BCP 47 langage tags reference:
+https://tools.ietf.org/search/bcp47'"""@en ;
+    cav:refersTo camssa:8a4bf43d-f3dd-4842-9f39-b14630362260 .
+
+camssa:81f0fec0-b34f-4362-9c44-be1bd69ebc9f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is intended to serve as a device to identify a language name. In addition, there might exist other specifications designed to support multilingualism (e.g., the DCAT Application profile for data portals in Europe, DCAT-AP).
+
+ISO 369-2 FAQs:
+https://www.loc.gov/standards/iso639-2/faq.html#7'"""@en ;
+    cav:refersTo camssa:7765ed73-0b8e-46ca-8e78-27bb8ab2c788 .
+
+camssa:83014825-33a8-4ee1-aa60-82def76778c6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The purpose of ISO 639-2 is not related to the exposure of interfaces to access public administrations' services. Therefore, this criterion is not applicable to this specification.
+
+ISO 639-2 reference:
+https://www.iso.org/standard/4767.html\""""@en ;
+    cav:refersTo camssa:c407fc8a-688c-4f32-9f89-9bbe0da0da5f .
+
+camssa:868ea6d1-65df-438a-9069-22ec36e1e8d7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+80"^^xsd:int .
+
+camssa:8a4bf43d-f3dd-4842-9f39-b14630362260 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8f77ee35-3b0f-46b6-a310-81321e11cca1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:904b115e-b43a-4d58-979b-186d9c4ef814 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "40"^^xsd:int .
+
+camssa:92299198-9eb7-47f8-acbe-6ee3e17c2561 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The three-letter codes of ISO 639-2 and ISO 639-3 are complementary and compatible. Even if the two codes are designed for different purposes, ISO 639-2 can be considered as an extension of ISO 639-3.
+
+ISO 639-3 reference:
+https://iso639-3.sil.org/about/relationships'"""@en ;
+    cav:refersTo camssa:b140534f-fda7-491b-9466-27f441b92451 .
+
+camssa:94aca20d-96ec-47e2-b498-90ae69c2d647 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no evidence of any assessment regarding the efficiency of this specification, nor any evaluation submitted by a European administration.
+
+Publications Office reference:
+https://op.europa.eu/en/home
+
+Language codelist reference:
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/language'"""@en ;
+    cav:refersTo camssa:750a3c10-7016-47ec-9de0-9ebc5e7fc95f .
+
+camssa:9578f4b5-5099-452f-b240-ec4b77efb572 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9693108d-06dc-4ded-b665-797d9d924ecb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Participation in ISO technical committee work is possible, depending on the membership category of the participant. Public reviews are not foreseen, provided that the Public Administration was a subscriber member.
+
+ISO membership manual, 'ISO member rights, good practice and obligations' section:
+https://www.iso.org/publication/PUB100399.html\""""@en ;
+    cav:refersTo camssa:5646418d-032a-42e4-887f-f3b666e4cb27 .
+
+camssa:9a45a95d-6946-44cd-821e-a303b067dd0f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """nan
+
+'The purpose of ISO 639-2 is not related to the publication of public data as open data. Therefore, this criterion is not applicable to this specification.
+
+ISO 639-2 reference:
+https://www.iso.org/standard/4767.html
+
+Tim Berners-Lee 5-star schema for Open Data:
+https://5stardata.info/en/'"""@en ;
+    cav:refersTo camssa:565417aa-4b09-4862-b15d-3b0e585f97ec .
+
+camssa:a157f89f-ff0e-4bec-a3d9-48b020f6a0aa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:a34c8894-fa81-43fe-ab15-717a724d0456 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 639-2 is included in 3 national catalogues of recommended specifications. They belong to Ireland, Norway and Spain. The National Interoperability Framework (NIF) of these Member States varies when aligned with the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.For both Norway and Spain, interoperability has a high performance in all the interoperability layers. In the case of Ireland, there is a need of improvement in Interopearability Governance, the Legal and Organisational layers. 
+
+National catalogue Ireland:
+https://data.gov.ie/pages/opendatatechnicalframework#recommended-standards-for-open-data
+
+National catalogue Norway:
+https://www.digdir.no/samhandling/verktoy-og-ressurser-digitalisering/2150
+
+National catalogue Spain:
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#CATALOGOESTANDARES'"""@en ;
+    cav:refersTo camssa:ef4e6bd8-0b7a-42ec-9777-764716d63856 .
+
+camssa:a4052707-b163-431b-861f-77516eff9b65 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ISO 639-2 is not related to the secure processing of data. Therefore, this criterion is not applicable to this specification.
+
+ISO 639-2 reference:
+https://www.iso.org/standard/4767.html'"""@en ;
+    cav:refersTo camssa:ab734f23-1865-4162-9dfe-8addb9bec003 .
+
+camssa:ab734f23-1865-4162-9dfe-8addb9bec003 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:ace6fd80-348f-43b8-a6dc-de3696ab112e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:b140534f-fda7-491b-9466-27f441b92451 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:b2abbef7-5098-4560-87dd-628eefbd0f51 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "60"^^xsd:int .
+
+camssa:b60e002f-e6db-4208-a6a1-d0bfed45dd7f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 639-2 is already associated with EIRA ABBs in the EIRA Library Of Interoperability Specifications (ELIS). More specifically, ISO 639-2 can define the interoperability aspects of the Data Set ABB of the EIRA Semantic View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:a157f89f-ff0e-4bec-a3d9-48b020f6a0aa .
+
+camssa:b94b97bf-68fe-4f89-b56d-a1ac99507656 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bcc7a8ea-52e2-4763-8ba4-e71f8632bfad a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:dcb658fe-51ca-4bf8-a843-9ff2ec977578 .
+
+camssa:bd9fac84-0168-49ce-b597-d938d7393cfe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:bf8039ae-bf96-425b-b3fa-ea1b47c1d499 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:c0c497d3-398e-4672-8e76-430719fbaf9c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "80"^^xsd:int .
+
+camssa:c2d254e2-88bc-4363-b2a2-6357dc91b02a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ISO 639-2 is not related to security and privacy of the data exchange. Therefore, this criterion is not applicable to this specification.
+
+ISO 639-2 reference:
+https://www.iso.org/standard/4767.html'"""@en ;
+    cav:refersTo camssa:297862e5-3048-4543-8cb7-5fe1a14229c9 .
+
+camssa:c3c5264e-1c2d-465e-8138-799334b83e54 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The Library of Congress is de facto national library of the United States, and altogether with the ISO ensures the maintenance of this specification. However, ISO 639-2 does not encourage the creation of communities nor promotes the sharing of data and results in any national platform.
+
+The Library of Congress reference: 
+https://www.loc.gov/standards/iso639-2/'
+
+'ISO 639-2 does not encourage the creation of communities nor promotes the sharing of data and results in any European platform.
+
+The Library of Congress reference: 
+https://www.loc.gov/standards/iso639-2/'"""@en ;
+    cav:refersTo camssa:68e2175e-e079-4645-95e4-b811e78ba86f .
+
+camssa:c407fc8a-688c-4f32-9f89-9bbe0da0da5f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:c4e8305c-f38b-4f06-aaf9-fdac5688a08a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:c5452e97-ea1e-4b07-b3d5-b94ec0c1c8b2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c6829b4d-2d1c-460e-9bb7-e644b85e4e5a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c87cf78a-3548-475d-bb12-1b2bcd565a7d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are 3 Member States recommending ISO 639-2 in their ICT National Catalogues. These Member States are Ireland, Norway and Spain.
+
+National catalogue Ireland:
+https://data.gov.ie/pages/opendatatechnicalframework#recommended-standards-for-open-data
+
+National catalogue Norway, forth drop-down tap:
+https://www.digdir.no/digitale-felleslosninger/nettlesarbaserte-tenester/1491
+
+National catalogue Spain:
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#CATALOGOESTANDARES'"""@en ;
+    cav:refersTo camssa:9578f4b5-5099-452f-b240-ec4b77efb572 .
+
+camssa:c9f8862e-125d-4854-b78c-73d8912f9aa1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 639-2 is intended to serve as a device to identify a language name. Users might mix different ISO 639 collections or create tailored code suites from this specification depending on their needs, but there does not exist any partial implementation as such.
+
+ISO 369-2 FAQs:
+https://www.loc.gov/standards/iso639-2/faq.html#7
+
+SIL reference:
+https://iso639-3.sil.org/about/relationships'"""@en ;
+    cav:refersTo camssa:5b7d7af0-8168-42ac-9402-f1073f222ebb .
+
+camssa:cc96b79e-16b2-4363-bc07-33b9cdee5da5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ISO 639-2 is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification.
+
+ISO 369-2 FAQs:
+https://www.loc.gov/standards/iso639-2/faq.html#5'"""@en ;
+    cav:refersTo camssa:dd202a3e-aa0c-4acb-ba90-9fdd4af7c5ed .
+
+camssa:d0bf513a-b1b1-4aa4-884b-e4afa53436f3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ISO 639-2, and specifically ISO 639, enables to ensuring the display of web content, and therefore addresses e-accessibility. For example, the HTML 'lang' attribute declares the language of a website or a part of it.
+
+ISO 369-2 FAQs:
+https://www.loc.gov/standards/iso639-2\""""@en ;
+    cav:refersTo camssa:28a64237-f9fc-4ab4-bd82-ab6be4bd2ec9 .
+
+camssa:d127b60e-c05a-4849-a4e5-a59d825213fa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "60"^^xsd:int .
+
+camssa:d933d519-1c09-48df-b160-125d51332faa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "20"^^xsd:int .
+
+camssa:dcb658fe-51ca-4bf8-a843-9ff2ec977578 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:dd202a3e-aa0c-4acb-ba90-9fdd4af7c5ed a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e22b799f-c4e5-4eb8-a84b-eeefa825d345 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:e5484823-2759-4496-8fff-08c55400c535 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 639-2 helps easing the creation and formalisation of Interoperability agreements. E.g., the Interinstitutional Style Guide (*).
+
+Interinstitutional Style Guide reference:
+https://publications.europa.eu/code/en/en-370200.htm#an1-cand
+
+(*) Note that the site refers to ISO 639-1, but actually links to the ISO 639-2 home page.'"""@en ;
+    cav:refersTo camssa:f93e43f9-2849-46c5-9e0c-1bf04632a6de .
+
+camssa:eef37fd1-9c6b-4df9-848b-ca50c8b3dd1b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 639-2 cannot be changed, and therefore does not allow customisation.
+
+ISO 639-2 reference:
+https://www.loc.gov/standards/iso639-2/'"""@en ;
+    cav:refersTo camssa:d933d519-1c09-48df-b160-125d51332faa .
+
+camssa:ef4e6bd8-0b7a-42ec-9777-764716d63856 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f2da016e-afde-41cc-a37f-168200a96614 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ISO 639-2 code suite was developed to be used by libraries, information services and publishers to indicate language in the exchange of information, especially in computerised systems. The specification may contribute to the promotion of administration services by easing the automatic translation of the website content from one official European language to another (by using a the EU Official Language codelist) when using a European public service interface or solution, such as eForms. 
+
+ISO 369-2 FAQs:
+https://www.loc.gov/standards/iso639-2/faq.html#5
+
+eForms reference:
+https://docs.ted.europa.eu/eforms/0.5.0/translations/index.html
+
+eForms Language reference:
+https://docs.ted.europa.eu/eforms/0.5.0/codelists/index.html#_tailored_codelists'"""@en ;
+    cav:refersTo camssa:d127b60e-c05a-4849-a4e5-a59d825213fa .
+
+camssa:f93e43f9-2849-46c5-9e0c-1bf04632a6de a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "60"^^xsd:int .
+
+camssa:fbb3c95b-bdfd-404e-8e3f-3f84848f8555 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "80+80"^^xsd:int .
+

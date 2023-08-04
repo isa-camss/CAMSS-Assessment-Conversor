@@ -1,0 +1,594 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:48f863818ca5fd20498b632af26f27d514d2f942d28515def2ba2ba265188161 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:9507d4ac72d66333e672b706dec4d4c278150753852ba3bb607554dc9bfb64f9 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:022001c6-bd8d-4522-9f13-09b4d2533d56,
+        camssa:107ee829-7f2a-4f1a-b082-e78396619dc0,
+        camssa:1fc44fc1-2ac9-4bf8-9cf2-bd77cf93d9b9,
+        camssa:236845b7-d5ed-45c8-8d85-c5c8aab6d89c,
+        camssa:277dfacf-2662-4f50-8e74-ef7de84eb0b7,
+        camssa:356213fa-f73d-4092-8959-02f53ebf05bc,
+        camssa:37dc7718-8848-4630-9653-70f52000d271,
+        camssa:38aab242-0a16-4d80-bf04-8c842526ddf3,
+        camssa:40b70ccc-60b6-45a0-8c2f-80444f779963,
+        camssa:498ad515-b3e6-4f43-97d6-7a3b725a5d75,
+        camssa:52790cc5-3f4c-4e10-8fc0-184609c35462,
+        camssa:58c4990b-e8cd-480f-b784-28484dca44cf,
+        camssa:5bd59683-40fc-4c34-a16e-c6a01fd70b5c,
+        camssa:68c150aa-c134-43ea-b111-1fec0d6bf239,
+        camssa:69255847-4833-4c51-b9ee-07a7d92c7d0a,
+        camssa:78848195-c744-4eb6-97c2-6032b9a7fd27,
+        camssa:868ba978-f33d-46d8-b89e-6b87f45497c6,
+        camssa:95d6354a-bbde-4388-8405-0bc33e943218,
+        camssa:9b93b749-3639-4de5-b54e-7a7004a7b42a,
+        camssa:9cd46b86-4eb4-43a5-bf0a-fd46dd1920b7,
+        camssa:a8693517-b042-4627-9f15-16189cb4bd06,
+        camssa:a8b39b7c-68df-4cdf-9085-304de9a5c9c7,
+        camssa:a96f9c21-1c09-49d8-b5e8-f4734767defc,
+        camssa:b322c080-118b-461c-a0b5-c08c50fa4fa0,
+        camssa:baa91293-ec58-4584-96ef-a1291c97962a,
+        camssa:bbefc9fb-2645-43bd-8de0-5d5fefb8b3de,
+        camssa:bcc8675f-8f46-4ed6-8497-5a86721dd419,
+        camssa:ca0cdf16-e004-43bf-bb40-248a9a314e1f,
+        camssa:ca30e04e-2091-4793-8961-3b64ca165db8,
+        camssa:ca31e124-b3c3-4587-962e-0022d2ae2d0d,
+        camssa:d02ea3b0-3a76-46c1-afec-b29e26681bf6,
+        camssa:d1f94c59-8b9f-4c3a-87b9-f2d69d4e7cc8,
+        camssa:d1ff0732-4dc6-4607-b394-3c02fde73953,
+        camssa:d269f512-5df1-4526-838d-b44e9007dd55,
+        camssa:d70df553-9827-47e9-ad71-81451334027b,
+        camssa:d80a07f1-aef9-4bfa-9423-17d8b974dd24,
+        camssa:dcde6338-d4b5-412d-91ea-d35b311f0d9b,
+        camssa:df489bfc-b418-48d0-aafd-82fe8641d617,
+        camssa:df665b46-ef36-4ad0-a78f-82461708e72d,
+        camssa:e64485f4-fc0d-4b33-b5f9-ef521a864a08,
+        camssa:ea1a9fef-fffa-4dc3-bb16-fbd2dc98770e,
+        camssa:f1c1f0e7-9251-4862-9966-88fad0e8c81f,
+        camssa:f6791883-1de3-4d88-811c-29ffbe285e99,
+        camssa:f9be9349-722c-487d-9e78-11c26f6bfd8e,
+        camssa:f9f00ea2-9fa9-4df3-bf3e-6c675aa4a1ec ;
+    cav:status status:Complete ;
+    dct:title "Transport Layer Security (TLS)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:f1c97bc5-e353-4e9e-bf66-01f3b4778b2c ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:022001c6-bd8d-4522-9f13-09b4d2533d56 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF is a consensus-based group, and authority to act on behalf of the community requires a high degree of consensus and the continued consent of the community. The process of creating and Internet Standard is straightforward: a specification undergoes a period of development and several iterations of review by the Internet community and revision based upon experience, is adopted as a Standard by the appropriate body... and is published. In practice, the process is more complicated, due to (1) the difficulty of creating specifications of high technical quality; (2) the need to consider the interests of all of the affected parties; (3) the importance of establishing widespread community consensus; and (4) the difficulty of evaluating the utility of a particular specification for the Internet community. The goals of the Internet Standards Process are:
+- Technical excellence;
+- prior implementation and testing;
+- clear, concise, and easily understood documentation;
+- openness and fairness; and 
+- timeliness.
+The goal of technical competence, the requirement for prior implementation and testing, and the need to allow all interested parties to comment all require significant time and effort. The Internet Standards Process is intended to balance these conflicting goals. The process is believed to be as short and simple as possible without sacrificing technical excellence, thorough testing before adoption of a standard, or openness and fairness.
+
+See:
+https://tools.ietf.org/id/draft-gutmann-tls-lts-10.html"""@en ;
+    cav:refersTo camssa:b9ddfa48-97d9-4573-9989-2f1ff12dfa81 .
+
+camssa:07a2870e-e33d-4e19-8337-b5c37477219b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0dee47cc-9057-44e4-97bb-d2a79983ff24 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0f06c4e9-7cd5-4089-86d2-e5ac19be70a0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1029e14c-5ac7-4ada-8b9e-4c202cf192c0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:107ee829-7f2a-4f1a-b082-e78396619dc0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are several studies assessing the strengths, weaknesses, effectiveness, and efficiency of TLS which include several references to the version that is being assessed. Moreover, the studies compare the performance form the different versions laying emphasis on strengths and weaknesses. 
+See: 
+http://www-brs.ub.ruhr-uni-bochum.de/netahtml/HSS/Diss/MeyerChristopher/diss.pdf
+https://arxiv.org/pdf/1902.02531.pdf"""@en ;
+    cav:refersTo camssa:d466c703-117a-45d0-830e-cb6d72b7fadd .
+
+camssa:1796a64b-a388-4bc5-a1b8-21db1af0b6a0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:1fc44fc1-2ac9-4bf8-9cf2-bd77cf93d9b9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """No tools assessing the conformity of implementations with the specification have been found coming from the IETF. However, there are existing tools available on open source to check the conformity and performance of TLS including version being assessed TLS 1.2. 
+
+See: 
+https://github.com/drwetter/testssl.sh"""@en ;
+    cav:refersTo camssa:80a0ecf5-704e-4423-804c-d14d8d620562 .
+
+camssa:236845b7-d5ed-45c8-8d85-c5c8aab6d89c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TLS 1.2 is developed and maintained by IETF, a widely recognised open international community developing standards to enhance the internet. 
+See: 
+https://www.ietf.org/
+https://tools.ietf.org/html/rfc5246"""@en ;
+    cav:refersTo camssa:78a1e761-c21a-4fd7-97be-78e9a28a3c53 .
+
+camssa:277dfacf-2662-4f50-8e74-ef7de84eb0b7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of TLS 1.2 is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:a22d9744-867d-466c-8ef0-8f3a7479c6b5 .
+
+camssa:356213fa-f73d-4092-8959-02f53ebf05bc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of TLS 1.2 is to provide communication security regarding privacy and data integrity. It can be concluded that TLS 1.2 collaborates in a way to proper data portability. 
+
+The purpose of TLS 1.2 is to provide communication security regarding privacy and data integrity. It can be concluded that TLS 1.2 collaborates in a way to proper data portability. """@en ;
+    cav:refersTo camssa:8c96a3de-444a-46ed-9d20-1228f9aef5e1 .
+
+camssa:36c40887-c33d-479d-b5eb-90d693b49853 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:37dc7718-8848-4630-9653-70f52000d271 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TLS 1.2 has been widely adopted by public administrations in order to secure the communications over Internet. 
+An example of its use in a cross-border project is the Union Registry from the European Commission "Climate Action, Energy for a changing World". The initiative restricted its use to a web browsers supporting TLS 1.2. 
+See: 
+https://unionregistry.ec.europa.eu/euregistry/EU/index.xhtml"""@en ;
+    cav:refersTo camssa:742e6810-3673-4549-909b-85c710d5c47b .
+
+camssa:38aab242-0a16-4d80-bf04-8c842526ddf3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of TLS 1.2 is not related to long term preservation of electronic records. Therefore this criterion is considered not applicable to this specification"@en ;
+    cav:refersTo camssa:3da873e7-1544-4cbc-a4a1-56be809de1cc .
+
+camssa:3c29d17b-9352-4209-a140-1b3b8fabf26f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3da873e7-1544-4cbc-a4a1-56be809de1cc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:3f6ba52e-79ca-4a11-bfd5-807c88d1dc64 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:40b70ccc-60b6-45a0-8c2f-80444f779963 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:482605b1-f914-4bd7-a0ff-a329205efdad .
+
+camssa:482605b1-f914-4bd7-a0ff-a329205efdad a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:498ad515-b3e6-4f43-97d6-7a3b725a5d75 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems.
+
+After being evaluated compliant with the regulation on standardisation 1025/2012, TLS 1.2 has been identified by Commission Implementing Decision and included in the European list of ICT Standards for e-procurement.
+
+See: 
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
+    cav:refersTo camssa:676741fa-ba93-499d-b1e7-e0ba273755be .
+
+camssa:51448142-399c-4ee4-b503-60bc23d96272 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:52790cc5-3f4c-4e10-8fc0-184609c35462 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:68aa8628-506e-46cf-9e13-bffe4be36920 .
+
+camssa:58c4990b-e8cd-480f-b784-28484dca44cf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+None"""@en ;
+    cav:refersTo camssa:bd5a8e71-ff7f-425c-8286-ebb1fa4ba97d .
+
+camssa:5bd59683-40fc-4c34-a16e-c6a01fd70b5c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9b407e9e-3117-49a3-acdb-650b9dbd99c8 .
+
+camssa:5d29f167-734c-4c7a-9771-81274c27ff98 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:62f98004-8e25-4249-99f9-8689ad429980 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:676741fa-ba93-499d-b1e7-e0ba273755be a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:68aa8628-506e-46cf-9e13-bffe4be36920 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:68c150aa-c134-43ea-b111-1fec0d6bf239 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By securing the communication through computer networks it allows the data exchange and information reuse between public administrations."@en ;
+    cav:refersTo camssa:3c29d17b-9352-4209-a140-1b3b8fabf26f .
+
+camssa:69255847-4833-4c51-b9ee-07a7d92c7d0a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:83dbda82-221f-4aa0-99d4-074bb74f1005 .
+
+camssa:6e5b22e7-0570-47c1-b1e4-c26e946fcdc4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:742e6810-3673-4549-909b-85c710d5c47b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:78848195-c744-4eb6-97c2-6032b9a7fd27 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are several studies assessing the strengths, weaknesses, effectiveness, and efficiency of TLS which include several references to the version that is being assessed. Moreover, the studies compare the performance form the different versions laying emphasis on strengths and weaknesses. 
+See: 
+http://www-brs.ub.ruhr-uni-bochum.de/netahtml/HSS/Diss/MeyerChristopher/diss.pdf
+https://arxiv.org/pdf/1902.02531.pdf"""@en ;
+    cav:refersTo camssa:07a2870e-e33d-4e19-8337-b5c37477219b .
+
+camssa:78a1e761-c21a-4fd7-97be-78e9a28a3c53 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7f5fe557-ee88-4443-afd1-e07f4c39931c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7fa4ac2c-a326-48c2-ad23-c2f9b48b6e20 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:80a0ecf5-704e-4423-804c-d14d8d620562 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:82253193-0c02-42c9-bf07-afec52cbd4df a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:83dbda82-221f-4aa0-99d4-074bb74f1005 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:868ba978-f33d-46d8-b89e-6b87f45497c6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """7 Member States are recommending TLS 1.2 in their ICT Catalogues. 
+
+See CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:62f98004-8e25-4249-99f9-8689ad429980 .
+
+camssa:8c96a3de-444a-46ed-9d20-1228f9aef5e1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:95d6354a-bbde-4388-8405-0bc33e943218 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:c611823b-cc25-4d15-9290-2b650ba65f94 .
+
+camssa:9b407e9e-3117-49a3-acdb-650b9dbd99c8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9b93b749-3639-4de5-b54e-7a7004a7b42a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of TLS 1.2 is not related to fostering visibility and comprehensibility of administrative rules, processes, data, services and decision-making of a public administration. . Therefore this criterion is considered not applicable specification."@en ;
+    cav:refersTo camssa:0dee47cc-9057-44e4-97bb-d2a79983ff24 .
+
+camssa:9cd46b86-4eb4-43a5-bf0a-fd46dd1920b7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:bae71ccf-8b85-4607-affc-3687d2e74e33 .
+
+camssa:9ec4449b-2ad2-4c5c-979f-8d57590c7cff a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "0+100"^^xsd:int .
+
+camssa:a08205a9-5d42-43e4-bd23-e7c53343321a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:a22d9744-867d-466c-8ef0-8f3a7479c6b5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a8693517-b042-4627-9f15-16189cb4bd06 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:82253193-0c02-42c9-bf07-afec52cbd4df .
+
+camssa:a8b39b7c-68df-4cdf-9085-304de9a5c9c7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6e5b22e7-0570-47c1-b1e4-c26e946fcdc4 .
+
+camssa:a96f9c21-1c09-49d8-b5e8-f4734767defc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a formal review and approval so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
+
+Each distinct version of an Internet standards-related specification is published as part of the "Request for Comments" (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications.
+
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's "Internet-Drafts" directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.
+
+See:
+https://tools.ietf.org/id/draft-gutmann-tls-lts-10.html"""@en ;
+    cav:refersTo camssa:1796a64b-a388-4bc5-a1b8-21db1af0b6a0 .
+
+camssa:b02bc2bf-201e-42ce-b947-e06e852b8342 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "20"^^xsd:int .
+
+camssa:b322c080-118b-461c-a0b5-c08c50fa4fa0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+The purpose of TLS 1.2 is not related to the fostering of publications of data as Linked Open Data. Therefore this criterion is considered not applicable to this specification."""@en ;
+    cav:refersTo camssa:9ec4449b-2ad2-4c5c-979f-8d57590c7cff .
+
+camssa:b9ddfa48-97d9-4573-9989-2f1ff12dfa81 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:baa91293-ec58-4584-96ef-a1291c97962a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, TLS 1.2 is  a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. TLS 1.2 is therefore licensed on a royalty-free basis.
+
+See:
+https://tools.ietf.org/html/rfc3668
+
+Like all the IETF standards, TLS 1.2 is  a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. FTP is licensed on a F(RAND) basis.
+
+See:
+https://tools.ietf.org/id/draft-gutmann-tls-lts-10.html"""@en ;
+    cav:refersTo camssa:eb8fc45d-89b3-4aa9-961f-e21cbf926b18 .
+
+camssa:bae71ccf-8b85-4607-affc-3687d2e74e33 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:bb1f03df-5d05-4acc-88ea-b0fa1c811f41 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bba44a75-41fc-4326-9cde-e12c6fef9789 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:bbefc9fb-2645-43bd-8de0-5d5fefb8b3de a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "TLS 1.2 is independent of any specification and can be implemented without dependencies with technologies or platforms. Moreover, IETF is a neutral-vendor Standard Developing Organisation that has developed the technical specification independently of any vendor product."@en ;
+    cav:refersTo camssa:3f6ba52e-79ca-4a11-bfd5-807c88d1dc64 .
+
+camssa:bcc8675f-8f46-4ed6-8497-5a86721dd419 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of TLS 1.2 is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:bea60d06-3c0d-4d3c-8936-778ea0429666 .
+
+camssa:bd5a8e71-ff7f-425c-8286-ebb1fa4ba97d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:bea60d06-3c0d-4d3c-8936-778ea0429666 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c533e35b-739d-4c78-9df1-e7d3e3be5d93 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:c611823b-cc25-4d15-9290-2b650ba65f94 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ca0cdf16-e004-43bf-bb40-248a9a314e1f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f612ce44-bab2-4770-b26d-6b663385da56 .
+
+camssa:ca30e04e-2091-4793-8961-3b64ca165db8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TLS 1.2 is included in two national catalogues, which belong to Member States complying with at least 4 out of 5 sections of the EIF according to the NIFO factsheets.
+
+See:                                                                                                                                               https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:5d29f167-734c-4c7a-9771-81274c27ff98 .
+
+camssa:ca31e124-b3c3-4587-962e-0022d2ae2d0d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:36c40887-c33d-479d-b5eb-90d693b49853 .
+
+camssa:cb345594-cf61-47a4-bd7e-d30b276a7dfa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "20"^^xsd:int .
+
+camssa:d02ea3b0-3a76-46c1-afec-b29e26681bf6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "TSL 1.2 has been widely for cryptographic protocol that providing end-to-end security of data sent between applications over the Internet. However TSL 1.3 was created in 2018 which improved many characteristics of the  former, consequently it can be said that it is the 1.3 version that is used for the development of products and services."@en ;
+    cav:refersTo camssa:cb345594-cf61-47a4-bd7e-d30b276a7dfa .
+
+camssa:d1f94c59-8b9f-4c3a-87b9-f2d69d4e7cc8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "At the time of elaborating this assessment, TLS 1.2 does not foster the creation of innovative solutions. In 2018 the creation of TLS 1.3 updated and improved the older version. So the focus of creating innovative solution is focused on the  latter."@en ;
+    cav:refersTo camssa:b02bc2bf-201e-42ce-b947-e06e852b8342 .
+
+camssa:d1ff0732-4dc6-4607-b394-3c02fde73953 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of TLS 1.2 is not related to fostering visibility and comprehensibility of administrative rules, processes, data, services and decision-making of a public administration. . Therefore this criterion is considered not applicable specification."@en ;
+    cav:refersTo camssa:bba44a75-41fc-4326-9cde-e12c6fef9789 .
+
+camssa:d269f512-5df1-4526-838d-b44e9007dd55 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "TLS 1.2 is independent of any specification and can be implemented without dependencies with technologies or platforms. Moreover, IETF is a neutral-vendor Standard Developing Organisation that has developed the technical specification independently of any vendor product."@en ;
+    cav:refersTo camssa:7f5fe557-ee88-4443-afd1-e07f4c39931c .
+
+camssa:d466c703-117a-45d0-830e-cb6d72b7fadd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d70df553-9827-47e9-ad71-81451334027b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of TLS 1.2 is not related to the availability of interfaces. Therefore this criterion is considered not applicable specification."@en ;
+    cav:refersTo camssa:51448142-399c-4ee4-b503-60bc23d96272 .
+
+camssa:d80a07f1-aef9-4bfa-9423-17d8b974dd24 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:7fa4ac2c-a326-48c2-ad23-c2f9b48b6e20 .
+
+camssa:dcde6338-d4b5-412d-91ea-d35b311f0d9b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """7 Member States are recommending TLS 1.2 in their ICT Catalogues.
+
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:f010bec8-4722-45c9-b82b-8d57feef3024 .
+
+camssa:df489bfc-b418-48d0-aafd-82fe8641d617 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f308d97a-825a-42de-8c06-ef92689e48f2 .
+
+camssa:df665b46-ef36-4ad0-a78f-82461708e72d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:e9583803-b16d-4fc0-9a73-94f302245c90 .
+
+camssa:e64485f4-fc0d-4b33-b5f9-ef521a864a08 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of TLS 1.2 is not related to the delivery of multilingual European public services. Therefore this criterion is considered not applicable specification."@en ;
+    cav:refersTo camssa:1029e14c-5ac7-4ada-8b9e-4c202cf192c0 .
+
+camssa:e9583803-b16d-4fc0-9a73-94f302245c90 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:ea1a9fef-fffa-4dc3-bb16-fbd2dc98770e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:a08205a9-5d42-43e4-bd23-e7c53343321a .
+
+camssa:eb8fc45d-89b3-4aa9-961f-e21cbf926b18 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:f010bec8-4722-45c9-b82b-8d57feef3024 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f1c1f0e7-9251-4862-9966-88fad0e8c81f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As a business domain agnostic specification, TLS 1.2, contributes with the security during the exchange of documents addressing any domain.
+
+As a business domain agnostic specification, TLS 1.2, contributes with the security during the exchange of documents addressing any domain."""@en ;
+    cav:refersTo camssa:c533e35b-739d-4c78-9df1-e7d3e3be5d93 .
+
+camssa:f1c97bc5-e353-4e9e-bf66-01f3b4778b2c a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:f308d97a-825a-42de-8c06-ef92689e48f2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:f612ce44-bab2-4770-b26d-6b663385da56 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:f6791883-1de3-4d88-811c-29ffbe285e99 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:fdfb4c34-93eb-45a3-aed5-8ba0523612fa .
+
+camssa:f9be9349-722c-487d-9e78-11c26f6bfd8e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TLS 1.2 is a protocol cryptographic protocol that provides end-to-end security of data sent between applications over the Internet.
+
+See: 
+https://www.internetsociety.org/deploy360/tls/basics/"""@en ;
+    cav:refersTo camssa:bb1f03df-5d05-4acc-88ea-b0fa1c811f41 .
+
+camssa:f9f00ea2-9fa9-4df3-bf3e-6c675aa4a1ec a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of TLS 1.2 is not related to  e-accessibility. Therefore this criterion is considered not applicable to this specification."@en ;
+    cav:refersTo camssa:0f06c4e9-7cd5-4089-86d2-e5ac19be70a0 .
+
+camssa:fdfb4c34-93eb-45a3-aed5-8ba0523612fa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+

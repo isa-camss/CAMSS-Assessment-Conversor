@@ -1,0 +1,582 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:cd15993472ed8f79097d619f18d5e2bdeaf79959406438137146c9155d32c65d a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:df23408dc85e78d7b35b0c0528e9f46c23005f6cb081727136a5b6523e3eb86d ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:0216e948-7f91-4ae3-a527-68cb04e44053,
+        camssa:027c9e5a-1d63-4a26-b345-401b61129efd,
+        camssa:045eef59-db03-45c1-bbc7-a486b8db292e,
+        camssa:0557e5bd-da62-43de-a5b9-759b90b6329a,
+        camssa:056a5fb9-0533-477f-8af4-95c248919b68,
+        camssa:09c8117b-f6c4-4cb5-8286-6a11d086db83,
+        camssa:0b8eb5d0-8eeb-4d23-98b1-5c44a2bfa1aa,
+        camssa:1731778d-b30c-466c-ab4e-768e45231ee2,
+        camssa:1fd826e8-1d43-4c31-a2af-b230110dfc45,
+        camssa:2589cde8-11c3-4818-909e-aedc0941b1e2,
+        camssa:28f763f0-0867-4149-8fd0-44c00974a94e,
+        camssa:39982444-f636-4983-9af0-adeb831c6b12,
+        camssa:3bec86ab-2db1-427f-a3a3-7f856f6364a8,
+        camssa:3e13ac45-a86d-459c-8fcd-edf23c3fe3f0,
+        camssa:3f2f3b4b-1bc7-43e9-bd8f-f134a6af6662,
+        camssa:4afde463-f96c-4f01-a782-070f08f6a9ee,
+        camssa:4b1b699e-fe1e-4b32-9ab3-e44213579d5b,
+        camssa:4f968773-0ab2-4402-b86c-8c44bef82314,
+        camssa:53fa89ce-dc87-434d-ba24-6ac4e9844c8a,
+        camssa:617daa69-2b83-4f90-aa19-83c04fec0fbd,
+        camssa:668ab4b6-d47d-4556-a88c-14b12dd137af,
+        camssa:686e53d0-8b0a-4674-950b-2cc049e95625,
+        camssa:73b0c89e-5914-428d-828c-bddd9032635a,
+        camssa:7475d39f-eca5-4661-9fdc-c8b6c6deb528,
+        camssa:83a6a8ec-71a4-410e-be05-c5e35b13b82a,
+        camssa:90c872ce-2fb2-4abe-ab79-291f0f5c6bd9,
+        camssa:92ee39b7-5f91-4a5e-be33-b19b3c65f273,
+        camssa:9b896717-14ff-4cfb-8b37-7c3863f616e3,
+        camssa:a1977fae-6714-4c05-9002-2a2edc685986,
+        camssa:a566cb05-2a41-4e0a-9ff4-2e216ebb1762,
+        camssa:a78eb4df-872a-48a2-bb98-edc089760fb9,
+        camssa:acb2274d-67c1-47e2-88d2-8601e42a473a,
+        camssa:b9379bdb-fa8f-456a-a12c-8ed3be4b4536,
+        camssa:c0032cf3-2c35-475a-8870-5581b82a16b3,
+        camssa:c6d8054a-5f04-4fe5-80c7-5a35f11df3e2,
+        camssa:d1f00fab-39ab-43e2-9666-dbde0fdb00e6,
+        camssa:d5295c98-615d-467a-8d5a-eb39eae0497b,
+        camssa:dfdfe6d6-8d0e-4726-993b-12d1ec41d210,
+        camssa:e7bc9417-6098-441c-96e8-a36e29761660,
+        camssa:e8250e55-f2ac-4116-88c4-d8ac6ffebafa,
+        camssa:e85bb042-1535-4f37-bb3b-5d6250ddf42b,
+        camssa:ec8473c2-42c4-4bfe-90c1-1809c466cc11,
+        camssa:f03a55c5-f8eb-4486-99d1-37f0cd88c035,
+        camssa:f9de673d-ac62-4b47-ae2e-874bc9a8738a ;
+    cav:status status:Complete ;
+    dct:title "Web Services Description Language (WSDL)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:04d16bae-6125-4abf-b804-3171609dd14b ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:0216e948-7f91-4ae3-a527-68cb04e44053 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """9 Member States are recommending JSON in their ICT National Catalogues. 
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:46d8b162-ae7e-4ab2-b861-170dd3460153 .
+
+camssa:027c9e5a-1d63-4a26-b345-401b61129efd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of WSDL is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:5b67b49b-120e-48e6-98b2-52e6f1da7d25 .
+
+camssa:045eef59-db03-45c1-bbc7-a486b8db292e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "WSDL is not included in any supra-national catalogue of standards. "@en ;
+    cav:refersTo camssa:f1710445-6155-43e7-88fd-a80b1151d5b7 .
+
+camssa:04d16bae-6125-4abf-b804-3171609dd14b a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:0557e5bd-da62-43de-a5b9-759b90b6329a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of WSDL is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:ab2d39f2-6a62-48b0-b346-9941024b891e .
+
+camssa:056a5fb9-0533-477f-8af4-95c248919b68 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:5c4a8734-cd8f-41af-8266-a5fe57263907 .
+
+camssa:08733147-86a1-47b8-bb64-446caeaeab19 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:09c8117b-f6c4-4cb5-8286-6a11d086db83 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:10931443-ce37-48fd-9fe0-cf7bbeaf653b .
+
+camssa:0b8eb5d0-8eeb-4d23-98b1-5c44a2bfa1aa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of WSDL is not related to the long-term preservation of electronic records and other kinds of information. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:6d1aee19-6f08-4539-9505-86378b1da46e .
+
+camssa:10931443-ce37-48fd-9fe0-cf7bbeaf653b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:10bd73cd-c12a-4ba2-99b9-4f37e6a3caae a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:13dc5deb-17e1-47d2-8959-31159756cffe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1731778d-b30c-466c-ab4e-768e45231ee2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including WSDL.
+
+See:
+https://www.w3.org/TR/patent-practice#ref-AC """@en ;
+    cav:refersTo camssa:cca8b97c-e24a-4707-8ee4-55c4c874ef8c .
+
+camssa:1afe8957-7a97-47db-a8bf-4f8205302916 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:1fd826e8-1d43-4c31-a2af-b230110dfc45 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies """@en ;
+    cav:refersTo camssa:c3097969-4f01-4e19-a2a9-dbf937a0da17 .
+
+camssa:2589cde8-11c3-4818-909e-aedc0941b1e2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:2f49fb8f-c7ed-4c9c-8685-7691327a2f2d .
+
+camssa:26f75362-c167-478c-bcce-9c0f29e59c32 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:28ece843-5a60-4272-bf80-dc7f9cb7259e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:28f763f0-0867-4149-8fd0-44c00974a94e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of WSDL is not related to the delivery of multilingual services. Therefore this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:8476fdaf-e9c9-48d7-8a18-1b9a154b0b63 .
+
+camssa:2f49fb8f-c7ed-4c9c-8685-7691327a2f2d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:30bdf16d-4589-4834-9923-6020a0038aa0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:39982444-f636-4983-9af0-adeb831c6b12 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WSDL is a markup language based on XML and uses some conventions, features, and constraints coming from it. Despite this, XML is widely adopted and well known and this fact allows to not hamper the interoperability. 
+However, WSDL is involved in the SOAs implementation, along with UDDI and SOAP. In this performance, WSDL relies on SOAP to invoke services. """@en ;
+    cav:refersTo camssa:df755330-1f1c-4848-b147-1584c93ce9e3 .
+
+camssa:3bec86ab-2db1-427f-a3a3-7f856f6364a8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9352f1cb-88ae-4432-9188-03e0ec384918 .
+
+camssa:3e13ac45-a86d-459c-8fcd-edf23c3fe3f0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WSDL as a part of the stack of specifications that perform in order to make available and discoverable the web services, helps to the implementation of the once-only principle. 
+
+As an example of implementation is the SELIS project, which aims to make available a web services regarding the eInvoicing. This topic is included within the Once-only Principle and Digital Single Market frameworks. 
+
+See: 
+https://joinup.ec.europa.eu/collection/eprocurement/document/secure-electronic-invoicing-service-selis"""@en ;
+    cav:refersTo camssa:e862f705-635a-497c-b25e-aa848361ab71 .
+
+camssa:3f2f3b4b-1bc7-43e9-bd8f-f134a6af6662 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Nowadays, at the moment of performing the assessment WSDL is wide used specification involved in the implementation of the Service-Oriented Architectures (SOAs). SOAP along with REST are the main ways to build web services, the first one uses WSDL to describe services and guaranteeing access to them. Therefore, WSDL is involved in the development of solutions, including innovative ones."@en ;
+    cav:refersTo camssa:f8299aed-459c-4f8f-b4cc-73dd2283fbcb .
+
+camssa:4035287a-09dd-4651-a162-0ac669119d9f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:439a7c73-04a4-4585-a9a6-b4c23efc7abd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:46d8b162-ae7e-4ab2-b861-170dd3460153 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4afde463-f96c-4f01-a782-070f08f6a9ee a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:28ece843-5a60-4272-bf80-dc7f9cb7259e .
+
+camssa:4b1b699e-fe1e-4b32-9ab3-e44213579d5b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:1afe8957-7a97-47db-a8bf-4f8205302916 .
+
+camssa:4e69af05-1568-4cbe-a469-4e28b93e6c60 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "20"^^xsd:int .
+
+camssa:4f968773-0ab2-4402-b86c-8c44bef82314 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies """@en ;
+    cav:refersTo camssa:f74c7f88-29c9-4594-a36e-b1ab60237e4c .
+
+camssa:50562e05-6067-4032-9666-267473e093fa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:53fa89ce-dc87-434d-ba24-6ac4e9844c8a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "As a specification that enhances the discoverability and access to different web services, it can help to ensure access by providing SOAP endpoints where the services and internal information are located. "@en ;
+    cav:refersTo camssa:81aff4ed-ae7d-46d2-9f5c-30f859806f9f .
+
+camssa:5b67b49b-120e-48e6-98b2-52e6f1da7d25 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5c4a8734-cd8f-41af-8266-a5fe57263907 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:617daa69-2b83-4f90-aa19-83c04fec0fbd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C provides a test suit for WSDL 2.0 implementations. Moreover, the specification document contains a reference to verify the conformity of a WSDL document. It can be found in section 1.3 of the specification.
+See:
+https://dev.w3.org/2002/ws/desc/test-suite/index.html
+https://www.w3.org/TR/wsdl/#markup
+"""@en ;
+    cav:refersTo camssa:30bdf16d-4589-4834-9923-6020a0038aa0 .
+
+camssa:668ab4b6-d47d-4556-a88c-14b12dd137af a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "WSDL is a business agnostic specification that can be implemented in any domain requiring web services description and access. "@en ;
+    cav:refersTo camssa:ecd20824-5a1c-4c05-8ab0-7b3c79738730 .
+
+camssa:686e53d0-8b0a-4674-950b-2cc049e95625 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WSDL has been selected within several cross-border initiatives with the purpose of confirming the description of the services provided in order to enhance the retrieval and support the reuse of the web service by any interested part. 
+
+An example of a project involving WSDL is the SELIS project. This initiative is focused on eInvocing and its smooth integration within existing accounting software. Moreover, it is included within the framework of the European Digital Single Market and the OOP initiative. 
+
+See: 
+https://joinup.ec.europa.eu/collection/eprocurement/document/secure-electronic-invoicing-service-selis"""@en ;
+    cav:refersTo camssa:cd8ae5fd-4201-4475-b4b7-fa8eea52beac .
+
+camssa:6bb085c6-f194-4cd3-a042-430c1ecd7de5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6d1aee19-6f08-4539-9505-86378b1da46e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:6dfb5348-2755-435f-94d5-cb36b4a889e5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:73b0c89e-5914-428d-828c-bddd9032635a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WSDL is included in 3 national catalogues of recommended specifications. They belong to the Netherlands, Spain, and Sweden. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+See:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:c64d4568-0ae7-462b-b53b-7bc26a02c114 .
+
+camssa:7475d39f-eca5-4661-9fdc-c8b6c6deb528 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By providing information and access to web services across borders, WSDL eases the reuse of data and resources between administrations and stakeholders. "@en ;
+    cav:refersTo camssa:98558216-7b3c-45e5-aec7-a84801cd88d6 .
+
+camssa:758e5f5f-369a-44fc-b7eb-8bc6ad793dd1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:81aff4ed-ae7d-46d2-9f5c-30f859806f9f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:83a6a8ec-71a4-410e-be05-c5e35b13b82a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WSDL helps to describe and make available administration’s web services, which contain public data and information to be reused. The data is structured as WSDL is an XML based language. Taking into account these facts, WSDL is supporting several maturity levels from Tim Berners Lee’s 5 stars schema for Open Data.  
+
+Additionally, there are existing W3C recommendation and notes regarding the semantics on WSDL.  Known as Semantic Annotations Web Services Description Language (SAWSDL). As well, a technical report from the Web Services Description Working Group that maps the representation of the WSDL model in RDF. 
+
+See: 
+https://5stardata.info/en/ 
+https://www.w3.org/TR/wsdl20-rdf/
+https://www.w3.org/TR/sawsdl/"""@en ;
+    cav:refersTo camssa:fb458fda-3004-4125-ba88-2fb80ad66f8b .
+
+camssa:8476fdaf-e9c9-48d7-8a18-1b9a154b0b63 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8d0b8206-ab88-4176-8f04-792c0a82c001 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:90c872ce-2fb2-4abe-ab79-291f0f5c6bd9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:439a7c73-04a4-4585-a9a6-b4c23efc7abd .
+
+camssa:9171fdcd-611f-44a6-a8f9-70c668b93bce a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:92ee39b7-5f91-4a5e-be33-b19b3c65f273 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f8d02388-e668-420c-88e5-7a4706c60c92 .
+
+camssa:9352f1cb-88ae-4432-9188-03e0ec384918 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:98558216-7b3c-45e5-aec7-a84801cd88d6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9b896717-14ff-4cfb-8b37-7c3863f616e3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are already existing documents and studies assessing WSDL performance and its features. The main topic are effectiveness while discovering, automatically classify web services or the poor query results. 
+See: 
+https://core.ac.uk/download/pdf/82569095.pdf 
+https://thesai.org/Downloads/Volume10No5/Paper_25-Toward_Effective_Service_Discovery.pdf"""@en ;
+    cav:refersTo camssa:758e5f5f-369a-44fc-b7eb-8bc6ad793dd1 .
+
+camssa:a1977fae-6714-4c05-9002-2a2edc685986 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By providing information and access to web services across borders, WSDL eases the reuse of data and resources between administrations and stakeholders. "@en ;
+    cav:refersTo camssa:dc8b0cd9-0cbd-4860-9527-59a9ee43605e .
+
+camssa:a566cb05-2a41-4e0a-9ff4-2e216ebb1762 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are already existing documents and studies assessing WSDL performance and its features. The main topic are effectiveness while discovering, automatically classify web services or the poor query results. 
+See: 
+https://core.ac.uk/download/pdf/82569095.pdf 
+https://thesai.org/Downloads/Volume10No5/Paper_25-Toward_Effective_Service_Discovery.pdf"""@en ;
+    cav:refersTo camssa:b01fc53d-3346-4f99-9856-184022b4f456 .
+
+camssa:a78eb4df-872a-48a2-bb98-edc089760fb9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WSDL helps to describe and make available administration’s web services, which contain public data and information to be reused. The data is structured as WSDL is an XML based language. Taking into account these facts, WSDL is supporting several maturity levels from Tim Berners Lee’s 5 stars schema for Open Data.  
+
+Additionally, there are existing W3C recommendation and notes regarding the semantics on WSDL.  Known as Semantic Annotations Web Services Description Language (SAWSDL). As well, a technical report from the Web Services Description Working Group that maps the representation of the WSDL model in RDF. 
+
+See: 
+https://5stardata.info/en/ 
+https://www.w3.org/TR/wsdl20-rdf/
+https://www.w3.org/TR/sawsdl/"""@en ;
+    cav:refersTo camssa:c8a1644c-35da-46c5-a65f-b553e0b127d5 .
+
+camssa:ab2d39f2-6a62-48b0-b346-9941024b891e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:acb2274d-67c1-47e2-88d2-8601e42a473a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "WSDL was developed by IBM, Microsoft, and Ariba initially in 2000. The following version was at their charge as well, introducing minor changes. The last version became a W3C recommendation in 2007. Nowadays, the international organisation is maintaining and developing WSDL. Moreover, it continues having support from companies with a wide market share. Therefore, it is demonstrated that WSDL has enough market acceptance and maturity for its use in the development of products and services."@en ;
+    cav:refersTo camssa:6dfb5348-2755-435f-94d5-cb36b4a889e5 .
+
+camssa:b01fc53d-3346-4f99-9856-184022b4f456 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b9379bdb-fa8f-456a-a12c-8ed3be4b4536 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "WSDL is a business agnostic specification that can be implemented in any domain requiring web services description and access. "@en ;
+    cav:refersTo camssa:13dc5deb-17e1-47d2-8959-31159756cffe .
+
+camssa:c0032cf3-2c35-475a-8870-5581b82a16b3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By describing web services in terms of functionalities and accessibility to them, WSDL fosters the visibility of administration web services for the reusing of existing applications by other administrations and stakeholders."@en ;
+    cav:refersTo camssa:c32d1bfc-0a02-4bbc-bf86-d33a4937ef4e .
+
+camssa:c3097969-4f01-4e19-a2a9-dbf937a0da17 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c32d1bfc-0a02-4bbc-bf86-d33a4937ef4e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:c64d4568-0ae7-462b-b53b-7bc26a02c114 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c6d8054a-5f04-4fe5-80c7-5a35f11df3e2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By describing web services in terms of functionalities and accessibility to them, WSDL fosters the visibility of administration web services for the reusing of existing applications by other administrations and stakeholders."@en ;
+    cav:refersTo camssa:4035287a-09dd-4651-a162-0ac669119d9f .
+
+camssa:c8a1644c-35da-46c5-a65f-b553e0b127d5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cca8b97c-e24a-4707-8ee4-55c4c874ef8c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cd8ae5fd-4201-4475-b4b7-fa8eea52beac a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d1f00fab-39ab-43e2-9666-dbde0fdb00e6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WSDL has adopted the "+xml" convention that is described in the IETF RFC 3023 defining XML data types and its security considerations. As an XML document, every implementation can have different security requirements. Even though, taking into account the considerations WSDL allows the secure and trustworthy data exchange between the stakeholders involved. 
+
+See: 
+https://www.w3.org/TR/wsdl20/
+https://www.ietf.org/rfc/rfc3023.txt"""@en ;
+    cav:refersTo camssa:8d0b8206-ab88-4176-8f04-792c0a82c001 .
+
+camssa:d5295c98-615d-467a-8d5a-eb39eae0497b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 9 Member States' catalogues of recommended specifications. Some examples of Member States including JSON on their catalogues are the Netherlands, Spain or Belgium.
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:9171fdcd-611f-44a6-a8f9-70c668b93bce .
+
+camssa:dc8b0cd9-0cbd-4860-9527-59a9ee43605e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:df755330-1f1c-4848-b147-1584c93ce9e3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:int .
+
+camssa:dfdfe6d6-8d0e-4726-993b-12d1ec41d210 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:10bd73cd-c12a-4ba2-99b9-4f37e6a3caae .
+
+camssa:e7bc9417-6098-441c-96e8-a36e29761660 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of WSDL is not related to e-accessibility. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:6bb085c6-f194-4cd3-a042-430c1ecd7de5 .
+
+camssa:e8250e55-f2ac-4116-88c4-d8ac6ffebafa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:26f75362-c167-478c-bcce-9c0f29e59c32 .
+
+camssa:e85bb042-1535-4f37-bb3b-5d6250ddf42b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:08733147-86a1-47b8-bb64-446caeaeab19 .
+
+camssa:e862f705-635a-497c-b25e-aa848361ab71 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ec8473c2-42c4-4bfe-90c1-1809c466cc11 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WSDL is maintained by W3C which is an international community developing open standards. 
+
+See:
+https://www.w3.org/Consortium/
+https://www.w3.org/TR/wsdl20/"""@en ;
+    cav:refersTo camssa:f94afef8-4bad-449e-aff1-8bcac84a19a7 .
+
+camssa:ecd20824-5a1c-4c05-8ab0-7b3c79738730 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f03a55c5-f8eb-4486-99d1-37f0cd88c035 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WSDL is a markup language based on XML and uses some conventions, features, and constraints coming from it. Despite this, XML is widely adopted and well known and this fact allows to not hamper the interoperability. 
+However, WSDL is involved in the SOAs implementation, along with UDDI and SOAP. In this performance, WSDL relies on SOAP to invoke services. """@en ;
+    cav:refersTo camssa:4e69af05-1568-4cbe-a469-4e28b93e6c60 .
+
+camssa:f1710445-6155-43e7-88fd-a80b1151d5b7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:f74c7f88-29c9-4594-a36e-b1ab60237e4c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:f8299aed-459c-4f8f-b4cc-73dd2283fbcb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f8d02388-e668-420c-88e5-7a4706c60c92 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f94afef8-4bad-449e-aff1-8bcac84a19a7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f9de673d-ac62-4b47-ae2e-874bc9a8738a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including WSDL.
+
+See:
+https://www.w3.org/TR/patent-practice#ref-AC """@en ;
+    cav:refersTo camssa:50562e05-6067-4032-9666-267473e093fa .
+
+camssa:fb458fda-3004-4125-ba88-2fb80ad66f8b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+

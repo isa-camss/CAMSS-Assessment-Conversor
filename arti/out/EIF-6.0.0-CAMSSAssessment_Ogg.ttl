@@ -1,0 +1,662 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:4461a0b5c36539cbe32a1a3f88e0bc6b438eb53765a4ffa2e7b03a874fab3cf6 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:47e7ed6830faf5afca36b869493258d3bb509577b30ef469770a164a0f602ec3 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:14c29c3c-c999-4cf6-95d2-7f3c3584d9a6,
+        camssa:1645a480-b197-4f36-8700-443d6d7fb03e,
+        camssa:178124a0-32af-4e13-a1c2-a1332d806d69,
+        camssa:19a53c64-7d0b-4270-b2df-0674dc65d15a,
+        camssa:1a54ce01-8c33-457a-a81c-879d13890397,
+        camssa:1b605ff7-70cb-4dee-a949-a0812172d4e3,
+        camssa:206ec5e8-ff71-4b6b-8d78-e4a533dcb945,
+        camssa:20e9c103-57f5-4a85-b479-8b4854c7bd96,
+        camssa:2e4ff8d4-0bf7-447c-a70a-a84c48ae85a8,
+        camssa:33d96c59-8216-4997-99a5-ea65e0eeffd8,
+        camssa:35e1c3ea-2034-4025-8ac1-8d5444fc36f6,
+        camssa:372077ca-dc8a-449c-96f2-e0aa358dc42c,
+        camssa:48c0e9e8-adb1-4f16-b001-78b1f7993e3f,
+        camssa:4c6e2f75-1b44-445f-9ce7-9ce4b28b2e0b,
+        camssa:52a06d35-f68b-4248-90b0-15a505181d0e,
+        camssa:5598a713-3933-44ae-b1a6-7774ec3d2bdb,
+        camssa:57937a14-b812-4954-8f2f-5582b8d2d43a,
+        camssa:5ac3af80-a28f-495e-9e04-2be0745eef03,
+        camssa:61028fc0-7f66-47f1-adde-973b991a4e51,
+        camssa:6229b97e-424a-49bf-846c-4eb19ce52862,
+        camssa:6423cf83-cc58-4b07-933b-844dc78b1bfd,
+        camssa:671216bf-db13-4da6-b0c4-cb7931e606e6,
+        camssa:679f26ca-f825-4964-9717-ceab4f2794c2,
+        camssa:682b3ed4-49f3-466f-9039-7e5c32fc9c95,
+        camssa:6cbf49e9-a0a8-41e2-8efa-326830133b68,
+        camssa:6dd39301-9b74-48b7-820a-5c01e0ce846f,
+        camssa:73c5a51e-2bc3-4626-a07d-d8864d31b78e,
+        camssa:78455f82-b12a-40e1-9293-d867c3100004,
+        camssa:78f99e19-28cb-479b-8347-804ce8033c44,
+        camssa:7e61e46d-a457-4669-a314-2913e9d41856,
+        camssa:8e30346b-c15b-419b-b7a1-4a9686a20b91,
+        camssa:90b3886a-9831-4ff8-be69-f25189ef8143,
+        camssa:9ca1144d-526e-4311-86c7-c5b3b4b43ef5,
+        camssa:adc613f9-71ea-4b01-9ec9-a688c283e193,
+        camssa:bc12bc8b-0d88-49bd-b93c-7488709459bf,
+        camssa:bec2216a-16f3-4c12-bb51-d8503d2fb11b,
+        camssa:c0f1c906-78db-44ea-8d9d-e727649ee9dc,
+        camssa:c56dc3ef-0831-4ea3-a45b-73c9269db726,
+        camssa:c6a49c35-7915-4252-b3b9-f677d182aea7,
+        camssa:d0981ece-98a3-4c81-8f89-4c21a7f7a429,
+        camssa:d2737f35-c8c2-466b-ac8a-89a2441a9e1e,
+        camssa:d77166b1-c7dd-4c2e-a6c8-9584fc8cc730,
+        camssa:f240b823-cfc0-4140-bd84-2b975c613891,
+        camssa:f25a3fd0-eb5b-4cf6-ab37-3a1b033e1021,
+        camssa:f27a38db-2435-4155-be2b-28f08b7c0550 ;
+    cav:status status:Complete ;
+    dct:title "Ogg"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:84953acb-e87e-4371-919b-3691f695765b ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:048dda5d-47db-48d3-9f6a-28b5d9344550 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:06984b75-0891-4b28-9d50-3218fe216a9e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:092ab79c-2c75-48de-be45-697a9ef84fa5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0a67df90-6527-4f85-829e-8a73e9f19df0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0bd5aaf2-10fe-403c-b8af-fba9d985afda a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:0fca10f4-d80e-4019-ac2e-a447dd23c01c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "20"^^xsd:int .
+
+camssa:14c29c3c-c999-4cf6-95d2-7f3c3584d9a6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6a239ad0-3e3c-4f8b-b3be-29a82c276ae7 .
+
+camssa:1645a480-b197-4f36-8700-443d6d7fb03e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All XIPH standards are under BSD-style license which is a specific license for open source specifications. More specifically it is a free-software license with only minimal restrictions on how the software can be used, modified, and redistributed, usually including a warranty disclaimer.
+
+XIPH documentaiton:
+https://wiki.xiph.org/index.php/Main_Page
+
+All XIPH standards are under BSD-style license which is a specific license for open source specifications. More specifically it is a free-software license with only minimal restrictions on how the software can be used, modified, and redistributed, usually including a warranty disclaimer.
+
+XIPH documentaiton:
+https://wiki.xiph.org/index.php/Main_Page"""@en ;
+    cav:refersTo camssa:5a91b13d-aaa3-4cfd-a460-8347bce71c84 .
+
+camssa:178124a0-32af-4e13-a1c2-a1332d806d69 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:81d54cba-7ba2-4c74-b806-f5fb0000008f .
+
+camssa:19a53c64-7d0b-4270-b2df-0674dc65d15a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 5 Member States' catalogues of recommended specifications. These Member States are France, Germany, Norway, Poland and Spain.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:a5effb5b-4121-4eed-bac2-0c7245240416 .
+
+camssa:1a36fb76-c839-47b2-9136-be3874c13bad a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:1a54ce01-8c33-457a-a81c-879d13890397 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Ogg was designed to create an open source multimedia container which it is independent of any vendor. However, Ogg is dependant of some open source technologies that make it up. The audio layer is most commonly provided by Vorbis format or its successor Opus. Lossless audio compression formats include FLAC, and OggPCM.
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:d1bbf5db-0513-4016-8d43-7b050b04b67d .
+
+camssa:1b605ff7-70cb-4dee-a949-a0812172d4e3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although Ogg’s purpose is not the long-term preservation of data, it can be used to store multimedia content. 
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:7c9ece1e-87d5-490d-8a4f-39854d8339f3 .
+
+camssa:206ec5e8-ff71-4b6b-8d78-e4a533dcb945 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:bebfa938-7c93-49c9-92fe-0cbd6d857311 .
+
+camssa:20e9c103-57f5-4a85-b479-8b4854c7bd96 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+According to the 5-star Open Data model suggested by Tim Berners-Lee about how to publish linked data, Ogg does not support the main principles for the publication of data as Linked Open Data.
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html"""@en ;
+    cav:refersTo camssa:b1098600-8817-48c6-8275-bfda987b61f9 .
+
+camssa:2c0e2c55-2adb-484c-be1c-3dde7d5c4606 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:2e4ff8d4-0bf7-447c-a70a-a84c48ae85a8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0bd5aaf2-10fe-403c-b8af-fba9d985afda .
+
+camssa:30faea10-8271-47b0-8e19-0ced9dc9a683 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:31b79314-cd0a-4587-9e22-fa9d08343041 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:33129ef6-70ba-4026-b7e7-5edb9f904d59 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:33d96c59-8216-4997-99a5-ea65e0eeffd8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Ogg is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification. 
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:8a49ab9d-cbba-4543-9e30-2d96265455a7 .
+
+camssa:35e1c3ea-2034-4025-8ac1-8d5444fc36f6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Ogg is a business domain agnostic specification that can be reused in a cross-domain way.
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt
+
+Ogg is a business domain agnostic specification that can be reused in a cross-domain way.
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:b4a5547b-1b78-40c7-8b39-e81d49c83796 .
+
+camssa:372077ca-dc8a-449c-96f2-e0aa358dc42c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Ogg was designed to create an open source multimedia container which it is independent of any vendor. However, Ogg is dependant of some open source technologies that make it up. The audio layer is most commonly provided by Vorbis format or its successor Opus. Lossless audio compression formats include FLAC, and OggPCM.
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:6e936666-173b-4c4d-b21e-7ce5a3ed0659 .
+
+camssa:3e745262-a451-4258-a0fc-13bd39e679f0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:4748d7e2-28b4-4a07-9854-44bf186280a0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:48c0e9e8-adb1-4f16-b001-78b1f7993e3f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:978401cb-c622-4eef-a9d7-0e482e01fbf8 .
+
+camssa:4c6e2f75-1b44-445f-9ce7-9ce4b28b2e0b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are documents that compare different audio formats that forms Ogg. From there, it can be assessed the efficiency and effectiveness of the usage of Ogg. 
+
+Audio formats comparison:
+https://stsaz.github.io/fmedia/audio-formats/
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:7ed80af9-79f0-4270-9052-188246d93b8f .
+
+camssa:52a06d35-f68b-4248-90b0-15a505181d0e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0a67df90-6527-4f85-829e-8a73e9f19df0 .
+
+camssa:5598a713-3933-44ae-b1a6-7774ec3d2bdb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Ogg is not related with data portability. Therefore, this criterion is not applicable to this specification. 
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt
+
+The purpose of Ogg is not related with data portability. Therefore, this criterion is not applicable to this specification. 
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:65f2cb0b-f042-4cfc-ae50-1809964abd1a .
+
+camssa:57937a14-b812-4954-8f2f-5582b8d2d43a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Ogg is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. 
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:30faea10-8271-47b0-8e19-0ced9dc9a683 .
+
+camssa:5a91b13d-aaa3-4cfd-a460-8347bce71c84 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:5ac3af80-a28f-495e-9e04-2be0745eef03 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although Ogg’s purpose is not to foster the visibility of administrative data or services, it can help to enhance the visualization and visibility of public administrations by providing multimedia content. In fact, the specification helps to store and eases the visualization of media content in any platform of a public administration.
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:cccd9aa7-fd43-4727-9f36-9bfb22c9c9d8 .
+
+camssa:61028fc0-7f66-47f1-adde-973b991a4e51 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Ogg is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:06984b75-0891-4b28-9d50-3218fe216a9e .
+
+camssa:6229b97e-424a-49bf-846c-4eb19ce52862 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:2c0e2c55-2adb-484c-be1c-3dde7d5c4606 .
+
+camssa:6423cf83-cc58-4b07-933b-844dc78b1bfd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Ogg does not provide for any generic encryption or signing of itself or its contained content. However, it is also possible to add an external security mechanism that encrypts or signs an Ogg physical bitstream and thus provides content confidentiality and authenticity.
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:68959f6f-96f9-4edd-8cb6-03f364a8ffc2 .
+
+camssa:65f2cb0b-f042-4cfc-ae50-1809964abd1a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:671216bf-db13-4da6-b0c4-cb7931e606e6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Ogg has a good market acceptance. The online news portal Tagesschau was awarded for making all its video entries available in the open format Ogg. A few countries recommend Ogg as an open source multimedia container.
+
+Tagesschau awarded for Ogg:
+https://joinup.ec.europa.eu/collection/open-source-observatory-osor/news/former-german-justice-ministe
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:4748d7e2-28b4-4a07-9854-44bf186280a0 .
+
+camssa:679f26ca-f825-4964-9717-ceab4f2794c2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After searching in the different official European websites, there is no evidence of any cross-border project that use Ogg nor explicit agreements involving the usage of the specification."@en ;
+    cav:refersTo camssa:0fca10f4-d80e-4019-ac2e-a447dd23c01c .
+
+camssa:682b3ed4-49f3-466f-9039-7e5c32fc9c95 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Xiph.Org Foundation is a non-profit corporation dedicated to protecting the foundations of Internet multimedia from control by private interests. Their main purpose is to support and develop free, open protocols and software to serve the public, developer, and business markets.
+All stakeholders can contribute in the development of their specifications.
+
+XIPH contribution:
+https://wiki.xiph.org/How_to_help"""@en ;
+    cav:refersTo camssa:3e745262-a451-4258-a0fc-13bd39e679f0 .
+
+camssa:68959f6f-96f9-4edd-8cb6-03f364a8ffc2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "20"^^xsd:int .
+
+camssa:6a239ad0-3e3c-4f8b-b3be-29a82c276ae7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:6cbf49e9-a0a8-41e2-8efa-326830133b68 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are documents that compare different audio formats that forms Ogg. From there, it can be assessed the efficiency and effectiveness of the usage of Ogg. 
+
+Audio formats comparison:
+https://stsaz.github.io/fmedia/audio-formats/
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:aeefc7cd-d141-4d75-b580-03dd48843797 .
+
+camssa:6dd39301-9b74-48b7-820a-5c01e0ce846f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f36b7175-4c09-4f1b-a401-5d3b250d1e91 .
+
+camssa:6e936666-173b-4c4d-b21e-7ce5a3ed0659 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:int .
+
+camssa:72beebce-cb9e-40bb-a3b3-8ae91a100b63 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:73c5a51e-2bc3-4626-a07d-d8864d31b78e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """5 Member States are recommending Ogg in their ICT National Catalogues. These Member States are France, Germany, Norway, Poland and Spain.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:ce931398-16e5-43e1-b391-651f89d44314 .
+
+camssa:76569c00-c6da-42b4-92ea-6de87d11680e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:78455f82-b12a-40e1-9293-d867c3100004 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+None"""@en ;
+    cav:refersTo camssa:76569c00-c6da-42b4-92ea-6de87d11680e .
+
+camssa:78f99e19-28cb-479b-8347-804ce8033c44 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:1a36fb76-c839-47b2-9136-be3874c13bad .
+
+camssa:7c9ece1e-87d5-490d-8a4f-39854d8339f3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:7e61e46d-a457-4669-a314-2913e9d41856 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After searching for a certification or conformity test to validate Ogg, no tool has been found that assess the conformity of the specification."@en ;
+    cav:refersTo camssa:ae3f174d-2aa9-444c-a9e0-68dbf9d44ebb .
+
+camssa:7ed80af9-79f0-4270-9052-188246d93b8f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:81d54cba-7ba2-4c74-b806-f5fb0000008f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:831abce9-95fe-4e0c-b259-98540c8f48c2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:84953acb-e87e-4371-919b-3691f695765b a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:8a49ab9d-cbba-4543-9e30-2d96265455a7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8e30346b-c15b-419b-b7a1-4a9686a20b91 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:d1f255ec-5e95-4e63-b72d-fde17f87da5a .
+
+camssa:90b3886a-9831-4ff8-be69-f25189ef8143 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Ogg can help comprehend the multimedia data of public administration by adding text as subtitles. In this sense, the specification can play an active role on the representation of the information in an easier visual way. This fact can consider Ogg to foster the comprehensibility of administrative rules and data.
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:cbf06a8b-f825-4e35-810f-a0d9e66865b7 .
+
+camssa:978401cb-c622-4eef-a9d7-0e482e01fbf8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9ca1144d-526e-4311-86c7-c5b3b4b43ef5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Ogg is included in the Spanish national catalogue of recommended specifications. The National Interoperability Framework (NIF) of this Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. 
+
+National catalogue Spain: 
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#CATALOGOESTANDARES
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:ebe30279-66f8-4b9e-b78d-c01bca8a05e4 .
+
+camssa:a5effb5b-4121-4eed-bac2-0c7245240416 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:adc613f9-71ea-4b01-9ec9-a688c283e193 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """In Xiph organisation, there is a monthly meeting where everyone can assist and give their opinions about changes or improvements of the specifications. However, the final decision belongs to a committee that has to approve it.
+
+Monthly XIPH meetings:
+https://wiki.xiph.org/MonthlyMeeting
+
+Admin process XIPH:
+https://wiki.xiph.org/AdminProcesses"""@en ;
+    cav:refersTo camssa:d6e88388-47bf-4ae8-9b07-5dfbf0d662ca .
+
+camssa:ae3f174d-2aa9-444c-a9e0-68dbf9d44ebb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "20"^^xsd:int .
+
+camssa:aeefc7cd-d141-4d75-b580-03dd48843797 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b1098600-8817-48c6-8275-bfda987b61f9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "0+20"^^xsd:int .
+
+camssa:b4a5547b-1b78-40c7-8b39-e81d49c83796 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:bc12bc8b-0d88-49bd-b93c-7488709459bf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:d99fd638-50be-4897-80c5-6b222dcfeb55 .
+
+camssa:bebfa938-7c93-49c9-92fe-0cbd6d857311 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:bec2216a-16f3-4c12-bb51-d8503d2fb11b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:092ab79c-2c75-48de-be45-697a9ef84fa5 .
+
+camssa:c0f1c906-78db-44ea-8d9d-e727649ee9dc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:fd4b127a-0115-4927-addf-b815c9702ba8 .
+
+camssa:c56dc3ef-0831-4ea3-a45b-73c9269db726 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Ogg is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:f0707ab2-5c52-463b-915f-677a7cd98aba .
+
+camssa:c6a49c35-7915-4252-b3b9-f677d182aea7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Ogg is not related to the delivery of multilingual public services. However, Ogg as an open multimedia container, could add subtitles as text to foster the delivery of multilingual in media files.
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:31b79314-cd0a-4587-9e22-fa9d08343041 .
+
+camssa:cbf06a8b-f825-4e35-810f-a0d9e66865b7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cccd9aa7-fd43-4727-9f36-9bfb22c9c9d8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:cd1f1d4c-b8ca-4a58-8cee-58b1e48d5c7b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:ce931398-16e5-43e1-b391-651f89d44314 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d0981ece-98a3-4c81-8f89-4c21a7f7a429 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Ogg started as a simple project of audio compression in 1993. In 2003, two Internet RFCs were published relating to the Ogg format. The Ogg bitstream published as RFC 3533 and RFC 3534 which includes the Internet content type of Ogg. It became very popular for being an open source multimedia container format. So it is mature enough for its use in the development of products and services.
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:72beebce-cb9e-40bb-a3b3-8ae91a100b63 .
+
+camssa:d1bbf5db-0513-4016-8d43-7b050b04b67d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "20"^^xsd:int .
+
+camssa:d1f255ec-5e95-4e63-b72d-fde17f87da5a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d2737f35-c8c2-466b-ac8a-89a2441a9e1e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of Ogg within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:da21b3ed-2287-4271-a758-b19cdc9f9f02 .
+
+camssa:d6e88388-47bf-4ae8-9b07-5dfbf0d662ca a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d77166b1-c7dd-4c2e-a6c8-9584fc8cc730 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:cd1f1d4c-b8ca-4a58-8cee-58b1e48d5c7b .
+
+camssa:d99fd638-50be-4897-80c5-6b222dcfeb55 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:da21b3ed-2287-4271-a758-b19cdc9f9f02 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:ebe30279-66f8-4b9e-b78d-c01bca8a05e4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f0707ab2-5c52-463b-915f-677a7cd98aba a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f240b823-cfc0-4140-bd84-2b975c613891 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Ogg is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification. 
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt"""@en ;
+    cav:refersTo camssa:831abce9-95fe-4e0c-b259-98540c8f48c2 .
+
+camssa:f25a3fd0-eb5b-4cf6-ab37-3a1b033e1021 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Ogg is maintained and developed by XIPH. All standards developed by XIPH have a mirror copy in IETF webpage which is an international community developing open standards. 
+
+Ogg XIPH reference:
+https://xiph.org/ogg/doc/rfc3533.txt
+
+Ogg mirror copy in IETF:
+https://tools.ietf.org/html/rfc3533
+
+Developer community IETF: 
+https://www.ietf.org/about/"""@en ;
+    cav:refersTo camssa:048dda5d-47db-48d3-9f6a-28b5d9344550 .
+
+camssa:f27a38db-2435-4155-be2b-28f08b7c0550 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:33129ef6-70ba-4026-b7e7-5edb9f904d59 .
+
+camssa:f36b7175-4c09-4f1b-a401-5d3b250d1e91 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:fd4b127a-0115-4927-addf-b815c9702ba8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+

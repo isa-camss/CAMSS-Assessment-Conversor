@@ -1,0 +1,783 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:71b734d93eea13de404910eb634943e6bc28f69d27f2f63bcbdf62230a832bb3 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:ede0ac69-546c-4d0d-8f9d-dff53f60e837 ;
+    skos:prefLabel "CAMSS Team European Commission DG DIGIT"@en .
+
+camssa:fb19892aa0caf757041c84df0cbb70aafa5ccd22120ae1d04c8c53b5efceed43 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:bce66feb1bd27f0f1851299d87c376e117bfe2e2baab0051ef93cf3227201982 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:002c1fe9-5a2d-40ea-96b0-c6b8749c03bf,
+        camssa:1acc496a-46c7-464c-9100-f16ed7e5aef0,
+        camssa:1afa8d04-b8be-412f-a83f-23bd4b184ff9,
+        camssa:1bd50ce7-b556-4f5c-a9b1-1c17b542eb9a,
+        camssa:1e336364-c826-42a5-9c47-cccc4ce3acb7,
+        camssa:2140d22d-407f-49b3-90dc-13274b0729fd,
+        camssa:25923ca5-6164-41e5-85dc-b1e6f4c69a68,
+        camssa:260d1f02-b5c8-4b16-a7ab-0457aedcf710,
+        camssa:2756766f-0ae3-40fa-b1b3-8e33e0ed1112,
+        camssa:29c71a57-cab4-4b70-8d9f-beb11095af7e,
+        camssa:2b052379-c3f2-4219-b0d4-64e79ded3b7d,
+        camssa:2c8c867a-795f-49a4-a599-bdaedd09780d,
+        camssa:30333251-d41a-476f-b870-7852755b5da7,
+        camssa:30fb7c21-d091-4620-b906-4b75288b9916,
+        camssa:33150f6f-7161-4e04-8bff-35d06262b4ae,
+        camssa:403d0a7f-2763-4855-b1b1-e676d7925fcf,
+        camssa:44f4e179-b2d8-40d4-a69f-c2b0009c11d2,
+        camssa:4a6adc7f-edf7-43ab-aca9-0e29e1eb1bd5,
+        camssa:514b20a9-f1a8-4980-abe6-520734ffcf4d,
+        camssa:52c44a61-37ea-4c71-980d-cbdb61bec524,
+        camssa:604987c4-b8ee-4b31-a5d8-18459a23434e,
+        camssa:648091e1-a5be-486c-aab9-1251ad6c1065,
+        camssa:67037d7a-2e54-445e-b22f-c9aeca025520,
+        camssa:6daadcfd-b332-4228-ada1-7713c67c0da6,
+        camssa:6f1c18dc-75fb-4174-809b-70a3600dbd20,
+        camssa:720b9758-1f64-4c40-bce4-5437ec2e547a,
+        camssa:76328f29-5f4c-428f-ad27-bb0b1ee50906,
+        camssa:777c7b56-9d4e-4989-b03c-bd85311e684d,
+        camssa:788f5882-00ba-4cd5-83da-55df2c17692e,
+        camssa:96753514-bf63-42d5-abb6-9172b3c2cbb4,
+        camssa:a159a3fa-6aec-426c-99ea-62ea9174e5fe,
+        camssa:a99a6939-dc9e-4b3c-9bfa-0d2598321b81,
+        camssa:b2f9c17f-9a56-46d1-a6a9-a1af5ff2dbd1,
+        camssa:b7f4165b-5ae2-4326-93d2-babd2afc2208,
+        camssa:c1b33d31-32e1-4334-ab78-41606237d440,
+        camssa:c26eed82-8b71-4994-b272-c03cf4e15ad9,
+        camssa:ce30dd4b-df36-4095-a6eb-b64ac5b21400,
+        camssa:d0dd7005-d566-44a9-ab37-e5f97a6f55fd,
+        camssa:d3c4ce83-abf4-4e21-aef2-548d97b480f4,
+        camssa:d8eae034-9b47-4db7-a24d-d2a03e8a02b3,
+        camssa:eb2a88f1-93da-4757-a8f3-52234c5f56e9,
+        camssa:eff80f92-0e07-469e-b19c-8d9ab24c39b3,
+        camssa:f75eaec8-b999-4887-b3eb-9161260af577,
+        camssa:fea29346-f0d7-4f9a-8327-5b2a5e279625 ;
+    cav:status status:Complete ;
+    dct:title "OASIS ebXML RegRep"@en .
+
+camssa:002c1fe9-5a2d-40ea-96b0-c6b8749c03bf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ebXML specification, as an enabler of electronic data interchange (EDI) functionalities over the Internet, has a wide-spread use in both private and public sectors. For instance, several initiatives in Europe have adopted the Universal Business Language (UBL), which is designed to be agnostic with respect to any EDI infrastructure and mapped to the ebXML core components, which proves the degree of usefulness of the specification and its suitability to be used in the development of digital solutions/services (see Joinup OASIS UBL reference).
+
+Joinup OASIS UBL reference:
+https://joinup.ec.europa.eu/collection/eprocurement/solution/oasis-universal-business-language-ubl/about
+
+ubl.xml.org reference:
+http://ubl.xml.org/ebXML'"""@en ;
+    cav:refersTo camssa:6ca7f6b3-a420-4f42-8ccc-8758b9362857 .
+
+camssa:1099513e-743d-42d5-9088-c84e2f0ddeef a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:1830b0c8-c396-45c1-9982-217b2c285668 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1acc496a-46c7-464c-9100-f16ed7e5aef0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ebXML specification describes a set of security features of ebXML RegRep and incorporates different specifications to enable the secure processing of data. According to the specification documentation, ebXML supports the management of authorized users of the ebXML service.
+
+ebXML reference:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html
+
+ebXML RegRep Part 2:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-rs-v4.0-os.html#__RefHeading__32703_422331532'"""@en ;
+    cav:refersTo camssa:e9668b31-b568-4edd-a6e0-2303ebac12f2 .
+
+camssa:1afa8d04-b8be-412f-a83f-23bd4b184ff9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ebXML RegRep is an enabler of digital service delivery channels as the specification contributes to the adoption of Collaboration Protocol Agreements (CPA), which describes how trading partners engage in electronic business collaborations through the exchange of electronic messages (see OASIS CPA reference).
+
+Open source CPA toolkit reference:
+http://ebxml.xml.org/news/open-source-cpa-toolkit
+
+Joinup CPA toolkit reference:
+https://joinup.ec.europa.eu/collection/ict-security/solution/cpa-creation-toolkit
+
+CPA reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ebxml-cppa'"""@en ;
+    cav:refersTo camssa:3b52d475-16f6-4d46-ae49-36bfec679bc7 .
+
+camssa:1bd50ce7-b556-4f5c-a9b1-1c17b542eb9a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data, 
+the second star corresponds to the availability of data as structured data. ebXML is an XML family standard 
+and therefore incorporates XML, allowing the publication of public data as open data. 
+
+ebXML reference, section 1:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html#__RefHeading__8798_474791649
+
+Tim Berners-Lee 5-star schema for Open Data:   
+https://5stardata.info/en/'"""@en ;
+    cav:refersTo camssa:2d12b706-fe36-4112-b66a-26ef9be376c3 .
+
+camssa:1c38a0a9-00d9-4675-9eb4-3f4e3916f0e7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "40"^^xsd:int .
+
+camssa:1e336364-c826-42a5-9c47-cccc4ce3acb7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The specification is included in two Member States' catalogues of recommended specifications. These Member States are Germany and Norway. Moreover, the specification is not mentioned in any other reference catalogue at European level.
+
+Catalogue reference Germany:
+https://www.cio.bund.de/Web/DE/Architekturen-und-Standards/SAGA/SAGA%205-aktuelle%20Version/saga_5_aktuelle_version_node.html 
+
+Catalogue reference Norway:
+https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards\""""@en ;
+    cav:refersTo camssa:50cd2f79-3c79-4902-a745-73b0626ba719 .
+
+camssa:20b87f41-fb09-4dcd-8e75-e4cb113693a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:2140d22d-407f-49b3-90dc-13274b0729fd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ebXML is part of several initiatives and projects at European level. The specification is included in The Once-Only Principle project (TOOP) and in different publi procurement initiatives (see Decision 2016/1765 reference).
+
+TOOP project reference:
+https://toop.eu/info
+
+Decision (EU) 2016/1765 reference:
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016D1765'"""@en ;
+    cav:refersTo camssa:9a4ab193-4f27-4818-ba17-92ff4b192412 .
+
+camssa:25923ca5-6164-41e5-85dc-b1e6f4c69a68 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ebXML is originally associated to the electronic business domain, specially ebXML v1.0. Since the ebXML v2.0 release, the specification started to be indistinctly used in any domain, although its implementation is usually associated to the business domain (see ebXML Business Process Specification reference). 
+
+OASIS ebXML Registry TC reference, Announcements section:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=regrep#announcements
+
+ebxml.xml.org reference:
+http://ebxml.xml.org/milestones
+ 
+ebXML Business Process Specification reference:
+https://docs.oasis-open.org/ebxml-bp/2.0.4/HTML/ebxmlbp-v2.0.4-Spec-cs-en.htm#_Toc148506924'"""@en ;
+    cav:refersTo camssa:c1a098c6-6a92-4c4e-b5c9-af0486aa04a1 .
+
+camssa:260d1f02-b5c8-4b16-a7ab-0457aedcf710 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ebXML RegRep is data preservation enabler. Specifically, the specification stores and indexes any type of electronic content and preserves it as defined in the ebXML Part 1 on the ebRIM (see ebXML Part 1 reference).
+
+ebXML reference:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html
+
+ebXML Part 1 reference:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-rim-v4.0-os.html#__RefHeading__39647_1821683062'"""@en ;
+    cav:refersTo camssa:71e9aae0-b18e-4648-a0d9-c9572d4a62be .
+
+camssa:2756766f-0ae3-40fa-b1b3-8e33e0ed1112 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData is maintained and developed by OASIS, which is an international community developing open
+standards; specifically, by the Technical Committee (TC). The specification maintenance is transparent, and even if its development and the approval process is restricted to the specification TC, anyone can contribute by submitting feedback to the mailing list. All the contributions are publicly available.
+
+Developer community OASIS: 
+https://www.oasis-open.org/org/
+
+OASIS ebXML Registry Technical Committee reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=regrep'"""@en ;
+    cav:refersTo camssa:439d1702-b0e7-4fba-9fc5-8997de00876f .
+
+camssa:282e5b32-4c46-41be-9130-71c85564d767 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:29c71a57-cab4-4b70-8d9f-beb11095af7e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ebXML specification was launched in 1999 jointly by OASIS and the United Nations Centre for Trade Facilitation and Electronic Business (United Nations/ECE agency CEFACT), and was known as the Global XML Framework for Electronic Business. ebXML v1.0 was published in 2001, ebXML v2.0 in 2002 under the ebXML RegRep TC, and approved as ISO 15000-2 and ISO 15000-3 in 2004. A major release (ebXML v3.0) appeared in 2005, including the documents ebXML Registry Information Model (RIM) v3.0 and ebXML Registry Services and Protocols (RS) v3.0 (respectively, Part 1 and Part 2). Finally, the latest version (ebXML v4.0) was published in 2012. 
+
+OASIS ebXML Registry TC reference, Announcements section:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=regrep#announcements
+
+ebxml.xml.org reference:
+http://ebxml.xml.org/milestones'"""@en ;
+    cav:refersTo camssa:1099513e-743d-42d5-9088-c84e2f0ddeef .
+
+camssa:2b052379-c3f2-4219-b0d4-64e79ded3b7d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are two Member States recommending ebXML in their ICT National Catalogues. These Member States are Germany and Norway.
+
+Catalogue reference Germany:
+https://www.cio.bund.de/Web/DE/Architekturen-und-Standards/SAGA/SAGA%205-aktuelle%20Version/saga_5_aktuelle_version_node.html 
+
+Catalogue reference Norway:
+https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:e35fbae3-039a-4273-99b5-a0bb3a5eff58 .
+
+camssa:2c8c867a-795f-49a4-a599-bdaedd09780d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ebXML is originally associated to the electronic business domain. However, the specification could be
+indistinctly implemented in other domains as the automobile domain (see ebXML application reference).
+
+OASIS ebXML Registry TC reference, Announcements section:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=regrep#announcements
+
+ebxml.xml.org reference:
+http://ebxml.xml.org/milestones
+ 
+ebXML application reference:
+http://ebxml.xml.org/resources'"""@en ;
+    cav:refersTo camssa:c8ae2603-70a8-4449-9749-4564e679a500 .
+
+camssa:2cf50118-21e4-4b58-ad5a-c2e6a26a394b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2d12b706-fe36-4112-b66a-26ef9be376c3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "80"^^xsd:int .
+
+camssa:30333251-d41a-476f-b870-7852755b5da7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ebXML specification is a family of XML-based standards that provides an open, XML-based infrastructure that enables the interoperable use of electronic business information. ebXML relies on XML, and therefore is not technology-agnostic.
+
+ebXML reference:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html'"""@en ;
+    cav:refersTo camssa:be0f8c2c-2dbe-47dc-95ad-2d707d2e53bd .
+
+camssa:30fb7c21-d091-4620-b906-4b75288b9916 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ebXML RepReg is not related to the protection of personal data. Therefore, this criterion is not applicable to this specification.
+
+ebXML reference, Notice section:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html'"""@en ;
+    cav:refersTo camssa:9e85e3ee-a4b5-44e8-a686-527a38bab03c .
+
+camssa:33150f6f-7161-4e04-8bff-35d06262b4ae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"There is no direct assessment on the effectiveness of the ebXML specification. However, according to the OASIS Technology Reports, several studies on different digital solutions from the public and private domain indirectly assess the specification's effectiveness.
+
+OASIS Technology Reports reference: 
+http://xml.coverpages.org/ebXML.html\""""@en ;
+    cav:refersTo camssa:1c38a0a9-00d9-4675-9eb4-3f4e3916f0e7 .
+
+camssa:35e7cf99-d6a5-4b01-882c-57e89cddc34c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3b52d475-16f6-4d46-ae49-36bfec679bc7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:403d0a7f-2763-4855-b1b1-e676d7925fcf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ebRIM and ebRS core specifications constitute the implementation requirements of ebXML (see ebXML, 
+Conformance reference). Each feature of the core components of the ebXML specification has a conformance requirement set for its implementation. By no means, their implementation is explicitly foreseen according to the ebXML documentation; moreover, there is no specific provision in order to do it separately.
+
+ebXML reference, Conformance section:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html#__RefHeading__53396_365468741'"""@en ;
+    cav:refersTo camssa:aa8417b2-bc7f-418e-9adf-76e3eac9efd5 .
+
+camssa:439d1702-b0e7-4fba-9fc5-8997de00876f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:44f4e179-b2d8-40d4-a69f-c2b0009c11d2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ebXML is already associated with EIRA ABBs in the EIRA Library Of Interoperability Specifications (ELIS). More specifically, ebXML can define the interoperability aspects of the Service Registration Service ABB of the 
+EIRA Technical View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:4d46ffb4-e660-414d-a6af-2ad9eb67679c .
+
+camssa:4a6adc7f-edf7-43ab-aca9-0e29e1eb1bd5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The OASIS Technical Committee, in charge of the development of ebXML, operates under RF (royalty-free) 
+on RAND (reasonable and non-discriminatory) Mode of the OASIS IPR Policy. Therefore, the specification is 
+licensed on a (F)RAND basis.
+
+ebXML reference, Notice section:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html
+
+OASIS Intellectual Property Rights Policy, section 10.2.2:
+https://www.oasis-open.org/policies-guidelines/ipr/'"""@en ;
+    cav:refersTo camssa:ca16340f-575f-4f4e-9efe-e99d053cfc83 .
+
+camssa:4d46ffb4-e660-414d-a6af-2ad9eb67679c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:4ec496c7-1620-4dc1-9a22-838dc12b6136 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "40"^^xsd:int .
+
+camssa:50cd2f79-3c79-4902-a745-73b0626ba719 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:514b20a9-f1a8-4980-abe6-520734ffcf4d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ebXML facilitates organisational interoperability agreements, since one of the specification's objectives is to boost interoperability within organisations. For example, ebXML enables the creation of Collaboration Protocol Agreement (CPA).
+
+ebXML reference:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html
+
+Joinup CPA toolkit reference:
+https://joinup.ec.europa.eu/collection/ict-security/solution/cpa-creation-toolkit\""""@en ;
+    cav:refersTo camssa:ac36b5cb-ede4-485c-9a12-d052718a7f3b .
+
+camssa:52c44a61-37ea-4c71-980d-cbdb61bec524 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The OASIS Technical Committee, in charge of the development of ebXML, operates under RF (royalty-free) on RAND (reasonable and non-discriminatory) Mode of the OASIS IPR Policy. Therefore, the specification is licensed on a Royalty-free.
+
+OASIS Intellectual Property guidelines, section 5.2:
+https://www.oasis-open.org/policies-guidelines/ipr/'"""@en ;
+    cav:refersTo camssa:35e7cf99-d6a5-4b01-882c-57e89cddc34c .
+
+camssa:5e3c36e4-816d-4493-8f17-9ee335ac2362 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "80"^^xsd:int .
+
+camssa:604987c4-b8ee-4b31-a5d8-18459a23434e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data, 
+the second star corresponds to the availability of data as structured data. ebXML is a standard that proposes 
+an XML-based infrastructure enabling the user to store data in a structured manner. Then, this specification 
+supports the publication of data as open data.
+
+ebXML reference, section 1:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html#__RefHeading__8798_474791649
+
+Tim Berners-Lee 5-star schema for Open Data:   
+https://5stardata.info/en/'"""@en ;
+    cav:refersTo camssa:c88b4d09-eb54-44c3-9903-b1130932d1f6 .
+
+camssa:648091e1-a5be-486c-aab9-1251ad6c1065 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ebXML provides a set of components enabling users (data users) to store and work with any type of electronic content, fostering the visibility of administrations. As well as providing an electronic data interchange model (that is, the ebRIM and the ebRS core components), the specification contributes and promotes to some degree to the visibility of public services' implementations (see ebXML reference, Conformance section). For instance, there is the ESPD-EDM on EU procurement, which relies on the Universal Business Language (UBL) mark-up language and facilitates the promotion and support of the ESPD service.
+
+ebXML reference, Conformance section:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.
+html#__RefHeading__53396_365468741
+
+ESPD-EDM ebXML reference:
+https://docs.ted.europa.eu/ESPD-EDM/3.0.1/xml_technical_handbook.html#_adoption_of_ubl_2_3\""""@en ;
+    cav:refersTo camssa:e41ee3ff-3f1e-418d-bb37-bb69a0f1c1b0 .
+
+camssa:66feab59-84b5-44c9-adac-d085f6a1f64e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:67037d7a-2e54-445e-b22f-c9aeca025520 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'As defined on the OASIS ebXML Registry Technical Committee (TC), only TC members are involved in the 
+development of the ebXML specification. External contribution to this committee is possible through open 
+channels (see Mail Lists and Comments reference).
+
+OASIS ebXML Registry Technical Committee reference:
+https://www.oasis-open.org/committees/comments/index.php?wg_abbrev=regrep
+
+Mail Lists and Comments reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=regrep#feedback'"""@en ;
+    cav:refersTo camssa:5e3c36e4-816d-4493-8f17-9ee335ac2362 .
+
+camssa:6a8e9f61-e0d5-4e28-8c43-7e1fa86440fe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "20"^^xsd:int .
+
+camssa:6c438dff-15e4-4744-a36f-cc0545a849f8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6ca7f6b3-a420-4f42-8ccc-8758b9362857 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6daadcfd-b332-4228-ada1-7713c67c0da6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The ebXML specification provides guidelines to validate ebXML services. ebXML RegRep Part 2 proposes a validator plugin that evaluates any client's sever's ebXML conformance requirements.
+
+ebXML reference:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html
+
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-rs-v4.0-os.html#__RefHeading__32527_422331532\""""@en ;
+    cav:refersTo camssa:b2e7a8bb-cdd0-49aa-a90a-fea467272e1c .
+
+camssa:6f1c18dc-75fb-4174-809b-70a3600dbd20 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ebXML boosts digitisation of data exchange and processing within organisations. It is the case of the Open source CPA toolkit, which is a web-service provider that simplifies business transactions, as it enables the creation of Collaboration Protocol Agreements (CPA).
+
+Open source CPA toolkit reference:
+http://ebxml.xml.org/news/open-source-cpa-toolkit
+
+Joinup CPA toolkit reference:
+https://joinup.ec.europa.eu/collection/ict-security/solution/cpa-creation-toolkit'"""@en ;
+    cav:refersTo camssa:de0f476e-217c-486a-916a-1363d8b0a255 .
+
+camssa:7011ac53-e338-412c-a934-8a385502cccc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:71e9aae0-b18e-4648-a0d9-c9572d4a62be a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:720b9758-1f64-4c40-bce4-5437ec2e547a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ebXML does not allow customisation nor provides any guidelines to customise any of the specification features.
+
+ebXML reference:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html'"""@en ;
+    cav:refersTo camssa:6a8e9f61-e0d5-4e28-8c43-7e1fa86440fe .
+
+camssa:73261746-9f1b-487d-9f96-235e5d20e42c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:74877a6d-33e1-4f6b-a082-008bd30638c4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "80"^^xsd:int .
+
+camssa:76328f29-5f4c-428f-ad27-bb0b1ee50906 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"There is no direct assessment on the efficiency of the ebXML specification. However, according to the OASIS Technology Reports, several studies on different digital solutions from the public and private domain indirectly assess the specification's efficiency.
+
+OASIS Technology Reports reference: 
+http://xml.coverpages.org/ebXML.html\""""@en ;
+    cav:refersTo camssa:4ec496c7-1620-4dc1-9a22-838dc12b6136 .
+
+camssa:777c7b56-9d4e-4989-b03c-bd85311e684d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ebXML is included in 2 national catalogues of recommended specifications. They belong to Germany and 
+Norway. The National Interoperability Framework (NIF) of these Member States varies when aligned with the 
+European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. While Norway performs well above the EU average, Germany shows an imbalanced level of implementation of the EIF Principles due the absence of data on this respect.
+
+Catalogue reference Germany:
+https://www.cio.bund.de/Web/DE/Architekturen-und-Standards/SAGA/SAGA%205-aktuelle%20Version
+/saga_5_aktuelle_version_node.html 
+
+Catalogue reference Norway:
+https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/digital-public-
+administration-factsheets-2021'"""@en ;
+    cav:refersTo camssa:282e5b32-4c46-41be-9130-71c85564d767 .
+
+camssa:788f5882-00ba-4cd5-83da-55df2c17692e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The OASIS ebXML Core (ebCore) Technical Committee promotes the sharing of data and results and helps accelerate the specification adoption throughout the international community, particularly within government agencies. In this sense, the specification encourages both the creation of communities and the sharing of their data and results on international platforms.
+
+OASIS ebXML Core (ebCore) Technical Committee reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ebcore'"""@en ;
+    cav:refersTo camssa:6c438dff-15e4-4744-a36f-cc0545a849f8 .
+
+camssa:7f40cdbf-c459-4dfa-9e42-e1576243bcc7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8ec16d2e-96f7-4fb6-8e7b-42ec1d730fa6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:96753514-bf63-42d5-abb6-9172b3c2cbb4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ebXML RegRep is used within the EU TOOP project, which is an enabler of the Once-Only Principle and has currently three pilot studies in progress. A pilot is the Peppol Tool Directory, which stores and indexes data from different providers for searcheability purposes.
+
+Once-Only Principle reference:
+https://ec.europa.eu/isa2/isa2conf18/once-only-principle-project-toop_en
+
+Peppol Tool Directory reference:
+https://directory.acc.exchange.toop.eu/public/locale-en_US/menuitem-about'"""@en ;
+    cav:refersTo camssa:7011ac53-e338-412c-a934-8a385502cccc .
+
+camssa:9a4ab193-4f27-4818-ba17-92ff4b192412 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9e85e3ee-a4b5-44e8-a686-527a38bab03c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9ee0496e-f459-43a0-a5ff-2e6108b9228b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "20"^^xsd:int .
+
+camssa:a159a3fa-6aec-426c-99ea-62ea9174e5fe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no mention of ebXML in any official document stating its conformance in regards to Regulation 1025/2012.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:9ee0496e-f459-43a0-a5ff-2e6108b9228b .
+
+camssa:a99a6939-dc9e-4b3c-9bfa-0d2598321b81 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ebXML provides a set of components enabling users (data users) to store and work with any type of electronic content, fostering the comprehensibility of administrations' rules and processes. As well as providing an electronic data interchange model (that is, the ebRIM and the ebRS core components), the specification contributes and promotes to the comprehensibility of public services' implementations (see ebXML reference, Conformance section). For instance, there there is the ESPD-EDM on EU procurement, which relies on the Universal Business Language (UBL) and facilitates the implementation of the ESPD service over the Member States.
+
+ebXML reference, Conformance section:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html#__RefHeading__53396_365468741
+
+ESPD-EDM ebXML reference:
+https://docs.ted.europa.eu/ESPD-EDM/3.0.1/xml_technical_handbook.html#_adoption_of_ubl_2_3\""""@en ;
+    cav:refersTo camssa:7f40cdbf-c459-4dfa-9e42-e1576243bcc7 .
+
+camssa:aa8417b2-bc7f-418e-9adf-76e3eac9efd5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "80"^^xsd:int .
+
+camssa:ac36b5cb-ede4-485c-9a12-d052718a7f3b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:adca367b-0e1b-4de7-bf72-e8aec5cb5d5f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b2e7a8bb-cdd0-49aa-a90a-fea467272e1c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "80"^^xsd:int .
+
+camssa:b2f9c17f-9a56-46d1-a6a9-a1af5ff2dbd1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'An ebXML RegRep stores any type of electronic content, such as text documents, images, sound or video, and provides a set of protocols enabling data transfer among systems. For example, the ebXML specification has enabled the implementation of the e-SENS AS4 profile. Therefore, the specification enables data portability.
+
+ebXML reference:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html
+
+e-SENS AS4 profile reference:
+https://ec.europa.eu/digital-building-blocks/wikis/display/CEFDIGITAL/e-SENS+AS4+-+1.12'"""@en ;
+    cav:refersTo camssa:1830b0c8-c396-45c1-9982-217b2c285668 .
+
+camssa:b7f4165b-5ae2-4326-93d2-babd2afc2208 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ebXML specification is recommended in several European Commission Decisions for public procurement. 
+
+Public procurement reference:
+https://joinup.ec.europa.eu/collection/ict-standards-procurement/identified-ict-specifications-procurement'"""@en ;
+    cav:refersTo camssa:8ec16d2e-96f7-4fb6-8e7b-42ec1d730fa6 .
+
+camssa:be0f8c2c-2dbe-47dc-95ad-2d707d2e53bd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:int .
+
+camssa:c1a098c6-6a92-4c4e-b5c9-af0486aa04a1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c1b33d31-32e1-4334-ab78-41606237d440 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ebXML is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification.
+
+ebXML reference:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html'"""@en ;
+    cav:refersTo camssa:c938e5d7-e68d-4e88-8826-88c99865209a .
+
+camssa:c26eed82-8b71-4994-b272-c03cf4e15ad9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ebXML provides a set of components enabling users (data users) to store and work with any type of electronic content, fostering the comprehensibility of administrations' rules and processes. When combined with other specifications, ebXML can enable the exposure of interfaces. For example, the specification in combination with the ebXML Business Process Specification (ebXML CCTS ISO/TS 15000-5:2005) fosters interoperability between eForms and ESPD services (see ESPD-EDM UBL adoption reference).
+
+ebXML reference, Conformance section:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html#__RefHeading__53396_365468741
+
+ESPD-EDM UBL Codes and identifiers reference:
+https://docs.ted.europa.eu/ESPD-EDM/3.0.1/xml_technical_handbook.html#_compulsory_attributes\""""@en ;
+    cav:refersTo camssa:74877a6d-33e1-4f6b-a082-008bd30638c4 .
+
+camssa:c88b4d09-eb54-44c3-9903-b1130932d1f6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c8ae2603-70a8-4449-9749-4564e679a500 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c938e5d7-e68d-4e88-8826-88c99865209a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ca16340f-575f-4f4e-9efe-e99d053cfc83 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ce30dd4b-df36-4095-a6eb-b64ac5b21400 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ebXML is not related to te-accessiblity. Therefore, this criterion is not applicable to this specification.
+
+ebXML reference:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html'"""@en ;
+    cav:refersTo camssa:dc04a6a3-4c69-47c7-80c3-5ec39ca77496 .
+
+camssa:d0dd7005-d566-44a9-ab37-e5f97a6f55fd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ebXML allows extensibility or the addition of plugins in the specification's ebRIM and ebRS components. Although such extensibility is limited to some of the ebRIM and ebRS features, ebXML RegRep 4.0 - Part 1 and Part 2 specify how extensibility may be achieved, that is, either by extending ebRIM or modifying the ebRS service interface. It is the case of the ebXML RegRep SWG specification (see ebXML RegRep SWG reference), which is an Open Geospatial Consortium's authoring of the ebXML specification and which deals with the use of geo-data in a variety of contexts.
+
+ebXML reference:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html
+
+ebXML RegRep Part 1, Extending ebRIM section:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/csprd01/regrep-core-rim-v4.0-csprd01.html#__RefHeading__39225_1821683062
+
+ebXML RegRep Part 2, Cataloguer Plugin section:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-rs-v4.0-os.html#__RefHeading__32575_422331532
+
+ebXML RegRep SWG reference:
+https://www.ogc.org/projects/groups/ebxmlregrepswg\""""@en ;
+    cav:refersTo camssa:e6509be2-70f4-4003-84b5-fef0a5687bad .
+
+camssa:d3c4ce83-abf4-4e21-aef2-548d97b480f4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'As defined on the OASIS ebXML Registry Technical Committee (TC), only this TC is involved in the release 
+lifecycle of the specification. External contribution to this committee is possible through the Comment List, 
+where potential contributors may provide their feedback to members of the OASIS ebXML Registry TC. All 
+contribution from TC members and others regarding the release lifecylce of the specification is publicly available in the TC archive.
+
+OASIS ebXML Registry TC, Mail Lists and Comments section:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=regrep#feedback
+
+Comment List reference:
+https://www.oasis-open.org/committees/comments/index.php?wg_abbrev=regrep
+
+OASIS ebXML Registry TC archive reference:
+https://lists.oasis-open.org/archives/regrep/'"""@en ;
+    cav:refersTo camssa:f34ccb2a-7619-4f3a-983b-30c42debb7a9 .
+
+camssa:d8eae034-9b47-4db7-a24d-d2a03e8a02b3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'An ebXML RegRep stores any type of electronic content, such as text documents, images, sound or video, and provides a set of protocols enabling data transfer among systems. ebXML is an active asset in the development of The Once-Only Principle Project (TOOP project). Therefore, the specification enables data portability between systems supporting the evolution of European public services.
+
+ebXML reference:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html
+
+TOOP project reference:
+https://toop.eu/info'"""@en ;
+    cav:refersTo camssa:66feab59-84b5-44c9-adac-d085f6a1f64e .
+
+camssa:dc04a6a3-4c69-47c7-80c3-5ec39ca77496 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:de0f476e-217c-486a-916a-1363d8b0a255 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e35fbae3-039a-4273-99b5-a0bb3a5eff58 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e41ee3ff-3f1e-418d-bb37-bb69a0f1c1b0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "60"^^xsd:int .
+
+camssa:e6509be2-70f4-4003-84b5-fef0a5687bad a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:e9668b31-b568-4edd-a6e0-2303ebac12f2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:eb2a88f1-93da-4757-a8f3-52234c5f56e9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ebXML specification is a family of XML-based standards that provides an open, XML-based infrastructure that enables the interoperable use of electronic business information. In this sense, ebXML is independent of any platform because XML it is so. Therefore, ebXML is platform-agnostic.
+
+ebXML reference:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html'"""@en ;
+    cav:refersTo camssa:73261746-9f1b-487d-9f96-235e5d20e42c .
+
+camssa:ede0ac69-546c-4d0d-8f9d-dff53f60e837 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@eu.europa.eu" .
+
+camssa:eff80f92-0e07-469e-b19c-8d9ab24c39b3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"ebXML provides a set of components enabling users (data users) to store and work with any type of electronic content. The specification's ebRIM and ebRS components provides an ebXML infrastructure model, as well as a service interface contributing to this end. Therefore, ebXML facilitates the modelling of business processes.
+
+ebXML reference:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html\""""@en ;
+    cav:refersTo camssa:2cf50118-21e4-4b58-ad5a-c2e6a26a394b .
+
+camssa:f34ccb2a-7619-4f3a-983b-30c42debb7a9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "40"^^xsd:int .
+
+camssa:f75eaec8-b999-4887-b3eb-9161260af577 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The OASIS ebXML Core (ebCore) Technical Committee promotes the sharing of data and results and helps accelerate the specification adoption throughout the international community, particularly within government agencies. In this sense, the specification encourages both the creation of communities and the sharing of their data and results on national platforms.
+
+OASIS ebXML Core (ebCore) Technical Committee reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ebcore'"""@en ;
+    cav:refersTo camssa:20b87f41-fb09-4dcd-8e75-e4cb113693a2 .
+
+camssa:fea29346-f0d7-4f9a-8327-5b2a5e279625 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ebXML specification describes a set of security features of ebXML RegRep and incorporates different specifications to enable the secure exchange of data. For example, ebXML incorporates the WS-Security Core Specification (v1.1), which supports confidentiality of all ebXML RegRep protocols defined by this specification when those protocols are bound to SOAP.
+
+ebXML reference:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-overview-v4.0-os.html
+
+ebXML RegRep Part 2:
+http://docs.oasis-open.org/regrep/regrep-core/v4.0/os/regrep-core-rs-v4.0-os.html#__RefHeading__32703_422331532'"""@en ;
+    cav:refersTo camssa:adca367b-0e1b-4de7-bf72-e8aec5cb5d5f .
+

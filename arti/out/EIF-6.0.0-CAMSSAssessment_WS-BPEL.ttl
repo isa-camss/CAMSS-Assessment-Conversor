@@ -1,0 +1,621 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:060a5380b24b20ba703a48672ee51f26fd812f6154c129e2140eccbeb29ca84b a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:0df446c93fc7fc59add5449d846f47101b10b6e30e88a143d6c523aad8117c28 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:04600ed0-f034-43f1-9fc8-c365e17af3f9,
+        camssa:05ad3dd6-3ae7-4ba2-8a5a-1d782630bd9b,
+        camssa:0ac5a871-0c96-4e9d-9c67-cfb0cc827d4f,
+        camssa:0b4f000a-76ee-46f0-a459-11d8e7810e11,
+        camssa:0e371bc1-f46d-4e00-a1fb-805120084d78,
+        camssa:134b2f2b-cb38-4388-b079-0cc2ff648b74,
+        camssa:15b02bef-dc9e-4380-b3cd-7d8876c2e4c2,
+        camssa:16d8aea5-48b3-46c2-9f2e-486142ec0ba1,
+        camssa:1dcd1e01-fbc5-48b5-a19d-b3942821324f,
+        camssa:1e3aa44d-dc5f-4dfd-ba4d-dec5d2a2e375,
+        camssa:216059b0-e2d6-473a-8fee-3d2df7f9e356,
+        camssa:298366da-a7ff-48ba-8396-493043cb107f,
+        camssa:3227ff10-ad94-429b-ad12-bae26600b488,
+        camssa:34676c45-4874-4d0a-a3ec-6c76218b61c7,
+        camssa:3b07272c-b039-4f8f-92d8-1543e455eea9,
+        camssa:3d06cd2b-00ec-4cab-a6f7-0d10c8d3a114,
+        camssa:40a79a23-9ce7-4599-ae95-24a9816317f6,
+        camssa:40e4acf4-f514-4cd8-a17a-c7889df7c9b2,
+        camssa:412c0c2a-e26b-40e6-9de9-5d17b7ea11cc,
+        camssa:46a78dfb-1724-4e5a-8bbf-7dcf98d23447,
+        camssa:480a23dc-36ce-4a46-bc7f-28fa6cb907e0,
+        camssa:4d873dd3-ca76-466b-a6a3-e7d068331946,
+        camssa:556006e6-22d6-4236-85b3-e0674a19e6b0,
+        camssa:58b2ad97-8300-41b2-b6a4-5f2ff6e46cf5,
+        camssa:5be0194f-0b37-492c-9695-6558fae649f6,
+        camssa:6a10a6c6-f58f-4891-b70e-b0865e8dc81f,
+        camssa:6f90031b-2a1f-4a3d-a7a1-889a402527c1,
+        camssa:752e756c-3279-4505-bac4-464e8ae1afd1,
+        camssa:7e0eadb1-ceac-4edc-8113-287ed747a1b3,
+        camssa:8b00c06a-cc3a-4857-9827-da6926c04d43,
+        camssa:aed2fec7-5e13-4d45-b82e-518b80cb3cf0,
+        camssa:af3fe7e5-ee88-4e5b-a45b-3e5131458c83,
+        camssa:b57775a2-2f7e-49ae-a030-1e6e865ea050,
+        camssa:c30ecc4a-ed16-474f-bc56-3aec6364ce6e,
+        camssa:c659348c-40e2-4be9-9841-ac2d1b225f81,
+        camssa:cbfb2a9f-09d0-4dd4-9d1b-dd08f9f1944b,
+        camssa:d7a2ef34-0a86-4ee1-97df-ed71f69af013,
+        camssa:da6aa919-4335-43f9-bd1c-84e05a392090,
+        camssa:e1e1e079-568c-4c89-958f-a3745bd22c22,
+        camssa:e7668eed-2826-4f76-8fa1-49ebeca81c27,
+        camssa:e868a930-aba3-4436-aacc-6b9e2f5a011c,
+        camssa:f01da7b1-346b-4d80-9970-dfabc12efd77,
+        camssa:f88c4de6-3793-4653-be2f-1c40a5067740,
+        camssa:fb67ebbf-8a00-4ba1-a589-3c0a543042c8,
+        camssa:fcbe6d50-25d7-4f7a-b0b8-565de49d1377 ;
+    cav:status status:Complete ;
+    dct:title "Web Services Business Process Execution Language (WS-BPEL) v2.0"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:0bbe5e07-593e-4e69-8e50-5886a329a334 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:04600ed0-f034-43f1-9fc8-c365e17af3f9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WS-BPEL is one of the programming language that aims to make any process possible. Moreover, developers can have stability to implement and plan through WS-BPEL as it is one of the most used programming languages in web services.
+
+WS-BPEL OASIS reference:
+http://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html"""@en ;
+    cav:refersTo camssa:cb5b0546-0dd2-4cf9-bb07-144c27b133f5 .
+
+camssa:05ad3dd6-3ae7-4ba2-8a5a-1d782630bd9b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9a09a324-0296-436a-b570-8fec2a5a6e4c .
+
+camssa:0ac5a871-0c96-4e9d-9c67-cfb0cc827d4f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As one of the main markup languages for encode web resources, WS-BPEL is involved in the data exchange. WS-BPEL files are largely used to exchange information through the web.
+
+The specification:
+http://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html
+
+As one of the main markup languages for encode web resources, WS-BPEL is involved in the data exchange. WS-BPEL files are largely used to exchange information through the web.
+
+The specification:
+http://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html"""@en ;
+    cav:refersTo camssa:26d67981-6bb3-4ea2-8026-ae1001375872 .
+
+camssa:0b4f000a-76ee-46f0-a459-11d8e7810e11 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+None"""@en ;
+    cav:refersTo camssa:0d86fc37-1996-45e6-b21b-ac4baa884d13 .
+
+camssa:0bbe5e07-593e-4e69-8e50-5886a329a334 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:0bd4c24d-0701-4da3-89fd-73573ecc5124 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0d385cbc-3f38-42a0-81bf-a7a8483c05b4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:0d86fc37-1996-45e6-b21b-ac4baa884d13 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:0e371bc1-f46d-4e00-a1fb-805120084d78 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no Member State that includes WS-BPEL in their national catalogue with The National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:5f8cdf30-fa09-4c70-8588-4689ed854011 .
+
+camssa:0f408afa-34a4-487d-bdad-56ff53790bd9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:11d3de69-c007-420e-b8ea-f3d642395950 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:134b2f2b-cb38-4388-b079-0cc2ff648b74 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is a code validator for WS-BPEL that helps developers create well-formed, valid and standard-compliant code. The code is checked for errors and the user is notified if validation fails.
+ 
+The WS-BPEL Validator: 
+https://docs.oracle.com/cd/E19182-01/821-0539/cnfg_bpel-guide-validation_r/index.html"""@en ;
+    cav:refersTo camssa:69809883-3577-4ebe-9803-774b098433c5 .
+
+camssa:138e88c2-532f-4cf1-9b07-17c4b3995d0f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:15b02bef-dc9e-4380-b3cd-7d8876c2e4c2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:b2bc61ec-794d-40bd-bfaa-abbb649b5539 .
+
+camssa:16d8aea5-48b3-46c2-9f2e-486142ec0ba1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification was developed by 2004, by OASIS, and has been evolved through different versions. The current version is the 2.0, which is available since the 2007, which demonstrates that it has overcome the possible issues hampering its use and now it is established and used. 
+
+WS-BPEL OASIS reference:
+http://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html
+
+OASIS webpage:  
+https://www.oasis-open.org/"""@en ;
+    cav:refersTo camssa:77191c05-25f5-4a1f-b166-5eed5f68cb28 .
+
+camssa:19aeeedb-4a47-4198-9ed4-759514a89e09 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:1dcd1e01-fbc5-48b5-a19d-b3942821324f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:2fbc5859-85ac-40fe-863c-fb27ecbb2fb1 .
+
+camssa:1e3aa44d-dc5f-4dfd-ba4d-dec5d2a2e375 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:2bf66da3-d28f-487d-87d8-cad20d926088 .
+
+camssa:216059b0-e2d6-473a-8fee-3d2df7f9e356 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of WS-BPEL is not related to the  delivery of multilingual public services. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:3b68de46-1f9b-4ca6-abee-ef223ab26049 .
+
+camssa:22172376-24ba-462b-b732-69d276a9e327 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:26d67981-6bb3-4ea2-8026-ae1001375872 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:298366da-a7ff-48ba-8396-493043cb107f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WS-BPEL is maintained and developed by OASIS which is an international community developing open standards. 
+
+Developer community OASIS: 
+https://www.oasis-open.org/org/"""@en ;
+    cav:refersTo camssa:a1105241-1a88-4acc-b2d7-15499ce44597 .
+
+camssa:2ab4d872-8858-4fc7-8701-5885e5636f55 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2bf66da3-d28f-487d-87d8-cad20d926088 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:2fbc5859-85ac-40fe-863c-fb27ecbb2fb1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:3227ff10-ad94-429b-ad12-bae26600b488 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "No formal agreement has been found established between organisations or administrations involved in European public service provision including the usage of WS-BPEL."@en ;
+    cav:refersTo camssa:4ece565b-8ea9-4bb4-b4f6-a285af84356c .
+
+camssa:34676c45-4874-4d0a-a3ec-6c76218b61c7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WS-BPEL is included in some national catalogues from Member States. A total of 3 countries listed the WS-BPEL within their national catalogues. They belong to Cyprus, France and Germany.
+
+See CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:f6b6340d-151e-4e64-9efc-2b7cb3a04ca4 .
+
+camssa:35ab7c8d-524e-4cee-bfa9-4f1ac79ad2f5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:38481ec6-9c3f-4278-a57d-567baf78256a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "20"^^xsd:int .
+
+camssa:388f92cd-7ced-4b3b-94bc-17ab63e47e96 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "0+20"^^xsd:int .
+
+camssa:3b07272c-b039-4f8f-92d8-1543e455eea9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The main objective of WS-BPEL is the business process execution for web services, which helps to retrieve and consume data from different sources. However, the availability of interfaces is not the purpose of the specification, so this criterion is not applicable for this specification. "@en ;
+    cav:refersTo camssa:0d385cbc-3f38-42a0-81bf-a7a8483c05b4 .
+
+camssa:3b68de46-1f9b-4ca6-abee-ef223ab26049 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3b7ed9b2-d669-4b9d-aa5a-1b7cab12d89d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3d06cd2b-00ec-4cab-a6f7-0d10c8d3a114 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:22172376-24ba-462b-b732-69d276a9e327 .
+
+camssa:3e06e37e-d7a6-41c3-85a5-c75ab9c56e66 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:40a79a23-9ce7-4599-ae95-24a9816317f6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of WS-BPEL is not related to the once-only principle. Therefore, this criterion is not applicable to the specification.
+
+The specification:
+http://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html"""@en ;
+    cav:refersTo camssa:708eb2cc-60e5-44ab-be66-f61fb3afbd4d .
+
+camssa:40e4acf4-f514-4cd8-a17a-c7889df7c9b2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:b84e909c-92cf-4019-9057-e49b8df9222b .
+
+camssa:412c0c2a-e26b-40e6-9de9-5d17b7ea11cc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of WS-BPEL is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:f64e91f1-f8be-4887-8ec9-2f155e828c2b .
+
+camssa:46a78dfb-1724-4e5a-8bbf-7dcf98d23447 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent of any software, hardware, or operating system. So it can be said that WS-BPEL is independent of any specific technology or platform. 
+
+The specification:
+http://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html
+"""@en ;
+    cav:refersTo camssa:e0327d5e-3fe9-42d8-8bbb-11ee8a97b100 .
+
+camssa:480a23dc-36ce-4a46-bc7f-28fa6cb907e0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are not many studies assessing the specification in terms of effectiveness and efficiency. The document provided is an empirical study on the testing of WS-BPEL web services in the current environment of web services based on the cloud. 
+
+Study about WS-BPEL:
+https://ieeexplore.ieee.org/document/8204552"""@en ;
+    cav:refersTo camssa:52fdef7b-5a35-40aa-a333-c8de6492738c .
+
+camssa:4d873dd3-ca76-466b-a6a3-e7d068331946 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:97b3d8a9-b485-46fb-91a7-31bee9c105bd .
+
+camssa:4ece565b-8ea9-4bb4-b4f6-a285af84356c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "20"^^xsd:int .
+
+camssa:52fdef7b-5a35-40aa-a333-c8de6492738c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:556006e6-22d6-4236-85b3-e0674a19e6b0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of WS-BPEL is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:0bd4c24d-0701-4da3-89fd-73573ecc5124 .
+
+camssa:56d729bd-0045-4f58-b50a-5869a4dff215 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:58b2ad97-8300-41b2-b6a4-5f2ff6e46cf5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WS-BPEL is a business domain agnostic specification.
+
+The specification:
+http://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html
+
+WS-BPEL is a business domain agnostic specification.
+
+The specification:
+http://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html"""@en ;
+    cav:refersTo camssa:97664302-3208-4464-a1b9-b6fc1a66cd6d .
+
+camssa:5be0194f-0b37-492c-9695-6558fae649f6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The OASIS Technical Committee, in charge of the development of WS-BPEL, operates under RF on RAND Mode of the OASIS IPR Policy. The specification is licensed on a Royalty-free and (F)RAND basis.
+
+OASIS IPR:
+https://www.oasis-open.org/committees/security/ipr.php
+https://www.oasis-open.org/policies-guidelines/ipr
+
+The OASIS Technical Committee, in charge of the development of WS-BPEL, operates under RF on RAND Mode of the OASIS IPR Policy. The specification is licensed on a Royalty-free and (F)RAND basis.
+
+OASIS IPR:
+https://www.oasis-open.org/committees/security/ipr.php
+https://www.oasis-open.org/policies-guidelines/ipr"""@en ;
+    cav:refersTo camssa:5ed06bc4-68e2-475b-a2f2-9e9cc3954c02 .
+
+camssa:5ed06bc4-68e2-475b-a2f2-9e9cc3954c02 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:5f8cdf30-fa09-4c70-8588-4689ed854011 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:69809883-3577-4ebe-9803-774b098433c5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:6a10a6c6-f58f-4891-b70e-b0865e8dc81f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By allowing public administration to consume and share information with others, it  fosters the visibility of data (e.g. Administrative rules, processes etc.) and facilitates public administrations decision-making. 
+
+The specification:
+http://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html"""@en ;
+    cav:refersTo camssa:90edcbd0-7235-4e6e-a557-6158981217fd .
+
+camssa:6f90031b-2a1f-4a3d-a7a1-889a402527c1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:11d3de69-c007-420e-b8ea-f3d642395950 .
+
+camssa:708eb2cc-60e5-44ab-be66-f61fb3afbd4d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:752e756c-3279-4505-bac4-464e8ae1afd1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:7f6887fe-ea80-4bd9-b491-7c8b416fbc13 .
+
+camssa:77191c05-25f5-4a1f-b166-5eed5f68cb28 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:7e0eadb1-ceac-4edc-8113-287ed747a1b3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are not many studies assessing the specification in terms of effectiveness and efficiency. The document provided is an empirical study on the testing of WS-BPEL web services in the current environment of web services based on the cloud. 
+
+Study about WS-BPEL:
+https://ieeexplore.ieee.org/document/8204552"""@en ;
+    cav:refersTo camssa:138e88c2-532f-4cf1-9b07-17c4b3995d0f .
+
+camssa:7f6887fe-ea80-4bd9-b491-7c8b416fbc13 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:8b00c06a-cc3a-4857-9827-da6926c04d43 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "WS-BPEL is not included in any catalogue of standards at supra-national level. "@en ;
+    cav:refersTo camssa:aed7700e-7b41-45ea-a40d-534d7b709835 .
+
+camssa:8f2dc8fe-796b-4692-b022-227b51bba03c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:90edcbd0-7235-4e6e-a557-6158981217fd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:97664302-3208-4464-a1b9-b6fc1a66cd6d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:97b3d8a9-b485-46fb-91a7-31bee9c105bd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9a09a324-0296-436a-b570-8fec2a5a6e4c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a1105241-1a88-4acc-b2d7-15499ce44597 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:aed2fec7-5e13-4d45-b82e-518b80cb3cf0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification in itself does not  include security features, but the security considerations aim to put together the benefits of the WS-BPEL and the WS-Security specifications, that can be used to secure the Web services transactions. Therefore, it can be said that the orchestration of web services combining both specifications can ensure the trustworthy data exchange between administrations and stakeholders. 
+
+The specification: 
+
+http://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html"""@en ;
+    cav:refersTo camssa:38481ec6-9c3f-4278-a57d-567baf78256a .
+
+camssa:aed7700e-7b41-45ea-a40d-534d7b709835 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:af3fe7e5-ee88-4e5b-a45b-3e5131458c83 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:faeeb965-5902-4551-b310-c4687c420a96 .
+
+camssa:b2bc61ec-794d-40bd-bfaa-abbb649b5539 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b57775a2-2f7e-49ae-a030-1e6e865ea050 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As WS-BPEL is a language used for the composition of web services, WS-BPEL helps and fosters the visibility of administration data, and services. Moreover, it eases the decision-making process by ensuring the data exchange and reuse. 
+
+The specification: 
+http://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html"""@en ;
+    cav:refersTo camssa:b6e7b547-f68e-420c-bea4-02532e365bb1 .
+
+camssa:b6e7b547-f68e-420c-bea4-02532e365bb1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:b84e909c-92cf-4019-9057-e49b8df9222b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:b9e7ea8c-018c-4075-a3f5-03bd0b1af68e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:c30ecc4a-ed16-474f-bc56-3aec6364ce6e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0f408afa-34a4-487d-bdad-56ff53790bd9 .
+
+camssa:c659348c-40e2-4be9-9841-ac2d1b225f81 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent of any software, hardware, or operating system. So it can be said that WS-BPEL is independent of any specific technology or platform. 
+
+The specification:
+http://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html
+"""@en ;
+    cav:refersTo camssa:3e06e37e-d7a6-41c3-85a5-c75ab9c56e66 .
+
+camssa:c98e7774-97f2-4d31-9dc7-afb5e9b94212 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:cb5b0546-0dd2-4cf9-bb07-144c27b133f5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cbfb2a9f-09d0-4dd4-9d1b-dd08f9f1944b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OASIS has defined a clear process where all the stakeholders involved have the opportunity to participate in the development of the specification development process. Moreover, there is a public review in the TC process.
+ 
+OASIS guideline:
+https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26"""@en ;
+    cav:refersTo camssa:35ab7c8d-524e-4cee-bfa9-4f1ac79ad2f5 .
+
+camssa:ccf87e9c-a17d-44ad-8d5b-8c59ae440c7f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:d7a2ef34-0a86-4ee1-97df-ed71f69af013 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of WS-BPEL is not related to e-accessibility. Therefore, this criterion is not applicable to the specification. 
+
+The specification: 
+http://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html"""@en ;
+    cav:refersTo camssa:8f2dc8fe-796b-4692-b022-227b51bba03c .
+
+camssa:da6aa919-4335-43f9-bd1c-84e05a392090 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:ccf87e9c-a17d-44ad-8d5b-8c59ae440c7f .
+
+camssa:e0327d5e-3fe9-42d8-8bbb-11ee8a97b100 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e1e1e079-568c-4c89-958f-a3745bd22c22 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:3b7ed9b2-d669-4b9d-aa5a-1b7cab12d89d .
+
+camssa:e7668eed-2826-4f76-8fa1-49ebeca81c27 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:19aeeedb-4a47-4198-9ed4-759514a89e09 .
+
+camssa:e868a930-aba3-4436-aacc-6b9e2f5a011c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+Even WS-BPEL is fostering the first level of maturity provided by Tim Berners-Lee's 5 stars schema for publication of Open data, it is not supports the principles to be considered as fostering actor on publishing Linked Open Data. """@en ;
+    cav:refersTo camssa:388f92cd-7ced-4b3b-94bc-17ab63e47e96 .
+
+camssa:f01da7b1-346b-4d80-9970-dfabc12efd77 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """3 Member States are recommending WS-BPEL in their ICT National Catalogues. They belong to Cyprus, France and Germany.  
+  
+CAMSS List of Standards:   
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:56d729bd-0045-4f58-b50a-5869a4dff215 .
+
+camssa:f64e91f1-f8be-4887-8ec9-2f155e828c2b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f6b6340d-151e-4e64-9efc-2b7cb3a04ca4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:f88c4de6-3793-4653-be2f-1c40a5067740 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OASIS has defined a clear Technical Committee (hereby TC) process where all the stakeholders involved have the opportunity to participate in the development of the specification development process. 
+
+OASIS guideline:
+https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26"""@en ;
+    cav:refersTo camssa:c98e7774-97f2-4d31-9dc7-afb5e9b94212 .
+
+camssa:faeeb965-5902-4551-b310-c4687c420a96 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:fb67ebbf-8a00-4ba1-a589-3c0a543042c8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:2ab4d872-8858-4fc7-8701-5885e5636f55 .
+
+camssa:fcbe6d50-25d7-4f7a-b0b8-565de49d1377 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of WS-BPEL is not related  to the long-term preservation of electronic records and other kinds of information. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:b9e7ea8c-018c-4075-a3f5-03bd0b1af68e .
+

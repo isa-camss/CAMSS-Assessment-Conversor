@@ -1,0 +1,667 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:203a78f5d9cc170efb49fc10e6d2b9561f5ad6a0b9430530971880220ac29b47 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:d5d426fadecd4bf723cb15532e2bb495aaaca594936ba8891258988920564c43 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:04e8539a-52d7-4b33-b5ad-ea212037ffee,
+        camssa:053c0d19-748f-4ad1-a6ea-c3143b6fb9dc,
+        camssa:0a8fcb37-fa6a-46ca-bfae-c2fe6af9b7ef,
+        camssa:0d6e348b-a450-452f-96f7-58ca9e89b2fc,
+        camssa:14bba238-01d4-440c-881a-99e70f3e4c7e,
+        camssa:1634a9fb-abd0-41eb-8101-42a439f16296,
+        camssa:16d0e096-11ee-4a7e-a896-101690612244,
+        camssa:1a9d2409-082d-4bb2-a7e1-351ba6b95fd0,
+        camssa:1b5a0632-97e1-42d1-a04f-3ef9aaca3dcf,
+        camssa:3131be0f-4da4-4354-9271-eb9939dd04f5,
+        camssa:39c5dc16-0a4c-4a69-a5ac-745802bf1c0d,
+        camssa:45a16e91-3da9-4600-81f7-80f0f4c11fd0,
+        camssa:493d84bd-e01d-4054-a678-3ae13b3810c7,
+        camssa:4fd7c084-cc81-4785-b0ff-01473ca34a6b,
+        camssa:561488fd-5f23-4f6e-87d2-6a6d644c6f1d,
+        camssa:575435bd-ced8-4007-853c-c13573b3ca88,
+        camssa:63e151fd-7c8d-4eed-aef9-51836cf5d91b,
+        camssa:69e9c466-7634-4031-b083-b0873e5f7938,
+        camssa:756e6d01-7a9d-4944-a83d-f1fa27d8f3df,
+        camssa:7f72d435-43c8-401f-9e7a-e353bca5a18e,
+        camssa:83fbbb34-eec3-48e1-a336-ebfaa0c6978a,
+        camssa:8c421c4e-135e-4289-8cde-9eeb469dab1c,
+        camssa:916f72e1-0950-4153-a2c1-d283b42b1c9d,
+        camssa:98c4f378-c108-41dc-a8f5-e0d2acf1c679,
+        camssa:9aa81080-995f-4674-b3c7-a682651d7473,
+        camssa:9c665824-a5cd-4626-9405-2f0825222c99,
+        camssa:acdbb56d-76bf-4652-9389-acb04c822351,
+        camssa:aeebe610-565a-47c3-ad92-3c1bcbe8ea3f,
+        camssa:af86af02-c406-4d8a-a7bb-90e8194c2339,
+        camssa:b1ff0f4e-3ba4-482f-92c6-4c82fb6c0691,
+        camssa:b6d65602-2800-49cf-a2c0-95558c1c7486,
+        camssa:b8c59ed2-d8c9-4511-a831-0e198089d5a1,
+        camssa:bb043300-3d32-4a23-8786-bf63329a5f53,
+        camssa:bf9b648a-dcb6-4af8-a1bd-8bb4cfe24cfa,
+        camssa:c20e8ded-b11c-4575-bc03-7b0bc79d3bb0,
+        camssa:c99c7cee-8792-41aa-b984-57635c8dcad5,
+        camssa:cd258a3b-2700-4357-bbf6-678f32dc8be6,
+        camssa:ea1309e1-0952-4885-af16-32b20103ecdd,
+        camssa:ee204cf0-2612-4447-a0e9-c2f4da259888,
+        camssa:eefa63da-b3ed-43f1-8e53-09c4a22e9816,
+        camssa:f1b685c8-e52c-4382-a40d-c322a0844705,
+        camssa:f658db78-ce36-4847-ad07-fc43b3de4750,
+        camssa:fa1c926b-bd98-43d6-82a5-4f12f346197b,
+        camssa:fd514172-3196-4855-a6db-3df709eae291 ;
+    cav:status status:Complete ;
+    dct:title "Registered Organization Vocabulary (RegOrg)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:198204c2-d794-4512-8a21-04223c92db20 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:039084c9-d0a0-4bae-8dc4-d7ef2455fbc9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:04d1f4c9-4c93-4c19-9504-ebd75e826c8b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:04e8539a-52d7-4b33-b5ad-ea212037ffee a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:a109a6c4-96bb-4e94-a218-8d490d0e2011 .
+
+camssa:053c0d19-748f-4ad1-a6ea-c3143b6fb9dc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The main purpose of RegOrg is to capture the typical details recorded by business registers and thereby facilitate information exchange between them. So it facilitates the comprehensibility of public administrations data.
+
+RegOrg about Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary/about"""@en ;
+    cav:refersTo camssa:b377c461-8094-4c41-ae11-126899de8810 .
+
+camssa:05770d87-afd5-4165-b88c-2728fa6e9fe9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:076f9aa9-d33e-4d15-8cf1-2e6a416ceadd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0961f296-6bed-424d-b276-e82afe0f2d86 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0a8fcb37-fa6a-46ca-bfae-c2fe6af9b7ef a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of RegOrg is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
+
+RegOrg Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary"""@en ;
+    cav:refersTo camssa:9ebbf7f7-7fed-4375-85d6-e9ec213879d4 .
+
+camssa:0d6e348b-a450-452f-96f7-58ca9e89b2fc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Core Vocabularies can be used as the foundation of common export formats for data in base registries like cadastral, business registers or public service portals. The Registered Organisation Vocabulary as well as the Core Business Vocabulary (it is the same vocabulary but it was renamed) can be used to describe and ease the publication of information as open data. There is an example of the publication of data as Linked Open Data: "Greek Tax Authorities business registry published as linked open data using core business and core location".
+
+Tim Berners-Lee 5-star schema for Open Data:
+https://5stardata.info/en/
+
+RegOrg Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary/about
+
+Core Business Vocabulary reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-business-vocabulary
+
+Greek Tax Authorities business registry published as linked open data using core business and core location:
+https://joinup.ec.europa.eu/collection/registered-organization-vocabulary/news/core-business-and-core-locati"""@en ;
+    cav:refersTo camssa:6eb5f870-af5a-4a4a-a3be-da3cdb0c3e28 .
+
+camssa:11a5bb6e-d3b2-444d-bf83-6e1134f3d58d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:13d6cabf-bb5e-4504-a0a9-976edd15e5c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:14bba238-01d4-440c-881a-99e70f3e4c7e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6c08eca8-8db3-4e50-8d44-05ebc44b89a4 .
+
+camssa:1634a9fb-abd0-41eb-8101-42a439f16296 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:e58482c1-a9e2-4d70-8202-2953f4cd6364 .
+
+camssa:16d0e096-11ee-4a7e-a896-101690612244 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The main purpose of RegOrg is to capture the typical details recorded by business registers and thereby facilitate information exchange between them. So it facilitates the visibility of the different legal entities' data, including public administrations.
+
+RegOrg about Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary/about"""@en ;
+    cav:refersTo camssa:3c27f317-ce9a-4acd-8303-bc7df37d7963 .
+
+camssa:198204c2-d794-4512-8a21-04223c92db20 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:1a9d2409-082d-4bb2-a7e1-351ba6b95fd0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent of any software or platform. The Registered Organization Vocabulary can be used by any organisation.
+
+RegOrg Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary"""@en ;
+    cav:refersTo camssa:938eab34-0a8d-4e23-8cb2-fbc78cce0a71 .
+
+camssa:1b5a0632-97e1-42d1-a04f-3ef9aaca3dcf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of RegOrg is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification.
+
+RegOrg Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary"""@en ;
+    cav:refersTo camssa:d4a30105-1e38-48dc-8128-eb4208375296 .
+
+camssa:1c2b670c-f6f3-4aac-b391-3e976746f331 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:247f0f2c-9402-49a9-b712-aa378d54a5bb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:2572e311-c30c-4b42-96f7-5a60bb8e4a21 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:25ffca33-651d-4215-86de-ddd3cb8a9417 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2a24386e-68b7-457e-844d-2d69923f4fbc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3131be0f-4da4-4354-9271-eb9939dd04f5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As a vocabulary, the implementation of RegOrg can be tested using methods like SHACL shapes and using semantic reasoners to ensure that the implementation is well-formed. These validation mechanisms can be used with open source tools or lite versions of tools like GrapghDB or Protégé.
+
+SHACL validation: 
+https://graphdb.ontotext.com/documentation/free/shacl-validation.html#what-is-shacl-validation
+
+Semantic Reasoners List: 
+http://owl.cs.manchester.ac.uk/tools/list-of-reasoners/ """@en ;
+    cav:refersTo camssa:05770d87-afd5-4165-b88c-2728fa6e9fe9 .
+
+camssa:39a812f8-3e06-465e-82e6-13d894479f0d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:39c5dc16-0a4c-4a69-a5ac-745802bf1c0d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Registered Organisation Vocabulary was first developed and published by the European Commission ISA Programme with support from the Directorate General Internal Market and Services. The Semantic Interoperability Community (SEMIC) as an action of ISA², has established Working Groups. These Working Groups are open to the participation of everyone interested in semantic solutions working for public administrations in the Member States or in EU institutions.
+
+SEMIC working groups:
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/about"""@en ;
+    cav:refersTo camssa:439fe97f-1d75-4700-a9aa-48f31e126574 .
+
+camssa:3c27f317-ce9a-4acd-8303-bc7df37d7963 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:3cb15868-f3dc-4f28-914b-6eebe360c058 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3d0e694a-2eaf-46b9-b33b-318c6981c850 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:439fe97f-1d75-4700-a9aa-48f31e126574 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:45a16e91-3da9-4600-81f7-80f0f4c11fd0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of RegOrg is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification. 
+
+RegOrg Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary"""@en ;
+    cav:refersTo camssa:0961f296-6bed-424d-b276-e82afe0f2d86 .
+
+camssa:493d84bd-e01d-4054-a678-3ae13b3810c7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """RegOrg is a business domain agnostic data model that can be reused in a cross-domain way.
+
+RegOrg about Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary/about"""@en ;
+    cav:refersTo camssa:95368ffe-b0c7-4ff7-81fd-80c38e060514 .
+
+camssa:49cb528d-1801-46fb-a50a-89612808ad97 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:4b30e80b-39f2-452c-b943-788cee4c3a41 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:4fd7c084-cc81-4785-b0ff-01473ca34a6b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Registered Organization Vocabulary is a simplified, reusable and extensible data model that captures the fundamental characteristics of a legal entity. It facilitates the information exchange between business sectors. So, it fosters data portability between systems and applications supporting the implementation and evolution of European public services.
+
+RegOrg Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary
+
+RegOrg W3C reference:
+https://www.w3.org/TR/vocab-regorg/"""@en ;
+    cav:refersTo camssa:ffa21852-d97f-4549-b6f1-8535de072011 .
+
+camssa:544b57d3-85f2-46f9-be3f-7c993d810768 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:561488fd-5f23-4f6e-87d2-6a6d644c6f1d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:247f0f2c-9402-49a9-b712-aa378d54a5bb .
+
+camssa:575435bd-ced8-4007-853c-c13573b3ca88 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Registered Organization Vocabulary is a simplified, reusable and extensible data model that captures the fundamental characteristics of a legal entity. It facilitates the information exchange between business sectors. So, it fosters data portability between systems and applications supporting the implementation and evolution of European public services.
+
+RegOrg Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary
+
+RegOrg W3C reference:
+https://www.w3.org/TR/vocab-regorg/"""@en ;
+    cav:refersTo camssa:25ffca33-651d-4215-86de-ddd3cb8a9417 .
+
+camssa:63a7b859-10a7-48dd-82ef-0af79eaa36af a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:63e151fd-7c8d-4eed-aef9-51836cf5d91b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:3d0e694a-2eaf-46b9-b33b-318c6981c850 .
+
+camssa:69e9c466-7634-4031-b083-b0873e5f7938 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:49cb528d-1801-46fb-a50a-89612808ad97 .
+
+camssa:6c08eca8-8db3-4e50-8d44-05ebc44b89a4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6eb5f870-af5a-4a4a-a3be-da3cdb0c3e28 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:73268fd3-d080-4246-aeae-4e285f4ffc80 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:73910ada-a3a5-465a-ab3e-f7eaa500e0f9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:756e6d01-7a9d-4944-a83d-f1fa27d8f3df a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent of any software or platform. The Registered Organization Vocabulary can be used by any organisation.
+
+RegOrg Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary"""@en ;
+    cav:refersTo camssa:3cb15868-f3dc-4f28-914b-6eebe360c058 .
+
+camssa:7abc87d1-1e5c-44cb-9329-116b837d5aa2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7f72d435-43c8-401f-9e7a-e353bca5a18e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The application of the once-only principle in all EU Member States public administrations aims at reducing the administrative burden. This Core Vocabulary fosters interoperability between public administrations, easing the exchange of business information. An example of this is business registers, which describing legal entities eases its reuse and exchange helping to implement the Once-Only Principle. 
+
+RegOrg Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary"""@en ;
+    cav:refersTo camssa:7abc87d1-1e5c-44cb-9329-116b837d5aa2 .
+
+camssa:83fbbb34-eec3-48e1-a336-ebfaa0c6978a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:11a5bb6e-d3b2-444d-bf83-6e1134f3d58d .
+
+camssa:8c421c4e-135e-4289-8cde-9eeb469dab1c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no Member States recommending RegOrg in their ICT National Catalogues.
+ 
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:4b30e80b-39f2-452c-b943-788cee4c3a41 .
+
+camssa:916f72e1-0950-4153-a2c1-d283b42b1c9d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f9c3b9e0-c230-4f9d-8ba6-1c79198fe82d .
+
+camssa:938eab34-0a8d-4e23-8cb2-fbc78cce0a71 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:93da7ca3-294a-4b03-8835-1e49dec8851e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:95368ffe-b0c7-4ff7-81fd-80c38e060514 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9685d466-dacf-4516-bce9-408dbb9fcdaa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:98c4f378-c108-41dc-a8f5-e0d2acf1c679 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of RegOrg is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification.
+
+RegOrg Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary"""@en ;
+    cav:refersTo camssa:04d1f4c9-4c93-4c19-9504-ebd75e826c8b .
+
+camssa:9aa81080-995f-4674-b3c7-a682651d7473 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:d60db025-44ab-4ab5-af9a-b0ab42c91d72 .
+
+camssa:9c665824-a5cd-4626-9405-2f0825222c99 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:93da7ca3-294a-4b03-8835-1e49dec8851e .
+
+camssa:9ebbf7f7-7fed-4375-85d6-e9ec213879d4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:a109a6c4-96bb-4e94-a218-8d490d0e2011 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a62891fe-e08e-4a36-9cf2-f2350bdad42d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:acdbb56d-76bf-4652-9389-acb04c822351 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All solutions developed in ISA² Programme are under ISA Open Metadata Licence which is perpetual, royalty-free and non-exclusive license to Use and re-Use the Works.
+
+ISA open metadata license:
+https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11"""@en ;
+    cav:refersTo camssa:039084c9-d0a0-4bae-8dc4-d7ef2455fbc9 .
+
+camssa:aeebe610-565a-47c3-ad92-3c1bcbe8ea3f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of RegOrg within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:73268fd3-d080-4246-aeae-4e285f4ffc80 .
+
+camssa:af86af02-c406-4d8a-a7bb-90e8194c2339 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification was developed in 2012 by an Action of ISA2. In 2013, it was standardised by W3C. This fact demonstrates that the specification has overcome the initial problems. On 23 May 2012, the Coordination Group of the Interoperability Solutions for European Public Administrations (ISA) Programme renamed the specification to Core Business Vocabulary and it has been added to e-Government Core Vocabularies. So the specifications can be considered mature for its use in the development of products and services.
+
+RegOrg W3C reference:
+https://www.w3.org/TR/vocab-regorg/
+
+RegOrg Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary/about
+
+Core Business Vocabulary reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-business-vocabulary"""@en ;
+    cav:refersTo camssa:eec52cb6-1bf8-4524-8d15-9b38c8b4284b .
+
+camssa:b1ff0f4e-3ba4-482f-92c6-4c82fb6c0691 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """RegOrg is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:63a7b859-10a7-48dd-82ef-0af79eaa36af .
+
+camssa:b377c461-8094-4c41-ae11-126899de8810 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b6d65602-2800-49cf-a2c0-95558c1c7486 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of RegOrg is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+RegOrg Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary"""@en ;
+    cav:refersTo camssa:2572e311-c30c-4b42-96f7-5a60bb8e4a21 .
+
+camssa:b8c59ed2-d8c9-4511-a831-0e198089d5a1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """RegOrg is a business domain agnostic data model that can be reused in a cross-domain way.
+
+RegOrg about Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary/about"""@en ;
+    cav:refersTo camssa:13d6cabf-bb5e-4504-a0a9-976edd15e5c1 .
+
+camssa:bb043300-3d32-4a23-8786-bf63329a5f53 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this RegOrg is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. 
+
+RegOrg Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary"""@en ;
+    cav:refersTo camssa:bf58b348-4514-456e-af1d-47f79d4fb930 .
+
+camssa:bf58b348-4514-456e-af1d-47f79d4fb930 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:bf9b648a-dcb6-4af8-a1bd-8bb4cfe24cfa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All solutions developed in ISA² Programme are under ISA Open Metadata Licence which is perpetual, royalty-free and non-exclusive license to Use and re-Use the Works.
+
+ISA open metadata license:
+https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11"""@en ;
+    cav:refersTo camssa:2a24386e-68b7-457e-844d-2d69923f4fbc .
+
+camssa:c20e8ded-b11c-4575-bc03-7b0bc79d3bb0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Semantic Interoperability Community (SEMIC) develops solutions to help European public administrations perform seamless and meaningful cross-border and cross-domain data exchanges. They develop semantic specifications and interoperability solutions under the ISA² Programme. When a new solution release is finished, it is submitted for a public review with a minimum period of four weeks.
+
+Specification development process by the ISA Programme:
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/document/description-change-management-release-and-publication-process-structural-metadata-specifications
+
+Detailed document ISA Programme:
+https://joinup.ec.europa.eu/sites/default/files/document/2016-10/description_of_a_change_management_release_and_publication_process_for_structural_metadata_specifications_developed_by_the_isa_progr.pdf"""@en ;
+    cav:refersTo camssa:9685d466-dacf-4516-bce9-408dbb9fcdaa .
+
+camssa:c99b9080-0103-4aa0-be8b-fef56f586d15 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c99c7cee-8792-41aa-b984-57635c8dcad5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f791f4ec-daef-46c1-9d85-5918d7d602d7 .
+
+camssa:cd258a3b-2700-4357-bbf6-678f32dc8be6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the RegOrg in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:544b57d3-85f2-46f9-be3f-7c993d810768 .
+
+camssa:d4a30105-1e38-48dc-8128-eb4208375296 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d60db025-44ab-4ab5-af9a-b0ab42c91d72 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:e58482c1-a9e2-4d70-8202-2953f4cd6364 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:ea1309e1-0952-4885-af16-32b20103ecdd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although the usage of Registered Organisation Vocabulary has been replaced by the Core Business Vocacabulary in the e-Government Core Vocabularies solution, it has the same content and it is sufficiently mature for the development of products and services. Specifically, there are implementations at European Level combining the Core Business Vocabulary and the Organisation Ontology as it can be seen in the following links.
+
+RegOrg Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary
+
+Core Business Vocabulary reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-business-vocabulary
+
+EU Core Vocabularies in action:
+https://joinup.ec.europa.eu/sites/default/files/news/attachment/eu_core_vocabularies_in_action_using_core_business_vocabulary_in_the_eu_.pdf
+
+Describe organisations in RDF with Core Business Vocabulary and ORG Ontology: 
+https://joinup.ec.europa.eu/collection/registered-organization-vocabulary/document/describe-organizations-rdf-core-business-vocabulary-and-org-ontology"""@en ;
+    cav:refersTo camssa:a62891fe-e08e-4a36-9cf2-f2350bdad42d .
+
+camssa:ee204cf0-2612-4447-a0e9-c2f4da259888 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """This Core Vocabulary offers several services that aim to help e-Government professionals share their experience, and reuse data and services across borders. Specifically, the RegOrg vocabulary was used in the Business Registries Interconnection System (BRIS), which is aimed to facilitate the distribution of information from each of the Member States’ business registers to the registers of other Member States in a standard message format and in the relevant language version. 
+
+JoinUp Webpage:
+https://joinup.ec.europa.eu/
+
+Core Vocabularies in action:
+https://joinup.ec.europa.eu/sites/default/files/news/attachment/eu_core_vocabularies_in_action_using_core_business_vocabulary_in_the_eu_.pdf"""@en ;
+    cav:refersTo camssa:1c2b670c-f6f3-4aac-b391-3e976746f331 .
+
+camssa:eec52cb6-1bf8-4524-8d15-9b38c8b4284b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:eefa63da-b3ed-43f1-8e53-09c4a22e9816 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the RegOrg in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:73910ada-a3a5-465a-ab3e-f7eaa500e0f9 .
+
+camssa:f1b685c8-e52c-4382-a40d-c322a0844705 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Registered Organization Vocabulary which was developed by ISA2, and later it was standardised by W3C, has support from both organisations. It is worth to note that both organisations aim to enhance the ICT environment in private and public business.
+
+W3C Community:
+https://www.w3.org/Consortium/
+
+RegOrg Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary"""@en ;
+    cav:refersTo camssa:c99b9080-0103-4aa0-be8b-fef56f586d15 .
+
+camssa:f1e851c6-8fe5-4de5-8b71-bfc0abd46cb0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:f658db78-ce36-4847-ad07-fc43b3de4750 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no Member State that includes RegOrg in their national catalogue with The National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:f1e851c6-8fe5-4de5-8b71-bfc0abd46cb0 .
+
+camssa:f791f4ec-daef-46c1-9d85-5918d7d602d7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f9c3b9e0-c230-4f9d-8ba6-1c79198fe82d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:fa1c926b-bd98-43d6-82a5-4f12f346197b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Core Vocabularies can be used as the foundation of common export formats for data in base registries like cadastral, business registers or public service portals. The Registered Organisation Vocabulary as well as the Core Business Vocabulary can be used to describe and ease the publication of information as open data. There is an example of the publication of data as Linked Open Data: "Greek Tax Authorities business registry published as linked open data using core business and core location".
+
+Tim Berners-Lee 5-star schema for Open Data:
+https://5stardata.info/en/
+
+RegOrg Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary/about
+
+Core Business Vocabulary reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-business-vocabulary"""@en ;
+    cav:refersTo camssa:076f9aa9-d33e-4d15-8cf1-2e6a416ceadd .
+
+camssa:fd514172-3196-4855-a6db-3df709eae291 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By providing a standardised method for the description of legal entities, RegOrg helps to ensure that the information provided and exchanged is properly structured. At this point, it helps the trustworthy data exchange between citizens and businesses, and administrations. 
+
+RegOrg Joinup reference:
+https://joinup.ec.europa.eu/solution/registered-organization-vocabulary"""@en ;
+    cav:refersTo camssa:39a812f8-3e06-465e-82e6-13d894479f0d .
+
+camssa:ffa21852-d97f-4549-b6f1-8535de072011 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+

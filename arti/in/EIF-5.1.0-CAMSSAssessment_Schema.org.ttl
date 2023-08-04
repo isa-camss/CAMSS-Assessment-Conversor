@@ -1,0 +1,818 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:6b5e4b4872bc5b08dce77f0da0d549ca454eb7d3ac221461a0496b93f25a2845 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:5a81dd874f6ef2c75576b4c7594373c802831daf20243c70d0459ed71ca09a8c ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:018d3e05-bace-4dc2-9df1-61b3d725e933,
+        camssa:06907456-0026-4762-a6e0-b7e6ec6af389,
+        camssa:0faf8bb7-578b-4f94-9871-6fcdde2f445d,
+        camssa:12a5f13f-751f-46a8-8c7b-fd08119b4546,
+        camssa:16d88b45-3ad4-4d60-a3c7-8f84a4885406,
+        camssa:20599de7-b83b-47d4-837a-b95c7f8146ae,
+        camssa:226f6981-87dd-4591-9d83-9062612ff3cb,
+        camssa:240b3332-24a9-429a-96ad-40ef168ed778,
+        camssa:296c19d8-a949-425f-9c4a-ff2dd02cdb5f,
+        camssa:38a51ed8-b615-493b-9e23-bee2a3659ed9,
+        camssa:3f90c8b7-4122-4f8f-99ae-15544aa34ac3,
+        camssa:44c68026-76c6-4d85-999e-910fc01a036e,
+        camssa:480711a7-ae6a-4417-b40e-a89e57f4a9cd,
+        camssa:48fcfb82-4747-4e6b-ba61-42ba9999ea9c,
+        camssa:4b0cd096-a41d-4908-a19b-e739d52bd489,
+        camssa:631ecb97-3930-4f99-af29-af7080bc2827,
+        camssa:69fb636f-4970-4879-958f-23557856ca01,
+        camssa:6b800c02-f32a-437f-88f4-a2e300ecc60f,
+        camssa:6cb06159-cc76-4f7f-83de-d798373f17cd,
+        camssa:8df2ce3b-665d-4b04-8e67-118c77105bf9,
+        camssa:918cbbac-104b-429c-bcee-3ba28275a189,
+        camssa:91bb3252-922a-4be8-a0eb-31adbdb4e652,
+        camssa:992750f7-af5b-4b7f-9610-f30f2efc13fe,
+        camssa:9ee0734d-b806-4782-955d-0af80ff41168,
+        camssa:a186f3bd-0eb6-44cf-b8ca-6799f27e4448,
+        camssa:a444ca36-9997-4b05-8e30-445ef9d48410,
+        camssa:a7405404-50b8-41fe-85ca-b15d9ce64fcf,
+        camssa:adf0381b-39d2-4776-9a1d-004966c68217,
+        camssa:ae67727d-2049-469f-9906-e05a42b1f530,
+        camssa:b1498ee5-8d8c-4634-8f2b-5648e67b9de1,
+        camssa:b37c8c6b-c89d-4126-bb71-e2358d102e64,
+        camssa:b4fdd513-6dfa-4da0-908c-6ea3bd0bf676,
+        camssa:bb2f3973-7e7f-4c71-9797-dfc4690706ac,
+        camssa:c6e0551b-a789-490c-bfd0-12ec515dc992,
+        camssa:ce973110-c844-48cc-9c6b-60332b9789b8,
+        camssa:e212a654-932a-40ce-8086-d775ca60634f,
+        camssa:e427cda7-6a10-44d7-980d-cce0e3bf87ac,
+        camssa:f4f4dd20-7217-44f7-b414-10fedc31bb6b,
+        camssa:f8d095fc-f8b7-4651-aac8-9b6fd7b8d450,
+        camssa:f957d343-30bf-41c5-a04f-bd38212955d6,
+        camssa:fa49c79e-5542-4bce-ae57-caeeb5a1d7c6,
+        camssa:fbb44f24-6f97-4284-bf4f-3fd48b07ce88,
+        camssa:fd63c824-bee6-402d-a882-a60f5dc5996e,
+        camssa:fec83670-14ca-4c55-9b28-eac81e7f83dc ;
+    cav:status status:Complete ;
+    dct:title "Schema.org"@en .
+
+camssa:71b734d93eea13de404910eb634943e6bc28f69d27f2f63bcbdf62230a832bb3 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:e7917692-3864-45a5-8077-7e5c3987161f ;
+    skos:prefLabel "CAMSS Team European Commission DG DIGIT"@en .
+
+camssa:018d3e05-bace-4dc2-9df1-61b3d725e933 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org was founded by big tech companies and its use is widespread in the major search engines like Google or Yahoo! (see Schema.org homepage reference, 'About Schema.org' section). Schema.org started in 2011 and went through 14 major releases in the last nine years, the last one in 2022. Besides, the schema.org project publishes documentation on all the specification's supporting processes on its Releases section.
+
+Schema.org homepage reference, 'About Schema.org' section:
+https://schema.org/docs/about.html
+
+Schema.org reference, Releases section:
+https://schema.org/docs/releases.html\""""@en ;
+    cav:refersTo camssa:c359d787-7399-49f3-b356-dc6ebe7ed765 .
+
+camssa:06907456-0026-4762-a6e0-b7e6ec6af389 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org opted for a flexible data model and introduced 'hosted extensions' (see Schema.org Hosted Extensions reference), as a way of adding more detailed descriptive vocabulary building on the schema.org core vocabulary (see Schema.org reference, Organization of Schemas section, Extensions subsection). The specification allows extension and encourages users to share their work through through the GS1 Web Vocabulary platform; external extensions are, however, out of the scope of the schema.org development community.
+
+Schema.org Hosted Extensions reference:
+https://schema.org/docs/extension.html
+
+Schema.org reference, Organization of Schemas section, Extensions subsection:
+https://schema.org/docs/schemas.html
+
+GS1 Web Vocabulary platform:
+https://www.gs1.org/voc/\""""@en ;
+    cav:refersTo camssa:1d4a8291-4a95-48d3-a563-0425077b1abb .
+
+camssa:0db52834-52fc-4576-bf35-fb577ee6ac8c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:0faf8bb7-578b-4f94-9871-6fcdde2f445d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org, as a cross-border and cross-sector vocabulary, increases government-to-government reuse of data and therefore can prevent citizens or businesses from providing information multiple times. According to the Publications Office (OP) of the EU, as a mark-up schema, the specification may boost governmental data reuse helping to achieve the once-only principle in future releases of DCAT-AP, once this schema is mapped to schema.org which will result in the Schema.org profile of DCAT-AP (DCAT-AP-SDO).
+
+OP reference, 'DCAT-AP standard can become a tool for internal information governance purposes' section:
+https://ec.europa.eu/isa2/dcat-ap-key-european-data-publishers-reach-data-consumers-and-create-european-open-data-ecosystem_en
+
+DCAT-AP-SDO reference:
+https://ec-jrc.github.io/dcat-ap-to-schema-org/\""""@en ;
+    cav:refersTo camssa:4e83ad62-ba53-4a64-a573-2eb119a9b4ef .
+
+camssa:10205e7b-8808-496d-ac60-3fa07fe8bec9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:12a5f13f-751f-46a8-8c7b-fd08119b4546 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"According to the official schema.org blog, the specification addresses e-accessibility to some extent. The specification worked along with the IMS Global Learning Consortium's Access For All Specification and the Accessibility Metadata Project in order to provide accessibility of content for a wide range of users. Therefore, the specification can enable e-accessibility when combined with a set of recommendations taken from such collaborations (see Schema.org Accessibility Properties for Discoverability Vocabulary reference).
+
+Official blog for schema.org reference, Content Accessibility post:
+http://blog.schema.org/2013/12/content-accessibility.html
+
+IMS Global Learning Consortium's Access For All Specification homepage reference:
+http://www.imsglobal.org/activity/accessibility
+
+Accessibility Metadata Project reference:
+http://www.a11ymetadata.org/about/
+
+Schema.org Accessibility Properties for Discoverability Vocabulary reference:
+https://www.w3.org/2021/a11y-discov-vocab/latest/#intro\""""@en ;
+    cav:refersTo camssa:9f5405ab-3972-4245-9255-1311d289d34b .
+
+camssa:15b2c282-223b-4af1-ab3c-b78afa99c39f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:16d88b45-3ad4-4d60-a3c7-8f84a4885406 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State recommending schema.org in its ICT National Catalogue.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:abfb888a-fbfc-4c4b-a08b-c32742e87e50 .
+
+camssa:17c78d7e-c58c-4b90-95d7-f173f8fab985 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:19b96fcd-9507-4481-8fa3-2328b162b13a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1d4a8291-4a95-48d3-a563-0425077b1abb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:20599de7-b83b-47d4-837a-b95c7f8146ae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org can be deployed in any platform since the specification can be coded into RDF and JSON-LD, which are compatible with the vast majority of information systems. Therefore, the specification is platform-agnostic.
+
+Schema.org reference, Getting started section:
+https://schema.org/docs/gs.html
+
+Schema.org-W3 Github reference, 'Improving schemas' section:
+https://github.com/schemaorg/schemaorg/blob/main/README.md\""""@en ;
+    cav:refersTo camssa:10205e7b-8808-496d-ac60-3fa07fe8bec9 .
+
+camssa:214ade22-b4c0-4e4f-9b64-21633ffaa558 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:226f6981-87dd-4591-9d83-9062612ff3cb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org contains a specific vocabulary that can be used in applications that publish, discover or integrate different types of data. That is, not only does it provide schemas for describing collections of structured data, but also the specification's capability complements many other data-related formats and standards which facilitates organisational interoperability agreements.
+
+Schema.org reference, Data and Datasets overview section:
+https://schema.org/docs/data-and-datasets.html\""""@en ;
+    cav:refersTo camssa:a48872c1-994d-426f-9679-9bc5227fe5a5 .
+
+camssa:240b3332-24a9-429a-96ad-40ef168ed778 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org is a (structured data) mark-up schema that helps search engines understand the information on web pages and potentially provides richer search results. Therefore, the specification addresses data portability. At European level, the DCAT Application Profile for Data Portals in Europe (DCAT-AP) will be mapped to schema.org, resulting in DCAT-AP-SDO (Schema.org profile of DCAT Application Profile for Data Portals in Europe); apart from aiming at improving data portability within European Data Portals, the DCAT-AP-SDO schema will support the evolution of European public services by enhancing data discovery networks on the web as its precursor DCAT-AP did (see ISA Programme reference, DCAT-AP and public sector databases).
+
+Schema.org homepage reference, 'About Schema.org' section:
+https://schema.org/docs/about.html
+
+DCAT-AP reference:
+https://op.europa.eu/en/web/eu-vocabularies/dcat-ap
+
+DCAT-AP-SDO reference:
+https://ec-jrc.github.io/dcat-ap-to-schema-org/
+
+ISA Programme reference, DCAT-AP and public sector databases:
+https://ec.europa.eu/isa2/solutions/dcat-application-profile-data-portals-europe_en\""""@en ;
+    cav:refersTo camssa:a8af9bb0-4567-4634-8bf1-ae6b6e492a5a .
+
+camssa:296c19d8-a949-425f-9c4a-ff2dd02cdb5f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org was founded by major technology companies and its use extends to the world's leading search engines, such as Google and Yahoo! (see Schema.org homepage reference, 'About Schema.org' section). Besides, the schema.org project has supported the development of another specification in order to better represent web content and display it in a useful and relevant way, the HTML Microdata tags (see Schema.org reference, Getting started section). In this sense, schema.org will not only help search engines to better perform, but also would increase its market applicability in the wide web community, proving its market acceptance: the more web services implement these HTML tags, the more widespread use the specification will achieve in the market.
+
+Schema.org homepage reference, 'About Schema.org' section:
+https://schema.org/docs/about.html
+
+Schema.org reference, Getting started section:
+https://schema.org/docs/gs.html
+
+HTML Microdata reference:
+https://dev.w3.org/html5/md-LC/\""""@en ;
+    cav:refersTo camssa:99833bd8-f6d1-4da3-9efc-b4c8a35b747d .
+
+camssa:311a2d90-feb5-49d3-bb25-03e300002bca a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:332c41f1-0716-44af-9f4d-9221b8f2fe41 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:38a51ed8-b615-493b-9e23-bee2a3659ed9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"All schema.org releases provide for public review. Changes to the schema.org specification are proposed, discussed, prepared and reviewed by the schema.org Community Group and ultimately reviewed and published by the Steering Group, which holds the final decision. Collected feedback is also available through the schema.org Github (see Schema.org-W3 Github reference, Issues section).
+
+Schema.org homepage reference, 'About Schema.org' section:
+https://schema.org/docs/about.html
+
+Schema.org-W3 Github reference, Issues section:
+https://github.com/schemaorg/schemaorg/issues\""""@en ;
+    cav:refersTo camssa:19b96fcd-9507-4481-8fa3-2328b162b13a .
+
+camssa:3950566b-80c8-4759-ac8b-796d09af8d01 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3f90c8b7-4122-4f8f-99ae-15544aa34ac3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The conformance of schema.org implementations can be assessed in several ways since it is defined as a set of requirements (see Schema.org reference, Vocabulary Definition Files section). Additionally, the schema.org project offers a conformance testing platform to allow testing implementations (see Schema.org reference, Validator section).
+
+Schema.org reference, Data model-Conformance section:
+https://schema.org/docs/datamodel.html
+
+Schema.org reference, Vocabulary Definition Files section:
+https://schema.org/docs/developers.html#defs
+
+Schema.org reference, Validator section:
+https://validator.schema.org/'"""@en ;
+    cav:refersTo camssa:0db52834-52fc-4576-bf35-fb577ee6ac8c .
+
+camssa:44c68026-76c6-4d85-999e-910fc01a036e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data, the second star corresponds to the availability of data as structured data. Schema.org is a structured data mark-up schema enabling search engines and other information systems to query data in a structured manner. Then, this specification supports the publication of data as open data.
+
+Schema.org reference, Getting started section:
+https://schema.org/docs/gs.html
+
+Tim Berners-Lee 5-star schema for Open Data:   
+https://5stardata.info/en/'"""@en ;
+    cav:refersTo camssa:c47569e4-ce6c-45f9-8aff-71bf8a500015 .
+
+camssa:480711a7-ae6a-4417-b40e-a89e57f4a9cd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org may enable digital service delivery channels. European Legislation Identifier (ELI) is using schema.org in some of its use cases, increasing the access to legislative documents. ELI is adopting the schema.org Legislation vocabulary.
+
+Schema.org homepage reference, 'About Schema.org' section:
+https://schema.org/docs/about.html
+
+ELI-Joinup reference:
+https://joinup.ec.europa.eu/collection/eli-european-legislation-identifier/solution/eli-legislation-extension-schemaorg/about
+
+Schema.org reference, Legislation vocabulary:
+https://schema.org/Legislation\""""@en ;
+    cav:refersTo camssa:6284662c-1935-4448-af52-828d5c4c3cbc .
+
+camssa:48fcfb82-4747-4e6b-ba61-42ba9999ea9c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Schema.org is open to any interested party who has agreed to the W3C Community Contributor License Agreement (CLA) (see Schema.org homepage reference, Community Group and Steering Group section). The W3C Royalty-Free IPR licences granted under the W3C Patent Policy apply to the schema.org specification.
+
+Schema.org homepage reference, Community Group and Steering Group section:
+https://schema.org/docs/about.html
+
+W3C Patent Policy reference:
+https://www.w3.org/TR/patent-practice#ref-AC'"""@en ;
+    cav:refersTo camssa:6264b31b-4bd1-44ee-b370-fe4e348a010e .
+
+camssa:4aba6145-f2c7-4324-9c23-5bdc8bc85e09 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4b0cd096-a41d-4908-a19b-e739d52bd489 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Schema.org provides a data model that allows modeling business processes within and beyond an organisation.
+
+Schema.org reference, Data model section:
+https://schema.org/docs/datamodel.html'"""@en ;
+    cav:refersTo camssa:3950566b-80c8-4759-ac8b-796d09af8d01 .
+
+camssa:4e83ad62-ba53-4a64-a573-2eb119a9b4ef a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5031eaa2-13a3-44d7-82e7-40c03d3770e6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6243b78e-dec6-4146-9fdc-c65fcba0912f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6264b31b-4bd1-44ee-b370-fe4e348a010e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6284662c-1935-4448-af52-828d5c4c3cbc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:631ecb97-3930-4f99-af29-af7080bc2827 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of schema.org as a European standard.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:6bdd7963-7d8d-4102-a9ee-2e04a4c5b996 .
+
+camssa:66a37216-8274-48ba-a021-0ec98d1fa902 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:68c987e8-e7af-46f3-8a08-ac9f4e6320eb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:69fb636f-4970-4879-958f-23557856ca01 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Schema.org has the W3-schema.org project website, as well as a dedicated platform in Github for sharing results and best practices. Therefore, the specification encourages the creation of open information about the specification and encourages relevant communities from the EU (as well as from non-EU communities) to share their results.
+
+W3 community reference, Important links section:
+https://www.w3.org/community/schemaorg/
+
+Schema.org-W3 Github, Wiki section:
+https://github.com/schemaorg/schemaorg/wiki'"""@en ;
+    cav:refersTo camssa:214ade22-b4c0-4e4f-9b64-21633ffaa558 .
+
+camssa:6b800c02-f32a-437f-88f4-a2e300ecc60f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Schema.org is open to any interested party who has agreed to the W3C Community Contributor License Agreement (CLA) (see Schema.org homepage reference, Community Group and Steering Group section). The CLA provisions refer to the W3C Patent Policy, which covers the availability of schema.org with any restrictions related to fair, reasonable and non-discriminatory ((F)RAND) rights.
+
+Schema.org homepage reference, Community Group and Steering Group section:
+https://schema.org/docs/about.html
+
+W3C Patent Policy reference:
+https://www.w3.org/TR/patent-practice#ref-AC
+'"""@en ;
+    cav:refersTo camssa:bb3b9887-9539-489a-8512-ac6ab3594fd2 .
+
+camssa:6bdd7963-7d8d-4102-a9ee-2e04a4c5b996 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "20"^^xsd:int .
+
+camssa:6cb06159-cc76-4f7f-83de-d798373f17cd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org opted for a flexible data model and adapted its vocabulary for authoring practices (see Schema.org reference, Data model section, Notes for toolmakers and schema authors section). Moreover, schema.org project, in its commitment to turn schema.org into a more flexible model, introduced 'hosted extensions' (see Schema.org Hosted Extensions reference), which offer simplified schema.org vocabularies, more generic than the original vocabularies, in order to allow customised use of the specification. Therefore, the specification allows customisation. The schema.org project highly recommends the use of schema validators for testing the conformance of authoring use cases.
+
+Schema.org reference, Data model section, Notes for toolmakers and schema authors section:
+https://schema.org/docs/datamodel.html
+
+Schema.org Hosted Extensions reference:
+https://schema.org/docs/extension.html
+
+Schema.org reference, Data model section, Conformance section:
+https://schema.org/docs/datamodel.html\""""@en ;
+    cav:refersTo camssa:dcebf215-2e0d-45c9-9766-379b6be5fe36 .
+
+camssa:7ef230ff-bca7-45fb-91d2-15b97ae9487d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:8978507c-75b9-4aaa-82a6-bf26cca9a0c6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8df2ce3b-665d-4b04-8e67-118c77105bf9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data, schema.org is a structured data mark-up schema enabling search engines and other information systems to query data in a structured manner. As well as supporting the publication of data as open data, the specification facilitates the publication of public data as open data since it fulfils all the requirements to generate Linked Data.
+
+Schema.org reference, Getting started section:
+https://schema.org/docs/gs.html
+
+Tim Berners-Lee 5-star schema for Open Data:   
+https://5stardata.info/en/'"""@en ;
+    cav:refersTo camssa:17c78d7e-c58c-4b90-95d7-f173f8fab985 .
+
+camssa:8f660e17-fdd7-44f7-a30d-bf8207f0222d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "80"^^xsd:int .
+
+camssa:918cbbac-104b-429c-bcee-3ba28275a189 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org grants data exchange permissions through the schema.org type DigitalDocumentPermission. Such metadata improves the reliability of data exchanged between citizens, businesses and public administrations.
+
+Schema.org homepage reference, 'About Schema.org' section:
+https://schema.org/docs/about.html
+
+Schema.org reference, DigitalDocumentPermission type:
+https://schema.org/DigitalDocumentPermission?msclkid=fe03a55bab5411eca9752ad0bc8beac1\""""@en ;
+    cav:refersTo camssa:f2b0375e-c0bb-48c7-8e3a-c3bebe127e68 .
+
+camssa:91bb3252-922a-4be8-a0eb-31adbdb4e652 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Schema.org mark-up can be used on web pages written in any language. Therefore, the specification is designed to fully support multilingualism.
+
+Schema.org reference, FAQs section:
+https://schema.org/docs/faq.html#7'"""@en ;
+    cav:refersTo camssa:4aba6145-f2c7-4324-9c23-5bdc8bc85e09 .
+
+camssa:92fe5079-9f7d-4da0-bb8d-7069c729971e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:98138396-3f84-4686-8dc2-8ef69253ee02 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "80"^^xsd:int .
+
+camssa:992750f7-af5b-4b7f-9610-f30f2efc13fe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Schema.org has the W3-schema.org project website, as well as a dedicated platform in Github for sharing results and best practices. Therefore, the specification encourages the creation of open information about the specification and encourages relevant communities from the EU (as well as non-EU communities) to share their results; therefore, this platform also extends at national level.
+
+W3 community reference, Important links section:
+https://www.w3.org/community/schemaorg/
+
+Schema.org-W3 Github, Wiki section:
+https://github.com/schemaorg/schemaorg/wiki'"""@en ;
+    cav:refersTo camssa:311a2d90-feb5-49d3-bb25-03e300002bca .
+
+camssa:99833bd8-f6d1-4da3-9efc-b4c8a35b747d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9d014004-214b-4af9-9c1e-ed8647a87d87 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "60"^^xsd:int .
+
+camssa:9ee0734d-b806-4782-955d-0af80ff41168 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org enables the exposure of interfaces to access European public administration's services when combined with other specifications. The specification is currently used in combination with DCAT, in order to propose a common data schema (DCAT-AP-SDO, Schema.org profile of DCAT Application Profile for Data Portals in Europe) enabling administrations and citizens to find and reuse datasets located in EU data portals. Despite the fact that there is no evidence of any public administration's service making use of this common data schema (DCAT-AP-SDO, Schema.org profile of DCAT Application Profile for Data Portals in Europe), the specification may favour the promotion of semantic interoperability between different information systems and promote the adoption of a common mechanism to enhance the exposure of such services.
+
+Schema.org homepage reference, 'Documentation' section:
+https://schema.org/docs/documents.html
+
+DCAT reference:
+https://www.w3.org/TR/vocab-dcat-3/
+
+DCAT-AP-SDO reference:
+https://ec-jrc.github.io/dcat-ap-to-schema-org/\""""@en ;
+    cav:refersTo camssa:98138396-3f84-4686-8dc2-8ef69253ee02 .
+
+camssa:9f5405ab-3972-4245-9255-1311d289d34b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "80"^^xsd:int .
+
+camssa:a186f3bd-0eb6-44cf-b8ca-6799f27e4448 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org was originally conceived for the semantic web. Nonetheless, the specification project has successfully extended schema.org to other domains because of the variety of attributes and types it presents (see Schema.org reference, Data model section). Besides, schema.org also offers additional domain-related schema extensions that may differ from each other (see Schema.org homepage reference, 'Organization of Schemas' section), increasing the specification usability beyond a unique business-specific domain.
+
+Schema.org homepage reference, 'About Schema.org' section:
+https://schema.org/docs/about.html
+
+Schema.org reference, Data model section:
+https://schema.org/docs/datamodel.html
+
+Schema.org homepage reference, 'Organization of Schemas' section:
+https://schema.org/docs/schemas.html\""""@en ;
+    cav:refersTo camssa:92fe5079-9f7d-4da0-bb8d-7069c729971e .
+
+camssa:a444ca36-9997-4b05-8e30-445ef9d48410 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"After having checked different sources, there is no evidence of the existence of studies directly assessing the schema.org specification's efficiency. This contrasts with the fact that there is a large community making use of this specification.
+
+Schema.org reference, Community Group and Steering Group section:
+https://schema.org/docs/about.html
+
+Schema.org reference, Additional Resources section:
+https://schema.org/docs/documents.html\""""@en ;
+    cav:refersTo camssa:f9ae47d0-78ed-4a8c-be29-4366b8d7ab53 .
+
+camssa:a48872c1-994d-426f-9679-9bc5227fe5a5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a7405404-50b8-41fe-85ca-b15d9ce64fcf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org relies on more than one development community, mainly the Community Group and the Steering Group (see Schema.org homepage reference, 'About Schema.org' section). All information relating to this specification can be found in the schema.org homepage (see Schema.org reference, Releases section), as well as in relevant platforms supported by W3C (e.g., Mailing list and Github). See also the Github Wiki section to engage with other schema.org external communities (e.g., Stackoverflow).
+
+Schema.org homepage reference, 'About Schema.org' section:
+https://schema.org/docs/about.html
+
+Schema.org reference, Releases section:
+https://schema.org/docs/releases.html
+
+W3 community reference, Mailing List:
+https://lists.w3.org/Archives/Public/public-vocabs/
+
+Schema.org-W3 Github reference:
+https://github.com/schemaorg/schemaorg/
+
+Schema.org-W3 Github, Wiki section:
+https://github.com/schemaorg/schemaorg/wiki\""""@en ;
+    cav:refersTo camssa:8978507c-75b9-4aaa-82a6-bf26cca9a0c6 .
+
+camssa:a8af9bb0-4567-4634-8bf1-ae6b6e492a5a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:aa761fc6-6732-46ac-99cb-11db0d10d0b3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "80"^^xsd:int .
+
+camssa:abfb888a-fbfc-4c4b-a08b-c32742e87e50 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:adf0381b-39d2-4776-9a1d-004966c68217 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org allows the exchange of metadata across borders which, in some cases can reduce the administrative burden. For example, by linking the DCAT Application Profile for Data Portals in Europe (DCAT-AP) and schema.org data discoverability on the web (Schema.org profile of DCAT Application Profile for Data Portals in Europe, or DCAT-AP-SDO) will increase, considerably easing access to European public services.
+
+Schema.org homepage reference, 'About Schema.org' section:
+https://schema.org/docs/about.html
+
+DCAT reference:
+https://www.w3.org/TR/vocab-dcat-3/
+
+DCAT-AP-SDO reference:
+https://ec-jrc.github.io/dcat-ap-to-schema-org/\""""@en ;
+    cav:refersTo camssa:e2dd2fff-b1cb-439a-9eac-c9504fe505fb .
+
+camssa:ae67727d-2049-469f-9906-e05a42b1f530 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org can scope the comprehesibility of administrative procedures, rules data and services on European websites. The specification favours the promotion of semantic interoperability between different applications, basing its logic on the reuse of existing controlled vocabularies and potential mappings to existing metadata vocabularies. The specification will be used along with another specification, DCAT, in order to propose a common DCAT schema (DCAT-AP-SDO, Schema.org profile of DCAT Application Profile for Data Portals in Europe) enabling administrations and citizens to find and understand datasets located in the European Union and all Member States' data portals.
+
+Schema.org homepage reference, 'Documentation' section:
+https://schema.org/docs/documents.html
+
+DCAT reference:
+https://www.w3.org/TR/vocab-dcat-3/
+
+DCAT-AP-SDO reference:
+https://ec-jrc.github.io/dcat-ap-to-schema-org/\""""@en ;
+    cav:refersTo camssa:aa761fc6-6732-46ac-99cb-11db0d10d0b3 .
+
+camssa:b1498ee5-8d8c-4634-8f2b-5648e67b9de1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"According to the schema.org project website, the schema.org specification provides a specific vocabulary that can be used by applications that publish, discover or integrate various types of data. Although the main purpose of schema.org is not related to data preservation, the specification can enable long-term preservation of data through additional file export mechanisms or by integrating schema.org into other data markup schemes (see Zotero reference, Forums section) that enable data preservation..
+
+Schema.org homepage reference, 'Data and Datasets overview' section:
+https://schema.org/docs/data-and-datasets.html
+
+Zotero reference, Forums section:
+https://forums.zotero.org/discussion/35992/export-to-schema-org-rdfa-and-or-microdata\""""@en ;
+    cav:refersTo camssa:9d014004-214b-4af9-9c1e-ed8647a87d87 .
+
+camssa:b37c8c6b-c89d-4126-bb71-e2358d102e64 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Schema.org has been selected for its use to be implemented in existing solutions (see ELI reference) and as a semantic asset in the European Union Location Framework (EULF) project (see JRC repository reference, Architectures and Standards for Spatial Data Infrastructures and Digital Government document).
+
+ELI-Joinup reference:
+https://joinup.ec.europa.eu/collection/eli-european-legislation-identifier/solution/eli-legislation-extension-schemaorg/about
+
+JRC repository reference, Architectures and Standards for Spatial Data Infrastructures and Digital Government document:
+https://publications.jrc.ec.europa.eu/repository/handle/JRC121025
+
+European Union Location Framework (EULF) reference:
+https://e3p.jrc.ec.europa.eu/publications/european-union-location-framework'"""@en ;
+    cav:refersTo camssa:66a37216-8274-48ba-a021-0ec98d1fa902 .
+
+camssa:b4fdd513-6dfa-4da0-908c-6ea3bd0bf676 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org relies on more than one development community, mainly the Community Group and the Steering Group (see Schema.org homepage reference, 'About Schema.org' section). In order to contribute to the development of shema.org specification, stakeholder's participation is only possible through the Community Group or the dedicated mailing list. While the Community Group requires stakeholders to register to the W3 community (see W3 community reference, Mailing List), the mailing list does not require any type of registration process (see Schema.org homepage reference, 'About Schema.org' section). Additionally, anyone interested can contribute to the mailing list using the dedicated contact point (by contacting public-vocabs@w3.org), or participate via the schema.org Github (e.g. in the Issues or Discussions section) prior to a registration process.
+
+Schema.org homepage reference, 'About Schema.org' section:
+https://schema.org/docs/about.html
+
+W3 community reference, Mailing List:
+https://lists.w3.org/Archives/Public/public-vocabs/
+
+Schema.org-W3 Github reference, Issues section:
+https://github.com/schemaorg/schemaorg/issues
+
+Schema.org-W3 Github reference, Discussions section:
+https://github.com/schemaorg/schemaorg/discussions\""""@en ;
+    cav:refersTo camssa:8f660e17-fdd7-44f7-a30d-bf8207f0222d .
+
+camssa:bb2f3973-7e7f-4c71-9797-dfc4690706ac a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org does not rely on other specifications, except for derivative projects such as Microdata, which leverages support from other specifications to extend its functionality. However, the specification can be considered technology-agnostic.
+
+Schema.org reference, Getting started with schema.org using Microdata section:
+https://schema.org/docs/gs.html
+
+Schema.org-W3 Github reference, 'Improving schemas' section:
+https://github.com/schemaorg/schemaorg/blob/main/README.md\""""@en ;
+    cav:refersTo camssa:68c987e8-e7af-46f3-8a08-ac9f4e6320eb .
+
+camssa:bb3b9887-9539-489a-8512-ac6ab3594fd2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c359d787-7399-49f3-b356-dc6ebe7ed765 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:c47569e4-ce6c-45f9-8aff-71bf8a500015 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c4ccd41d-2bc5-4fec-bda7-239a919129af a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:c6e0551b-a789-490c-bfd0-12ec515dc992 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org may contribute and promote the visibility of administrative procedures, rules data and services on the web. The specification promotes schemas for structured data (e.g. services, data) enabling potential users to find and use such data as services or relevant information. Up to date, there is no evidence of schema.org as a promising enabler of visibility, but there are ongoing projects such as the Schema.org profile of DCAT Application Profile for Data Portals in Europe (Schema.org profile of DCAT-AP, or DCAT-AP-SDO) that are working in this direction.
+
+Schema.org homepage reference, 'Documentation' section:
+https://schema.org/docs/documents.html
+
+DCAT-AP reference:
+https://op.europa.eu/en/web/eu-vocabularies/dcat-ap
+
+DCAT-AP-SDO reference:
+https://ec-jrc.github.io/dcat-ap-to-schema-org/\""""@en ;
+    cav:refersTo camssa:d7032448-a1e3-4250-a443-7566559d62f6 .
+
+camssa:cd95070f-972f-4b78-8e99-819c04f35aed a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:ce973110-c844-48cc-9c6b-60332b9789b8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards\""""@en ;
+    cav:refersTo camssa:c4ccd41d-2bc5-4fec-bda7-239a919129af .
+
+camssa:d7032448-a1e3-4250-a443-7566559d62f6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "60"^^xsd:int .
+
+camssa:dcebf215-2e0d-45c9-9766-379b6be5fe36 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:dfea05ce-3d4f-43b8-8ca7-82ede12f566e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:e212a654-932a-40ce-8086-d775ca60634f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"There are different kind of assessments evaluating the schema.org specification. However, these evaluations indirectly address the specification's effectiveness or may focus on the phases prior to the development of digital solutions, what makes them hard to find. Check bibliographical platforms or research centres, such as ResearchGate (see Europeana Foundation and INESC-ID joint research reference) or the Joint Research Centre of the European Commission (JRC) (see JRC publications repository reference, 'Application Programming Interfaces in Governments' document).
+
+Europeana Foundation and INESC-ID joint research reference:
+https://www.researchgate.net/profile/Nuno-Freire-2/publication/325529501_Evaluation_of_Schemaorg_for_Aggregation_of_Cultural_Heritage_Metadata/links/5b22540da6fdcc69745ee712/Evaluation-of-Schemaorg-for-Aggregation-of-Cultural-Heritage-Metadata.pdf
+
+JRC publications repository reference, 'Application Programming Interfaces in Governments' document:
+https://publications.jrc.ec.europa.eu/repository/handle/JRC120429\""""@en ;
+    cav:refersTo camssa:f2571449-094a-46b8-90cf-563fd9de6cfb .
+
+camssa:e2dd2fff-b1cb-439a-9eac-c9504fe505fb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e427cda7-6a10-44d7-980d-cce0e3bf87ac a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Although the specification has been implemented in some projects at European level, there is no evidence of the inclusion of schema.org in an open repository/catalogue of standards at European level.  
+
+EUOS repository of standards:
+https://www.standict.eu/standards-repository
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:332c41f1-0716-44af-9f4d-9221b8f2fe41 .
+
+camssa:e7917692-3864-45a5-8077-7e5c3987161f a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@eu.europa.eu" .
+
+camssa:f1984cfc-f76e-4ea9-9308-26e51057a6df a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f2571449-094a-46b8-90cf-563fd9de6cfb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "40"^^xsd:int .
+
+camssa:f2b0375e-c0bb-48c7-8e3a-c3bebe127e68 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f4f4dd20-7217-44f7-b414-10fedc31bb6b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Schema.org is already associated with EIRA ABBs in the EIRA Library Of Interoperability Specifications (ELIS). More specifically, schema.org can define the interoperability aspects of the Ontologies Catalogue ABB of the EIRA Semantic View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:cd95070f-972f-4b78-8e99-819c04f35aed .
+
+camssa:f8d095fc-f8b7-4651-aac8-9b6fd7b8d450 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Schema.org allows for partial implementation as long as the schema implementation is conformant with the specification requirements, namely those requirements concerning the schema data structure. The schema.org project highly recommends the use of authoring schema validators.
+
+Schema.org reference, Data model section, Conformance section:
+https://schema.org/docs/datamodel.html'"""@en ;
+    cav:refersTo camssa:f1984cfc-f76e-4ea9-9308-26e51057a6df .
+
+camssa:f957d343-30bf-41c5-a04f-bd38212955d6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The purpose of schema.org is not related to the protection of personal data managed by public administrations. Therefore, this criterion is not applicable to this specification. 
+
+Schema.org homepage reference, 'About Schema.org' section:
+https://schema.org/docs/about.html\""""@en ;
+    cav:refersTo camssa:5031eaa2-13a3-44d7-82e7-40c03d3770e6 .
+
+camssa:f9ae47d0-78ed-4a8c-be29-4366b8d7ab53 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "40"^^xsd:int .
+
+camssa:fa49c79e-5542-4bce-ae57-caeeb5a1d7c6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State that includes schema.org in their national catalogue with The National Interoperability Framework (NIF) in alignment with the three categories: 1. Conceptual model for integrated public services provision, 2. interoperability layers, and 3. interoperability principles.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:7ef230ff-bca7-45fb-91d2-15b97ae9487d .
+
+camssa:fbb44f24-6f97-4284-bf4f-3fd48b07ce88 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org grants data processing permissions through the schema.org type DigitalDocumentPermission. Such metadata improves the reliability of processed data between citizens, businesses and public administrations.
+
+Schema.org homepage reference, 'About Schema.org' section:
+https://schema.org/docs/about.html\""""@en ;
+    cav:refersTo camssa:dfea05ce-3d4f-43b8-8ca7-82ede12f566e .
+
+camssa:fd63c824-bee6-402d-a882-a60f5dc5996e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org is a (structured data) mark-up schema that helps search engines understand the information on web pages and potentially provides richer search results. Therefore, the specification addresses data portability. In future scenarios, DCAT-AP-SDO (Schema.org profile of DCAT Application Profile for Data Portals in Europe) will potentially replace the common European DCAT Application Profile for Data Portals in Europe (DCAT-AP), which aims to enable data portability between information systems in the EU.
+
+Schema.org homepage reference, 'About Schema.org' section:
+https://schema.org/docs/about.html
+
+DCAT-AP-SDO reference:
+https://ec-jrc.github.io/dcat-ap-to-schema-org/
+
+DCAT-AP reference:
+https://op.europa.eu/en/web/eu-vocabularies/dcat-ap\""""@en ;
+    cav:refersTo camssa:15b2c282-223b-4af1-ab3c-b78afa99c39f .
+
+camssa:fec83670-14ca-4c55-9b28-eac81e7f83dc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Schema.org was originally conceived for the semantic web. Nonetheless, the specification project has successfully extended schema.org to other domains because of the variety of attributes and types it presents (see Schema.org reference, Data model section). Besides, schema.org also offers additional domain-related schema extensions that may differ from each other (see Schema.org homepage reference, 'Organization of Schemas' section), improving the specification capability to be implemented in other domains prior to a deliberate selection of the schema.
+
+Schema.org homepage reference, 'About Schema.org' section:
+https://schema.org/docs/about.html
+
+Schema.org reference, Data model section:
+https://schema.org/docs/datamodel.html
+
+Schema.org homepage reference, 'Organization of Schemas' section:
+https://schema.org/docs/schemas.html\""""@en ;
+    cav:refersTo camssa:6243b78e-dec6-4146-9fdc-c65fcba0912f .
+

@@ -1,0 +1,638 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:14da1f3ace2458b57d45c038e5613aae7ac7c63374f883717b3c0df75911cdc7 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:1c5948b5-e29b-4c97-8371-782ff32c2d91 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:ebf1ad1d4eb0b0d02cc0dee38244400cb22b0901441bf1e3480e3309f6c23a1b a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:393f49d6eb2498dc190763c2914503ddd39b037cd62ce64561b2106b4a7e9786 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:02ffa358-bd62-43d3-8b26-12b35263d8a1,
+        camssa:0c2831e2-f299-4aff-ab5b-3b24eefac676,
+        camssa:0c349f6b-5a34-4ec4-a4f9-d5b47a39f83e,
+        camssa:227cc144-6088-4a25-89b1-4592ba371f42,
+        camssa:234da48d-7fa8-4722-9fb9-770467474ac4,
+        camssa:2870694c-5dcf-4828-ae74-613cfbfbde70,
+        camssa:3014e685-f17d-4080-9875-f3a3864d3008,
+        camssa:30eee830-6582-4ddc-909a-d4194d22b390,
+        camssa:3232aacf-f6c8-4d5f-8297-52f87bf9d8e7,
+        camssa:332973ab-49b5-42be-a44b-7f91eb69d28c,
+        camssa:354d8a9b-e86c-4c7e-88d7-de1a34edcec1,
+        camssa:363d175b-60d3-4200-8bb8-9cfb59bd0dcf,
+        camssa:365022b0-91a0-465f-8f0d-0c99d5906032,
+        camssa:3827d2d2-02df-41fa-9684-493bae955331,
+        camssa:39b19bdc-6415-4fbc-9711-a1df5bcdcd42,
+        camssa:42bebdae-53ae-4791-9c01-0e4cbf5c8db1,
+        camssa:49b89e63-7b30-423f-a343-7bd4dd8f98b1,
+        camssa:4a90f577-f200-4d89-acab-546edea79f61,
+        camssa:4b2bb429-135b-4171-9085-fcca1239e948,
+        camssa:5100528b-e6c1-47b7-afb9-e304a3a5106b,
+        camssa:555e6dca-a10a-4db5-bf8b-cccf614529be,
+        camssa:5dd197af-fb0a-420e-b650-cc1388c40d9b,
+        camssa:5e0c9d10-7974-4f99-a84f-bf40bef889c1,
+        camssa:66b7f6d8-0672-422f-aac8-f31f6ff91f20,
+        camssa:6720c248-6c1e-452b-a2aa-94f62b254205,
+        camssa:7364f860-664a-4696-a1d9-3c85a3460c97,
+        camssa:7c1666a6-b513-4578-b50e-c06cc2f7f3ab,
+        camssa:7e402aef-b97d-4619-8077-fca3cb919e2c,
+        camssa:7e65c118-c691-4ac2-9747-1d3340726864,
+        camssa:7f186931-1f4f-4fbd-b53d-c0e3b33ccc3c,
+        camssa:85c3655a-debd-4a5e-84b4-9e35d374dfb3,
+        camssa:916e46d2-2b4b-43fd-bd3e-4fbe27ec9018,
+        camssa:917e455c-6cc9-4cc5-8f28-154e8b3e6931,
+        camssa:96fbebae-a19e-48bd-99c3-4f3ff4d958f3,
+        camssa:a4f66e7e-9150-4bbf-9ac8-e344d836560d,
+        camssa:aed55c5d-9058-4275-aff4-781262450cde,
+        camssa:af81e34e-c15c-4c19-ae94-1b3055471884,
+        camssa:c1271131-1ccd-472c-8399-41427bc9c5e5,
+        camssa:c34fbdb0-9f03-4a9d-91f9-d9ec78964398,
+        camssa:ca7be78c-6522-4f00-9523-3f78a8cb93b0,
+        camssa:ce3bb1bf-a7c5-4fbc-8cf9-6c49b925a4b4,
+        camssa:d2a10e85-b10a-4dd4-b402-8061213a9c9e,
+        camssa:dc452440-9d58-41dc-ba45-27917800fcad,
+        camssa:fbf18671-89d1-4682-a55e-18a48f10f916,
+        camssa:fcb38226-bcdf-419e-a67d-1162d9031ba1 ;
+    cav:status status:Complete ;
+    dct:title "Internet Protocol Security (IPSec)"@en .
+
+camssa:01515b49-a868-4ccd-9f64-5b506eff8e51 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:02ffa358-bd62-43d3-8b26-12b35263d8a1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are existing documentation and studies assessing and analysing the performance of IPsec in different contexts and application areas. For instance ENISA provides documentation recommending the use of IPsec in order to improve security.
+
+See: 
+http://ijns.femto.com.tw/contents/ijns-v20-n5/ijns-2018-v20-n5-p811-819.pdf 
+https://pdfs.semanticscholar.org/8971/9848f632259138d5d4b1052ad24ede803625.pdf 
+https://www.enisa.europa.eu/publications/algorithms-key-sizes-and-parameters-report/at_download/fullReport
+https://www.researchgate.net/publication/228437109_Interoperability_Issues_for_VPN_IPsec_Solutions """@en ;
+    cav:refersTo camssa:b076938a-0f21-4f3c-8245-d3ea981ea8f4 .
+
+camssa:072d3fdf-26e6-476b-84a8-c822a1a51b3c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:0c2831e2-f299-4aff-ab5b-3b24eefac676 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of IPsec is not related to  e-accessibility. Therefore this criterion is considered not applicable specification."@en ;
+    cav:refersTo camssa:2a74bd5d-3943-4f55-8187-da6bff167a05 .
+
+camssa:0c349f6b-5a34-4ec4-a4f9-d5b47a39f83e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "IPSec is a set of open standards and protocols for securing the exchange of data packets over a computer network. Therefore, it ensures the trustworthy data exchange between different stakeholders."@en ;
+    cav:refersTo camssa:5887bca8-769c-47bc-a2db-bd6c67f654f1 .
+
+camssa:13f1ee76-daef-447a-b5fd-fc51c8b3498f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1c5948b5-e29b-4c97-8371-782ff32c2d91 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:1db69fd1-ee31-4ca4-9507-34c7d2ad16cd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:227cc144-6088-4a25-89b1-4592ba371f42 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of IPsec is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:22994c41-2fdf-407c-90de-5a1c916df129 .
+
+camssa:22994c41-2fdf-407c-90de-5a1c916df129 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:234da48d-7fa8-4722-9fb9-770467474ac4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPsec is included within at least 3 Member States' ICT catalogues: Spain, France and Greece.
+
+See CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards 
+"""@en ;
+    cav:refersTo camssa:fd68fcbd-dbca-4489-ba4d-03178aaaea34 .
+
+camssa:24876b38-56a0-4fd5-987e-2fd39b89aaec a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:2870694c-5dcf-4828-ae74-613cfbfbde70 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "At the moment of performing the assessment, Ipsec is widely used, including for the development of innovative solutions and especially when Virtual Private Networks are required. "@en ;
+    cav:refersTo camssa:80c126c1-679f-452a-9e1e-6b2e9757b23f .
+
+camssa:2932bc73-fa23-424b-a590-42a65b9f9084 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:29bbc6a5-2bb7-4847-a4a1-8e19f03abeae a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2a1fa0e0-427d-411b-8d0c-2e4341b61dc1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:2a74bd5d-3943-4f55-8187-da6bff167a05 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3014e685-f17d-4080-9875-f3a3864d3008 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:bd9af73a-b781-412a-b2c8-1271ec029577 .
+
+camssa:30eee830-6582-4ddc-909a-d4194d22b390 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems.
+
+After being evaluated compliant with the regulation on standardisation 1025/2022, IPSec has been identified by Commission Implementing Decision and included in the European list of ICT Standards for e-procurement.
+
+See: 
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
+    cav:refersTo camssa:a2419d36-bf97-4cb8-a216-933074992cdb .
+
+camssa:3232aacf-f6c8-4d5f-8297-52f87bf9d8e7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:592b620c-dbad-43e6-bd3c-874c31a257e6 .
+
+camssa:332973ab-49b5-42be-a44b-7f91eb69d28c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of IPsec is not related to the delivery of multilingual European public services. Therefore this criterion is considered not applicable specification."@en ;
+    cav:refersTo camssa:13f1ee76-daef-447a-b5fd-fc51c8b3498f .
+
+camssa:33b47168-5151-4a6b-bca7-2e835ac7e480 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:354d8a9b-e86c-4c7e-88d7-de1a34edcec1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Due to the fact that the purpose of IPSec is to secure communications over the Internet Protocol (IP), IPSec is dependant from IPv4 and IPv6. However, IPSeC is designed for this area of application and IPv4 and IPv6 are widely used standards. Therefore, this dependency with specification for which IPSec has been developed, does not hamper interoperability."@en ;
+    cav:refersTo camssa:c4fa58e4-ce9c-4b13-bb40-1db05438a7a5 .
+
+camssa:363d175b-60d3-4200-8bb8-9cfb59bd0dcf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The IETF is a consensus-based group, and authority to act on behalf of the community requires a high degree of consensus and the continued consent of the community. The process of creating and Internet Standard is straightforward: a specification undergoes a period of development and several iterations of review by the Internet community and revision based upon experience, is adopted as a Standard by the appropriate body... and is published. In practice, the process is more complicated, due to (1) the difficulty of creating specifications of high technical quality; (2) the need to consider the interests of all of the affected parties; (3) the importance of establishing widespread community consensus; and (4) the difficulty of evaluating the utility of a particular specification for the Internet community. The goals of the Internet Standards Process are:
+- Technical excellence;
+- prior implementation and testing;
+- clear, concise, and easily understood documentation;
+- openness and fairness; and 
+- timeliness.
+The goal of technical competence, the requirement for prior implementation and testing, and the need to allow all interested parties to comment all require significant time and effort. The Internet Standards Process is intended to balance these conflicting goals. The process is believed to be as short and simple as possible without sacrificing technical excellence, thorough testing before adoption of a standard, or openness and fairness.
+
+See:
+https://www.ietf.org/standards/process/"""@en ;
+    cav:refersTo camssa:7712f8d1-9f91-4c85-9249-5fe3f13b2063 .
+
+camssa:365022b0-91a0-465f-8f0d-0c99d5906032 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, IPSec is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. IPsec is therefore licensed on a royalty-free basis.
+
+No IPR disclosures have been submitted directly on the IPsec specification (RFC 4305).
+
+See:
+https://tools.ietf.org/html/rfc3668
+https://tools.ietf.org/html/rfc4301
+
+Like all the IETF standards, IPsec is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. IPsec is therefore licensed on a royalty-free basis.
+
+No IPR disclosures have been submitted directly on the IPsec specification (RFC 4301).
+
+See:
+https://tools.ietf.org/html/rfc3668
+https://tools.ietf.org/html/rfc4301"""@en ;
+    cav:refersTo camssa:4e63b041-3a84-4b5c-ba9d-3d81eca1e660 .
+
+camssa:3827d2d2-02df-41fa-9684-493bae955331 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As part of the "IP Stack", IPsec has been selected by several public administrations for secure data exchange over the internet. By allowing the secure exchange of data, the specification fosters the visibility of data across borders.
+ 
+An example of its implementation is the TESTA project, which provides a secure cross-border data communication network service for public administrations.
+
+See: 
+https://ec.europa.eu/idabc/en/document/2097.html
+https://ec.europa.eu/isa2/solutions/testa_en"""@en ;
+    cav:refersTo camssa:69ca28d0-ae97-43a1-83bb-5080762b5852 .
+
+camssa:39b19bdc-6415-4fbc-9711-a1df5bcdcd42 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are existing documentation and studies assessing and analysing the performance of IPsec in different contexts and application areas. For instance ENISA provides documentation recommending the use of IPsec in order to improve security.
+
+See: 
+http://ijns.femto.com.tw/contents/ijns-v20-n5/ijns-2018-v20-n5-p811-819.pdf 
+https://pdfs.semanticscholar.org/8971/9848f632259138d5d4b1052ad24ede803625.pdf 
+https://www.enisa.europa.eu/publications/algorithms-key-sizes-and-parameters-report/at_download/fullReport
+https://www.researchgate.net/publication/228437109_Interoperability_Issues_for_VPN_IPsec_Solutions """@en ;
+    cav:refersTo camssa:c0b0bdae-bf80-44d9-a3cd-035b351e45d5 .
+
+camssa:4270d403-873d-4cca-97c6-cd2a87abad09 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:42bebdae-53ae-4791-9c01-0e4cbf5c8db1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:2932bc73-fa23-424b-a590-42a65b9f9084 .
+
+camssa:471ca98b-a589-4bb1-a304-d9dda7f3bf8e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:49b89e63-7b30-423f-a343-7bd4dd8f98b1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """No up to date mechanism to assess the IPsec conformity has been found. The existing  conformity tests provided in the past by the IETF IPSec working group are outdated.
+
+See: 
+https://tools.ietf.org/html/draft-hoffman-ipsec-testing-01"""@en ;
+    cav:refersTo camssa:b8d18786-33db-46ed-8b0b-0db539ff0b54 .
+
+camssa:4a90f577-f200-4d89-acab-546edea79f61 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:829a6738-6713-4979-8f52-032b8eb17378 .
+
+camssa:4b2bb429-135b-4171-9085-fcca1239e948 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of IPSec is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:5aacfb40-7272-4b8b-95ca-759fb6fef7eb .
+
+camssa:4d6a5d57-a153-4e22-95d2-d1f72eacb5b8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:4e63b041-3a84-4b5c-ba9d-3d81eca1e660 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:5100528b-e6c1-47b7-afb9-e304a3a5106b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:bb409a98-183d-495e-b0f5-51b13951d81f .
+
+camssa:555e6dca-a10a-4db5-bf8b-cccf614529be a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPsec allows the exchange of data between systems and is compatible with both versions of the Internet Protocol, IPv4 and IPv6. Therefore it prevents the  storage of data in silos that are incompatible with one another. 
+
+See: 
+https://tools.ietf.org/html/rfc4301 
+
+IPsec allows the exchange of data between systems and is compatible with both versions of the Internet Protocol, IPv4 and IPv6. Therefore it prevents the  storage of data in silos that are incompatible with one another. 
+
+See: 
+https://tools.ietf.org/html/rfc4301 """@en ;
+    cav:refersTo camssa:1db69fd1-ee31-4ca4-9507-34c7d2ad16cd .
+
+camssa:5887bca8-769c-47bc-a2db-bd6c67f654f1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:592b620c-dbad-43e6-bd3c-874c31a257e6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:5aacfb40-7272-4b8b-95ca-759fb6fef7eb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5dd197af-fb0a-420e-b650-cc1388c40d9b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As part of the "IP Stack", IPsec has been selected by several public administrations for secure data exchange over the internet. By allowing the secure exchange of data, the specification fosters the visibility of data across borders.
+ 
+An example of its implementation is the TESTA project, which provides a secure cross-border data communication network service for public administrations.
+
+See: 
+https://ec.europa.eu/idabc/en/document/2097.html
+https://ec.europa.eu/isa2/solutions/testa_en"""@en ;
+    cav:refersTo camssa:ee4f1901-f3b4-49fd-ab6c-03cb05d6b4ca .
+
+camssa:5e0c9d10-7974-4f99-a84f-bf40bef889c1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+The purpose of IPSec is not related to the publication of public data as open data. Therefore this criterion is not applicable to this specification. """@en ;
+    cav:refersTo camssa:62dc8435-d7c5-4045-9104-def28dfdd24b .
+
+camssa:625d8766-dab4-49be-b724-5a7d83b186b4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:62dc8435-d7c5-4045-9104-def28dfdd24b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "0+100"^^xsd:int .
+
+camssa:66b7f6d8-0672-422f-aac8-f31f6ff91f20 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f7890cbe-2660-4cc7-9295-7042d3db24b4 .
+
+camssa:6720c248-6c1e-452b-a2aa-94f62b254205 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9d04bdbf-4164-4883-aeb3-5e98e3d86bbd .
+
+camssa:67d4be5f-6fa5-49df-9f8f-896dd3271df0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:69ca28d0-ae97-43a1-83bb-5080762b5852 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:70c2a595-46b4-433e-9c04-0dcd90ae9c46 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7364f860-664a-4696-a1d9-3c85a3460c97 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of IPSec is not related to long term preservation of electronic records. Therefore this criterion is considered not applicable to this specification.
+
+See: 
+https://tools.ietf.org/html/rfc4301 
+"""@en ;
+    cav:refersTo camssa:d5c41efb-b12b-4385-a17e-f6af05782c98 .
+
+camssa:7712f8d1-9f91-4c85-9249-5fe3f13b2063 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7c1666a6-b513-4578-b50e-c06cc2f7f3ab a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:33b47168-5151-4a6b-bca7-2e835ac7e480 .
+
+camssa:7e402aef-b97d-4619-8077-fca3cb919e2c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Due to the fact that the purpose of IPSec is to secure communications over the Internet Protocol (IP), IPSec is dependant from IPv4 and IPv6. However, IPSeC is designed for this area of application and IPv4 and IPv6 are widely used standards. Therefore, this dependency with specification for which IPSec has been developed, does not hamper interoperability."@en ;
+    cav:refersTo camssa:c27cab0d-eeed-4937-b53d-ea2c4dfb9d99 .
+
+camssa:7e65c118-c691-4ac2-9747-1d3340726864 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:b50c16c2-1994-4ace-ad3f-cdd52d5be2a6 .
+
+camssa:7f186931-1f4f-4fbd-b53d-c0e3b33ccc3c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPSec is not related to interfaces. Therefore, this criterion is not applicable to this specification.
+
+See: 
+https://ec.europa.eu/isa2/solutions/testa_en"""@en ;
+    cav:refersTo camssa:b90895a5-7fd7-4771-9a69-807f2f9d9716 .
+
+camssa:80c126c1-679f-452a-9e1e-6b2e9757b23f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:829a6738-6713-4979-8f52-032b8eb17378 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:85c3655a-debd-4a5e-84b4-9e35d374dfb3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPsec is included in the Spanish catalogue of standards. Spain complies with at least 4 out of 5 sections of the EIF according to the NIFO factsheets.
+
+See:
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#CATALOGOESTANDARES"""@en ;
+    cav:refersTo camssa:471ca98b-a589-4bb1-a304-d9dda7f3bf8e .
+
+camssa:916e46d2-2b4b-43fd-bd3e-4fbe27ec9018 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """At least 4 Member States are recommending IPsec in their ICT National Catalogues. 
+
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:29bbc6a5-2bb7-4847-a4a1-8e19f03abeae .
+
+camssa:917e455c-6cc9-4cc5-8f28-154e8b3e6931 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPSec is maintained and developed by IETF which is an international community developing open standards
+
+See: 
+https://www.ietf.org/about/ 
+https://tools.ietf.org/html/rfc4301 """@en ;
+    cav:refersTo camssa:d6b5cfb8-2a5f-46bd-94cd-c22f93b44883 .
+
+camssa:96fbebae-a19e-48bd-99c3-4f3ff4d958f3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:4270d403-873d-4cca-97c6-cd2a87abad09 .
+
+camssa:9d04bdbf-4164-4883-aeb3-5e98e3d86bbd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:a2419d36-bf97-4cb8-a216-933074992cdb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a4f66e7e-9150-4bbf-9ac8-e344d836560d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a formal review and approval so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
+
+Each distinct version of an Internet standards-related specification is published as a "Request for Comments" (RFC) document. During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's "Internet-Drafts" directory. IETF therefore makes available the working documents to a wide audience, facilitating the process of review and revision.
+
+See:
+https://www.ietf.org/standards/process/ 
+https://tools.ietf.org/html/rfc2026"""@en ;
+    cav:refersTo camssa:4d6a5d57-a153-4e22-95d2-d1f72eacb5b8 .
+
+camssa:aed55c5d-9058-4275-aff4-781262450cde a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:01515b49-a868-4ccd-9f64-5b506eff8e51 .
+
+camssa:af81e34e-c15c-4c19-ae94-1b3055471884 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPsec is used by the TESTA project, which provides a secure cross-border data communication network service for public administrations. EuroDomain, the  TESTA building block that allows data transfer and services between TESTA stakeholders, implements IPsec to enhance security settings in order to prevent eavesdropping and to enable encryption mechanisms. 
+
+See: 
+https://ec.europa.eu/idabc/en/document/2097.html """@en ;
+    cav:refersTo camssa:fd282f67-246a-42ca-acad-c49c4d42c39d .
+
+camssa:b076938a-0f21-4f3c-8245-d3ea981ea8f4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b50c16c2-1994-4ace-ad3f-cdd52d5be2a6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b8d18786-33db-46ed-8b0b-0db539ff0b54 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "20"^^xsd:int .
+
+camssa:b90895a5-7fd7-4771-9a69-807f2f9d9716 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:bb409a98-183d-495e-b0f5-51b13951d81f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bd9af73a-b781-412a-b2c8-1271ec029577 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:c0b0bdae-bf80-44d9-a3cd-035b351e45d5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c1271131-1ccd-472c-8399-41427bc9c5e5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:625d8766-dab4-49be-b724-5a7d83b186b4 .
+
+camssa:c27cab0d-eeed-4937-b53d-ea2c4dfb9d99 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c34fbdb0-9f03-4a9d-91f9-d9ec78964398 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+None"""@en ;
+    cav:refersTo camssa:24876b38-56a0-4fd5-987e-2fd39b89aaec .
+
+camssa:c4fa58e4-ce9c-4b13-bb40-1db05438a7a5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:ca7be78c-6522-4f00-9523-3f78a8cb93b0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is a widely used de-facto standard. Thus, it is sufficiently mature for the development of products and services. Since it's release 1995, IPSec overcame most of its initial problems and has been used by many products and services.
+
+See: 
+https://www.ibm.com/it-infrastructure/z/zos
+https://www.ibm.com/it-infrastructure/power/os/aix
+https://www.oracle.com/solaris/solaris11/
+http://www.mit.edu/~tytso/ipsec/surv9607.html"""@en ;
+    cav:refersTo camssa:072d3fdf-26e6-476b-84a8-c822a1a51b3c .
+
+camssa:ce3bb1bf-a7c5-4fbc-8cf9-6c49b925a4b4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f47c435a-34b3-45ee-a5e6-452160fe2b5e .
+
+camssa:d2a10e85-b10a-4dd4-b402-8061213a9c9e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:70c2a595-46b4-433e-9c04-0dcd90ae9c46 .
+
+camssa:d5c41efb-b12b-4385-a17e-f6af05782c98 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:d6b5cfb8-2a5f-46bd-94cd-c22f93b44883 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:dc452440-9d58-41dc-ba45-27917800fcad a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPSec is a business domain agnostic specification.
+
+IPSec is a business domain agnostic specification."""@en ;
+    cav:refersTo camssa:2a1fa0e0-427d-411b-8d0c-2e4341b61dc1 .
+
+camssa:ee4f1901-f3b4-49fd-ab6c-03cb05d6b4ca a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:f47c435a-34b3-45ee-a5e6-452160fe2b5e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f7890cbe-2660-4cc7-9295-7042d3db24b4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:fbf18671-89d1-4682-a55e-18a48f10f916 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:fdf646c9-e2a8-4858-a6e1-e80c333789d5 .
+
+camssa:fcb38226-bcdf-419e-a67d-1162d9031ba1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The once-only principle is an e-government concept that aims to ensure that citizens, institutions, and companies only have to provide certain standard information to the authorities and administrations once.
+
+IPSec is a set of open standards and protocols for securing the exchange of data packets over a computer network. By allowing the secure exchange of standard data, IPSec reduced the need to provide the information several times Therefore, IPSec eases the implementation of the once-only principle. """@en ;
+    cav:refersTo camssa:67d4be5f-6fa5-49df-9f8f-896dd3271df0 .
+
+camssa:fd282f67-246a-42ca-acad-c49c4d42c39d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fd68fcbd-dbca-4489-ba4d-03178aaaea34 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:fdf646c9-e2a8-4858-a6e1-e80c333789d5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+

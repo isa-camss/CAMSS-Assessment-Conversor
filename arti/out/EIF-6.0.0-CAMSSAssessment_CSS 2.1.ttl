@@ -1,0 +1,676 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:acac5685942a665f2243d03af6817706ce20c914589d4ca71eadd4f93fb94b7f a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:3434176d82130b1f0ffeda1e7d91021c4fe0e57a0e3b2dbf83aacb7b57c63d2b ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:0703ba62-4d3a-4469-8e43-28f6d8d37da2,
+        camssa:09a1ce90-d446-43ae-9bc9-8de67645f61c,
+        camssa:1062d16e-4964-443c-a28b-e29bc8ce3333,
+        camssa:1fd61780-90f9-4799-baf7-d85a9a3c2914,
+        camssa:23e1c8bf-fcf2-4e48-9b8a-8cea7a00d45d,
+        camssa:27d7642d-bcb5-40f1-9e64-814defe3ff29,
+        camssa:2ac614c5-73af-4a8f-80b7-25e9d9c0600a,
+        camssa:2b13d843-6694-4938-822e-44b220fdd39e,
+        camssa:3eba8001-3f42-4cdb-9e4f-22db7c5bbffd,
+        camssa:4045236d-8a5e-4d0d-84a4-6fda548a538f,
+        camssa:40fc0afd-85b4-4324-a1d3-a4918d80d490,
+        camssa:4267fb2e-4022-41c4-a633-3312ddb73c2f,
+        camssa:43305032-5843-472f-accc-7505f3401057,
+        camssa:466e3439-fa15-4c1b-831c-66bdec03c760,
+        camssa:488dff61-276e-4b04-b8b6-06af66963068,
+        camssa:4aaab504-1752-47f8-bc8b-3c8f9ca0c984,
+        camssa:51650a52-7907-4b82-9cbf-a76fa8979537,
+        camssa:5a939831-5354-4781-bc3f-e7123fb85c39,
+        camssa:5af6fad3-8a76-44df-b67b-9a46eb020d59,
+        camssa:5d3e3e25-1b04-49fd-8720-723e7d79c3d5,
+        camssa:5de8a221-1dcf-4825-8fbe-ad04bef6ddf7,
+        camssa:63b9b7a4-fed7-4b2e-9b62-debaf4892140,
+        camssa:65163023-d134-436e-a133-5e321dc9a597,
+        camssa:6debadc6-ce80-4750-94fc-a37fcfe0b4a6,
+        camssa:7122e86d-813d-48bd-90ce-2e427f9e3525,
+        camssa:748da545-0bbb-42e9-b4f1-1bd29cbb7e87,
+        camssa:752d098d-bed2-4c91-876f-b32268387cfd,
+        camssa:865b0c83-d819-4f95-a02c-61d46e0eda9b,
+        camssa:89152e85-302f-42d1-bb75-0ba9e297b013,
+        camssa:8b4c9b8c-55cc-446d-8566-8535789b472b,
+        camssa:91c5c3ae-f174-4881-b703-a337de8d6fae,
+        camssa:929312e1-b9ef-47cc-ac3f-47d6aacbb8fe,
+        camssa:9f617522-1219-411d-b8fa-75bbd3597a29,
+        camssa:a4bb6ec1-023e-4b19-8e64-9cc3d6729f32,
+        camssa:b6059007-021f-4489-8165-83aef0158267,
+        camssa:c049cad6-6b30-4cd9-94f0-ae97652a4b31,
+        camssa:c9ed191a-df34-49c1-a2fd-6df47fdbd3ca,
+        camssa:cf8e00de-2947-4f43-9398-189c4e71d0ea,
+        camssa:d0c2b9d2-2d03-4943-b6f9-ded29f9ab47a,
+        camssa:d8945290-b997-4a6d-9d38-12b9f833ccf8,
+        camssa:deb2b272-cc5e-43c8-b79c-852a31bca342,
+        camssa:e1f98565-ad5f-49b8-aa76-8524286326e9,
+        camssa:ea91f4be-3305-4100-930d-447026150743,
+        camssa:ec3c8ee7-acf2-4361-b29d-53c5f031eb17,
+        camssa:f2ef1901-7110-4eda-baf3-6d4702981e48 ;
+    cav:status status:Complete ;
+    dct:title "Cascading Style Sheets (CSS) v2.1"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:df5a8691-204a-4814-863e-b1aeb92800a7 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:02816786-ea26-424e-ad35-c610e0d46fb5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:0703ba62-4d3a-4469-8e43-28f6d8d37da2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By providing style, the CSS is an asset that when used properly could help to enhance and ease the accessibility of disabled people. It could help to provide context and support the functionalities of the web design. Moreover, the Regional Government of Bizkaia developed his website to promote the integration of groups with disabilities into the Public Administration of Bizkaia. They used XHTML 1.0 recommendations and CSS2.
+
+CSS and JavaScript accessibility best practices:
+https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript
+
+CSS2 implemented in e-accessability project:
+https://joinup.ec.europa.eu/collection/einclusion/document/eaccesibility-public-administration-bizkaia-bizkaianet"""@en ;
+    cav:refersTo camssa:fa272609-8a95-4e0d-848e-170d2a2226f8 .
+
+camssa:09a1ce90-d446-43ae-9bc9-8de67645f61c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are existing documentation and studies assessing the effectiveness and efficiency of CSS v2.1. It is a comparison between 3 versions, CSS, CSS2 and CSS3. As well, the study shows the improvement of the different versions over time as resulting in more efficient and faster web designs.
+
+Comparison CSS2 and CSS3:
+https://hackr.io/blog/difference-between-css-css2-and-css3"""@en ;
+    cav:refersTo camssa:7f76365a-8e1e-4d8b-a703-55e899e574fa .
+
+camssa:0a83e1f7-c017-49e1-902a-ecb5375a5c21 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0b30a5c8-b5f9-41c3-bb99-251e64c43555 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:0d990d18-b6f9-46c7-ae93-296059646e78 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:1062d16e-4964-443c-a28b-e29bc8ce3333 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:79ede695-e3c6-46ee-ad02-07e6a1eda42e .
+
+camssa:119ccd30-899c-4487-9189-c6d1e0e2bd78 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:12a6fc72-1605-4d5b-8da8-aead99908c57 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "20"^^xsd:int .
+
+camssa:13fae29f-5096-415b-bf79-62a113ad4b80 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:17e3809c-15bb-4c10-ad75-fd514346a171 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:1fd61780-90f9-4799-baf7-d85a9a3c2914 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f390b5ed-c97c-4993-a048-420cac3d8aba .
+
+camssa:23e1c8bf-fcf2-4e48-9b8a-8cea7a00d45d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSS is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web. CCS v2.1 went to proposed recommendation on 12 April 2011. After being reviewed by the W3C Advisory Committee, it was finally published as a W3C Recommendation on 7 June 2011 and it has been used for the development of many webs. Therefore, the maturity of the specifications is widely demonstrated.
+
+CSS v2.1 W3C reference:
+https://www.w3.org/TR/2011/REC-CSS2-20110607/"""@en ;
+    cav:refersTo camssa:43c4f5a6-e64e-4197-8872-aa23bb3ef932 .
+
+camssa:27d7642d-bcb5-40f1-9e64-814defe3ff29 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSS v2.1 is dependent from HTML, its main function is to describe how HTML elements should be displayed on web documents.
+
+CSS v2.1 W3C reference:
+https://www.w3.org/TR/2011/REC-CSS2-20110607/"""@en ;
+    cav:refersTo camssa:8475073e-5595-414d-ad6f-0d6dd6f08a23 .
+
+camssa:2ac614c5-73af-4a8f-80b7-25e9d9c0600a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSS v2.1 is dependent from HTML, its main function is to describe how HTML elements should be displayed on web documents.
+
+CSS v2.1 W3C reference:
+https://www.w3.org/TR/2011/REC-CSS2-20110607/"""@en ;
+    cav:refersTo camssa:4e89aa4e-c060-430f-adb7-206f17c5af28 .
+
+camssa:2b13d843-6694-4938-822e-44b220fdd39e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0d990d18-b6f9-46c7-ae93-296059646e78 .
+
+camssa:368e34f0-a66a-4a05-ada8-7dd793106fa3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:3d80ee53-3e71-48ea-a7af-cbdbbe51051f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3eba8001-3f42-4cdb-9e4f-22db7c5bbffd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSS is currently being used by the EUR-Lex, the European gateway to EU Law for the presentation of the different types of documents that it includes. EUR-Lex is run by the Publications Office of the European Union with the aim to provide official and comprehensive access to EU legal documents. 
+
+Presentation style sheets EU Vocabulary:
+https://op.europa.eu/en/web/eu-vocabularies/presentation-style-sheets
+
+EUR-Lex:
+https://eur-lex.europa.eu/homepage.html?locale=en"""@en ;
+    cav:refersTo camssa:4aaa94f1-920e-4500-85e6-c27c6d938417 .
+
+camssa:4045236d-8a5e-4d0d-84a4-6fda548a538f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of CSS is not related to security and privacy of the data exchange. Therefore, this criterion is not applicable to the specification. 
+
+CSS v2.1 W3C reference:
+https://www.w3.org/TR/2011/REC-CSS2-20110607/"""@en ;
+    cav:refersTo camssa:f1c6ea67-1569-4894-b760-74c59dd2ad54 .
+
+camssa:40fc0afd-85b4-4324-a1d3-a4918d80d490 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:3d80ee53-3e71-48ea-a7af-cbdbbe51051f .
+
+camssa:4267fb2e-4022-41c4-a633-3312ddb73c2f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of CSS is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification. 
+
+CSS v2.1 W3C reference:
+https://www.w3.org/TR/2011/REC-CSS2-20110607/"""@en ;
+    cav:refersTo camssa:f07bdb9b-d078-42a0-985a-79e9984a04c8 .
+
+camssa:43305032-5843-472f-accc-7505f3401057 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSS is a simple mechanism for adding style (fonts, colours, spacing...) to web documents, but by itself, it does not publish data on the web. It also does not comply with the other levels of maturity of Tim Berners-Lee's 5 stars for open data nor the principles of the linked open data.
+
+CSS v2.1 W3C reference:
+https://www.w3.org/TR/2011/REC-CSS2-20110607/
+
+Five star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html
+
+None"""@en ;
+    cav:refersTo camssa:7f86d6e3-6e7b-4740-9105-24d44d3944ac .
+
+camssa:43c4f5a6-e64e-4197-8872-aa23bb3ef932 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:466e3439-fa15-4c1b-831c-66bdec03c760 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSS v2.1 is included in 3 national catalogues of recommended specifications. They belong to the Netherlands, Spain and Sweden.
+The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. 
+
+National catalogue the Netherlands: 
+https://www.forumstandaardisatie.nl/open-standaarden
+
+National catalogue Spain:
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#CATALOGOESTANDARES
+
+National catalogue Sweden:
+https://www.avropa.se/globalassets/dokument/open-it-standards.pdf?_t_id=1B2M2Y8AsgTpgAmY7PhCfg%3d%3d&_t_q=standards&_t_tags=language%3asv%2csiteid%3a95d515a5-23ca-47bf-87a9-07b10d8ac360&_t_ip=178.139.72.144&_t_hit.id=Avropa_Core_Models_Media_GenericMedia/_ff07d720-f793-44b0-994d-27e79b28f6bd&_t_hit.pos=7
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:73787619-e870-4e2e-8f34-af0b4f4f4d7b .
+
+camssa:4744aa28-314c-4f12-ac78-30b9eb504d5b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:488dff61-276e-4b04-b8b6-06af66963068 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specifications is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. In the case that there would be an interface with HTML, this specification could help to ensure the availability of interfaces giving the correct format.
+
+CSS v2.1 W3C reference:
+https://www.w3.org/TR/2011/REC-CSS2-20110607/"""@en ;
+    cav:refersTo camssa:560e9920-f361-42cc-8158-2ca8fdff2e57 .
+
+camssa:4aaa94f1-920e-4500-85e6-c27c6d938417 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4aaab504-1752-47f8-bc8b-3c8f9ca0c984 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of CSS is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+CSS v2.1 W3C reference:
+https://www.w3.org/TR/2011/REC-CSS2-20110607/"""@en ;
+    cav:refersTo camssa:e6da7555-f0b4-4ac6-81b2-fd065a243075 .
+
+camssa:4cdb2f87-6566-4bd8-aab3-3c77aa62b202 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4dcf365f-adee-448d-b0c4-48148d4956a6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:4e89aa4e-c060-430f-adb7-206f17c5af28 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:int .
+
+camssa:51650a52-7907-4b82-9cbf-a76fa8979537 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of CSS v2.1 is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to the specification. 
+
+CSS v2.1 W3C reference:
+https://www.w3.org/TR/2011/REC-CSS2-20110607/"""@en ;
+    cav:refersTo camssa:0a83e1f7-c017-49e1-902a-ecb5375a5c21 .
+
+camssa:560e9920-f361-42cc-8158-2ca8fdff2e57 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:5a939831-5354-4781-bc3f-e7123fb85c39 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of CSS is not related to the once-only principle. Therefore, this criterion is not applicable to the specification. 
+
+CSS v2.1 W3C reference:
+https://www.w3.org/TR/2011/REC-CSS2-20110607/"""@en ;
+    cav:refersTo camssa:ef4090e4-026d-4da5-9a7f-26fbc40f3497 .
+
+camssa:5af6fad3-8a76-44df-b67b-9a46eb020d59 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:119ccd30-899c-4487-9189-c6d1e0e2bd78 .
+
+camssa:5d3e3e25-1b04-49fd-8720-723e7d79c3d5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 8 Member States' catalogues of recommended specifications. This Member States are Croatia, France, Malta, the Netherlands, Norway, Poland Spain and Sweden.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:ed2f199a-9f15-425e-b3be-9f81cee031de .
+
+camssa:5de8a221-1dcf-4825-8fbe-ad04bef6ddf7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:b3f1bcb0-6908-4de1-bf5a-3cedfac0d464 .
+
+camssa:63b9b7a4-fed7-4b2e-9b62-debaf4892140 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9d739e4a-dc08-4069-b578-9d962487f75d .
+
+camssa:65163023-d134-436e-a133-5e321dc9a597 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+None"""@en ;
+    cav:refersTo camssa:17e3809c-15bb-4c10-ad75-fd514346a171 .
+
+camssa:6debadc6-ce80-4750-94fc-a37fcfe0b4a6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSS v2.1 has had market acceptance for unified web design for years used with HTML which is widely accepted, but with the release of the CSS3 version that uses CSS v2.1 specification as its core, its use has been reduced. CSS3 has implemented some modules and functionalities of the CSS v2.1 specification. Moreover, some modules of CSS3 have been accepted as standard by W3C, for example: CSS Colour Module Level 3 (W3C Recommendation 06 November 2018). 
+
+CSS v2.1 W3C reference: 
+https://www.w3.org/TR/2011/REC-CSS2-20110607/ 
+
+CSS Color Module Level 3 W3C reference: 
+https://www.w3.org/TR/2018/REC-css-color-3-20180619/"""@en ;
+    cav:refersTo camssa:12a6fc72-1605-4d5b-8da8-aead99908c57 .
+
+camssa:7122e86d-813d-48bd-90ce-2e427f9e3525 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C provides a Markup Validation Service for free to validate CSS, and (X)HTML using style sheets.
+
+W3C Markup Validation Service:
+https://validator.w3.org/
+
+Online CSS validator:
+https://jigsaw.w3.org/css-validator/"""@en ;
+    cav:refersTo camssa:78468c21-3bc5-4bb1-9370-6d85d30df4c7 .
+
+camssa:73787619-e870-4e2e-8f34-af0b4f4f4d7b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:748da545-0bbb-42e9-b4f1-1bd29cbb7e87 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of CSS is to give format to web documents, including layout, colours and fonts. A well-formatted web document helps the public administration to make the information more comprehensible. Without a CSS, the information could be confusing and it could take longer to see the meaning of the information.
+An example of this is EUR-Lex, the cross border gateway to EU Law. It is using CSS to present the different documentation contained in EUR-Lex. 
+
+Presentation style sheets EU Vocabulary:
+https://op.europa.eu/en/web/eu-vocabularies/presentation-style-sheets
+
+EUR-Lex:
+https://eur-lex.europa.eu/homepage.html?locale=en"""@en ;
+    cav:refersTo camssa:c32bad1d-7db5-46cd-90b5-77b0f6fbd868 .
+
+camssa:752d098d-bed2-4c91-876f-b32268387cfd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are existing documentation and studies assessing the effectiveness and efficiency of CSS v2.1. It is a comparison between 3 versions, CSS, CSS2 and CSS3. As well, the study shows the improvement of the different versions over time as resulting in more efficient and faster web designs.
+
+Comparison CSS2 and CSS3:
+https://hackr.io/blog/difference-between-css-css2-and-css3"""@en ;
+    cav:refersTo camssa:4cdb2f87-6566-4bd8-aab3-3c77aa62b202 .
+
+camssa:78468c21-3bc5-4bb1-9370-6d85d30df4c7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:79ede695-e3c6-46ee-ad02-07e6a1eda42e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:7f4fc7ec-1c28-4254-a941-db7044bd7218 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7f76365a-8e1e-4d8b-a703-55e899e574fa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7f86d6e3-6e7b-4740-9105-24d44d3944ac a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "20+0"^^xsd:int .
+
+camssa:8475073e-5595-414d-ad6f-0d6dd6f08a23 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "20"^^xsd:int .
+
+camssa:865b0c83-d819-4f95-a02c-61d46e0eda9b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
+    cav:refersTo camssa:02816786-ea26-424e-ad35-c610e0d46fb5 .
+
+camssa:89152e85-302f-42d1-bb75-0ba9e297b013 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:4744aa28-314c-4f12-ac78-30b9eb504d5b .
+
+camssa:8b4c9b8c-55cc-446d-8566-8535789b472b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of CSS v2.1 is not related with data portability. Therefore, this criterion is not applicable for this specification. 
+
+CSS v2.1 W3C reference:
+https://www.w3.org/TR/2011/REC-CSS2-20110607/
+
+The purpose of CSS v2.1 is not related with data portability. Therefore, this criterion is not applicable for this specification. 
+
+CSS v2.1 W3C reference:
+https://www.w3.org/TR/2011/REC-CSS2-20110607/"""@en ;
+    cav:refersTo camssa:368e34f0-a66a-4a05-ada8-7dd793106fa3 .
+
+camssa:91c5c3ae-f174-4881-b703-a337de8d6fae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of CSS v2.1 is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
+
+CSS v2.1 W3C reference:
+https://www.w3.org/TR/2011/REC-CSS2-20110607/"""@en ;
+    cav:refersTo camssa:0b30a5c8-b5f9-41c3-bb99-251e64c43555 .
+
+camssa:929312e1-b9ef-47cc-ac3f-47d6aacbb8fe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:bb266ac3-69b5-40b6-9b29-24ecd3c7acfc .
+
+camssa:96e2704a-62ab-42fa-ae96-b14ef61d66c7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:9ceaa971-adfe-4bf4-8b96-a37ffade7d73 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:9d739e4a-dc08-4069-b578-9d962487f75d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9f617522-1219-411d-b8fa-75bbd3597a29 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSS v2.1 is a business domain agnostic specification that can be reused in a cross-domain manner.
+
+CSS v2.1 W3C reference:
+https://www.w3.org/TR/2011/REC-CSS2-20110607/
+
+CSS v2.1 is a business domain agnostic specification that can be reused in a cross-domain manner.
+
+CSS v2.1 W3C reference:
+https://www.w3.org/TR/2011/REC-CSS2-20110607/"""@en ;
+    cav:refersTo camssa:dddeeea0-e675-4181-b63e-f4682db828c2 .
+
+camssa:a2bdf496-bcba-443d-9c16-71b26a86b9e4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:a4bb6ec1-023e-4b19-8e64-9cc3d6729f32 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:ea7567a9-f4e5-480d-8e53-cdb5f0dd962a .
+
+camssa:b1522c8c-5b83-4a7e-90eb-d6aa54131b04 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b3f1bcb0-6908-4de1-bf5a-3cedfac0d464 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:b6059007-021f-4489-8165-83aef0158267 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of CSS is to give format to web documents, including layout, colours and fonts. Therefore, it allows to improve the visualization so that the information is friendlier and its interpretation is easier.
+An example of this is EUR-Lex, the cross border gateway to EU Law. It is using CSS to present the different documentation contained in EUR-Lex.
+
+Presentation style sheets EU Vocabulary:
+https://op.europa.eu/en/web/eu-vocabularies/presentation-style-sheets
+
+EUR-Lex:
+https://eur-lex.europa.eu/homepage.html?locale=en"""@en ;
+    cav:refersTo camssa:4dcf365f-adee-448d-b0c4-48148d4956a6 .
+
+camssa:b84723ed-1939-4ee3-854a-d67a71103fa5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:bb266ac3-69b5-40b6-9b29-24ecd3c7acfc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bb3f3a18-d1fd-4fba-9ab0-2e127bf23007 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c049cad6-6b30-4cd9-94f0-ae97652a4b31 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of CSS v2.1 within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:b84723ed-1939-4ee3-854a-d67a71103fa5 .
+
+camssa:c32bad1d-7db5-46cd-90b5-77b0f6fbd868 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c6a0688f-bd4a-4965-8243-84c668734aa4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:c9ed191a-df34-49c1-a2fd-6df47fdbd3ca a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:b1522c8c-5b83-4a7e-90eb-d6aa54131b04 .
+
+camssa:cf8e00de-2947-4f43-9398-189c4e71d0ea a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies """@en ;
+    cav:refersTo camssa:ea1bd401-10e9-4a09-ac3d-2b45a7ee6d69 .
+
+camssa:d0c2b9d2-2d03-4943-b6f9-ded29f9ab47a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:c6a0688f-bd4a-4965-8243-84c668734aa4 .
+
+camssa:d8945290-b997-4a6d-9d38-12b9f833ccf8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:bb3f3a18-d1fd-4fba-9ab0-2e127bf23007 .
+
+camssa:dddeeea0-e675-4181-b63e-f4682db828c2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:deb2b272-cc5e-43c8-b79c-852a31bca342 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:a2bdf496-bcba-443d-9c16-71b26a86b9e4 .
+
+camssa:df5a8691-204a-4814-863e-b1aeb92800a7 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:e1f98565-ad5f-49b8-aa76-8524286326e9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licences granted under the W3C Patent Policy apply to all W3C specifications, including CSS v2.1.
+
+W3C Patent practice:
+https://www.w3.org/TR/patent-practice#ref-AC 
+
+The W3C Royalty-Free IPR licences granted under the W3C Patent Policy apply to all W3C specifications, including CSS v2.1.
+
+W3C Patent practice:
+https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
+    cav:refersTo camssa:9ceaa971-adfe-4bf4-8b96-a37ffade7d73 .
+
+camssa:e6da7555-f0b4-4ac6-81b2-fd065a243075 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ea1bd401-10e9-4a09-ac3d-2b45a7ee6d69 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ea7567a9-f4e5-480d-8e53-cdb5f0dd962a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:ea91f4be-3305-4100-930d-447026150743 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CSS is maintained by W3C which is an international community developing open standards. 
+
+Developer community W3C:
+https://www.w3.org/Consortium/"""@en ;
+    cav:refersTo camssa:13fae29f-5096-415b-bf79-62a113ad4b80 .
+
+camssa:ec3c8ee7-acf2-4361-b29d-53c5f031eb17 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:96e2704a-62ab-42fa-ae96-b14ef61d66c7 .
+
+camssa:ed2f199a-9f15-425e-b3be-9f81cee031de a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:ef4090e4-026d-4da5-9a7f-26fbc40f3497 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f07bdb9b-d078-42a0-985a-79e9984a04c8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f1c6ea67-1569-4894-b760-74c59dd2ad54 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f2ef1901-7110-4eda-baf3-6d4702981e48 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """8 Member States are recommending CSS2 v2.1 in their ICT National Catalogues. This Member States are Croatia, France, Malta, the Netherlands, Norway, Poland Spain and Sweden.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:7f4fc7ec-1c28-4254-a941-db7044bd7218 .
+
+camssa:f390b5ed-c97c-4993-a048-420cac3d8aba a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fa272609-8a95-4e0d-848e-170d2a2226f8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+

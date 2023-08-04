@@ -1,0 +1,742 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:345ff1c1ee41beeb38f7831271d4d1e090aeaa8bb2e41599bdcf2e6a2d1ef290 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:282fbf529fb851a9da3ed39f48d235c69fd1da93947dfd668889fb8191777920 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:00d3425b-bdf7-4a07-88ea-743838113db1,
+        camssa:0c7670fb-ffc1-4e21-b12b-4b6b43852ca8,
+        camssa:127330df-459c-472a-8c6d-3ff92f23710a,
+        camssa:1583d85c-b5ec-4b8c-b57d-88f66caaafbe,
+        camssa:1af32684-bd26-4b36-9ddc-029d3545fe77,
+        camssa:3864a6c3-900b-488a-81b6-884a5f31dff3,
+        camssa:419ce5a7-9420-43b8-bbed-6e4f472a5282,
+        camssa:45a4267f-bc2e-4295-93f2-f430cfec7fe9,
+        camssa:4a551fc0-a3f1-43fe-9720-fa6d94085ae6,
+        camssa:4b1d6f0a-cfe1-46d2-921e-c35c079aab5a,
+        camssa:5578ca90-5e55-4c9c-b9f8-44886edad839,
+        camssa:5a6e6b8e-7767-4756-9852-9ae8f4c5c5f4,
+        camssa:60501333-426a-4596-99e1-16007c7a2703,
+        camssa:687f7480-ffd5-42b4-b4cd-df8675661ae1,
+        camssa:690291bf-3b85-4225-ba53-07d89f40c5c2,
+        camssa:698c5fa6-61a5-435c-9d07-4c46b93a4f53,
+        camssa:6abbfe91-1c9c-4379-a596-1dae288b19b4,
+        camssa:708506e7-a3e0-4792-b6be-4121c9a6f95e,
+        camssa:7a6f1853-211f-4faf-928b-dd6c88d22a4b,
+        camssa:7fb6ace6-3c79-426b-bbc7-b43138672cf0,
+        camssa:84a856c4-60af-4d3d-b87d-6b5e6155d0f6,
+        camssa:99eb92e9-5940-4a7b-9563-e707a71ef637,
+        camssa:a381a11a-2f28-4745-b691-a2dfd567e392,
+        camssa:a5bfe1c4-ad2f-4842-94b7-bd314d8125ba,
+        camssa:a8595839-95ec-451f-9093-2864199a96b7,
+        camssa:a9cb9fc9-fbb0-4b1c-88dd-c6e73a14319b,
+        camssa:ba5c9114-c532-4d46-9f0e-5dd779d28408,
+        camssa:c8fa5aa7-a08c-41bc-987a-ef706d3ecbe8,
+        camssa:cb65cd09-2168-475c-b341-6f032b17ae44,
+        camssa:cbbb0a8c-95bd-4c20-a9a8-82a505cbd445,
+        camssa:cc29820a-097a-4081-a5bb-7cdb460659fe,
+        camssa:ce44a2f3-07d3-4904-aa95-3add37d69214,
+        camssa:d4ea0ca3-9d6d-47a2-8c8e-17e742b1cbc2,
+        camssa:d7097395-f376-4289-9de1-ebb3ebfde7ba,
+        camssa:dc4e44af-3438-4755-a0f8-0f286597aa89,
+        camssa:de696fa3-9539-4322-9441-85882aa4b3c3,
+        camssa:e0409403-02ec-49bf-aa08-97144b44d203,
+        camssa:e1dca18f-9293-4502-8840-60cf5c67243b,
+        camssa:e8864803-8b96-459b-b19a-b069c7bc33b6,
+        camssa:e9a3182d-e7a0-4f15-bdf1-19e280ec8f1b,
+        camssa:e9cdbd71-a144-4dd1-9220-d98a14d22ac5,
+        camssa:eed6df51-99b5-4782-8431-956ffa281251,
+        camssa:f33f1437-fa9d-4372-bb7f-4d6e657cc6b7,
+        camssa:f53d4cd9-7ce0-4041-8a09-c85b001480cd,
+        camssa:f950d5d0-1054-41d8-bc66-1c7b82a0dcad ;
+    cav:status status:Complete ;
+    dct:title "European Legislation Identifier (ELI)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:a714a374-5cd9-4a3e-9cfe-8979ae28561e ;
+    skos:prefLabel "CAMSS TEAM"@en .
+
+camssa:00d3425b-bdf7-4a07-88ea-743838113db1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Not enough information has been found to answer negatively or positively to this criterion. Moreover, it seems that the specification is not aimed to foster the security and privacy of the data exchange. Therefore, this criterion does not apply to this specification. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+"""@en ;
+    cav:refersTo camssa:b0e93f60-f776-45b5-b033-0cdc7af7c745 .
+
+camssa:066e0b36-8095-42f2-9cf6-2f3f0f64c808 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "20+20"^^xsd:int .
+
+camssa:07164f9b-2587-47b5-b50d-63db321e7e48 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:09633918-e6d2-4575-bab2-befa539bf2d1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "20"^^xsd:int .
+
+camssa:0bfa0032-4fe4-4f8b-be85-f759af2791b2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:0c7670fb-ffc1-4e21-b12b-4b6b43852ca8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:2ceafb42-6bc9-4052-9c42-bd4982c92075 .
+
+camssa:114812b7-6294-4e1f-9fa1-5c7060708230 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:127330df-459c-472a-8c6d-3ff92f23710a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:5d523937-2df4-42a9-8fc9-367607b79d95 .
+
+camssa:15836260-5a1e-4796-bc54-7a38fd768352 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "20"^^xsd:int .
+
+camssa:1583d85c-b5ec-4b8c-b57d-88f66caaafbe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent of any software, hardware, or operating system. So it can be said that ELI is independent of any specific technology or platform. 
+
+However, it is worth to note that is has been defined taking into account other international standards or specifications for example for its serialisation as ontology. (e.g. RDFa in XHTML: Syntax and Processing)
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html"""@en ;
+    cav:refersTo camssa:ea86ae95-4cc1-43a9-adaa-5d177062dcf8 .
+
+camssa:1af32684-bd26-4b36-9ddc-029d3545fe77 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at the supra-national level, the Publications Office has listed it with all the specifications and resources produced and used for open data production, reuse and shareability. 
+
+EUR-Lex:
+https://eur-lex.europa.eu/homepage.html
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+EU Vocabularies Business Collection:
+https://op.europa.eu/en/web/eu-vocabularies/business-collections
+"""@en ;
+    cav:refersTo camssa:b64ec6de-9278-4fe8-afbd-1cd95d02f01d .
+
+camssa:2ceafb42-6bc9-4052-9c42-bd4982c92075 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2d07956b-10dd-44c7-9c3a-534ca93ed671 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:33968f0f-a338-477a-b33c-644d001eb304 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:350e4c3b-59a2-4fa7-8e94-741befbc479b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:35b670fb-c969-4142-a892-b5e6eb86f9cb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:3864a6c3-900b-488a-81b6-884a5f31dff3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Not enough information has been found to answer negatively or positively to this criterion. Moreover, it seems that the specification is not aimed to foster e-accessibility to legislation. Therefore, this criterion is considered not applicable to this specification.
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html"""@en ;
+    cav:refersTo camssa:ab10b864-0e31-4dac-b4af-667dc2fb9d8b .
+
+camssa:398b137a-6283-4c0b-9783-05dc302b678c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:39ca57f3-3e63-4edf-88ef-f6b6ef83bd8b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3fd5bd03-3c0b-4f08-97e8-177da7737522 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:419ce5a7-9420-43b8-bbed-6e4f472a5282 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ELI can help the availability of administrations data in machine-readable format ensuring its reuse and exchange, however, ELI does not help the availability of interfaces with this internal information. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html"""@en ;
+    cav:refersTo camssa:09633918-e6d2-4575-bab2-befa539bf2d1 .
+
+camssa:45a4267f-bc2e-4295-93f2-f430cfec7fe9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:350e4c3b-59a2-4fa7-8e94-741befbc479b .
+
+camssa:4a551fc0-a3f1-43fe-9720-fa6d94085ae6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:98a412d3-d7a5-4511-9f75-c39b7a7d03fd .
+
+camssa:4b1d6f0a-cfe1-46d2-921e-c35c079aab5a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The ELI TF is the body in charge of the maintenance and development of the specification. In the ELI Governance document, it is defined how and by who the specification is evolved. 
+
+Member States are open to participate in the evolution of the specification only with soft requirements like having implemented the specification at a national level and having the knowledge to contribute to the evolution of ELI.
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+Governance Rules: 
+https://eur-lex.europa.eu/content/eli-register/governance_rules.pdf """@en ;
+    cav:refersTo camssa:35b670fb-c969-4142-a892-b5e6eb86f9cb .
+
+camssa:4ec1ad70-c15a-4a9a-abfb-3ab05079f150 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5172b19d-c25d-4be9-b8b7-6cc69556a142 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:5362baea-fa26-48b8-9cf6-6b85f85d285b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:536debc0-9e19-41e6-b7ab-10bff4e21a72 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:542bf1de-955a-44ec-97db-1207d4331833 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:5578ca90-5e55-4c9c-b9f8-44886edad839 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is a validatoin tool available within the ELI online documentation site. 
+
+ELI validator:
+https://webgate.ec.europa.eu/eli-validator/"""@en ;
+    cav:refersTo camssa:d274769f-58be-4ddc-8744-16274771b5cf .
+
+camssa:55c11bcc-adfb-4174-8ad8-7c5f38e06b55 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:593a871c-904f-4acb-82d3-947154d17af9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5a6e6b8e-7767-4756-9852-9ae8f4c5c5f4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The implementation of ELI helps to make legislation available for different stakeholders from governments. On one hand it supports the interoperability between European Public Administrations fostering data exchange and enhancing the visibility of administrations data. On the other hand, it also helps to make legislations available, fostering that citizens and business follow the work done by public administrations. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html"""@en ;
+    cav:refersTo camssa:2d07956b-10dd-44c7-9c3a-534ca93ed671 .
+
+camssa:5d523937-2df4-42a9-8fc9-367607b79d95 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:60501333-426a-4596-99e1-16007c7a2703 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+None"""@en ;
+    cav:refersTo camssa:dfdbfd92-b948-4396-9333-062a53e579a7 .
+
+camssa:615f3aba-d0cb-42cc-9bec-e72414af2626 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:63bae2d9-52f5-4588-8a17-056698bf43cc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:63f2d06d-694f-4727-bee6-a523259627cb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:646f6019-b1e4-4514-9a40-7aaef58eafac a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:687f7480-ffd5-42b4-b4cd-df8675661ae1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:e85da939-aeeb-420c-ba7d-aae4ef2d340b .
+
+camssa:690291bf-3b85-4225-ba53-07d89f40c5c2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:33968f0f-a338-477a-b33c-644d001eb304 .
+
+camssa:698c5fa6-61a5-435c-9d07-4c46b93a4f53 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:3fd5bd03-3c0b-4f08-97e8-177da7737522 .
+
+camssa:6abbfe91-1c9c-4379-a596-1dae288b19b4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ELI was developed in 2017 aiming to help and enhance interoperability across borders when exchanging legal documentation from the different Member States. It has been already implemented by many countries such as Austria, Belgium, Denmark and Finland, amongst others. 
+
+Within ELI documentation some resources provide visibility on use cases or implementation from several actors.
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+ELI Testimonials: 
+https://eur-lex.europa.eu/eli-register/testimonials.ht
+
+ELI highlights:
+https://eur-lex.europa.eu/eli-register/index.html
+
+ELI Implementation Overview: 
+https://eur-lex.europa.eu/eli-register/implementation.html"""@en ;
+    cav:refersTo camssa:c9bee8c8-6597-4e11-a534-df5f4b9c5615 .
+
+camssa:708506e7-a3e0-4792-b6be-4121c9a6f95e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ELI is not included in any national catalogue of recommended specifications whose Member State NIF is fully aligned with at least 4 out of 5 sections of the EIF according to NIFO factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:07164f9b-2587-47b5-b50d-63db321e7e48 .
+
+camssa:7500a0d9-3c98-435e-8129-76f197c41265 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:788da5a6-b733-4dfb-b0ea-21697c4bb045 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7a6f1853-211f-4faf-928b-dd6c88d22a4b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:615f3aba-d0cb-42cc-9bec-e72414af2626 .
+
+camssa:7b89e013-7dbb-4660-82ee-7150c71c5e3c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "20"^^xsd:int .
+
+camssa:7fb6ace6-3c79-426b-bbc7-b43138672cf0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of ELI is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. Moreover, not informacion has been found to support the positive or negative answer to this criterion. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html"""@en ;
+    cav:refersTo camssa:788da5a6-b733-4dfb-b0ea-21697c4bb045 .
+
+camssa:84a856c4-60af-4d3d-b87d-6b5e6155d0f6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification has the support of European Member States developing e-Law solutions at national and European Solutions. ELI is within the focus of ISA2, which aims to fund and improve interoperability solutions across Europe. The Publications Office is also supporting implementations of ELI and the shareability of dedicated data sets.
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+EU Open Data portal: 
+https://data.europa.eu/euodp/en/data/group/eli?groups=eli
+
+ISA2 and ELI: 
+https://ec.europa.eu/isa2/news/eli-and-eli-dl-greater-interoperability-legislation_en"""@en ;
+    cav:refersTo camssa:88235a4e-0e7c-4f68-a6a7-6f766c54a22b .
+
+camssa:88235a4e-0e7c-4f68-a6a7-6f766c54a22b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:98a412d3-d7a5-4511-9f75-c39b7a7d03fd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:99eb92e9-5940-4a7b-9563-e707a71ef637 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ELI is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:646f6019-b1e4-4514-9a40-7aaef58eafac .
+
+camssa:a381a11a-2f28-4745-b691-a2dfd567e392 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ELI is a business-specific specification that is focused on the identification and definition of metadata for legal documents at the European Level. Even though it could be extended or modified to fit other business requirements, there are no implementations that evidence this fact. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+ELI Technical Documentation: 
+https://eur-lex.europa.eu/eli-register/technical_information.html
+
+ELI is a business-specific specification that is focused on the identification and definition of metadata for legal documents at the European Level. Even though it could be extended or modified to fit other business requirements, there are no implementations that evidence this fact. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+ELI Technical Documentation: 
+https://eur-lex.europa.eu/eli-register/technical_information.html"""@en ;
+    cav:refersTo camssa:066e0b36-8095-42f2-9cf6-2f3f0f64c808 .
+
+camssa:a5bfe1c4-ad2f-4842-94b7-bd314d8125ba a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:536debc0-9e19-41e6-b7ab-10bff4e21a72 .
+
+camssa:a714a374-5cd9-4a3e-9cfe-8979ae28561e a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "NaN"^^xsd:double .
+
+camssa:a8595839-95ec-451f-9093-2864199a96b7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are several success stories and implementation examples that provide visibility on the effectiveness and efficiency of implementing ELI. It allows the description of legal resources and increases the shareability across borders enhancing the cooperation amongst European Institutions removing barriers. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+ELI highlights: 
+https://eur-lex.europa.eu/eli-register/index.html
+
+ELI Testimonials: 
+https://eur-lex.europa.eu/eli-register/testimonials.html """@en ;
+    cav:refersTo camssa:39ca57f3-3e63-4edf-88ef-f6b6ef83bd8b .
+
+camssa:a9cb9fc9-fbb0-4b1c-88dd-c6e73a14319b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """One of the pillars of ELI is the usage of URIs templates patterns that ensure that resources are accessible in a persistent way over time. This fact fosters the long-term preservation of electronic documents ensuring their availability. Moreover, since it provides access to legal documentation in a machine-readable format, it also fosters its reuse and evolution towards other formats ensuring the evolution of European Public Services. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+"""@en ;
+    cav:refersTo camssa:63f2d06d-694f-4727-bee6-a523259627cb .
+
+camssa:ab10b864-0e31-4dac-b4af-667dc2fb9d8b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b0e93f60-f776-45b5-b033-0cdc7af7c745 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b3df56d0-9c73-499d-b096-f79ff90c5497 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b64ec6de-9278-4fe8-afbd-1cd95d02f01d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b650aa48-67fd-40e4-8018-1d614c63f305 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:ba5c9114-c532-4d46-9f0e-5dd779d28408 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:5172b19d-c25d-4be9-b8b7-6cc69556a142 .
+
+camssa:c8fa5aa7-a08c-41bc-987a-ef706d3ecbe8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ELI is a public asset developed by a European Institution with the participation of interested parties like the Member States. To foster the implementation across public administrations it can be accessed for free without any payment restrictions. Therefore, it can be considered that the specification is licensed under royalty-free basis and (F)RAND basis.
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+
+
+ELI is a public asset developed by a European Institution with the participation of interested parties like the Member States. To foster the implementation across public administrations it can be accessed for free without any payment restrictions. Therefore, it can be considered that the specification is licensed under royalty-free basis and (F)RAND basis.
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html"""@en ;
+    cav:refersTo camssa:398b137a-6283-4c0b-9783-05dc302b678c .
+
+camssa:c9bee8c8-6597-4e11-a534-df5f4b9c5615 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cb65cd09-2168-475c-b341-6f032b17ae44 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The ELI Governance Rules Document establishes that decisions are made using working group discussions and having consensus. However, there is no public review as part of the decision making process. 
+
+Even though there is no specific public review process open like public consultations, the specifications is evolved following the consensus of participants who are the Member States.
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+Governance Rules: 
+https://eur-lex.europa.eu/content/eli-register/governance_rules.pdf """@en ;
+    cav:refersTo camssa:15836260-5a1e-4796-bc54-7a38fd768352 .
+
+camssa:cbbb0a8c-95bd-4c20-a9a8-82a505cbd445 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:dba1f453-cb91-4acb-9a68-5b3d7a5373e7 .
+
+camssa:cc29820a-097a-4081-a5bb-7cdb460659fe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:b650aa48-67fd-40e4-8018-1d614c63f305 .
+
+camssa:ce44a2f3-07d3-4904-aa95-3add37d69214 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Not enough information has been found to answer negatively or positively to this criterion. Moreover, it seems that the specification is not aimed to foster the implementation of the once-only principle amongst the European Institutions. Therefore, this criterion is considered not applicable to this specification. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+"""@en ;
+    cav:refersTo camssa:114812b7-6294-4e1f-9fa1-5c7060708230 .
+
+camssa:d274769f-58be-4ddc-8744-16274771b5cf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:d4ea0ca3-9d6d-47a2-8c8e-17e742b1cbc2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:5362baea-fa26-48b8-9cf6-6b85f85d285b .
+
+camssa:d7097395-f376-4289-9de1-ebb3ebfde7ba a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ELI is a European Specification developed for its common reuse and to foster the shareability of legal document across borders. It is used within the EU Open Data Portal for the provision of data sets described using the main requirements established by ELI. Doing so, European institutions, businesses and citizens can access and reuse it in a machine-readable format. 
+
+Moreover, since ELI was developed taking Common Data Model (CMD) from the OP and the implementations require to be compliant with it, it ensures that the content is available from CELLAR, which is an access point to all the open data generated by the Publications office. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+ELI technical Information: 
+https://eur-lex.europa.eu/eli-register/technical_information.html
+
+EU Open Data Portal Data sets: 
+https://data.europa.eu/euodp/en/data/group/eli?groups=eli
+
+"""@en ;
+    cav:refersTo camssa:593a871c-904f-4acb-82d3-947154d17af9 .
+
+camssa:dba1f453-cb91-4acb-9a68-5b3d7a5373e7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:dc4e44af-3438-4755-a0f8-0f286597aa89 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are several success stories and implementation examples that provide visibility on the effectiveness and efficiency of implementing ELI. It allows the description of legal resources and increases the shareability across borders enhancing the cooperation amongst European Institutions removing barriers. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+ELI highlights: 
+https://eur-lex.europa.eu/eli-register/index.html
+
+ELI Testimonials: 
+https://eur-lex.europa.eu/eli-register/testimonials.html """@en ;
+    cav:refersTo camssa:4ec1ad70-c15a-4a9a-abfb-3ab05079f150 .
+
+camssa:de696fa3-9539-4322-9441-85882aa4b3c3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification was formally defined back in 2012, and version 1.0.0 was released by 2017 with the experience and the expertise of Member States that were closely working together to consolidate the specification. 
+
+Within ELI home page it can be found different materials that help to visualise and understand how the specification has evolved and how it can be implemented smoothly by Member States increasing the interoperability and ensuring the cost-efficiency. 
+
+The contribution from Member States helps the evolution of the specification to adapt to users needs. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+ELI highlights:
+https://eur-lex.europa.eu/eli-register/index.html"""@en ;
+    cav:refersTo camssa:55c11bcc-adfb-4174-8ad8-7c5f38e06b55 .
+
+camssa:decaa3aa-a091-4bee-a37b-13a4927b76ff a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:dfdbfd92-b948-4396-9333-062a53e579a7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:e0409403-02ec-49bf-aa08-97144b44d203 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Not enough pieces of evidence have been found to answer if the specification purpose fits negatively or positively the one stated by the criterion. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+
+Not enough pieces of evidence have been found to answer if the specification purpose fits negatively or positively the one stated by the criterion. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+"""@en ;
+    cav:refersTo camssa:7500a0d9-3c98-435e-8129-76f197c41265 .
+
+camssa:e1dca18f-9293-4502-8840-60cf5c67243b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent of any software, hardware, or operating system. So it can be said that ELI is independent of any specific technology or platform. 
+
+However, it is worth to note that is has been defined taking into account other international standards or specifications for example for its serialisation as ontology. (e.g. RDFa in XHTML: Syntax and Processing)
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html"""@en ;
+    cav:refersTo camssa:542bf1de-955a-44ec-97db-1207d4331833 .
+
+camssa:e2eac67a-3e2e-4a8c-8829-dfd6883fde16 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e85da939-aeeb-420c-ba7d-aae4ef2d340b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:e8864803-8b96-459b-b19a-b069c7bc33b6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:63bae2d9-52f5-4588-8a17-056698bf43cc .
+
+camssa:e9a3182d-e7a0-4f15-bdf1-19e280ec8f1b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The European Legislation Identifier (ELI) is a system to make legislation available online in a standardised format, so that it can be accessed, exchanged and reused across borders. As can be found within the European Data portal, the ELI is used by the EU Open Data Portal to describe datasets from MS that have already implmented the specification. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+EU Open Data portal Examples: 
+https://data.europa.eu/euodp/en/data/group/eli?groups=eli
+
+ELI is used for the EUR-Lex, the site where EU Institutions publish their datasets for their reuse. In there, it is used to improve the shareability, researchability and interoperability when processing legal data developed by the different Member States. 
+
+EU Open Data Portal Data sets: 
+https://data.europa.eu/euodp/en/data/group/eli?groups=eli
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html
+"""@en ;
+    cav:refersTo camssa:0bfa0032-4fe4-4f8b-be85-f759af2791b2 .
+
+camssa:e9cdbd71-a144-4dd1-9220-d98a14d22ac5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Taking the initial purpose of the specification, it can be considered that the specification is involved in fostering the comprehensibility of Public Administrations data as well as relevant data produced for the decision-making process. 
+
+ELI provides a common schema for the definition of legislation metadata, easing the understanding and the shareability of legislation documents and their access. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html"""@en ;
+    cav:refersTo camssa:ed88ee6d-0d8c-4815-bf3b-a0319e3a354d .
+
+camssa:ea86ae95-4cc1-43a9-adaa-5d177062dcf8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ed88ee6d-0d8c-4815-bf3b-a0319e3a354d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:eed6df51-99b5-4782-8431-956ffa281251 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """No Member States are recommending ELI in their ICT National Catalogues. Despite this, the Ministry of Justice in Denmark, the Ministry of State in Luxembourg, the Office of the Attorney General in Ireland, the National Printing Office and Mint/ Imprensa Nacional-Casa da Moeda in Portugal and the State Agency for the Official State Gazette in Spain are hardly recommending ELI and the common benefits of implementing it. 
+ 
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards
+"""@en ;
+    cav:refersTo camssa:decaa3aa-a091-4bee-a37b-13a4927b76ff .
+
+camssa:f33f1437-fa9d-4372-bb7f-4d6e657cc6b7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By making legislation open and accessible in a machine-readable format it fosters the creation and delivery of new public services. Moreover, it establishes a standardised terminology to ensure that when legal text or information is translated the nature of the document is not harmed nor modified. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+Study on how users of legislation access transposition information:
+https://eur-lex.europa.eu/content/eli-register/ELI_usability_study_results-final.pdf"""@en ;
+    cav:refersTo camssa:b3df56d0-9c73-499d-b096-f79ff90c5497 .
+
+camssa:f53d4cd9-7ce0-4041-8a09-c85b001480cd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:7b89e013-7dbb-4660-82ee-7150c71c5e3c .
+
+camssa:f950d5d0-1054-41d8-bc66-1c7b82a0dcad a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Council Conclusion where ELI is defined sets out conclusions involving how Member States are called on to implement ELI to properly allow other administrations, business and citizens access the legal documentation. 
+
+ELI reference:
+https://eur-lex.europa.eu/eli-register/about.html
+
+Council Conclusion
+https://eur-lex.europa.eu/eli-register/about.html"""@en ;
+    cav:refersTo camssa:e2eac67a-3e2e-4a8c-8829-dfd6883fde16 .
+

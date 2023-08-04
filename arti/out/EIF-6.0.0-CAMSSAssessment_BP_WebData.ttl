@@ -1,0 +1,634 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:9fa9acbccfc3ca6ca147ea2fb68778c303db8846458b745cd819608abceaff63 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:3c339c2d426551224a9b80582fb9ec446847c640127d87db3b140c898c073091 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:00032d42-009f-417c-a8b6-ee2321e2a864,
+        camssa:05c9c69a-91cd-4e67-a487-c4a0f01cacb1,
+        camssa:0ea05712-9f7f-4883-8b3f-622a638daef1,
+        camssa:11122976-9395-4929-bb68-79c6d8037cf6,
+        camssa:17c954ea-6029-4b15-8937-6e052b1833ea,
+        camssa:1998e4b8-7528-476e-9064-68589a33b794,
+        camssa:1e805922-d8db-4a9f-9a90-38d24bb1c7a6,
+        camssa:287cfb4f-61b7-4291-85af-fcafed85e03d,
+        camssa:2ae35a41-7ce4-4a32-a748-4c09dca6620f,
+        camssa:2f79844d-35f9-4656-83b8-e8a8310d60a3,
+        camssa:37a85f4f-0c65-4772-b4a7-84ba6168243b,
+        camssa:3b1fc114-d6fc-4c32-a5bd-7910ed33ae07,
+        camssa:3c3d4fab-a244-4e65-8e67-0ffa4e4bc02a,
+        camssa:410c2500-9591-4a4f-a1b7-713b9038a189,
+        camssa:45d7774e-2c1a-411b-842f-7f8326a5f290,
+        camssa:4c6870a4-5e95-471f-b733-7976477749b8,
+        camssa:4d1cbfbe-7b77-4360-8a28-3c1d14b2c32f,
+        camssa:4ffc3634-4c8b-467e-b5b3-b1bc05bd9080,
+        camssa:532e21d4-a71a-4ebf-ab1d-a42f896be226,
+        camssa:58b76ec0-9737-4b53-b7ca-d66a2cc0dce3,
+        camssa:609c5107-d931-4d41-800a-6264c91baa15,
+        camssa:615349a5-810c-4825-ad5b-dfbf20287d29,
+        camssa:69a658eb-a635-4223-907b-62dbd44a7267,
+        camssa:6c6155cf-9333-454f-94ec-cb9df84f4f95,
+        camssa:6f39fb40-6a1a-4c31-9ad1-a6e002681fa2,
+        camssa:7541c872-1d91-4d68-b5c6-ecb07a76047f,
+        camssa:7c46e9d4-6e68-4cb9-8335-fb5a51df5b7d,
+        camssa:93c0a272-f3ce-417e-9795-4ebc558a84dc,
+        camssa:a17eae2e-3d91-4c73-8026-6594988c47c8,
+        camssa:a80c540e-a384-42fa-a0cf-5f54d6b126df,
+        camssa:b0612e81-dd53-460c-8a38-9b92d4ab0cd8,
+        camssa:b3bde6d6-155f-4a15-b3d0-debf32ae3c11,
+        camssa:b70fc1f3-0d7f-4328-810a-e9457019c990,
+        camssa:bc53957b-46e2-4a07-88f3-7c33f844524d,
+        camssa:c33deead-6e43-4861-bd2a-108aa32e827d,
+        camssa:c564bb99-1b03-42ea-8e15-0ed8dd415ff1,
+        camssa:cdbe928b-632c-45e6-9f3a-3b95e07d72ae,
+        camssa:d296e380-90f9-4dd8-96f8-01e04b3cb165,
+        camssa:d8ca586b-3e53-4261-b53b-f283c5e60eba,
+        camssa:e3856960-5b57-4e6a-b545-acd80b51d611,
+        camssa:ec7db985-094a-48fc-9798-f248cf31b18d,
+        camssa:ed3a59a3-95dc-4c62-92eb-c101038c8bb5,
+        camssa:f179f475-7f4a-4a75-8ad2-38484b66e8fd,
+        camssa:f665ad99-fc02-4828-9e4d-4e172dc69886,
+        camssa:f835b226-d6ce-499b-a0e9-f3552dfbc902 ;
+    cav:status status:Complete ;
+    dct:title "Data on the Web Best Practices W3C"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:6b2e1d88-5b0a-4e08-ba29-0b65da7c62f2 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:00032d42-009f-417c-a8b6-ee2321e2a864 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C Best Practices fosters the secure and trustworthy data exchange between citizens, businesses and public administrations by using standards that are specific to the publishing of datasets related to particular domains & applications, involving communities of users interested in that data.
+
+W3C Reference:
+https://www.w3.org/TR/dwbp/"""@en ;
+    cav:refersTo camssa:e59d079d-51a7-4fac-ac05-8ee0b6153e3c .
+
+camssa:0221934e-23b5-4542-be51-ff482cbcc545 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:05c9c69a-91cd-4e67-a487-c4a0f01cacb1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Data on the Web Best Practices gives some advice on how to publish data on the web. It encourages and enables the continued expansion of the Web as a medium for the exchange of data. It does not directly foster the visibility of data, but the usage of this best practice can help to implement solutions to foster the visibility of data and services of public administration.
+
+Data on the Web Best Practices W3C:
+https://www.w3.org/TR/dwbp/"""@en ;
+    cav:refersTo camssa:3c394107-8331-4c54-8ffd-e02fb95a7779 .
+
+camssa:0de1d7ea-97b4-4214-a274-03ea8c5634e3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:0ea05712-9f7f-4883-8b3f-622a638daef1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of W3C Best Practices is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+W3C reference:
+https://www.w3.org/TR/dwbp/"""@en ;
+    cav:refersTo camssa:9b32bb46-a673-47f7-a85a-1e8bc5f36002 .
+
+camssa:11122976-9395-4929-bb68-79c6d8037cf6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Data on the Web Best Practices gives some advice on how to publish data on the web. However, it does not support the principles of linked open data.
+
+Data on the Web Best Practices W3C:
+https://www.w3.org/TR/dwbp/
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html
+
+None"""@en ;
+    cav:refersTo camssa:fc66d859-8d6b-44ce-8fa4-164b39c03aa7 .
+
+camssa:12be0c11-e9b1-4289-8b8e-e9f3a6b31c3d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:17c954ea-6029-4b15-8937-6e052b1833ea a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After searching for a certification or conformity test to validate this document, no tool has been found that assesses the conformity of the specification."@en ;
+    cav:refersTo camssa:27fa9d48-1d2b-4831-8f41-06bfc7a55af0 .
+
+camssa:1998e4b8-7528-476e-9064-68589a33b794 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of W3C Best Practices is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification. 
+
+W3C reference:
+https://www.w3.org/TR/dwbp/"""@en ;
+    cav:refersTo camssa:5e304a95-99d5-4022-9ba8-72910ec2486a .
+
+camssa:1e805922-d8db-4a9f-9a90-38d24bb1c7a6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:7397532a-597b-4d25-8876-1c9dba2beec7 .
+
+camssa:1ef62f4f-915e-4e9a-b25e-da1609bdcf7a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:268e56eb-8ec2-456e-acf9-189aa080afd0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:27fa9d48-1d2b-4831-8f41-06bfc7a55af0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "20"^^xsd:int .
+
+camssa:287cfb4f-61b7-4291-85af-fcafed85e03d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After searching in the different official European websites, there is no evidence of any cross-border project that uses W3C Best Practices nor explicit agreements involving the usage of the specification."@en ;
+    cav:refersTo camssa:9b147592-c02e-4d7b-bcb1-2addd5f8040d .
+
+camssa:29b97621-a7c2-4c87-9bf4-3b69b7cc7728 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:2ae35a41-7ce4-4a32-a748-4c09dca6620f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Data on the Web Best Practices is not related to the comprehensibility of administrative information, data or services. Therefore, this criterion is not applicable to this specification. 
+
+Data on the Web Best Practices W3C:
+https://www.w3.org/TR/dwbp/"""@en ;
+    cav:refersTo camssa:99d23011-58f7-4cae-ae7d-d72b882c2ca9 .
+
+camssa:2be1add3-4e83-4afa-b6c9-5e1b8f153aed a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2bf175fb-6d23-4855-91a0-d574ad52aa91 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2d8bfac8-beb7-4319-a231-f94d067e0238 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2e19c3ad-d69b-4c67-b4ee-18ecc5e81e51 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:2f79844d-35f9-4656-83b8-e8a8310d60a3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:b4f59a44-a23c-4a44-92c0-d7a122c0736b .
+
+camssa:37a85f4f-0c65-4772-b4a7-84ba6168243b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:4245170a-705f-41a7-b9a3-cf281c6c3b9f .
+
+camssa:3b1fc114-d6fc-4c32-a5bd-7910ed33ae07 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f3eb07ab-160c-4e2f-be3d-a45e45ceed0a .
+
+camssa:3c394107-8331-4c54-8ffd-e02fb95a7779 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:3c3d4fab-a244-4e65-8e67-0ffa4e4bc02a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:2be1add3-4e83-4afa-b6c9-5e1b8f153aed .
+
+camssa:410c2500-9591-4a4f-a1b7-713b9038a189 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification was produced in 2004, and it has been followed at European level. These Best Practices have been evolved together with the application profile used in the European Platform for the reusability of interoperability Solutions, Joinup. 
+
+W3C Reference:
+https://www.w3.org/TR/dwbp/"""@en ;
+    cav:refersTo camssa:fed14030-ac68-4b6a-b57d-73ae36490907 .
+
+camssa:4245170a-705f-41a7-b9a3-cf281c6c3b9f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:45615acd-9aa8-42d1-b0dd-aef6f80c24a0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:45d7774e-2c1a-411b-842f-7f8326a5f290 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:98f79d2f-1bb8-4885-aaeb-0c323933e97c .
+
+camssa:4842b416-5e1f-4e7a-979e-32068f77e8a0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4c6870a4-5e95-471f-b733-7976477749b8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of Data on the Web Best Practices is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. 
+
+W3C Reference:
+https://www.w3.org/TR/dwbp/"""@en ;
+    cav:refersTo camssa:7f727b7d-de1f-4a6a-bd40-20f3ec37d20d .
+
+camssa:4d1cbfbe-7b77-4360-8a28-3c1d14b2c32f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:c9957c1b-cb62-4b54-87b2-92cf20e708ec .
+
+camssa:4ffc3634-4c8b-467e-b5b3-b1bc05bd9080 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no Member States recommending W3C Best Practices in their ICT National Catalogues as it is a document related to the publication and usage of data on the Web designed to help support a self-sustaining ecosystem.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:e96a6b5c-3a63-49da-93a2-bfba75308356 .
+
+camssa:532e21d4-a71a-4ebf-ab1d-a42f896be226 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
+    cav:refersTo camssa:9a9fb2db-efa8-49fe-8e2d-3787bf73f80c .
+
+camssa:58b76ec0-9737-4b53-b7ca-d66a2cc0dce3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this document is not related to the once-only principle. Therefore, this criterion is not applicable to the specification. 
+
+W3C reference:
+https://www.w3.org/TR/dwbp/"""@en ;
+    cav:refersTo camssa:4842b416-5e1f-4e7a-979e-32068f77e8a0 .
+
+camssa:5e0452bc-c286-40f7-9b10-75a10ae07292 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5e304a95-99d5-4022-9ba8-72910ec2486a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:609c5107-d931-4d41-800a-6264c91baa15 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:d37990ef-594c-4430-87a5-2c1e5c84122a .
+
+camssa:615349a5-810c-4825-ad5b-dfbf20287d29 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:7ebb7755-0df2-4281-b286-26f36d63f010 .
+
+camssa:69a658eb-a635-4223-907b-62dbd44a7267 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Data on the Web Best Practices was produced in 2004 by W3C, and it has the full support from the W3C group which is an international community where Member organizations, a full-time staff, and the public work together to develop Web standards.
+
+W3C Reference:
+https://www.w3.org/TR/dwbp/"""@en ;
+    cav:refersTo camssa:8108c9c0-fc3d-462c-af74-ae30d355a85f .
+
+camssa:6b2e1d88-5b0a-4e08-ba29-0b65da7c62f2 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:6c6155cf-9333-454f-94ec-cb9df84f4f95 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:2d8bfac8-beb7-4319-a231-f94d067e0238 .
+
+camssa:6f39fb40-6a1a-4c31-9ad1-a6e002681fa2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of W3C Best Practices within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:e4bc6fb2-71e0-4b3c-8e65-79bacc4a895d .
+
+camssa:7397532a-597b-4d25-8876-1c9dba2beec7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:7541c872-1d91-4d68-b5c6-ecb07a76047f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this document is not related with data portability. Therefore, this criterion is not applicable to this specification. 
+
+W3C reference:
+https://www.w3.org/TR/dwbp/
+
+The purpose of this document is not related with data portability. Therefore, this criterion is not applicable to this specification. 
+
+W3C reference:
+https://www.w3.org/TR/dwbp/"""@en ;
+    cav:refersTo camssa:45615acd-9aa8-42d1-b0dd-aef6f80c24a0 .
+
+camssa:78a4bed9-f382-46c9-9f48-92190202547e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:7c46e9d4-6e68-4cb9-8335-fb5a51df5b7d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Data on the Web Best Practices can apply to any technology that can publish data on the web. So it can be said that it is independent of any platform or technology.
+
+W3C reference:
+https://www.w3.org/TR/dwbp/"""@en ;
+    cav:refersTo camssa:b70c8c86-6540-409c-862c-f16548fa152f .
+
+camssa:7ebb7755-0df2-4281-b286-26f36d63f010 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7f727b7d-de1f-4a6a-bd40-20f3ec37d20d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:8108c9c0-fc3d-462c-af74-ae30d355a85f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:93c0a272-f3ce-417e-9795-4ebc558a84dc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:a0fc7bd2-133a-4159-984c-590786163f12 .
+
+camssa:98f79d2f-1bb8-4885-aaeb-0c323933e97c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:99d23011-58f7-4cae-ae7d-d72b882c2ca9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9a9fb2db-efa8-49fe-8e2d-3787bf73f80c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9b147592-c02e-4d7b-bcb1-2addd5f8040d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "20"^^xsd:int .
+
+camssa:9b32bb46-a673-47f7-a85a-1e8bc5f36002 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a0fc7bd2-133a-4159-984c-590786163f12 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a17eae2e-3d91-4c73-8026-6594988c47c8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Data on the Web Best Practices is maintained by W3C which is an international community developing open standards. 
+
+Developer community W3C:
+https://www.w3.org/Consortium/"""@en ;
+    cav:refersTo camssa:2bf175fb-6d23-4855-91a0-d574ad52aa91 .
+
+camssa:a80c540e-a384-42fa-a0cf-5f54d6b126df a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this document is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to the specification. 
+
+W3C Reference:
+https://www.w3.org/TR/dwbp/"""@en ;
+    cav:refersTo camssa:af4ca04b-4a26-4ce9-846b-843a60fdbaa6 .
+
+camssa:af4ca04b-4a26-4ce9-846b-843a60fdbaa6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b0612e81-dd53-460c-8a38-9b92d4ab0cd8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C Best Practices is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:c70180be-f19a-4c71-8201-1ac3eb9e9472 .
+
+camssa:b32453af-d551-4efe-a028-84dbd15f10c4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:b3bde6d6-155f-4a15-b3d0-debf32ae3c11 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licences granted under the W3C Patent Policy apply to all W3C specifications, including W3C data on the web best practices.
+
+W3C Patent practice:
+https://www.w3.org/TR/patent-practice#ref-AC
+
+The W3C Royalty-Free IPR licences granted under the W3C Patent Policy apply to all W3C specifications, including W3C data on the web best practices.
+
+W3C Patent practice:
+https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
+    cav:refersTo camssa:29b97621-a7c2-4c87-9bf4-3b69b7cc7728 .
+
+camssa:b4f59a44-a23c-4a44-92c0-d7a122c0736b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b5926405-631a-408d-9d73-74b0c7fea10c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:b70c8c86-6540-409c-862c-f16548fa152f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:b70fc1f3-0d7f-4328-810a-e9457019c990 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:1ef62f4f-915e-4e9a-b25e-da1609bdcf7a .
+
+camssa:bc53957b-46e2-4a07-88f3-7c33f844524d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this document is not related to the e-accesibility. Therefore, this criterion is not applicable to the specification. 
+
+W3C reference:
+https://www.w3.org/TR/dwbp/"""@en ;
+    cav:refersTo camssa:12be0c11-e9b1-4289-8b8e-e9f3a6b31c3d .
+
+camssa:c17b1439-1b82-4cf3-9e0d-152e696d36e3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:c33deead-6e43-4861-bd2a-108aa32e827d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+None"""@en ;
+    cav:refersTo camssa:c17b1439-1b82-4cf3-9e0d-152e696d36e3 .
+
+camssa:c564bb99-1b03-42ea-8e15-0ed8dd415ff1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """This document about Data on the Web Best Practices is a business domain agnostic document that can be reused in a cross-domain way.
+
+W3C reference:
+https://www.w3.org/TR/dwbp/
+
+This document about Data on the Web Best Practices is a business domain agnostic document that can be reused in a cross-domain way.
+
+W3C reference:
+https://www.w3.org/TR/dwbp/"""@en ;
+    cav:refersTo camssa:b32453af-d551-4efe-a028-84dbd15f10c4 .
+
+camssa:c70180be-f19a-4c71-8201-1ac3eb9e9472 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:c9957c1b-cb62-4b54-87b2-92cf20e708ec a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:cdbe928b-632c-45e6-9f3a-3b95e07d72ae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:268e56eb-8ec2-456e-acf9-189aa080afd0 .
+
+camssa:cf698fc3-103a-4cc7-851b-03f858d91e2f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:d296e380-90f9-4dd8-96f8-01e04b3cb165 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no Member State that includes Data on the Web Best Practices W3C in their national catalogue with The National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:78a4bed9-f382-46c9-9f48-92190202547e .
+
+camssa:d37990ef-594c-4430-87a5-2c1e5c84122a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:d8ca586b-3e53-4261-b53b-f283c5e60eba a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the W3C Best Practices in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:cf698fc3-103a-4cc7-851b-03f858d91e2f .
+
+camssa:e3856960-5b57-4e6a-b545-acd80b51d611 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this document is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
+
+W3C Reference:
+https://www.w3.org/TR/dwbp/"""@en ;
+    cav:refersTo camssa:0de1d7ea-97b4-4214-a274-03ea8c5634e3 .
+
+camssa:e4bc6fb2-71e0-4b3c-8e65-79bacc4a895d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:e59d079d-51a7-4fac-ac05-8ee0b6153e3c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e96a6b5c-3a63-49da-93a2-bfba75308356 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:ec7db985-094a-48fc-9798-f248cf31b18d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Data on the Web Best Practices can apply to any technology that can publish data on the web. So it can be said that it is independent of any platform or technology.
+
+W3C reference:
+https://www.w3.org/TR/dwbp/"""@en ;
+    cav:refersTo camssa:5e0452bc-c286-40f7-9b10-75a10ae07292 .
+
+camssa:ed3a59a3-95dc-4c62-92eb-c101038c8bb5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f57021a4-53e0-4823-95fd-ace0baf825db .
+
+camssa:f179f475-7f4a-4a75-8ad2-38484b66e8fd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:b5926405-631a-408d-9d73-74b0c7fea10c .
+
+camssa:f3eb07ab-160c-4e2f-be3d-a45e45ceed0a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:f57021a4-53e0-4823-95fd-ace0baf825db a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:f665ad99-fc02-4828-9e4d-4e172dc69886 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the W3C Best Practices in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:0221934e-23b5-4542-be51-ff482cbcc545 .
+
+camssa:f835b226-d6ce-499b-a0e9-f3552dfbc902 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
+    cav:refersTo camssa:2e19c3ad-d69b-4c67-b4ee-18ecc5e81e51 .
+
+camssa:fc66d859-8d6b-44ce-8fa4-164b39c03aa7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "20+0"^^xsd:int .
+
+camssa:fed14030-ac68-4b6a-b57d-73ae36490907 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+

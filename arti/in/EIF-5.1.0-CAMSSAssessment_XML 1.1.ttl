@@ -1,0 +1,602 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:8c9b9c54f21176231185cf4455e3d23b6e3c3048d33ae408047c28088e4733f6 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:e438965c54bc7f78e6ede46f4d408abe398302a3b33e374a9ed4662b8b44df99 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:17d434ca-a066-4449-9544-efed040304ed,
+        camssa:17eee42d-61ac-4245-b950-72c925c6c96c,
+        camssa:1adc8f1f-893d-4946-85c8-79c0d74f521c,
+        camssa:1b49c4d9-5dac-4f32-8767-5e630f412784,
+        camssa:2326d055-27d3-4849-9599-91424e47fdf9,
+        camssa:2379fa0f-29d5-47cd-8e03-d6d26860656f,
+        camssa:266ceba5-2a15-432a-8f49-88ff60076555,
+        camssa:2f0c9445-cfdb-4a03-bd40-93acd4912d6c,
+        camssa:36b96e86-f4e5-4eca-aff5-50b2d50d0b65,
+        camssa:36f09063-087c-4098-ac0e-3b2779d4a748,
+        camssa:3ccbea73-93f3-4020-bcb6-35bd554f4445,
+        camssa:3e2536de-b6a4-4c3a-b096-01c03985d4ba,
+        camssa:3eb3b2b0-8b53-4144-9229-ede28c7e8ff3,
+        camssa:3fe6f0bf-9586-4702-bae5-5f6d421b091a,
+        camssa:4c291fb3-658f-476b-9931-eee8473e6865,
+        camssa:5241af69-8db3-46d9-9d66-30398e94557c,
+        camssa:54e58e5a-788a-4009-b847-a29a00466a0b,
+        camssa:5d910aa1-8587-4623-9559-aa5ce8ae3029,
+        camssa:5e0eaae1-3457-4373-8477-2b899ff87cf6,
+        camssa:63cc58af-6d8f-40d4-a36a-2ea6cf80401b,
+        camssa:6428ebfa-42c9-4f63-91ba-e71acfe7c072,
+        camssa:6aa1c660-9331-4398-87d9-996589dddd7e,
+        camssa:6bd30b7b-de6c-4c75-b6e6-9942d0367787,
+        camssa:7507e38e-967e-42e8-b303-24fff6ac0d76,
+        camssa:845ec06f-e826-47be-86e6-c761eaa0fec5,
+        camssa:8cdf3184-2128-4968-99f8-7b92c11d6d8b,
+        camssa:90dcddd7-c8e2-4557-9612-ca9401b75de5,
+        camssa:917e14c3-0f60-451a-a589-99ccefd3cc8f,
+        camssa:931fcce7-f2e9-47c3-b1e8-ac515f60dce4,
+        camssa:a864d7c8-267a-4b80-9a63-f08af27da56f,
+        camssa:bace42da-67b4-46b5-aca7-486e6e8a09c3,
+        camssa:c53ec8bd-38df-48a8-9ddc-c625288897ad,
+        camssa:c68b31e6-c726-48d0-9b1a-28f87d0ac638,
+        camssa:c72746ee-e81f-4fae-b722-f5bffde88e97,
+        camssa:e216ebf8-e4fb-49b6-a3f2-e1154ed8c154,
+        camssa:e51d116f-9d19-4585-bf3f-231f6bd39add,
+        camssa:ecaa0552-e6ab-4e0c-a3fd-df757b9adc70,
+        camssa:ee6e7617-7b37-4b3d-b15d-4c24da2bb93e,
+        camssa:f0d54272-57bd-4ac6-ade3-23b937025003,
+        camssa:f35f8fc9-7743-405c-8204-5abce0b76ef2,
+        camssa:f3c6783d-436f-4102-8d51-a8e96bd9491c,
+        camssa:f7b05677-0eef-47b6-acf9-cdd94eb07133,
+        camssa:fda8556a-1fae-4a70-b4dc-ab62aeef5145,
+        camssa:fe3e775f-0907-44b2-b727-6c7903f4de89 ;
+    cav:status status:Complete ;
+    dct:title "XML, Extensible Markup Language 1.1"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:fcd4ad71-40fa-46f9-bb4e-96b15d9698f2 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:0fc385eb-b6f0-456e-999d-c07c5b6806fa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:14bd923c-dc85-4f09-8f48-804eafedfe29 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:17d434ca-a066-4449-9544-efed040304ed a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XML is to store, transport and  exchange data through interoperable systems. Moreover, XML defines a set of rules for encoding documents in a human-readable format and machine-readable format enhancing the reusability of data and stimulating the interoperability of systems and services.  
+
+Additionally, W3C develops its specification independently from any vendor. Thus, the adoption of XML does not hamper the data portability of data expressed with it. In fact, the adoption of XML fosters data portability, especially between REST APIs.
+
+See:
+https://www.w3.org/TR/2006/REC-xml11-20060816/"""@en ;
+    cav:refersTo camssa:19239e44-867b-444a-b822-76cd9311171d .
+
+camssa:17eee42d-61ac-4245-b950-72c925c6c96c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9d25ba1a-c478-4914-90b0-076d92e90563 .
+
+camssa:188562b3-fd26-4892-b80a-39bb404d5d74 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:19239e44-867b-444a-b822-76cd9311171d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:19d5aec5-4dff-4421-a36d-f41995a064b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1adc8f1f-893d-4946-85c8-79c0d74f521c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XML is a de-fact standard markup language that is used in a wide variety of solutions, including innovative solutions."@en ;
+    cav:refersTo camssa:b94e722c-9a68-499b-bc89-144714b1a807 .
+
+camssa:1b49c4d9-5dac-4f32-8767-5e630f412784 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems.
+
+After being evaluated compliant with the regulation on standardisation 1025/2012, XML has been identified by Commission Implementing Decision and included in the European list of ICT Standards for e-procurement.
+
+See: 
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
+    cav:refersTo camssa:b901f4ee-41b3-445c-9d55-67c7555d9ab1 .
+
+camssa:2326d055-27d3-4849-9599-91424e47fdf9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies """@en ;
+    cav:refersTo camssa:cbbcc43c-c96b-489f-811a-824aaa94fdd8 .
+
+camssa:2379fa0f-29d5-47cd-8e03-d6d26860656f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies """@en ;
+    cav:refersTo camssa:c2bd9c77-365e-4d43-ae0c-ba18b40ba90e .
+
+camssa:266ceba5-2a15-432a-8f49-88ff60076555 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XML is used to encode all communications between web services. Therefore, it fosters the visibility and comprehensibility of public administrations data and services. 
+
+See:
+https://esentool.ted.europa.eu/"""@en ;
+    cav:refersTo camssa:bba30293-f999-49b3-9823-3c83174597cc .
+
+camssa:2727bf3d-c415-4589-8850-445246c9f883 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:2f0c9445-cfdb-4a03-bd40-93acd4912d6c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including XML 1.1.
+
+See:
+https://www.w3.org/TR/patent-practice#ref-AC """@en ;
+    cav:refersTo camssa:c4e31555-decf-40f4-996a-fbac6d49e675 .
+
+camssa:35f05eb8-ab64-4d22-81de-62a60bde284d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:36b96e86-f4e5-4eca-aff5-50b2d50d0b65 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:703c514e-a2fa-4a16-9cde-c80aab7b8c98 .
+
+camssa:36f09063-087c-4098-ac0e-3b2779d4a748 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:4ac38494-ce27-481e-9abf-44caf81421fb .
+
+camssa:3ccbea73-93f3-4020-bcb6-35bd554f4445 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is a widely used de-facto standard. Thus, it is sufficiently mature for the development of products and services. Since it's recommendation by W3c in 1996, XML has been used by many products and services.
+
+See:
+https://www.w3.org/TR/2006/REC-xml11-20060816/"""@en ;
+    cav:refersTo camssa:4bb31f16-5db8-4f72-b229-b257fe6d1273 .
+
+camssa:3e2536de-b6a4-4c3a-b096-01c03985d4ba a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:19d5aec5-4dff-4421-a36d-f41995a064b6 .
+
+camssa:3eb3b2b0-8b53-4144-9229-ede28c7e8ff3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data, the second star corresponds to make data available as structured data, an area of application of XML. 
+
+Additionally, RDF is a W3C specification that defines XML syntax for RDF, the de facto standard for publishing Open Data. 
+
+See:
+https://5stardata.info/en/
+https://www.w3.org/TR/rdf-syntax-grammar/"""@en ;
+    cav:refersTo camssa:c333b51a-18d1-41f8-905d-d7bf82a82d7f .
+
+camssa:3fe6f0bf-9586-4702-bae5-5f6d421b091a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "There is no existing study or documentation assessing the specification in terms of effectiveness and efficiency to justify the criterion."@en ;
+    cav:refersTo camssa:6f715dca-99d2-4976-bd09-b45d880f6f29 .
+
+camssa:4ac38494-ce27-481e-9abf-44caf81421fb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4bb31f16-5db8-4f72-b229-b257fe6d1273 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:4c291fb3-658f-476b-9931-eee8473e6865 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:e454223b-6b82-4858-b8af-c270abd7ace1 .
+
+camssa:5241af69-8db3-46d9-9d66-30398e94557c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XML is to store, transport and  exchange data through interoperable systems. Moreover, XML defines a set of rules for encoding documents in a human-readable format and machine-readable format enhancing the reusability of data and stimulating the interoperability of systems and services.  
+
+Additionally, W3C develops its specification independently from any vendor. Thus, the adoption of XML does not hamper the data portability of data expressed with it. In fact, the adoption of XML fosters data portability, especially between REST APIs.
+
+See:
+https://www.w3.org/TR/2006/REC-xml11-20060816/"""@en ;
+    cav:refersTo camssa:a75f5426-ee2a-4fef-89c3-a9f38a342a45 .
+
+camssa:54376d63-a217-4cb9-a514-b2c1888e78cb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:543afd7d-3487-4950-8ab9-99b21f0bd793 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:54e58e5a-788a-4009-b847-a29a00466a0b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XML is used by XML Gate, the EU DG SANCO single entry point for Member States submissions of structured data in XML format via web services. 
+
+See:
+https://webgate.ec.europa.eu/sanco-xmlgate/Login.jsp"""@en ;
+    cav:refersTo camssa:fa3a67da-fc64-4a3f-880e-81fbe0573324 .
+
+camssa:55345143-58fd-4f25-8574-42fcfa932e17 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5d910aa1-8587-4623-9559-aa5ce8ae3029 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:8b51f414-ff74-4ce2-b4a5-69fc0089770d .
+
+camssa:5e0eaae1-3457-4373-8477-2b899ff87cf6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XML is included in 5 national catalogues. They belong to Member States which comply with at least 4 out of 5 sections of the EIF according to the NIFO factsheets. 
+
+See:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:543afd7d-3487-4950-8ab9-99b21f0bd793 .
+
+camssa:63cc58af-6d8f-40d4-a36a-2ea6cf80401b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of XML is not related to the  delivery of multilingual public services. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:d86ee16b-1783-4112-9711-9b873d8a31db .
+
+camssa:6428ebfa-42c9-4f63-91ba-e71acfe7c072 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data, the second star corresponds to make data available as structured data, an area of application of XML. 
+
+Additionally, RDF is a W3C specification that defines XML syntax for RDF, the de facto standard for publishing Linked Open Data. 
+
+See:
+https://5stardata.info/en/
+https://www.w3.org/TR/rdf-syntax-grammar/ """@en ;
+    cav:refersTo camssa:7f189925-edc9-4bac-92a9-b57a7e6d6e71 .
+
+camssa:6aa1c660-9331-4398-87d9-996589dddd7e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XML is used to encode all communications to web services. Therefore, it fosters the availability of public administrations interfaces.
+
+Additionally, the benefit of using XML is that web services are not tied to any one operating system or programming.
+
+See:
+https://esentool.ted.europa.eu/ 
+"""@en ;
+    cav:refersTo camssa:cb203c85-b367-4905-bd55-860847ea5653 .
+
+camssa:6bd30b7b-de6c-4c75-b6e6-9942d0367787 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:a3587437-fd16-4c13-a089-2ac683d3d92e .
+
+camssa:6f715dca-99d2-4976-bd09-b45d880f6f29 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:703c514e-a2fa-4a16-9cde-c80aab7b8c98 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:7507e38e-967e-42e8-b303-24fff6ac0d76 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of XML is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:d1ee0d62-7616-43f8-b034-098d53351200 .
+
+camssa:786a95fd-50f3-4da0-8d73-f8448895ade4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7f189925-edc9-4bac-92a9-b57a7e6d6e71 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:845ec06f-e826-47be-86e6-c761eaa0fec5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of XML is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:eba18bf2-4ea7-4428-a487-67d062e2a39b .
+
+camssa:84e6b28f-29a6-4735-90b5-ec63c0def271 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8b51f414-ff74-4ce2-b4a5-69fc0089770d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:8cdf3184-2128-4968-99f8-7b92c11d6d8b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of XML is not related to e-accessibility. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:55345143-58fd-4f25-8574-42fcfa932e17 .
+
+camssa:90dcddd7-c8e2-4557-9612-ca9401b75de5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The application of the once-only principle in all EU Member States public administrations aims at reducing the administrative burden. To achieve this, interoperability between public administrations is a sine qua non condition.
+
+XML addresses and facilitates interoperability between public administrations, cross border services and impacts positively the development of eGovernment. This is due to the fact that it has been designed  to store, transport data, and to exchange data through interoperable systems. Moreover, XML defines a set of rules for encoding documents in a human-readable format and machine-readable format enhancing the reusability of data and stimulating the interoperability of systems and services."""@en ;
+    cav:refersTo camssa:d68ef832-684f-4d1b-bea5-1fed8ccd648c .
+
+camssa:917e14c3-0f60-451a-a589-99ccefd3cc8f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:b554c8ee-8e64-4dc3-bf2e-f4ab0750f67b .
+
+camssa:931fcce7-f2e9-47c3-b1e8-ac515f60dce4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C provides a Markup Validation Service for free to validate XML 1.1  implementations.
+
+See:
+https://validator.w3.org/"""@en ;
+    cav:refersTo camssa:9b304d8d-e3a3-4a3a-a30b-5807a7781b69 .
+
+camssa:9b304d8d-e3a3-4a3a-a30b-5807a7781b69 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:9d25ba1a-c478-4914-90b0-076d92e90563 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:9f75d93b-ae16-411c-8d49-4d2ef627f954 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:a3587437-fd16-4c13-a089-2ac683d3d92e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:a75f5426-ee2a-4fef-89c3-a9f38a342a45 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a864d7c8-267a-4b80-9a63-f08af27da56f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:786a95fd-50f3-4da0-8d73-f8448895ade4 .
+
+camssa:b0cb1d03-1644-40a7-a2fe-5c674b8eb095 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b248d7a1-d2a7-469e-9ecd-09bc3fcbee0c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b554c8ee-8e64-4dc3-bf2e-f4ab0750f67b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:b82dd2be-754f-467f-affb-bf15bb596255 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:b901f4ee-41b3-445c-9d55-67c7555d9ab1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b94e722c-9a68-499b-bc89-144714b1a807 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bace42da-67b4-46b5-aca7-486e6e8a09c3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:188562b3-fd26-4892-b80a-39bb404d5d74 .
+
+camssa:bba30293-f999-49b3-9823-3c83174597cc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c2bd9c77-365e-4d43-ae0c-ba18b40ba90e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c333b51a-18d1-41f8-905d-d7bf82a82d7f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c4e31555-decf-40f4-996a-fbac6d49e675 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c53ec8bd-38df-48a8-9ddc-c625288897ad a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XML is a business domain agnostic specification."@en ;
+    cav:refersTo camssa:14bd923c-dc85-4f09-8f48-804eafedfe29 .
+
+camssa:c68b31e6-c726-48d0-9b1a-28f87d0ac638 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "There is no existing study or documentation assessing the specification in terms of effectiveness and efficiency to justify the criterion."@en ;
+    cav:refersTo camssa:2727bf3d-c415-4589-8850-445246c9f883 .
+
+camssa:c72746ee-e81f-4fae-b722-f5bffde88e97 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:54376d63-a217-4cb9-a514-b2c1888e78cb .
+
+camssa:cb203c85-b367-4905-bd55-860847ea5653 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:cbbcc43c-c96b-489f-811a-824aaa94fdd8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:d1ee0d62-7616-43f8-b034-098d53351200 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d68ef832-684f-4d1b-bea5-1fed8ccd648c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d86ee16b-1783-4112-9711-9b873d8a31db a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e216ebf8-e4fb-49b6-a3f2-e1154ed8c154 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including XML 1.1.
+
+See:
+https://www.w3.org/TR/patent-practice#ref-AC """@en ;
+    cav:refersTo camssa:b0cb1d03-1644-40a7-a2fe-5c674b8eb095 .
+
+camssa:e454223b-6b82-4858-b8af-c270abd7ace1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e51d116f-9d19-4585-bf3f-231f6bd39add a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XML is included in several national catalogues from EU Member States. A total of 14 countries listed the XML within their national catalogues (e.g. Belgium, France, Germany, etc.).
+
+See:
+https://www.belgif.be/nl/specifications 
+http://references.modernisation.gouv.fr/sites/default/files/Referentiel_General_Interoperabilite_V2.pdf 
+http://www.cio.bund.de/SharedDocs/Publikationen/DE/Architekturen-und-Standards/SAGA/saga_modul_tech_spez_de_bund_5_0_download.pdf?__blob=publicationFile """@en ;
+    cav:refersTo camssa:b248d7a1-d2a7-469e-9ecd-09bc3fcbee0c .
+
+camssa:e6b16825-3bfd-4660-a345-d494f0a6c75e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ea87b898-6b4e-40be-a5f4-3f64bb909a99 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:eba18bf2-4ea7-4428-a487-67d062e2a39b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ecaa0552-e6ab-4e0c-a3fd-df757b9adc70 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XML can be used independently from any other technical specifications or operating system.
+
+See:
+https://www.w3.org/TR/2006/REC-xml11-20060816/ """@en ;
+    cav:refersTo camssa:9f75d93b-ae16-411c-8d49-4d2ef627f954 .
+
+camssa:ee6e7617-7b37-4b3d-b15d-4c24da2bb93e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XML is maintained by W3C which is an international community developing open standards. 
+
+See:
+https://www.w3.org/Consortium/"""@en ;
+    cav:refersTo camssa:ea87b898-6b4e-40be-a5f4-3f64bb909a99 .
+
+camssa:f0d54272-57bd-4ac6-ade3-23b937025003 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XML is a business domain agnostic specification."@en ;
+    cav:refersTo camssa:84e6b28f-29a6-4735-90b5-ec63c0def271 .
+
+camssa:f35f8fc9-7743-405c-8204-5abce0b76ef2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XML can be used independently from any other technical specifications or operating system.
+
+See:
+https://www.w3.org/TR/2006/REC-xml11-20060816/ """@en ;
+    cav:refersTo camssa:e6b16825-3bfd-4660-a345-d494f0a6c75e .
+
+camssa:f3c6783d-436f-4102-8d51-a8e96bd9491c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of XML is not related  to the long-term preservation of electronic records and other kinds of information. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:fae8aa46-a6a6-451a-81a0-3bec097068c5 .
+
+camssa:f7b05677-0eef-47b6-acf9-cdd94eb07133 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of XML is to store, transport and  exchange data through interoperable systems. Additionally, the specification provides the means to validate XML documents using XML schemas."@en ;
+    cav:refersTo camssa:35f05eb8-ab64-4d22-81de-62a60bde284d .
+
+camssa:fa3a67da-fc64-4a3f-880e-81fbe0573324 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fae8aa46-a6a6-451a-81a0-3bec097068c5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:fcd4ad71-40fa-46f9-bb4e-96b15d9698f2 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:fda8556a-1fae-4a70-b4dc-ab62aeef5145 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XML is used to encode all communications between web services. Therefore, it fosters the visibility and comprehensibility of public administrations data and services. 
+
+See:
+https://esentool.ted.europa.eu/"""@en ;
+    cav:refersTo camssa:b82dd2be-754f-467f-affb-bf15bb596255 .
+
+camssa:fe3e775f-0907-44b2-b727-6c7903f4de89 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XML is included in several national catalogues from Member States. A total of 14 countries listed the XML within their national catalogues (e.g. Belgium, France, Germany, etc.).
+
+See CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:0fc385eb-b6f0-456e-999d-c07c5b6806fa .
+

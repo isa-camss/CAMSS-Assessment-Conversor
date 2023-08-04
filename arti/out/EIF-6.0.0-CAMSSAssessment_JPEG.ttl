@@ -1,0 +1,712 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:02afb4cc-abc1-49af-a1f1-05d431d4bf26,
+        camssa:091223e3-6a71-41db-a4ee-017600165da6,
+        camssa:11808c4a-da2e-48f1-82b6-ae8dd3e9b0cc,
+        camssa:19a070ae-ed0c-41f3-be1d-c6ad635df3a5,
+        camssa:1cea7b4b-b4dd-48d6-813d-df5eafb4777a,
+        camssa:1d866ac0-00ca-40d5-afbe-2987596f78ae,
+        camssa:2703919f-7021-40b8-bf88-6ad94deeaf03,
+        camssa:2fb5a8cf-2436-44c7-96d6-1bacc6f7748e,
+        camssa:4347baeb-b3be-44fe-8ce1-fb32d32d6841,
+        camssa:441eef36-4c46-47b0-93a2-77400a3ba647,
+        camssa:477a33c0-b700-475b-958c-8dd6eb324706,
+        camssa:4e1caf72-d9c4-4290-beb8-18d57be163d9,
+        camssa:52da936d-555e-4e56-9aee-874bc2d24270,
+        camssa:565c1071-e55d-4999-91aa-060124798ebb,
+        camssa:5f930656-8b45-4354-8db3-bd93253b9575,
+        camssa:70952df3-6709-4f82-a6d3-e4ec88ed4391,
+        camssa:7583e693-e446-4be0-9aed-f2b3899e482b,
+        camssa:79d4e7e7-77ac-4511-a3d6-734036f47fbd,
+        camssa:7e08bffb-02f8-43b9-bbeb-d248e9c6cc81,
+        camssa:7e23ce5b-ebcd-4942-b1b1-9ba67e4529b3,
+        camssa:8689567a-84db-4e8d-93f0-e5daf09cd978,
+        camssa:88a75f65-a1e4-45c9-bace-94aa6a3202f8,
+        camssa:8ce83cc0-47f7-4415-9f06-1ab4014ae2f5,
+        camssa:8d78b934-a260-4e18-bdbe-5e4324658f9b,
+        camssa:906badb5-6f57-4cfb-b203-a7db72160da8,
+        camssa:90da312d-9b3b-4f9e-b771-b9e38ce41644,
+        camssa:954e9703-f3f8-4e68-8d02-4fa026607497,
+        camssa:9eaa6782-fe61-4c18-90ef-c9366ed69252,
+        camssa:a73f1f4a-8870-45d1-ac5e-000d90f46668,
+        camssa:af47b8a7-e473-4e6c-a4bb-a6c901c04ff2,
+        camssa:bbe9f9b8-75ed-4c98-ba6d-388c2ee57609,
+        camssa:c45f1d37-0b64-47e0-bc5e-13043a769272,
+        camssa:d014f530-e85d-4788-93e1-0301ffa13865,
+        camssa:d11b41de-1b3c-43bc-8a68-b189829af94b,
+        camssa:d4e153b4-cf4f-42be-8b15-1749013b315a,
+        camssa:dacd3b9d-0496-48a8-ae64-5101253fe2fd,
+        camssa:df2bbc94-b359-4092-ad61-f5f5dd4e1151,
+        camssa:edce3ede-a5ff-4522-b21b-a59c8dde849c,
+        camssa:efeaf453-5dac-4126-9196-9a2f1c099a73,
+        camssa:f142fdb2-5374-440b-ba97-d398d0ef764e,
+        camssa:f5f5b0e8-1a5f-45e4-851c-645af14f3243,
+        camssa:f6e0f294-870e-49db-8ce6-c6560d6b13f7,
+        camssa:f709b93e-54a2-4409-8179-9939359f811b,
+        camssa:fb1c68dd-db05-47fb-83e7-5ea3daeb438f,
+        camssa:fbbf9bcf-632b-4e5f-8369-46bf41fab3e0 ;
+    cav:status status:Complete ;
+    dct:title "Joint Photographic Experts Group (JPEG)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:50b6ea37-b72a-4971-b558-5320f4893528 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:0131bb48-75e7-4fd0-8cba-f293233a38b9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:02afb4cc-abc1-49af-a1f1-05d431d4bf26 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """JPEG is included in 2 national catalogues of recommended specifications. They belong to Estonia and Spain. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. 
+
+National catalogue Estonia:
+https://www.mkm.ee/sites/default/files/interoperability-framework_2011.doc
+
+National catalogue Spain:
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#CATALOGOESTANDARES
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:68707e19-4c33-4b90-8e00-38b077e4205f .
+
+camssa:02e95a03-5379-4845-abe9-9829a48624f2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:0575badd-6d89-4b45-84d4-7f2581da9d0e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:05b4c049-f105-4088-8da9-a290be821a11 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:091223e3-6a71-41db-a4ee-017600165da6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of JPEG within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:6174ebe5-c8ee-45af-938a-147dcb6db1e4 .
+
+camssa:11808c4a-da2e-48f1-82b6-ae8dd3e9b0cc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are many documents and studies around the JPEG, functionalities, and effectiveness, and efficiency. An example of this is an article in The International society for optics and photonics. It is published in the SPIE Library, and it is about the evolution of the standard and the different capabilities of the specification in terms of image representation.
+
+SPIE Library: 
+https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-27/issue-04/040901/JPEG-1-standard-25-years--past-present-and-future/10.1117/1.JEI.27.4.040901.full?SSO=1"""@en ;
+    cav:refersTo camssa:f3734809-6bef-48f5-b21d-7cb8a281f408 .
+
+camssa:191f2be8-43bd-4ade-bbda-52635e288dc6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:19a070ae-ed0c-41f3-be1d-c6ad635df3a5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of JPEG is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"""@en ;
+    cav:refersTo camssa:341b245c-0f20-4f03-9a0c-69f7c23c8840 .
+
+camssa:1a602d7c-28ac-4c80-9a62-4adaa29e4b38 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1cea7b4b-b4dd-48d6-813d-df5eafb4777a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:4e4cd8c1-2701-423b-babf-d8492239659c .
+
+camssa:1d866ac0-00ca-40d5-afbe-2987596f78ae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:5ea0c866-0c67-4648-b24f-c14887925bb3 .
+
+camssa:2703919f-7021-40b8-bf88-6ad94deeaf03 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of JEPG is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"""@en ;
+    cav:refersTo camssa:c34b8d97-14e5-4652-ae74-e7b47145d019 .
+
+camssa:2fb5a8cf-2436-44c7-96d6-1bacc6f7748e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:4a3eb470-6de7-4768-a804-a962921debcf .
+
+camssa:3150df32-6f2a-47b9-8d5b-d525b0b10869 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:341b245c-0f20-4f03-9a0c-69f7c23c8840 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:42e583b4-cfda-4e92-9a90-0d1d70dc9524 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:4347baeb-b3be-44fe-8ce1-fb32d32d6841 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification was developed in 1992 and it has been broadly used. JPEG is supported as one of the main image file formats.
+
+Independent JPEG Group:
+https://www.ijg.org/
+
+JPEG.org:
+https://jpeg.org/jpeg/index.html """@en ;
+    cav:refersTo camssa:02e95a03-5379-4845-abe9-9829a48624f2 .
+
+camssa:441eef36-4c46-47b0-93a2-77400a3ba647 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After searching for a conformity test to validate JPEG format, no tool has been found with this purpose. "@en ;
+    cav:refersTo camssa:b0a5f2cc-50a5-4b32-8ec4-ede6dab0162c .
+
+camssa:447057a0-d874-4e52-ba96-4817fd3eb44d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:44dfa9e2-0d8b-4ccb-a0fe-273f2cbeeacd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:459cb594-476c-4f8c-9e96-08b29d62a1ae a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "20"^^xsd:int .
+
+camssa:477a33c0-b700-475b-958c-8dd6eb324706 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:812fb2f7-b9c8-4cc2-8c5b-760891207c5d .
+
+camssa:4a3eb470-6de7-4768-a804-a962921debcf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:4ca4f7ae-2fbb-40ee-b2fc-a233a5612a25 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "20+20"^^xsd:int .
+
+camssa:4e1caf72-d9c4-4290-beb8-18d57be163d9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 8 Member States' catalogues of recommended specifications. These Member States are Estonia, France, Germany, Greece, Norway, Poland, Slovenia and Spain.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:e13a56cc-fd4c-4e85-b6c4-e1c728cf0c5a .
+
+camssa:4e4cd8c1-2701-423b-babf-d8492239659c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:50b6ea37-b72a-4971-b558-5320f4893528 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:52da936d-555e-4e56-9aee-874bc2d24270 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """JPEG is a specification that supports data portability, and therefore, supporting the development of European Public Services. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/
+
+JPEG is a specification that supports data portability, and therefore, supporting the development of European Public Services. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"""@en ;
+    cav:refersTo camssa:e6ba14ca-be7b-4fc1-91aa-7deef9dbc8e0 .
+
+camssa:53f59b9f-7571-412c-aa67-aa19fdd23b42 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:565c1071-e55d-4999-91aa-060124798ebb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:5cf6d52d-3c7a-406f-95f7-dfffabdc9456 .
+
+camssa:57a71a03-1d65-4148-9140-bc108fb420d4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:57cd0fe5-7d98-47eb-949b-527541713ec6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:59b97595-5750-41bc-b2fe-7d4793e2930c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5cf6d52d-3c7a-406f-95f7-dfffabdc9456 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:5ea0c866-0c67-4648-b24f-c14887925bb3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5f930656-8b45-4354-8db3-bd93253b9575 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:d92cccdc-9c51-4403-9b98-3a379541727f .
+
+camssa:60541460-f2cd-4a8d-ae86-913904b103a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6174ebe5-c8ee-45af-938a-147dcb6db1e4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:6363e7fd-3bb9-47f9-9710-b269065d49b2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:68707e19-4c33-4b90-8e00-38b077e4205f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:70952df3-6709-4f82-a6d3-e4ec88ed4391 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no disclosures of ISO IPR Database to identify the licensing under the specification. ISO 10918-1:1994 (JPEG) is not listed in ISO/IEC/ITU Common Patent policy, so it cannot be confirmed that the specification is licensed on a (F)RAND basis.
+
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html 
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347 
+
+There are no disclosures of ISO IPR Database to identify the licensing under the specification. ISO 10918-1:1994 (JPEG) is not listed in ISO/IEC/ITU Common Patent policy, so it cannot be confirmed that the specification is licensed on a (F)RAND basis.
+
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html 
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347 """@en ;
+    cav:refersTo camssa:4ca4f7ae-2fbb-40ee-b2fc-a233a5612a25 .
+
+camssa:74986188-8647-4123-b7c2-2ba81c622e60 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:74b906b0-240c-4a1c-bae8-97c5fa8e52d4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:7583e693-e446-4be0-9aed-f2b3899e482b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """JPEG is a valuable image format for sharing information through the internet between administrations and stakeholders in a graphical manner. Allowing sharing data and information the standard foster the visibility of administration data and services. Fostering the collaboration between public administrations, the specification eases the decision-making process of institutions.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"""@en ;
+    cav:refersTo camssa:447057a0-d874-4e52-ba96-4817fd3eb44d .
+
+camssa:79d4e7e7-77ac-4511-a3d6-734036f47fbd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:e52b3d6d-1693-413e-a3c8-edb1c4896eea .
+
+camssa:7e08bffb-02f8-43b9-bbeb-d248e9c6cc81 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are many documents and studies around the JPEG, functionalities, and effectiveness, and efficiency. An example of this is an article in The International society for optics and photonics. It is published in the SPIE Library, and it is about the evolution of the standard and the different capabilities of the specification in terms of image representation.
+
+SPIE Library: 
+https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-27/issue-04/040901/JPEG-1-standard-25-years--past-present-and-future/10.1117/1.JEI.27.4.040901.full?SSO=1"""@en ;
+    cav:refersTo camssa:8a584800-1889-4d70-92b8-18a4736c1ae8 .
+
+camssa:7e23ce5b-ebcd-4942-b1b1-9ba67e4529b3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of JPEG is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"""@en ;
+    cav:refersTo camssa:f642b256-70b6-44ff-94ee-ac422981de5b .
+
+camssa:812fb2f7-b9c8-4cc2-8c5b-760891207c5d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:81888fda-280a-4ed3-8d6b-0acc665c7fc9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "20"^^xsd:int .
+
+camssa:8689567a-84db-4e8d-93f0-e5daf09cd978 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """JPEG is a business domain agnostic specification that can be reused in a cross-domain way.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/
+
+JPEG is a business domain agnostic specification that can be reused in a cross-domain way.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"""@en ;
+    cav:refersTo camssa:88858bc4-83ac-44cb-8451-c18c4edfdb99 .
+
+camssa:87464684-e8a5-4611-bce1-1edebab8b334 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:88858bc4-83ac-44cb-8451-c18c4edfdb99 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:88a75f65-a1e4-45c9-bace-94aa6a3202f8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As defined on the TC standardisation, only TC members are involved in the development of ISO standards. A review is carried out to arrange the consensus firstly within the TC members and subsequently is reviewed by the different ISO member bodies. However, it cannot be considered a public review, because only TC members can participate.
+
+The ISO standardization process: 
+https://www.iso.org/stages-and-resources-for-standards-development.html"""@en ;
+    cav:refersTo camssa:fb18d4ee-fbc8-469b-8ded-13c7060bd284 .
+
+camssa:8a584800-1889-4d70-92b8-18a4736c1ae8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8ce83cc0-47f7-4415-9f06-1ab4014ae2f5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of JPEG is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"""@en ;
+    cav:refersTo camssa:74b906b0-240c-4a1c-bae8-97c5fa8e52d4 .
+
+camssa:8d78b934-a260-4e18-bdbe-5e4324658f9b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0131bb48-75e7-4fd0-8cba-f293233a38b9 .
+
+camssa:906badb5-6f57-4cfb-b203-a7db72160da8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After searching in the different official European websites, there is no evidence of any cross-border project that use JPEG nor explicit agreements involving the usage of the specification."@en ;
+    cav:refersTo camssa:81888fda-280a-4ed3-8d6b-0acc665c7fc9 .
+
+camssa:90da312d-9b3b-4f9e-b771-b9e38ce41644 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """8 Member States are recommending JPEG in their ICT National Catalogues. These Member States are Estonia, France, Germany, Greece, Norway, Poland, Slovenia and Spain.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:59b97595-5750-41bc-b2fe-7d4793e2930c .
+
+camssa:954e9703-f3f8-4e68-8d02-4fa026607497 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:60541460-f2cd-4a8d-ae86-913904b103a2 .
+
+camssa:9eaa6782-fe61-4c18-90ef-c9366ed69252 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of JPEG is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"""@en ;
+    cav:refersTo camssa:05b4c049-f105-4088-8da9-a290be821a11 .
+
+camssa:a73f1f4a-8870-45d1-ac5e-000d90f46668 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of JPEG is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"""@en ;
+    cav:refersTo camssa:e712d915-3b22-4379-b5e4-e9c6d0b32cdd .
+
+camssa:ab7f548c-f0bf-42dd-9ca1-1467dedf38e3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "0+20"^^xsd:int .
+
+camssa:af47b8a7-e473-4e6c-a4bb-a6c901c04ff2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of JEPG is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"""@en ;
+    cav:refersTo camssa:3150df32-6f2a-47b9-8d5b-d525b0b10869 .
+
+camssa:b0a5f2cc-50a5-4b32-8ec4-ede6dab0162c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "20"^^xsd:int .
+
+camssa:b6406042-e287-46e8-95cf-7552fc23b725 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bbe9f9b8-75ed-4c98-ba6d-388c2ee57609 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+Although JPEG is supporting the first level of maturity from the Tim Berners-Lee 5-star schema for the Open data, it is not supporting the main principles for the publication of data as Linked Open Data.  
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html"""@en ;
+    cav:refersTo camssa:ab7f548c-f0bf-42dd-9ca1-1467dedf38e3 .
+
+camssa:c34b8d97-14e5-4652-ae74-e7b47145d019 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c45f1d37-0b64-47e0-bc5e-13043a769272 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:1a602d7c-28ac-4c80-9a62-4adaa29e4b38 .
+
+camssa:c6d26dbf-cf2b-47d2-9d43-6bac9a73d6cb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:d014f530-e85d-4788-93e1-0301ffa13865 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """JPEG is an image extension which allows visualizing and storing images. However, as they cannot be protected with a password or something, everyone who has access to a JPEG file can visualize it.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"""@en ;
+    cav:refersTo camssa:459cb594-476c-4f8c-9e96-08b29d62a1ae .
+
+camssa:d11b41de-1b3c-43bc-8a68-b189829af94b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:57cd0fe5-7d98-47eb-949b-527541713ec6 .
+
+camssa:d4e153b4-cf4f-42be-8b15-1749013b315a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:b6406042-e287-46e8-95cf-7552fc23b725 .
+
+camssa:d92cccdc-9c51-4403-9b98-3a379541727f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:dacd3b9d-0496-48a8-ae64-5101253fe2fd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ISO has defined a clear procedure to develop its standards. It consists in a 6-steps process where everyone who is interested can participate. However, if you want to participate, you have to contact your national standards body and you have to be approved for joining the Technical committee (TC) who will develop the standard. ISO has defined the roadmap of standards, it is composed of 6 steps as before said. For the approval of a standard the two-thirds majority of P-members of TC is needed. If the result is negative, the document is returned to TC/SC to be further studied.
+
+The ISO standardization process: 
+https://www.iso.org/stages-and-resources-for-standards-development.html"""@en ;
+    cav:refersTo camssa:c6d26dbf-cf2b-47d2-9d43-6bac9a73d6cb .
+
+camssa:df2bbc94-b359-4092-ad61-f5f5dd4e1151 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Joint Photographic Experts Group (JPEG) committee has a long tradition in the creation of still image coding standards. JPEG is a joint working group of the International Standardization Organization (ISO) and the International Electrotechnical Commission (IEC). It can be found in the particular website created to communicate and gather information about the JPEG standard. This website is known as jpeg.org. 
+
+The specification in ISO: 
+https://www.iso.org/standard/18902.html
+
+JPEG.org:
+https://jpeg.org/jpeg/index.html"""@en ;
+    cav:refersTo camssa:53f59b9f-7571-412c-aa67-aa19fdd23b42 .
+
+camssa:e13a56cc-fd4c-4e85-b6c4-e1c728cf0c5a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:e52b3d6d-1693-413e-a3c8-edb1c4896eea a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:e6ba14ca-be7b-4fc1-91aa-7deef9dbc8e0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:e712d915-3b22-4379-b5e4-e9c6d0b32cdd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:edce3ede-a5ff-4522-b21b-a59c8dde849c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0575badd-6d89-4b45-84d4-7f2581da9d0e .
+
+camssa:efeaf453-5dac-4126-9196-9a2f1c099a73 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6363e7fd-3bb9-47f9-9710-b269065d49b2 .
+
+camssa:f142fdb2-5374-440b-ba97-d398d0ef764e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+None"""@en ;
+    cav:refersTo camssa:42e583b4-cfda-4e92-9a90-0d1d70dc9524 .
+
+camssa:f3734809-6bef-48f5-b21d-7cb8a281f408 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f5f5b0e8-1a5f-45e4-851c-645af14f3243 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """JPEG is an international standard worldwide used as an image format. It is supported as a standard way for the treatment and exchange of image files.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"""@en ;
+    cav:refersTo camssa:57a71a03-1d65-4148-9140-bc108fb420d4 .
+
+camssa:f642b256-70b6-44ff-94ee-ac422981de5b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f6e0f294-870e-49db-8ce6-c6560d6b13f7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """JPEG is independent of any software, hardware, or operating system. So it can be said that JPEG is independent of any specific technology or platform. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"""@en ;
+    cav:refersTo camssa:44dfa9e2-0d8b-4ccb-a0fe-273f2cbeeacd .
+
+camssa:f709b93e-54a2-4409-8179-9939359f811b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:74986188-8647-4123-b7c2-2ba81c622e60 .
+
+camssa:fb18d4ee-fbc8-469b-8ded-13c7060bd284 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "20"^^xsd:int .
+
+camssa:fb1c68dd-db05-47fb-83e7-5ea3daeb438f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """JPEG is independent of any software, hardware, or operating system. So it can be said that JPEG is independent of any specific technology or platform. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"""@en ;
+    cav:refersTo camssa:87464684-e8a5-4611-bce1-1edebab8b334 .
+
+camssa:fbbf9bcf-632b-4e5f-8369-46bf41fab3e0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As a way to compress images and easing the communication of graphic information, it can ease the comprehensibility of the administration's data, rules, and services. By allowing a more visual representation of the information, it contributes to the easy understanding of bucks of different data. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"""@en ;
+    cav:refersTo camssa:191f2be8-43bd-4ade-bbda-52635e288dc6 .
+

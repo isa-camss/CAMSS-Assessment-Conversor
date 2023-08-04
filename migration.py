@@ -18,13 +18,11 @@ TOOL = Namespace("http://data.europa.eu/2sa/rsc/toolkit-version#")
 
 class Scenario:
     """
-    This class generates a dictionary of scenario identifiers and criteria identifiers per scenario
+    This class generates a dictionary of scenario identifiers and criteria identifiers per scenario (5.1.0 and 6.0.0).
     """
     dic_criteria: dict = {}
-    v300: str = "3aadede3d912d8ab2b20d40221274da3af8f9ee9c14f0e1226f9217a3e8953e4"
-    v310: str = "44119b394568e5be30da9b83729a3cba1f19eadd53373d5cc6ff6a73fd3e26e8"
-    v500: str = "f717f525751d9de54fc478770a2fb1845767ec01f1661d602383ae868d2bb5b7"
     v510: str = "87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28"
+    v600: str = "8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b"
 
     def __init__(self):
         self.csv = None
@@ -37,17 +35,16 @@ class Scenario:
         :return: sets the criteria dictionary
         """
         self.csv = open('migrationtables.csv', 'r')
-        self.dic_criteria[self.v300] = []
-        self.dic_criteria[self.v310] = []
-        self.dic_criteria[self.v500] = []
         self.dic_criteria[self.v510] = []
+        # other refers to criteria from 5.1.0 that is concatenate with other criteria (criteria merge)
+        self.dic_criteria['other'] = []
+        self.dic_criteria[self.v600] = []
         for line in self.csv:
             line = line.rstrip()
             ids = line.split(",")
-            self.dic_criteria[self.v300].append(ids[1])
-            self.dic_criteria[self.v310].append(ids[2])
-            self.dic_criteria[self.v500].append(ids[3])
-            self.dic_criteria[self.v510].append(ids[4])
+            self.dic_criteria[self.v510].append(ids[1])
+            self.dic_criteria['other'].append(ids[2])
+            self.dic_criteria[self.v600].append(ids[3])
         self.csv.close()
         return
 
@@ -64,9 +61,10 @@ class GraphInstance:
     eif_version: str = ''
     ass_id: str = ''
     sc510_id: str = "87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28"
+    sc600_id: str = "8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b"
     tool_version: str
     dict_crit: dict = Scenario().dic_criteria
-    dict_responses: dict = {'stmt': ['None'] * 44, 'old_score': ['None'] * 44, 'score': ['None'] * 44, 'criteria': ['None'] * 44, 'answer': ['None'] * 44}
+    dict_responses: dict
     responses_old: list # number of not answered, n/a, no, yes responses
     responses_new: list = [None, None, None, None]  # number of not answered, n/a, no, yes responses
     responses_new_df: dict = {}
@@ -76,6 +74,8 @@ class GraphInstance:
         self.filepath = file_path
         self.set_graph()
         self.ttl_filename = utils.set_name(file_path[:-4].split("/")[-1])
+        self.dict_responses = {'stmt': ['None'] * 45, 'old_score': ['None'] * 45, 'score': ['None'] * 45,
+                                'criteria': ['None'] * 45, 'answer': ['None'] * 45}
         return
 
     def set_graph(self):
@@ -108,25 +108,6 @@ class GraphInstance:
         """
         self.ass_id = str(self.g.value(predicate=RDF.type, object=CAV.Assessment, any=False)).split("/")[-1]
         return
-
-    def match_scoring(self, score):
-        """
-        Matching scores from v3.0.0 and v3.1.0 to v5.1.0 of the CAMSS Assessment EIF Scenario.
-        :param score: old score from v3.0.0 and v3.1.0 of the CAMSS Assessment EIF Scenario
-        :return: the score value in v5.1.0 of the CAMSS Assessment EIF Scenario
-        """
-        if self.eif_version != Scenario.v500:
-            if score == "0":
-                # 0 means Negative response
-                return "20"
-            elif score == "1":
-                # 1 means Positive response
-                return "100"
-            elif score == "2":
-                # 2 means N/A
-                return "100"
-        else:
-            return score
 
     def add_results_subgraph(self):
         """
@@ -179,7 +160,7 @@ class GraphInstance:
             self.g.serialize(format="turtle", destination=destination + self.ttl_filename + ".ttl")
         else:
             destination = 'arti/out/'
-            self.g.serialize(format='turtle', destination=destination + f'EIF-5.1.0-CAMSSAssessment_{self.ttl_filename}.ttl')
+            self.g.serialize(format='turtle', destination=destination + f'EIF-6.0.0-CAMSSAssessment_{self.ttl_filename}.ttl')
         return
 
     def bind_graph(self):
@@ -203,14 +184,14 @@ class GraphInstance:
         :return: graph resulting after some modifications
         """
         # modify the scenario version identifier
-        self.g.set((URIRef(CAMSSA + self.ass_id, CAMSSA), CAV.contextualisedBy, URIRef(SC + self.sc510_id, SC)))
+        self.g.set((URIRef(CAMSSA + self.ass_id, CAMSSA), CAV.contextualisedBy, URIRef(SC + self.sc600_id, SC)))
         # modify dates
         self.g.set(
             (URIRef(CAMSSA + self.ass_id, CAMSSA), CAMSS.assessmentDate, Literal(None, datatype=URIRef(XSD.date))))
         self.g.set(
             (URIRef(CAMSSA + self.ass_id, CAMSSA), CAMSS.submissionDate, Literal(None, datatype=URIRef(XSD.date))))
         # modify the CAMSS EIF scenario version
-        self.g.set((URIRef(CAMSSA + self.ass_id, CAMSSA), CAMSS.toolVersion, URIRef(TOOL + "5.1.0", TOOL)))
+        self.g.set((URIRef(CAMSSA + self.ass_id, CAMSSA), CAMSS.toolVersion, URIRef(TOOL + "6.0.0", TOOL)))
         return
 
     def populate_dict_responses(self):
@@ -227,105 +208,51 @@ class GraphInstance:
             id_score = str(self.g.value(subject=o, predicate=CAV.refersTo, any=None)).split("/")[-1]
             # original criterion score (old CAMSS EIF scenario)
             score = self.g.value(subject=URIRef(CAMSSA + id_score, CAMSSA), predicate=CAV.value, any=None)
-            # set responses_old
-            if str(score) == "0":
+            # number of not answered, n/a, no, yes responses - from 5.1.0 to 6.0.0, only no responses can be mapped
+            if str(score) == "20" or str(score) == "0":
                 self.responses_old[2] += 1
-            elif str(score) == "1":
-                self.responses_old[3] += 1
-            elif str(score) == "2":
-                self.responses_old[1] += 1
             # original identifier of the criterion (old CAMSS EIF scenario)
             id_criterion = str(self.g.value(subject=URIRef(CAMSSA + str(id_score), CAMSSA), predicate=CAV.assignedTo,
                                             any=None)).split("/")[-1].split("c-")[-1]
-            # create sub_graph
-            # id_score is maintained
-            #
-            duplicated_id_criterion = [i for i, x in enumerate(self.dict_crit[self.eif_version]) if
-                                       x == id_criterion]
-            if self.tool_version in ['3.0.0', '3.1.0']:
-                if id_criterion in self.dict_crit[self.eif_version] and len(duplicated_id_criterion) > 1:
-                    while len(duplicated_id_criterion) > 0:
-                        # equivalent identifier of the criterion
-                        equiv_id_criterion = self.dict_crit[self.sc510_id][duplicated_id_criterion.pop()]
-                        index = self.dict_crit[self.sc510_id].index(equiv_id_criterion)
-                        self.dict_responses['stmt'][index] = statement
-                        self.dict_responses['old_score'][index] = str(score)
-                        self.dict_responses['score'][index] = self.match_scoring(str(score))
-                        self.dict_responses['criteria'][index] = equiv_id_criterion
-                        if self.dict_responses['old_score'][index] == "0":
-                            self.dict_responses['answer'][index] = 'No/Gradient'
-                        elif self.dict_responses['old_score'][index] == "1":
-                            self.dict_responses['answer'][index] = 'Yes/Gradient'
-                        elif self.dict_responses['old_score'][index] == "2":
-                            self.dict_responses['answer'][index] = 'Not Applicable'
-                        elif self.dict_responses['old_score'][index] == "None":
-                            self.dict_responses['answer'][index] = 'Not Applicable'
-                        else:
-                            self.dict_responses['answer'][index] = 'Not Answered'
-                        # self.add_results_subgraph(statement, score, equiv_id_criterion)
-                elif id_criterion in self.dict_crit[self.eif_version]:
-                    # equivalent identifier of the criterion
-                    equiv_id_criterion = self.dict_crit[self.sc510_id][self.dict_crit[self.eif_version].index(id_criterion)]
-                    index = self.dict_crit[self.sc510_id].index(equiv_id_criterion)
-                    self.dict_responses['stmt'][index] = statement
-                    self.dict_responses['old_score'][index] = str(score)
-                    self.dict_responses['score'][index] = self.match_scoring(str(score))
-                    self.dict_responses['criteria'][index] = equiv_id_criterion
-                    if self.dict_responses['old_score'][index] == "0":
-                        self.dict_responses['answer'][index] = 'No/Gradient'
-                    elif self.dict_responses['old_score'][index] == "1":
-                        self.dict_responses['answer'][index] = 'Yes/Gradient'
-                    elif self.dict_responses['old_score'][index] == "2":
-                        self.dict_responses['answer'][index] = 'Not Applicable'
-                    elif self.dict_responses['old_score'][index] == "None":
-                        self.dict_responses['answer'][index] = 'Not Applicable'
-                    else:
-                        self.dict_responses['answer'][index] = 'Not Answered'
-                    # self.add_results_subgraph(statement, score, equiv_id_criterion)
-            else:
-                if id_criterion in self.dict_crit[self.eif_version]:
-                    # equivalent identifier of the criterion
-                    equiv_id_criterion = self.dict_crit[self.sc510_id][
-                        self.dict_crit[self.eif_version].index(id_criterion)]
-                    index = self.dict_crit[self.sc510_id].index(equiv_id_criterion)
-                    self.dict_responses['stmt'][index] = statement
-                    self.dict_responses['old_score'][index] = str(score)
-                    self.dict_responses['score'][index] = self.match_scoring(str(score))
-                    self.dict_responses['criteria'][index] = equiv_id_criterion
-                    if self.dict_responses['old_score'][index] == "20":
-                        self.dict_responses['answer'][index] = 'No/Gradient'
-                    elif self.dict_responses['old_score'][index] == "0":
-                        self.dict_responses['answer'][index] = 'Not Answered'
-                    else:
-                        self.dict_responses['answer'][index] = 'Yes/Gradient or Not Applicable'
-            # if tool version 500, no changes needed
-        # check A2
-        if self.dict_responses['old_score'][1] in ["0", "2"]:
-            self.dict_responses['stmt'][2] = 'None'
-            self.dict_responses['score'][2] = '0'
-            self.dict_responses['answer'][2] = 'None'
-        # check A33
-        if self.tool_version in ['3.0.0', '3.1.0']:
-            self.dict_responses['stmt'][33] = "The specification is associated with EIRA ABB's in the EIRA Library " \
-                                              "of Interoperability Specifications (ELIS).\n\n" \
-                                              "ELIS link:\n" \
-                                              "https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"
-            if self.dict_responses['old_score'] in ['0', '2']:
-                self.dict_responses['score'][33] = '100'
-                self.dict_responses['answer'][33] = 'Yes/Gradient'
-        # generate the list of unfilled criteria that need to be created
+            # populate dictionary with responses for lately creating subgraph
+            if id_criterion in self.dict_crit[self.eif_version]:
+                #equivalent criterion id in sc600
+                equiv_id_criterion = self.dict_crit[self.sc600_id][
+                    self.dict_crit[self.eif_version].index(id_criterion)]
+                #dictionary index
+                index = self.dict_crit[self.sc600_id].index(equiv_id_criterion)
+            elif id_criterion in self.dict_crit['other']:
+                equiv_id_criterion = self.dict_crit['other'][self.dict_crit['other'].index(id_criterion)]
+                index = self.dict_crit['other'].index(equiv_id_criterion)
+            # merging statements for criteria
+            if self.dict_responses['stmt'][index] == 'None':
+                self.dict_responses['stmt'][index] = statement
+            elif self.dict_responses['stmt'][index] != 'None':
+                self.dict_responses['stmt'][index] += "\n\n" + statement
+            # score mapping from 5.1.0 to 6.0.0
+            if self.dict_responses['score'][index] == 'None':
+                self.dict_responses['score'][index] = str(score)
+            elif self.dict_responses['score'][index] != 'None':
+                self.dict_responses['score'][index] += "+" + str(score)
+            # mapping of criteria that are preserved in 6.0.0
+            if id_criterion not in self.dict_crit['other']:
+                self.dict_responses['criteria'][index] = self.dict_crit[self.sc600_id][index]
+            if self.dict_responses['old_score'][index] == "20" or self.dict_responses['old_score'][index] == "0":
+                self.dict_responses['answer'][index] = 'No/Gradient'
+        # population of new criteria - by default, None for statement and 100 (N/A) for score
         unfilled_criteria = [i for i, x in enumerate(self.dict_crit[self.eif_version]) if
                              x == '']
         for i in unfilled_criteria:
-            index = self.dict_crit[self.sc510_id].index(self.dict_crit[self.sc510_id][i])
+            #index = self.dict_crit[self.sc510_id].index(self.dict_crit[self.sc510_id][i])
+            index = self.dict_crit[self.sc600_id].index(self.dict_crit[self.sc600_id][i])
             self.dict_responses['stmt'][index] = 'None'
             self.dict_responses['score'][index] = '100'
-            self.dict_responses['criteria'][index] = self.dict_crit[self.sc510_id][i]
+            #self.dict_responses['criteria'][index] = self.dict_crit[self.sc510_id][i]
+            self.dict_responses['criteria'][index] = self.dict_crit[self.sc600_id][i]
             self.dict_responses['answer'][index] = 'Not Applicable'
-
     def set_old_scores(self):
         """
-        This method generates the old automated Score and the assessment strength.
+        This method generates the old automated Score and the assessment strength. Unused in migration from 5.1.0 to 6.0.0.
         :return: dictionary of old scores
         """
         # generate scores
@@ -340,14 +267,14 @@ class GraphInstance:
 
     def set_new_scores(self):
         """
-        This method generates the new automated Score and the assessment strength.
+        This method generates the new automated Score and the assessment strength. Unused in migration from 5.1.0 to 6.0.0.
         :return: dictionary of old scores and new scores
         """
         # new scores
         pos_ans = sum([1 for i in self.dict_responses['answer'] if i == 'Yes/Gradient'])
         neg_ans = sum([1 for i in self.dict_responses['answer'] if i == 'No/Gradient'])
         not_app = sum([1 for i in self.dict_responses['answer'] if i == 'Not Applicable'])
-        total_new = 44 - (1 if self.dict_responses['answer'][1] in ['Not Applicable', 'Not answered'] else 0)
+        total_new = 45 - (1 if self.dict_responses['answer'][1] in ['Not Applicable'] else 0)
         self.g_scores[self.ttl_filename].append(
             round((pos_ans / (total_new - not_app)) * 100))
         self.g_scores[self.ttl_filename].append(
@@ -401,6 +328,7 @@ def main():
         # updating RDF file
         new_graph.populate_dict_responses()
         # old scores generation
+        # conditional unused in migration from 5.1.0 to 6.0.0.
         if new_graph.tool_version != '5.0.0':
             new_graph.set_old_scores()
         else:
@@ -413,12 +341,13 @@ def main():
         list_ass.append(new_graph)
         # serialisation of the updated individual assessment graph
         new_graph.serialize()
-        # new scores generation
+        # new scores generation - conditional unused in migration from 5.1.0 to 6.0.0.
         if new_graph.tool_version != '5.0.0':
             new_graph.set_new_scores()
         else:
             new_graph.g_scores[new_graph.ttl_filename] += ['Undefined'] * 2
-            new_graph.responses_new[0] = sum([1 for i in new_graph.dict_responses['answer'] if i == 'Not Answered'])
+            #new_graph.responses_new[0] = sum([1 for i in new_graph.dict_responses['answer'] if i == 'Not Answered'])
+            new_graph.responses_new[0] = 'Undefined'
             new_graph.responses_new[2] = sum([1 for i in new_graph.dict_responses['answer'] if i == 'No/Gradient'])
             new_graph.responses_new[1] = 'Undefined'
             new_graph.responses_new[3] = 'Undefined'
@@ -432,7 +361,7 @@ def main():
     print("       Migration IN PROGRESS")
     print("")
     for ass in list_ass:
-        final_ass_graph.eif_version = ass.sc510_id
+        final_ass_graph.eif_version = ass.sc600_id
         final_ass_graph.ass_id = ass.ass_id
         final_ass_graph.overwrite_graph()
         final_ass_graph.remove_old_subgraph()

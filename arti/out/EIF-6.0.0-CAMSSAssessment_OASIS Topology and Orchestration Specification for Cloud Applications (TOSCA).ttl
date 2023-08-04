@@ -1,0 +1,739 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:71b734d93eea13de404910eb634943e6bc28f69d27f2f63bcbdf62230a832bb3 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:4dcbae02-2ae0-40e3-af28-1cf9129d5683 ;
+    skos:prefLabel "CAMSS Team European Commission DG DIGIT"@en .
+
+camssa:8c9fea8145aa55f1a56e148e2912ff541b86a4a545cee2bbf4c00fdc82f69fb6 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:cdf4cfc4a0023b448b0ea2ed459d29df14076a7bd192a9b69078af337c6d6b23 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:0a0115dc-349c-4719-9141-7319337a0f54,
+        camssa:0ac05f5e-0243-4e10-af16-f7ad6019122d,
+        camssa:0b28e45e-f802-479f-9408-e0296df8baeb,
+        camssa:10819d44-a850-40b2-a6f8-a9551e6ea4a8,
+        camssa:11ae380f-8c7c-4db3-af2d-cb7db76c9233,
+        camssa:180b87cf-ebe5-4d27-ba46-17e04951d594,
+        camssa:1843c514-6fb2-40aa-9fd4-7656b2a030d0,
+        camssa:193234a4-89c4-4ac4-9db1-1b713001ff21,
+        camssa:1b17e5fe-c380-4e6d-9088-298b6e519e8e,
+        camssa:22a8c80f-afba-48e0-a82a-ba44b3b93f75,
+        camssa:2334c4b8-5ac9-4e11-8839-67437cffb6ce,
+        camssa:260d1abc-008c-449f-82dc-d0b7d1c3b8e5,
+        camssa:2dadddd7-4b96-4a2d-8c36-473bd0ccc9c0,
+        camssa:2e521eb7-b6af-42ef-b2a9-a3d9bb04c2d3,
+        camssa:33132500-9ed2-43b2-ba75-c771b887748a,
+        camssa:3b8c6eb3-64ed-4e9e-bd06-2bfa9dcd044d,
+        camssa:4b79d0c6-cc18-4c1b-8a49-6099bffed8eb,
+        camssa:4ca4da4a-bd56-4342-9097-82dfad43d6cd,
+        camssa:4d072f46-2fc7-4a04-8140-3c21f03ed7b7,
+        camssa:5adf6215-84b8-4db4-bb53-416e8e93d1f2,
+        camssa:6204c251-586c-4019-829f-d06659dd4d8a,
+        camssa:6549764d-00c5-48aa-9339-7753cdc09070,
+        camssa:79d4e368-7c3b-4c88-8002-e2aa70797976,
+        camssa:8471b501-a05f-4f3d-a490-cec2e5177e2e,
+        camssa:849e5023-c1fc-4ed0-b0ff-4e5645b477b8,
+        camssa:870dbcd7-4a12-4085-ac84-d12d824adf8e,
+        camssa:88701264-aa08-4430-9654-f53d79de6d3f,
+        camssa:8f975cb0-6703-4822-950c-b0923230dc61,
+        camssa:91998628-3457-4e83-b6ca-9aa9725cb810,
+        camssa:991eedcd-fb02-4506-96a5-d831a08c7e68,
+        camssa:9aa1dde6-3bcb-4e38-b06c-b5456be450bc,
+        camssa:a7c41632-895d-45df-8942-a784f8699675,
+        camssa:a8f054a1-1f4a-400b-a3f1-1404e4b926bc,
+        camssa:afdc20f0-fe55-439e-a7e4-ff3b8091da7a,
+        camssa:b1ffbe9d-2cd2-4c6e-9ed2-61643f0ed326,
+        camssa:bed1db3b-c1b2-45c0-8fcc-d1dae536362e,
+        camssa:bf48efc7-9915-4e91-a6af-69bbcdf43834,
+        camssa:c031838b-6c2f-40db-adbd-9073cfb234fb,
+        camssa:c7ba3257-4a9f-4a50-8901-bc2e94ea0c4c,
+        camssa:c98c5a87-3723-40d0-a40a-a91c5da09d3b,
+        camssa:d116ce6f-e441-4247-b153-980309f83ccd,
+        camssa:d889e760-b113-4db9-a389-59dd6235b686,
+        camssa:def20e5b-ee99-42ed-8e1c-6334f283c23f,
+        camssa:f90071bc-4676-4db9-bbb5-8835ff46cab0,
+        camssa:ffcf6b67-7120-4b5c-8971-3e0141702d52 ;
+    cav:status status:Complete ;
+    dct:title "OASIS Topology and Orchestration Specification for Cloud Applications (TOSCA)"@en .
+
+camssa:0a0115dc-349c-4719-9141-7319337a0f54 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA allows extension as long as each implementation fully supports all required functionality of the specification exactly as specified. Cloud services execution and their lifecycle management are dependent on the availability of all the TOSCA corresponding artefacts (deployment and implementation artefacts) in all cloud environment use cases.
+
+TOSCA reference, Artifact types section:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html#_Toc26969466
+
+TOSCA reference, Conformance section:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html#_Toc26969508'"""@en ;
+    cav:refersTo camssa:7c56bb6d-795a-4305-9df3-c5427386e54e .
+
+camssa:0ac05f5e-0243-4e10-af16-f7ad6019122d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Besides CELAR and Indigo projects, the European Union is committed to the development of open source utilities that can be used in industry as well as in research. It is the case of the RADON project, where TOSCA is used as the project's Infrastructure as code (IaC) format centerstage.
+
+RADON project reference: 
+https://radon-h2020.eu/\""""@en ;
+    cav:refersTo camssa:b7524215-31f9-4dbd-abf8-d50fd61ab705 .
+
+camssa:0ad7a606-aea2-4a90-ac03-0e0134c18832 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:0b28e45e-f802-479f-9408-e0296df8baeb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'As defined on the OASIS Topology and Orchestration Specification for Cloud Applications (TOSCA) Technical Committee (TC), only TC members are involved in the development of TOSCA. External contribution to this committee is possible through open channels (see Mail Lists and Comments reference).
+
+OASIS TOSCA TC reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=regrep
+
+Mail Lists and Comments reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=tosca#feedback'"""@en ;
+    cav:refersTo camssa:4a3d5e2a-124f-4a82-9482-92c29899cab7 .
+
+camssa:10819d44-a850-40b2-a6f8-a9551e6ea4a8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA is included in the EUOS European catalogue of standards.
+
+EUOS reference:
+https://www.standict.eu/standards-repository'"""@en ;
+    cav:refersTo camssa:9aeb6f51-3b6f-4113-903d-f6c46a7d2f37 .
+
+camssa:11ad0e2f-709c-40d4-9acf-bbf253e70e71 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:11ae380f-8c7c-4db3-af2d-cb7db76c9233 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"There are not specific assessments nor any deployment use case evaluating the specification's effectivenes. 
+
+TOSCA reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html\""""@en ;
+    cav:refersTo camssa:11ad0e2f-709c-40d4-9acf-bbf253e70e71 .
+
+camssa:180b87cf-ebe5-4d27-ba46-17e04951d594 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA provides a metamodel facilitating the modelling of business processes. Apart from the Service Template, the specification describes the orchestration processes defining the process models that are used to manage a service throughout its lifetime.
+
+TOSCA reference, Glossary section:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html#_Toc26969419'"""@en ;
+    cav:refersTo camssa:864bbb05-d6b6-43e8-8c23-a3a36917311e .
+
+camssa:1843c514-6fb2-40aa-9fd4-7656b2a030d0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:e32f1c33-7547-499b-92a3-61c8479b0a8e .
+
+camssa:193234a4-89c4-4ac4-9db1-1b713001ff21 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA offers the possibility to manage and orchestrate resources for the provisioning of cloud applications and services. In this sense, when combined with other specifications, the specification enables visibility of data and services.
+
+TOSCA reference, section 1.2:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html#_Toc26969412'"""@en ;
+    cav:refersTo camssa:570bd43d-ff41-4b63-8c81-beb7fd04b9e6 .
+
+camssa:1b17e5fe-c380-4e6d-9088-298b6e519e8e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA is widely known in the field of cloud computing, since it runs on a container (or software unit) and specifies orchestration process models that enable the management of services independently of the application context. In this sense, the specification can be used beyond the business-specific domain and allows its implementation across any business domain.
+
+TOSCA reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html'
+
+'Although TOSCA is widely known in the field of cloud computing, the specification offers versatility, as it runs in a container (or software unit) and specifies orchestration process models that enable the management of services, as well as their use in various domains, independently of the application context. 
+
+TOSCA reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html'"""@en ;
+    cav:refersTo camssa:bb71b6dc-7239-4749-9002-d7fb05b88710 .
+
+camssa:1cd9bf13-6738-4b19-b135-7d398c165ad2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+20"^^xsd:int .
+
+camssa:203cc030-c17c-413f-8b23-bb28f4e4a8da a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:22a8c80f-afba-48e0-a82a-ba44b3b93f75 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA is a language for describing a cloud-based web service topology, its components, relationships and the processes that manage them. Although  the specification competes against other cloud-orchestration proprietary formats (such as the AWS CloudFormation Templates), TOSCA v1.3 is contributing to the creation of innovative solutions based on YAML service templates, which has been positively adopted by the market. It is the case of xOpera (within a European project) and the IM infrastructure manager, both open source cloud orcherstrators.
+
+TOSCA Simple Profile in YAML reference, section 1.2:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html#_Toc26969412
+
+AWS CloudFormation Templates reference:
+https://aws.amazon.com/cloudformation/resources/templates/?nc1=h_ls
+
+xOpera-Github reference:
+https://github.com/xlab-si/xopera-opera
+
+IM Infrastructure Manager reference:
+https://github.com/grycap/im'"""@en ;
+    cav:refersTo camssa:9231e6b8-c9d5-40b5-9dd5-b0e119765481 .
+
+camssa:22fea7ce-413f-4710-ab92-08036dfd35b8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:2334c4b8-5ac9-4e11-8839-67437cffb6ce a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of TOSCA is not related to the secure exchange of data. Therefore, this criterion is considered not applicable to this specification.
+
+TOSCA reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html'"""@en ;
+    cav:refersTo camssa:63ef119b-3e58-4b24-b00d-1d966244bde9 .
+
+camssa:260d1abc-008c-449f-82dc-d0b7d1c3b8e5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of TOSCA is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+TOSCA reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html'"""@en ;
+    cav:refersTo camssa:2ef4199f-8052-466a-9d09-59f9ef2faabc .
+
+camssa:26a816af-1678-4663-8e7f-181f474b461b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "20"^^xsd:int .
+
+camssa:29046eed-df35-443c-a245-cadd8b95a8c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "20"^^xsd:int .
+
+camssa:2a00b8dc-702c-40b0-9abc-d1d2652b562c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2dadddd7-4b96-4a2d-8c36-473bd0ccc9c0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Apart from the TOSCA Technical Committee, there is active participation from external open communities that creates open information and encourages the publication of such data on international platforms (e.g. Github, Confluence), including European platforms.
+
+TOSCA-Github reference:
+https://github.com/oasis-open/tosca-community-contributions
+
+TOSCA-Confluence reference:
+https://wiki.onap.org/display/DW/TOSCA+Task+Force'
+
+'The TOSCA Technical Committee provides feature requests to open source projects and results of implementation experience to open source communities; however, not in national platforms.
+
+OASIS TOSCA TC reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=tosca'"""@en ;
+    cav:refersTo camssa:1cd9bf13-6738-4b19-b135-7d398c165ad2 .
+
+camssa:2e03c25c-080a-4d0f-a3bb-705b7b4e920d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:2e521eb7-b6af-42ef-b2a9-a3d9bb04c2d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"TOSCA may simplify the delivery of ditigal public services, but up to date there is no evidence of any specific application in public administrations at European level. It seems that there is still work to do for increasing TOSCA's capabilities in terms of service deployments (see EUBRA-BIGSEA project reference), and this may include public administrations to the extent that there is no evidence of TOSCA as a leading force in European public services.
+
+TOSCA reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html
+
+EUBRA-BIGSEA project reference:
+http://www.eubra-bigsea.eu/standards\""""@en ;
+    cav:refersTo camssa:29046eed-df35-443c-a245-cadd8b95a8c1 .
+
+camssa:2ef4199f-8052-466a-9d09-59f9ef2faabc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:32f62e4d-3b9b-4189-bd0c-b7569ffb1aac a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:33132500-9ed2-43b2-ba75-c771b887748a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State recommending TOSCA in its ICT National Catalogue.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:ba772d85-da74-43d6-a2c4-aec01f30c367 .
+
+camssa:331b7872-658e-4ad6-b04b-eeeac59ab8bf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3b8c6eb3-64ed-4e9e-bd06-2bfa9dcd044d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"TOSCA fosters and simplifies digital exchange in network specific domains. It is the case of CELAR and Indigo-DataCloud projects, which aim to provide a contact point for European research centers to discover, access, use and reuse a wide range of resources for advanced data-driven activities.
+
+TOSCA reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html
+
+CELAR reference, 'Translational cancer detection pipeline over CELAR Application and Evaluation' document:
+https://cordis.europa.eu/project/id/317790/reporting
+
+Indigo-DataCloud reference:
+https://www.indigo-datacloud.eu/#history\""""@en ;
+    cav:refersTo camssa:dc8e9331-5724-49b1-8ca0-4682e11da7ea .
+
+camssa:44a229c0-b59f-4ad7-9025-58dfc511fd0e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4a3d5e2a-124f-4a82-9482-92c29899cab7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "80"^^xsd:int .
+
+camssa:4b79d0c6-cc18-4c1b-8a49-6099bffed8eb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA is maintained and developed by OASIS, which is an international community developing open standards; specifically, by the OASIS TOSCA Technical Committee (OASIS TOSCA TC). The specification maintenance is transparent, and even if its development and the approval process is restricted to the specification TC, anyone can contribute by submitting feedback to the mailing list. All the contributions are publicly available.
+
+Developer community OASIS: 
+https://www.oasis-open.org/org/
+
+OASIS TOSCA TC reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=regrep'"""@en ;
+    cav:refersTo camssa:ec0f1d24-72ab-4608-8f84-763a2656b788 .
+
+camssa:4ca4da4a-bd56-4342-9097-82dfad43d6cd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA offers the possibility to manage and orchestrate resources for the provisioning of cloud applications and services. In this sense, when combined with other specifications, the specification can scope comprehensibility of data and services.
+
+TOSCA reference, section 1.2:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html#_Toc26969412'"""@en ;
+    cav:refersTo camssa:99eee5f8-0052-4f14-83da-b741f6f3842e .
+
+camssa:4d072f46-2fc7-4a04-8140-3c21f03ed7b7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6b187c5e-88f3-4392-96d2-cd7920c39eea .
+
+camssa:4dcbae02-2ae0-40e3-af28-1cf9129d5683 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@eu.europa.eu" .
+
+camssa:4dd9ff87-2bc6-47a7-b18c-944c4aa41c23 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:570bd43d-ff41-4b63-8c81-beb7fd04b9e6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "80"^^xsd:int .
+
+camssa:5a015942-a9b3-4fda-adcc-f02df284a0b8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "60"^^xsd:int .
+
+camssa:5adf6215-84b8-4db4-bb53-416e8e93d1f2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"TOSCA is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards\""""@en ;
+    cav:refersTo camssa:7ed61270-6e22-4ee3-9f93-a7b15ac37fd3 .
+
+camssa:5bd4be68-575e-4b1a-b6b3-484416518b9c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+40"^^xsd:int .
+
+camssa:60967772-788b-4599-9934-114ef6c1a70b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:int .
+
+camssa:6204c251-586c-4019-829f-d06659dd4d8a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """nan
+
+'The purpose of TOSCA is not related to the publication of open data. Therefore, this criterion is not applicable to this specification. 
+
+TOSCA reference, section 1.2:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html#_Toc26969412
+
+Tim Berners-Lee 5-star schema for Open Data:   
+https://5stardata.info/en/'"""@en ;
+    cav:refersTo camssa:2a00b8dc-702c-40b0-9abc-d1d2652b562c .
+
+camssa:63ef119b-3e58-4b24-b00d-1d966244bde9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6549764d-00c5-48aa-9339-7753cdc09070 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State that includes TOSCA in their national catalogue with The National Interoperability Framework (NIF) in alignment with the three categories: 1. Conceptual model for integrated public services provision, 2. interoperability layers, and 3. interoperability principles.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:8cbb3cc4-42ae-414c-95dc-14490a82c913 .
+
+camssa:656ab506-a923-4fe5-a939-5d7019e281c8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "40"^^xsd:int .
+
+camssa:6b187c5e-88f3-4392-96d2-cd7920c39eea a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:79488dc9-9fe4-4b03-b5a7-818d0f9fb88c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:79d4e368-7c3b-4c88-8002-e2aa70797976 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA does not impose the use of any specific mechanism or technology for the long-term preservation of data/information/knowledge; data preservation aspects should be obtainable by the user infrastructure.
+
+TOSCA reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html'"""@en ;
+    cav:refersTo camssa:81439463-ab73-43ea-b3fb-e17d88d2ec04 .
+
+camssa:7c56bb6d-795a-4305-9df3-c5427386e54e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:7ed61270-6e22-4ee3-9f93-a7b15ac37fd3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:81439463-ab73-43ea-b3fb-e17d88d2ec04 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:8471b501-a05f-4f3d-a490-cec2e5177e2e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:22fea7ce-413f-4710-ab92-08036dfd35b8 .
+
+camssa:849e5023-c1fc-4ed0-b0ff-4e5645b477b8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:8f117a15-3144-406f-9c4c-7cda713dc6b4 .
+
+camssa:864bbb05-d6b6-43e8-8c23-a3a36917311e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:870dbcd7-4a12-4085-ac84-d12d824adf8e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:79488dc9-9fe4-4b03-b5a7-818d0f9fb88c .
+
+camssa:88701264-aa08-4430-9654-f53d79de6d3f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA v1.0 was released in 2013, including the XML schema that users are meant to use when deploying their IT infrastructure (see TOSCA wiki reference, Quick Links and Older Technical Work sections). Two minor releases, TOSCA v1.1 and TOSCA v1.2 were published in 2017 (see OASIS TOSCA TC reference, TOSCA in 2018 and beyond section). In 2020, TOSCA v1.3 prescribed TOSCA v1.2, and changed its name to TOSCA Simple Profile in YAML v1.3. The specification has a draft version of TOSCA v2.0 which aims at easing the portability of cloud applications and services. Additionally, the specification provides OASIS TOSCA TC-independent technical reports and documents/platforms proving its usefulness in the industry (see TOSCA wiki reference, Quick Links section), showing its maturity in the market. 
+
+TOSCA wiki reference, Quick Links section:
+https://wiki.oasis-open.org/tosca/FrontPage
+
+OASIS TOSCA TC reference, Older Technical Work section:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=tosca#technical
+
+TOSCA Simple Profile in YAML reference, section 1.2:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html#_Toc26969412
+
+TOSCA Draft Version 2.0 reference, section 1.2:
+https://docs.oasis-open.org/tosca/TOSCA/v2.0/csd03/TOSCA-v2.0-csd03.html#_Toc56506175
+
+OASIS TOSCA TC reference, TOSCA in 2018 and beyond section:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=tosca#2018'"""@en ;
+    cav:refersTo camssa:2e03c25c-080a-4d0f-a3bb-705b7b4e920d .
+
+camssa:8cbb3cc4-42ae-414c-95dc-14490a82c913 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:8f117a15-3144-406f-9c4c-7cda713dc6b4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8f975cb0-6703-4822-950c-b0923230dc61 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of TOSCA is not related to the secure processing of data. Therefore, this criterion is considered not applicable to this specification.
+
+TOSCA reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html'"""@en ;
+    cav:refersTo camssa:0ad7a606-aea2-4a90-ac03-0e0134c18832 .
+
+camssa:904d5dee-1cdd-4fe4-a067-fed87dacaf58 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:91998628-3457-4e83-b6ca-9aa9725cb810 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of TOSCA is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification. 
+
+TOSCA reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html'"""@en ;
+    cav:refersTo camssa:44a229c0-b59f-4ad7-9025-58dfc511fd0e .
+
+camssa:9231e6b8-c9d5-40b5-9dd5-b0e119765481 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:93ccf0e0-e000-49dd-bd97-1ea355f5312e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:991eedcd-fb02-4506-96a5-d831a08c7e68 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA does not impose the use of any specific mechanism or technology for enabling data portability; data portability aspects should be obtainable by the user infrastructure.
+
+TOSCA reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html'
+
+'TOSCA does not impose the use of any specific mechanism or technology for enabling data portability; data portability aspects should be obtainable by the user infrastructure.
+
+TOSCA reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html'"""@en ;
+    cav:refersTo camssa:5bd4be68-575e-4b1a-b6b3-484416518b9c .
+
+camssa:99eee5f8-0052-4f14-83da-b741f6f3842e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "80"^^xsd:int .
+
+camssa:9aa1dde6-3bcb-4e38-b06c-b5456be450bc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The OASIS Technical Committee, in charge of the development of TOSCA, operates under RF (royalty-free) on RAND (reasonable and non-discriminatory) Mode of the OASIS IPR Policy. Therefore, the specification is licensed on a (F)RAND basis.
+
+TOSCA reference, Notices section:
+http://docs.oasis-open.org/tosca/TOSCA/v1.0/os/TOSCA-v1.0-os.html
+
+OASIS Intellectual Property Rights Policy, section 10.2.2:
+https://www.oasis-open.org/policies-guidelines/ipr/'
+
+'The OASIS Technical Committee, in charge of the development of TOSCA, operates under RF (royalty-free) on RAND (reasonable and non-discriminatory) Mode of the OASIS IPR Policy. Therefore, the specification is licensed on a Royalty-free basis.
+
+TOSCA reference, Notices section:
+http://docs.oasis-open.org/tosca/TOSCA/v1.0/os/TOSCA-v1.0-os.html
+
+OASIS Intellectual Property Rights Policy, section 10.2.2:
+https://www.oasis-open.org/policies-guidelines/ipr/'"""@en ;
+    cav:refersTo camssa:c2059dbf-0ec6-4fff-8cdc-0971b2e5f27e .
+
+camssa:9aeb6f51-3b6f-4113-903d-f6c46a7d2f37 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a7c41632-895d-45df-8942-a784f8699675 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:331b7872-658e-4ad6-b04b-eeeac59ab8bf .
+
+camssa:a8f054a1-1f4a-400b-a3f1-1404e4b926bc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'At the time being TOSCA provides a default XML or YAML-based file dedicated to its implementation (that is, the Cloud Service Archive -CSAR, or TOSCA metadata file, and the TOSCA Simple Profile in YAML Objective section). In this sense, the specification is not technology-agnostic.
+
+TOSCA reference, Cloud Service Archive (CSAR) reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html#_Toc26969474
+
+TOSCA reference, TOSCA Simple Profile in YAML Objective section:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html#_Toc26969412'"""@en ;
+    cav:refersTo camssa:60967772-788b-4599-9934-114ef6c1a70b .
+
+camssa:ae9dc76b-3211-4815-874d-3f968a2a1653 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "20"^^xsd:int .
+
+camssa:afdc20f0-fe55-439e-a7e4-ff3b8091da7a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of TOSCA as a European standard. 
+
+ICT technical specifications: 
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en 
+
+CENELEC and CEN search tool catalogue: 
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:26a816af-1678-4663-8e7f-181f474b461b .
+
+camssa:b1ffbe9d-2cd2-4c6e-9ed2-61643f0ed326 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Data protection encompasses data confidentiality, integrity and access control. TOSCA does not impose the use of any specific mechanism or technology for security considerations; security aspects should be obtainable by the user infrastructure.
+
+TOSCA reference, TOSCA normative type definitions section:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html#_Toc26969462'"""@en ;
+    cav:refersTo camssa:656ab506-a923-4fe5-a939-5d7019e281c8 .
+
+camssa:b7524215-31f9-4dbd-abf8-d50fd61ab705 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ba772d85-da74-43d6-a2c4-aec01f30c367 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:bb71b6dc-7239-4749-9002-d7fb05b88710 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:bed1db3b-c1b2-45c0-8fcc-d1dae536362e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"There are not specific assessments nor any deployment use case evaluating the specification's efficiency. 
+
+TOSCA reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html\""""@en ;
+    cav:refersTo camssa:32f62e4d-3b9b-4189-bd0c-b7569ffb1aac .
+
+camssa:bf48efc7-9915-4e91-a6af-69bbcdf43834 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of TOSCA is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification.
+
+TOSCA reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html'"""@en ;
+    cav:refersTo camssa:d0b9afdc-245f-42da-9788-3b3bca5538d3 .
+
+camssa:c031838b-6c2f-40db-adbd-9073cfb234fb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA allows customisation but authoring processes might be difficult to execute; hence the creation of related specifications based on other host languages (see TOSCA reference, TOSCA Simple Profile in YAML Objective section). Moreover, there is an attempt within the TOSCA TC to create a core TOSCA specification compatible with a variety of deployment use cases that would minimise the specification dependence on hosting technologies (see TOSCA Draft Version 2.0 reference, section 1.2).
+
+TOSCA reference, Cloud Service Archive (CSAR) reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html#_Toc26969474
+
+TOSCA reference, TOSCA Simple Profile in YAML Objective section:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html#_Toc26969412
+
+TOSCA Draft Version 2.0 reference, section 1.2:
+https://docs.oasis-open.org/tosca/TOSCA/v2.0/csd03/TOSCA-v2.0-csd03.html#_Toc56506175'"""@en ;
+    cav:refersTo camssa:203cc030-c17c-413f-8b23-bb28f4e4a8da .
+
+camssa:c2059dbf-0ec6-4fff-8cdc-0971b2e5f27e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:c3a7fcf5-82c0-4976-9628-5b79545666df a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "20"^^xsd:int .
+
+camssa:c7ba3257-4a9f-4a50-8901-bc2e94ea0c4c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA is already associated with an EIRA ABB in the EIRA Library Of Specifications (ELIS). More specifically, the specificaiton can define the interoperability aspects of the Orchestration Component and Orchestration Service ABBs of the EIRA Technical View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:93ccf0e0-e000-49dd-bd97-1ea355f5312e .
+
+camssa:c9641d9f-24c2-444a-9bb5-895840374984 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "80"^^xsd:int .
+
+camssa:c98c5a87-3723-40d0-a40a-a91c5da09d3b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA does not allow for partial implementation. In fact, the Cloud Service ARchive (CSAR) is an archive format that is meant to guarantee the availability of all specification artefacts as well as the successful execution of services. In other words, in order to support the execution and lifecycle management of a cloud application in a given environment, all corresponding artefacts have to be available in that environment, preventing partial implementation.
+
+TOSCA reference, Cloud Service Archive (CSAR) reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html#_Toc26969474'"""@en ;
+    cav:refersTo camssa:ae9dc76b-3211-4815-874d-3f968a2a1653 .
+
+camssa:d0b9afdc-245f-42da-9788-3b3bca5538d3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d116ce6f-e441-4247-b153-980309f83ccd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA is to be used for a variety of cloud services and is not tied to any specific cloud paradigm. Therefore, the specification is platform-agnostic.
+
+TOSCA reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html'"""@en ;
+    cav:refersTo camssa:4dd9ff87-2bc6-47a7-b18c-944c4aa41c23 .
+
+camssa:d889e760-b113-4db9-a389-59dd6235b686 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The TOSCA cloud-orchestration service provides both the structure of a cloud-based service and orchestration models describing the way the service is managed throughout its lifetime. Although TOSCA offers an end-to-end approach, the specification may facilitate the exposure of interfaces within public administration's services. It is the case of the past CELAR project, which was meant to provide automatic, multi-grained resource allocation for cloud applications and boost administrative performance (see CELAR project reference, Cloud Information System report).
+
+TOSCA reference, Glossary section:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html#_Toc26969419
+
+CELAR project reference, Cloud Information System report:
+https://cordis.europa.eu/project/id/317790/reporting\""""@en ;
+    cav:refersTo camssa:5a015942-a9b3-4fda-adcc-f02df284a0b8 .
+
+camssa:dc8e9331-5724-49b1-8ca0-4682e11da7ea a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:def20e5b-ee99-42ed-8e1c-6334f283c23f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA conformance can be manually assessed by following the TOSCA schema (CSAR) and the syntax and semantics defined in section 14 of the specification. Besides, the specification conformance requirements can be automatically measured via the OASIS Test Assertion Markup Language, as exemplified in TOSCA Github (see Github reference).
+
+TOSCA reference:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html
+
+TOSCA-Github reference:
+https://github.com/oasis-open/tosca-community-contributions/tree/master/tests'"""@en ;
+    cav:refersTo camssa:c9641d9f-24c2-444a-9bb5-895840374984 .
+
+camssa:e32f1c33-7547-499b-92a3-61c8479b0a8e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ec0f1d24-72ab-4608-8f84-763a2656b788 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f90071bc-4676-4db9-bbb5-8835ff46cab0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA enhances the interoperability capabilities of multiple components, as the specification describes well-defined messages and protocols in different use cases. This allows components from different vendors to be combined and services to be managed seamlessly.
+
+TOSCA reference, Artifact Processing and creating Portable Service Templates section:
+https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/os/TOSCA-Simple-Profile-YAML-v1.3-os.html#_Toc26969502'"""@en ;
+    cav:refersTo camssa:904d5dee-1cdd-4fe4-a067-fed87dacaf58 .
+
+camssa:ffcf6b67-7120-4b5c-8971-3e0141702d52 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TOSCA does not foresee any public review. As defined on the OASIS Topology and Orchestration Specification for Cloud Applications (TOSCA) Technical Committee (TC), only this TC is involved in the release lifecycle of the specification. External contribution to this committee is possible through the Comment List.
+
+OASIS TOSCA TC reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=regrep
+
+Mail Lists and Comments reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=tosca#feedback'"""@en ;
+    cav:refersTo camssa:c3a7fcf5-82c0-4976-9628-5b79545666df .
+

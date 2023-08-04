@@ -1,0 +1,578 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:897f5d24d23b45565b59f1f1cca2614f0216b32c2f9e4cbf196964a75c302fa4 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:7ee0cc960f1c173317ee71839772b906a3d9df220bba897aebba61f44576828f ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:04392684-19f8-4822-9c35-e3ecf0fd66b8,
+        camssa:0e01e98f-b72b-4be0-b149-c5be24cc6936,
+        camssa:1281b5d3-214f-4ebf-8ae9-3f0ab09837ff,
+        camssa:1815cdc1-a6aa-4963-963c-b9c6ad16d698,
+        camssa:20d821fe-5d23-4c3d-927f-4d9ab5018822,
+        camssa:25a838fd-6593-46c9-a166-27d3a9e0380c,
+        camssa:2aa97615-6b2e-4f6c-b463-9bb41c5cb5b6,
+        camssa:2c3268f4-83bc-4263-be3c-31099a54c020,
+        camssa:39db08a5-ef6a-4c3d-8583-84ce1be1a3b9,
+        camssa:40c90e64-783a-4005-9206-64dd16d2e0e9,
+        camssa:40e97c16-c669-4c8c-85be-57e6da3fe89b,
+        camssa:4256db7d-52a3-4402-a82e-716337fb0b33,
+        camssa:4e1c1321-3079-43a8-ae5d-8f5000b7d885,
+        camssa:599d2ef7-0931-498d-9f97-1c33513060ab,
+        camssa:5b72a7f5-5726-4926-bb66-1c7004bb0dcc,
+        camssa:6099a050-e121-4d29-a1b2-de8c4e1169ac,
+        camssa:686fed22-abf6-49ef-a3e6-a6da376bcfa7,
+        camssa:6b512ffb-3da6-4885-b960-abfa17854f58,
+        camssa:6ffbb405-98db-48a4-ba49-36059a26a76d,
+        camssa:70679128-9ce4-4a59-bb97-c5b124ddba2c,
+        camssa:74709f59-1238-45f0-94c0-5854beb6cca1,
+        camssa:7eccdc84-376a-4ef3-92db-7b06a5940026,
+        camssa:82e96e18-331d-41a1-bed7-fd255a17b7c1,
+        camssa:880464f3-91a2-464a-a590-38722ddf44fd,
+        camssa:8a7bbee8-1ff7-41ca-8955-41460a27aad2,
+        camssa:8f2d2c8f-69e4-44ac-9497-8bdcd2852046,
+        camssa:949c31c2-c50d-49fc-8efb-ec509ef9a3e3,
+        camssa:9d4f6ef1-e4fb-4eb5-a445-993e45d9fef8,
+        camssa:9dd6a545-ce8e-47c8-a27c-8c5dcffff1bf,
+        camssa:a029ce0b-bbc0-4b63-bd22-a8ab403856db,
+        camssa:a84663ae-2ce9-44ae-991c-f4d93ea4932e,
+        camssa:a8dab7f4-8e6c-4044-8246-cb64f00c325a,
+        camssa:ae2677bf-7614-49c8-a8b6-1dd2ad86347f,
+        camssa:c703c6ff-f690-4b5f-abc5-3887391fa43d,
+        camssa:c7bd3d8b-69d7-4a49-845e-0e69218ce03d,
+        camssa:d0bb2c5f-5cd4-4442-a66f-28a4112e7337,
+        camssa:da8aa778-0383-43ee-9d85-d60cfd94509e,
+        camssa:dba9133e-73a8-473b-a604-77bece1a6edc,
+        camssa:dbb7af77-e361-4efd-bc18-836f4e75e8d7,
+        camssa:e2f1a450-7cbf-4fca-a225-ef389ba4c5ff,
+        camssa:f30a1381-08d8-4016-9fe3-a9decf24c452,
+        camssa:f5684ef8-a070-45b5-b71b-fe7e7bb38f3b,
+        camssa:f60a2c9d-caff-47e8-9c02-9008811f5b2d,
+        camssa:f884ad49-5f5d-4519-a73f-0407e1d37f8b,
+        camssa:fbf2f5e9-a8af-4119-b586-59a620f3f87b ;
+    cav:status status:Complete ;
+    dct:title "eDelivery SMP 1.10"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:e70ff892-3517-454f-995f-1b111febf5fa ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:04392684-19f8-4822-9c35-e3ecf0fd66b8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specifications is to define technical interoperability aspects. Therefore, the eDelivery SMP 1.10 does not define organisational interoperability aspects. "@en ;
+    cav:refersTo camssa:287f0935-8965-4f22-8f01-55a3ee78730f .
+
+camssa:07509957-bab8-438f-8084-a1e729761a05 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0e01e98f-b72b-4be0-b149-c5be24cc6936 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:37de14ad-bf8b-447b-b648-69b67ea1172c .
+
+camssa:1281b5d3-214f-4ebf-8ae9-3f0ab09837ff a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:d71d1ce9-dc7e-4232-a2a3-ee527b80a97f .
+
+camssa:13e32a13-f201-48f6-8f80-c5c326116771 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:1815cdc1-a6aa-4963-963c-b9c6ad16d698 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:c2455322-0ebe-46f6-b243-f30984a08cdf .
+
+camssa:183a9763-d4cf-48a4-938c-50e7277f4462 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:1cf2052d-882e-4f65-a798-e01f2a343791 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:1d825f7c-da7e-45cb-8e01-40e152418895 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:20b6e42d-b195-4b95-9a1e-01441844eda9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:20d821fe-5d23-4c3d-927f-4d9ab5018822 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """eDelivery SMP 1.10 is an open specification based on the OASIS’s standard SMP 1.0. As SMP is an agnostic standard, eDelivery SMP 1.10 inherits this property. Thus, it can be reused in any business domain requiring metadata management and exchange.  
+
+eDelivery SMP 1.10 is an open specification based on the OASIS’s standard SMP 1.0. As SMP is an agnostic standard, eDelivery SMP 1.10 inherits this property. Thus, it can be reused in any business domain requiring metadata management and exchange.  """@en ;
+    cav:refersTo camssa:cfce76d4-0a4e-4c16-aa22-edc26a2f1514 .
+
+camssa:25a838fd-6593-46c9-a166-27d3a9e0380c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:303b96c0-fa0f-43f5-8cc8-1dfea6430544 .
+
+camssa:26afd2d2-0b5f-466f-9fa6-86b534ebfc26 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:287f0935-8965-4f22-8f01-55a3ee78730f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:28dfe592-3fa0-400e-b635-20db7fc094c5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:2aa97615-6b2e-4f6c-b463-9bb41c5cb5b6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The implementation of the specification fosters interoperability between administrations across borders. Moreover, it is a European interoperability solution component included in the eDelivery building block. The purpose of the building block is to enhance the eGovernment in the context of the interoperability and the reuse of administrations’ data. 
+
+The implementation of the specification fosters interoperability between administrations across borders. Moreover, it is a European interoperability solution component included in the eDelivery building block. The purpose of the building block is to enhance the eGovernment in the context of the interoperability and the reuse of administrations’ data. """@en ;
+    cav:refersTo camssa:638f26f5-3a86-4b1a-8963-17856dda1519 .
+
+camssa:2c3268f4-83bc-4263-be3c-31099a54c020 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is a key enabler for the metadata exchange. It is part of the eDelivery Building Block defined by CEF, which aims to foster data exchange and reuse across borders enhancing the interoperability in Europe. Moreover, eDelivery SMP 1.10 helps in the decision-making process by allowing data exchange between administrations.
+See: 
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Benefits+of+eDelivery"""@en ;
+    cav:refersTo camssa:67c676af-db2e-4b9f-b41b-0bfa0def6c22 .
+
+camssa:303b96c0-fa0f-43f5-8cc8-1dfea6430544 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:37de14ad-bf8b-447b-b648-69b67ea1172c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:39db08a5-ef6a-4c3d-8583-84ce1be1a3b9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """eDelivery SMP 1.10 is not included in any official supra-national catalogue. However, it is included in the full stack catalogue of eDelivery at CEF’s webpage. 
+See: 
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Services+eDelivery """@en ;
+    cav:refersTo camssa:6d58292e-6c0d-41db-8433-e12bdee169cf .
+
+camssa:3db85805-c193-4ed9-a921-6684c5cb99f3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:40c90e64-783a-4005-9206-64dd16d2e0e9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification is not included in any Member State national catalogue for ICT. Despite this, eDelivery SMP 1.10 is a European profile recommended by the European public bodies in order to establish a common interoperability framework."@en ;
+    cav:refersTo camssa:ae54c50f-78bd-4f15-a0cd-0d365ae1e855 .
+
+camssa:40e97c16-c669-4c8c-85be-57e6da3fe89b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Connecting Europe Facility (CEF) is meant to focus its activity on the improvement of European Cooperation processes and solutions, for both, private and public sectors. The development of the specifications included in the eDelivery building block performance are raised up by CEF eDelivery Team, which does not need to open their decisions by means of public consultations. However, CEF provides several communities focused on gather information related to best practices regarding the implementation of eDelivery. Moreover, the community eDelivery Governance aims to focus efforts to open the operational matters related to CEF building Blocks to all stakeholders for contribution. This fact helps to ensure that all parts take part in the development process, private sector, user organisations and standardisations 
+See: 
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery
+"""@en ;
+    cav:refersTo camssa:183a9763-d4cf-48a4-938c-50e7277f4462 .
+
+camssa:4256db7d-52a3-4402-a82e-716337fb0b33 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:42fa23e9-5972-41e3-bf92-1b3b29c193dc .
+
+camssa:42fa23e9-5972-41e3-bf92-1b3b29c193dc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:498cad4d-32b3-4ccd-a202-14649d8b08cf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4e1c1321-3079-43a8-ae5d-8f5000b7d885 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:e6aeabaa-d4aa-432c-b314-53e7b91c4b06 .
+
+camssa:58e880bb-9577-44ee-a774-07d675ac8a31 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:599d2ef7-0931-498d-9f97-1c33513060ab a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CEF’s Action has developed a tool for testing the conformance of eDelivery Access Point and SMP specifications. This tool include eDelivery SMP 1.10 as it can be read in the CEF eDelivery Conformance Testing Document Service.
+See:
+https://ec.europa.eu/cefdigital/wiki/download/attachments/82773210/%28CEFeDelivery%29%20%28ConformanceTesting%29%20%28SOD%29%20%28v2%2010%29.pdf?version=1&modificationDate=1538392192100&api=v2"""@en ;
+    cav:refersTo camssa:e8420cd9-acfa-4a85-bcaa-27e218873e70 .
+
+camssa:5aea4a00-d1a4-49b9-b7c9-c7e4bad768eb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:5b72a7f5-5726-4926-bb66-1c7004bb0dcc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification defines an XML-based service metadata data model and a REST binding to retrieve service metadata. Even being XML-based, as XML is a widely adopted and supported specification, it does not hamper the interoperability of systems. Additionally,  is independent of any other specific vendor product and it is supported by open and commercial solutions
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Background"""@en ;
+    cav:refersTo camssa:1d825f7c-da7e-45cb-8e01-40e152418895 .
+
+camssa:601b6077-9cb4-47e2-9ba6-1151a0fcf237 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:6099a050-e121-4d29-a1b2-de8c4e1169ac a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Despite the openness provided by eDelivery Governance Space, which purpose is to enable different parties to get involved in the development of the Building Blocks and all their components, a public review is not part of the decision-making-process.
+
+See: 
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+SMP+-+1.10"""@en ;
+    cav:refersTo camssa:ef11aeb1-1a34-49cf-9539-4fc24d57fdfd .
+
+camssa:638f26f5-3a86-4b1a-8963-17856dda1519 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:67c676af-db2e-4b9f-b41b-0bfa0def6c22 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:686fed22-abf6-49ef-a3e6-a6da376bcfa7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "No evidences have been found of existing assessments regarding effectiveness or efficiency of the specification that allow to answer positively to this criterion. "@en ;
+    cav:refersTo camssa:601b6077-9cb4-47e2-9ba6-1151a0fcf237 .
+
+camssa:69a73a1b-612e-4be7-ba89-2901144be077 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6b512ffb-3da6-4885-b960-abfa17854f58 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """eDelivery SMP 1.10 is part of the eDelivery Building Block (BB), which is provided by CEF and aims to help public administrations to share electronic data across borders in a reliable way. The BB eases the integration between implementers fostering the creation of interoperable infrastructures used for the digital data exchange. 
+
+See: 
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/How+does+eDelivery+work"""@en ;
+    cav:refersTo camssa:919aef9e-6206-4b1f-9d38-891c95101d61 .
+
+camssa:6d58292e-6c0d-41db-8433-e12bdee169cf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:6ffbb405-98db-48a4-ba49-36059a26a76d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """eDelivery SMP 1.10 is an evolution of the previous e-SENS SMP, which evolves from the PEPPOL SMP specification and was standardised by OASIS. The assessed specification continues strictly related to SMP 1.0 as is an extended profile for eDelivery Building Block. Therefore, these facts demonstrate that eDelivery SMP 1.10 is mature enough to be used in the creation of products and solutions. Additionally, it is supported by Open sources and commercial, which ensures its market acceptance. 
+See:
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Background"""@en ;
+    cav:refersTo camssa:acfdbe18-8ef2-4dc8-8603-c81229ca0e58 .
+
+camssa:70367f6c-0f2d-4f0e-b27a-0d6ce027ae9d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:70679128-9ce4-4a59-bb97-c5b124ddba2c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "No evidences have been found of existing assessments regarding effectiveness or efficiency of the specification that allow to answer positively to this criterion. "@en ;
+    cav:refersTo camssa:85d51eb6-b051-4fbe-b949-080abf639f2c .
+
+camssa:74709f59-1238-45f0-94c0-5854beb6cca1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """eDelivery SMP 1.10 has the support of CEF eDelivery team which is in charge of the maintenance of the profile. Moreover, the SMP 1.0 is developed by OASIS, one of most relevant international standardisation organisations
+See:
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+SMP+-+1.10"""@en ;
+    cav:refersTo camssa:bf15dc99-4bdb-4cbf-9314-221bd66ce502 .
+
+camssa:7eccdc84-376a-4ef3-92db-7b06a5940026 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:8b36a6f9-1880-4c58-ad9b-bae99618accb .
+
+camssa:80093b9e-7deb-427f-bb66-eea5ac95f672 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:82e96e18-331d-41a1-bed7-fd255a17b7c1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:90aad217-f854-446a-863f-de41f48fcc93 .
+
+camssa:8598cd58-e3db-4b4f-b8e4-a8db63b80b41 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:85d51eb6-b051-4fbe-b949-080abf639f2c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:85e66a79-dad8-4f1c-b1a2-1e36c5e5dca0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100+0"^^xsd:int .
+
+camssa:880464f3-91a2-464a-a590-38722ddf44fd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """eDelivery SMP 1.10 is not included in the catalogue of recommended standards of Member States that have a National Interoperability Framework fully aligned with the EIF. 
+
+See: 
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:1cf2052d-882e-4f65-a798-e01f2a343791 .
+
+camssa:8a7bbee8-1ff7-41ca-8955-41460a27aad2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specification is not related to the publication of data as Linked Open Data. Therefore, e-Delivery SMP 1.10 is not fostering the publication of Linked Open Data. 
+
+None"""@en ;
+    cav:refersTo camssa:85e66a79-dad8-4f1c-b1a2-1e36c5e5dca0 .
+
+camssa:8b36a6f9-1880-4c58-ad9b-bae99618accb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:8f2d2c8f-69e4-44ac-9497-8bdcd2852046 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:26afd2d2-0b5f-466f-9fa6-86b534ebfc26 .
+
+camssa:90aad217-f854-446a-863f-de41f48fcc93 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:919aef9e-6206-4b1f-9d38-891c95101d61 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:949c31c2-c50d-49fc-8efb-ec509ef9a3e3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:abd75ce0-1781-4deb-a33c-39c359baa08a .
+
+camssa:95f581b0-71fa-4266-95ae-8139c7dbfd3b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:9d4f6ef1-e4fb-4eb5-a445-993e45d9fef8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:13e32a13-f201-48f6-8f80-c5c326116771 .
+
+camssa:9dd6a545-ce8e-47c8-a27c-8c5dcffff1bf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:8598cd58-e3db-4b4f-b8e4-a8db63b80b41 .
+
+camssa:a029ce0b-bbc0-4b63-bd22-a8ab403856db a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is involved in the creation of interoperable solutions for data exchange across borders, which aims to evolve public administrations to reduce administrative burdens meanwhile adapt to new ICT needs. CEF’s Building Blocks can be considered as innovative solutions in the field of eAdministrations and eGovernment, therefore, eDelivery SMP 1.10 fosters the creation of innovative solutions. 
+See: 
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Background"""@en ;
+    cav:refersTo camssa:69a73a1b-612e-4be7-ba89-2901144be077 .
+
+camssa:a086c270-3747-4efe-87de-190227d93857 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a84663ae-2ce9-44ae-991c-f4d93ea4932e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specifications is to define technical interoperability aspects. Therefore, eDelivery is used for business modelling processes. "@en ;
+    cav:refersTo camssa:07509957-bab8-438f-8084-a1e729761a05 .
+
+camssa:a8dab7f4-8e6c-4044-8246-cb64f00c325a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification defines an XML-based service metadata data model and a REST binding to retrieve service metadata. Even being XML-based, as XML is a widely adopted and supported specification, it does not hamper the interoperability of systems. Additionally,  is independent of any other specific vendor product and it is supported by open and commercial solutions
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Background"""@en ;
+    cav:refersTo camssa:498cad4d-32b3-4ccd-a202-14649d8b08cf .
+
+camssa:abd75ce0-1781-4deb-a33c-39c359baa08a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ac87300b-45a4-45f5-b0c6-5da58a15cf17 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:acfdbe18-8ef2-4dc8-8603-c81229ca0e58 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:ae2677bf-7614-49c8-a8b6-1dd2ad86347f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "eDelivery SMP 1.10 fosters the implementation of the Once-Only Principle by allowing public administrations to share and reuse their information across borders. "@en ;
+    cav:refersTo camssa:80093b9e-7deb-427f-bb66-eea5ac95f672 .
+
+camssa:ae54c50f-78bd-4f15-a0cd-0d365ae1e855 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:bf15dc99-4bdb-4cbf-9314-221bd66ce502 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c2455322-0ebe-46f6-b243-f30984a08cdf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:c401cff2-4dd1-4297-8bb9-0797a3df2bf1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:c703c6ff-f690-4b5f-abc5-3887391fa43d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "eDelivery provide guidelines for the implementations of OASIS SMP 1.0, which has the goal to define the protocol and binding to a REST interface. Therefore, a conformant implementation of the eDelivery fosters the availability of interfaces with internal information systems."@en ;
+    cav:refersTo camssa:70367f6c-0f2d-4f0e-b27a-0d6ce027ae9d .
+
+camssa:c7bd3d8b-69d7-4a49-845e-0e69218ce03d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+None"""@en ;
+    cav:refersTo camssa:5aea4a00-d1a4-49b9-b7c9-c7e4bad768eb .
+
+camssa:cfce76d4-0a4e-4c16-aa22-edc26a2f1514 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:d0bb2c5f-5cd4-4442-a66f-28a4112e7337 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification is included in eDelivery Service provided by CEF, which has the aim of providing a secure infrastructure and services for data exchanging. Additionally, eDelivery SMP 1.10 is based on the OASIS’s SMP 1.0 standard, which provides security features involving X509 encryption. Therefore, eDelivery SMP 1.10 eases the secure and trustworthy data exchange between different parties involved. "@en ;
+    cav:refersTo camssa:a086c270-3747-4efe-87de-190227d93857 .
+
+camssa:d71d1ce9-dc7e-4232-a2a3-ee527b80a97f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:da8aa778-0383-43ee-9d85-d60cfd94509e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to fostering multilingualism. Therefore, e-Delivery SMP 1.10 is not related to multilingualism."@en ;
+    cav:refersTo camssa:e00a2999-e635-49c6-b737-77151f40c42a .
+
+camssa:dba9133e-73a8-473b-a604-77bece1a6edc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:20b6e42d-b195-4b95-9a1e-01441844eda9 .
+
+camssa:dbb7af77-e361-4efd-bc18-836f4e75e8d7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:3db85805-c193-4ed9-a921-6684c5cb99f3 .
+
+camssa:e00a2999-e635-49c6-b737-77151f40c42a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e2f1a450-7cbf-4fca-a225-ef389ba4c5ff a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification is not recommended by any Member State within their national catalogues for ICT. Despite this, eDelivery SMP 1.10 is a European profile recommended by the European public bodies in order to establish a common interoperability framework."@en ;
+    cav:refersTo camssa:95f581b0-71fa-4266-95ae-8139c7dbfd3b .
+
+camssa:e6aeabaa-d4aa-432c-b314-53e7b91c4b06 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:e70ff892-3517-454f-995f-1b111febf5fa a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:e8420cd9-acfa-4a85-bcaa-27e218873e70 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:ef11aeb1-1a34-49cf-9539-4fc24d57fdfd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "20"^^xsd:int .
+
+camssa:f30a1381-08d8-4016-9fe3-a9decf24c452 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to e-accessibility. Therefore, e-Delivery SMP 1.10 is not easing the e-accessibility. "@en ;
+    cav:refersTo camssa:58e880bb-9577-44ee-a774-07d675ac8a31 .
+
+camssa:f5684ef8-a070-45b5-b71b-fe7e7bb38f3b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is a key enabler for the metadata exchange. It is part of the eDelivery Building Block defined by CEF, which aims to foster data exchange and reuse across borders enhancing the interoperability in Europe. Moreover, eDelivery SMP 1.10 helps in the decision-making process by allowing data exchange between administrations.
+See: 
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Benefits+of+eDelivery"""@en ;
+    cav:refersTo camssa:f95bc55a-5dbf-4380-bef3-8263bb8452ae .
+
+camssa:f60a2c9d-caff-47e8-9c02-9008811f5b2d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:28dfe592-3fa0-400e-b635-20db7fc094c5 .
+
+camssa:f884ad49-5f5d-4519-a73f-0407e1d37f8b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to the long-term preservation of electronic records. Therefore, e-Delivery SMP 1.10 is not fostering the long-term preservation of electronic resources. "@en ;
+    cav:refersTo camssa:ac87300b-45a4-45f5-b0c6-5da58a15cf17 .
+
+camssa:f95bc55a-5dbf-4380-bef3-8263bb8452ae a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fbf2f5e9-a8af-4119-b586-59a620f3f87b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """eDelivery SMP has diverse implications in terms of Intellectual Property Rights. On one hand, the SMP 1.0 specification which is under non-assertion IPR policy, from OASIS IPR Policy. On the other hand, the ministry of Justice and the European Commission are in charge of part of the specification content. The specification is  licensed under (F) RAND basis and Royalty-free basis. 
+
+See: 
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+SMP+-+1.10#eDeliverySMP-1.10-Ownership
+https://www.oasis-open.org/policies-guidelines/ipr 
+
+
+eDelivery SMP has diverse implications in terms of Intellectual Property Rights. On one hand, the SMP 1.0 specification which is under non-assertion IPR policy, from OASIS IPR Policy. On the other hand, the ministry of Justice and the European Commission are in charge of part of the specification content. Therefore, the specification is licensed under (F) RAND basis and Royalty-free basis. 
+
+See: 
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+SMP+-+1.10#eDeliverySMP-1.10-Ownership
+"""@en ;
+    cav:refersTo camssa:c401cff2-4dd1-4297-8bb9-0797a3df2bf1 .
+

@@ -1,0 +1,658 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:5c39167bad65347048c89bc6a349b0ad0e059f94b9499a3cd3ca182e33656b06 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:b26387fc43b0be82f50b4dafb39c6371b8eb5efc4ecb6a477c1bbdc4603b61ef ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:022e3252-81c8-428f-aa9d-9f3d5ee6ce8d,
+        camssa:059c26d2-c8fb-4830-bd37-f772c4a9b054,
+        camssa:1060dfaa-429d-4a61-85de-6a0ac8abc405,
+        camssa:12366d09-b37f-43d1-a96c-644407c44f6a,
+        camssa:18bb1200-fd46-4c13-811e-ba40ea7e32fd,
+        camssa:18c4fefe-3875-450d-9a2e-b83e0934b3c1,
+        camssa:19263efe-26b5-4d96-8fb9-61f084b0664d,
+        camssa:27871c69-1d67-4011-a24b-fa01e7d9d018,
+        camssa:2ae89abe-2644-4a0f-a89d-81683ad0f57e,
+        camssa:37af4e70-080d-4d45-809e-4cc1799a9ad4,
+        camssa:3c151b00-1453-43be-992b-347282f9d699,
+        camssa:51e80503-47ec-4804-a253-d7fd648cc202,
+        camssa:54547e8b-2439-43b7-b6a0-bdf2afb4f97d,
+        camssa:5d5c5106-271d-4024-956b-d23249a65215,
+        camssa:621a378e-a7c5-47e3-a4b1-b7f8774436ae,
+        camssa:624cae37-71fc-456b-b559-da6cd88b554b,
+        camssa:64f388b4-2035-41ff-aece-b8565974a486,
+        camssa:6a80ebd9-2287-4339-bb1e-c76118f7c299,
+        camssa:6ff213f7-6db9-458d-a339-b628095985b2,
+        camssa:75d648eb-ad50-469b-9901-f0973d5a262c,
+        camssa:905da5fd-5ec9-4657-b366-43dc8862eb70,
+        camssa:9ac25b9c-1766-497f-981b-dc29d1e9413d,
+        camssa:9ae504d5-f4af-4fd6-8e63-daaacc5b29ba,
+        camssa:aa3f9bae-9d66-4109-a96b-58e5a13b0d88,
+        camssa:af3e4cea-44fc-43c2-bd6b-76ddfb40a919,
+        camssa:b1dc39b3-399c-4de1-a195-f517086f75fb,
+        camssa:b3bb8f52-9f22-48b4-b705-c0328d843017,
+        camssa:c89e397b-0e90-4855-b54d-bb173f0493e1,
+        camssa:cc2826b8-006d-45d1-be04-fa2057657ced,
+        camssa:cd53b1a0-1e9b-4d06-96a5-0a826f946442,
+        camssa:d0aeef92-97c6-4ef5-aa18-0887e5fbb793,
+        camssa:d56e27d6-27c8-431e-8085-42f10e99e374,
+        camssa:d632e6f0-e4fc-47f8-8168-0cd14821b449,
+        camssa:d705754c-3890-4b28-9bd0-9ea43448141b,
+        camssa:e1c01fac-b018-46c2-85f9-f80ed2a419ac,
+        camssa:e31a7f54-73be-42e2-a192-d1064f3d6bfc,
+        camssa:e4c2b572-3585-4b75-9b21-c76c1afb799a,
+        camssa:e6cd7d8b-c8ba-4309-b241-cfc122c29b75,
+        camssa:ee7da08d-ae39-4b1b-8e19-f564e3b5b1f1,
+        camssa:f02075c0-706a-4234-aeee-6cf69cc59e8b,
+        camssa:f4845cf7-8cfc-43db-b4d7-aca86351cff9,
+        camssa:f9e9706f-bd3b-4dcf-acbc-4dac039cd5d3,
+        camssa:fe1632a4-9cab-4a9e-abc5-c4e84d788dea,
+        camssa:feacdce6-e853-475e-9d48-8a13ce5676dc ;
+    cav:status status:Complete ;
+    dct:title "LegalRuleML"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:529e8c69-960d-4341-925f-68bc45a6d33f ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:022e3252-81c8-428f-aa9d-9f3d5ee6ce8d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification can allow public administrations to define XML schemas with semantic bindings for the reuse of information across borders including reference to contracts or other legal documents without requiring the submission or provision more than once. 
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:69aabbc5-0f6a-44c7-8196-7ed69c5fc400 .
+
+camssa:056c9b25-94ed-456c-9bb3-ee1558baec2d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:059c26d2-c8fb-4830-bd37-f772c4a9b054 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The business domain in which the specification was developed was mainly the legal resources, political/administrative and contract management. It can be applied across sectors since the management of these aspects and the interaction between normative institutions and stakeholders are based and regulated by legal text and resources.  
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:69bb024c-77bc-4069-ad71-98775fe62065 .
+
+camssa:0bf5ce08-fd45-4ff0-a7a7-a6e984c6bd65 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0d6e94cc-57a3-4990-b344-70e430620167 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1060dfaa-429d-4a61-85de-6a0ac8abc405 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Several implementations and studies are assessing the usefulness and exploring how the usage of the specification can enhance the legal domain. This fact contributes to the market extension of the specification. A key point is also the incorporation to trans-European projects as LEOS or MIREL.  
+
+Moreover, it has been included within the EU Observatory for ICT Standardisation and their catalogue of standards.  
+
+EU Observatory for ICT Standardisation:
+https://www.standict.eu/standards-repository/working-group/oasis-legalruleml-tc"""@en ;
+    cav:refersTo camssa:a4438776-c7be-47cb-b02a-d0e2fb0d2e54 .
+
+camssa:12366d09-b37f-43d1-a96c-644407c44f6a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are different documentation and studies related to the use of LegalRuleML. An example is "Evaluating LegalDocML and LegalRuleML as a Standard for Sharing Normative Information in the AEC/FM Domain analyses the LegalRuleML specification". 
+
+Moreover, articles referencing the usage of LegalRuleML for automated compliance checking and enabling reasoning using the specification. 
+
+Evaluating LegalDocML and LegalRuleML as a Standard for Sharing (...):
+https://www.researchgate.net/publication/318010726_Evaluating_LegalDocML_and_LegalRuleML_as_a_Standard_for_Sharing_Normative_Information_in_the_AECFM_Domain
+
+Semantic Business Process Regulatory Compliance Checking Using LegalRuleML
+https://www.semanticscholar.org/paper/Semantic-Business-Process-Regulatory-Compliance-Governatori-Hashmi/b246867def5e206e296d040ecfbfff06f71a43a6
+
+Enabling Reasoning with LegalRuleML: 
+https://arxiv.org/pdf/1711.06128.pdf"""@en ;
+    cav:refersTo camssa:accdf060-a4b8-4e5b-8108-cad8beede6e6 .
+
+camssa:173e2b93-93b5-46ed-83b9-0e9b3223db91 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:1854f7a6-6040-4b3f-b700-36483cf19862 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:18bb1200-fd46-4c13-811e-ba40ea7e32fd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of LegalRuleML is not related to long-term preservation of electronic records and other kinds of information. Therefore, this criterion is not applicable to this specification.
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:bb9bfaf0-0b06-4dd8-b392-07c17ccc50e5 .
+
+camssa:18c4fefe-3875-450d-9a2e-b83e0934b3c1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:e6899dee-cf8a-4986-842e-b365b30a785b .
+
+camssa:19263efe-26b5-4d96-8fb9-61f084b0664d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:c1a19680-002f-4d5f-a12d-c0d00c0433b4 .
+
+camssa:23821918-d879-468e-9d63-63489997bc49 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:27871c69-1d67-4011-a24b-fa01e7d9d018 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The LegalRuleML works to advance worldwide best practices for the use of XML within a Parliaments', Assembly's or Congress' document management processes, within courts' and tribunals' judgment management systems, and generally in legal documents including contracts. 
+
+The specification as can be domonstrated for its implementation in LEOS project and pilot, can ease and foster the visibility of data, administrative rules and ease the decision making process of public administrations. 
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html
+
+LEOS: 
+https://joinup.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation"""@en ;
+    cav:refersTo camssa:acbf9390-823e-4aaa-9917-e0d50125eb28 .
+
+camssa:2ae89abe-2644-4a0f-a89d-81683ad0f57e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:c4033abc-ddc6-4f87-b6c9-1adf3ad5c88b .
+
+camssa:2f04a3a5-1e51-49a9-9946-0a9ee9b588c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:37af4e70-080d-4d45-809e-4cc1799a9ad4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The OASIS TC in charge of LegalRuleML operates under the Royalty Free on Limited Terms IPR mode as defined in the OASIS Intellectual Property Rights (IPR) Policy.
+
+LegalDocML reference:
+https://www.oasis-open.org/committees/legaldocml/charter.php"""@en ;
+    cav:refersTo camssa:7c3e6723-f7a6-4bca-a215-bfafb5c47c4c .
+
+camssa:3c151b00-1453-43be-992b-347282f9d699 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:056c9b25-94ed-456c-9bb3-ee1558baec2d .
+
+camssa:4188841c-2c3f-4059-912d-d31418caaaa9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "20"^^xsd:int .
+
+camssa:438c1493-bb07-4646-be49-0e7719924e2c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:4dab47e7-d16b-4d60-8ae7-8797f351ed25 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4ff64a79-3676-4c50-9741-b3db284b42ef a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:51e80503-47ec-4804-a253-d7fd648cc202 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OASIS has defined a clear process where all the stakeholders involved have the opportunity to participate in the development of the specification development process. Moreover, there is a public review in the TC process.
+ 
+OASIS guideline:
+https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26
+The Akoma Ntoso review process: 
+http://www.akomantoso.org/?p=141"""@en ;
+    cav:refersTo camssa:c7b62c31-866a-4133-b167-c02ba3926d33 .
+
+camssa:529e8c69-960d-4341-925f-68bc45a6d33f a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:54547e8b-2439-43b7-b6a0-bdf2afb4f97d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LegalRuleML has been selected in several European projects for its implementation and help to its evolution. The main example is LEOS a software for drafting legal resources. Also MIREL, an H2020 project  "MIning and REasoning with Legal texts". 
+
+LEOS: 
+https://joinup.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation
+
+MIREL: 
+https://cordis.europa.eu/project/id/690974/results
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:7c4e8959-f75f-4203-a38d-3ce7ceb44908 .
+
+camssa:57c98c0a-ee83-4202-a472-55e7acf1a5b2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:58a242d1-1dec-4e90-b5e6-d40384fe7b49 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5d5c5106-271d-4024-956b-d23249a65215 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out an exhaustive search concerning LegalRuleML validation, conformance and certification, no tool has been found available for free for these purposes. "@en ;
+    cav:refersTo camssa:4188841c-2c3f-4059-912d-d31418caaaa9 .
+
+camssa:621a378e-a7c5-47e3-a4b1-b7f8774436ae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no Member States recommending LegalRuleML in their ICT National Catalogues.
+ 
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:9c49b9a6-dc2c-499b-9f0f-eb6f01ad7807 .
+
+camssa:624cae37-71fc-456b-b559-da6cd88b554b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:173e2b93-93b5-46ed-83b9-0e9b3223db91 .
+
+camssa:64f388b4-2035-41ff-aece-b8565974a486 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:8798a60d-2a33-4367-be90-3f3ae0ab221e .
+
+camssa:69aabbc5-0f6a-44c7-8196-7ed69c5fc400 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:69bb024c-77bc-4069-ad71-98775fe62065 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6a80ebd9-2287-4339-bb1e-c76118f7c299 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LegalDocML is XML based, however, it is not dependent on any other technology or platform, so it can be implemented independently from specific technologies or platforms.
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:d972902a-fbcc-49e5-8c36-17ab5bafabdf .
+
+camssa:6ff213f7-6db9-458d-a339-b628095985b2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The OASIS TC in charge of LegalRuleML operates under the Royalty Free on Limited Terms IPR mode as defined in the OASIS Intellectual Property Rights (IPR) Policy.
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:1854f7a6-6040-4b3f-b700-36483cf19862 .
+
+camssa:75d648eb-ad50-469b-9901-f0973d5a262c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LegalRuleML is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:fe27edda-d8c0-45de-ab93-707f815d06d0 .
+
+camssa:77ccf0da-20b4-4367-8d76-47e7e2056665 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7c3e6723-f7a6-4bca-a215-bfafb5c47c4c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7c4e8959-f75f-4203-a38d-3ce7ceb44908 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:8798a60d-2a33-4367-be90-3f3ae0ab221e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:8c22105b-6294-4379-9c53-c53cbd7ec4a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:905da5fd-5ec9-4657-b366-43dc8862eb70 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The business domain in which the specification was developed was mainly the legal resources, political/administrative and contract management. It can be applied across sectors since the management of these aspects and the interaction between normative institutions and stakeholders are based and regulated by legal text and resources.  
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:23821918-d879-468e-9d63-63489997bc49 .
+
+camssa:915fa3a5-e064-43f6-89b7-02b4ac7c0088 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:938953e3-0fcd-4e39-8662-7a96a63b7dbf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:9ac25b9c-1766-497f-981b-dc29d1e9413d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The objective of the LegalRuleML TC is to extend RuleML with formal features specific to legal norms, guidelines, policies and reasoning; that is, the TC defines a standard (expressed with XML-schema and Relax NG) that is able to represent the particularities of the legal normative rules with a rich, articulated, and meaningful markup language. 
+ 
+Moreover, by providing a common model that can close the gap between natural language, text description and semantic normatives the specification fosters the visibility and provision of legal resources and their interchange between systems. Concequently it can be said that the specification fosters the comprehensibility of administrative rules, data, services and decision-making of a public administration.
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:2f04a3a5-1e51-49a9-9946-0a9ee9b588c1 .
+
+camssa:9ae504d5-f4af-4fd6-8e63-daaacc5b29ba a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification has been listed within the EUOS project, that provides a list of ICT specifications and standards according to the ICT Rolling plan. 
+
+EU Observatory for ICT Standardisation:
+https://www.standict.eu/standards-repository"""@en ;
+    cav:refersTo camssa:f1a1d163-099e-42b4-a8ce-8317766eb984 .
+
+camssa:9c49b9a6-dc2c-499b-9f0f-eb6f01ad7807 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:9e34aa6b-17fc-4518-9830-15336745f6fe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:a4438776-c7be-47cb-b02a-d0e2fb0d2e54 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:aa3f9bae-9d66-4109-a96b-58e5a13b0d88 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LegalDocML is XML based, however, it is not dependent on any other technology or platform, so it can be implemented independently from specific technologies or platforms.
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:938953e3-0fcd-4e39-8662-7a96a63b7dbf .
+
+camssa:acbf9390-823e-4aaa-9917-e0d50125eb28 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:accdf060-a4b8-4e5b-8108-cad8beede6e6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:af3e4cea-44fc-43c2-bd6b-76ddfb40a919 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LegalRuleML extends RuleML and provides a framework that can help to reduce the gap between semantics, natural language and text description. In this sense, the specification can help to create and model constitutive rules, technical rules, and prescriptive rules enhancing the data exchange of legal resources such as documents defining property aspects, contracts and others. Providing a common framework for this purpose fosters the trustworthy data exchange between administration and stakeholders.
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:d6251ac0-f254-4290-bfa2-7001769ff717 .
+
+camssa:b0afe6e0-99f3-491e-b4db-463657eac53a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b1dc39b3-399c-4de1-a195-f517086f75fb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:438c1493-bb07-4646-be49-0e7719924e2c .
+
+camssa:b23bf71f-5b16-417c-a205-b6ab7052e721 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:b3bb8f52-9f22-48b4-b705-c0328d843017 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:4ff64a79-3676-4c50-9741-b3db284b42ef .
+
+camssa:b9261f6a-0a4a-4a4b-be7d-805b1fea55a9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:b9da7fe9-37c5-4cea-aa9d-c9ea978784b8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bb9bfaf0-0b06-4dd8-b392-07c17ccc50e5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:c1a19680-002f-4d5f-a12d-c0d00c0433b4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:c3c2f2a4-1e9d-43c3-b273-67adc181269c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c4033abc-ddc6-4f87-b6c9-1adf3ad5c88b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:c7b62c31-866a-4133-b167-c02ba3926d33 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c89e397b-0e90-4855-b54d-bb173f0493e1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are different documentation and studies related to the use of LegalRuleML. An example is "Evaluating LegalDocML and LegalRuleML as a Standard for Sharing Normative Information in the AEC/FM Domain analyses the LegalRuleML specification". 
+
+Moreover, articles referencing the usage of LegalRuleML for automated compliance checking and enabling reasoning using the specification. 
+
+Evaluating LegalDocML and LegalRuleML as a Standard for Sharing (...):
+https://www.researchgate.net/publication/318010726_Evaluating_LegalDocML_and_LegalRuleML_as_a_Standard_for_Sharing_Normative_Information_in_the_AECFM_Domain
+
+Semantic Business Process Regulatory Compliance Checking Using LegalRuleML
+https://www.semanticscholar.org/paper/Semantic-Business-Process-Regulatory-Compliance-Governatori-Hashmi/b246867def5e206e296d040ecfbfff06f71a43a6
+
+Enabling Reasoning with LegalRuleML: 
+https://arxiv.org/pdf/1711.06128.pdf"""@en ;
+    cav:refersTo camssa:0bf5ce08-fd45-4ff0-a7a7-a6e984c6bd65 .
+
+camssa:cc2826b8-006d-45d1-be04-fa2057657ced a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:915fa3a5-e064-43f6-89b7-02b4ac7c0088 .
+
+camssa:cd53b1a0-1e9b-4d06-96a5-0a826f946442 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of LegalRuleML is not related to e-accessibility. Therefore, this criterion is not applicable to this specification.
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:c3c2f2a4-1e9d-43c3-b273-67adc181269c .
+
+camssa:d0aeef92-97c6-4ef5-aa18-0887e5fbb793 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LegalRuleML promotes formal features specific to legal norms, guidelines, policies and reasoning defining a set of aspects and elements that enhance the shareability of data and information. Moreover, the capability to structure the information and model it according to common requirements allow the representation of information, including the fact of fostering the availability of internal interfaces. LEOS implementation is an example of how the specification together with other elements in the structure can represent the information consistently and foster collaborative work.
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:b23bf71f-5b16-417c-a205-b6ab7052e721 .
+
+camssa:d56e27d6-27c8-431e-8085-42f10e99e374 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The objective of the LegalRuleML is to extend RuleML with formal features specific to legal norms, guidelines, policies and reasoning. The specification allows the exchange of legal resources under a common framework for its description and modelling. Consequently, it can be said that the specification fosters data portability between systems and applications.
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:0d6e94cc-57a3-4990-b344-70e430620167 .
+
+camssa:d6251ac0-f254-4290-bfa2-7001769ff717 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d632e6f0-e4fc-47f8-8168-0cd14821b449 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OASIS has defined a clear Technical Committee (hereby TC) process where all the stakeholders involved have the opportunity to participate in the development of the specification development process.
+
+OASIS guideline:
+https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26"""@en ;
+    cav:refersTo camssa:9e34aa6b-17fc-4518-9830-15336745f6fe .
+
+camssa:d705754c-3890-4b28-9bd0-9ea43448141b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The objective of the LegalRuleML is to extend RuleML with formal features specific to legal norms, guidelines, policies and reasoning. The specification allows the exchange of legal resources under a common framework for its description and modelling. Consequently, it can be said that the specification fosters data portability between systems and applications.
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:58a242d1-1dec-4e90-b5e6-d40384fe7b49 .
+
+camssa:d972902a-fbcc-49e5-8c36-17ab5bafabdf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d9750c1e-00f4-4a9d-980d-fe597bd7aa74 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e1c01fac-b018-46c2-85f9-f80ed2a419ac a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification has been selected within the scope of LEOS project to develop the LEOS software, which aims to ease the drafting and edition of legal documents. 
+
+LEOS: 
+https://joinup.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation"""@en ;
+    cav:refersTo camssa:d9750c1e-00f4-4a9d-980d-fe597bd7aa74 .
+
+camssa:e31a7f54-73be-42e2-a192-d1064f3d6bfc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The LegalRuleML is part of OASIS developer community. The main objective of the community is to promote individuals, organizations, and governments come together to solve some of the world’s biggest technical challenges through the development of open code and open standards
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html
+
+OASIS home page: 
+https://www.oasis-open.org/"""@en ;
+    cav:refersTo camssa:fb7c4521-069a-49f5-87c6-31565a5ca4fc .
+
+camssa:e4c2b572-3585-4b75-9b21-c76c1afb799a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of LegalRuleML is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:8c22105b-6294-4379-9c53-c53cbd7ec4a2 .
+
+camssa:e6899dee-cf8a-4986-842e-b365b30a785b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e6cd7d8b-c8ba-4309-b241-cfc122c29b75 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of LegalRuleML aims also to support the semantic perspective of data by providing a core specification for modelling legal documents based on requirements of the business domain. It can be part of the Linked Open Data environment not only supporting the data structuring for raw data but also of rules in conjunction with their functionality and usage. Without rules or axioms, legal concepts constitute just a taxonomy. 
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html
+
+Linked Data W3C: 
+https://www.w3.org/wiki/LinkedData"""@en ;
+    cav:refersTo camssa:e90451bc-6acf-4233-8228-e60fac6b3963 .
+
+camssa:e90451bc-6acf-4233-8228-e60fac6b3963 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ee7da08d-ae39-4b1b-8e19-f564e3b5b1f1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The LegalRuleML is XML base, which allows the estructuration of legal documents data and its exchange between systems. This can also be used for instance, to translate the content to other languages in the European Union. Then the collaboration between Member States can be improved using the method for the alignment of legal frameworks. 
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:b9da7fe9-37c5-4cea-aa9d-c9ea978784b8 .
+
+camssa:f02075c0-706a-4234-aeee-6cf69cc59e8b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LegalRuleML aims to close the gap between natural language text description and semantic norm modelling. Providing a common solution for treating legal resources the specification can then foster Semantic Web technologies such as: NLP, Information Retrieval (IR), graph representation, as well as Web ontologies and rules.
+
+Tim Berners-Lee 5-star schema for Open Data:
+https://5stardata.info/en/
+
+LegalDocML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:57c98c0a-ee83-4202-a472-55e7acf1a5b2 .
+
+camssa:f1a1d163-099e-42b4-a8ce-8317766eb984 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f4845cf7-8cfc-43db-b4d7-aca86351cff9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:77ccf0da-20b4-4367-8d76-47e7e2056665 .
+
+camssa:f9e9706f-bd3b-4dcf-acbc-4dac039cd5d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no Member State that includes LegalRuleML in their national catalogue with The National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:b9261f6a-0a4a-4a4b-be7d-805b1fea55a9 .
+
+camssa:fb7c4521-069a-49f5-87c6-31565a5ca4fc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fe1632a4-9cab-4a9e-abc5-c4e84d788dea a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The objective of the LegalRuleML TC is to extend RuleML with formal features specific to legal norms, guidelines, policies and reasoning; that is, the TC defines a standard (expressed with XML-schema and Relax NG) that is able to represent the particularities of the legal normative rules with a rich, articulated, and meaningful markup language. It can be concluded that the specification fosters defining organisational interoperability aspects.
+
+LegalRuleML reference:
+http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html"""@en ;
+    cav:refersTo camssa:4dab47e7-d16b-4d60-8ae7-8797f351ed25 .
+
+camssa:fe27edda-d8c0-45de-ab93-707f815d06d0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:feacdce6-e853-475e-9d48-8a13ce5676dc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:b0afe6e0-99f3-491e-b4db-463657eac53a .
+

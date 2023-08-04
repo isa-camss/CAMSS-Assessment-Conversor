@@ -1,0 +1,714 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:64398e7c3e63703046cc962080c58b9cf68110e1c086b02fe63bab803676f696 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:4f271da621fc4cdb20ad1d18ce15422d30fdd413cf46cded17c6ad561fa5c5ee ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:069b2055-f0be-4af7-ac2e-49722ec3eb6d,
+        camssa:0a2fd0c1-3f12-45fe-be9f-b58cb28c0ccc,
+        camssa:0c877674-2be5-455f-a663-0f201d7b6955,
+        camssa:140291d5-c24d-4f68-998a-095d1eb529ed,
+        camssa:1d85f2d7-e493-4f8e-8797-50fe2f75a4d5,
+        camssa:23d430d1-50ac-400c-b3ff-e470f4f168f5,
+        camssa:261ecb54-28af-4038-86d3-5d241d230ed1,
+        camssa:2a979ec1-48fe-40cc-9bb4-7c7be325b33b,
+        camssa:36438b7f-52c2-43b5-bb7a-94740245e4e8,
+        camssa:3969a016-a574-4a62-8d55-f98c3b7ad05d,
+        camssa:44d5725a-e130-4d61-83d7-e45ad7bfa0ea,
+        camssa:4666b60e-3a6c-4c5d-a7ef-01c2b3c1457e,
+        camssa:493cd067-2d58-4939-8bbd-3759ba91b960,
+        camssa:4a6b137b-7188-4f95-96c7-4dcf648df3f6,
+        camssa:4da53e92-d661-4205-8e0e-956d2b2b9ca9,
+        camssa:4df007cf-425e-4804-b92b-63c7c6d0cf77,
+        camssa:54af71a4-631e-4587-984d-98319e83ad59,
+        camssa:5c0db13c-5b81-41a3-80dd-c91e02604a45,
+        camssa:5fd28208-9cc0-4534-aca5-5b49c6490cb7,
+        camssa:63e9be03-e45b-4603-9282-61c18c2c3b5f,
+        camssa:658a1142-4947-4e81-b8b3-d4909f6a0212,
+        camssa:69c16d1e-bac7-401e-8ead-ec8fbed1aac9,
+        camssa:746595ac-74cd-44bf-8d88-6c0781b70d45,
+        camssa:75288eeb-dc82-42f8-86c1-1d5480e935a4,
+        camssa:77037106-0553-46a9-81c7-ec3f3140b2ba,
+        camssa:7b04c43c-f4b6-43d8-a1b5-42a4a66aad60,
+        camssa:7bac3b3d-3ec9-48b1-914f-293c5c5393cb,
+        camssa:7bf65124-2421-4298-b33c-36bd3e6b30f2,
+        camssa:8a315ab2-590e-4006-a96c-67a22feabe8f,
+        camssa:8d4ff994-e71b-4555-8923-40f0c2cfc2f4,
+        camssa:9264cdc3-92c5-4896-b1dc-5f41457e7df3,
+        camssa:942a25f0-bec4-4af2-9dda-ccd893568d77,
+        camssa:9b57ff41-2a18-440f-b705-3fbb57c66924,
+        camssa:aa7aa057-b540-4093-8383-cc0c0c8ea9bf,
+        camssa:c4aabd5a-897a-47f5-931f-598c5a9cae75,
+        camssa:c9ab51fb-3d6b-43aa-9d2d-2f1a3127c49b,
+        camssa:cd0951bb-a073-40b5-8f5e-87a50a4ac56e,
+        camssa:d1950984-a7c0-408f-a41b-48b195897889,
+        camssa:e085dea1-49c6-4955-b35e-f13ef735be4f,
+        camssa:e250c9a7-14b6-4e09-96fe-21ee675e8ed5,
+        camssa:e471a86f-72ad-48bf-884c-268c9cc5e656,
+        camssa:e4a97fa1-55bf-45c1-a462-2a54466ea160,
+        camssa:ebd71ffa-f6e9-45b3-8d44-58e4e3443473,
+        camssa:f3d20700-4e63-4797-ba2d-6db3f03f83b0,
+        camssa:fc41dd57-70bb-4fa1-b434-7a4ea2138ffc ;
+    cav:status status:Complete ;
+    dct:title "Network Functions Virtualisation (NFV); Infrastructure Overview (NFVI)"@en .
+
+camssa:71b734d93eea13de404910eb634943e6bc28f69d27f2f63bcbdf62230a832bb3 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:6ad2eb44-7d9e-4d5b-ac77-325961beb4f9 ;
+    skos:prefLabel "CAMSS Team European Commission DG DIGIT"@en .
+
+camssa:012c32e8-84c7-4a06-8f30-2fa377f321fd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:069b2055-f0be-4af7-ac2e-49722ec3eb6d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of the NFVI specification is not related to the visibility of administrative procedures, rules data, and services. 
+
+NFV reference:
+https://www.etsi.org/technologies/nfv/nfv'"""@en ;
+    cav:refersTo camssa:b702af7d-e662-4843-bbbb-caa73569beb8 .
+
+camssa:06a3905c-e00d-4b0c-8b0d-0745016f71e3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "60"^^xsd:int .
+
+camssa:098a6ff5-1c86-4af3-b6e8-6611001cccce a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0a2fd0c1-3f12-45fe-be9f-b58cb28c0ccc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:19cbe8fa-1d68-4f65-96c9-ed15f0a55e40 .
+
+camssa:0c877674-2be5-455f-a663-0f201d7b6955 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of NFVI is not related to the long-term preservation of data/information/knowledge. Therefore, this criterion is considered not applicable to this specification.
+
+NFVI Deliver, Infrastructure Overview:
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/ '"""@en ;
+    cav:refersTo camssa:ae52b9ed-4862-436d-be38-1838705e4f6d .
+
+camssa:0ed66bec-5506-4cdd-94e5-7ba94d2570b1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:117b0978-cc20-4041-914e-310fb89429bf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "80"^^xsd:int .
+
+camssa:140291d5-c24d-4f68-998a-095d1eb529ed a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:bb430e5b-b1cf-4605-a045-b80c6d1c24d9 .
+
+camssa:15fa5cb2-357e-4c50-83b5-da36b0253799 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "80"^^xsd:int .
+
+camssa:19cbe8fa-1d68-4f65-96c9-ed15f0a55e40 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1d85f2d7-e493-4f8e-8797-50fe2f75a4d5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'NFVI works on a hierarchical-interface basis. According to the NFVI documentation, hierarchical interfaces relates to peer level interfaces (e.g., transport interfaces, signalling interfaces, and routing protocol interfaces). However, this specification does not apply to client-server interfaces because it works on a peer-to-peer basis (that is, from server to server). As a consequence, the client interfaces may be re-built to conform to the NFVI container interface specification.
+
+NFVI Deliver, Infrastructure Overview section 6.5.1:
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/'"""@en ;
+    cav:refersTo camssa:ab593982-a55c-48f4-ad84-5febe5ef0591 .
+
+camssa:23d430d1-50ac-400c-b3ff-e470f4f168f5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:098a6ff5-1c86-4af3-b6e8-6611001cccce .
+
+camssa:261ecb54-28af-4038-86d3-5d241d230ed1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'NFVI is intended to be used in virtualised ecosystems. Because the NFVI is a distribution set of NFVI-nodes in multiple locations that supports the locality and latency requirements of NFV use cases, the specification also provides network connectivity, and therefore can be implemented in different business domains.
+
+NFVI Deliver, Infrastructure Overview:
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/ 
+
+ISG NFV Deliver, Terminology for main concepts:
+https://www.etsi.org/deliver/etsi_gr/NFV/001_099/003/01.06.01_60/'
+
+'NFVI is intended to be used in virtualised ecosystems. Because the NFVI is a distribution set of NFVI-nodes in multiple locations that supports the locality and latency requirements of NFV use cases, the specification can be used in any domain and is domain-agnostic.
+
+NFVI Deliver, Infrastructure Overview:
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/'"""@en ;
+    cav:refersTo camssa:fa13bf38-9421-4b9f-bc97-c79dba615475 .
+
+camssa:2748c619-e760-492d-a980-8dbda29500f6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "80"^^xsd:int .
+
+camssa:29b66acc-a766-484f-a2df-8dea3b704bb3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2a979ec1-48fe-40cc-9bb4-7c7be325b33b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'NFVI facilitates organisational interoperability agreements thanks to the diversification of the ETSI NFV working groups and their respective publications on testing, benchmarking and other descriptive assets.
+
+ETSI NFVI working groups reference:
+https://portal.etsi.org/TB-SiteMap/NFV/NFV-WGs-amp-EGs-ToR'"""@en ;
+    cav:refersTo camssa:2748c619-e760-492d-a980-8dbda29500f6 .
+
+camssa:36438b7f-52c2-43b5-bb7a-94740245e4e8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The Testing, Experimentation and Open Source (TST) Working Group provides feature requests to open source projects and results of implementation experience to open source communities. ETSI, as an acknowledged European standardisation, offers different channels for the creation of communities and the sharing of data and results in European platforms.
+
+TST NFV reference:
+https://portal.etsi.org/TB-SiteMap/NFV/NFV-WGs-amp-EGs-ToR'
+
+'The Testing, Experimentation and Open Source (TST) Working Group provides feature requests to open source projects and results of implementation experience to open source communities; however, not in national platforms.
+
+TST NFV reference:
+https://portal.etsi.org/TB-SiteMap/NFV/NFV-WGs-amp-EGs-ToR'"""@en ;
+    cav:refersTo camssa:7f390fea-8968-4187-93b9-7910c2d7326f .
+
+camssa:38804e54-84c6-4cd9-bb04-abab9c198014 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3969a016-a574-4a62-8d55-f98c3b7ad05d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State recommending NFVI in its ICT National Catalogue.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:9d3e5c93-fd93-4953-9a4f-b794eb4b3475 .
+
+camssa:3bb8424a-a40d-4961-9157-a5139049ca2d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "80"^^xsd:int .
+
+camssa:43603113-58ca-46f8-a562-6f95d7a22a69 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:44d5725a-e130-4d61-83d7-e45ad7bfa0ea a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The NFV distribution has been included in several European projects. NFV offers virtualised network environments, dynamically configurable and fully automated, that automatically respond to the needs of the traffic and services running on it. This is the reason why the NFVI component has been included in last European projects such as T-NOVA, or in ongoing ones such as the 5G network deployment in the Digital Single Market.
+
+NFV reference:
+https://www.etsi.org/technologies/nfv/nfv
+
+T-NOVA reference:
+http://www.t-nova.eu/
+
+5G roll plan reference:
+https://joinup.ec.europa.eu/collection/rolling-plan-ict-standardisation/5g
+
+5G NFV whipe paper:
+http://portal.etsi.org/NFV/NFV_White_Paper_5G.pdf'"""@en ;
+    cav:refersTo camssa:abbaa4fb-2a4d-4973-ba3e-e8dba8c4845d .
+
+camssa:44fa31ae-e5c4-4ec0-ab95-38386cb445a6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4666b60e-3a6c-4c5d-a7ef-01c2b3c1457e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0ed66bec-5506-4cdd-94e5-7ba94d2570b1 .
+
+camssa:493cd067-2d58-4939-8bbd-3759ba91b960 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'NFVI is already associated with EIRA ABBs in the EIRA Library Of Interoperability Specifications (ELIS). More specifically, NFVI can define the interoperability aspects of the Hosting Facility, Hosting Service, Private Hosting Facility and Public Hosting Facility ABBs of the EIRA Technical View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:60089c3e-7b55-435c-8554-1d4b5163dba8 .
+
+camssa:49ac6951-9afe-4189-ac3d-d214e075bd64 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:49db3987-59d0-4636-957e-8f7d9be506ec a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4a6b137b-7188-4f95-96c7-4dcf648df3f6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Data protection encompasses data confidentiality, integrity and access control. NFVI proposes specific provisions based on other specifications. These provisions depends on each use case. Some of these data protection techniques are Transport Layer Security (TLS), Internet Protocol Security (IPSec) or Secure Shell (SSH).
+
+NFVI Deliver, Infrastructure Overview section 6.7:
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/'"""@en ;
+    cav:refersTo camssa:15fa5cb2-357e-4c50-83b5-da36b0253799 .
+
+camssa:4da53e92-d661-4205-8e0e-956d2b2b9ca9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of NFVI as a European standard. 
+
+ICT technical specifications: https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en 
+
+CENELEC and CEN search tool catalogue: https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:9ff19d32-0f8f-4772-aa04-47e7af0ea351 .
+
+camssa:4df007cf-425e-4804-b92b-63c7c6d0cf77 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The NFVI specification, as a sum of hardware and software components that builds up a virtual environment, reduces the dependency on dedicated infrastructure, and therefore enables for customisation.
+
+ISG NFV Deliver, Terminology for main concepts:
+https://www.etsi.org/deliver/etsi_gr/NFV/001_099/003/01.06.01_60/'"""@en ;
+    cav:refersTo camssa:012c32e8-84c7-4a06-8f30-2fa377f321fd .
+
+camssa:54af71a4-631e-4587-984d-98319e83ad59 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The NFVI specification is composed of different virtualised resources that activates depending on the task. Nonetheless, this does not imply that the NFVI specification can be extended.
+
+NFVI Deliver, Infrastructure Overview:
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/ '"""@en ;
+    cav:refersTo camssa:c3637d86-dcc1-403f-b63f-befc0ba78418 .
+
+camssa:54f50e2b-8462-4a79-8c55-db7f0c58d059 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5c04bf28-89e7-40bd-a754-e6c354f7cf4b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "80"^^xsd:int .
+
+camssa:5c0db13c-5b81-41a3-80dd-c91e02604a45 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of NFVI is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification. 
+
+NFVI Deliver, Infrastructure Overview section 4:
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/'"""@en ;
+    cav:refersTo camssa:8bbccfc2-085b-43c1-be98-4bb5b7deee01 .
+
+camssa:5fd28208-9cc0-4534-aca5-5b49c6490cb7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'According to the NFV home page, services are deployed by complementing Software Defined Networking (SDN) and NFV. However, the NFVI specification does not rely on any operating system, therefore this specification is platform-agnostic.
+
+NFV reference: 
+https://www.etsi.org/technologies/nfv/nfv'"""@en ;
+    cav:refersTo camssa:a03c0796-d3ee-4d9e-9b2d-290e9280f085 .
+
+camssa:60089c3e-7b55-435c-8554-1d4b5163dba8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:63e9be03-e45b-4603-9282-61c18c2c3b5f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of NFVI is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification.
+
+NFVI Deliver, Infrastructure Overview section 4:
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/ '"""@en ;
+    cav:refersTo camssa:49ac6951-9afe-4189-ac3d-d214e075bd64 .
+
+camssa:6403ee77-6e98-46be-bcee-f1fb737ab16b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "60"^^xsd:int .
+
+camssa:658a1142-4947-4e81-b8b3-d4909f6a0212 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of NFVI is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+NFVI Deliver, Infrastructure Overview section 4:
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/'"""@en ;
+    cav:refersTo camssa:38804e54-84c6-4cd9-bb04-abab9c198014 .
+
+camssa:66703b5f-7036-408e-bcae-238e21397775 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "80"^^xsd:int .
+
+camssa:69c16d1e-bac7-401e-8ead-ec8fbed1aac9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'According to the NFV home page, services are deployed by complementing Software Defined Networking (SDN) and NFVI. The NFVI specification highly recommends to adopt other protocols for security and other function aspects. Therefore, NFVI is not technology-agnostic.
+
+NFV reference: 
+https://www.etsi.org/technologies/nfv/nfv
+
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/'"""@en ;
+    cav:refersTo camssa:cc33d88a-c9dc-43c2-9511-8962eb2ffc95 .
+
+camssa:6ad2eb44-7d9e-4d5b-ac77-325961beb4f9 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@eu.europa.eu" .
+
+camssa:6c8e5089-ef56-4ba8-986e-35c0deb55746 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:746595ac-74cd-44bf-8d88-6c0781b70d45 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """nan
+
+'The purpose of NFVI is not related to the publication of open data. Therefore, this criterion is not applicable to this specification. 
+
+NFVI reference:
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/gs_NFV-INF001v010101p.pdf 
+
+Tim Berners-Lee 5-star schema for Open Data:   
+https://5stardata.info/en/'"""@en ;
+    cav:refersTo camssa:f818983c-a958-4b42-809c-8bac84dd127e .
+
+camssa:75288eeb-dc82-42f8-86c1-1d5480e935a4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ISG NFV community is a large community that continues to work intensively on developing the specification and incorporating the latest technologies. This community is open to ETSI members and non-members alike, with different conditions depending on ETSI membership status. The ISG NFV provides continuous support for the correct referencing of NFV specifications (NFVI included) by service providers and open source communities.
+
+NFV reference, Our Role & Activities:
+https://www.etsi.org/technologies/nfv'"""@en ;
+    cav:refersTo camssa:3bb8424a-a40d-4961-9157-a5139049ca2d .
+
+camssa:77037106-0553-46a9-81c7-ec3f3140b2ba a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Data protection encompasses data confidentiality, integrity and access control. NFVI proposes specific provisions based on other specifications. These provisions depends on each use case. Some of these data protection techniques are Transport Layer Security (TLS), Internet Protocol Security (IPSec) or Secure Shell (SSH).
+
+NFVI Deliver, Infrastructure Overview section 6.7:
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/'"""@en ;
+    cav:refersTo camssa:5c04bf28-89e7-40bd-a754-e6c354f7cf4b .
+
+camssa:790faa2e-60e9-4e4b-b7db-b2d6cd8baca6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "20"^^xsd:int .
+
+camssa:7b04c43c-f4b6-43d8-a1b5-42a4a66aad60 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'NFVI is included in the EUOS European catalogue of standards.
+
+EUOS reference:
+https://www.standict.eu/standards-repository'"""@en ;
+    cav:refersTo camssa:54f50e2b-8462-4a79-8c55-db7f0c58d059 .
+
+camssa:7bac3b3d-3ec9-48b1-914f-293c5c5393cb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'NFVI releases do not foresee public reviews. However, the Testing, Experimentation and Open Source (TST) Working Group provides feature requests to open source projects and results of implementation experience to open source communities (see NFV participation requirements reference). Moreover, there is a wiki that openly provides release notes and draftings.
+
+TST NFV reference:
+https://portal.etsi.org/TB-SiteMap/NFV/NFV-WGs-amp-EGs-ToR
+
+NFV participation requirements:
+https://www.etsi.org/network-functions-virtualisation/get-involved-in-nfv
+
+ETSI NFVI wiki reference:
+https://nfvwiki.etsi.org/index.php?title=Main_Page'"""@en ;
+    cav:refersTo camssa:7d2abd48-5482-493d-8d4b-2e91523b5ed0 .
+
+camssa:7bf65124-2421-4298-b33c-36bd3e6b30f2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Although the NFVI specification went through a modification in the context of the third NFV release (see NFV Release 3 Reliability, section 6.3.3.4), this specification assesses its conformance following predefined methods for pre-deployment testing of NFV functional components (see NFV Release 3 Reliability, subsection 6.5.3). These methods are manually applied.
+
+NFV Release 3 Reliability, 'NFV-REL 006v3.1.1 - GS - SW Upgrade spec.pdf' document:
+https://docbox.etsi.org/ISG/NFV/Open/Publications_pdf/Specs-Reports\""""@en ;
+    cav:refersTo camssa:6403ee77-6e98-46be-bcee-f1fb737ab16b .
+
+camssa:7d2abd48-5482-493d-8d4b-2e91523b5ed0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "20"^^xsd:int .
+
+camssa:7f390fea-8968-4187-93b9-7910c2d7326f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+20"^^xsd:int .
+
+camssa:89cd4989-d36b-465d-8723-92a85d7126aa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "60"^^xsd:int .
+
+camssa:8a315ab2-590e-4006-a96c-67a22feabe8f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"There exist several projects developing NFVI solutions. There exist some reports assessing the efficiency of NFVI and other specifications, such as OpenStack. OpenStack is an open source project that provides an open source cloud management system, that has jointly published a gap analysis with the ETSI Testing, Experimentation and Open Source (TST) Working Group. 
+
+ETSI-OpenStack wiki reference, 'ETSI NFV meets OpenStack workshop materials' section:
+https://nfvwiki.etsi.org/index.php?title=OpenStack_vs_IFA005006_Gaps\""""@en ;
+    cav:refersTo camssa:117b0978-cc20-4041-914e-310fb89429bf .
+
+camssa:8bbccfc2-085b-43c1-be98-4bb5b7deee01 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8d4ff994-e71b-4555-8923-40f0c2cfc2f4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"NFVI is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards\""""@en ;
+    cav:refersTo camssa:b7c61483-aafc-406c-ad11-251de82988cb .
+
+camssa:9264cdc3-92c5-4896-b1dc-5f41457e7df3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The NFV project started in 2013, and the first release of the NFVI took place in 2014. All the NFV distribution set underwent through a second release by 2016, and a third release in 2019 including software modifications of this specification. A fourth release in 2020 worked on the lightweight virtualisation support of technology allowing to optimise the NFV specification. An ETSI OnLine (EOL) account is required to access to the ETSI NFV Issuer Tracker.
+
+ETSI NFV reference: 
+https://www.etsi.org/technologies/nfv/nfv
+
+ETSI NFV release 3:
+https://www.etsi.org/deliver/etsi_gs/NFV-REL/001_099/006/03.01.01_60/gs_NFV-REL006v030101p.pdf
+
+NFVI Feature Tracker:
+https://nfvwiki.etsi.org/index.php?title=Feature_Tracking#FEAT03:_NFVI_software_modification
+
+ETSI NFV Issuer Tracker:
+https://nfvwiki.etsi.org/index.php?title=NFV_Issue_Tracker'"""@en ;
+    cav:refersTo camssa:43603113-58ca-46f8-a562-6f95d7a22a69 .
+
+camssa:942a25f0-bec4-4af2-9dda-ccd893568d77 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The European Union Agency for Cybersecurity (ENISA) has invested in the fifth generation of mobile telecommunication (5G), and includes the NFVI specification as a core element of the 5G implementation.
+
+Publications Office (OP), ENISA THREAT 
+LANDSCAPE FOR 5G NETWORKS document:
+https://op.europa.eu/en/home'"""@en ;
+    cav:refersTo camssa:29b66acc-a766-484f-a2df-8dea3b704bb3 .
+
+camssa:97ae9939-d310-43d9-96cb-e287b0cfdd3e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:98e12032-7e8d-43c5-8ae2-ba6271e0d2c0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:9b57ff41-2a18-440f-b705-3fbb57c66924 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'As the sum of all hardware and software components that make up the environment in which the NFV is deployed, the NFVI addresses security aspects through different standardised modules.
+
+NFVI Deliver, Infrastructure Overview section 6.7:
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/'"""@en ;
+    cav:refersTo camssa:66703b5f-7036-408e-bcae-238e21397775 .
+
+camssa:9d3e5c93-fd93-4953-9a4f-b794eb4b3475 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:9ff19d32-0f8f-4772-aa04-47e7af0ea351 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "20"^^xsd:int .
+
+camssa:a03c0796-d3ee-4d9e-9b2d-290e9280f085 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:aa7aa057-b540-4093-8383-cc0c0c8ea9bf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The NFVI ensures the deployment and execution of Virtualised Network Functions (VNFs). The specification spans across multiple locations where data centres are operating. Connectivity between these locations is considered part of the specification.
+
+NFVI Deliver, Infrastructure Overview:
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/'
+
+"The NFVI specification boosts hardware acceleration by using persistent memory resources, which contributes to enabling data portability (see see IEEXplore's report, section 8.3).
+
+IEEEXplore's NFV report reference:
+https://ieeexplore.ieee.org/document/7513857/\""""@en ;
+    cav:refersTo camssa:f8603ed3-049d-4c36-adc7-fd55f0a108a9 .
+
+camssa:ab593982-a55c-48f4-ad84-5febe5ef0591 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "20"^^xsd:int .
+
+camssa:abbaa4fb-2a4d-4973-ba3e-e8dba8c4845d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "80"^^xsd:int .
+
+camssa:ae52b9ed-4862-436d-be38-1838705e4f6d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:b578379d-4fc5-4e80-baba-bc3d8d8e2a5f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:b702af7d-e662-4843-bbbb-caa73569beb8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:b7c61483-aafc-406c-ad11-251de82988cb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:bb430e5b-b1cf-4605-a045-b80c6d1c24d9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c3637d86-dcc1-403f-b63f-befc0ba78418 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "20"^^xsd:int .
+
+camssa:c4aabd5a-897a-47f5-931f-598c5a9cae75 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI carries out the NFV Plugtests Programme. This programme offers a seamless and ubiquitous environment for collaborative testing and validation workshops between different organisations. The NFVI specification effectiveness was tested in different-purpose reports by the ETSI Centre for Testing and Interoperability.
+
+ETSI Plugtests Programme:
+https://www.etsi.org/technologies/nfv/nfv-plugtests-programme
+
+ETSI Centre for Testing and Interoperability:
+https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/Downloads/TestReports'"""@en ;
+    cav:refersTo camssa:e79ae5ae-1565-4c1f-a704-2f94c9194dc1 .
+
+camssa:c8be4e68-a174-451f-a1af-9018a854391a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:c9ab51fb-3d6b-43aa-9d2d-2f1a3127c49b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The NFVI specification facilitates the modelling of business processes because there exist several NFV models that support businesses to model their activity along with all the NFV components. There is a high level overview of the NFVI domains and interfaces in the specification documentation.
+
+NFVI Deliver, Infrastructure Overview section 7:
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/ '"""@en ;
+    cav:refersTo camssa:6c8e5089-ef56-4ba8-986e-35c0deb55746 .
+
+camssa:cc33d88a-c9dc-43c2-9511-8962eb2ffc95 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:int .
+
+camssa:cd0951bb-a073-40b5-8f5e-87a50a4ac56e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State that includes NFVI in their national catalogue with The National Interoperability Framework (NIF) in alignment with the three categories:
+	1- Conceptual model for integrated public services provision
+	2- Interoperability layers
+	3- Interoperability principles
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:97ae9939-d310-43d9-96cb-e287b0cfdd3e .
+
+camssa:d1950984-a7c0-408f-a41b-48b195897889 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'NFVI fosters and simplifies ditigal services, but does not consistently offer any delivery channel. This specification contains some counterparts in terms of systems connectivity, basically brought by its discrete connectivity (i.e., services are separate from each other and not interconnectable with 
+each other).
+
+NFVI Deliver, Infrastructure Overview section 7.3:
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/ '"""@en ;
+    cav:refersTo camssa:790faa2e-60e9-4e4b-b7db-b2d6cd8baca6 .
+
+camssa:e085dea1-49c6-4955-b35e-f13ef735be4f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The Industry Specification Groups (ISG), a working group in ETSI, are encharged of the development and maintenance of the NFVI specification. ISG members and ISG participants cooperate in developing and maintaining this specification, and contribute to the report writing. Participation is open prior a registration process and a financial contribution (see ETSI Directives' Rules of Procedure).
+
+ETSI Directives, Rules of Procedure:
+https://portal.etsi.org/Resources/ETSI-Directives
+
+ISG NFVI reference, NFV Member Agreement and NFV Participant Agreement:
+https://portal.etsi.org/TB-SiteMap/NFV/NFV-List-members\""""@en ;
+    cav:refersTo camssa:06a3905c-e00d-4b0c-8b0d-0745016f71e3 .
+
+camssa:e250c9a7-14b6-4e09-96fe-21ee675e8ed5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI and any of its committees, in charge of the development of NFVI, operates under the ETSI Intellectual Property Rigths (IPRs) and IPR Policy. The specification is licensed on a (F)RAND basis.
+
+Intellectual Property Rights Policy, ETSI ownership of IPRs section: 
+https://www.etsi.org/intellectual-property-rights'
+
+'The ETSI and any of its committees, in charge of the development of NFVI, operates under the ETSI Intellectual Property Rigths (IPRs) and IPR Policy. The specification is licensed on a Royalty-free.
+
+IPR Policy, ETSI ownership of IPRs section:
+https://www.etsi.org/intellectual-property-rights'"""@en ;
+    cav:refersTo camssa:98e12032-7e8d-43c5-8ae2-ba6271e0d2c0 .
+
+camssa:e471a86f-72ad-48bf-884c-268c9cc5e656 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:b578379d-4fc5-4e80-baba-bc3d8d8e2a5f .
+
+camssa:e4a97fa1-55bf-45c1-a462-2a54466ea160 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of the NFVI specification is not related to the comprehensibility of administrative procedures, rules data, and services.
+
+NFV reference:
+https://www.etsi.org/technologies/nfv/nfv'"""@en ;
+    cav:refersTo camssa:44fa31ae-e5c4-4ec0-ab95-38386cb445a6 .
+
+camssa:e79ae5ae-1565-4c1f-a704-2f94c9194dc1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "80"^^xsd:int .
+
+camssa:ebd71ffa-f6e9-45b3-8d44-58e4e3443473 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:c8be4e68-a174-451f-a1af-9018a854391a .
+
+camssa:f3d20700-4e63-4797-ba2d-6db3f03f83b0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The NFVI specification is composed of different virtualised resources that activates depending on the task (see NFVI Deliver, section 6.4.2.1). Therefore, the NFVI specification can be implemented partially. 
+
+NFVI Deliver, Infrastructure Overview: 
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/'"""@en ;
+    cav:refersTo camssa:89cd4989-d36b-465d-8723-92a85d7126aa .
+
+camssa:f818983c-a958-4b42-809c-8bac84dd127e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f8603ed3-049d-4c36-adc7-fd55f0a108a9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "80+80"^^xsd:int .
+
+camssa:fa13bf38-9421-4b9f-bc97-c79dba615475 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:fc41dd57-70bb-4fa1-b434-7a4ea2138ffc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'NFVI fosters and simplifies the digital exchange in network specific domains. Wireless network, e.g. 5G, deployment is a domain case where the NFVI specification is being considered at a European level. The counterside is that this specification has to be deployed collectively by all Public Administrations.
+
+NFVI Deliver, Infrastructure Overview section 7.3:
+https://www.etsi.org/deliver/etsi_gs/NFV-INF/001_099/001/01.01.01_60/ 
+
+5G NFV whipe paper:
+http://portal.etsi.org/NFV/NFV_White_Paper_5G.pdf'"""@en ;
+    cav:refersTo camssa:49db3987-59d0-4636-957e-8f7d9be506ec .
+

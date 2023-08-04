@@ -1,0 +1,762 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:71b734d93eea13de404910eb634943e6bc28f69d27f2f63bcbdf62230a832bb3 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:1ce9c042-6b8d-490b-be98-4f140ebdaaab ;
+    skos:prefLabel "CAMSS Team European Commission DG DIGIT"@en .
+
+camssa:7b5dd121f7b13f6f95616568ade57ad4cc924b614fc3ede9266cbc6503c45fd8 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:32734470ba159f230ee255180239975caec190ecd44e769d8a57df7e16b90efe ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:0621826a-e7e0-4e10-a2fc-58999e73bc86,
+        camssa:1d73edf9-9f61-4d6f-bf46-f537a8bfeb53,
+        camssa:1e50e998-b64c-4466-a5a9-f97f00f53c6d,
+        camssa:212ebdad-d38c-444d-a360-fc478cd91d47,
+        camssa:21b1fc65-4497-459b-9dc4-2227a2e58450,
+        camssa:23eb8098-6508-4569-95ad-33f1cf5441b6,
+        camssa:26a8cc6d-0ead-4bc3-b8ce-3ac45398a468,
+        camssa:30fe0854-d620-4ac9-95af-cab11a968afd,
+        camssa:388025ab-ec9d-4821-86d5-407067e3be0a,
+        camssa:46172d44-b23c-4023-826e-be217c93a7ff,
+        camssa:491cccd4-66a0-40ca-ba31-b11520259056,
+        camssa:53398fed-8349-4b68-ba1f-016de5d29d3a,
+        camssa:571f87c1-cb40-48a1-9f34-6540535a733f,
+        camssa:5cd5c08e-a21d-472f-9c69-b06012d29d80,
+        camssa:623c5f51-223b-42f3-af5f-69d1e9bda246,
+        camssa:7240da43-5f0e-4a52-b976-4c8c093a6cb0,
+        camssa:7d226e2b-da8a-4859-8a6b-3d67335fc3d6,
+        camssa:7e9f341f-0c1b-4e7d-9207-33ddfd743a50,
+        camssa:a09d665f-d8f9-4627-824d-5bb1d2facf52,
+        camssa:a29b5c06-dd5a-46a7-a84f-43dd8eb28ac5,
+        camssa:a6f96ad0-7e42-4e29-8f7e-d1d3dd5a52be,
+        camssa:b26be4be-7db9-4728-bd3c-3cff1435cefc,
+        camssa:b3a3f24b-4ee1-4508-a4d2-59496dc7e76b,
+        camssa:b506cb07-72da-4db5-93f8-ffd0850783c2,
+        camssa:b76b3e03-0a18-4b2d-a6ac-056efcea8d75,
+        camssa:baace3d6-0947-483a-b7df-9e15fd5d7643,
+        camssa:bd17c9bd-9d4b-4710-9c8b-e0a429baa023,
+        camssa:bda58800-54b7-46fa-b325-98a9e20b0aad,
+        camssa:bdf292ff-0fe1-4dce-afed-91c87a6e5e5c,
+        camssa:be0975be-5ac5-43d3-90cc-6d4989abf1cc,
+        camssa:c265514d-c10e-4662-a3df-4a172e8f0fc3,
+        camssa:c2c540a9-d0c0-4627-9231-0376cb1b1345,
+        camssa:c4d67c1c-83e8-4a3e-9475-38907ee05842,
+        camssa:d2f9384a-c08f-43da-9fa5-3ca9c8fd833b,
+        camssa:dc567cf4-2841-43e0-88e5-d360763d1ead,
+        camssa:ddcb0536-7bcc-4d4a-b117-379817679238,
+        camssa:e960ca87-22af-41fa-a3a8-35578c66ef08,
+        camssa:ec308b6b-81ab-4de8-bf2a-e205a92f0446,
+        camssa:ef83cce9-6c08-4977-956e-679b2eab8762,
+        camssa:f1b192f7-b829-441e-868c-bfaa2e8c1341,
+        camssa:f2b34feb-43ae-48c3-a294-9d0f145d8b02,
+        camssa:f78adee3-0d6f-4bea-8fc6-89ffab66188d,
+        camssa:f96a666b-bfdd-49b5-b5e1-989a6be63e7f,
+        camssa:fd502332-f0a7-44fa-8337-3da27aed495d,
+        camssa:ff493852-fcf6-46a1-8c50-5cbb93d2f482 ;
+    cav:status status:Complete ;
+    dct:title "OASIS Open Data Protocol (Odata)"@en .
+
+camssa:00f30358-932a-4703-8c3b-f61adec8062c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "40"^^xsd:int .
+
+camssa:0621826a-e7e0-4e10-a2fc-58999e73bc86 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:8b272dae-8a50-4151-ac30-6926690b55df .
+
+camssa:07ee8a2b-7445-4749-84f8-f764bb86b20d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:08187f30-bd75-48a7-8276-deafb1df723f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:0825e9a5-fc25-4219-972f-e6cb75962c55 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:int .
+
+camssa:10e32a08-6890-4baa-8ed8-c6ee3f4e07d4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "60"^^xsd:int .
+
+camssa:131453fb-5a90-4823-8fc4-5e0ce95938bb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:1ce9c042-6b8d-490b-be98-4f140ebdaaab a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@eu.europa.eu" .
+
+camssa:1d73edf9-9f61-4d6f-bf46-f537a8bfeb53 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData builds incrementally. Customers can easily build a very basic standards-compliant service. Only additional work will be needed to support extra or or add-on capabilities.
+
+OData, 2 Overview:
+http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752201'"""@en ;
+    cav:refersTo camssa:30bd72be-ac64-4951-8dbe-6bec7c64a73a .
+
+camssa:1e50e998-b64c-4466-a5a9-f97f00f53c6d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:cca6095e-d40b-40c6-b269-1b6f8b82f9a1 .
+
+camssa:212ebdad-d38c-444d-a360-fc478cd91d47 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData.org provides a OData Service Validation Tool for free to validate OData implementations.
+
+OData Service Validation Tool:
+https://www.odata.org/blog/odata-service-validation-tool/'"""@en ;
+    cav:refersTo camssa:f68d410a-4979-4ed6-a651-658497839319 .
+
+camssa:21b1fc65-4497-459b-9dc4-2227a2e58450 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of OData is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+OData reference:
+https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html'"""@en ;
+    cav:refersTo camssa:58b677af-b187-48a9-b561-22fd43a1e029 .
+
+camssa:21f1fbc5-8deb-4e02-9761-64582b4a2e32 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:23eb8098-6508-4569-95ad-33f1cf5441b6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The Open Data Protocol (OData) supports the creation of data services based on REST, which allow resources to be published and edited by web clients via HTTP messages. OData could allow a third-party information system to act on behalf of citizens who cannot, permanently or temporarily, make direct use of public services. In this sense, it can contribute to e-accessiblity.
+
+OData reference, 1 Introduction:
+https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html'"""@en ;
+    cav:refersTo camssa:ea025afe-d649-4ff8-b9ac-3510e0fb2692 .
+
+camssa:26a8cc6d-0ead-4bc3-b8ce-3ac45398a468 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There exist some assessments indirectly addressing the effectiveness of OData in industry (e.g., Microsoft Open Technologies), or documentation focusing on the improvement of the OData specification (e.g., the future release, OData.Neo).
+
+OData assessments reference:
+https://www.odata.org/blog/
+
+Microsoft Open Technologies (China) reference:
+https://www.odata.org/blog/microsoft-open-technologies-releases-odata-producer-for-sugarcrm-to-boost-the-efficiency-of-corporate-data-exchange/
+
+OData.Neo reference:
+https://github.com/OData/OData.Neo'"""@en ;
+    cav:refersTo camssa:2a2eff8d-6795-458e-a920-56e63fb10ae9 .
+
+camssa:27f9f40a-72ad-40ab-b7d5-b5c13f955214 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:29e6f7cf-545b-47af-a433-8e459ab8cdc3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:2a2eff8d-6795-458e-a920-56e63fb10ae9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "40"^^xsd:int .
+
+camssa:30bd72be-ac64-4951-8dbe-6bec7c64a73a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:30fe0854-d620-4ac9-95af-cab11a968afd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData is maintained and developed by OASIS, which is an international community developing open standards; specifically, by the Technical Committee (TC). The specification maintenance is transparent, and even if its development and the approval process is restricted to the specification TC, anyone can contribute by submitting feedback to the mailing list. All the contributions are publicly available.
+
+Developer community OASIS: 
+https://www.oasis-open.org/org/
+
+OData Technical Committee:
+http://www.oasis-open.org/committees/odata/'"""@en ;
+    cav:refersTo camssa:aec1d50f-55a6-4249-a293-1c9c9b6456eb .
+
+camssa:3414db81-387d-465d-9aad-4f36eedf2743 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "20"^^xsd:int .
+
+camssa:388025ab-ec9d-4821-86d5-407067e3be0a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData is a recommendation and protocol for data exchange. Therefore, the specification enables the secure exchange of data.
+
+OData reference:
+http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html'"""@en ;
+    cav:refersTo camssa:c7f0ae5c-9591-4b1c-864f-cb720188e136 .
+
+camssa:3a1a3d1e-fa24-4ea9-92aa-5ec5e5571fab a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "60"^^xsd:int .
+
+camssa:451ba61f-d51a-406e-9d81-ae7a7244e8b1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:46172d44-b23c-4023-826e-be217c93a7ff a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'This specification is currently not included in the EIRA Library of Interoperability Specifications (ELIS), but will be included in the next release of the ELIS. The response to this criterion is positive because OData is mappable to the European Interoperability Reference Architecture (EIRA).
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:b9021c13-fb9e-415a-8347-f4321bb07d43 .
+
+camssa:46f2a01f-73ed-4f69-853c-0faac0c5d1a4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "20"^^xsd:int .
+
+camssa:4747ffcc-425a-4b76-91e6-b0f61aef4462 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "40"^^xsd:int .
+
+camssa:491cccd4-66a0-40ca-ba31-b11520259056 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The OASIS Technical Committee, in charge of the development of OData, operates under RF (royalty-free) on RAND Mode of the OASIS IPR Policy. Therefore, the specification is licensed on a Royalty-free.
+
+OASIS Intellectual Property guidelines, section 5.2:
+https://www.oasis-open.org/policies-guidelines/ipr/'
+
+'The OASIS Technical Committee, in charge of the development of OData, operates under RF (royalty-free) on RAND Mode of the OASIS IPR Policy. Therefore, the specification is licensed on a (F)RAND basis.
+
+OData reference, section 1.0:
+https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html
+
+OASIS Intellectual Property Rights Policy, section 10.2.2:
+https://www.oasis-open.org/policies-guidelines/ipr/'"""@en ;
+    cav:refersTo camssa:a71f2240-2ea6-4a89-97a8-84198028c63b .
+
+camssa:4d82e2b0-d085-4bbf-9ef4-dd0e675ccf32 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4fcb2806-74cd-41b5-88df-e7a02048a4f5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4ffd5401-9cf6-432c-85dc-d9b99f066733 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:53398fed-8349-4b68-ba1f-016de5d29d3a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData services return URLs to identify resources that may be later requested by clients. Where possible, data reusability increases by exploiting the information found in the route part of the URL, or by easing datasets management. However, data reusability might be limited. There is no evidence of any European solution confirming this aspect.
+
+OData reference, 6.1 Query Option Extensibility:
+http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752211'"""@en ;
+    cav:refersTo camssa:4747ffcc-425a-4b76-91e6-b0f61aef4462 .
+
+camssa:571f87c1-cb40-48a1-9f34-6540535a733f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The specification is included in two Member States' catalogues of recommended specifications. These Member States are The Netherlands and France.
+
+
+National catalogue France: 
+http://references.modernisation.gouv.fr/sites/default/files/Referentiel_General_Interoperabilite_V2.pdf
+
+National catalogue Netherlands:
+https://www.forumstandaardisatie.nl/open-standaarden/lijst
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards	\""""@en ;
+    cav:refersTo camssa:21f1fbc5-8deb-4e02-9761-64582b4a2e32 .
+
+camssa:58b677af-b187-48a9-b561-22fd43a1e029 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5cd5c08e-a21d-472f-9c69-b06012d29d80 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData offers a way to both break down data silos and increase the shared value of data. The specification contributes creating an ecosystem where data consumers and producers can interoperate more than ever, allowing more applications to make sense of a broader set of data and eases the delivery of European public services (see the Netherlands Advisory report stating the usability of OData as a solution to streamline the delivery of public services).
+
+Joinup reference:
+https://joinup.ec.europa.eu/collection/ict-standards-procurement/solution/odp-oasis-open-data-protocol-odata-tc/about
+
+Netherlands OData Advisory report reference: 
+https://www.forumstandaardisatie.nl/open-standaarden/odata'"""@en ;
+    cav:refersTo camssa:4ffd5401-9cf6-432c-85dc-d9b99f066733 .
+
+camssa:623c5f51-223b-42f3-af5f-69d1e9bda246 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'No formal agreements have been found between organisations or administrations including OData in a European public service provision.
+
+ICT Technical Specifications reference:
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en'"""@en ;
+    cav:refersTo camssa:46f2a01f-73ed-4f69-853c-0faac0c5d1a4 .
+
+camssa:6f135988-cb79-486d-99a8-ca10315c0377 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:70ac4f4f-8482-4ece-ae70-75edf40be20b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "60+60"^^xsd:int .
+
+camssa:7240da43-5f0e-4a52-b976-4c8c093a6cb0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'As defined on the OASIS Technical Committee (TC), the OData TC are involved in the release lifecycle of the specification. External contribution to this committee is possible through open channels. Up-to-date, the OData TC has announced three public reviews; however, the topic selection of these reviews is independent of the external contributors.
+
+OData OASIS Technical Committee reference:
+https://www.oasis-open.org/committees/comments/index.php?wg_abbrev=odata
+
+OData OASIS Technical Committee, Overview reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=odata#overview
+
+OData TC third review reference:
+https://www.oasis-open.org/2021/12/09/invitation-to-comment-on-odata-extension-for-temporal-data-v4-0-3/'"""@en ;
+    cav:refersTo camssa:00f30358-932a-4703-8c3b-f61adec8062c .
+
+camssa:7d226e2b-da8a-4859-8a6b-3d67335fc3d6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData offers a way to both break down data silos and increase the shared value of data (see Joinup reference). The specification contributes creating an ecosystem where data consumers and producers can interoperate more than ever, allowing more applications to make sense of a broader set of data. In this sense, the specification promotes visibility, for example through the OData data model. However, no evidence was found in terms of promoting and supporting the internal nor the external visibility of European public services.
+
+Joinup OASIS Open Data Protocol reference:
+https://joinup.ec.europa.eu/collection/ict-standards-procurement/solution/odp-oasis-open-data-protocol-odata-tc/about'"""@en ;
+    cav:refersTo camssa:10e32a08-6890-4baa-8ed8-c6ee3f4e07d4 .
+
+camssa:7e9f341f-0c1b-4e7d-9207-33ddfd743a50 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Odata is included in 3 national catalogues of recommended specifications. They belong to France, Malta and The Netherlands.
+The National Interoperability Framework (NIF) of these Member States varies when aligned with the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+National catalogue France: 
+http://references.modernisation.gouv.fr/sites/default/files/Referentiel_General_Interoperabilite_V2.pdf
+
+National catalogue Netherlands:
+https://www.forumstandaardisatie.nl/open-standaarden/lijst
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/digital-public-administration-factsheets-2021'"""@en ;
+    cav:refersTo camssa:bc5ff36a-30cd-4ba4-bfc8-b1d18db0c6b1 .
+
+camssa:8b272dae-8a50-4151-ac30-6926690b55df a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:a09d665f-d8f9-4627-824d-5bb1d2facf52 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData services are used by a large community of users. The OData protocol differs from other REST-based web services in that it provides a uniform way of describing both the data and the data model. OData should be implemented as a very basic and compliant service; in this sense, th specification is domain-agnostic, designed to be implemented in any domain. For example, there are the 
+Cambridge Weather-Pyslet demo service and the City of Medicine Hat Open Data Portal, in the field of academics and medicine, respectively.
+
+OData ecosystem, Live services reference:
+https://www.odata.org/ecosystem/
+
+OData reference, 2 Overview:
+http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752201'
+
+'OData services are used by a large community of users. These services use a common data model, which allows any client to interact with the service in a well-defined way (see OData reference). In this sense, the specification is domain-agnostic. For example, there are the Cambridge Weather-Pyslet demo service and the City of Medicine Hat Open Data Portal, in the field of academics and medicine, respectively.
+
+OData ecosystem, Live services reference:
+https://www.odata.org/ecosystem/
+
+OData reference, 4 Service model:
+http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752204'"""@en ;
+    cav:refersTo camssa:07ee8a2b-7445-4749-84f8-f764bb86b20d .
+
+camssa:a29b5c06-dd5a-46a7-a84f-43dd8eb28ac5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData allows for including custom transformations (that is, query options) that the user explicitly requests, which are not necessary defined in the OData specification. However, these extensions are restrictive or limited to a specific functionality.
+
+OData reference, 2 Overview and 6 Extensibility:
+http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752211'"""@en ;
+    cav:refersTo camssa:d20d0fb6-f023-4648-aec7-4973971f4eb3 .
+
+camssa:a6633aaf-9d89-4ccd-8343-4022e17d0c9d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:a6f96ad0-7e42-4e29-8f7e-d1d3dd5a52be a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The OData protocol provides support for both user and version-driven extensibility by means of different extension methods, through a combination of versioning, conventions and explicit extension points.
+
+OData reference, 6 Extensibility:
+http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752211'"""@en ;
+    cav:refersTo camssa:defdf051-f317-4c49-837b-f22958b5dac1 .
+
+camssa:a71f2240-2ea6-4a89-97a8-84198028c63b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:aec1d50f-55a6-4249-a293-1c9c9b6456eb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b26be4be-7db9-4728-bd3c-3cff1435cefc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData is a recommendation and protocol for data exchange. Therefore, the specification can contribute to enabling the secure processing of data.
+
+OData reference:
+http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html'"""@en ;
+    cav:refersTo camssa:cd2f270a-d13f-40fb-ae0a-3735877e10c3 .
+
+camssa:b3a3f24b-4ee1-4508-a4d2-59496dc7e76b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of OData is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification.
+
+OData reference: 
+http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.htm'"""@en ;
+    cav:refersTo camssa:bbc09022-5944-4ca5-bd6d-f56ee0b15b9f .
+
+camssa:b506cb07-72da-4db5-93f8-ffd0850783c2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:08187f30-bd75-48a7-8276-deafb1df723f .
+
+camssa:b76b3e03-0a18-4b2d-a6ac-056efcea8d75 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData is a protocol of querying and sharing, and as such is not supposed to offer long-term preservation of data. Therefore, this criterion is considered not applicable to this specification. 
+
+OData reference:
+https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html'"""@en ;
+    cav:refersTo camssa:131453fb-5a90-4823-8fc4-5e0ce95938bb .
+
+camssa:b9021c13-fb9e-415a-8347-f4321bb07d43 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:baace3d6-0947-483a-b7df-9e15fd5d7643 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData offers access to information from relational databases, file systems, content management systems, traditional websites, and others. Therefore, it enables and renforce the delivery of European public services.
+
+Joinup reference:
+https://joinup.ec.europa.eu/collection/ict-standards-procurement/solution/odp-oasis-open-data-protocol-odata-tc/about'"""@en ;
+    cav:refersTo camssa:fe2e4e21-8a7d-47fb-904e-144864a55d8b .
+
+camssa:bbc09022-5944-4ca5-bd6d-f56ee0b15b9f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bc5ff36a-30cd-4ba4-bfc8-b1d18db0c6b1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bd17c9bd-9d4b-4710-9c8b-e0a429baa023 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6f135988-cb79-486d-99a8-ca10315c0377 .
+
+camssa:bda58800-54b7-46fa-b325-98a9e20b0aad a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The OData protocol is an application layer protocol for exchanging data through RESTful interfaces. In this sense, the specification enables exposure of any interface, including those interfaces providing access to public administration's services.
+
+OData reference:
+http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752201\""""@en ;
+    cav:refersTo camssa:e2d85785-8807-454b-a825-e5912dfc7fb7 .
+
+camssa:bdf292ff-0fe1-4dce-afed-91c87a6e5e5c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData was approved as an OASIS Standard in 2014 and as an ISO standard in 2017. Currently, there is OData version 4.1. Microsoft, as other corporations (see OData ecosystem reference) and organisations such as the World Health Organization (WHO), are using this specification in some of their systems.
+
+Besides, the OData Technical committee is very active in terms of new releases.
+
+OData Blog:
+https://www.odata.org/blog/OData-Published-as-an-ISO-Standard/
+
+OData Technical Committee:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=odata#technical
+
+OData ecosystem reference:
+https://www.odata.org/ecosystem/
+
+Microsoft-OData reference:
+https://docs.microsoft.com/es-es/odata/
+
+WHO reference:
+https://www.who.int/data/gho/info/gho-odata-api'"""@en ;
+    cav:refersTo camssa:29e6f7cf-545b-47af-a433-8e459ab8cdc3 .
+
+camssa:be0975be-5ac5-43d3-90cc-6d4989abf1cc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData promotes the sharing of data and results, and begs for its approval as an ISO/IEC Standard to help accelerate the specification adoption throughout the international community, particularly within government agencies. In this sense, the specification encourages both the creation of communities and the sharing of their data and results on European platforms.
+
+OData referenece, data exchange:
+https://www.oasis-open.org/news/pr/iso-iec-jtc-1-approves-oasis-odata-standard-for-open-data-exchange/'
+
+'OData promotes the sharing of data and results, and begs for its approval as an ISO/IEC Standard to help accelerate the specification adoption throughout the international community, particularly within government agencies. In this sense, the specification encourages both the creation of communities and the sharing of their data and results on national platforms.
+
+OData referenece, data exchange:
+https://www.oasis-open.org/news/pr/iso-iec-jtc-1-approves-oasis-odata-standard-for-open-data-exchange/'"""@en ;
+    cav:refersTo camssa:f47a1a88-eb5c-486c-a07e-9497d0902b0e .
+
+camssa:c265514d-c10e-4662-a3df-4a172e8f0fc3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"After carrying out information retrieval, an expert group from The Netherlands has been assessing the OData in terms of efficiency. These experts anounced a fast data processing.
+
+Expert group's OData analysis:
+https://www.forumstandaardisatie.nl/open-standaarden/odata\""""@en ;
+    cav:refersTo camssa:3a1a3d1e-fa24-4ea9-92aa-5ec5e5571fab .
+
+camssa:c2c540a9-d0c0-4627-9231-0376cb1b1345 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are two Member States recommending OData in their ICT National Catalogues. These Member States are The Netherlands and France.
+
+Netherlands Catalogue reference:
+https://www.forumstandaardisatie.nl/open-standaarden/aanbevolen
+
+France catalogue reference:
+http://references.modernisation.gouv.fr/sites/default/files/Referentiel_General_Interoperabilite_V2.pdf
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:df0395e5-963b-4079-9392-589e63f4158a .
+
+camssa:c4d67c1c-83e8-4a3e-9475-38907ee05842 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no mention of Odata in any official document stating its conformance in regards to Regulation 1025/2012.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:3414db81-387d-465d-9aad-4f36eedf2743 .
+
+camssa:c7f0ae5c-9591-4b1c-864f-cb720188e136 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cb5adebe-98e7-4a02-95f5-a2b7fff1cd8a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "60"^^xsd:int .
+
+camssa:cca6095e-d40b-40c6-b269-1b6f8b82f9a1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cd2f270a-d13f-40fb-ae0a-3735877e10c3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "40"^^xsd:int .
+
+camssa:d20d0fb6-f023-4648-aec7-4973971f4eb3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:d2f9384a-c08f-43da-9fa5-3ca9c8fd833b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:a6633aaf-9d89-4ccd-8343-4022e17d0c9d .
+
+camssa:d5a2b581-5a34-4fb8-88bc-954d3891e150 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d7cf8b12-a618-49eb-89c2-2a5f6d7a560b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:dc567cf4-2841-43e0-88e5-d360763d1ead a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData offers a way to both break down data silos and increase the shared value of data. The specification contributes to creating an ecosystem where data consumers and producers can interoperate more than ever, allowing more applications to make sense of a broader set of data. In this sense, the specification promotes comprehensibility, for example through the OData data model. However, no evidence was found in terms of promoting and supporting the comprehensibility of European public services.
+
+About ODP - OASIS Open Data Protocol (OData) TC (Joinup):
+https://joinup.ec.europa.eu/collection/ict-standards-procurement/solution/odp-oasis-open-data-protocol-odata-tc/about'"""@en ;
+    cav:refersTo camssa:cb5adebe-98e7-4a02-95f5-a2b7fff1cd8a .
+
+camssa:ddcb0536-7bcc-4d4a-b117-379817679238 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData queries and shares data accross different systems via RESTful interfaces. RESTful APIs may be platform-agnostic, without any dependency on the environment or programming language being used; however, this use case is not always applied. Therefore, the specification is not platform-agnostic.
+
+OData reference: 
+http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html
+
+RESTful reference, Use cases section:
+https://restfulapi.io/'"""@en ;
+    cav:refersTo camssa:e78a9cca-f9a6-4651-a42b-c55a0dd4d74b .
+
+camssa:defdf051-f317-4c49-837b-f22958b5dac1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:df0395e5-963b-4079-9392-589e63f4158a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e2d85785-8807-454b-a825-e5912dfc7fb7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:e78a9cca-f9a6-4651-a42b-c55a0dd4d74b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "20"^^xsd:int .
+
+camssa:e960ca87-22af-41fa-a3a8-35578c66ef08 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'As defined on the OASIS Technical Committee (TC), only TC members are involved in the development of the OData specification. External contribution to this committee is possible through open channels.
+
+OData OASIS Technical Committee reference:
+https://www.oasis-open.org/committees/comments/index.php?wg_abbrev=odata
+
+OData OASIS Technical Committee, Overview reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=odata#overview
+
+OData.org working groups:
+https://www.odata.org/contribution/'"""@en ;
+    cav:refersTo camssa:ea1923d6-e161-4f68-9207-2456ef64c5c1 .
+
+camssa:ea025afe-d649-4ff8-b9ac-3510e0fb2692 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "60"^^xsd:int .
+
+camssa:ea1923d6-e161-4f68-9207-2456ef64c5c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "80"^^xsd:int .
+
+camssa:ec308b6b-81ab-4de8-bf2a-e205a92f0446 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data, the forth star corresponds to represent data with URIs. OData follows REST principles, and as a consequence this specification supports the publication of data as open data. 
+
+Tim Berners-Lee 5-star schema for Open Data:   
+https://5stardata.info/en/
+
+Odata reference, section 2 Overview:
+http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752201
+
+REST reference, 'What is a resource?' section:
+https://restfulapi.net/"
+
+'According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data, the forth star corresponds to represent data with URIs. According to the Odata home page, OData enables the publication of open data. This specification supports REST-based data services, allowing any resource, as well as open data, to be published and edited via simple HTTP messages.
+
+Tim Berners-Lee 5-star schema for Open Data:   
+https://5stardata.info/en/
+
+Odata reference:
+https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html'"""@en ;
+    cav:refersTo camssa:d7cf8b12-a618-49eb-89c2-2a5f6d7a560b .
+
+camssa:ef83cce9-6c08-4977-956e-679b2eab8762 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData is tied up to RESTful APIs communication. Although the OData service declares its own data model in a machine-readable form, which allows customers to interact with the service on a generic basis, OData relies on RESTful APIs in order to be implemented.
+
+OData reference, 4 Service Model:
+http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752204'"""@en ;
+    cav:refersTo camssa:0825e9a5-fc25-4219-972f-e6cb75962c55 .
+
+camssa:f1b192f7-b829-441e-868c-bfaa2e8c1341 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData follows REST principles and there exists some kind of data protection. However, the purpose of OData is not related to the security and privacy of the data exchange.
+
+OData reference:
+http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752201'"""@en ;
+    cav:refersTo camssa:27f9f40a-72ad-40ab-b7d5-b5c13f955214 .
+
+camssa:f2b34feb-43ae-48c3-a294-9d0f145d8b02 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:d5a2b581-5a34-4fb8-88bc-954d3891e150 .
+
+camssa:f47a1a88-eb5c-486c-a07e-9497d0902b0e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:f68d410a-4979-4ed6-a651-658497839319 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:f78adee3-0d6f-4bea-8fc6-89ffab66188d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The purpose of OData is not related to the organisational interoperability agreements. Moreover, one of the MS recommending this specificacion, the Netherlands, confirms its not applicability over organisational aspects. Therefore, this criterion is not applicable to the specification.
+
+OData reference:
+https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html
+
+Netherland's OData report:
+https://www.forumstandaardisatie.nl/open-standaarden/odata\""""@en ;
+    cav:refersTo camssa:451ba61f-d51a-406e-9d81-ae7a7244e8b1 .
+
+camssa:f96a666b-bfdd-49b5-b5e1-989a6be63e7f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are pieces of evidence that state OData is wide-spread and used (see OData ecosystem reference). Although there are some market alternatives to OData, such as GData (Google), it is worth to note that there is some evidence of OData as an innovative solutions creator. Moreover, the specification has a dedicated Github tailored by the Microsoft community.
+
+Stackshare-OData reference:
+https://stackshare.io/odata/alternatives
+
+OData ecosystem reference:
+https://www.odata.org/ecosystem/
+
+OData-Microsoft Github reference:
+https://github.com/OData'"""@en ;
+    cav:refersTo camssa:4fcb2806-74cd-41b5-88df-e7a02048a4f5 .
+
+camssa:fd502332-f0a7-44fa-8337-3da27aed495d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'OData services return URLs to identify resources requested by clients. Where possible, interoperability increases by exploiting the information found in the route part of the URL. However, attention must be paid to those URLs including custom transformations (that is, query options) and clients must be aware of it in future requests to the identified resource.
+
+OData reference, 6 Extensibility:
+http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752211'
+
+'OData services return URLs to identify resources requested by clients. Where possible, interoperability increases by exploiting the information found in the route part of the URL. However, attention must be paid to those URLs including custom transformations (that is, query options) and clients must be aware of it in future requests to the identified resource.
+
+OData reference, 6 Extensibility:
+http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752211'"""@en ;
+    cav:refersTo camssa:70ac4f4f-8482-4ece-ae70-75edf40be20b .
+
+camssa:fe2e4e21-8a7d-47fb-904e-144864a55d8b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:ff493852-fcf6-46a1-8c50-5cbb93d2f482 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The OData specification is included in the EUOS European catalogue of standards.
+
+EUOS reference:
+https://www.standict.eu/standards-repository'"""@en ;
+    cav:refersTo camssa:4d82e2b0-d085-4bbf-9ef4-dd0e675ccf32 .
+

@@ -1,0 +1,662 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:53dda622688ec60fee3356a0f42bb9099ee1d7c5a5045836aaae40287809e1e2 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:121193a8e270bc9666904b77a28db8810a9a0313df7bee88f2c572d3483e0e4e ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:0ff84bd3-28fe-4a0d-ab44-241c7b9ae839,
+        camssa:1af3ac63-dba5-4e6d-8ec1-0b64f6580ef8,
+        camssa:1c5a221c-f9b5-4058-8e68-9b499df04cf4,
+        camssa:28c7790f-eaac-4196-8b10-8397430639f1,
+        camssa:2da1057b-4635-4595-818e-a92390e94f13,
+        camssa:2ef44d6e-cd9d-454b-8dd1-c50e9095ef9e,
+        camssa:30b864ec-ec90-4a35-9735-ecb4fea598d3,
+        camssa:31cffd3f-dd62-4332-9478-b690ff3513c1,
+        camssa:3ba701a6-1077-4a4c-ae2e-26777cc2ca70,
+        camssa:42fc0ced-462e-459a-b070-3f9c0a96e504,
+        camssa:43202718-de90-418c-8641-5955d13a9f17,
+        camssa:432b2475-4790-453d-bb91-b9cb25f114e9,
+        camssa:4581e368-1593-4286-aa83-ac4176ef5795,
+        camssa:45913dba-6cf0-47fb-8185-f2c511f42636,
+        camssa:5d650cc7-963d-46e5-b21f-73b226a4d174,
+        camssa:5f558939-376f-4145-bdf6-892f3c222d37,
+        camssa:611a65e0-dd37-4140-95c0-2f8c07e8c136,
+        camssa:656e8921-5aa9-46eb-be65-6920723fc1ce,
+        camssa:6df8c2ce-eab2-4938-81af-3b728b4b7f57,
+        camssa:6ef540f6-40a2-4534-b9a2-a00ec5e9d121,
+        camssa:6ef6fb0b-d8a1-4d0b-8a4e-41dc7f97dab5,
+        camssa:6f7383c0-0290-448a-b968-d61037cc2c10,
+        camssa:70afafed-0ae7-47a2-a162-00d723bd750e,
+        camssa:8cb50faa-71cf-462f-b7f4-d9d964dcb894,
+        camssa:8d2ef2c0-5c61-42d1-9a0f-9b0899041512,
+        camssa:9e5b9809-c7f2-4d3a-96d5-e66598ac9155,
+        camssa:adf0f363-8802-4b35-bb79-75a9f6f8e7f6,
+        camssa:af6c4055-95e7-45f3-935a-2499fa0162c3,
+        camssa:b0d6562e-86c4-4d77-9993-376a3354e260,
+        camssa:b1164826-e138-4a75-bbdc-97b9b3313732,
+        camssa:b6e678c0-86b3-4e96-a88a-5a0d9f49a31c,
+        camssa:c8718af5-f09e-485b-acf8-f81fed65e7c7,
+        camssa:ca0c9992-08d2-4951-b6c3-bb4f359164b0,
+        camssa:d540cb66-7e31-4256-a5f4-c41289234358,
+        camssa:d706c8e2-a36f-434d-8036-0185f05825c8,
+        camssa:d7e8223f-b33b-47b8-a264-d60bca1f77db,
+        camssa:d80f211f-8da6-4be4-b9ec-7315a8c2dce7,
+        camssa:e6c74fd2-fc00-4f9f-b358-5dfda27318f6,
+        camssa:e83ef09a-0df3-49e3-83f2-4becb89acfa3,
+        camssa:e902bcef-e529-4bd1-8e53-05b87ab22f55,
+        camssa:e96ce6d8-5b9e-4255-bb87-44ac4583c013,
+        camssa:e99417d6-ed39-4b5d-90ff-caf9c12acc5f,
+        camssa:eae546eb-8664-4261-b8b6-ecc1a8c494da,
+        camssa:ee25661d-f379-4f9a-aac6-47513197e773,
+        camssa:eeed1330-bf8e-4f37-9a12-e11c1447f66f ;
+    cav:status status:Complete ;
+    dct:title "Better Regulation Toolbox"@en .
+
+camssa:dc03fdba33ba33606e802b3a6b6fe67c2f21945bf21daee58012b477e0de91aa a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:0b76fd3e-fbae-4055-8bd1-32c68da68528 ;
+    skos:prefLabel "Camss Team"@en .
+
+camssa:01d85553-4509-4b22-a850-371cb7a3140d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:067e3863-fde0-405f-ac45-5e16715d8f5e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:0b76fd3e-fbae-4055-8bd1-32c68da68528 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "NaN"^^xsd:double .
+
+camssa:0ff84bd3-28fe-4a0d-ab44-241c7b9ae839 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent from any software, hardware, or operating system. It can be used and applied independently from other standards, or software requierements. 
+
+Betterr Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf"""@en ;
+    cav:refersTo camssa:9b7fa326-3f48-4ef9-bdea-09f3406f6406 .
+
+camssa:10ac43b0-ba09-4b9d-adfd-1b0d47820a68 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:1af3ac63-dba5-4e6d-8ec1-0b64f6580ef8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:1cb5bed9-8d19-4db9-8f43-c5a53c97c3d0 .
+
+camssa:1c5a221c-f9b5-4058-8e68-9b499df04cf4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:2467709f-4bab-4b60-9e66-7e6ab303a49f .
+
+camssa:1cb5bed9-8d19-4db9-8f43-c5a53c97c3d0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:2467709f-4bab-4b60-9e66-7e6ab303a49f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2662a506-2bb1-4512-b7f0-7aef8b90d435 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:28c7790f-eaac-4196-8b10-8397430639f1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Better Regulation Toolbox has the support of the European Commission as a developer community. It is the most powerful party giving support to its development and working to enhance through the experience.
+
+Better Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf .
+
+European Commission webpage:
+https://ec.europa.eu/info/index_en"""@en ;
+    cav:refersTo camssa:58c69f26-1261-4304-9f40-1f526d511676 .
+
+camssa:2da1057b-4635-4595-818e-a92390e94f13 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:4f4cd696-7edb-4070-9604-bc02e12c0675 .
+
+camssa:2ef44d6e-cd9d-454b-8dd1-c50e9095ef9e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Better Regulation Toolbox includes references to the relevance of Linked Open Data for the development of public policies. It is one of the principles or basis for the evidence-based development that the specification defines, however, the purpose of the specification is not related to the development and publication of Linked Open Data.
+
+Betterr Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html
+
+None"""@en ;
+    cav:refersTo camssa:a1b65934-d335-450c-811c-126f1612b159 .
+
+camssa:30b864ec-ec90-4a35-9735-ecb4fea598d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:538b03f5-5027-469a-9718-08e54dd3bdc3 .
+
+camssa:31cffd3f-dd62-4332-9478-b690ff3513c1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Better Regulation Toolbox includes accessibility within the ICT requirements that ICT systems and solutions should cover for the proper implementation of a specific public policy (Tool #27). Therefore, it can be considered that taking the tools and methods, the specification can positively impact the e-accessibility of public services and solutions. 
+
+Betterr Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf"""@en ;
+    cav:refersTo camssa:706f8a7e-c6e1-4c40-8cb1-fb95eed0d057 .
+
+camssa:3207a1fb-a215-4791-a1ff-797c516fbd89 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:3658328c-1761-4bca-bd8d-94299ab55b11 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:366279fd-8d1d-49ac-bab2-c99dd62c0c1f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:3744baa5-5e7c-4d81-99c5-17926972f2ef a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:3ba701a6-1077-4a4c-ae2e-26777cc2ca70 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Not enough information has been found to answer positively or negatively to this criterion. No information related to the governance process of the Better regulation has been found to support the answer to the criterion. 
+
+European Comission webpage:
+https://ec.europa.eu/info/strategy/decision-making-process_en"""@en ;
+    cav:refersTo camssa:10ac43b0-ba09-4b9d-adfd-1b0d47820a68 .
+
+camssa:42fc0ced-462e-459a-b070-3f9c0a96e504 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:4d8d033c-4877-4039-b4bf-f3bf84e4ce23 .
+
+camssa:43202718-de90-418c-8641-5955d13a9f17 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Better Regulation Toolbox is publicly available and aims to help public administrations in the development of public policies and laws according to real needs while it makes the process and data more transparent fostering the accountability of public administrations. 
+
+Betterr Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf
+
+Objective of Better Regulation Toolbox: 
+https://ec.europa.eu/info/law/law-making-process/planning-and-proposing-law/better-regulation-why-and-how_en#objectives-of-the-better-regulation-agenda"""@en ;
+    cav:refersTo camssa:bb53e00c-3f36-484c-95e6-493e5273d65c .
+
+camssa:432b2475-4790-453d-bb91-b9cb25f114e9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Better Regulation Toolbox is an internal European Commission resource designed as a complement to the Commission's Better regulation guideline. Even though it could be extended or modified to fit other business requirements at the National level, for instance, there are no implementations that evidence the possibility of extension to other business domains than the development of public policies and laws.
+
+Betterr Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf
+
+Better Regulation Toolbox is an internal European Commission resource designed as a complement to the Commission's Better regulation guideline. Even though it could be extended or modified to fit other business requirements at the National level, for instance, there are no implementations that evidence the possibility of extension to other business domains than the development of public policies and laws.
+
+Betterr Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf"""@en ;
+    cav:refersTo camssa:e0d8bc9d-7e0c-496d-8139-9a11014b8a77 .
+
+camssa:453dc3bf-5dc8-4a9c-ac91-176c3964fde7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:4581e368-1593-4286-aa83-ac4176ef5795 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is focused on providing guidelines, recommendations and mechanisms for the proper development of public policies and laws. Within the recommendations and mechanisms, there are no implications for long-term preservation or e-archiving. Therefore, it can be said that this is not the purpose of the specification and this criterion is considered not applicable to this specification.
+
+Better Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf"""@en ;
+    cav:refersTo camssa:b435acd7-4025-4c6d-8024-ebed3cef00e0 .
+
+camssa:45913dba-6cf0-47fb-8185-f2c511f42636 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:01d85553-4509-4b22-a850-371cb7a3140d .
+
+camssa:469fe711-f89d-474d-94d0-2afe3e067e15 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4d8d033c-4877-4039-b4bf-f3bf84e4ce23 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:4f4cd696-7edb-4070-9604-bc02e12c0675 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:538b03f5-5027-469a-9718-08e54dd3bdc3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:54f79342-ae72-4600-b7fa-5b933b199eb9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:58a8b50c-7d52-4837-a8a5-e83f2ea95268 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:58c69f26-1261-4304-9f40-1f526d511676 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5d650cc7-963d-46e5-b21f-73b226a4d174 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at the supra-national level, the European Commission has listed it within Better Regulation Toolbox with all the specifications and resources produced and used by European Institutions. 
+
+Even though the specification is not listed in the ICT standards catalogue, it can be considered that is included within a European Catalogue because it is included within the European Commission solutions stack for the development of better digital administrations.
+
+Better Regulation Toolbox on European Comission webpage:
+https://ec.europa.eu/info/law/law-making-process/planning-and-proposing-law/better-regulation-why-and-how/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en"""@en ;
+    cav:refersTo camssa:f01fe4cb-0ae4-45b2-9bca-de352ab7236b .
+
+camssa:5d863263-01b4-4543-b232-32d48faddc1f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5f558939-376f-4145-bdf6-892f3c222d37 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+None"""@en ;
+    cav:refersTo camssa:2662a506-2bb1-4512-b7f0-7aef8b90d435 .
+
+camssa:5ff0e40f-8445-45e8-b13d-6ddf121fa4c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:611a65e0-dd37-4140-95c0-2f8c07e8c136 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification encompasses a set of requirements, recommendations and principles that need to be taken into account when planning, developing and also when implementing public policies. Within this set of principles defined within the different tools, the Better Regulation Process includes ICT aspects that also take into account interface issues (regarding end-user interfaces but also institutions access to interfaces).
+
+Better Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf"""@en ;
+    cav:refersTo camssa:fd4fd2f9-54ee-4211-b4a1-229eddf48199 .
+
+camssa:656e8921-5aa9-46eb-be65-6920723fc1ce a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification in itself acts as a method to ensure that policies and laws are developed, implemented and monitored and enhanced following a standardised method that includes, guidelines, recommendations and requirements to reach the objective of exhaustive and comprehensible laws and policies.
+
+Better Regulation Toolbox on European Comission webpage:
+https://ec.europa.eu/info/law/law-making-process/planning-and-proposing-law/better-regulation-why-and-how/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en"""@en ;
+    cav:refersTo camssa:3207a1fb-a215-4791-a1ff-797c516fbd89 .
+
+camssa:65f3ab5d-9231-4504-a144-180417dff93c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6df8c2ce-eab2-4938-81af-3b728b4b7f57 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:5ff0e40f-8445-45e8-b13d-6ddf121fa4c1 .
+
+camssa:6ef540f6-40a2-4534-b9a2-a00ec5e9d121 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Better regulation provides a set of guidelines to guarantee that policies and laws development, implementation and evaluation are properly established. At this point, the Better regulation toolbox includes a set of recommendations, best practices and requirements whose purpose is to ensure and enhance the cross-border application and organisational interoperability as much as possible.
+
+Betterr Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf"""@en ;
+    cav:refersTo camssa:f9fa7671-a910-485a-a031-90e1409e86bf .
+
+camssa:6ef6fb0b-d8a1-4d0b-8a4e-41dc7f97dab5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification includes requirements for the alignment with relevant regulations at European level such as eIDAS, GDPR, Cybersecurity Act, etc. Ensuring that the development of policies and laws is aligned with the main legal acts, including the interoperability ones, the Better Regulation Toolbox supports the establishment of public services and tools fostering data portability.
+
+Better Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf
+
+The specification includes requirements for the alignment with relevant regulations at European level such as eIDAS, GDPR, Cybersecurity Act, etc. Ensuring that the development of policies and laws is aligned with the main legal acts, including the interoperability ones, the Better Regulation Toolbox supports the establishment of public services and tools fostering data portability.
+
+Better Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf"""@en ;
+    cav:refersTo camssa:6efabb3f-9563-4669-af47-42d3e5f0ff53 .
+
+camssa:6efabb3f-9563-4669-af47-42d3e5f0ff53 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:6f7383c0-0290-448a-b968-d61037cc2c10 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Better Regulation Toolbox is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:dc895a3e-50a6-4c22-aff6-41c605a6f69d .
+
+camssa:706f8a7e-c6e1-4c40-8cb1-fb95eed0d057 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:70afafed-0ae7-47a2-a162-00d723bd750e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification was formally defined between 2015 and 2017 with the experience and the expertise of the Member States that were closely working together to consolidate the specification. This fact demonstrates that guidelines have been agreed taking into account the experience from different stakeholders and it ensures its maturity by the time being.
+
+Better Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf """@en ;
+    cav:refersTo camssa:d85f281b-2cbd-495c-8f9b-09e682a3d213 .
+
+camssa:7ff351c9-7e18-4c5f-a5d3-31327cf52c4c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:8cb50faa-71cf-462f-b7f4-d9d964dcb894 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:65f3ab5d-9231-4504-a144-180417dff93c .
+
+camssa:8d2ef2c0-5c61-42d1-9a0f-9b0899041512 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Better Regulation Toolbox is a public asset developed by a European Institution and can be accessed and reused without any payment conditions. Therefore, it can be considered that the specifications is licensed under royalty-free basis and (F)RAND basis. 
+
+Better Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf
+
+Better Regulation Toolbox is a public asset developed by a European Institution and can be accessed and reused without any payment conditions. Therefore, it can be considered that the specifications is licensed under royalty-free basis and (F)RAND basis. 
+
+Better Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf """@en ;
+    cav:refersTo camssa:3744baa5-5e7c-4d81-99c5-17926972f2ef .
+
+camssa:8e2e02b3-f0aa-4b3a-93d3-ff86403828a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:9b7fa326-3f48-4ef9-bdea-09f3406f6406 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9e5b9809-c7f2-4d3a-96d5-e66598ac9155 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Several documents are stating positive feedback on the Better Regulation initiative at European Level, which include the Better Regulation Toolbox. Below there are few examples of the documentation providing insights on how important is the process, methodology and tools for the Governance of European Public Policies and laws.
+
+Study webpage:
+https://www.bruegel.org/wp-content/uploads/2019/09/MEMO-Better-Regulation.pdf
+
+Study supporting the interim evaluation of the innovation principle:
+https://www.ceps.eu/wp-content/uploads/2019/11/KI0219819ENN.en_.pdf"""@en ;
+    cav:refersTo camssa:d0eb7b47-54bc-4426-929b-76b49ad9f77e .
+
+camssa:a1b65934-d335-450c-811c-126f1612b159 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100+0"^^xsd:int .
+
+camssa:adf0f363-8802-4b35-bb79-75a9f6f8e7f6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification includes guidelines, recommendations and requirements with regards to the internal market (tool 24) and how policies and laws could benefit European citizens, business and institutions development reducing barriers and developing the once-only principle. 
+
+Betterr Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf"""@en ;
+    cav:refersTo camssa:bb409605-d350-48e3-90f6-9a6cda46ebb0 .
+
+camssa:af6c4055-95e7-45f3-935a-2499fa0162c3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """One of the tools provided by the specification is focused on evaluating if the needs of a new proposal require any ICT aspect that can be foreseen and adapted to the most efficient manner, ensuring that the new proposal fits its needs and at the same time the process is efficient. Having said this, it is worth noting that the purpose of the specification is not related to the business process definition, and therefore, this criterion does not apply to the specification.
+
+Betterr Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf"""@en ;
+    cav:refersTo camssa:469fe711-f89d-474d-94d0-2afe3e067e15 .
+
+camssa:b0d6562e-86c4-4d77-9993-376a3354e260 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:366279fd-8d1d-49ac-bab2-c99dd62c0c1f .
+
+camssa:b1164826-e138-4a75-bbdc-97b9b3313732 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Better Regulation Toolbox was developed between 2015 and 2017 aiming to help those involved in the creation of public policies and laws across the European Union. Its market acceptance lies in the European Public sector which has set Better regulation and the toolbox as the tools for the development, implementation and assessment of the impact of public policies and laws.
+
+Better Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf . """@en ;
+    cav:refersTo camssa:d1b90252-3e36-4769-942c-0758bf72f59c .
+
+camssa:b435acd7-4025-4c6d-8024-ebed3cef00e0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:b6e678c0-86b3-4e96-a88a-5a0d9f49a31c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:453dc3bf-5dc8-4a9c-ac91-176c3964fde7 .
+
+camssa:bb409605-d350-48e3-90f6-9a6cda46ebb0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bb53e00c-3f36-484c-95e6-493e5273d65c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:be6f56f5-c717-413d-82aa-73cd6ce5e884 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c8718af5-f09e-485b-acf8-f81fed65e7c7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """One of the main goals of the Better Regulation Toolbox is to enhance the transparency of the public policy and law-making, increasing the visibility of public administrations decision-making process.
+
+Better Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf
+
+Objective of Better Regulation Toolbox: 
+https://ec.europa.eu/info/law/law-making-process/planning-and-proposing-law/better-regulation-why-and-how_en#objectives-of-the-better-regulation-agenda"""@en ;
+    cav:refersTo camssa:eccbba40-d6a9-4435-8c18-f672c0bc5238 .
+
+camssa:ca0c9992-08d2-4951-b6c3-bb4f359164b0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:8e2e02b3-f0aa-4b3a-93d3-ff86403828a2 .
+
+camssa:ca2ee902-00cb-43cc-ac7a-3b99f3b51cb1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:d00435c9-75d8-4fcc-aa03-4a6835759f64 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d0eb7b47-54bc-4426-929b-76b49ad9f77e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d1b90252-3e36-4769-942c-0758bf72f59c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d540cb66-7e31-4256-a5f4-c41289234358 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Better Regulation Toolbox in itself is a common method for planning, developing, assessing and monitoring the implementation of policies and laws. It is used by de different EU institutions involved in these tasks, moreover, it can be transposed to national level to ensure that national laws and policies are developed with the maximum accuracy. 
+
+Better Regulation Toolbox on European Comission webpage:
+https://ec.europa.eu/info/law/law-making-process/planning-and-proposing-law/better-regulation-why-and-how/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en
+
+Law-making process: 
+https://ec.europa.eu/info/law/law-making-process_en
+
+"""@en ;
+    cav:refersTo camssa:d00435c9-75d8-4fcc-aa03-4a6835759f64 .
+
+camssa:d5415448-daf9-4d42-9a90-bdccf68d588c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d55470a9-77a5-4490-a8fc-6de17a3036a9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d706c8e2-a36f-434d-8036-0185f05825c8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Better Regulation Toolbox  is not included in any national catalogue of recommended specifications whose Member State NIF is fully aligned with at least 4 out of 5 sections of the EIF according to NIFO factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:067e3863-fde0-405f-ac45-5e16715d8f5e .
+
+camssa:d7e8223f-b33b-47b8-a264-d60bca1f77db a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification in its essence aims to provide tools for the construction of global, coherent and fair policies and laws. In several of the tools proposed within the specification, multilingualism is considered as part of the requirements that ICT platforms developed for public services need to comply with and ensure. Therefore, the Better Regulation Toolbox fosters the creation of policies, and laws according to reach multilingualism ensuring the equality of European citizens.
+
+Betterr Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf"""@en ;
+    cav:refersTo camssa:be6f56f5-c717-413d-82aa-73cd6ce5e884 .
+
+camssa:d80f211f-8da6-4be4-b9ec-7315a8c2dce7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no Member States recommending  Better Regulation Toolbox  in their ICT National Catalogues.
+ 
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:7ff351c9-7e18-4c5f-a5d3-31327cf52c4c .
+
+camssa:d85f281b-2cbd-495c-8f9b-09e682a3d213 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:d8d1400c-14f2-45d4-8040-328c4a8cd1d0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:dc895a3e-50a6-4c22-aff6-41c605a6f69d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:e0d8bc9d-7e0c-496d-8139-9a11014b8a77 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "20+20"^^xsd:int .
+
+camssa:e6c74fd2-fc00-4f9f-b358-5dfda27318f6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:ca2ee902-00cb-43cc-ac7a-3b99f3b51cb1 .
+
+camssa:e83ef09a-0df3-49e3-83f2-4becb89acfa3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:d8d1400c-14f2-45d4-8040-328c4a8cd1d0 .
+
+camssa:e902bcef-e529-4bd1-8e53-05b87ab22f55 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:54f79342-ae72-4600-b7fa-5b933b199eb9 .
+
+camssa:e96ce6d8-5b9e-4255-bb87-44ac4583c013 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Better Regulation Toolbox fosters the secure and trustworthy data exchange between citizens, businesses and public administrations by proposing methods to ensure that ICT systems and solutions developed under the scope of public services include security regarding data exchanged between parties interested. Providing this checklist method helps the development of public policies that guarantee secure and trustworthy data exchange.
+
+Betterr Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf"""@en ;
+    cav:refersTo camssa:d5415448-daf9-4d42-9a90-bdccf68d588c .
+
+camssa:e99417d6-ed39-4b5d-90ff-caf9c12acc5f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Several documents are stating positive feedback on the Better Regulation initiative at European Level, which include the Better Regulation Toolbox. Below there are few examples of the documentation providing insights on how important is the process, methodology and tools for the Governance of European Public Policies and laws.
+
+Study webpage:
+https://www.bruegel.org/wp-content/uploads/2019/09/MEMO-Better-Regulation.pdf
+
+Study supporting the interim evaluation of the innovation principle:
+https://www.ceps.eu/wp-content/uploads/2019/11/KI0219819ENN.en_.pdf"""@en ;
+    cav:refersTo camssa:d55470a9-77a5-4490-a8fc-6de17a3036a9 .
+
+camssa:eae546eb-8664-4261-b8b6-ecc1a8c494da a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent from any software, hardware, or operating system. It can be used and applied independently from other standards, or software requierements. 
+
+Betterr Regulation Toolbox reference:
+https://ec.europa.eu/info/sites/info/files/better-regulation-toolbox_2.pdf"""@en ;
+    cav:refersTo camssa:3658328c-1761-4bca-bd8d-94299ab55b11 .
+
+camssa:eccbba40-d6a9-4435-8c18-f672c0bc5238 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:ee25661d-f379-4f9a-aac6-47513197e773 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:58a8b50c-7d52-4837-a8a5-e83f2ea95268 .
+
+camssa:eeed1330-bf8e-4f37-9a12-e11c1447f66f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Not enough information has been found to answer positively or negatively to this criterion. No information related to the governance process of the Better regulation has been found to support the answer to the criterion. 
+
+European Comission webpage:
+https://ec.europa.eu/info/strategy/decision-making-process_en"""@en ;
+    cav:refersTo camssa:5d863263-01b4-4543-b232-32d48faddc1f .
+
+camssa:f01fe4cb-0ae4-45b2-9bca-de352ab7236b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f9fa7671-a910-485a-a031-90e1409e86bf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fd4fd2f9-54ee-4211-b4a1-229eddf48199 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+

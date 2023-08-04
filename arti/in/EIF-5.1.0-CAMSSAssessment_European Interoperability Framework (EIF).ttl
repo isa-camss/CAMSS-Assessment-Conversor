@@ -1,0 +1,792 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:31e5b51197bf517772c7c432bad36c2eca707040b8ad90b51c9b30e77f126c6f a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:00b7aa82-afb3-4d1f-9348-06dfb19a0bc9,
+        camssa:08150358-c81e-4152-bad6-cc8f03a80409,
+        camssa:0c3ec1b7-993c-4141-935b-c1f24a8ec7af,
+        camssa:0ef297a7-cf4e-48ac-8503-a6448f949c44,
+        camssa:1084bcfd-30a9-473c-a0e9-b4461f8abc92,
+        camssa:152cea85-df82-4be5-ad9b-b78907ce3bd3,
+        camssa:156bac65-61e6-4cbf-b6da-3b442abb8b56,
+        camssa:1a8993fe-7aab-43df-94af-c019ad0f916a,
+        camssa:1bbe8942-c554-49f0-9a1c-2e089bf2db4d,
+        camssa:1bdb0a33-451e-4c56-9e0f-fca48ca79141,
+        camssa:211e451f-cfa3-4f13-8569-a198054329e2,
+        camssa:24c43e4a-cede-4e74-8cc1-df88479f7512,
+        camssa:3b4a4be0-98bf-4231-8d10-f16a988d6efc,
+        camssa:3cae0975-c53d-429c-8378-1ff9d0a70b59,
+        camssa:4f7ac8a7-55ba-43cd-93f3-b126a5cff0fe,
+        camssa:52380bb8-4980-4353-8926-3c9b78c9d842,
+        camssa:5bfbcea5-baa3-456d-b0c9-a6d9aab46998,
+        camssa:65cbfd8d-303a-47f1-af66-04111b5966d8,
+        camssa:68b3a7a0-0144-46db-ad1f-e3a03c35bd99,
+        camssa:79a28e6c-c9a8-4800-ac67-238ab91bd5d9,
+        camssa:9662a1fc-8a46-405f-9315-5920e701a723,
+        camssa:9883f5f1-a470-4c2a-a48f-c5749a28467f,
+        camssa:988c5e97-affb-4232-b405-2d6c6c8654b2,
+        camssa:9bfb9af8-a1ee-49ee-a8b4-ec4fdbd5b478,
+        camssa:a6c50ec6-650f-4850-b077-b8be0541f87e,
+        camssa:a975e8af-39a5-4ec8-ab49-dee5b6361ad2,
+        camssa:ac9d3179-a4eb-4c30-809a-69b7a3ad0517,
+        camssa:b1e2b0c9-62d4-4597-ab36-5daca7c7c339,
+        camssa:b75f3478-7419-4088-b431-e49e8b1fad02,
+        camssa:c75be0d7-1eb2-401d-8460-24213ae2de61,
+        camssa:c9f1a749-b1c4-455e-99ae-0b03d313a94a,
+        camssa:cd0efb93-130c-48ea-ab77-5adf294e07d9,
+        camssa:d333f392-6a36-425a-aafb-71952c4f953f,
+        camssa:d46f1ac3-bf13-4367-abdf-1154efcd6ec9,
+        camssa:db9affdf-9090-460e-a111-739e7481d8fc,
+        camssa:e0d5ceec-6b65-4f2b-9ca6-71b34d5d5bcf,
+        camssa:e49339ba-5880-4ee7-9fb6-eaf189a0d11a,
+        camssa:e6eddb9d-cb40-42f7-8edd-2e09be610adc,
+        camssa:efdd1d5f-be4b-4347-9723-75502dbaff75,
+        camssa:f4bb1fff-88d6-4e06-b9bc-f18163e31e42,
+        camssa:f6ce2a43-ff0e-4d51-aef4-4046ab88b8d8,
+        camssa:fbe86710-f93e-4feb-8740-ccd0c9853987,
+        camssa:fcf60683-bfeb-4b8e-9283-a379a5fd9a9a,
+        camssa:ff5522b8-7522-41df-81a5-2cd28df5d987 ;
+    cav:status status:Complete ;
+    dct:title "European Interoperability Framework (EIF)"@en .
+
+camssa:71b734d93eea13de404910eb634943e6bc28f69d27f2f63bcbdf62230a832bb3 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:06dce2ea-0af2-4c09-aa6c-bd2761476c1a ;
+    skos:prefLabel "CAMSS Team European Commission DG DIGIT"@en .
+
+camssa:00b7aa82-afb3-4d1f-9348-06dfb19a0bc9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The EIF specification does not provide the precise requirements in order to facilitate organisational
+interoperability agreements; however, the specification eases the drafting of such agreements in the CEF
+(Connecting Europe Facility) Building Blocks context, which is focused on the delivery of digital public
+services across Europe. There is no evidence, nor final report of any building block having been reviewed by
+the EIF though.
+
+COM(2016) 179 final, section 3;
+https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A52016DC0179'"""@en ;
+    cav:refersTo camssa:656dd26a-9b7c-4038-9599-a155c1fbc252 .
+
+camssa:06dce2ea-0af2-4c09-aa6c-bd2761476c1a a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@eu.europa.eu" .
+
+camssa:08150358-c81e-4152-bad6-cc8f03a80409 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF recommendations are a set of requirements that can be implemented incrementally or separately
+depending on the context of implementation.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:ba0e7210-7aeb-4acb-8fe9-391937743794 .
+
+camssa:0c3ec1b7-993c-4141-935b-c1f24a8ec7af a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF is a set of recommendations and provides guidance to European public administrations. This
+specification does not rely on any specific technology, and therefore is technology agnostic.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:b4ce249a-c78c-4c85-a82d-aef2a9554217 .
+
+camssa:0c5ebada-0d36-4fe1-a12d-1eb3a9317b5b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:0dc521ee-2910-4cbb-b6c0-cc42f2492709 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0ef297a7-cf4e-48ac-8503-a6448f949c44 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF specification is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss
+/camss-list-standards\""""@en ;
+    cav:refersTo camssa:2af5d584-32e9-4935-9832-100d4286d6e1 .
+
+camssa:1084bcfd-30a9-473c-a0e9-b4461f8abc92 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The EIF specification has been developed and deployed by the European Commission; therefore, the
+specification is a European Standard.
+
+ISA2 Programme reference:
+https://ec.europa.eu/isa2/eif_en'"""@en ;
+    cav:refersTo camssa:3eea8441-ce98-4110-a659-6be8cf7ab896 .
+
+camssa:152cea85-df82-4be5-ad9b-b78907ce3bd3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Open consultations are conducted preceding any major and minor release to ensure a coherent EU interoperability picture of the interactions between European public administrations, citizens and businesses; the last open consultation was held in 2016 for the EIF v3. In addition, there is a continuous public review as part of the release lifecycle of the EIF, consisting of opinion forums and surveys from different stakeholders (see EIF home page reference), as well as final reports assessing the specification suitability (see Inception Impact Assessment reference).
+
+EIF open consultation (2016) reference:
+https://ec.europa.eu/isa2/node/208
+
+EIF home page, Presentation and Links sections:
+https://ec.europa.eu/isa2/eif_en
+
+Inception Impact Assessment reference:
+https://ec.europa.eu/isa2/consultations/open-public-consultation-revision-european-interoperability-framework_en'"""@en ;
+    cav:refersTo camssa:59be51ce-adec-4169-8336-26cdab414f4b .
+
+camssa:156bac65-61e6-4cbf-b6da-3b442abb8b56 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF specification are a set of recommendations that can be met or not. As far as these
+recommendations are met, there exists the possibility of further contextualising one or other
+recommendation. In this sense, the EIF specification allows extension.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:93e36507-47ac-46d8-a1cf-0e381b97fb0f .
+
+camssa:1a8993fe-7aab-43df-94af-c019ad0f916a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The recommentation #5 of the EIF specification is to promote and provide guidance in the provision of
+visibility in European public services. Visibility is achievable by combining appropriate specifications, and
+such visibility should manifest itself in public services interfaces as described in the EIF.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:d1eb30b3-e19b-42b9-823b-dc8e2d9b9b6a .
+
+camssa:1b195a63-1fb7-40dd-a1e6-06a17148ec75 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1bbe8942-c554-49f0-9a1c-2e089bf2db4d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ISA and ISA2 Programmes have been promoting the creation of cross-sectorial communities, openly
+creating and sharing relevant information and practices within the European Union. In the ISA2 Programme
+homepage, there are recorded presentations and disseminations on how EU Member States have
+implemented the EIF specification in their governments, and how they have perceived their experience.
+
+ISA2 Programme reference:
+https://ec.europa.eu/isa2/eif_en'"""@en ;
+    cav:refersTo camssa:3d81e77b-c667-450a-8529-006c4d021d34 .
+
+camssa:1bdb0a33-451e-4c56-9e0f-fca48ca79141 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data, the first star corresponds to the publication of data on the web as open data. The EIF specification encourages Member States to make their open government data available on the web in any format. Therefore, the specification facilitates the publication of open data.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en
+
+Tim Berners-Lee 5-star schema for Open Data:
+https://5stardata.info/en/\""""@en ;
+    cav:refersTo camssa:27b30aec-33db-456f-bb28-5dd452219078 .
+
+camssa:1c0bc7e4-4779-42be-8995-b7e52e41f0c6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "80"^^xsd:int .
+
+camssa:1f9cae00-da14-438e-966f-82493af6ec56 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "20"^^xsd:int .
+
+camssa:211e451f-cfa3-4f13-8569-a198054329e2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF recommendation #17 encourages the use and simplification of digital channels for the delivery of
+European public services. The specification advocates for the availability of at least one digital channel for accessing a European public service, and ensures the co-existence of both the digital and physical channels in order to make digitisation progress and real.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:fbcc8831-0984-42d2-ba4f-ce1c33726c2b .
+
+camssa:24c43e4a-cede-4e74-8cc1-df88479f7512 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The recommentation #5 of the EIF specification is to enable the exposure of European public services
+interfaces. Following this recommendation, in combination with the appropriate specifications, can enable
+the exposure of such interfaces.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:9eb6d61c-39d1-4c62-b4cc-e07aa7098ab7 .
+
+camssa:27b30aec-33db-456f-bb28-5dd452219078 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:28efaf24-689a-4a43-8246-04ad22143f0d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:2af5d584-32e9-4935-9832-100d4286d6e1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:31da749f-d71e-4aa0-a726-960a9bb22ecb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "80"^^xsd:int .
+
+camssa:37452437-4aea-4c6b-a8f9-81692b2c5b2a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "40"^^xsd:int .
+
+camssa:3b4a4be0-98bf-4231-8d10-f16a988d6efc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State that includes the EIF in their national catalogue with The National Interoperability
+Framework (NIF) in alignment with the three categories 1. Conceptual model for integrated public services
+provision, 2. interoperability layers, and 3. interoperability principles.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss
+/camss-list-standards'"""@en ;
+    cav:refersTo camssa:6b36a24e-341d-4613-bb41-f88e72e67e55 .
+
+camssa:3cae0975-c53d-429c-8378-1ff9d0a70b59 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The domain of applicability of the EIF is the interoperability domain and the context of public sector. Moreover, the EIF specification could be implemented 'as-is' to other domains, such as the smart city domain and the local context. It is the case of the Connecting the European Interoperability Framework for Smart Cities and Communities (EIF4SCC), in which the EIF specification has served as a pavement for this initiative.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en
+
+EULF Blueprint reference:
+https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/news/connecting-eif-smart-cities-communities-eif4scc\""""@en ;
+    cav:refersTo camssa:cb3e3336-46c6-4e0b-b641-eb7ccbd0ea75 .
+
+camssa:3d81e77b-c667-450a-8529-006c4d021d34 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:3eea8441-ce98-4110-a659-6be8cf7ab896 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:417ae9ac-435f-46d6-806a-0e56e5500de5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:419b4903-8324-4d7e-91f3-c93e40726164 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:4f7ac8a7-55ba-43cd-93f3-b126a5cff0fe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF specification began in 2005 within the IDABC Programme. The specification has gone through two major releases: the second release appeared in 2009 (see Decision 2009/9227/EC) within the ISA Programme, and the third one in 2017 (see the new EIF reference) within the ISA2 Programme. Moreover, before the ISA2 Programme completion, the publication of documentation regarding implementation guides, Member States' administrations' opinions and other dissemination materials justifies the specification maturity for its use in the development of digital solutions and services.
+
+EIF first release, 'European Interoperability Framework for eGovernment Services' document:
+http://www.dlorg.eu/uploads/External%20Publications/
+Decision 2009/922/EC Adopting the ISA Programme (EIF second release): https://eur-lex.europa.eu/eli/dec
+/2009/922
+
+Decision 2009/9227/EC reference:
+https://eur-lex.europa.eu/eli/dec/2009/922
+
+The new EIF reference:
+https://ec.europa.eu/isa2/actions/continuously-updating-european-interoperability-strategy_en
+
+EIF reference, 'Want to know more?' section:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:419b4903-8324-4d7e-91f3-c93e40726164 .
+
+camssa:52380bb8-4980-4353-8926-3c9b78c9d842 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The EIF specification was developed by a large community within the European Commission (EC) and all
+the EC patents are available on a royalty-free basis.
+
+EC (ISA2), Communication (COM(2017)134) reference:
+https://ec.europa.eu/isa2/eif_en'"""@en ;
+    cav:refersTo camssa:1b195a63-1fb7-40dd-a1e6-06a17148ec75 .
+
+camssa:59be51ce-adec-4169-8336-26cdab414f4b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5bfbcea5-baa3-456d-b0c9-a6d9aab46998 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF specification encourages public services to use multilingual solutions or promotes their use.
+However, the specification does not provide nor suggest which solutions, information systems or technical
+architectures should be used.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:ff442f7f-9ba3-4114-b453-1738789880b3 .
+
+camssa:617f7fbe-f081-4361-9a6c-f4c6d2ccc804 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:6509d258-e352-4176-8ae6-194f3e99b2a6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:656dd26a-9b7c-4038-9599-a155c1fbc252 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "60"^^xsd:int .
+
+camssa:65cbfd8d-303a-47f1-af66-04111b5966d8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"According to the reference study on the EIF components evaluation, the specification pursues broad
+objectives, and its recommendations are rather general and lack the detail necessary for a more successful
+implementation of such framework. Despite the absence of measurable metrics, there are also the
+Cartography Tools, the Interoperability Test Bed and the IMAPS Solution that seek to facilitate the
+comparison and the evaluation of today's solutions in European public services.
+
+EIF components evaluation, page 8:
+https://op.europa.eu/en/publication-detail/-/publication/29d694d4-4696-11ec-89db-01aa75ed71a1/language-en
+
+Joinup Cartography Tools reference:
+https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/solution/eif-toolbox
+/solutions-0\""""@en ;
+    cav:refersTo camssa:37452437-4aea-4c6b-a8f9-81692b2c5b2a .
+
+camssa:68b3a7a0-0144-46db-ad1f-e3a03c35bd99 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The recommentation #5 of the EIF specification is to promote and provide guidance in the provision of
+comprehensibility in European public services. Comprehensibility is achievable by combining appropriate
+specifications, and such comprehensibility should manifest itself in public services interfaces as described in
+the EIF.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:31da749f-d71e-4aa0-a726-960a9bb22ecb .
+
+camssa:6a76ac05-d053-4fdc-ac2c-54cfc11e4cb0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6b36a24e-341d-4613-bb41-f88e72e67e55 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:70b96eb2-cc34-44db-82e3-ae2eb16a5977 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "80"^^xsd:int .
+
+camssa:75be5908-52fe-4013-a490-8d68a1e19cfb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:79a28e6c-c9a8-4800-ac67-238ab91bd5d9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State recommending the EIF specification in its ICT National Catalogue. Nonetheless,
+there are some Member States Administrations dedicating a part or section of their websites to present or highlight their commitment to the EIF, like Spanish Digital Administration (PAe). Moreover, National NIFO
+Factsheets are also a sign that the specification is widely recommended.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss
+/camss-list-standards
+
+PAe reference:
+https://administracionelectronica.gob.es/pae_Home/pae_Actualidad/pae_Noticias/Anio2021/Octubre/Noticia-
+2021-10-29-Publicadas-en-la-Comunidad-EIF-las-buenas-practicas-de-Espa-a-en-materia-deinteroperabilidad-.html?idioma=en
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/digital-public-administration-factsheets-2021'"""@en ;
+    cav:refersTo camssa:981e30b2-29dc-4c4e-abb1-efcda3b2169d .
+
+camssa:8696a7c4-a730-4e5e-8e49-dedbd21c74f5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8873758e-b48d-4269-81e4-c85b33968d97 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "80"^^xsd:int .
+
+camssa:8afcbbd4-906c-4e35-853a-2942c94c6c6b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:93e36507-47ac-46d8-a1cf-0e381b97fb0f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:9662a1fc-8a46-405f-9315-5920e701a723 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF recommendation #9 advocates for ensuring data portability within European public services. Thus, the EIF specification explicitly addresses and enables data portability in the context of supporting the evolution of public administration services.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:bdd0487a-7535-41ab-a4f3-a89effd2a7f6 .
+
+camssa:97bb7258-a694-4a06-b56d-9e7fdac4a297 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:981e30b2-29dc-4c4e-abb1-efcda3b2169d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9883f5f1-a470-4c2a-a48f-c5749a28467f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data, the first star corresponds to the publication of data on the web as open data. The EIF specification refers to open public data as the idea that all public data should be freely available for use and reuse by others, unless restrictions apply, for example, for personal data protection, confidentiality or intellectual property rights. Therefore, in addition to the requirements stated in the previous answer, the specification supports published data as Linked Data.
+
+EIF reference, 'EIF brochure' document:
+ttps://ec.europa.eu/isa2/eif_en
+
+Tim Berners-Lee 5-star schema for Open Data:
+https://5stardata.info/en/\""""@en ;
+    cav:refersTo camssa:8696a7c4-a730-4e5e-8e49-dedbd21c74f5 .
+
+camssa:988c5e97-affb-4232-b405-2d6c6c8654b2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF recommendation #9 advocates for ensuring data portability within European public services. Data has to be easily transferable between different systems and applications to avoid blocking, and support free movement of data. Therefore, the EIF specification addresses and enables data portability and includes specific provisions for it.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:b975af32-88cb-4c37-bd60-0de769b77b11 .
+
+camssa:989f2323-4849-4ca5-ab6b-c22930a55082 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9a584a90-5752-45c5-9556-c6decb417eba a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:9bfb9af8-a1ee-49ee-a8b4-ec4fdbd5b478 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"There is a reference study on the de facto implementation of the EIF components, where a section is dedicated
+to the effectiveness of the EIF components. Besides, there are assessments produced by arbitrary
+stakeholders (public representatives) from different Member States directly addressing the specification's
+effectiveness (see 'EIF evaluation and strategy' initiative); however, these assessments are not finely
+structured, and as a consequence the reader needs to consult different stakeholder inputs.
+
+EIF components evaluation, page 35:
+https://op.europa.eu/en/publication-detail/-/publication/29d694d4-4696-11ec-89db-01aa75ed71a1/languageen
+
+EIF evaluation and strategy, Feedback section:
+https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/12579-European-Interoperability-
+Framework-EIF-evaluation-and-EU-governments-interoperability-strategy\""""@en ;
+    cav:refersTo camssa:f80b42ec-dfbc-45a0-9f28-2e93a31386a4 .
+
+camssa:9eb6d61c-39d1-4c62-b4cc-e07aa7098ab7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "80"^^xsd:int .
+
+camssa:a6c50ec6-650f-4850-b077-b8be0541f87e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF does not allow the amendment of any of its recommendations; recomendations are met or are not.
+Therefore, this criterion is not applicable to this specification.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:1f9cae00-da14-438e-966f-82493af6ec56 .
+
+camssa:a975e8af-39a5-4ec8-ab49-dee5b6361ad2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF specification (recommendation #15) promotes the secure exchange of data, and provides a set of security processes and management functions to this end by means of requirements and services (recommendations #46 and #47).
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:417ae9ac-435f-46d6-806a-0e56e5500de5 .
+
+camssa:ac9d3179-a4eb-4c30-809a-69b7a3ad0517 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF specification supports the reuse of data (recommendation #13) for all scenarios. However, much of the effort would depend on the context where the user will make the operations and transactions.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:75be5908-52fe-4013-a490-8d68a1e19cfb .
+
+camssa:b0fe164e-e090-4f98-816a-8124205413c8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b1e2b0c9-62d4-4597-ab36-5daca7c7c339 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF specification addresses data protecion and is fully aligned with the EU Directives 2016/680 and 2007/2/EC, and the Regulation (EU) 910/2014 and 2016/679.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:b0fe164e-e090-4f98-816a-8124205413c8 .
+
+camssa:b26582ed-516d-4b1c-8707-c5da60e4dec7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b4ce249a-c78c-4c85-a82d-aef2a9554217 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b75f3478-7419-4088-b431-e49e8b1fad02 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is a wide community that provides public support to the EIF specification. The ISA2 Programme deals
+with the specification maintenance, and offers training opportunities and public support on interoperability
+aspects, particularly on the EIF recommendations. Moreover, there is also the National Interoperability
+Framework Observatory (NIFO) that is entirely dedicated to provide support to national public
+administrations.
+
+ISA2 reference:
+https://ec.europa.eu/isa2/actions/continuously-updating-european-interoperability-strategy_en
+
+NIFO reference:
+https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/about'"""@en ;
+    cav:refersTo camssa:de433d4b-bf78-4bac-8a23-bc639ed83fea .
+
+camssa:b975af32-88cb-4c37-bd60-0de769b77b11 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ba0e7210-7aeb-4acb-8fe9-391937743794 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bb7bf062-7743-4ce7-914b-9bd623cd16b8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bdd0487a-7535-41ab-a4f3-a89effd2a7f6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c75be0d7-1eb2-401d-8460-24213ae2de61 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF recommendation #17 encourages the use and application of digital channels for the delivery of
+European public services. Besides, the specification widely promotes its coexistence with the physical ones.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:617f7fbe-f081-4361-9a6c-f4c6d2ccc804 .
+
+camssa:c9f1a749-b1c4-455e-99ae-0b03d313a94a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"There exists an EIF community where any stakeholder has the opportunity to contribute to the development
+of the EIF. This contribution requires to create a Joinup (European Commission's EU Login) account.
+Besides, there are purpose-driven consultations held from time to time, and there is the possibility to provide
+feedback on the specification through public channels (e.g., webinars).
+
+EIF community reference:
+https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/solution/eif-toolbox
+/eif-community
+
+EIF webinars reference:
+https://ec.europa.eu/isa2/consultations/open-public-consultation-revision-european-interoperabilityframework_
+en\""""@en ;
+    cav:refersTo camssa:1c0bc7e4-4779-42be-8995-b7e52e41f0c6 .
+
+camssa:cb3e3336-46c6-4e0b-b641-eb7ccbd0ea75 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "80"^^xsd:int .
+
+camssa:cd0efb93-130c-48ea-ab77-5adf294e07d9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF is a set of recommendations and provides guidance to European public administrations. This
+specification does not rely on any specific platform, and therefore is platform agnostic.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:97bb7258-a694-4a06-b56d-9e7fdac4a297 .
+
+camssa:d1eb30b3-e19b-42b9-823b-dc8e2d9b9b6a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "80"^^xsd:int .
+
+camssa:d333f392-6a36-425a-aafb-71952c4f953f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The EIF specification is not included in any open repository/catalogue of standards at European level, even
+though the former and later ISA Programmes (ISA and ISA2, respectively) has been offering relevant
+guidelines, and Joinup itself, the EIF Toolbox.
+
+ISA2 Programme reference:
+https://ec.europa.eu/isa2/eif_en
+
+Joinup EIF Toolbox:
+https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/solution/eif-toolbox
+/eif-toolbox'"""@en ;
+    cav:refersTo camssa:9a584a90-5752-45c5-9556-c6decb417eba .
+
+camssa:d46f1ac3-bf13-4367-abdf-1154efcd6ec9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF specification encourages the modelling of business processes and suggests how these processes
+should be aligned when delivering European public services; however, it does not facilitate any specific
+technique.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:b26582ed-516d-4b1c-8707-c5da60e4dec7 .
+
+camssa:db9affdf-9090-460e-a111-739e7481d8fc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The EIF specification was developed by a large community within the European Commission (EC) and all
+the EC patents are available with any restrictions related to (F)RAND.
+
+EC (ISA2), Communication (COM(2017)134) reference:
+https://ec.europa.eu/isa2/eif_en'"""@en ;
+    cav:refersTo camssa:6a76ac05-d053-4fdc-ac2c-54cfc11e4cb0 .
+
+camssa:de433d4b-bf78-4bac-8a23-bc639ed83fea a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e0d5ceec-6b65-4f2b-9ca6-71b34d5d5bcf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF specification (recommendation #14) can contribute and promote e-accessibility, but absolutely
+needs other specifications to achieve it.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:70b96eb2-cc34-44db-82e3-ae2eb16a5977 .
+
+camssa:e49339ba-5880-4ee7-9fb6-eaf189a0d11a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The EIF4SCC initiative is the first adaptation of the EIF specification to a local context, which seeks to
+support local administrations and other actors with the challenges related to the provision of interoperability
+services to citizens and businesses.
+
+EIF4SCC reference:
+https://ec.europa.eu/isa2/actions/continuously-updating-european-interoperability-strategy_en'"""@en ;
+    cav:refersTo camssa:989f2323-4849-4ca5-ab6b-c22930a55082 .
+
+camssa:e6eddb9d-cb40-42f7-8edd-2e09be610adc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"There is a reference study on the de facto implementation of the EIF components. In this study, the
+specification's effiency is not totally addressed, due mainly to the lack of dedicated resources. Nonetheless, there are assessments produced by arbitrary stakeholders (public representatives) from different Member
+States directly addressing the specification's efficiency (see 'EIF evaluation and strategy' initiative), although
+these ones are not finely structured.
+
+EIF components evaluation, page 8:
+https://op.europa.eu/en/publication-detail/-/publication/29d694d4-4696-11ec-89db-01aa75ed71a1/languageen
+
+EIF evaluation and strategy, Feedback section:
+https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/12579-European-Interoperability-
+Framework-EIF-evaluation-and-EU-governments-interoperability-strategy\""""@en ;
+    cav:refersTo camssa:6509d258-e352-4176-8ae6-194f3e99b2a6 .
+
+camssa:efdd1d5f-be4b-4347-9723-75502dbaff75 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF specification started in 2004, and up to date constitutes the most relevant interoperability
+programme of the European Union. Every year Member States publish their National Interoperability
+Frameworks (NIF) with regards to the EIF recommendations. Therefore, this specification is wide-spread
+used.
+
+EIF first release, 'European Interoperability Framework for eGovernment Services' document:
+http://www.dlorg.eu/uploads/External%20Publications/
+
+NIF reference:
+https://ec.europa.eu/isa2/solutions/nifo_en
+
+ISA2 Programme (EIF major releases):
+https://ec.europa.eu/isa2/actions/continuously-updating-european-interoperability-strategy_en\""""@en ;
+    cav:refersTo camssa:bb7bf062-7743-4ce7-914b-9bd623cd16b8 .
+
+camssa:f4bb1fff-88d6-4e06-b9bc-f18163e31e42 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF specification (recommendation #18) oversees long-term preservation of electronic resources, and this is forseen and specified in all the EU Communication and Decision documentations legally supporting the preservation of data, information and knowledge from public administrations' processes.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:0c5ebada-0d36-4fe1-a12d-1eb3a9317b5b .
+
+camssa:f6ce2a43-ff0e-4d51-aef4-4046ab88b8d8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The EIF specification is already associated with EIRA ABBs in the EIRA Library Of Interoperability Specifications
+(ELIS). More specifically, EIF can define the interoperability aspects of the Service, Interoperability Strategy,
+Shared Governance Framework, Interoperability Skill, Interoperability Governance, Interoperability
+Framework, Interoperable Digital Public Service, Service Delivery Model ABBs of the EIRA Organisational
+View; and the Legislation On Data Information And Knowledge Exchange ABBs of the EIRA Semantic View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss
+/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:8afcbbd4-906c-4e35-853a-2942c94c6c6b .
+
+camssa:f80b42ec-dfbc-45a0-9f28-2e93a31386a4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fbcc8831-0984-42d2-ba4f-ce1c33726c2b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fbe86710-f93e-4feb-8740-ccd0c9853987 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The domain of application of the EIF is the interoperability domain in the context of the public sector. Moreover, the EIF specification could be used 'as-is' to other domains, such as the location information domain. It is the case of the European Union Location Framework (EULF) Blueprint, also within the ISA2 Programme, which is intended to provide a guidance framework for using location information in policy and digital public services.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en
+
+EULF Blueprint reference:
+https://joinup.ec.europa.eu/collection/elise-european-location-interoperability-solutions-e-government/solution/eulf-blueprint/about\""""@en ;
+    cav:refersTo camssa:8873758e-b48d-4269-81e4-c85b33968d97 .
+
+camssa:fcf60683-bfeb-4b8e-9283-a379a5fd9a9a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EIF recommendations #46 and #47 promote the secure and trustworthy processing of data, and provides a set of security processes and management functions to this end by means of requirements and services.
+
+EIF reference, 'EIF brochure' document:
+https://ec.europa.eu/isa2/eif_en\""""@en ;
+    cav:refersTo camssa:28efaf24-689a-4a43-8246-04ad22143f0d .
+
+camssa:ff442f7f-9ba3-4114-b453-1738789880b3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "80"^^xsd:int .
+
+camssa:ff5522b8-7522-41df-81a5-2cd28df5d987 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ISA and ISA2 Programmes have been promoting the creation of domain-specific and cross-sectorial
+communities, openly creating and sharing their results within the European Union. There are two relevant
+assets coming from this community: the ISA2 Action Plan and the final study on the ISA2 Programme
+Evaluation, where attention was made to analyse and highlight which goals and achievements have been
+accomplished.
+
+ISA2 Programme reference:
+https://ec.europa.eu/isa2/eif_en
+
+ISA2 Programme Action reference:
+https://ec.europa.eu/isa2/actions/improving-digital-skills-public-sector_en
+
+ISA2 Programme evaluation, final study report, page 47:
+https://ec.europa.eu/isa2/news/study-supporting-final-evaluation-isa%C2%B2-programme-now-available_en'"""@en ;
+    cav:refersTo camssa:0dc521ee-2910-4cbb-b6c0-cc42f2492709 .
+

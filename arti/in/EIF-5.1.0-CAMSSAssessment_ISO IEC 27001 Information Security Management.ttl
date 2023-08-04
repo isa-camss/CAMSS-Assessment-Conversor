@@ -1,0 +1,689 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:71b734d93eea13de404910eb634943e6bc28f69d27f2f63bcbdf62230a832bb3 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:a50e91b9-b6f0-4d4f-ad1a-1ad307ceb942 ;
+    skos:prefLabel "CAMSS Team European Commission DG DIGIT"@en .
+
+camssa:92b49a4322c2ed1be0313bd366752cc6e7f76dea41127319c7129fb7d59f1fe1 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:4909c79d2759fc5cdbd6e87160f397452ee9484bd8d9e9bf838be385108c987c ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:074aa253-8622-45c5-84a1-56d645c0ba98,
+        camssa:0d4b7f06-9013-4d35-8c46-3f791c72ea3f,
+        camssa:0fb2ea76-7af8-4c01-987f-a8d534b5e530,
+        camssa:186d80ce-ed13-45d3-b2c6-012970fabbef,
+        camssa:25af1d55-cf77-40ef-8fd3-36f431b96d3c,
+        camssa:260ee1f5-c617-4295-8c80-60ec0b5d1711,
+        camssa:2615c441-3aea-44c7-82ec-88befe6766e4,
+        camssa:303a9762-d8b2-45e7-98f6-1b30d8c8450a,
+        camssa:3d6323f3-f9c8-47bf-9ec6-c4dafd374ecc,
+        camssa:40dcb6c1-540a-4bfb-9cd6-a1aa0044abf8,
+        camssa:43c81c01-c67d-490d-b4d4-77b119e7d946,
+        camssa:44b8358b-8257-42c9-a1c7-1349a2f60b00,
+        camssa:49d0c416-106f-426f-977c-12bc8500ca54,
+        camssa:4e67a382-2109-447e-ace8-906e3d9f943c,
+        camssa:5f98ca75-7e2c-4d35-a630-9ec4c8bb5749,
+        camssa:60099433-f8d3-43bd-9de1-d5a658d3cd6f,
+        camssa:6f36d1ac-d0a5-4dec-b1bf-0cd792b2be20,
+        camssa:75f1d859-a10f-4ee8-a104-bdf7f436dce7,
+        camssa:84957d22-e414-4ed1-b834-45baef377bf0,
+        camssa:92c96b8f-1be4-4826-b806-461475393940,
+        camssa:a1c0d804-ff9f-4782-ad52-fb05ab6d9bf0,
+        camssa:a32b5d03-2a71-4991-838f-9da70fa46a5e,
+        camssa:b21d7dc8-a8f4-43f0-a9e7-f8ca11e0e37b,
+        camssa:b5849123-0694-4c51-8b60-8ad7e76a7147,
+        camssa:bacb7cad-84f3-417a-8d62-25e3f3f3f40f,
+        camssa:bacdbb0d-2201-4cc7-a571-54bd2f20a43d,
+        camssa:be64442c-7bac-4239-9b11-892301899353,
+        camssa:c0ccb4aa-f6ff-4900-9d26-988b8229429c,
+        camssa:c2234efa-e082-4557-9bc9-1855da44f70f,
+        camssa:c2f89904-3be0-47a7-957b-d74bec2ddd3f,
+        camssa:c6eb868a-2f60-4d26-a355-76a87fe391f5,
+        camssa:c7a61926-6e03-4e36-81f7-4a3b6d7d5900,
+        camssa:ca9263e0-801d-4257-bb07-25c52ffa1150,
+        camssa:d8fd019f-737d-4618-b87a-ed4943ed4d83,
+        camssa:d9f02bfe-6729-493c-ae94-ec80caf2079b,
+        camssa:dcf92df8-43c2-4b22-a9c0-abced9d3db55,
+        camssa:e11ef20a-4167-4f4c-a23e-e4fab8bba33e,
+        camssa:e12af8c5-f379-4437-b4d8-aa18dff73b73,
+        camssa:e17e30f2-2db3-4d6f-b68a-90c5ef7e5a56,
+        camssa:e1dfdd00-4f2d-40ea-b86c-9156f93b5d45,
+        camssa:e819d06b-f2ff-4057-85c3-4f1f98a18893,
+        camssa:e8f6e768-33ce-41db-aaf2-3e77f5fd163d,
+        camssa:ea1e18af-9717-4a46-8e48-8add34bd348e,
+        camssa:fc0c054f-c4a5-45c2-91c5-bc4bf61372bb ;
+    cav:status status:Complete ;
+    dct:title "ISO IEC 27001 Information Security Management"@en .
+
+camssa:040cd57e-263d-437d-ac07-c8f095415059 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:074aa253-8622-45c5-84a1-56d645c0ba98 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'No communities have been found created to share data and results of the implementation of ISO 27001 on European platforms.
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html'"""@en ;
+    cav:refersTo camssa:27aab625-c093-44a6-939a-2ad2564f6936 .
+
+camssa:0d4b7f06-9013-4d35-8c46-3f791c72ea3f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of ISO/IEC 27001 within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25'"""@en ;
+    cav:refersTo camssa:3bf01492-27a0-4a70-9073-19e39c4951f8 .
+
+camssa:0ead8651-13e9-4854-b35f-5866ab264257 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0fb2ea76-7af8-4c01-987f-a8d534b5e530 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO/IEC 27001 can be considered a defacto standard for security and risk management in IT systems. The specification is a common method to ensure securing information and data in IT systems. 
+
+ISO/IEC 27001 foreword:
+https://www.iso.org/obp/ui/#iso:std:54534:en
+
+
+
+'"""@en ;
+    cav:refersTo camssa:ecdd5953-eb33-4722-924b-f1131fa69b16 .
+
+camssa:10c53b72-96b6-4478-9b00-ce22e75fd589 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1521e649-c13c-4bf2-9049-9e3b531b16c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:1744606e-2653-427d-b712-489f0179a64a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:186d80ce-ed13-45d3-b2c6-012970fabbef a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'No communities have been found created to share data and results of the implementation of ISO 27001 on national platforms.
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html'"""@en ;
+    cav:refersTo camssa:e2387dd7-1c9f-49fe-ad03-d311324aa635 .
+
+camssa:19944552-22d7-48b2-93d5-fd3177ea2359 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1bbab54b-1945-49de-bafc-78d4984ac0c7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:1c7a51bd-fb1d-4f25-b9e8-8798c684d26a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "20"^^xsd:int .
+
+camssa:24cd2e25-682b-44d0-aa26-c39fb82dc453 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:25af1d55-cf77-40ef-8fd3-36f431b96d3c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are already existing assessments assessing the efficiency and effectiveness of the ISO27001. An example of such assessment can be viewed on the following link.
+
+ISO/IEC 27001 assessment:
+https://www.researchgate.net/publication/286651142_Evaluating_the_Effectiveness_of_ISO_27001_2013_Based_on_Annex_A'"""@en ;
+    cav:refersTo camssa:0ead8651-13e9-4854-b35f-5866ab264257 .
+
+camssa:260ee1f5-c617-4295-8c80-60ec0b5d1711 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO/IEC 27001 is structured to be compatible with other management system standards, such as ISO 9001 and is technology and vendor neutral, meaning that it is completely independent of the IT platform.
+
+ISO 27001 reference:
+https://www.iso.org/obp/ui/#iso:std:iso-iec:27001:ed-2:v1:en'"""@en ;
+    cav:refersTo camssa:1bbab54b-1945-49de-bafc-78d4984ac0c7 .
+
+camssa:2615c441-3aea-44c7-82ec-88befe6766e4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'By using ISO/IEC 27001, administrations can ensure that, when needed, data portability can be done ensuring the integrity of data and preserving the confidentiality of the information being exchanged. 
+
+ISO 27001 reference:
+https://www.iso.org/obp/ui/#iso:std:iso-iec:27001:ed-2:v1:en'"""@en ;
+    cav:refersTo camssa:5e85d5ba-2a4c-4cb9-9ea3-954ac1cbc540 .
+
+camssa:27aab625-c093-44a6-939a-2ad2564f6936 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "20"^^xsd:int .
+
+camssa:2dd98e4d-6089-436f-aa06-8a27dcb87ecb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "80"^^xsd:int .
+
+camssa:303a9762-d8b2-45e7-98f6-1b30d8c8450a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO/IEC 27001 does not depend on other standards such as ISO/IEC 27002.  Moreover, it can be implemented without relying on specific technologies, as ISO/IEC 27001 comprises a set of requirements that ensure the compliance with ISMS.
+
+ISO 27001 reference:
+https://www.iso.org/obp/ui/#iso:std:iso-iec:27001:ed-2:v1:en
+'"""@en ;
+    cav:refersTo camssa:8cab85b5-4d63-4382-9672-47aba31fc8a7 .
+
+camssa:34b1ad48-fdf9-4442-a9ec-b37a7b8d12e0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "None"^^xsd:int .
+
+camssa:39654e30-607d-41a7-9646-99f3d9c0dc4a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3bf01492-27a0-4a70-9073-19e39c4951f8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:3d6323f3-f9c8-47bf-9ec6-c4dafd374ecc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The establishment and implementation of an organization’s information security management system is influenced by the organization’s needs and objectives, security requirements, the organizational processes used and the size and structure of the organization. All of these influencing factors are expected to change over time.  ISO/IEC 27001, therefore, is designed to be implemented in accordance of any given organization's needs, allowing its customisation.
+
+ISO 27001 reference:
+https://www.iso.org/obp/ui/#iso:std:iso-iec:27001:ed-2:v1:en\""""@en ;
+    cav:refersTo camssa:b89c161d-21ba-4b46-b2d9-37327ab0bd5f .
+
+camssa:40dcb6c1-540a-4bfb-9cd6-a1aa0044abf8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"By helping administrations to identify and manage possible risks, ISO/IEC 27001 ensures and fosters the continuous availability of administration's data and information.  
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html\""""@en ;
+    cav:refersTo camssa:24cd2e25-682b-44d0-aa26-c39fb82dc453 .
+
+camssa:43c81c01-c67d-490d-b4d4-77b119e7d946 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO/IEC 27001 in itself is a method to audit the information systems.  However, the specification does not publicly provide conformance testing requirements, and both testing techniques and auditing services require payment to third parties.  There are, nevertheless, companies such as Vanta, which provide a resource to enable automated measurement of the compliance with ISO 27001 standard.
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html
+
+Vanta website:
+https://www.vanta.com/products/iso-27001?utm_source=bing&utm_medium=paid&utm_campaign=iso27001_rsu_Spain&utm_term=iso%2027001&utm_campaign=ISO+27001+(RSU)+Spain&utm_source=bing&utm_medium=ppc&utm_adgroup=ISO%2027001%20Head%20Term&hsa_acc=4880914058&hsa_cam=15789616753&hsa_grp=1332609418067234&hsa_ad=&hsa_src=o&hsa_tgt=kwd-83288948889188:loc-170&hsa_kw=iso%2027001&hsa_mt=p&hsa_net=adwords&hsa_ver=3&msclkid=fc00bbfdb553107674c4d9b99642b779'"""@en ;
+    cav:refersTo camssa:b7439d78-3821-4ed7-8695-a56ec30b6593 .
+
+camssa:44b8358b-8257-42c9-a1c7-1349a2f60b00 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO/IEC 27001 can be found in the EIRA Library of Interoperable Specifications (ELIS), more specifically to the "Security Framework" ABB in the Organizational view.
+
+ELIS referenece:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss
+/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:da1d8bcc-1bd5-4e47-85ee-ea35b0a13090 .
+
+camssa:474c4a80-48cb-43e2-9afb-2d06ea090d22 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:49d0c416-106f-426f-977c-12bc8500ca54 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ISO/IEC 27001 is other than enabling digital service delivery channels, therefore, this criterion is not applicable to this specification.
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html'"""@en ;
+    cav:refersTo camssa:6a9a7087-5d8e-4635-89a1-26357d5ddbc2 .
+
+camssa:4c5b7b46-6957-415f-b24e-a59ea505eee7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "20"^^xsd:int .
+
+camssa:4e18a826-bf64-4f73-a0d7-3661fbd4ba79 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4e67a382-2109-447e-ace8-906e3d9f943c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO/IEC 27001 is presented as an exhaustive set of requirements to be applied in any given Information Security Management system (ISMS), therefore, it does not allow extension.
+
+ISO 27001 reference:
+https://www.iso.org/obp/ui/#iso:std:iso-iec:27001:ed-2:v1:en'"""@en ;
+    cav:refersTo camssa:c4a7e88f-b476-4526-ba64-5932dd0c77c1 .
+
+camssa:5e85d5ba-2a4c-4cb9-9ea3-954ac1cbc540 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5f98ca75-7e2c-4d35-a630-9ec4c8bb5749 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO/IEC 27001 is included in the Catalogue of standards of Norway. 
+
+Norway catalogue of standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:a4609685-e2a5-4a4f-82e4-ad79f75dc708 .
+
+camssa:60099433-f8d3-43bd-9de1-d5a658d3cd6f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO/IEC 27001 is an international information security standard that aims to ensure the confidentiality, integrity and availability of the information of an organization and of the systems and applications that treat it.
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html'"""@en ;
+    cav:refersTo camssa:a3812240-a40c-4924-b559-986ad29beaa4 .
+
+camssa:65cf7075-c157-4450-8c84-7289981a80b4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "20"^^xsd:int .
+
+camssa:6a9a7087-5d8e-4635-89a1-26357d5ddbc2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:6d166b26-21db-4cd2-a1ad-553283443fed a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6f36d1ac-d0a5-4dec-b1bf-0cd792b2be20 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is focused on the preservation of confidential data and its availability. The business domain is security, even though it can be implemented in any sector (e.g. eHealth).
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html'"""@en ;
+    cav:refersTo camssa:4e18a826-bf64-4f73-a0d7-3661fbd4ba79 .
+
+camssa:75f1d859-a10f-4ee8-a104-bdf7f436dce7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is focused on ensuring risk management regarding the security of information, therefore, this criterion does not apply due to the scope of the specification.
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html'"""@en ;
+    cav:refersTo camssa:1744606e-2653-427d-b712-489f0179a64a .
+
+camssa:84957d22-e414-4ed1-b834-45baef377bf0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Being an international standard that encompasses the internal security framework of all private and public administrations, ISO/IEC 27001 helps to create digitally by default services that reduce the administrative burden on both sides, public administrations and stakeholders.
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html'"""@en ;
+    cav:refersTo camssa:d0761dae-f1a8-4712-bafd-ee3d343c64ba .
+
+camssa:860aa76b-e5a5-4433-9d16-13433e46b696 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:8cab85b5-4d63-4382-9672-47aba31fc8a7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8d3a69bd-60da-4076-9a35-60c7f5722639 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "80"^^xsd:int .
+
+camssa:92c96b8f-1be4-4826-b806-461475393940 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO/IEC 27001 defines security aspects for information in IT systems, it is a key element when designing business processes and the requirements that the system and the organisation will need to meet.
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html'"""@en ;
+    cav:refersTo camssa:474c4a80-48cb-43e2-9afb-2d06ea090d22 .
+
+camssa:a1c0d804-ff9f-4782-ad52-fb05ab6d9bf0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is focused on ensuring risk management regarding the security of information, therefore, this criterion does not apply due to the scope of the specification.
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html'"""@en ;
+    cav:refersTo camssa:da88d18a-b6e6-4294-8fa6-b55c05491e9c .
+
+camssa:a32b5d03-2a71-4991-838f-9da70fa46a5e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification can contribute to the implementation of the once-only principle by setting the principles to manage and reduce the risk related to the information being exchanged between parties. In this sense, by securing and establishing the methods to control and reduce risks when treating sensitive information the specification can contribute, enhance and enable the implementation of the once-only principle.
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html'"""@en ;
+    cav:refersTo camssa:10c53b72-96b6-4478-9b00-ce22e75fd589 .
+
+camssa:a3812240-a40c-4924-b559-986ad29beaa4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a4609685-e2a5-4a4f-82e4-ad79f75dc708 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a50e91b9-b6f0-4d4f-ad1a-1ad307ceb942 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "nan" .
+
+camssa:adf8e75d-a1fc-48dc-89ce-4a7c699a20d3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "40"^^xsd:int .
+
+camssa:b21d7dc8-a8f4-43f0-a9e7-f8ca11e0e37b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'According to the Tim Berners-Lee 5-star, ISO/IEC 27001 cannot be considered as a facilitator of open data as the standard does not make its content publicly available on the web; therefore, the standard does not facilitate the publication of open data.
+
+Berners-Lee website:
+https://5stardata.info/en/
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html'"""@en ;
+    cav:refersTo camssa:c1118332-a8ac-47a6-b824-d30077755dfa .
+
+camssa:b5849123-0694-4c51-8b60-8ad7e76a7147 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is focused on the preservation of confidential data and its availability. Therefore this criterion is not applicable to this specification.
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html'"""@en ;
+    cav:refersTo camssa:1521e649-c13c-4bf2-9049-9e3b531b16c1 .
+
+camssa:b702de42-f031-442e-aae0-31599df8e395 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b7439d78-3821-4ed7-8695-a56ec30b6593 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "80"^^xsd:int .
+
+camssa:b89c161d-21ba-4b46-b2d9-37327ab0bd5f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:ba580086-a448-477f-89f2-575ae0c3aa86 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:bacb7cad-84f3-417a-8d62-25e3f3f3f40f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is focused on the preservation of confidential data and its availability. The business domain is security, even though it can be implemented in any sector (e.g. eHealth).
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html'"""@en ;
+    cav:refersTo camssa:19944552-22d7-48b2-93d5-fd3177ea2359 .
+
+camssa:bacdbb0d-2201-4cc7-a571-54bd2f20a43d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ISO community, brings together experts to share knowledge and develop voluntary, consensus-based, market relevant International Standards that support innovation and provide solutions to global challenges.  All of ISO’s technical work, including the technical committees, is managed by the Technical Management Board (TMB). Some of the TMB’s tasks include setting up technical committees, appointing chairs and monitoring the progress of technical work. 
+
+ISO developing standards:
+https://www.iso.org/who-develops-standards.html'"""@en ;
+    cav:refersTo camssa:6d166b26-21db-4cd2-a1ad-553283443fed .
+
+camssa:be64442c-7bac-4239-9b11-892301899353 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'In order to maintain the confidentiality, integrity and availability of information, ISO/IEC 27001 defines the standards on which the long-term preservation of data must be carried out so that it is stored in a secure manner in accordance with information security management systems.
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html'"""@en ;
+    cav:refersTo camssa:ba580086-a448-477f-89f2-575ae0c3aa86 .
+
+camssa:c0ccb4aa-f6ff-4900-9d26-988b8229429c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO 27001 has restricted IPR disclosures and requires payment to access it.
+
+ISO 27001 foreword:
+https://www.iso.org/obp/ui/#iso:std:54534:en '"""@en ;
+    cav:refersTo camssa:f6fd8d89-ff18-4617-a495-6128d2fcf6b9 .
+
+camssa:c1118332-a8ac-47a6-b824-d30077755dfa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "20"^^xsd:int .
+
+camssa:c2234efa-e082-4557-9bc9-1855da44f70f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Every five years, ISO standards go through a systematic review process during which the members assess and propose updatings. 
+
+ISO public review guide:
+https://www.iso.org/files/live/sites/isoorg/files/store/en/PUB100413.pdf'"""@en ;
+    cav:refersTo camssa:1c7a51bd-fb1d-4f25-b9e8-8798c684d26a .
+
+camssa:c2f89904-3be0-47a7-957b-d74bec2ddd3f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO/IEC 27001 is an international information security standard that aims to ensure the confidentiality, integrity and availability of the information of an organization and of the systems and applications that treat it.
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html'"""@en ;
+    cav:refersTo camssa:860aa76b-e5a5-4433-9d16-13433e46b696 .
+
+camssa:c4a7e88f-b476-4526-ba64-5932dd0c77c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "20"^^xsd:int .
+
+camssa:c6eb868a-2f60-4d26-a355-76a87fe391f5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO standards are not licensed on a royalty-free basis since they require an initial payment for accessing it
+and using it. Moreover, conformance testing requires payment in some cases.
+
+ISO 27001 foreword:
+https://www.iso.org/obp/ui/#iso:std:54534:en'"""@en ;
+    cav:refersTo camssa:65cf7075-c157-4450-8c84-7289981a80b4 .
+
+camssa:c7a61926-6e03-4e36-81f7-4a3b6d7d5900 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO/IEC 27001 includes requirements for the assessment and treatment of information security risks tailored to the needs of the organization. The requirements set out in this International Standard are generic and are intended to be applicable to all organizations, regardless of type, size or nature.  
+
+ISO 27001 reference:
+https://www.iso.org/obp/ui/#iso:std:iso-iec:27001:ed-2:v1:en'"""@en ;
+    cav:refersTo camssa:2dd98e4d-6089-436f-aa06-8a27dcb87ecb .
+
+camssa:ca9263e0-801d-4257-bb07-25c52ffa1150 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The main purpose of the ISO/IEC 27001 is to preserve the confidentiality, integrity and availability of information by applying a risk management process and to give confidence to interested parties that risks are adequately managed. Following the requirements set by ISO/IEC 27001 secures data portability between systems, and its scalable approach supports the evolution of european public services.
+
+ISO 27001 reference:
+https://www.iso.org/obp/ui/#iso:std:iso-iec:27001:ed-2:v1:en'"""@en ;
+    cav:refersTo camssa:f3928da9-482d-4b42-a612-e81e404f9d05 .
+
+camssa:d0761dae-f1a8-4712-bafd-ee3d343c64ba a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d8fd019f-737d-4618-b87a-ed4943ed4d83 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of ISO/IEC 27001 within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25'"""@en ;
+    cav:refersTo camssa:4c5b7b46-6957-415f-b24e-a59ea505eee7 .
+
+camssa:d907bfe6-d726-4f70-9230-effdbd62fe87 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d9f02bfe-6729-493c-ae94-ec80caf2079b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The European Space Agency is implementing ISO/IEC 27001 to ensure its data is protected and properly managed to reduce ISMS risks.
+
+European Space Agency case study:
+https://publicsectorassurance.org/case-study/european-space-agency-uses-iso-27001-to-protect-its-data/'"""@en ;
+    cav:refersTo camssa:e50d9f17-08a6-4d1e-b226-33b7c193cfef .
+
+camssa:da1d8bcc-1bd5-4e47-85ee-ea35b0a13090 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:da88d18a-b6e6-4294-8fa6-b55c05491e9c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:dcf92df8-43c2-4b22-a9c0-abced9d3db55 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO/IEC 27001 is included in a national catalogue of recommended specifications, the Norway ICT Catalogue. The National Interoperability Framework (NIF) of this Member State is fully aligned with the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets, with a performance above the EU average.
+
+Norway catalogue of standards:
+https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/digital-public-administration-factsheets-2021'"""@en ;
+    cav:refersTo camssa:d907bfe6-d726-4f70-9230-effdbd62fe87 .
+
+camssa:e11ef20a-4167-4f4c-a23e-e4fab8bba33e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO/IEC 27001 was published back in 2005 and has undergone several changes, being last modified 
+ in 2015. Although Draft versions are publicly  available, change management and release management processes are not open to the public.
+
+ISO/IEC 27001 foreword:
+https://www.iso.org/obp/ui/#iso:std:54534:en
+
+ENISA-ISO/IEC 27001 reference:
+https://www.enisa.europa.eu/topics/threat-risk-management/risk-management/current-risk/laws-regulation/rm-ra-standards/iso-iec-standard-27001?msclkid=81681be8affa11ecb89769e4176d852c
+'"""@en ;
+    cav:refersTo camssa:8d3a69bd-60da-4076-9a35-60c7f5722639 .
+
+camssa:e12af8c5-f379-4437-b4d8-aa18dff73b73 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO/IEC 27001 is a security standard that formally specifies an Information Security Management system (ISMS) designed to keep information security under explicit management control. As a formal specification, it mandates requirements that define how to implement, monitor, maintain and continually improve the ISMS. It also indicates a set of recommended practices that include documentation requirements, divisions of responsibility, availability, access control, security, auditing, corrective and preventive measures. Certification to ISO/IEC 27001 helps organisations comply with numerous regulatory and legal provisions related to information security.
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html'"""@en ;
+    cav:refersTo camssa:efa0cfd5-2458-4bc0-9575-167862a53305 .
+
+camssa:e17e30f2-2db3-4d6f-b68a-90c5ef7e5a56 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are already existing assessments assessing the efficiency and effectiveness of the ISO/IEC 27001. An example of such assessment can be viewed on the following link.
+
+ISO/IEC 27001 assessment:
+https://www.researchgate.net/publication/286651142_Evaluating_the_Effectiveness_of_ISO_27001_2013_Based_on_Annex_A'"""@en ;
+    cav:refersTo camssa:39654e30-607d-41a7-9646-99f3d9c0dc4a .
+
+camssa:e1dfdd00-4f2d-40ea-b86c-9156f93b5d45 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification can help to define the framework for working within the organisation regarding data and information security. It also can help to establish a common view and method between administrations providing public services to ensure the proper treatment of information and how it should be done.
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html
+
+ENISA reference:
+https://www.enisa.europa.eu/topics/threat-risk-management/risk-management/current-risk/laws-regulation/rm-ra-standards/iso-iec-standard-27001
+'"""@en ;
+    cav:refersTo camssa:b702de42-f031-442e-aae0-31599df8e395 .
+
+camssa:e2387dd7-1c9f-49fe-ad03-d311324aa635 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "20"^^xsd:int .
+
+camssa:e50d9f17-08a6-4d1e-b226-33b7c193cfef a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e5b2db34-6776-4ac3-b6cc-98f57526896c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:e819d06b-f2ff-4057-85c3-4f1f98a18893 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO/IEC 27001 is included in the Catalogue of standards of Norway. 
+
+Norway catalogue of standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:040cd57e-263d-437d-ac07-c8f095415059 .
+
+camssa:e8f6e768-33ce-41db-aaf2-3e77f5fd163d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:34b1ad48-fdf9-4442-a9ec-b37a7b8d12e0 .
+
+camssa:ea1e18af-9717-4a46-8e48-8add34bd348e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'By helping administrations to identify and manage possible risks, ISO/IEC 27001 ensures and fosters the continuous availability of administrations data and information.  In the following link you can see an example of audits in public administration. Financial audits require the review of the IT part and with it the ISO/IEC 27001.
+
+Application of ISO/IEC 27001 in public administration:
+https://core.ac.uk/display/196275557'"""@en ;
+    cav:refersTo camssa:e5b2db34-6776-4ac3-b6cc-98f57526896c .
+
+camssa:ecdd5953-eb33-4722-924b-f1131fa69b16 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:efa0cfd5-2458-4bc0-9575-167862a53305 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f3928da9-482d-4b42-a612-e81e404f9d05 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f6fd8d89-ff18-4617-a495-6128d2fcf6b9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "20"^^xsd:int .
+
+camssa:fc0c054f-c4a5-45c2-91c5-bc4bf61372bb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ISO/IEC 27001 was developed by the ISO/IEC joint technical committee JTC 1.  The access to JTC 1 working area is restricted, and individuals or companies are not eligible as members of ISO.  ISO has defined a clear procedure to develop its standards. It consists in a 6-steps process where everyone who is interested can participate. However, if you want to participate, you have to contact your national standards body and you have to be approved for joining the Technical committee (TC) who will develop the standard. ISO has defined the roadmap of standards, it is composed of 6 steps as before said. For the approval of a standard the two-thirds majority of P-members of TC is needed. If the result is negative, the document is returned to TC/SC to be further studied.
+
+The ISO standardization process: 
+https://www.iso.org/stages-and-resources-for-standards-development.html
+
+ISO/IEC 27001 reference website:
+https://www.iso.org/standard/54534.html
+
+ISO membership reference:
+https://www.iso.org/get-involved.html'"""@en ;
+    cav:refersTo camssa:adf8e75d-a1fc-48dc-89ce-4a7c699a20d3 .
+

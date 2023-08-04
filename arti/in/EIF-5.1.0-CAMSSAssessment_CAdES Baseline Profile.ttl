@@ -1,0 +1,548 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:8d195b05db64fb4b62544fb55e920029bbb6b2a0fb514ed9323455aa21c4d850 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:2a8d11054390e9202db664920d2fb0ddb1a28c805e5d1d96a24c081fa6cb349d ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:0fbb751e-cf46-49e7-9f92-eeb6149ac2d7,
+        camssa:143c09ea-6d6f-4e18-a3d7-89c5cc182382,
+        camssa:17544ae4-f158-4624-8d32-a40a438bd46c,
+        camssa:1929bb93-1ca7-4ccf-b445-0ee332c7f26b,
+        camssa:1cac0446-e502-44b3-a0a9-3a0abf824f33,
+        camssa:2a24512f-da64-4639-8b38-d1af723c8774,
+        camssa:312ec867-0e74-4ed3-8251-6be47ffd4947,
+        camssa:33208463-091a-471f-9b27-d603bb1e76de,
+        camssa:36796c0c-8c6f-45cd-bc89-5ffc73241396,
+        camssa:37a561a8-7c00-4df8-b0d0-648ee1e8ebbb,
+        camssa:37b9ebf8-7228-49c3-845f-94f42999d423,
+        camssa:3972ece6-6bcf-4b2d-a990-6114bb9dd2fd,
+        camssa:3c5932f3-e43f-4b82-81ee-d46f401cf786,
+        camssa:483612f7-76e0-4935-aa37-bf6ceee7f30a,
+        camssa:4abf404a-300e-446a-a34f-7fef5c0f5037,
+        camssa:51d3e7cd-3082-4636-bc31-27f7e3d0c90f,
+        camssa:55d88503-04fd-403d-a50e-222a5724cd7c,
+        camssa:5cde213c-5643-4b17-8f76-555c6ceea2db,
+        camssa:5f539891-a1b9-4a80-be68-0acbb88b0290,
+        camssa:5f971310-b6c1-4252-b6e3-f62253c32119,
+        camssa:65828876-1941-4593-ade9-df59dfb0e99b,
+        camssa:6662f4cc-169a-45a2-9e04-bddd97e3f518,
+        camssa:72933ee7-8024-4d6b-afef-3beb0bd67068,
+        camssa:76079eb5-f155-45fb-a8af-c03a26f18cf3,
+        camssa:7fb09565-f3f2-4499-873e-12c828f8e904,
+        camssa:8338b39d-eadf-4327-b219-0cd8ffa75788,
+        camssa:8f4642d8-f28e-474a-a201-ba6f6031a5aa,
+        camssa:95d4eede-e937-44a3-b397-64a8fd3fa90b,
+        camssa:95f9bbef-01cf-4325-a3f4-9f138333977f,
+        camssa:9c8254bf-1a70-4abb-928f-36e89892775d,
+        camssa:9f9b4bf8-3abf-4f92-b161-73fff430f6d7,
+        camssa:b0c3e9a2-658b-4e15-9b5d-5e325abfcd3d,
+        camssa:b32f350d-19d3-4a7c-9a9c-8fad2a344ab5,
+        camssa:b9d9c57e-b61c-4ea8-a8a0-1dbce214cdf6,
+        camssa:bc2f4f05-fb6f-47ed-9374-5c030eb0a7dd,
+        camssa:c81e2ff2-31a1-47e4-b359-ad407ec818c2,
+        camssa:cac81732-926b-4dba-8edd-1abbc0916972,
+        camssa:d5deddf0-21d4-4cdf-8531-f8f3b1075d68,
+        camssa:e24e2f1a-b4fc-443b-b20e-012f0cd811b6,
+        camssa:e929ca37-6b90-4577-9313-73fc6bb5e2d9,
+        camssa:ecf2bef1-16f5-4d84-bebb-173ed9048d5f,
+        camssa:eea2e12f-86b4-4eb4-a223-b60f58f067bc,
+        camssa:ef536ab1-7d46-4a6f-813f-167acf79815e,
+        camssa:f99b7a37-92ab-4d55-bd07-104e1b3d1e93 ;
+    cav:status status:Complete ;
+    dct:title """Electronic Signatures and Infrastructures (ESI);
+CAdES Baseline Profile"""@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:23cae11e-b014-4485-acdf-0e6ec44cef8f ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:0418e3df-32fe-466d-b009-6a0595c4c53b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:07177ad3-c9b8-4aa1-b73f-640bf3d76411 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0abb9dbe-7f64-48a2-9100-9ce872151375 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0de434f0-4121-4ff5-846d-45d462478409 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0fbb751e-cf46-49e7-9f92-eeb6149ac2d7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:a2f4f18b-bcb0-446d-9703-48a3e251a10b .
+
+camssa:143bb0c9-344c-4cc2-af87-e7f31ad6ed10 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:143c09ea-6d6f-4e18-a3d7-89c5cc182382 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CAdES and CAdES Baseline profile are included in the ETSI’s catalogue of standards. As ETSI is considered an official standardisation organisation, it can be considered that the specifications are included in a supra-national catalogue. 
+See: 
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20103%20173&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&historical=1&startDate=1988-01-15&endDate=2020-01-08&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1"""@en ;
+    cav:refersTo camssa:0418e3df-32fe-466d-b009-6a0595c4c53b .
+
+camssa:14e910ef-b6e5-4c79-ab32-8c48c546dcbd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:17544ae4-f158-4624-8d32-a40a438bd46c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:858c58f2-5f4a-4043-83bb-6eefae5da676 .
+
+camssa:1929bb93-1ca7-4ccf-b445-0ee332c7f26b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The implementation of the specification fosters the data portability according to its purpose. CAdES Baseline profile has been developed to provide basic features necessary for electronic procedures including eSignature across borders. The implementation of CAdES Baseline Profile enhances the interoperability in the context of the European Single Digital Market. "@en ;
+    cav:refersTo camssa:f412a261-d6bb-40c0-87b6-1d476ecd439c .
+
+camssa:1c9315c6-f18b-452f-9582-45d7d1eb2ebe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1cac0446-e502-44b3-a0a9-3a0abf824f33 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "CAdES Baseline profile is an independent standard that can be implemented without dependencies on other technologies or platforms. Therefore, the specification can be implemented without hampering the interoperability but avoiding vendor lock-in. "@en ;
+    cav:refersTo camssa:e4a04215-eb5d-4c5f-a6cc-43a943b5ff2d .
+
+camssa:23cae11e-b014-4485-acdf-0e6ec44cef8f a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:2507ed07-f94d-4643-a433-dba38a5edd6d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:254169a6-92b3-40f5-87c4-d004738ba61d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:26204eba-1a58-4a4a-a198-f0fe69606578 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:2a24512f-da64-4639-8b38-d1af723c8774 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ETSI’s Intellectual Property Rights Policy is based on Standard Essential Patents (SEP). The policy implemented by the standardisation organisation seeks to reduce risks and ensure that the standards are available under (F) RAND basis and Royalty-free, it means with no cost or fee to be paid when possible. 
+See: 
+https://www.etsi.org/intellectual-property-rights"""@en ;
+    cav:refersTo camssa:b8d4d840-2e1c-4fcc-a00f-6173c28403dc .
+
+camssa:312ec867-0e74-4ed3-8251-6be47ffd4947 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The last version of the specification was launched in 2013 by the European Telecommunications Standards Institute. The fact of being a European Standard maintained and promoted by ETSI, provides value on its maturity and market acceptance to be used in the development of products. "@en ;
+    cav:refersTo camssa:7d222cb5-72fa-47c0-bdbc-9e95c8cc505a .
+
+camssa:33208463-091a-471f-9b27-d603bb1e76de a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ETSI’s Intellectual Property Rights Policy is based on Standard Essential Patents (SEP). The policy implemented by the standardisation organisation seeks to reduce risks and ensure that the standards are available under (F) RAND basis and Royalty-free, it means with no cost or fee to be paid when possible. 
+See: 
+https://www.etsi.org/intellectual-property-rights"""@en ;
+    cav:refersTo camssa:0de434f0-4121-4ff5-846d-45d462478409 .
+
+camssa:36796c0c-8c6f-45cd-bc89-5ffc73241396 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to defining organisational interoperability aspects. Therefore, the criterion is not applicable to this specification. "@en ;
+    cav:refersTo camssa:c373eeab-6216-47e4-9d4d-13049f0a7d75 .
+
+camssa:37a561a8-7c00-4df8-b0d0-648ee1e8ebbb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to the publication of data as linked open data. Therefore, this criterion is not applicable for this criterion. "@en ;
+    cav:refersTo camssa:143bb0c9-344c-4cc2-af87-e7f31ad6ed10 .
+
+camssa:37b9ebf8-7228-49c3-845f-94f42999d423 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the CAdES Baseline profile in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:c266933b-4e67-4fe6-9317-9c359a4e9da4 .
+
+camssa:3972ece6-6bcf-4b2d-a990-6114bb9dd2fd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "CAdES is business agnostic and in consequence, its Baseline Profile can be considered business agnostic as well. CAdEs Baseline profile is an extension to provide interoperability when AdES signatures need to be interchanged across borders in the context of the EU internal market. Thus, it can be used in any business domain requiring interoperability features along with eSignature. "@en ;
+    cav:refersTo camssa:3bf85117-62b7-431f-8218-e3ba34f94e60 .
+
+camssa:3bf85117-62b7-431f-8218-e3ba34f94e60 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3c5932f3-e43f-4b82-81ee-d46f401cf786 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By ensuring the availability of eSignatures elements and metadata, the specification avoids the users to provide information more than one time. Therefore, CAdES fosters the implementation of the Once-only Principle.  "@en ;
+    cav:refersTo camssa:5bbf7897-f5c0-4a97-b608-01d8cf97a510 .
+
+camssa:473df398-4282-4868-9afe-988e5100fd0f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:483612f7-76e0-4935-aa37-bf6ceee7f30a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "CAdES Baseline profile is being used in the context of the European internal market to ensure interoperability across borders when AdES signatures are required. Hence, it can be considered as an element fostering the creation of innovative solutions fostering the implementation of Once-only Principle along with other capabilities enhancing the relationship between public administrations and stakeholders. "@en ;
+    cav:refersTo camssa:473df398-4282-4868-9afe-988e5100fd0f .
+
+camssa:4abf404a-300e-446a-a34f-7fef5c0f5037 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to foster the availability and comprehensibility of public administrations services or making-decision process. "@en ;
+    cav:refersTo camssa:26204eba-1a58-4a4a-a198-f0fe69606578 .
+
+camssa:4ce67295-9388-4b89-9350-c12b3255ca9e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:51d3e7cd-3082-4636-bc31-27f7e3d0c90f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ETSI’s standards-making process has been clearly defined after years of experience. The organisation has adopted the open approach which means direct participation and consensus as a basis to develop standards. All the stakeholders have the opportunity to participate directly in the process of standardisation through the technical committees created to develop ETSI’s technical specifications and standards. The decision-making process includes a public review, where stakeholders involved can provide technical feedback in order to enhance and maximize the quality and accuracy of the standards. 
+See: 
+https://www.etsi.org/standards/standards-making"""@en ;
+    cav:refersTo camssa:1c9315c6-f18b-452f-9582-45d7d1eb2ebe .
+
+camssa:55d88503-04fd-403d-a50e-222a5724cd7c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:a2698582-6cd9-4992-a918-e6a48505cab1 .
+
+camssa:5a4929d8-d711-4a60-859c-f5e7f0f00d3d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:5bbf7897-f5c0-4a97-b608-01d8cf97a510 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5c270fbb-77ae-4f68-a570-c39bbd1795dc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5cde213c-5643-4b17-8f76-555c6ceea2db a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "CAdES is business agnostic and in consequence, its Baseline Profile can be considered business agnostic as well. CAdEs Baseline profile is an extension to provide interoperability when AdES signatures need to be interchanged across borders in the context of the EU internal market. Thus, it can be used in any business domain requiring interoperability features along with eSignature. "@en ;
+    cav:refersTo camssa:0abb9dbe-7f64-48a2-9100-9ce872151375 .
+
+camssa:5f539891-a1b9-4a80-be68-0acbb88b0290 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:b7823cda-04f0-43ce-81e5-5da914566da9 .
+
+camssa:5f971310-b6c1-4252-b6e3-f62253c32119 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:07177ad3-c9b8-4aa1-b73f-640bf3d76411 .
+
+camssa:60068f72-bff8-4cdf-8cbe-a7134e4a3780 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:65828876-1941-4593-ade9-df59dfb0e99b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the CAdES Baseline profile in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:be1ead2d-e536-4203-8f5b-92813b6b00d2 .
+
+camssa:6662f4cc-169a-45a2-9e04-bddd97e3f518 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to the availability interfaces. Therefore, this criterion is not applicable to this specification. "@en ;
+    cav:refersTo camssa:d91644ae-80df-4906-8609-5a16d82ba9b4 .
+
+camssa:6c99d90b-271a-4c73-b12d-48bd122576f7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:72933ee7-8024-4d6b-afef-3beb0bd67068 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:9eebe334-833c-4a3b-bcc0-b8ee188e4bfc .
+
+camssa:72e15b8e-f198-4507-a4d9-99980eb175f0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:76079eb5-f155-45fb-a8af-c03a26f18cf3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:6c99d90b-271a-4c73-b12d-48bd122576f7 .
+
+camssa:7d222cb5-72fa-47c0-bdbc-9e95c8cc505a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:7fb09565-f3f2-4499-873e-12c828f8e904 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:8359bba8-4000-4df5-9d97-2b04134d35dc .
+
+camssa:8338b39d-eadf-4327-b219-0cd8ffa75788 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:2507ed07-f94d-4643-a433-dba38a5edd6d .
+
+camssa:8359bba8-4000-4df5-9d97-2b04134d35dc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:858c58f2-5f4a-4043-83bb-6eefae5da676 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:8f4642d8-f28e-474a-a201-ba6f6031a5aa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to e-accessibility. Therefore, this criterion is not applicable to this specification. "@en ;
+    cav:refersTo camssa:d0db0e22-0c3e-49ee-9857-9bf768db2bb0 .
+
+camssa:95d4eede-e937-44a3-b397-64a8fd3fa90b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ETSI’s standards-making process has been clearly defined after years of experience. The organisation has adopted the open approach which means direct participation and consensus as a basis to develop standards. All the stakeholders have the opportunity to participate directly in the process of standardisation through the technical committees created to develop ETSI’s technical specifications and standards. The decision-making process includes a public review, where stakeholders involved can provide technical feedback in order to enhance and maximize the quality and accuracy of the standards. 
+See: 
+https://www.etsi.org/standards/standards-making"""@en ;
+    cav:refersTo camssa:f5338203-4273-49b0-a34d-746663db3b92 .
+
+camssa:95f9bbef-01cf-4325-a3f4-9f138333977f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to foster the availability and comprehensibility of public administrations services or making-decision process. "@en ;
+    cav:refersTo camssa:9c3c1e83-a704-456e-9d65-eb5e2eb34661 .
+
+camssa:976fe405-a707-4a0b-a449-7031cdbb5d0f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:99326f7a-b4b0-4172-b599-89e3ce99e5d2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9c3c1e83-a704-456e-9d65-eb5e2eb34661 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9c8254bf-1a70-4abb-928f-36e89892775d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:72e15b8e-f198-4507-a4d9-99980eb175f0 .
+
+camssa:9d7b8aa9-92b3-4d11-89d0-f3a5560e0187 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9eebe334-833c-4a3b-bcc0-b8ee188e4bfc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9f9b4bf8-3abf-4f92-b161-73fff430f6d7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CAdES is included in 2 national catalogues of recommended specifications. They belong to the Netherlands, and Spain. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+See:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:c9ebd1e7-9413-4504-b8f5-a001360bd3f8 .
+
+camssa:a2698582-6cd9-4992-a918-e6a48505cab1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:a2f4f18b-bcb0-446d-9703-48a3e251a10b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:a39e6d03-54cb-4f9b-a21c-dc3c02c02fda a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a7336cd8-2ebd-4984-a84a-abc7f9055321 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:b0c3e9a2-658b-4e15-9b5d-5e325abfcd3d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Regarding eSignatures, CAdES includes features to the long-term preservation of data included in electronic signatures. The LTA-Level of requirements is covering the preservation, integrity of attributes and validation materials for the eSignatures ensuring the long-term accessibility. However, the specification is not strictly related to the functions of eArchiving. "@en ;
+    cav:refersTo camssa:60068f72-bff8-4cdf-8cbe-a7134e4a3780 .
+
+camssa:b32f350d-19d3-4a7c-9a9c-8fad2a344ab5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to business process modelling. Therefore, this criterion is not applicable to this specification. "@en ;
+    cav:refersTo camssa:5c270fbb-77ae-4f68-a570-c39bbd1795dc .
+
+camssa:b765efc0-f25d-4cef-993a-f1847cb674ab a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:b7823cda-04f0-43ce-81e5-5da914566da9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:b8d4d840-2e1c-4fcc-a00f-6173c28403dc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b9d9c57e-b61c-4ea8-a8a0-1dbce214cdf6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "CAdES Baseline profile is an independent standard that can be implemented without dependencies on other technologies or platforms. Therefore, the specification can be implemented without hampering the interoperability but avoiding vendor lock-in. "@en ;
+    cav:refersTo camssa:a7336cd8-2ebd-4984-a84a-abc7f9055321 .
+
+camssa:bc2f4f05-fb6f-47ed-9374-5c030eb0a7dd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CAdES has been included within the European Public Service “Digital Signature Service” (hereby DDS). The initiative includes three main features: the digital signature, the extension a digital signature, and the validation. Moreover, it is worth to note that DSS initiative included in the Connecting Europe Facility Programme context which aims to fund projects and initiatives for enhancing European public services. 
+
+See:
+https://ec.europa.eu/cefdigital/DSS/webapp-demo/doc/dss-documentation.html
+https://ec.europa.eu/inea/connecting-europe-facility/cef-telecom"""@en ;
+    cav:refersTo camssa:14e910ef-b6e5-4c79-ab32-8c48c546dcbd .
+
+camssa:be1ead2d-e536-4203-8f5b-92813b6b00d2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:c266933b-4e67-4fe6-9317-9c359a4e9da4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:c373eeab-6216-47e4-9d4d-13049f0a7d75 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c81e2ff2-31a1-47e4-b359-ad407ec818c2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By providing conformance levels and requirements in order to maintain eSignatures in the context of AdES signatures, it ensures and fosters the trustworthy data exchange between administrations and their stakeholders."@en ;
+    cav:refersTo camssa:976fe405-a707-4a0b-a449-7031cdbb5d0f .
+
+camssa:c9ebd1e7-9413-4504-b8f5-a001360bd3f8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cac81732-926b-4dba-8edd-1abbc0916972 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The implementation of the specification fosters the data portability according to its purpose. CAdES Baseline profile has been developed to provide basic features necessary for electronic procedures including eSignature across borders. The implementation of CAdES Baseline Profile enhances the interoperability in the context of the European Single Digital Market. "@en ;
+    cav:refersTo camssa:a39e6d03-54cb-4f9b-a21c-dc3c02c02fda .
+
+camssa:d0db0e22-0c3e-49ee-9857-9bf768db2bb0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d5deddf0-21d4-4cdf-8531-f8f3b1075d68 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:5a4929d8-d711-4a60-859c-f5e7f0f00d3d .
+
+camssa:d91644ae-80df-4906-8609-5a16d82ba9b4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:e24e2f1a-b4fc-443b-b20e-012f0cd811b6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:254169a6-92b3-40f5-87c4-d004738ba61d .
+
+camssa:e4a04215-eb5d-4c5f-a6cc-43a943b5ff2d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e929ca37-6b90-4577-9313-73fc6bb5e2d9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """5 Member States are recommending CAdES in their ICT National Catalogues. 
+
+See:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:99326f7a-b4b0-4172-b599-89e3ce99e5d2 .
+
+camssa:ecf2bef1-16f5-4d84-bebb-173ed9048d5f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to the delivery of multilingual services. Therefore, this criterion is not applicable to this specification. "@en ;
+    cav:refersTo camssa:9d7b8aa9-92b3-4d11-89d0-f3a5560e0187 .
+
+camssa:edbaa1e6-a356-4218-90ad-8acdd4a460ab a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:eea2e12f-86b4-4eb4-a223-b60f58f067bc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 5 Member States' catalogues of recommended specifications. Examples of Member States including CAdES in their catalogues are France or Spain.See:
+
+See:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:b765efc0-f25d-4cef-993a-f1847cb674ab .
+
+camssa:ef536ab1-7d46-4a6f-813f-167acf79815e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CAdES and CAdES Baseline profile are maintained by ETSI, one of the European Agencies for Standardisation. 
+See:
+https://www.etsi.org/about """@en ;
+    cav:refersTo camssa:edbaa1e6-a356-4218-90ad-8acdd4a460ab .
+
+camssa:f412a261-d6bb-40c0-87b6-1d476ecd439c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f5338203-4273-49b0-a34d-746663db3b92 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:f99b7a37-92ab-4d55-bd07-104e1b3d1e93 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ETSI has provided a conformance testing tool for electronic signatures according to the European Commission Mandate 460. The conformity testing tool involves different standards applied in the development of eSignatures, including CAdES baseline profile. 
+
+See:
+https://signatures-conformance-checker.etsi.org/pub/CAdESConformanceTestChecker_v1.0.pdf https://signatures-conformance-checker.etsi.org/pub/index.shtml"""@en ;
+    cav:refersTo camssa:4ce67295-9388-4b89-9350-c12b3255ca9e .
+

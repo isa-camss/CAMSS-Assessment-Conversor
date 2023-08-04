@@ -1,0 +1,704 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:71fea3669e5d93a2f635ed74ba1036e7653a398e088e8c0f3a21733f2017d57f a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:249a50b70a47f517c5fbfbacd35fa8d509773ef16b58276fe4b50dc5c475604a ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:6.0.0 ;
+    cav:contextualisedBy sc:8022abb075d6aaa372db1471580032cb546e2495fc59d62b0e0df4b8871fe87b ;
+    cav:resultsIn camssa:05254b99-f68b-4a1c-bc10-180442c6a50c,
+        camssa:07395c14-056c-49b1-8d39-a0c4caaac957,
+        camssa:0b2302e8-689f-4e53-a349-1e1cf246c9bf,
+        camssa:0c82e5a2-4ddc-43fe-9c3a-3e917725bcbf,
+        camssa:1475c651-cf44-4f57-aac0-96b225d4e88f,
+        camssa:1b14aca9-c5cb-4d9a-8f2b-bc927d9a5e46,
+        camssa:1d38f60b-6056-43c8-bc6b-a189b2469cc9,
+        camssa:27905048-2c8b-4b4f-bf49-681954434e90,
+        camssa:2ffc4f8d-a29c-4f82-a572-76f349104183,
+        camssa:320021b2-dab9-446d-93f0-f855fcd54344,
+        camssa:38ee251d-53cb-4884-920f-ed4c5ae9822b,
+        camssa:4a74df5c-d54e-4325-a69f-b8afd0f69d94,
+        camssa:4c371af6-e735-4531-b924-8458b8fd674f,
+        camssa:53bdd35e-9225-4f49-bf92-4a5baca60122,
+        camssa:5419ec80-bddf-4297-b918-c8dbb1647f63,
+        camssa:5836395a-4cb4-41c1-81e0-efe904df4ef4,
+        camssa:5f0adb3d-6925-49ec-bbbb-2da07f889767,
+        camssa:653d48ac-04a8-4a72-8e3b-0ef6acc3a59c,
+        camssa:66cfec5d-fa62-41ee-80a5-2c3e79e17b01,
+        camssa:6dbd3ef6-773b-4e34-a4b9-b4fcedc3d809,
+        camssa:6f230923-b015-48ca-9d76-79254b3a6b96,
+        camssa:7329b8da-a361-4583-a56b-59ce91340166,
+        camssa:75b4921a-5e5d-4445-b393-af13bf99a51e,
+        camssa:800a2758-d53c-4e35-9ef6-232205c91b39,
+        camssa:81e3097f-6ada-4010-b22b-7c1369afb0dc,
+        camssa:88602bf7-e3c6-4e17-b86d-70aff9d76369,
+        camssa:91615a97-47e7-4a65-8b64-49d4e23c4801,
+        camssa:93972822-4385-428e-bdd4-17318ede47b5,
+        camssa:99d76a49-51a4-44ec-b9fe-a96815cab9b9,
+        camssa:9b45e64e-9ea0-48f6-b145-0c4d7dfebf72,
+        camssa:9cb70a24-f395-4f4b-8953-5b8393f157c1,
+        camssa:9d44a57a-e185-4a76-ab49-132cf6ed4773,
+        camssa:a40b7b84-6d0c-44b1-bd73-28ac6dea116d,
+        camssa:a4e3969d-420e-4cc5-8403-d2860ec6860e,
+        camssa:a6c8be5e-2937-48b6-b006-1d08565e68ea,
+        camssa:b3f3d637-5f8e-4289-85e3-18a39eb7c998,
+        camssa:b89f40e8-f5bf-45a1-8519-993efee6112a,
+        camssa:bf265b3f-c3f6-48cb-a0f0-b9906fa80afe,
+        camssa:cc60b334-e1f8-48a1-8d61-deee35426c75,
+        camssa:d499e8d7-df9e-4dd9-b980-0b9528b33c60,
+        camssa:e0c44de5-8c5d-4348-80c2-ac62c253ff1c,
+        camssa:e623afff-5be9-4c08-b2b5-df0c1b317954,
+        camssa:e9cfd992-0d86-43c6-8d8c-9eb860599f0d,
+        camssa:f9fd83b5-7746-46b1-871e-5d7c972e4452,
+        camssa:fc587c01-a58d-4575-a527-8585b2ae537f ;
+    cav:status status:Complete ;
+    dct:title "OWL 2 Web Ontology Language (OWL2)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:0508dbb6-e628-4392-9c23-9214c402d3ab ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:01c4e9be-c7e4-412b-9495-8f582d733059 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:04c9774b-d154-4505-a83a-f306b21e1190 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0508dbb6-e628-4392-9c23-9214c402d3ab a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:05254b99-f68b-4a1c-bc10-180442c6a50c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:d1b2112b-c56d-4c63-84bc-ba8d75cbc12b .
+
+camssa:07395c14-056c-49b1-8d39-a0c4caaac957 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The first version of OWL was released in 2004 which was designed as representation languages for authoring ontologies. Some years later, in 2009, a new W3C working group started to extend OWL with several new features. W3C announced the new version, OWL2, on 27 October 2009. 
+This new version soon found its way into semantic editors such as Protégé and semantic reasoners such as Pelle, so this specification is mature enough for its use.
+
+OWL2 W3C reference:
+https://www.w3.org/TR/owl2-overview/"""@en ;
+    cav:refersTo camssa:e6dc4f4e-729b-4898-8565-6f82b855ed13 .
+
+camssa:0b2302e8-689f-4e53-a349-1e1cf246c9bf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:ebc24df0-4771-412b-ba71-18c4e69ca901 .
+
+camssa:0c82e5a2-4ddc-43fe-9c3a-3e917725bcbf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The main purpose of OWL2 is to allow accessing, importing, sharing, and reusing public ontologies. The data described by an ontology in the OWL family is interpreted as a set of "individuals" and a set of "property assertions" which relate these individuals to each other. _x000D_
+Following this logic, the specification helps to improve the comprehensibility of the administration’s data. By allowing to infer knowledge from sets of data and information, OWL provides meaning to the represented data. Therefore, it fosters the comprehensibility of administrative data while helps the decision-making process of administrations._x000D_
+_x000D_
+OWL2 W3C reference:_x000D_
+https://www.w3.org/TR/owl2-overview/"""@en ;
+    cav:refersTo camssa:c350f69b-c4a2-4fdb-a632-eba79ff21d23 .
+
+camssa:0ce8e0b2-6d48-495f-99d7-0f75d93c10a8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-29023937877d658f898d48a06b2648e283306a041137cc58af4f79f061e1de4b ;
+    cav:value "100"^^xsd:int .
+
+camssa:0cf96c61-da8e-46d7-acdc-27c827ca65e5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b00b9b74de866ed2278d14d1b9d7ecf2c06950d296bb2f17013c7b710d6de41 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:1475c651-cf44-4f57-aac0-96b225d4e88f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:f21eb267-19cb-4726-b868-3f998acd89cd .
+
+camssa:1b14aca9-c5cb-4d9a-8f2b-bc927d9a5e46 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 3 Member States' catalogues of recommended specifications. This Member States are France, the Netherlands and Spain.
+
+National catalogue France:
+http://references.modernisation.gouv.fr/sites/default/files/Referentiel_General_Interoperabilite_V2.pdf
+
+National catalogue the Netherlands: 
+https://www.forumstandaardisatie.nl/open-standaarden
+
+National catalogue Spain:
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#CATALOGOESTANDARES"""@en ;
+    cav:refersTo camssa:84b567c7-4993-4dc0-974a-3d248593cdcc .
+
+camssa:1d38f60b-6056-43c8-bc6b-a189b2469cc9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OWL2 is maintained by W3C which is an international community developing open standards. _x000D_
+_x000D_
+Developer community W3C:_x000D_
+https://www.w3.org/Consortium/"""@en ;
+    cav:refersTo camssa:f71bdc98-d0da-456d-8c7c-6f64fb9a9329 .
+
+camssa:255db02d-f248-4a77-a9d2-b56db76e9159 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:27905048-2c8b-4b4f-bf49-681954434e90 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:a2c9f18c-6613-44af-b810-07d39149ef14 .
+
+camssa:27b659de-1936-4622-8092-f9372d5fb417 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2ffc4f8d-a29c-4f82-a572-76f349104183 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OWL is developed as a vocabulary extension of RDF and is derived from the DAML+OIL Web Ontology Language. So it can be said that OWL2 is dependent of RDF.
+
+OWL2 W3C reference:
+https://www.w3.org/TR/owl2-overview/"""@en ;
+    cav:refersTo camssa:dd9dd946-37f7-4231-af29-bb3d58e9f167 .
+
+camssa:320021b2-dab9-446d-93f0-f855fcd54344 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:ad9b3772-039b-4b21-b7a5-fcafa82224de .
+
+camssa:38ee251d-53cb-4884-920f-ed4c5ae9822b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:ebd0512f-f2bb-4a8a-8082-43dd6b597d2f .
+
+camssa:3915f073-4140-4e99-b3c7-9a27ba1af311 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3a19ff11-ebd7-406f-a296-a6c1dcecac30 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-497a81dae06c1d53b4cfe96c1f998f6f65d46354d68a83d29a2950c984fc1166 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3eba3514-3ed0-455d-bc0f-65a919ddeb5d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:47137875-9504-4b2f-a69c-3501883c5851 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b71e04068a444f6ee23c0863df43f19957762528381d6edece40e35c0efab242 ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:48000ae7-67ee-4066-96f4-c27211a935d7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:4945224f-8af4-4fc9-a47b-c9c14cafa710 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "100"^^xsd:int .
+
+camssa:49beed93-7a5a-496c-a164-0c90637725fb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4a74df5c-d54e-4325-a69f-b8afd0f69d94 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OWL is developed as a vocabulary extension of RDF and is derived from the DAML+OIL Web Ontology Language. So it can be said that OWL2 is dependent of RDF.
+
+OWL2 W3C reference:
+https://www.w3.org/TR/owl2-overview/"""@en ;
+    cav:refersTo camssa:8e6908a3-565b-4b50-aec7-6ee93f44ca91 .
+
+camssa:4c371af6-e735-4531-b924-8458b8fd674f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is not an explicit assessment of the effectiveness and efficiency of OWL2. However, in the following link, there is a comparison of the different OWL2 profiles. This document describes three profiles of OWL2, each of which achieves efficiency differently and is useful in different application scenarios. _x000D_
+Also, there are studies not directly related to the OWL effectiveness or efficiency that include disclosures about the relevance of OWL for the effective representation of knowledge in different knowledge domains._x000D_
+
+OWL2 Profiles W3C reference:
+https://www.w3.org/TR/owl2-profiles/
+
+Use of ontologies for the effective representation of Knowledge:
+https://www.sciencedirect.com/science/article/pii/S2210832717300649"""@en ;
+    cav:refersTo camssa:3915f073-4140-4e99-b3c7-9a27ba1af311 .
+
+camssa:4e520857-3aaf-46f6-a4af-43e0d55b4328 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "100"^^xsd:int .
+
+camssa:53bdd35e-9225-4f49-bf92-4a5baca60122 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS).
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v500"""@en ;
+    cav:refersTo camssa:68b5faae-6015-400e-9bea-93e45e598171 .
+
+camssa:5419ec80-bddf-4297-b918-c8dbb1647f63 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licences granted under the W3C Patent Policy apply to all W3C specifications, including OWL2.
+
+W3C Patent practice:
+https://www.w3.org/TR/patent-practice#ref-AC
+
+The W3C Royalty-Free IPR licences granted under the W3C Patent Policy apply to all W3C specifications, including OWL2.
+
+W3C Patent practice:
+https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
+    cav:refersTo camssa:0cf96c61-da8e-46d7-acdc-27c827ca65e5 .
+
+camssa:5836395a-4cb4-41c1-81e0-efe904df4ef4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Many implementations are using OWL2 in the market. In the following link, there is a summary with some important examples. Moreover, there are a lot of software supporting the implementation and usage of the specification.
+_x000D_
+OWL2 implementation:_x000D_
+https://www.w3.org/2001/sw/wiki/OWL/Implementations"""@en ;
+    cav:refersTo camssa:27b659de-1936-4622-8092-f9372d5fb417 .
+
+camssa:5f0adb3d-6925-49ec-bbbb-2da07f889767 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The main purpose of OWL2 is to allow accessing, importing, sharing, and reusing public ontologies. The data described by an ontology in the OWL family is interpreted as a set of "individuals" and a set of "property assertions" which relate these individuals to each other. So it helps administrations to infer knowledge over other administrations and stakeholders' data. It also happens in a bidirectional way, easing the visibility and the relationship between the data and datasets of the administrations. Moreover, it makes data reusable and visible, enhances, and fosters the decision-making process._x000D_
+_x000D_
+OWL2 W3C reference:_x000D_
+https://www.w3.org/TR/owl2-overview/"""@en ;
+    cav:refersTo camssa:48000ae7-67ee-4066-96f4-c27211a935d7 .
+
+camssa:62963be0-6571-4db9-8247-b1de9dce3b3b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:62d73248-0c76-4029-82ac-e96f5c919cfe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:653d48ac-04a8-4a72-8e3b-0ef6acc3a59c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:62d73248-0c76-4029-82ac-e96f5c919cfe .
+
+camssa:659e8712-2157-44e5-9c28-6c6d35102863 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b8f7f5098ef900044e245ff5b30832215e00204b1e244545d80a28013685c811 ;
+    cav:value "100"^^xsd:int .
+
+camssa:66cfec5d-fa62-41ee-80a5-2c3e79e17b01 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """None
+
+None"""@en ;
+    cav:refersTo camssa:89da7e8c-18bf-46c9-a2a7-14e2e4405a40 .
+
+camssa:68b5faae-6015-400e-9bea-93e45e598171 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:6dbd3ef6-773b-4e34-a4b9-b4fcedc3d809 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of OWL2 is not related to security and privacy of the data exchange. Therefore, this criterion is not applicable to this specification. 
+
+OWL2 W3C reference:
+https://www.w3.org/TR/owl2-overview/"""@en ;
+    cav:refersTo camssa:eb24b229-45c8-4a61-a721-2745397a51b3 .
+
+camssa:6f230923-b015-48ca-9d76-79254b3a6b96 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:3a19ff11-ebd7-406f-a296-a6c1dcecac30 .
+
+camssa:7329b8da-a361-4583-a56b-59ce91340166 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:3eba3514-3ed0-455d-bc0f-65a919ddeb5d .
+
+camssa:75b4921a-5e5d-4445-b393-af13bf99a51e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OWL2 is based on elements of RDF and it adds more vocabulary for describing properties and classes. RDF is one of the proposed standards for the publication of data as Linked Open Data.
+OWL2 and RDF are highly aligned with the principles for Linked Data promoted by W3C and Tim Berners-Lee.
+
+OWL2 W3C reference:
+https://www.w3.org/TR/owl2-overview/
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html
+
+OWL allows accessing, importing, sharing and reusing public ontologies. OWL2 is based on elements of RDF and it adds more vocabulary for describing properties and classes. RDF is one of the proposed standards for the publication of data as Linked Open Data. So, the specification is highly aligned with the different levels of maturity of Tim Berners-Lee's 5-star schema for Open Data._x000D_
+_x000D_
+OWL2 W3C reference:_x000D_
+https://www.w3.org/TR/owl2-overview/_x000D_
+_x000D_
+Tim Berners-Lee 5 star schema for Open Data:   _x000D_
+https://5stardata.info/en/"""@en ;
+    cav:refersTo camssa:feffae6e-4c4f-4237-90b4-3332ed69b4ef .
+
+camssa:798f9113-cd68-4620-a18c-8e6cb27a6d5f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9b3cb1ef128e2a87386258a5812c05b520024e6e4a404d1f1d6f0e35707e8a7b ;
+    cav:value "100"^^xsd:int .
+
+camssa:7f351842-0df3-4b13-8578-0f1f444a4b89 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:800a2758-d53c-4e35-9ef6-232205c91b39 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OWL2 as an extension of RDF, defines a common language to express information that can be exchanged between applications without losing meaning. OWL 2 is designed to facilitate ontology development and sharing via the Web. So it fosters trustworthy data exchange between administrations and stakeholders.
+
+OWL2 W3C reference:
+https://www.w3.org/TR/owl2-overview/"""@en ;
+    cav:refersTo camssa:c7a692d5-48bb-475d-bc46-72c9a7bb049d .
+
+camssa:81e3097f-6ada-4010-b22b-7c1369afb0dc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:d5625674-8722-4f9e-8fe4-57a6951b9954 .
+
+camssa:84b567c7-4993-4dc0-974a-3d248593cdcc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:86165c52-8395-49b0-95c6-1022692ac816 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:88602bf7-e3c6-4e17-b86d-70aff9d76369 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of OWL2 within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:b96514db-14a6-41a5-bd2d-7cba0c4d79dd .
+
+camssa:89da7e8c-18bf-46c9-a2a7-14e2e4405a40 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-847f0d7b5b56f9491b75fadd87efa1d6bdb112bcbb660d2ec7b6d786d403360f ;
+    cav:value "100+100"^^xsd:int .
+
+camssa:8e6908a3-565b-4b50-aec7-6ee93f44ca91 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:int .
+
+camssa:91615a97-47e7-4a65-8b64-49d4e23c4801 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of OWL2 is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+OWL2 W3C reference:
+https://www.w3.org/TR/owl2-overview/"""@en ;
+    cav:refersTo camssa:86165c52-8395-49b0-95c6-1022692ac816 .
+
+camssa:93972822-4385-428e-bdd4-17318ede47b5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Even though the purpose of OWL2 is not related directly to long term preservation of electronic records, there are examples of ontologies developed for the preservation and maintenance of metadata in archives systems. An example of this is the Library of Congress initiative PREMIS OWL Ontology. 
+
+OWL2 W3C reference:
+https://www.w3.org/TR/owl2-overview/
+
+PREMIS OWL Ontology
+https://www.loc.gov/standards/premis/ontology/index.html"""@en ;
+    cav:refersTo camssa:fbdaad42-77ed-4862-8be9-556ff660c07a .
+
+camssa:99d76a49-51a4-44ec-b9fe-a96815cab9b9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of OWL2 is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification. 
+
+OWL2 W3C reference:
+https://www.w3.org/TR/owl2-overview/"""@en ;
+    cav:refersTo camssa:c6210732-9556-4289-8bf4-5d6dbc3e1a2c .
+
+camssa:9b45e64e-9ea0-48f6-b145-0c4d7dfebf72 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
+    cav:refersTo camssa:4945224f-8af4-4fc9-a47b-c9c14cafa710 .
+
+camssa:9cb70a24-f395-4f4b-8953-5b8393f157c1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:659e8712-2157-44e5-9c28-6c6d35102863 .
+
+camssa:9d44a57a-e185-4a76-ab49-132cf6ed4773 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of OWL2 is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification. 
+
+OWL2 W3C reference:
+https://www.w3.org/TR/owl2-overview/"""@en ;
+    cav:refersTo camssa:62963be0-6571-4db9-8247-b1de9dce3b3b .
+
+camssa:a2c9f18c-6613-44af-b810-07d39149ef14 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:a40b7b84-6d0c-44b1-bd73-28ac6dea116d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:a5efceeb-c658-4f7a-8d85-06c8d3eb03b2 .
+
+camssa:a4e3969d-420e-4cc5-8403-d2860ec6860e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies """@en ;
+    cav:refersTo camssa:7f351842-0df3-4b13-8578-0f1f444a4b89 .
+
+camssa:a5efceeb-c658-4f7a-8d85-06c8d3eb03b2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a6c8be5e-2937-48b6-b006-1d08565e68ea a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OWL2 is a business domain agnostic specification that can be reused in a cross-domain way.
+
+OWL2 W3C reference:
+https://www.w3.org/TR/owl2-overview/
+
+OWL2 is a business domain agnostic specification that can be reused in a cross-domain way.
+
+OWL2 W3C reference:
+https://www.w3.org/TR/owl2-overview/"""@en ;
+    cav:refersTo camssa:255db02d-f248-4a77-a9d2-b56db76e9159 .
+
+camssa:a8a1e2a9-a976-4fa4-88a8-22a10c49eeaa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "20"^^xsd:int .
+
+camssa:ad9b3772-039b-4b21-b7a5-fcafa82224de a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:b3f3d637-5f8e-4289-85e3-18a39eb7c998 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is aimed to represent public ontologies in order to be readable in both formats, machine-readable, and human-readable format. However, OWL2 does not help the availability of interfaces with internal information.
+
+OWL2 W3C reference:
+https://www.w3.org/TR/owl2-overview/"""@en ;
+    cav:refersTo camssa:a8a1e2a9-a976-4fa4-88a8-22a10c49eeaa .
+
+camssa:b649cb69-a7ec-4250-943c-90be01b0be4c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b89f40e8-f5bf-45a1-8519-993efee6112a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of OWL2 is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+OWL2 W3C reference:
+https://www.w3.org/TR/owl2-overview/"""@en ;
+    cav:refersTo camssa:49beed93-7a5a-496c-a164-0c90637725fb .
+
+camssa:b96514db-14a6-41a5-bd2d-7cba0c4d79dd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:bf265b3f-c3f6-48cb-a0f0-b9906fa80afe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is not an explicit assessment of the effectiveness and efficiency of OWL2. However, in the following link, there is a comparison of the different OWL2 profiles. This document describes three profiles of OWL2, each of which achieves efficiency differently and is useful in different application scenarios. _x000D_
+Also, there are studies not directly related to the OWL effectiveness or efficiency that include disclosures about the relevance of OWL for the effective representation of knowledge in different knowledge domains._x000D_
+
+OWL2 Profiles W3C reference:
+https://www.w3.org/TR/owl2-profiles/
+
+Use of ontologies for the effective representation of Knowledge:
+https://www.sciencedirect.com/science/article/pii/S2210832717300649"""@en ;
+    cav:refersTo camssa:4e520857-3aaf-46f6-a4af-43e0d55b4328 .
+
+camssa:c350f69b-c4a2-4fdb-a632-eba79ff21d23 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c6210732-9556-4289-8bf4-5d6dbc3e1a2c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c7a692d5-48bb-475d-bc46-72c9a7bb049d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cc60b334-e1f8-48a1-8d61-deee35426c75 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are many free online tools that uses OWLAPI code to validate whether an ontology is conformant with the different OWL profiles. One working example:_x000D_
+_x000D_
+OWL Validator:_x000D_
+http://www.cosasbuenas.es/blog/owl-validator
+
+OWL 2 Validator: 
+http://visualdataweb.de/validator/"""@en ;
+    cav:refersTo camssa:dd399182-1e82-427e-b98c-24ab0a203dfc .
+
+camssa:d1b2112b-c56d-4c63-84bc-ba8d75cbc12b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d499e8d7-df9e-4dd9-b980-0b9528b33c60 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After exhaustive research, several cross-border projects or initiatives that use OWL have been found. 
+
+CELLAR is the repository of the Publications Office of the European Union. His main purpose is to disseminate the content and metadata created by the Publication Office. It drives the Publications Office’s major portals and its resources are semantically described by the CDM (Common Data Model), which is an OWL ontology. 
+
+Another implementation at European Level is the Application Profile of DCAT developed for the description of the data included in the European Data Portal contributing to the openness of European data._x000D_
+
+CELLAR publication:_x000D_
+https://op.europa.eu/en/publication-detail/-/publication/50ecce27-857e-11e8-ac6a-01aa75ed71a1/language-en/format-PDF/source-73059305_x000D_
+_x000D_
+CELLAR description:_x000D_
+https://data.europa.eu/euodp/data/dataset/sparql-cellar-of-the-publications-office_x000D_
+_x000D_
+DCAT-AP Specification: _x000D_
+https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/distribution/dcat-ap-121-pdf"""@en ;
+    cav:refersTo camssa:01c4e9be-c7e4-412b-9495-8f582d733059 .
+
+camssa:d5625674-8722-4f9e-8fe4-57a6951b9954 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5a7323988b5d96da801e2abd4d95248af758fe9adbbafd09dd76114629567ff4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:dd399182-1e82-427e-b98c-24ab0a203dfc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:dd9dd946-37f7-4231-af29-bb3d58e9f167 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "20"^^xsd:int .
+
+camssa:e0c44de5-8c5d-4348-80c2-ac62c253ff1c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:0ce8e0b2-6d48-495f-99d7-0f75d93c10a8 .
+
+camssa:e623afff-5be9-4c08-b2b5-df0c1b317954 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """3 Member States are recommending OWL2 in their ICT National Catalogues. This Member States are France, the Netherlands and Spain.
+
+National catalogue France:
+http://references.modernisation.gouv.fr/sites/default/files/Referentiel_General_Interoperabilite_V2.pdf
+
+National catalogue the Netherlands: 
+https://www.forumstandaardisatie.nl/open-standaarden
+
+National catalogue Spain:
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#CATALOGOESTANDARES"""@en ;
+    cav:refersTo camssa:b649cb69-a7ec-4250-943c-90be01b0be4c .
+
+camssa:e6dc4f4e-729b-4898-8565-6f82b855ed13 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:e9cfd992-0d86-43c6-8d8c-9eb860599f0d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "None"@en ;
+    cav:refersTo camssa:798f9113-cd68-4620-a18c-8e6cb27a6d5f .
+
+camssa:eb24b229-45c8-4a61-a721-2745397a51b3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ebc24df0-4771-412b-ba71-18c4e69ca901 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:ebd0512f-f2bb-4a8a-8082-43dd6b597d2f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:f21eb267-19cb-4726-b868-3f998acd89cd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2d03f19521389763921ce9c758a3697caa22bed98c2c11c3b10344b11c468bb ;
+    cav:value "100"^^xsd:int .
+
+camssa:f71bdc98-d0da-456d-8c7c-6f64fb9a9329 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f9fd83b5-7746-46b1-871e-5d7c972e4452 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OWL2 has a positive impact on system interoperability. While developing ontologies with OWL2 a syntax is needed in order to store ontologies and to exchange them among tools and applications. RDF/XML syntax provides positive interoperability among OWL2 tools because it can be written and read by all conformant OWL2 software.
+
+OWL2 W3C reference:
+https://www.w3.org/TR/owl2-overview/
+
+RDF 1.1 XML Syntax
+https://www.w3.org/TR/rdf-syntax-grammar/
+
+OWL2 has a positive impact on system interoperability. While developing ontologies with OWL2 a syntax is needed in order to store ontologies and to exchange them among tools and applications. RDF/XML syntax provides positive interoperability among OWL2 tools because it can be written and read by all conformant OWL2 software.
+
+OWL2 W3C reference:
+https://www.w3.org/TR/owl2-overview/
+
+RDF 1.1 XML Syntax
+https://www.w3.org/TR/rdf-syntax-grammar/"""@en ;
+    cav:refersTo camssa:47137875-9504-4b2f-a69c-3501883c5851 .
+
+camssa:fbdaad42-77ed-4862-8be9-556ff660c07a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:fc587c01-a58d-4575-a527-8585b2ae537f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OWL2 is included in 2 national catalogues of recommended specifications. They belong to the Netherlands and Spain.
+The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. 
+
+National catalogue the Netherlands: 
+https://www.forumstandaardisatie.nl/open-standaarden
+
+National catalogue Spain:
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#CATALOGOESTANDARES
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:04c9774b-d154-4505-a83a-f306b21e1190 .
+
+camssa:feffae6e-4c4f-4237-90b4-3332ed69b4ef a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b433a6dd6682476829a60de6a4fb771395c4baf637aa496ba6bca9bd6766d933 ;
+    cav:value "100+100"^^xsd:int .
+
